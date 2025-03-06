@@ -89,12 +89,12 @@ def get_dynamic_teams_and_venues():
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
-    # Set the binary location if needed:
-    options.binary_location = "/usr/bin/chromium-browser"
+    # Uncomment and adjust the following line if needed (check your logs for the correct binary location)
+    # options.binary_location = "/usr/bin/chromium-browser"
     
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get("https://mondaynightpinball.com/teams")
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(10)  # Increase wait time if needed
     
     rows = driver.find_elements(By.XPATH, "/html/body/div[2]/table/tbody/tr")
     venues = []
@@ -115,6 +115,7 @@ def get_dynamic_teams_and_venues():
     unique_venues = list(dict.fromkeys(venues))
     driver.quit()
     return unique_venues, team_names, team_abbr_dict
+
 
 
 
