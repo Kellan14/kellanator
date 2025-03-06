@@ -78,47 +78,63 @@ if st.button("Check for Updates from GitHub"):
 ##############################################
 @st.cache_data(show_spinner=True)
 def get_dynamic_teams_and_venues():
+    import os
+    
+    # Use streamlit-selenium package approach
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
     from selenium.webdriver.chrome.service import Service
     from webdriver_manager.chrome import ChromeDriverManager
-    options = webdriver.ChromeOptions()
+    from selenium.webdriver.common.by import By
+    
+    options = Options()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--disable-setuid-sandbox")
-    options.add_argument("--remote-debugging-port=9222")
-    options.add_argument("--disable-extensions")
-    options.add_argument("--single-process")
-    # Try the alternative binary location:
-    options.binary_location = "/usr/bin/chromium"
+    
+    # Don't specify binary location - let webdriver_manager find it
     
     try:
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        # Use a simpler configuration
+        driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()),
+            options=options
+        )
+        st.success("WebDriver initialized successfully")
     except Exception as e:
-        st.error("Error initializing Chrome WebDriver: " + str(e))
+        st.error(f"WebDriver initialization error: {e}")
         return [], [], {}
     
-    driver.get("https://mondaynightpinball.com/teams")
-    driver.implicitly_wait(10)
-    
-    rows = driver.find_elements(By.XPATH, "/html/body/div[2]/table/tbody/tr")
-    venues = []
-    team_names = []
-    team_abbr_dict = {}
-    for row in rows:
-        try:
-            venue_text = row.find_element(By.XPATH, "./td[1]").text.strip()
-            venues.append(venue_text)
-            team_link = row.find_element(By.XPATH, "./td[2]/a")
-            full_team_name = team_link.text.strip()
-            team_names.append(full_team_name)
-            href = team_link.get_attribute("href")
-            abbr = href.rstrip("/").split("/")[-1]
-            team_abbr_dict[full_team_name] = abbr
-        except Exception:
-            continue
-    unique_venues = list(dict.fromkeys(venues))
-    driver.quit()
+    try:
+        driver.get("https://mondaynightpinball.com/teams")
+        st.info("Website loaded")
+        driver.implicitly_wait(10)
+        
+        rows = driver.find_elements(By.XPATH, "/html/body/div[2]/table/tbody/tr")
+        venues = []
+        team_names = []
+        team_abbr_dict = {}
+        for row in rows:
+            try:
+                venue_text = row.find_element(By.XPATH, "./td[1]").text.strip()
+                venues.append(venue_text)
+                team_link = row.find_element(By.XPATH, "./td[2]/a")
+                full_team_name = team_link.text.strip()
+                team_names.append(full_team_name)
+                href = team_link.get_attribute("href")
+                abbr = href.rstrip("/").split("/")[-1]
+                team_abbr_dict[full_team_name] = abbr
+            except Exception as e:
+                st.warning(f"Row parsing error: {e}")
+                continue
+        
+        unique_venues = list(dict.fromkeys(venues))
+        return unique_venues, team_names, team_abbr_dict
+    except Exception as e:
+        st.error(f"Web scraping error: {e}")
+        return [], [], {}
+    finally:
+        driver.quit()
     return unique_venues, team_names, team_abbr_dict
 
 teams_status = st.empty()
