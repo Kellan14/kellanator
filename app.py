@@ -78,23 +78,27 @@ if st.button("Check for Updates from GitHub"):
 ##############################################
 @st.cache_data(show_spinner=True)
 def get_dynamic_teams_and_venues():
-    """
-    Scrapes the teams page to obtain:
-      - Unique venue names (first column)
-      - A list of full team names (link text from the second column)
-      - A dictionary mapping full team name -> abbreviation (from the link URL)
-    """
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
     options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
+    # Use the new headless mode if supported.
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
-    # Uncomment and adjust the following line if needed (check your logs for the correct binary location)
+    # Sometimes, setting the remote debugging port can help:
+    options.add_argument("--remote-debugging-port=9222")
+    # If necessary, specify the binary location; often Streamlit Cloud uses Chromium:
     # options.binary_location = "/usr/bin/chromium-browser"
     
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    try:
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    except Exception as e:
+        st.error("Error initializing Chrome WebDriver: " + str(e))
+        return [], [], {}
+
     driver.get("https://mondaynightpinball.com/teams")
-    driver.implicitly_wait(10)  # Increase wait time if needed
+    driver.implicitly_wait(10)  # Wait longer if needed
     
     rows = driver.find_elements(By.XPATH, "/html/body/div[2]/table/tbody/tr")
     venues = []
@@ -115,6 +119,7 @@ def get_dynamic_teams_and_venues():
     unique_venues = list(dict.fromkeys(venues))
     driver.quit()
     return unique_venues, team_names, team_abbr_dict
+
 
 
 
