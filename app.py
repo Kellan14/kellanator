@@ -86,6 +86,9 @@ def get_dynamic_teams_and_venues():
     """
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get("https://mondaynightpinball.com/teams")
     driver.implicitly_wait(5)
@@ -109,6 +112,7 @@ def get_dynamic_teams_and_venues():
     unique_venues = list(dict.fromkeys(venues))
     driver.quit()
     return unique_venues, team_names, team_abbr_dict
+
 
 teams_status = st.empty()
 teams_status.info("Loading dynamic teams and venues...")
