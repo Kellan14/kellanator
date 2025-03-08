@@ -905,6 +905,70 @@ def generate_debug_outputs(df, team_name, twc_team_name, venue_name):
     }
     return debug_outputs
 
+def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, roster_data):
+    """
+    Generate player statistics tables for the selected team and TWC at the selected venue.
+    
+    Parameters:
+    df (DataFrame): Processed data from process_all_rounds_and_games
+    team_name (str): Name of the selected team
+    venue_name (str): Name of the selected venue
+    seasons_to_process (list): List of seasons to include
+    roster_data (dict): Dictionary mapping team abbreviations to roster player lists
+    
+    Returns:
+    tuple: (team_table, twc_table) - DataFrames for the selected team and TWC
+    """
+    # Use the is_roster_player flag that's already in the data
+    # That flag should have been set correctly during processing
+    
+    # Function to process team data
+    def process_team_data(df, team_name, venue_name):
+        # Filter for this team and venue
+        team_data = df[(df['team'] == team_name) & (df['venue'] == venue_name)]
+        team_data = team_data[team_data['season'].isin(seasons_to_process)]
+        
+        # Get all machines played by this team at this venue
+        machines = team_data['machine'].unique()
+        
+        player_machine_stats = {}
+        for machine in machines:
+            machine_data = team_data[team_data['machine'] == machine]
+            
+            # Group players by roster status
+            roster_players = []
+            substitutes = []
+            
+            # Get unique players
+            for player in machine_data['player_name'].unique():
+                # Check if this player is flagged as a roster player
+                is_roster = machine_data[machine_data['player_name'] == player]['is_roster_player'].any()
+                if is_roster:
+                    roster_players.append(player)
+                else:
+                    substitutes.append(player)
+            
+            player_machine_stats[machine] = {
+                'Roster Players Count': len(roster_players),
+                'Roster Players': ', '.join(sorted(roster_players)),
+                'Number of Substitutes': len(substitutes),
+                'Substitutes': ', '.join(sorted(substitutes))
+            }
+        
+        # Convert to DataFrame and sort by roster player count in descending order
+        result_df = pd.DataFrame.from_dict(player_machine_stats, orient='index')
+        if not result_df.empty:
+            result_df = result_df.sort_values(by='Roster Players Count', ascending=False)
+        result_df.index.name = 'Machine'
+        result_df.reset_index(inplace=True)
+        
+        return result_df
+    
+    # Generate tables for both teams
+    team_table = process_team_data(df, team_name, venue_name)
+    twc_table = process_team_data(df, "The Wrecking Crew", venue_name)
+    
+    return team_table, twc_table
 
 def main(all_data, selected_team, selected_venue, team_roster, column_config):
     team_name = selected_team
@@ -920,7 +984,13 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
     debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
     result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
     result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
-    return result_df, debug_outputs
+    
+    # Generate player statistics tables
+    team_player_stats, twc_player_stats = generate_player_stats_tables(
+        all_data_df, team_name, selected_venue, seasons_to_process, team_roster
+    )
+    
+    return result_df, debug_outputs, team_player_stats, twc_player_stats
 
 
 
@@ -930,12 +1000,21 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
         all_data = load_all_json_files(repo_dir, seasons_to_process)
-        result_df, debug_outputs = main(all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"])
+        result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+            all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
+        )
         # Store results in session state so they persist.
         st.session_state["result_df"] = result_df
+        st.session_state["team_player_stats"] = team_player_stats
+        st.session_state["twc_player_stats"] = twc_player_stats
+        
+        # Create Excel file with multiple sheets
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
+            team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
+            twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
+            
         st.session_state["processed_excel"] = output.getvalue()
         st.session_state["debug_outputs"] = debug_outputs
         st.session_state["kellanate_output"] = True
@@ -949,13 +1028,15 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         if st.button("X", key="close_kellanate_output"):
             st.session_state.pop("kellanate_output", None)
             st.session_state.pop("result_df", None)
+            st.session_state.pop("team_player_stats", None)
+            st.session_state.pop("twc_player_stats", None)
             st.session_state.pop("processed_excel", None)
             st.session_state.pop("debug_outputs", None)
             st.rerun()
     # Reset index to hide it.
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid with flex sizing.
+    # Configure AgGrid with flex sizing for the main results.
     from st_aggrid import AgGrid, GridOptionsBuilder
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     # Set flex property to auto-size columns relative to available space.
@@ -965,7 +1046,15 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     gridOptions = gb.build()
     
     # Display the DataFrame with AgGrid.
+    st.markdown("### Machine Statistics")
     AgGrid(result_df_reset, gridOptions=gridOptions, height=400, fit_columns_on_grid_load=True)
+    
+    # Display the player statistics tables
+    st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
+    AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+    
+    st.markdown(f"### TWC Player Statistics at {selected_venue}")
+    AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
     # Download button for the Excel file.
     st.download_button(
