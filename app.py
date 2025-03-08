@@ -19,12 +19,6 @@ from st_aggrid import AgGrid, GridOptionsBuilder
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
     get_venue_machine_list, add_machine_to_venue, delete_machine_from_venue
 
-# For roster scraping, we'll use Selenium (if needed). Otherwise you can replace it with another method.
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-
 # Initialize database (if not already)
 init_db()
 
