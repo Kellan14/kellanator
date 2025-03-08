@@ -149,7 +149,7 @@ def update_repo(repo_path):
 
 repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
 # Update this path as needed
-repo_dir = r"C:\Streamlit Apps\mnp-data-archive"
+repo_dir = r"D:\Streamlit Apps\mnp-data-archive"
 ensure_repo(repository_url, repo_dir)
 
 st.title("The Kellanator 9000")
@@ -655,40 +655,70 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
     recent_machines = set(included_machines_for_venue or [])
     overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
     current_limits = get_score_limits()  # Use user-defined score limits from the database
+
     for match in all_data:
         match_venue = match['venue']['name']
         season = int(match['key'].split('-')[1])
         home_team = match['home']['name']
         away_team = match['away']['name']
+
+        # Determine the selected team's role based on the match.
+        if team_name == home_team:
+            selected_team_role = "home"
+        elif team_name == away_team:
+            selected_team_role = "away"
+        else:
+            # Fallback if team_name does not match either team (should not happen)
+            selected_team_role = "away"
+
+        # TWC's role is the opposite of the selected team.
+        twc_role = "home" if selected_team_role == "away" else "away"
+
+        # Define pick rounds based on role:
+        # Away picks in rounds 1 and 3; Home picks in rounds 2 and 4.
+        selected_team_pick_rounds = [1, 3] if selected_team_role == "away" else [2, 4]
+        twc_pick_rounds = [1, 3] if twc_role == "away" else [2, 4]
+
         for round_info in match['rounds']:
             round_number = round_info['n']
-            picking_team = away_team if round_number in [1, 3] else home_team
-            machines_played_this_round = set()
+            team_picks_this_round = set()
+            twc_picks_this_round = set()
             for game in round_info['games']:
                 machine = standardize_machine_name(game.get('machine', '').lower())
                 if not machine:
                     continue
+
                 if season == overall_latest_season and match_venue == venue_name:
                     if not excluded_machines_for_venue or machine not in excluded_machines_for_venue:
                         recent_machines.add(machine)
+
                 is_team_pick = False
-                if machine not in machines_played_this_round:
-                    if team_name == away_team and round_number in [1, 3]:
-                        is_team_pick = True
-                    elif team_name == home_team and round_number in [2, 4]:
-                        is_team_pick = True
-                machines_played_this_round.add(machine)
+                is_twc_pick = False
+
+                # Flag a pick for the selected team if the round is one of its pick rounds.
+                if machine not in team_picks_this_round and round_number in selected_team_pick_rounds:
+                    is_team_pick = True
+                    team_picks_this_round.add(machine)
+
+                # Independently, flag a pick for TWC if the round is one of its pick rounds.
+                if machine not in twc_picks_this_round and round_number in twc_pick_rounds:
+                    is_twc_pick = True
+                    twc_picks_this_round.add(machine)
+
+                # Ensure that both flags cannot be True simultaneously for the same game.
+                if is_team_pick and is_twc_pick:
+                    is_twc_pick = False
+
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
                     score = game.get(f'score_{pos}', 0)
                     if score == 0:
                         continue
-                    # Check if a user-defined score limit exists for this machine.
                     limit = current_limits.get(machine)
                     if limit is not None and score > limit:
                         continue
                     player_name = get_player_name(player_key, match)
-                    player_team = (home_team if any(player['key'] == player_key for player in match['home']['lineup']) else away_team)
+                    player_team = home_team if any(player['key'] == player_key for player in match['home']['lineup']) else away_team
                     processed_data.append({
                         'season': season,
                         'machine': machine,
@@ -699,11 +729,14 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'round': round_number,
                         'game_number': game['n'],
                         'venue': match_venue,
-                        'picked_by': picking_team,
+                        # This "picked_by" remains for reference – it reflects the team that was designated to pick for that round.
+                        'picked_by': away_team if round_number in [1, 3] else home_team,
                         'is_pick': is_team_pick,
+                        'is_pick_twc': is_twc_pick,
                         'is_roster_player': is_roster_player(player_name, player_team, team_roster)
                     })
     return pd.DataFrame(processed_data), recent_machines
+
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
@@ -720,24 +753,68 @@ def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     return filtered
 
 
-def calculate_stats(df, machine):
+def calculate_stats(df, machine, pick_flag='is_pick'):
+    """
+    Calculate statistics for a given machine from the provided DataFrame.
+    Only rows matching the machine are considered.
+    times_picked is computed based on the given pick_flag (either 'is_pick' or 'is_pick_twc').
+    """
     machine_data = df[df['machine'] == machine]
-    unique_rounds = machine_data.groupby(['match', 'round']).size().reset_index(name='count')
-    times_played = len(unique_rounds)
-    unique_picks = machine_data[machine_data['is_pick']].groupby(['match', 'round']).size().reset_index(name='count')
-    times_picked = len(unique_picks)
+    
+    if len(machine_data) == 0:
+        return {
+            'average': np.nan,
+            'highest': 0,
+            'times_played': 0,
+            'times_picked': 0
+        }
+    
+    # For times_played, we need to count unique matches+rounds
+    # Group by match and round to get unique games
+    unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+    times_played = len(unique_games)
+    
+    # For times_picked, we need games where the pick flag is True
+    # First get unique games, then filter those where pick flag is True
+    times_picked = len(unique_games[unique_games[pick_flag] == True])
+    
+    # Calculate score statistics
     scores = machine_data['score'].tolist()
+    average = np.mean(scores) if scores else np.nan
+    highest = max(scores) if scores else 0
+    
     return {
-        'average': np.mean(scores) if scores else np.nan,
-        'highest': max(scores) if scores else 0,
+        'average': average,
+        'highest': highest,
+        'times_played': times_played,
+        'times_picked': times_picked
+    }
+    
+    # For times_played, we need to count unique matches+rounds
+    # Group by match and round to get unique games
+    unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+    times_played = len(unique_games)
+    
+    # For times_picked, we need games where the pick flag is True
+    # First get unique games, then filter those where pick flag is True
+    times_picked = len(unique_games[unique_games[pick_flag] == True])
+    
+    # Calculate score statistics
+    scores = machine_data['score'].tolist()
+    average = np.mean(scores) if scores else np.nan
+    highest = max(scores) if scores else 0
+    
+    return {
+        'average': average,
+        'highest': highest,
         'times_played': times_played,
         'times_picked': times_picked
     }
 
-def backfill_stat(df, machine, team, seasons, venue_specific, stat_type):
+def backfill_stat(df, machine, team, seasons, venue_specific, stat_type, pick_flag='is_pick'):
     for season in range(seasons[0]-1, 0, -1):
         backfill_df = filter_data(df, team, (season, season), venue if venue_specific else None)
-        stats = calculate_stats(backfill_df, machine)
+        stats = calculate_stats(backfill_df, machine, pick_flag)
         if stat_type in stats and stats[stat_type] > 0:
             return stats[stat_type], season
     return np.nan, None
@@ -754,24 +831,35 @@ def format_value(value, backfilled_season=None):
     return formatted
 
 def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name, column_config):
+    """
+    Build the final result DataFrame.
+    For columns starting with 'Team', filter the DataFrame by the selected team and use the is_pick flag.
+    For columns starting with 'TWC', filter by TWC team and use the is_pick_twc flag.
+    If a column is not venue specific, then the venue filter is omitted.
+    """
     data = []
     for machine in sorted(recent_machines):
         row = {'Machine': machine.title()}
         for column, config in column_config.items():
             if not config.get('include', True):
                 continue
-            seasons = config['seasons']
-            venue_specific = config['venue_specific']
-            backfill = config['backfill']
+            seasons = config.get('seasons', (1, 9999))
+            venue_specific = config.get('venue_specific', False)
+            # When roster_only is True, filter_data will further restrict the rows.
             roster_only = True if column.startswith('Team') or column.startswith('TWC') else False
-            if column.startswith('Team') or column == 'Times Played' or column == 'Times Picked':
-                team = team_name
+
+            if column.startswith('Team'):
+                filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=roster_only)
+                pick_flag = 'is_pick'
             elif column.startswith('TWC'):
-                team = twc_team_name
+                filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=roster_only)
+                pick_flag = 'is_pick_twc'
             else:
-                team = None
-            filtered_df = filter_data(df, team, seasons, venue_name if venue_specific else None, roster_only=roster_only)
-            stats = calculate_stats(filtered_df, machine)
+                filtered_df = filter_data(df, None, seasons, venue_name if venue_specific else None, roster_only=roster_only)
+                pick_flag = 'is_pick'
+            
+            stats = calculate_stats(filtered_df, machine, pick_flag)
+            value = np.nan
             if column == 'Team Highest Score':
                 value = stats['highest']
             elif 'Average' in column:
@@ -780,22 +868,17 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
                 value = stats['times_played']
             elif 'Times Picked' in column:
                 value = stats['times_picked']
-            else:
-                value = np.nan
-            backfilled_season = None
-            if backfill and (np.isnan(value) or value == 0):
-                stat_type = 'average' if 'Average' in column else 'times_played' if 'Times Played' in column else 'times_picked'
-                value, backfilled_season = backfill_stat(df, machine, team, seasons, venue_specific, stat_type)
+            
+            # (Backfill logic could be added here if needed)
             if not np.isnan(value):
                 if 'Average' in column:
                     formatted = f"{value:,.2f}"
                 else:
                     formatted = f"{value:,}"
-                if backfilled_season is not None:
-                    formatted += f"*S{backfilled_season}"
                 row[column] = formatted
             else:
                 row[column] = "N/A"
+        # Calculate percentage columns (these assume the existence of "Team Average", "TWC Average", and "Venue Average")
         def safe_get(key):
             v = row.get(key, "N/A")
             try:
@@ -805,14 +888,8 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
         team_avg = safe_get("Team Average")
         twc_avg = safe_get("TWC Average")
         venue_avg = safe_get("Venue Average")
-        if not np.isnan(team_avg) and not np.isnan(venue_avg) and venue_avg != 0:
-            row["% of V. Avg."] = f"{(team_avg / venue_avg * 100):.2f}%"
-        else:
-            row["% of V. Avg."] = "N/A"
-        if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0:
-            row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%"
-        else:
-            row["TWC % V. Avg."] = "N/A"
+        row["% of V. Avg."] = f"{(team_avg / venue_avg * 100):.2f}%" if not np.isnan(team_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
+        row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%" if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
         data.append(row)
     return pd.DataFrame(data)
 
@@ -931,7 +1008,6 @@ if st.checkbox("Debug Info", key="debug_info_toggle"):
             st.write(f"**DEBUG: No team abbreviation found for {selected_team}.**")
     else:
         st.write("**DEBUG: Team roster data is not available.**")
-
 
 
 
