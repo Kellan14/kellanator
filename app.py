@@ -832,10 +832,10 @@ def generate_debug_outputs(df, team_name, twc_team_name, venue_name):
 def main(all_data, selected_team, selected_venue, team_roster, column_config):
     team_name = selected_team
     twc_team_name = "The Wrecking Crew"
-    key_inc = f'included_machines_{selected_venue}'
-    key_exc = f'excluded_machines_{selected_venue}'
-    included_list = st.session_state.get(key_inc, [])
-    excluded_list = st.session_state.get(key_exc, ['whitewater', 'mousin', 'spiderman'])
+    # Refresh the included and excluded machine lists from your persistent store.
+    included_list = get_venue_machine_list(selected_venue, "included")
+    excluded_list = get_venue_machine_list(selected_venue, "excluded")
+    
     all_data_df, recent_machines = process_all_rounds_and_games(
         all_data, team_name, selected_venue, twc_team_name, team_roster,
         included_list, excluded_list
@@ -844,6 +844,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
     result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
     result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
     return result_df, debug_outputs
+
 
 
 ##############################################
