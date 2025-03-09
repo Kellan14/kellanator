@@ -1185,7 +1185,7 @@ def on_cell_select(selected_rows, selected_columns):
         file_name="final_stats.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
-    else:
+        else:
     st.write("Press 'Kellanate' to Kellanate.")
 
 
