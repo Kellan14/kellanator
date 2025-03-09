@@ -1136,11 +1136,11 @@ df = pd.DataFrame({
 debug_placeholder = st.empty()
 
 def on_cell_clicked(event):
-    # Write the full event object for debugging
+    # Debug: indicate that a cell was clicked.
     debug_placeholder.write("DEBUG: Cell clicked event object:")
     debug_placeholder.write(event)
     
-    # Extract row data and column field
+    # Extract row data and column field.
     row = event.get('data', {})
     column = event.get('colDef', {}).get('field', None)
     
@@ -1154,7 +1154,7 @@ def on_cell_clicked(event):
     else:
         debug_placeholder.write("DEBUG: Event object missing 'data' or 'colDef'.")
 
-# Build grid options with additional parameters
+# Build grid options
 gb = GridOptionsBuilder.from_dataframe(df)
 gb.configure_default_column(flex=1, resizable=True)
 gb.configure_column("Machine", pinned='left', flex=1)
@@ -1168,11 +1168,12 @@ AgGrid(
     fit_columns_on_grid_load=True,
     on_cell_clicked=on_cell_clicked,
     allow_unsafe_jscode=True,
-    update_mode=GridUpdateMode.SELECTION_CHANGED,  # Use a supported update mode
-    enable_enterprise_modules=True          # Enable enterprise modules if needed
+    update_mode=GridUpdateMode.SELECTION_CHANGED,
+    enable_enterprise_modules=True,
+    rowSelection="single"  # Enable row selection to help trigger cell events
 )
 
-# Display selected cell info from session state, if available.
+# Display the selected cell's info from session state, if available.
 if "selected_machine" in st.session_state and "selected_column" in st.session_state:
     st.write("Selected Machine from session state:", st.session_state.selected_machine)
     st.write("Selected Column from session state:", st.session_state.selected_column)
