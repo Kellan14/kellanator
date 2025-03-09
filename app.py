@@ -1037,7 +1037,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         all_data_df, team_name, selected_venue, seasons_to_process, team_roster
     )
     
-    return result_df, debug_outputs, team_player_stats, twc_player_stats
+    return all_data_df, result_df, debug_outputs, team_player_stats, twc_player_stats
 
 
 
