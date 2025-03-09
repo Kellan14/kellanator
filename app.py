@@ -1080,92 +1080,80 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     # Reset index to hide it.
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Function to handle cell selection
-    def on_cell_select(selected_rows, selected_columns):
-        # Create a placeholder for debugging information
-        debug_placeholder = st.empty()
-        
-        try:
-            # Check if we have rows and columns selected
-            if not selected_rows or not selected_columns:
-                debug_placeholder.error("No rows or columns were selected.")
-                return
-
-            # Extract machine and column
-            machine = selected_rows[0]['Machine']
-            column = selected_columns[0]
-
-            # Determine team and TWC status
-            is_twc_column = column.startswith('TWC')
-            team_name = "The Wrecking Crew" if is_twc_column else selected_team
-
-            # Check venue-specific setting
-            column_config = st.session_state.get("column_config", {})
-            venue_specific = column_config.get(column, {}).get('venue_specific', False)
-
-            # Retrieve detailed scores
-            detailed_scores = get_detailed_scores(
-                st.session_state["all_data_df"], 
-                machine.lower(), 
-                team_name, 
-                selected_venue, 
-                seasons_to_process,
-                is_twc=is_twc_column,
-                venue_specific=venue_specific
-            )
-
-            # Check if we have any detailed scores
-            if detailed_scores.empty:
-                debug_placeholder.info(f"No detailed scores found for {machine} in {column}")
-                return
-
-            # Create an expander for the detailed scores
-            with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
-                # Configure AgGrid for detailed scores
-                gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
-                gb_details.configure_default_column(flex=1, resizable=True)
-                grid_options_details = gb_details.build()
-                
-                AgGrid(detailed_scores, 
-                       gridOptions=grid_options_details, 
-                       height=300, 
-                       fit_columns_on_grid_load=True)
-
-        except Exception as e:
-            # Catch and display any errors that occur
-            debug_placeholder.error(f"An error occurred: {e}")
-            # Optionally, you can also log the full traceback
-            import traceback
-            st.error(traceback.format_exc())
-    
-    # Configure AgGrid with cell selection enabled
-    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
-    gb.configure_default_column(flex=1, resizable=True)
-    gb.configure_column("Machine", pinned='left', flex=1)
-    gb.configure_selection(selection_mode='single', use_checkbox=False)
-    gridOptions = gb.build()
-    
     # Seasons string formatting
     seasons_str = f"{seasons_to_process[0]}-{seasons_to_process[-1]}" if len(seasons_to_process) > 1 else str(seasons_to_process[0])
     
-    # Display the DataFrame with AgGrid and custom selection handler
-    st.markdown(f"### Machine Statistics for {selected_team} @ {selected_venue} - Season(s) {seasons_str}")
-    selected = AgGrid(
-        result_df_reset, 
-        gridOptions=gridOptions, 
-        height=400, 
-        fit_columns_on_grid_load=True,
-        allow_unsafe_jscode=True,
-        update_mode=GridUpdateMode.SELECTION_CHANGED,
-        on_select_callback=on_cell_select
-    )
-
-    # Display player statistics tables
-    st.markdown(f"### {selected_team} Player Statistics at {selected_venue} - Season(s) {seasons_str}")
-    AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+    # Machine Statistics Section
+    with st.expander(f"Machine Statistics for {selected_team} @ {selected_venue} - Season(s) {seasons_str}", expanded=True):
+        # Configure grid options
+        gb = GridOptionsBuilder.from_dataframe(result_df_reset)
+        gb.configure_default_column(flex=1, resizable=True)
+        gb.configure_column("Machine", pinned='left', flex=1)
+        gb.configure_selection(selection_mode='single', use_checkbox=False)
+        gridOptions = gb.build()
+        
+        # Display the machine statistics
+        grid_return = AgGrid(
+            result_df_reset, 
+            gridOptions=gridOptions, 
+            height=400, 
+            fit_columns_on_grid_load=True,
+            allow_unsafe_jscode=True,
+            update_mode=GridUpdateMode.SELECTION_CHANGED
+        )
+        
+        # Custom function to handle cell selection
+        def custom_cell_selection(selected_rows, selected_columns):
+            if selected_rows and selected_columns:
+                # Extract machine and column
+                machine = selected_rows[0]['Machine']
+                column = selected_columns[0]
+                
+                # Determine team and TWC status
+                is_twc_column = column.startswith('TWC')
+                team_name = "The Wrecking Crew" if is_twc_column else selected_team
+                
+                # Check venue-specific setting
+                column_config = st.session_state.get("column_config", {})
+                venue_specific = column_config.get(column, {}).get('venue_specific', False)
+                
+                # Retrieve detailed scores
+                detailed_scores = get_detailed_scores(
+                    st.session_state["all_data_df"], 
+                    machine.lower(), 
+                    team_name, 
+                    selected_venue, 
+                    seasons_to_process,
+                    is_twc=is_twc_column,
+                    venue_specific=venue_specific
+                )
+                
+                return detailed_scores, machine, column
+            return None, None, None
+        
+        # Check if a cell was selected and retrieve detailed scores
+        selected_rows = grid_return['selected_rows']
+        detailed_scores, machine, column = custom_cell_selection(selected_rows, grid_return['selected_columns']) if selected_rows else (None, None, None)
     
-    st.markdown(f"### TWC Player Statistics at {selected_venue} - Season(s) {seasons_str}")
-    AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
+    # Detailed Scores Section
+    if detailed_scores is not None and not detailed_scores.empty:
+        with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
+            gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
+            gb_details.configure_default_column(flex=1, resizable=True)
+            grid_options_details = gb_details.build()
+            
+            AgGrid(detailed_scores, 
+                   gridOptions=grid_options_details, 
+                   height=300, 
+                   fit_columns_on_grid_load=True)
+    
+    # Team Player Statistics Section
+    with st.expander(f"{selected_team} Player Statistics at {selected_venue} - Season(s) {seasons_str}", expanded=True):
+        AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+    
+    # TWC Player Statistics Section
+    with st.expander(f"TWC Player Statistics at {selected_venue} - Season(s) {seasons_str}", expanded=True):
+        AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
     # Download button for the Excel file
     st.download_button(
