@@ -997,7 +997,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
 
-# Define a custom cell renderer that marks a cell on click and clears previous markers
+# Define a custom cell renderer that marks a cell on click
 BtnCellRenderer = JsCode(
     """
 class ClickCellRenderer {
@@ -1009,9 +1009,9 @@ class ClickCellRenderer {
     }
     
     onClick(event) {
-        // Just add [clicked] prefix to the value
-        // Streamlit will handle this in the returned data
-        this.params.setValue("[clicked]" + this.params.value);
+        // Mark this cell with a unique timestamp to ensure multiple clicks are detected
+        const timestamp = new Date().getTime();
+        this.params.setValue(`[clicked:${timestamp}]` + this.params.value);
     }
     
     getGui() {
@@ -1053,11 +1053,16 @@ if st.button("Kellanate", key="kellanate_btn"):
 
 # Display output if processing has completed
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
+    # Initialize a last clicked timestamp in session state if not already set
+    if "last_click_time" not in st.session_state:
+        st.session_state.last_click_time = 0
+    
     # Close button to clear session
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
-            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", "processed_excel", "debug_outputs"]:
+            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", 
+                       "processed_excel", "debug_outputs", "last_click_time"]:
                 st.session_state.pop(key, None)
             st.rerun()
 
@@ -1078,33 +1083,72 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         height=400, 
         fit_columns_on_grid_load=True,
         allow_unsafe_jscode=True,
-        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS
+        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+        key="main_grid"
     )
     
     # Clear previous debug output and parse the returned dataframe for the clicked cell
-    # Use st.empty() placeholder to clear previous debug messages
     debug_placeholder = st.empty()
     debug_placeholder.empty()
     df_out = response["data"]
     clicked_cells = []
     
-    # Find cells with [clicked] prefix
+    # Find cells with [clicked:timestamp] prefix - timestamp helps identify the most recent click
+    most_recent_click = {"timestamp": 0, "col": "", "idx": 0, "machine": ""}
+    
     for idx, row in df_out.iterrows():
         for col in df_out.columns:
             val = row[col]
-            if isinstance(val, str) and val.startswith("[clicked]"):
-                # Record which cell was clicked
-                machine_name = row["Machine"]
-                clicked_cells.append((col, idx, machine_name))
+            if isinstance(val, str) and "[clicked:" in val:
+                # Extract timestamp from the clicked cell format: [clicked:timestamp]value
+                try:
+                    # Parse the timestamp from the marker
+                    timestamp_str = val.split("[clicked:")[1].split("]")[0]
+                    timestamp = int(timestamp_str)
+                    
+                    # Record the cell position and timestamp
+                    machine_name = row["Machine"]
+                    clicked_cells.append({
+                        "col": col, 
+                        "idx": idx, 
+                        "machine": machine_name,
+                        "timestamp": timestamp
+                    })
+                    
+                    # Update most recent click if this is newer
+                    if timestamp > most_recent_click["timestamp"]:
+                        most_recent_click = {
+                            "timestamp": timestamp,
+                            "col": col,
+                            "idx": idx,
+                            "machine": machine_name
+                        }
+                except Exception as e:
+                    # If parsing fails, just record without timestamp
+                    machine_name = row["Machine"]
+                    clicked_cells.append({
+                        "col": col, 
+                        "idx": idx, 
+                        "machine": machine_name,
+                        "timestamp": 0
+                    })
     
-    # Overwrite debug output with current clicked cell info
+    # Only trigger a detailed view update if we have a new click
+    new_click_detected = False
+    if most_recent_click["timestamp"] > st.session_state.last_click_time:
+        st.session_state.last_click_time = most_recent_click["timestamp"]
+        new_click_detected = True
+    
+    # Debug info
     if clicked_cells:
-        debug_placeholder.write("Selected cell:")
+        debug_placeholder.write("Detected clicked cells:")
         debug_placeholder.write(clicked_cells)
+        debug_placeholder.write(f"Most recent click: {most_recent_click}")
     
-    # If a clicked cell is detected, use its position to filter the detailed data
-    if clicked_cells:
-        selected_col, selected_idx, machine = clicked_cells[0]
+    # If a new click is detected or we have a most recent click, show detailed data
+    if new_click_detected or most_recent_click["timestamp"] > 0:
+        selected_col = most_recent_click["col"]
+        machine = most_recent_click["machine"]
         
         st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
         
@@ -1127,7 +1171,12 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             detailed_df = detailed_df.sort_values(by="score", ascending=False)
             
             st.markdown("### Detailed Scores for Selected Cell")
-            AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
+            AgGrid(
+                detailed_df, 
+                height=300, 
+                fit_columns_on_grid_load=True,
+                key=f"detailed_grid_{most_recent_click['timestamp']}"  # Use timestamp in key for forced refresh
+            )
         else:
             st.write("No detailed data available.")
     
