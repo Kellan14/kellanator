@@ -891,7 +891,7 @@ def diagnose_machine_counts(df, machine, team_name, twc_team_name, venue_name, s
         'team_match_samples': team_matches[:5] if team_matches else [],
         'twc_match_samples': twc_matches[:5] if twc_matches else []
     }
-
+    
 def backfill_stat(df, machine, team, seasons, venue_specific, stat_type, pick_flag='is_pick'):
     for season in range(seasons[0]-1, 0, -1):
         backfill_df = filter_data(df, team, (season, season), venue if venue_specific else None)
@@ -1063,6 +1063,20 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         included_list, excluded_list
     )
     debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
+    
+    # Run diagnostics on a few machines (pick the first 2-3 from recent_machines)
+    machine_diagnostics = {}
+    for machine in list(recent_machines)[:3]:  # First 3 machines
+        machine_diagnostics[machine] = diagnose_machine_counts(
+            all_data_df, machine, team_name, twc_team_name, selected_venue, 
+            (min(seasons_to_process), max(seasons_to_process))
+        )
+    
+    # Store diagnostics in debug_outputs for display later
+    debug_outputs['machine_diagnostics'] = machine_diagnostics
+    
+    
+    # Now use the fixed calculate_stats function within calculate_averages
     result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
     result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
     
@@ -1335,6 +1349,42 @@ if st.checkbox("Show Debug Outputs", key="debug_toggle"):
     else:
         st.info("No debug outputs available. Please run 'Kellanate' first.")
 
+##############################################
+# Section x more times played debug
+##############################################
+
+# In the debug section where you display debugging info
+if st.checkbox("Show Machine Diagnostics", key="machine_diagnostics_toggle"):
+    if "debug_outputs" in st.session_state and "machine_diagnostics" in st.session_state["debug_outputs"]:
+        st.markdown("### Machine Diagnostics")
+        machine_diagnostics = st.session_state["debug_outputs"]["machine_diagnostics"]
+        for machine, diagnostics in machine_diagnostics.items():
+            st.markdown(f"#### Diagnostics for {machine}")
+            st.write("Raw game count:", diagnostics["raw_game_count"])
+            
+            st.markdown(f"**{diagnostics['team_name']} Stats:**")
+            st.write("- Filtered rows:", diagnostics["team_filtered_rows"])
+            st.write("- Unique games:", diagnostics["team_unique_games"])
+            st.write("- Unique picks:", diagnostics["team_unique_picks"])
+            st.write("- Raw is_pick flags:", diagnostics["team_raw_is_pick_flags"])
+            
+            st.markdown(f"**{diagnostics['twc_name']} Stats:**")
+            st.write("- Filtered rows:", diagnostics["twc_filtered_rows"])
+            st.write("- Unique games:", diagnostics["twc_unique_games"])
+            st.write("- Unique picks:", diagnostics["twc_unique_picks"])
+            st.write("- Raw is_pick_twc flags:", diagnostics["twc_raw_is_pick_flags"])
+            
+            st.write("Common match-rounds:", diagnostics["common_match_rounds"])
+            
+            st.markdown("Team match samples:")
+            st.write(diagnostics["team_match_samples"])
+            
+            st.markdown("TWC match samples:")
+            st.write(diagnostics["twc_match_samples"])
+            
+            st.markdown("---")
+    else:
+        st.info("No machine diagnostics available. Please run 'Kellanate' first.")
 
 ##############################################
 # Debug Info Toggle for Roster, Team Names, Venues, and Abbreviations
