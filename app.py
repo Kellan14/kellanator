@@ -997,63 +997,28 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output & Detailed Scores
 ##############################################
-from st_aggrid import AgGrid, GridOptionsBuilder, ColumnsAutoSizeMode, JsCode
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
 
-# Custom cell renderer to track cell clicks
-BtnCellRenderer = JsCode(
-    """
-class ClickCellRenderer {
+# Custom cell renderer for clickable cells
+cell_renderer = JsCode("""
+class ClickableCellRenderer {
     init(params) {
         this.params = params;
-        
-        // Create a container displaying the cell value
         this.eGui = document.createElement('div');
-        
-        // Store the original value as a data attribute
-        this.eGui.setAttribute('data-original-value', this.params.value);
-        
-        // Create the main content span
-        this.contentSpan = document.createElement('span');
-        this.contentSpan.textContent = this.params.value;
-        
-        // Create a marker span
-        this.markerSpan = document.createElement('span');
-        this.markerSpan.className = 'marker';
-        this.markerSpan.style.display = 'none';
-        
-        // Combine content and marker
-        this.eGui.appendChild(this.contentSpan);
-        this.eGui.appendChild(this.markerSpan);
-        
-        // Attach a click listener
+        this.eGui.innerHTML = params.value;
         this.eGui.addEventListener('click', this.onClick.bind(this));
     }
     
     onClick(event) {
-        // Remove markers from all cells
-        const allMarkers = document.querySelectorAll('.marker');
-        allMarkers.forEach(marker => {
-            marker.style.display = 'none';
-            marker.textContent = '';
-            const parentDiv = marker.closest('div');
-            parentDiv.querySelector('span:first-child').textContent = 
-                parentDiv.getAttribute('data-original-value');
-        });
-        
-        // Mark this specific cell
-        this.markerSpan.style.display = 'inline';
-        this.markerSpan.textContent = '[clicked]';
-        this.contentSpan.textContent = '[clicked] ' + this.params.value;
-        
-        // Trigger a custom event for the cell click
-        const customEvent = new CustomEvent('cellClickedCustom', {
+        // Dispatch a custom event with cell details
+        const cellClickEvent = new CustomEvent('cellClicked', {
             detail: {
-                data: this.params.data,
+                rowData: this.params.data,
                 colDef: this.params.colDef,
                 value: this.params.value
             }
         });
-        window.dispatchEvent(customEvent);
+        window.dispatchEvent(cellClickEvent);
     }
     
     getGui() {
@@ -1061,19 +1026,21 @@ class ClickCellRenderer {
     }
     
     refresh(params) {
+        this.params = params;
+        this.eGui.innerHTML = params.value;
         return true;
     }
-    
-    destroy() {
-        this.eGui.removeEventListener('click', this.onClick);
-    }
-};
-"""
-)
+}
+""")
 
 # Process data when "Kellanate" is pressed
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
+        # Clear any previous cell selection
+        if 'selected_cell' in st.session_state:
+            del st.session_state.selected_cell
+        
+        # Process data
         all_data = load_all_json_files(repo_dir, seasons_to_process)
         result_df, debug_outputs, team_player_stats, twc_player_stats = main(
             all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
@@ -1083,8 +1050,9 @@ if st.button("Kellanate", key="kellanate_btn"):
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
-        
-        # Create Excel file
+        st.session_state["all_data_df"] = debug_outputs.get('all_data')
+
+        # Create Excel file for download
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
@@ -1099,73 +1067,60 @@ if st.button("Kellanate", key="kellanate_btn"):
 
 # Display output if processing has completed
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
+    # Prepare the result DataFrame
+    result_df_reset = st.session_state["result_df"].reset_index(drop=True)
+    
+    # Seasons string formatting
+    seasons_str = f"{seasons_to_process[0]}-{seasons_to_process[-1]}" if len(seasons_to_process) > 1 else str(seasons_to_process[0])
+    
+    # Configure AgGrid with custom cell renderer
+    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
+    gb.configure_default_column(
+        flex=1, 
+        resizable=True, 
+        cellRenderer=cell_renderer
+    )
+    gb.configure_column("Machine", pinned='left', flex=1)
+    grid_options = gb.build()
+    
     # Close button to clear session
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
-            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", "processed_excel", "debug_outputs"]:
+            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", "processed_excel", "debug_outputs", "selected_cell"]:
                 st.session_state.pop(key, None)
             st.rerun()
-
-    # Prepare the result DataFrame
-    result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid with custom renderer
-    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
-    gb.configure_default_column(flex=1, resizable=True)
-    gb.configure_column("Machine", pinned='left', flex=1)
+    # Display Machine Statistics
+    st.markdown(f"### Machine Statistics for {selected_team} @ {selected_venue} - Season(s) {seasons_str}")
     
-    # Apply custom cell renderer to all columns
-    for col in result_df_reset.columns:
-        gb.configure_column(col, cellRenderer=BtnCellRenderer)
-    
-    grid_options = gb.build()
-    
-    # Display the main statistics table
-    st.markdown("### Machine Statistics")
-    response = AgGrid(
+    # Render AgGrid with custom cell click handling
+    grid_return = AgGrid(
         result_df_reset, 
         gridOptions=grid_options, 
         height=400, 
         fit_columns_on_grid_load=True,
         allow_unsafe_jscode=True,
-        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS)
-    
-    # Create a placeholder for detailed scores
-    detailed_scores_placeholder = st.empty()
-    
-    # Custom JavaScript to handle cell clicks
-    js_event_handler = """
-    function(params) {
-        // Listen for custom cell click event
-        window.addEventListener('cellClickedCustom', function(e) {
-            // Send the event details back to Streamlit
-            window.ReactDOM.render(
-                window.React.createElement('div', {
-                    'data-cell-clicked': JSON.stringify(e.detail)
-                }),
-                document.getElementById('cell-click-data')
-            );
-        });
-        return true;
-    }
-    """
-    
-    # Display the main statistics table
-    response = AgGrid(
-        result_df_reset, 
-        gridOptions=grid_options, 
-        height=400, 
-        fit_columns_on_grid_load=True,
-        allow_unsafe_jscode=True,
-        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-        js_event_handler=js_event_handler
+        js_event_handler="""
+        function(params) {
+            window.addEventListener('cellClicked', function(e) {
+                // Send the event details back to Streamlit
+                window.ReactDOM.render(
+                    window.React.createElement('div', {
+                        'data-cell-clicked': JSON.stringify(e.detail)
+                    }),
+                    document.getElementById('cell-click-data')
+                );
+            });
+            return true;
+        }
+        """
     )
     
-    # Create a div to capture the cell click data
+    # Create a div to capture cell click data
     st.markdown('<div id="cell-click-data"></div>', unsafe_allow_html=True)
     
-    # Check for cell click data
+    # JavaScript to retrieve cell click data
     cell_click_script = """
     var cellClickDiv = document.getElementById('cell-click-data');
     var cellClickData = cellClickDiv.getAttribute('data-cell-clicked');
@@ -1173,17 +1128,17 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     """
     cell_click_data = st.components.v1.html(f'<script>{cell_click_script}</script>', height=0, width=0)
     
-    # Process the clicked cell data
+    # Process cell click data
     if cell_click_data and isinstance(cell_click_data, str):
         try:
             clicked_data = json.loads(cell_click_data)
             
             # Extract machine and column
-            machine = clicked_data['data']['Machine']
+            machine = clicked_data['rowData']['Machine']
             column = clicked_data['colDef']['field']
             
             # Retrieve full processed data
-            all_data_df = st.session_state["debug_outputs"].get("all_data")
+            all_data_df = st.session_state.get("all_data_df")
             
             if all_data_df is not None and not all_data_df.empty:
                 # Filter for the selected machine
@@ -1204,12 +1159,19 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                     detailed_df["Score"] = detailed_df["Score"].apply(lambda x: f"{x:,.0f}" if pd.notnull(x) else x)
                 
                 # Display detailed scores
-                with detailed_scores_placeholder:
-                    st.markdown(f"### Detailed Scores for {machine} ({column})")
-                    AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
+                st.markdown(f"### Detailed Scores for {machine} ({column})")
+                AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
         
         except Exception as e:
             st.error(f"Error processing cell click: {e}")
+    
+    # Player statistics toggle
+    if st.checkbox("Show Player Stats", key="player_stats_toggle"):
+        st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
+        AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+        
+        st.markdown(f"### TWC Player Statistics at {selected_venue}")
+        AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
     # Download button for Excel file
     st.download_button(
@@ -1221,7 +1183,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
 
 else:
     st.write("Press 'Kellanate' to Kellanate.")
-
 ##############################################
 # Section 12.5: Optional Debug Outputs Toggle
 ##############################################
