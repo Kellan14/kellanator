@@ -1119,15 +1119,12 @@ if st.checkbox("Debug Info", key="debug_info_toggle"):
             st.write(f"**DEBUG: No team abbreviation found for {selected_team}.**")
     else:
         st.write("**DEBUG: Team roster data is not available.**")
-##############################################
-# Section X: Debug AgGrid Cell Click Events
-##############################################
 import streamlit as st
 import pandas as pd
 from st_aggrid import AgGrid, GridOptionsBuilder
 
-# Create a sample dataframe for debugging purposes
-df_debug = pd.DataFrame({
+# Create a sample dataframe
+df = pd.DataFrame({
     "Machine": ["Pulp Fiction", "Black Knight Sor", "Other Machine"],
     "Team Average": [123.45, 67.89, 101.112],
     "TWC Average": [110.0, 50.0, 90.0]
@@ -1136,39 +1133,44 @@ df_debug = pd.DataFrame({
 # Create a placeholder for debug output
 debug_placeholder = st.empty()
 
-# Callback function for cell clicks with debug output
 def on_cell_clicked(event):
-    # Write the event details to our debug placeholder
-    debug_placeholder.write("Cell clicked event details:")
+    # Output the entire event object for debugging purposes
+    debug_placeholder.write("DEBUG: Cell Clicked Event Object:")
     debug_placeholder.write(event)
     
-    # Extract row data and column field
+    # Attempt to extract the row data and column field
     row = event.get('data', {})
     column = event.get('colDef', {}).get('field', None)
     
     if row and column:
-        machine = row.get('Machine')
+        # Extract the "Machine" value (make sure your dataframe contains this column)
+        machine = row.get('Machine', 'No Machine Found')
+        # Save these values in session state for later display
         st.session_state.selected_machine = machine
         st.session_state.selected_column = column
+        
+        debug_placeholder.write(f"DEBUG: Selected Machine: {machine}")
+        debug_placeholder.write(f"DEBUG: Selected Column: {column}")
+    else:
+        debug_placeholder.write("DEBUG: Event object does not contain expected 'data' or 'colDef' keys.")
 
 # Build grid options with AgGrid
-gb_debug = GridOptionsBuilder.from_dataframe(df_debug)
-gb_debug.configure_default_column(flex=1, resizable=True)
-gb_debug.configure_column("Machine", pinned='left', flex=1)
-grid_options_debug = gb_debug.build()
+gb = GridOptionsBuilder.from_dataframe(df)
+gb.configure_default_column(flex=1, resizable=True)
+gb.configure_column("Machine", pinned='left', flex=1)
+grid_options = gb.build()
 
-st.markdown("### Debug AgGrid with Cell Click Callback")
+st.markdown("### Debug AG Grid")
 AgGrid(
-    df_debug,
-    gridOptions=grid_options_debug,
+    df,
+    gridOptions=grid_options,
     height=300,
     fit_columns_on_grid_load=True,
-    on_cell_clicked=on_cell_clicked
+    on_cell_clicked=on_cell_clicked  # Attach the callback
 )
 
-# Display the selected cell's machine and column if they exist in session state
+# Display the selected cell info from session state (if available)
 if "selected_machine" in st.session_state and "selected_column" in st.session_state:
-    st.write("Selected Machine:", st.session_state.selected_machine)
-    st.write("Selected Column:", st.session_state.selected_column)
-
+    st.write("Selected Machine from Session State:", st.session_state.selected_machine)
+    st.write("Selected Column from Session State:", st.session_state.selected_column)
 
