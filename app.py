@@ -1167,20 +1167,26 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     # Parse the returned dataframe for clicked cells (those with [SELECTED] prefix)
     df_out = response["data"]
     clicked_cells = []
-    for col in df_out.columns:
-        for idx in df_out.index:
-            val = df_out.at[idx, col]
+    selected_machine = None
+    selected_column = None
+    
+    # Find the cell that has been marked with [SELECTED]
+    for idx, row in df_out.iterrows():
+        for col in df_out.columns:
+            val = row[col]
             if isinstance(val, str) and val.startswith("[SELECTED]"):
-                # Extract the original value (remove the [SELECTED] prefix)
+                selected_machine = row["Machine"]  # Get machine name from the same row
+                selected_column = col
                 original_val = val.replace("[SELECTED]", "")
                 clicked_cells.append({
                     "column": col,
                     "row_index": idx,
                     "value": original_val,
-                    "machine": df_out.at[idx, "Machine"]
+                    "machine": selected_machine
                 })
+                break  # Once we find a selected cell, we can stop checking this row
     
-    # Display debug info about clicked cells
+    # Display debug info and update the detailed view
     if clicked_cells:
         debug_placeholder.write("Selected cell:")
         debug_placeholder.write(clicked_cells)
@@ -1195,24 +1201,42 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         # Retrieve full processed data
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         if all_data_df is not None and not all_data_df.empty:
-            # Filter for the selected machine
-            filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
+            # Convert machine name to lowercase for case-insensitive comparison
+            machine_lower = machine.lower() if isinstance(machine, str) else ""
+            
+            # Filter for the selected machine - use more robust filtering
+            filtered = all_data_df[all_data_df["machine"].str.lower() == machine_lower]
             
             # Filter further based on the clicked column
             if selected_col.startswith("Team"):
-                filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().str.lower()]
+                # Handle possible whitespace and case differences
+                team_lower = selected_team.strip().lower() if isinstance(selected_team, str) else ""
+                filtered = filtered[filtered["team"].str.strip().str.lower() == team_lower]
             elif selected_col.startswith("TWC"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
             
-            # Reorder columns and format scores with commas
-            detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
-            if "score" in detailed_df.columns:
-                detailed_df["score"] = detailed_df["score"].apply(lambda x: f"{x:,.0f}" if pd.notnull(x) else x)
+            # Log the filtering process for debugging
+            st.write(f"Filtered data contains {len(filtered)} rows")
             
-            st.markdown("### Detailed Scores for Selected Cell")
-            AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
+            if not filtered.empty:
+                # Reorder and prepare columns for display
+                detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
+                
+                # Format scores with commas
+                if "score" in detailed_df.columns:
+                    detailed_df["score"] = detailed_df["score"].apply(
+                        lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
+                    )
+                
+                # Sort by score descending
+                detailed_df = detailed_df.sort_values(by="score", ascending=False)
+                
+                st.markdown("### Detailed Scores for Selected Cell")
+                AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True, key=f"detailed_grid_{machine}_{selected_col}")
+            else:
+                st.write("No detailed data available for this selection.")
         else:
-            st.write("No detailed data available.")
+            st.write("No detailed data available in debug outputs.")
     else:
         debug_placeholder.write("No cell selected. Click on a cell to view detailed information.")
     
