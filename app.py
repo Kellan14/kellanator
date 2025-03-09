@@ -802,15 +802,6 @@ def calculate_stats(df, machine, pick_flag='is_pick'):
         'times_picked': times_picked
     }
     
-    # For times_played, we need to count unique matches+rounds
-    # Group by match and round to get unique games
-    unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
-    times_played = len(unique_games)
-    
-    # For times_picked, we need games where the pick flag is True
-    # First get unique games, then filter those where pick flag is True
-    times_picked = len(unique_games[unique_games[pick_flag] == True])
-    
     # Calculate score statistics
     scores = machine_data['score'].tolist()
     average = np.mean(scores) if scores else np.nan
