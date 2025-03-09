@@ -802,18 +802,6 @@ def calculate_stats(df, machine, pick_flag='is_pick'):
         'times_picked': times_picked
     }
     
-    # Calculate score statistics
-    scores = machine_data['score'].tolist()
-    average = np.mean(scores) if scores else np.nan
-    highest = max(scores) if scores else 0
-    
-    return {
-        'average': average,
-        'highest': highest,
-        'times_played': times_played,
-        'times_picked': times_picked
-    }
-
 def diagnose_machine_counts(df, machine, team_name, twc_team_name, venue_name, seasons=(20, 21)):
     """
     Diagnose the counting discrepancy between team and TWC machine stats
