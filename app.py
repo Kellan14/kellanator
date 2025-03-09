@@ -1001,65 +1001,72 @@ from st_aggrid import AgGrid, GridOptionsBuilder, ColumnsAutoSizeMode, JsCode
 import pandas as pd
 from io import BytesIO
 
-# Define a custom cell renderer (this adds a clickable icon to toggle a marker)
+# Define a custom cell renderer that does not display any extra icon.
+# When a cell is clicked, it sets its underlying value to include a hidden marker.
+# It also clears the marker from any previously clicked cell.
 BtnCellRenderer = JsCode(
     """
-class BtnCellRenderer {
+class ClickCellRenderer {
     init(params) {
         this.params = params;
+        // Save original value if not already saved
+        if (!this.params.originalValue) {
+            this.params.originalValue = this.params.value;
+        }
+        // Create a container that displays the cell value normally.
+        // We add a span for the marker, but style it to be hidden.
         this.eGui = document.createElement('div');
-        this.eGui.style.position = 'relative';
-        if (String(this.params.value).includes('[clicked]')) {
-            this.params.value = this.params.value.replace('[clicked]','');
-            this.params.originalValue = this.params.value;
-            this.makeButton('📍');
-        } else {
-            this.params.originalValue = this.params.value;
-            this.makeButton('🔍');
-        }
-    }
-    makeButton(symbol) {
-        this.destroy();
         this.eGui.innerHTML = `
-            <span id='click-button' style="position: absolute; left: 0; top: 50%; transform: translateY(-50%);">
-                ${symbol}
-            </span>
-            <span style="margin-left: 24px;">${this.params.value}</span>`;
-        this.eButton = this.eGui.querySelector('#click-button');
-        this.btnClickedHandler = this.btnClickedHandler.bind(this);
-        this.eButton.addEventListener('click', this.btnClickedHandler);
+            <span>${this.params.value}</span>
+            <span id="marker" style="display:none;"></span>
+        `;
+        // Add click listener on the entire cell.
+        this.eGui.addEventListener('click', this.onClick.bind(this));
     }
-    getGui() { return this.eGui; }
-    refresh() { return true; }
-    destroy() {
-        if (this.eButton) { this.eGui.removeEventListener('click', this.btnClickedHandler); }
-    }
-    refreshTable(value) { this.params.setValue(value); }
-    btnClickedHandler(event) {
-        if(String(this.params.getValue()).includes('[clicked]')) {
-            this.refreshTable(this.params.originalValue);
-            this.makeButton('🔍');
-        } else {
-            this.refreshTable('[clicked]'+this.params.originalValue);
-            this.makeButton('📍');
+    onClick(event) {
+        // Clear marker from the previously clicked cell, if any.
+        if (window.lastClickedCell && window.lastClickedCell !== this.eGui) {
+            let lastMarker = window.lastClickedCell.querySelector('#marker');
+            if (lastMarker) {
+                lastMarker.innerText = "";
+            }
         }
+        window.lastClickedCell = this.eGui;
+        // Set marker in this cell (invisible due to CSS, but will be part of the cell value)
+        let marker = this.eGui.querySelector('#marker');
+        marker.innerText = "[clicked]";
+        // Update the underlying value for this cell.
+        // Note: This change is not visible because the marker span is hidden.
+        this.params.setValue("[clicked]" + this.params.originalValue);
+    }
+    getGui() {
+        return this.eGui;
+    }
+    refresh(params) {
+        // No refresh logic; return true.
+        return true;
+    }
+    destroy() {
+        // Remove event listener if necessary.
+        this.eGui.removeEventListener('click', this.onClick);
     }
 };
 """
 )
 
-# Process data when Kellanate is pressed.
+# Process data when "Kellanate" is pressed.
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
         all_data = load_all_json_files(repo_dir, seasons_to_process)
         result_df, debug_outputs, team_player_stats, twc_player_stats = main(
             all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
         )
+        # Store processed results in session state.
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
 
-        # Create an Excel file for download.
+        # Create an Excel file with multiple sheets.
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
@@ -1070,9 +1077,9 @@ if st.button("Kellanate", key="kellanate_btn"):
         st.session_state["kellanate_output"] = True
     st.success("Data processed successfully!")
 
-# Display output if processing has completed.
+# Only display output if processing has completed.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
-    # Provide a close button.
+    # Display a close button row.
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
@@ -1082,11 +1089,14 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
 
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid. Here we apply the custom cell renderer to "Team Average" as an example.
+    # Build grid options and apply the custom renderer to every column.
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     gb.configure_default_column(flex=1, resizable=True)
+    # Pin the "Machine" column for clarity.
     gb.configure_column("Machine", pinned='left', flex=1)
-    gb.configure_column("Team Average", cellRenderer=BtnCellRenderer)  # Apply custom renderer here
+    # Apply our custom cell renderer to every column.
+    for col in result_df_reset.columns:
+        gb.configure_column(col, cellRenderer=BtnCellRenderer)
     grid_options = gb.build()
     
     st.markdown("### Machine Statistics")
@@ -1099,7 +1109,8 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS
     )
     
-    # Parse the returned dataframe for cells that have the "[clicked]" marker.
+    # Parse the returned dataframe for the clicked cell.
+    # Our hacky method now ensures only one cell is marked with "[clicked]".
     df_out = response["data"]
     clicked_cells = []
     for col in df_out.columns:
@@ -1108,30 +1119,29 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             if isinstance(val, str) and val.startswith("[clicked]"):
                 clicked_cells.append((col, idx))
     
-    st.subheader("Selected cells (from custom cell renderer)")
+    st.subheader("Selected cell (from custom cell renderer)")
     st.write(clicked_cells)
     
-    # If a cell has been marked as clicked, use its information to retrieve detailed scores.
+    # If a clicked cell was detected, use its row and column to filter the detailed data.
     if clicked_cells:
-        # For this example, use the first clicked cell.
         selected_col, selected_idx = clicked_cells[0]
-        # Get the machine from the clicked row.
+        # Retrieve the machine name from the clicked row.
         machine = result_df_reset.loc[selected_idx, "Machine"]
         st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
         
-        # Retrieve the complete processed data (debug_outputs['all_data'] should contain the full dataset)
+        # Retrieve the full processed data (assumed to be in debug_outputs['all_data']).
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         if all_data_df is not None and not all_data_df.empty:
-            # Filter based on machine.
+            # Filter for the selected machine.
             filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
             # Further filter based on the clicked column:
-            # For example, if the column starts with "Team", filter for selected_team;
+            # If the column starts with "Team", use selected_team;
             # if it starts with "TWC", filter for "The Wrecking Crew"; otherwise, no extra filtering.
             if selected_col.startswith("Team"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
             elif selected_col.startswith("TWC"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
-            # Select only the desired columns in the specified order.
+            # Select the desired columns in the specified order.
             detailed_df = filtered[["player_name", "score", "venue", "season"]]
             
             st.markdown("### Detailed Scores for Selected Cell")
