@@ -1157,7 +1157,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
-
 ##############################################
 # Section 12.5: Optional Debug Outputs Toggle
 ##############################################
