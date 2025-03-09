@@ -759,7 +759,11 @@ def calculate_stats(df, machine, pick_flag='is_pick'):
     Only rows matching the machine are considered.
     times_picked is computed based on the given pick_flag (either 'is_pick' or 'is_pick_twc').
     """
-    machine_data = df[df['machine'] == machine]
+    # Debug print to check data size
+    print(f"Total rows for machine '{machine}': {len(df[df['machine'] == machine])}")
+    
+    # Filter for the specific machine
+    machine_data = df[df['machine'] == machine].copy()
     
     if len(machine_data) == 0:
         return {
@@ -769,16 +773,21 @@ def calculate_stats(df, machine, pick_flag='is_pick'):
             'times_picked': 0
         }
     
-    # For times_played, we need to count unique matches+rounds
+    # For debugging, examine unique match+round combinations
+    unique_combos = machine_data[['match', 'round']].drop_duplicates()
+    print(f"Unique match+round combinations for '{machine}': {len(unique_combos)}")
+    
+    # Calculate times_played more carefully
+    # Each unique match+round combination counts as one play
     # Group by match and round to get unique games
-    unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+    machine_data['game_id'] = machine_data['match'] + '_R' + machine_data['round'].astype(str)
+    unique_games = machine_data[['game_id', pick_flag]].drop_duplicates()
     times_played = len(unique_games)
     
-    # For times_picked, we need games where the pick flag is True
-    # First get unique games, then filter those where pick flag is True
+    # For times_picked, we need unique games where the pick flag is True
     times_picked = len(unique_games[unique_games[pick_flag] == True])
     
-    # Calculate score statistics
+    # Calculate score statistics from all relevant scores
     scores = machine_data['score'].tolist()
     average = np.mean(scores) if scores else np.nan
     highest = max(scores) if scores else 0
