@@ -1069,24 +1069,13 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         st.write(f"Selected Machine: {st.session_state.selected_machine}")
         st.write(f"Selected Column: {st.session_state.selected_column}")
     
-    # NEW: Checkbox to show unique players (extracted from debug_outputs "all_data")
-    if st.checkbox("Show Unique Players", key="unique_players_toggle"):
-        if "debug_outputs" in st.session_state:
-            all_data_df = st.session_state["debug_outputs"].get("all_data")
-            if all_data_df is not None and not all_data_df.empty:
-                # Get unique players from the 'player_name' column.
-                unique_players = all_data_df["player_name"].unique()
-                unique_players_df = pd.DataFrame({"Player": unique_players})
-                st.dataframe(unique_players_df)
-            else:
-                st.write("No player data available.")
-    
-    # Display the player statistics tables.
-    st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
-    AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
-    
-    st.markdown(f"### TWC Player Statistics at {selected_venue}")
-    AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
+    # Checkbox to show/hide the player statistics grids.
+    if st.checkbox("Show Player Stats", key="player_stats_toggle"):
+        st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
+        AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+        
+        st.markdown(f"### TWC Player Statistics at {selected_venue}")
+        AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
     # Download button for the Excel file.
     st.download_button(
@@ -1097,6 +1086,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
+
 
 
 ##############################################
