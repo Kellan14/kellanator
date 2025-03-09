@@ -814,6 +814,84 @@ def calculate_stats(df, machine, pick_flag='is_pick'):
         'times_picked': times_picked
     }
 
+def diagnose_machine_counts(df, machine, team_name, twc_team_name, venue_name, seasons=(20, 21)):
+    """
+    Diagnose the counting discrepancy between team and TWC machine stats
+    """
+    # First filter the data for this machine
+    machine_df = df[df['machine'] == machine]
+    
+    # TEAM DATA ANALYSIS
+    # Filter for selected team and compute unique game count
+    team_df = machine_df[machine_df['team'] == team_name]
+    if venue_name:
+        team_df = team_df[team_df['venue'] == venue_name]
+    team_df = team_df[team_df['season'].between(seasons[0], seasons[1])]
+    
+    # Count unique match+round combinations (games) for team
+    team_games = team_df.groupby(['match', 'round']).first().reset_index()
+    team_game_count = len(team_games)
+    team_pick_count = len(team_games[team_games['is_pick'] == True])
+    
+    # Count raw flags in unfiltered data (should be higher due to multiple players)
+    team_raw_is_pick = team_df['is_pick'].sum()
+    
+    # Get a list of all unique match+round combinations for detailed review
+    team_matches = team_df[['match', 'round', 'is_pick']].drop_duplicates().sort_values(['match', 'round']).values.tolist()
+    
+    # TWC DATA ANALYSIS
+    # Filter for TWC and compute unique game count
+    twc_df = machine_df[machine_df['team'] == twc_team_name]
+    if venue_name:
+        twc_df = twc_df[twc_df['venue'] == venue_name]
+    twc_df = twc_df[twc_df['season'].between(seasons[0], seasons[1])]
+    
+    # Count unique match+round combinations (games) for TWC
+    twc_games = twc_df.groupby(['match', 'round']).first().reset_index()
+    twc_game_count = len(twc_games)
+    twc_pick_count = len(twc_games[twc_games['is_pick_twc'] == True])
+    
+    # Count raw flags in unfiltered data (should be higher due to multiple players)
+    twc_raw_is_pick = twc_df['is_pick_twc'].sum()
+    
+    # Get a list of all unique match+round combinations for detailed review
+    twc_matches = twc_df[['match', 'round', 'is_pick_twc']].drop_duplicates().sort_values(['match', 'round']).values.tolist()
+    
+    # Check the wider data set for same match-round combinations
+    all_matches_for_machine = machine_df[['match', 'round', 'team']].drop_duplicates().sort_values(['match', 'round'])
+    team_matches_set = set(tuple(x[:2]) for x in team_matches)
+    twc_matches_set = set(tuple(x[:2]) for x in twc_matches)
+    
+    # Look for cases where both teams played same match-round
+    common_matches = team_matches_set.intersection(twc_matches_set)
+    
+    # Look at the raw machine_df 
+    raw_game_count = len(machine_df[['match', 'round']].drop_duplicates())
+    
+    # Compare counts between the calculate_stats estimates and our direct counts here
+    return {
+        'machine': machine,
+        'raw_game_count': raw_game_count,  # Total unique games for this machine across all teams
+        
+        'team_name': team_name,
+        'team_filtered_rows': len(team_df),  # Total rows after filtering (includes player duplication)
+        'team_unique_games': team_game_count,  # Should match times_played
+        'team_unique_picks': team_pick_count,  # Should match times_picked
+        'team_raw_is_pick_flags': team_raw_is_pick,  # Raw flag count before deduplication
+        
+        'twc_name': twc_team_name,
+        'twc_filtered_rows': len(twc_df),
+        'twc_unique_games': twc_game_count,
+        'twc_unique_picks': twc_pick_count,
+        'twc_raw_is_pick_flags': twc_raw_is_pick,
+        
+        'common_match_rounds': len(common_matches),  # Games where both teams played
+        
+        # For manual review, include first few entries
+        'team_match_samples': team_matches[:5] if team_matches else [],
+        'twc_match_samples': twc_matches[:5] if twc_matches else []
+    }
+
 def backfill_stat(df, machine, team, seasons, venue_specific, stat_type, pick_flag='is_pick'):
     for season in range(seasons[0]-1, 0, -1):
         backfill_df = filter_data(df, team, (season, season), venue if venue_specific else None)
