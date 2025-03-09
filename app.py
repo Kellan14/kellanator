@@ -1075,59 +1075,38 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     
     # Function to handle cell selection
     def on_cell_select(selected_rows, selected_columns):
-    st.write("Cell selection triggered!")
-    st.write("Selected Rows:", selected_rows)
-    st.write("Selected Columns:", selected_columns)
-    
-    if selected_rows and selected_columns:
-        machine = selected_rows[0]['Machine']
-        column = selected_columns[0]
+        st.write("Cell selection triggered!")
+        st.write("Selected Rows:", selected_rows)
+        st.write("Selected Columns:", selected_columns)
         
-        st.write(f"Machine: {machine}")
-        st.write(f"Column: {column}")
-        
-        # Determine if it's a TWC column
-        is_twc_column = column.startswith('TWC')
-        
-        # Check venue-specific setting from the column configuration
-        venue_specific = st.session_state["column_config"].get(column, {}).get('venue_specific', False)
-        
-        st.write(f"Is TWC Column: {is_twc_column}")
-        st.write(f"Venue Specific: {venue_specific}")
-        
-        # Retrieve detailed scores
-        detailed_scores = get_detailed_scores(
-            st.session_state["all_data_df"], 
-            machine.lower(), 
-            "The Wrecking Crew" if is_twc_column else selected_team, 
-            selected_venue, 
-            seasons_to_process,
-            is_twc=is_twc_column,
-            venue_specific=venue_specific
-        )
-        
-        st.write(f"Detailed Scores Shape: {detailed_scores.shape}")
-        
-        # Display detailed scores if any exist
-        if not detailed_scores.empty:
-            # Determine column label for display
-            column_label = f"{machine} ({column})"
-            if venue_specific:
-                column_label += f" @ {selected_venue}"
+        if selected_rows and selected_columns:
+            machine = selected_rows[0]['Machine']
+            column = selected_columns[0]
             
-            st.markdown(f"### Detailed Scores for {column_label}")
+            st.write(f"Machine: {machine}")
+            st.write(f"Column: {column}")
             
-            # Configure AgGrid with flex sizing for detailed scores
-            gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
-            gb_details.configure_default_column(flex=1, resizable=True)
-            grid_options_details = gb_details.build()
+            # Determine if it's a TWC column
+            is_twc_column = column.startswith('TWC')
             
-            AgGrid(detailed_scores, 
-                   gridOptions=grid_options_details, 
-                   height=300, 
-                   fit_columns_on_grid_load=True)
-        else:
-            st.info("No detailed scores found for this selection.")
+            # Check venue-specific setting from the column configuration
+            venue_specific = st.session_state["column_config"].get(column, {}).get('venue_specific', False)
+            
+            st.write(f"Is TWC Column: {is_twc_column}")
+            st.write(f"Venue Specific: {venue_specific}")
+            
+            # Retrieve detailed scores
+            detailed_scores = get_detailed_scores(
+                st.session_state["all_data_df"], 
+                machine.lower(), 
+                "The Wrecking Crew" if is_twc_column else selected_team, 
+                selected_venue, 
+                seasons_to_process,
+                is_twc=is_twc_column,
+                venue_specific=venue_specific
+            )
+            
+            st.write(f"Detailed Scores Shape: {detailed_scores.shape}")
             
             # Display detailed scores if any exist
             if not detailed_scores.empty:
