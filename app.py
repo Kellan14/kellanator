@@ -996,25 +996,22 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
-# Define the cell renderer that will add [SELECTED] to the value
-BtnCellRenderer = JsCode("""
+
+# Define a custom cell renderer that marks a cell on click and clears previous markers
+BtnCellRenderer = JsCode(
+    """
 class ClickCellRenderer {
     init(params) {
         this.params = params;
-        this.value = params.value;
-        
-        // Create container for the cell content
         this.eGui = document.createElement('div');
-        this.eGui.innerHTML = `<div style="cursor: pointer;">${this.value}</div>`;
-        
-        // Add click listener
+        this.eGui.innerHTML = `<div style="cursor: pointer;">${this.params.value}</div>`;
         this.eGui.addEventListener('click', this.onClick.bind(this));
     }
     
     onClick(event) {
-        // Mark this cell by prefixing the value with [SELECTED]
-        // This will appear in the response data that Streamlit receives
-        this.params.setValue("[SELECTED]" + this.value);
+        // Just add [clicked] prefix to the value
+        // Streamlit will handle this in the returned data
+        this.params.setValue("[clicked]" + this.params.value);
     }
     
     getGui() {
@@ -1029,15 +1026,10 @@ class ClickCellRenderer {
         this.eGui.removeEventListener('click', this.onClick);
     }
 }
-""")
+"""
+)
 
-# Initialize session state for tracking selections
-if "selected_machine" not in st.session_state:
-    st.session_state.selected_machine = None
-if "selected_column" not in st.session_state:
-    st.session_state.selected_column = None
-
-# Process data when "Kellanate" is pressed.
+# Process data when "Kellanate" is pressed
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
         all_data = load_all_json_files(repo_dir, seasons_to_process)
@@ -1048,7 +1040,7 @@ if st.button("Kellanate", key="kellanate_btn"):
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
 
-        # Create an Excel file for download.
+        # Create an Excel file for download
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
@@ -1065,14 +1057,13 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
-            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", 
-                        "processed_excel", "debug_outputs", "selected_machine", "selected_column"]:
+            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", "processed_excel", "debug_outputs"]:
                 st.session_state.pop(key, None)
             st.rerun()
 
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid with the cell renderer
+    # Configure AgGrid with the custom renderer applied to every column
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     gb.configure_default_column(flex=1, resizable=True)
     gb.configure_column("Machine", pinned='left', flex=1)
@@ -1081,99 +1072,73 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     grid_options = gb.build()
     
     st.markdown("### Machine Statistics")
-    
-    # Force rerender by using a different key each time
     response = AgGrid(
         result_df_reset, 
         gridOptions=grid_options, 
         height=400, 
         fit_columns_on_grid_load=True,
         allow_unsafe_jscode=True,
-        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-        key=f"main_grid_{time.time()}"  # Use time to ensure a unique key
+        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS
     )
     
-    # Create a debug placeholder
+    # Clear previous debug output and parse the returned dataframe for the clicked cell
+    # Use st.empty() placeholder to clear previous debug messages
     debug_placeholder = st.empty()
-    
-    # Check if any cell has been clicked
+    debug_placeholder.empty()
     df_out = response["data"]
-    found_selection = False
+    clicked_cells = []
     
-    # Look for [SELECTED] prefix in any cell
+    # Find cells with [clicked] prefix
     for idx, row in df_out.iterrows():
         for col in df_out.columns:
             val = row[col]
-            if isinstance(val, str) and val.startswith("[SELECTED]"):
-                # Store the selection in session state
-                st.session_state.selected_machine = row["Machine"]
-                st.session_state.selected_column = col
-                found_selection = True
-                # Remove [SELECTED] prefix from all cells to prevent accumulation
-                df_out.at[idx, col] = val.replace("[SELECTED]", "")
-                break
-        if found_selection:
-            break
+            if isinstance(val, str) and val.startswith("[clicked]"):
+                # Record which cell was clicked
+                machine_name = row["Machine"]
+                clicked_cells.append((col, idx, machine_name))
     
-    # Display the selection information for debugging
-    if st.session_state.selected_machine and st.session_state.selected_column:
-        debug_placeholder.write(f"Selected: Machine '{st.session_state.selected_machine}', Column '{st.session_state.selected_column}'")
-    else:
-        debug_placeholder.write("No cell selected yet. Click on a cell in the table above.")
+    # Overwrite debug output with current clicked cell info
+    if clicked_cells:
+        debug_placeholder.write("Selected cell:")
+        debug_placeholder.write(clicked_cells)
     
-    # Display detailed scores based on session state selections
-    if st.session_state.selected_machine and st.session_state.selected_column:
-        machine = st.session_state.selected_machine
-        selected_col = st.session_state.selected_column
+    # If a clicked cell is detected, use its position to filter the detailed data
+    if clicked_cells:
+        selected_col, selected_idx, machine = clicked_cells[0]
         
         st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
         
         # Retrieve full processed data
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         if all_data_df is not None and not all_data_df.empty:
-            # Filter for the selected machine (case-insensitive)
+            # Filter for the selected machine
             filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
             
-            # Filter further based on the selected column
+            # Filter further based on the clicked column
             if selected_col.startswith("Team"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
             elif selected_col.startswith("TWC"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
             
-            if not filtered.empty:
-                # Create a copy to avoid modifying the original
-                detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
-                
-                # Format scores with commas
-                detailed_df["score"] = detailed_df["score"].apply(
-                    lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
-                )
-                
-                # Sort by score descending
-                detailed_df = detailed_df.sort_values(by="score", ascending=False)
-                
-                # Use a random key to force re-render
-                random_key = f"detailed_grid_{time.time()}"
-                st.markdown("### Detailed Scores for Selected Cell")
-                AgGrid(
-                    detailed_df, 
-                    height=300, 
-                    fit_columns_on_grid_load=True,
-                    key=random_key
-                )
-            else:
-                st.write("No data available for this selection.")
+            # Sort and prepare data for display
+            detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
+            if "score" in detailed_df.columns:
+                detailed_df["score"] = detailed_df["score"].apply(lambda x: f"{x:,.0f}" if pd.notnull(x) else x)
+            detailed_df = detailed_df.sort_values(by="score", ascending=False)
+            
+            st.markdown("### Detailed Scores for Selected Cell")
+            AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
         else:
-            st.write("No detailed data available in debug outputs.")
+            st.write("No detailed data available.")
     
-    # Checkbox to toggle display of player statistics.
+    # Checkbox to toggle display of player statistics
     if st.checkbox("Show Player Stats", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
         AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
         st.markdown(f"### TWC Player Statistics at {selected_venue}")
         AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
-    # Download button for the Excel file.
+    # Download button for the Excel file
     st.download_button(
         label="Download Excel file",
         data=st.session_state["processed_excel"],
