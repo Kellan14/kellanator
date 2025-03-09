@@ -1001,41 +1001,37 @@ from st_aggrid import AgGrid, GridOptionsBuilder, ColumnsAutoSizeMode, JsCode
 import pandas as pd
 from io import BytesIO
 
-# Define a custom cell renderer that clears the marker from the previously clicked cell.
+# Define a custom cell renderer that marks a cell when clicked.
+# It clears any previous selection so only the last clicked cell gets marked.
 BtnCellRenderer = JsCode(
     """
 class ClickCellRenderer {
     init(params) {
         this.params = params;
-        // Save the original value if not already saved.
+        // Save the original value (if not already saved)
         if (!this.params.originalValue) {
             this.params.originalValue = this.params.value;
         }
-        // Create a container that displays the cell value normally,
-        // plus a span for the marker. The marker is hidden via CSS.
+        // Create a container that displays the cell value normally and includes a hidden marker span.
         this.eGui = document.createElement('div');
-        this.eGui.innerHTML = `<span>${this.params.value}</span>
-                               <span class="marker" style="display:none;"></span>`;
-        // Attach a click event listener to the entire cell.
+        this.eGui.innerHTML = `<span>${this.params.value}</span><span class="marker" style="display:none;"></span>`;
+        // Attach a click event listener on the cell.
         this.eGui.addEventListener('click', this.onClick.bind(this));
     }
+    // Clear marker from the previously clicked cell.
+    clearAllMarkers() {
+        const markers = document.querySelectorAll(".marker");
+        markers.forEach(marker => {
+            marker.innerText = "";
+        });
+    }
     onClick(event) {
-        // If a previous cell was clicked (stored in window.lastClickedCell) and it's not this cell,
-        // clear its marker.
-        if (window.lastClickedCell && window.lastClickedCell !== this.eGui) {
-            let lastMarker = window.lastClickedCell.querySelector(".marker");
-            if (lastMarker) {
-                lastMarker.innerText = "";
-                // Optionally, you might want to remove the marker from the underlying value.
-            }
-        }
-        // Update the global reference to this cell.
-        window.lastClickedCell = this.eGui;
-        // Set the marker in this cell.
+        // Clear markers from all cells.
+        this.clearAllMarkers();
+        // Mark this cell only.
         let marker = this.eGui.querySelector(".marker");
         marker.innerText = "[clicked]";
-        // Update the underlying cell value so that when AgGrid returns data,
-        // this cell's value starts with "[clicked]".
+        // Update the underlying cell value with the marker.
         this.params.setValue("[clicked]" + this.params.originalValue);
     }
     getGui() {
@@ -1074,7 +1070,7 @@ if st.button("Kellanate", key="kellanate_btn"):
         st.session_state["kellanate_output"] = True
     st.success("Data processed successfully!")
 
-# Only display output if processing has completed.
+# Display output if processing has completed.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
     # Provide a close button.
     col1, col2 = st.columns([0.9, 0.1])
@@ -1089,9 +1085,8 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     # Configure AgGrid: apply the custom cell renderer to every column.
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     gb.configure_default_column(flex=1, resizable=True)
-    # Pin the "Machine" column for clarity.
+    # Optionally pin the "Machine" column for clarity.
     gb.configure_column("Machine", pinned='left', flex=1)
-    # Apply the custom cell renderer to every column.
     for col in result_df_reset.columns:
         gb.configure_column(col, cellRenderer=BtnCellRenderer)
     grid_options = gb.build()
@@ -1118,24 +1113,26 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     st.subheader("Selected cell (from custom cell renderer)")
     st.write(clicked_cells)
     
-    # If a clicked cell was detected, use its row and column to filter detailed data.
+    # If a clicked cell was detected, use its row and column to filter the detailed data.
     if clicked_cells:
         selected_col, selected_idx = clicked_cells[0]
-        # Use iloc to ensure an integer index is used.
+        # Use iloc to get the machine from the row
         machine = result_df_reset.iloc[int(selected_idx)]["Machine"]
         st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
         
-        # Retrieve the complete processed data (assumed to be in debug_outputs['all_data']).
+        # Retrieve the full processed data (all entries that went into the calculations).
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         if all_data_df is not None and not all_data_df.empty:
             # Filter for the selected machine.
             filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
-            # Further filter based on the clicked column:
+            # Further filter based on the clicked column.
+            # For instance, if the column name starts with "Team", filter by selected_team;
+            # if it starts with "TWC", filter by "The Wrecking Crew".
             if selected_col.startswith("Team"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
             elif selected_col.startswith("TWC"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
-            # Order columns as: player_name, score, venue, season.
+            # Then, select the columns in the specified order.
             detailed_df = filtered[["player_name", "score", "venue", "season"]]
             
             st.markdown("### Detailed Scores for Selected Cell")
@@ -1159,7 +1156,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
-
 
 
 ##############################################
