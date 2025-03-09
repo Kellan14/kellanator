@@ -1168,12 +1168,11 @@ AgGrid(
     fit_columns_on_grid_load=True,
     on_cell_clicked=on_cell_clicked,
     allow_unsafe_jscode=True,
-    update_mode=GridUpdateMode.CELL_CLICKED,  # Try CELL_CLICKED if available
-    enable_enterprise_modules=True          # Enable enterprise modules
+    update_mode=GridUpdateMode.SELECTION_CHANGED,  # Use a supported update mode
+    enable_enterprise_modules=True          # Enable enterprise modules if needed
 )
 
 # Display selected cell info from session state, if available.
 if "selected_machine" in st.session_state and "selected_column" in st.session_state:
     st.write("Selected Machine from session state:", st.session_state.selected_machine)
     st.write("Selected Column from session state:", st.session_state.selected_column)
-
