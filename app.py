@@ -1136,7 +1136,7 @@ df = pd.DataFrame({
 debug_placeholder = st.empty()
 
 def on_cell_clicked(event):
-    # Immediately write out the full event object for debugging
+    # Write the full event object for debugging
     debug_placeholder.write("DEBUG: Cell clicked event object:")
     debug_placeholder.write(event)
     
@@ -1145,18 +1145,16 @@ def on_cell_clicked(event):
     column = event.get('colDef', {}).get('field', None)
     
     if row and column:
-        # Extract the "Machine" value; ensure your dataframe has this column
         machine = row.get('Machine', 'No Machine Found')
-        # Save the values in session state
         st.session_state.selected_machine = machine
         st.session_state.selected_column = column
         
         debug_placeholder.write(f"DEBUG: Selected Machine: {machine}")
         debug_placeholder.write(f"DEBUG: Selected Column: {column}")
     else:
-        debug_placeholder.write("DEBUG: Missing 'data' or 'colDef' in event.")
+        debug_placeholder.write("DEBUG: Event object missing 'data' or 'colDef'.")
 
-# Build grid options
+# Build grid options with additional parameters
 gb = GridOptionsBuilder.from_dataframe(df)
 gb.configure_default_column(flex=1, resizable=True)
 gb.configure_column("Machine", pinned='left', flex=1)
@@ -1168,12 +1166,13 @@ AgGrid(
     gridOptions=grid_options,
     height=300,
     fit_columns_on_grid_load=True,
-    on_cell_clicked=on_cell_clicked,            # Attach our callback
-    allow_unsafe_jscode=True,                      # Allow unsafe JS code if needed
-    update_mode=GridUpdateMode.SELECTION_CHANGED   # Use an update mode that may trigger clicks
+    on_cell_clicked=on_cell_clicked,
+    allow_unsafe_jscode=True,
+    update_mode=GridUpdateMode.CELL_CLICKED,  # Try CELL_CLICKED if available
+    enable_enterprise_modules=True          # Enable enterprise modules
 )
 
-# Display the selected cell's info from session state, if available.
+# Display selected cell info from session state, if available.
 if "selected_machine" in st.session_state and "selected_column" in st.session_state:
     st.write("Selected Machine from session state:", st.session_state.selected_machine)
     st.write("Selected Column from session state:", st.session_state.selected_column)
