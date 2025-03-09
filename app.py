@@ -970,6 +970,53 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
     
     return team_table, twc_table
 
+def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_process, is_twc=False, venue_specific=False):
+    """
+    Retrieve detailed scores for a specific machine and team.
+    
+    Parameters:
+    - all_data_df: DataFrame with all processed match data
+    - machine: Name of the machine to filter
+    - team_name: Name of the team to filter
+    - venue_name: Name of the venue to filter
+    - seasons_to_process: List of seasons to include
+    - is_twc: Boolean to determine if filtering for TWC or the main team
+    - venue_specific: Boolean to determine if venue should be filtered
+    
+    Returns:
+    DataFrame with detailed scores
+    """
+    # Filter the data based on parameters
+    filtered_df = all_data_df[
+        (all_data_df['machine'] == machine) & 
+        (all_data_df['team'] == team_name) & 
+        (all_data_df['season'].isin(seasons_to_process))
+    ]
+    
+    # Apply venue filter if venue_specific is True
+    if venue_specific:
+        filtered_df = filtered_df[filtered_df['venue'] == venue_name]
+    
+    # If TWC is selected, use the TWC-specific pick flag
+    if is_twc:
+        filtered_df = filtered_df[filtered_df['is_pick_twc'] == True]
+    else:
+        filtered_df = filtered_df[filtered_df['is_pick'] == True]
+    
+    # Select and rename columns in the specified order
+    detailed_scores = filtered_df[['player_name', 'score', 'venue', 'season']]
+    detailed_scores = detailed_scores.rename(columns={
+        'player_name': 'Player', 
+        'score': 'Score', 
+        'venue': 'Venue', 
+        'season': 'Season'
+    })
+    
+    # Sort by Player, Score
+    detailed_scores = detailed_scores.sort_values(['Player', 'Score'], ascending=[True, False])
+    
+    return detailed_scores
+
 def main(all_data, selected_team, selected_venue, team_roster, column_config):
     team_name = selected_team
     twc_team_name = "The Wrecking Crew"
@@ -1000,10 +1047,11 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
         all_data = load_all_json_files(repo_dir, seasons_to_process)
-        result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+        all_data_df, result_df, debug_outputs, team_player_stats, twc_player_stats = main(
             all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
         )
         # Store results in session state so they persist.
+        st.session_state["all_data_df"] = all_data_df
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
@@ -1022,6 +1070,74 @@ if st.button("Kellanate", key="kellanate_btn"):
 
 # Only display the output if results exist.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
+    # Reset index to hide it.
+    result_df_reset = st.session_state["result_df"].reset_index(drop=True)
+    
+    # Function to handle cell selection
+    def on_cell_select(selected_rows, selected_columns):
+        if selected_rows and selected_columns:
+            machine = selected_rows[0]['Machine']
+            column = selected_columns[0]
+            
+            # Determine if it's a TWC column
+            is_twc_column = column.startswith('TWC')
+            
+            # Check venue-specific setting from the column configuration
+            venue_specific = st.session_state["column_config"].get(column, {}).get('venue_specific', False)
+            
+            # Retrieve detailed scores
+            detailed_scores = get_detailed_scores(
+                st.session_state["all_data_df"], 
+                machine.lower(), 
+                "The Wrecking Crew" if is_twc_column else selected_team, 
+                selected_venue, 
+                seasons_to_process,
+                is_twc=is_twc_column,
+                venue_specific=venue_specific
+            )
+            
+            # Display detailed scores if any exist
+            if not detailed_scores.empty:
+                # Determine column label for display
+                column_label = f"{machine} ({column})"
+                if venue_specific:
+                    column_label += f" @ {selected_venue}"
+                
+                st.markdown(f"### Detailed Scores for {column_label}")
+                
+                # Configure AgGrid with flex sizing for detailed scores
+                gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
+                gb_details.configure_default_column(flex=1, resizable=True)
+                grid_options_details = gb_details.build()
+                
+                AgGrid(detailed_scores, 
+                       gridOptions=grid_options_details, 
+                       height=300, 
+                       fit_columns_on_grid_load=True)
+            else:
+                st.info("No detailed scores found for this selection.")
+    
+    # Configure AgGrid with cell selection enabled
+    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
+    # Set flex property to auto-size columns relative to available space
+    gb.configure_default_column(flex=1, resizable=True)
+    # Pin the "Machine" column to the left
+    gb.configure_column("Machine", pinned='left', flex=1)
+    # Enable row selection
+    gb.configure_selection(selection_mode='single', use_checkbox=False)
+    gridOptions = gb.build()
+    
+    # Display the DataFrame with AgGrid and custom selection handler
+    st.markdown("### Machine Statistics")
+    selected = AgGrid(
+        result_df_reset, 
+        gridOptions=gridOptions, 
+        height=400, 
+        fit_columns_on_grid_load=True,
+        allow_unsafe_jscode=True,
+        update_mode=GridUpdateMode.SELECTION_CHANGED,
+        on_select_callback=on_cell_select
+    )
     # Display a row with an "X" button to close the output.
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
