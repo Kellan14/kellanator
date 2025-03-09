@@ -1039,6 +1039,40 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
     
     return team_table, twc_table
 
+def main(all_data, selected_team, selected_venue, team_roster, column_config):
+    team_name = selected_team
+    twc_team_name = "The Wrecking Crew"
+    # Refresh the included and excluded machine lists from your persistent store.
+    included_list = get_venue_machine_list(selected_venue, "included")
+    excluded_list = get_venue_machine_list(selected_venue, "excluded")
+    
+    all_data_df, recent_machines = process_all_rounds_and_games(
+        all_data, team_name, selected_venue, twc_team_name, team_roster,
+        included_list, excluded_list
+    )
+    debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
+    
+    # Run diagnostics on a few machines (pick the first 2-3 from recent_machines)
+    machine_diagnostics = {}
+    for machine in list(recent_machines)[:3]:  # First 3 machines
+        machine_diagnostics[machine] = diagnose_machine_counts(
+            all_data_df, machine, team_name, twc_team_name, selected_venue, 
+            (min(seasons_to_process), max(seasons_to_process))
+        )
+    
+    # Store diagnostics in debug_outputs for display later
+    debug_outputs['machine_diagnostics'] = machine_diagnostics
+    
+    # Calculate averages using the fixed calculate_stats function
+    result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
+    result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
+    
+    # Generate player statistics tables
+    team_player_stats, twc_player_stats = generate_player_stats_tables(
+        all_data_df, team_name, selected_venue, seasons_to_process, team_roster
+    )
+    
+    return result_df, debug_outputs, team_player_stats, twc_player_stats
 
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
