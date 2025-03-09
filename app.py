@@ -1163,7 +1163,8 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
             elif selected_col.startswith("TWC"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
-            
+            elif selected_col.startswith("Venue") or "V. Avg" in selected_col:
+                filtered = filtered[filtered["venue"].str.strip().str.lower() == selected_venue.strip().lower()]
             # Sort and prepare data for display
             detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
             if "score" in detailed_df.columns:
