@@ -1198,17 +1198,17 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             st.write(f"Filtered data contains {len(filtered)} rows")
             
             if not filtered.empty:
-                # Reorder and prepare columns for display
+                # Create a copy with all the columns we want to display
                 detailed_df = filtered[["player_name", "score", "team", "venue", "season"]].copy()
                 
-                # Format scores with commas
+                # Sort by score descending BEFORE formatting with commas
+                detailed_df = detailed_df.sort_values(by="score", ascending=False)
+                
+                # Format scores with commas AFTER sorting
                 if "score" in detailed_df.columns:
                     detailed_df["score"] = detailed_df["score"].apply(
                         lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
                     )
-                
-                # Sort by score descending
-                detailed_df = detailed_df.sort_values(by="score", ascending=False)
                 
                 st.markdown("### Detailed Scores for Selected Cell")
                 AgGrid(
@@ -1219,8 +1219,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 )
             else:
                 st.write("No detailed data available for this selection after applying all filters.")
-        else:
-            st.write("No detailed data available in debug outputs.")
     
     # Checkbox to toggle display of player statistics
     if st.checkbox("Show Player Stats", key="player_stats_toggle"):
