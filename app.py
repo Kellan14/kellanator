@@ -1123,23 +1123,23 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             st.write(f"### Debug: Detailed Scores First Few Rows:\n{detailed_scores.head()}")
 
             # Display detailed scores if any exist
+            # In the on_cell_select function, replace the detailed scores display with:
             if not detailed_scores.empty:
                 # Determine column label for display
                 column_label = f"{machine} ({column})"
                 if venue_specific:
                     column_label += f" @ {selected_venue}"
                 
-                st.markdown(f"### Detailed Scores for {column_label}")
-                
-                # Configure AgGrid with flex sizing for detailed scores
-                gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
-                gb_details.configure_default_column(flex=1, resizable=True)
-                grid_options_details = gb_details.build()
-                
-                AgGrid(detailed_scores, 
-                       gridOptions=grid_options_details, 
-                       height=300, 
-                       fit_columns_on_grid_load=True)
+                with st.expander(f"Detailed Scores for {column_label}", expanded=True):
+                    # Configure AgGrid with flex sizing for detailed scores
+                    gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
+                    gb_details.configure_default_column(flex=1, resizable=True)
+                    grid_options_details = gb_details.build()
+                    
+                    AgGrid(detailed_scores, 
+                           gridOptions=grid_options_details, 
+                           height=300, 
+                           fit_columns_on_grid_load=True)
             else:
                 st.info("No detailed scores found for this selection.")
 
