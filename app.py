@@ -1001,25 +1001,25 @@ from st_aggrid import AgGrid, GridOptionsBuilder, ColumnsAutoSizeMode, JsCode
 import pandas as pd
 from io import BytesIO
 
-# Define a custom cell renderer that marks a cell when clicked.
-# It clears any previous selection so only the last clicked cell gets marked.
+# Define a custom cell renderer that marks a cell on click and clears previous markers.
 BtnCellRenderer = JsCode(
     """
 class ClickCellRenderer {
     init(params) {
         this.params = params;
-        // Save the original value (if not already saved)
+        // Save the original value if not already saved.
         if (!this.params.originalValue) {
             this.params.originalValue = this.params.value;
         }
-        // Create a container that displays the cell value normally and includes a hidden marker span.
+        // Create a container displaying the cell value and a hidden marker.
         this.eGui = document.createElement('div');
-        this.eGui.innerHTML = `<span>${this.params.value}</span><span class="marker" style="display:none;"></span>`;
-        // Attach a click event listener on the cell.
+        this.eGui.innerHTML = `<span>${this.params.value}</span>
+                               <span class="marker" style="display:none;"></span>`;
+        // Attach a click listener.
         this.eGui.addEventListener('click', this.onClick.bind(this));
     }
-    // Clear marker from the previously clicked cell.
     clearAllMarkers() {
+        // Clear marker text from all cells.
         const markers = document.querySelectorAll(".marker");
         markers.forEach(marker => {
             marker.innerText = "";
@@ -1028,10 +1028,10 @@ class ClickCellRenderer {
     onClick(event) {
         // Clear markers from all cells.
         this.clearAllMarkers();
-        // Mark this cell only.
+        // Mark this cell.
         let marker = this.eGui.querySelector(".marker");
         marker.innerText = "[clicked]";
-        // Update the underlying cell value with the marker.
+        // Update the cell's underlying value.
         this.params.setValue("[clicked]" + this.params.originalValue);
     }
     getGui() {
@@ -1054,12 +1054,11 @@ if st.button("Kellanate", key="kellanate_btn"):
         result_df, debug_outputs, team_player_stats, twc_player_stats = main(
             all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
         )
-        # Store processed results in session state.
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
 
-        # Create an Excel file with multiple sheets.
+        # Create an Excel file for download.
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
@@ -1072,7 +1071,7 @@ if st.button("Kellanate", key="kellanate_btn"):
 
 # Display output if processing has completed.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
-    # Provide a close button.
+    # Close button to clear session.
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
@@ -1082,10 +1081,9 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
 
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid: apply the custom cell renderer to every column.
+    # Configure AgGrid with the custom renderer applied to every column.
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     gb.configure_default_column(flex=1, resizable=True)
-    # Optionally pin the "Machine" column for clarity.
     gb.configure_column("Machine", pinned='left', flex=1)
     for col in result_df_reset.columns:
         gb.configure_column(col, cellRenderer=BtnCellRenderer)
@@ -1101,7 +1099,10 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS
     )
     
-    # Parse the returned dataframe for the clicked cell.
+    # Clear previous debug output and parse the returned dataframe for the clicked cell.
+    # Use st.empty() placeholder to clear previous debug messages.
+    debug_placeholder = st.empty()
+    debug_placeholder.empty()
     df_out = response["data"]
     clicked_cells = []
     for col in df_out.columns:
@@ -1110,30 +1111,31 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             if isinstance(val, str) and val.startswith("[clicked]"):
                 clicked_cells.append((col, idx))
     
-    st.subheader("Selected cell (from custom cell renderer)")
-    st.write(clicked_cells)
+    # Overwrite debug output with current clicked cell info.
+    debug_placeholder.write("Selected cell (from custom cell renderer):")
+    debug_placeholder.write(clicked_cells)
     
-    # If a clicked cell was detected, use its row and column to filter the detailed data.
+    # If a clicked cell is detected, use its position to filter the detailed data.
     if clicked_cells:
         selected_col, selected_idx = clicked_cells[0]
-        # Use iloc to get the machine from the row
+        # Ensure we use positional indexing.
         machine = result_df_reset.iloc[int(selected_idx)]["Machine"]
         st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
         
-        # Retrieve the full processed data (all entries that went into the calculations).
+        # Retrieve full processed data.
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         if all_data_df is not None and not all_data_df.empty:
             # Filter for the selected machine.
             filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
-            # Further filter based on the clicked column.
-            # For instance, if the column name starts with "Team", filter by selected_team;
-            # if it starts with "TWC", filter by "The Wrecking Crew".
+            # Filter further based on the clicked column.
             if selected_col.startswith("Team"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
             elif selected_col.startswith("TWC"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
-            # Then, select the columns in the specified order.
-            detailed_df = filtered[["player_name", "score", "venue", "season"]]
+            # Reorder columns and format scores with commas.
+            detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
+            if "score" in detailed_df.columns:
+                detailed_df["score"] = detailed_df["score"].apply(lambda x: f"{x:,.0f}" if pd.notnull(x) else x)
             
             st.markdown("### Detailed Scores for Selected Cell")
             AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
@@ -1156,6 +1158,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
+
 
 
 ##############################################
