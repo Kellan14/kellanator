@@ -1155,31 +1155,72 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         # Retrieve full processed data
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         if all_data_df is not None and not all_data_df.empty:
-            # Filter for the selected machine
+            # First filter by machine (always applied)
             filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
             
-            # Filter further based on the clicked column
+            # Get the configuration for the selected column
+            column_config = st.session_state.column_config.get(selected_col, {})
+            seasons = column_config.get('seasons', (20, 21))  # Default seasons if not specified
+            venue_specific = column_config.get('venue_specific', False)
+            
+            # Apply season filtering
+            filtered = filtered[filtered['season'].between(seasons[0], seasons[1])]
+            
+            # Apply venue filtering if the column is venue-specific
+            if venue_specific:
+                filtered = filtered[filtered['venue'].str.strip().str.lower() == selected_venue.strip().lower()]
+            
+            # Apply team-specific filtering based on column type
             if selected_col.startswith("Team"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
+                # If this is a roster-player only statistic
+                if column_config.get('roster_only', True):
+                    filtered = filtered[filtered['is_roster_player']]
             elif selected_col.startswith("TWC"):
                 filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
+                # If this is a roster-player only statistic
+                if column_config.get('roster_only', True):
+                    filtered = filtered[filtered['is_roster_player']]
             elif selected_col.startswith("Venue") or "V. Avg" in selected_col:
-                filtered = filtered[filtered["venue"].str.strip().str.lower() == selected_venue.strip().lower()]
-            # Sort and prepare data for display
-            detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
-            if "score" in detailed_df.columns:
-                detailed_df["score"] = detailed_df["score"].apply(lambda x: f"{x:,.0f}" if pd.notnull(x) else x)
-            detailed_df = detailed_df.sort_values(by="score", ascending=False)
+                # No team filtering for venue columns - show all teams' data
+                pass
             
-            st.markdown("### Detailed Scores for Selected Cell")
-            AgGrid(
-                detailed_df, 
-                height=300, 
-                fit_columns_on_grid_load=True,
-                key=f"detailed_grid_{most_recent_click['timestamp']}"  # Use timestamp in key for forced refresh
-            )
+            # Handle special case columns (add more as needed)
+            if "Times Picked" in selected_col:
+                if selected_col.startswith("Team"):
+                    filtered = filtered[filtered['is_pick']]
+                elif selected_col.startswith("TWC"):
+                    filtered = filtered[filtered['is_pick_twc']]
+            
+            # Log the filtering process for debugging
+            st.write(f"Applied filters: Machine: {machine}, Column: {selected_col}")
+            st.write(f"Config: Venue-specific: {venue_specific}, Seasons: {seasons}")
+            st.write(f"Filtered data contains {len(filtered)} rows")
+            
+            if not filtered.empty:
+                # Reorder and prepare columns for display
+                detailed_df = filtered[["player_name", "score", "team", "venue", "season"]].copy()
+                
+                # Format scores with commas
+                if "score" in detailed_df.columns:
+                    detailed_df["score"] = detailed_df["score"].apply(
+                        lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
+                    )
+                
+                # Sort by score descending
+                detailed_df = detailed_df.sort_values(by="score", ascending=False)
+                
+                st.markdown("### Detailed Scores for Selected Cell")
+                AgGrid(
+                    detailed_df, 
+                    height=300, 
+                    fit_columns_on_grid_load=True,
+                    key=f"detailed_grid_{most_recent_click['timestamp']}"  # Use timestamp in key for forced refresh
+                )
+            else:
+                st.write("No detailed data available for this selection after applying all filters.")
         else:
-            st.write("No detailed data available.")
+            st.write("No detailed data available in debug outputs.")
     
     # Checkbox to toggle display of player statistics
     if st.checkbox("Show Player Stats", key="player_stats_toggle"):
