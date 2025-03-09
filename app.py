@@ -1074,7 +1074,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
     # Function to handle cell selection
-    def on_cell_select(selected_rows, selected_columns):
+def on_cell_select(selected_rows, selected_columns):
     try:
         st.write("### Debug: Cell Selection Started")
         st.write(f"Selected Rows: {selected_rows}")
