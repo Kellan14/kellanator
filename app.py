@@ -675,9 +675,9 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name)
 
         for round_info in match['rounds']:
             round_number = round_info['n']
-            # Determine which team is picking in this round:
+            # Determine the picking team: away picks in rounds 1 & 3, home in rounds 2 & 4.
             picking_team = away_team if round_number in [1, 3] else home_team
-            # We'll use a set to record machines already picked in this round
+            # Use a set to track machines played in this round (ensures one pick per round)
             machines_played_this_round = set()
 
             for game in round_info['games']:
@@ -697,17 +697,15 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name)
                     if score == 0:
                         continue
                     player_name = get_player_name(player_key, match)
-                    # Determine the team for this player based on the match data
+                    # Determine player's team by checking which lineup they appear in.
                     player_team = (home_team if any(player['key'] == player_key for player in match['home']['lineup'])
                                    else away_team)
                     
-                    # For the selected team, use round-level logic:
-                    # If the picking team (for this round) is the selected team and the machine hasn't been played yet,
-                    # mark is_pick True (only one pick per round).
+                    # For the selected team, mark is_pick as True only once per round.
                     is_pick = False
                     if picking_team == team_name and machine not in machines_played_this_round:
                         is_pick = True
-                    # Mark this machine as played in this round regardless of team.
+                    # Add machine to the set for this round so subsequent entries in this round will not be flagged.
                     machines_played_this_round.add(machine)
 
                     processed_data.append({
@@ -726,6 +724,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name)
                     })
 
     return pd.DataFrame(processed_data), recent_machines
+
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
