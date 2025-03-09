@@ -662,10 +662,15 @@ def is_roster_player(player_name, team, team_roster):
         return False
     return player_name in team_roster.get(abbr, [])
 
-def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name):
+def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name, team_roster, included_machines, excluded_machines):
     processed_data = []
     recent_machines = set()
     overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
+    
+    # Get abbreviations for teams (assumes team_abbr_dict exists)
+    team_abbrs = {team: abbr.lower() for team, abbr in team_abbr_dict.items()}
+    selected_team_abbr = team_abbrs.get(team_name, "")
+    twc_abbr = team_abbrs.get(twc_team_name, "")
 
     for match in all_data:
         match_venue = match['venue']['name']
@@ -684,7 +689,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name)
                 machine = standardize_machine_name(game.get('machine', '').lower())
                 if not machine:
                     continue
-                # Apply exclusion/inclusion filters if defined
+                # Apply exclusion/inclusion filters if defined.
                 if (excluded_machines and machine in excluded_machines) or (included_machines and machine not in included_machines):
                     continue
 
@@ -702,13 +707,19 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name)
                                    else away_team)
                     
                     # For the selected team, mark is_pick as True only once per round.
+                    # (Only count a pick if the picking team equals the selected team and this machine hasn't been seen in the round.)
                     is_pick = False
                     if picking_team == team_name and machine not in machines_played_this_round:
                         is_pick = True
-                    # Add machine to the set for this round so subsequent entries in this round will not be flagged.
+                    # Mark that this machine has now been played in the round.
                     machines_played_this_round.add(machine)
+                    
+                    # Set team-specific pick flags.
+                    # For the selected team, use its abbreviation; similarly for TWC.
+                    is_selected_team_pick = is_pick if player_team.strip().lower() == team_name.strip().lower() else False
+                    is_twc_pick = is_pick if player_team.strip().lower() == twc_team_name.strip().lower() else False
 
-                    processed_data.append({
+                    record = {
                         'season': season,
                         'machine': machine,
                         'player_name': player_name,
@@ -721,10 +732,14 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name)
                         'picked_by': picking_team,
                         'is_pick': is_pick,
                         'is_roster_player': is_roster_player(player_name, player_team)
-                    })
+                    }
+                    # Add team-specific pick flags.
+                    record[f'is_{selected_team_abbr}_pick'] = is_selected_team_pick
+                    record[f'is_{twc_abbr}_pick'] = is_twc_pick
+
+                    processed_data.append(record)
 
     return pd.DataFrame(processed_data), recent_machines
-
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
