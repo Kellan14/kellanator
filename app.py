@@ -1001,36 +1001,41 @@ from st_aggrid import AgGrid, GridOptionsBuilder, ColumnsAutoSizeMode, JsCode
 import pandas as pd
 from io import BytesIO
 
-# Define a custom cell renderer that clears all markers and then marks the clicked cell.
+# Define a custom cell renderer that clears the marker from the previously clicked cell.
 BtnCellRenderer = JsCode(
     """
 class ClickCellRenderer {
     init(params) {
         this.params = params;
-        // Save the original value if not already saved
+        // Save the original value if not already saved.
         if (!this.params.originalValue) {
             this.params.originalValue = this.params.value;
         }
         // Create a container that displays the cell value normally,
-        // plus a span (with class 'marker') for the hidden marker.
+        // plus a span for the marker. The marker is hidden via CSS.
         this.eGui = document.createElement('div');
-        this.eGui.innerHTML = `<span>${this.params.value}</span><span class="marker" style="display:none;"></span>`;
+        this.eGui.innerHTML = `<span>${this.params.value}</span>
+                               <span class="marker" style="display:none;"></span>`;
+        // Attach a click event listener to the entire cell.
         this.eGui.addEventListener('click', this.onClick.bind(this));
     }
-    clearAllMarkers() {
-        // Clear the marker text for all elements with class 'marker'
-        const markers = document.querySelectorAll(".marker");
-        markers.forEach(marker => {
-            marker.innerText = "";
-        });
-    }
     onClick(event) {
-        // Clear markers from all cells first
-        this.clearAllMarkers();
-        // Set marker in this cell
+        // If a previous cell was clicked (stored in window.lastClickedCell) and it's not this cell,
+        // clear its marker.
+        if (window.lastClickedCell && window.lastClickedCell !== this.eGui) {
+            let lastMarker = window.lastClickedCell.querySelector(".marker");
+            if (lastMarker) {
+                lastMarker.innerText = "";
+                // Optionally, you might want to remove the marker from the underlying value.
+            }
+        }
+        // Update the global reference to this cell.
+        window.lastClickedCell = this.eGui;
+        // Set the marker in this cell.
         let marker = this.eGui.querySelector(".marker");
         marker.innerText = "[clicked]";
-        // Update the underlying cell value to include the marker
+        // Update the underlying cell value so that when AgGrid returns data,
+        // this cell's value starts with "[clicked]".
         this.params.setValue("[clicked]" + this.params.originalValue);
     }
     getGui() {
@@ -1071,7 +1076,7 @@ if st.button("Kellanate", key="kellanate_btn"):
 
 # Only display output if processing has completed.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
-    # Display a row with an "X" button to close the output.
+    # Provide a close button.
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
@@ -1084,7 +1089,9 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     # Configure AgGrid: apply the custom cell renderer to every column.
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     gb.configure_default_column(flex=1, resizable=True)
+    # Pin the "Machine" column for clarity.
     gb.configure_column("Machine", pinned='left', flex=1)
+    # Apply the custom cell renderer to every column.
     for col in result_df_reset.columns:
         gb.configure_column(col, cellRenderer=BtnCellRenderer)
     grid_options = gb.build()
@@ -1100,7 +1107,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
     
     # Parse the returned dataframe for the clicked cell.
-    # This method expects that only the most recently clicked cell contains "[clicked]".
     df_out = response["data"]
     clicked_cells = []
     for col in df_out.columns:
@@ -1115,14 +1121,14 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     # If a clicked cell was detected, use its row and column to filter detailed data.
     if clicked_cells:
         selected_col, selected_idx = clicked_cells[0]
-        # Retrieve the machine name from the clicked row using positional indexing.
-        machine = result_df_reset.iloc[selected_idx]["Machine"]
+        # Use iloc to ensure an integer index is used.
+        machine = result_df_reset.iloc[int(selected_idx)]["Machine"]
         st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
         
         # Retrieve the complete processed data (assumed to be in debug_outputs['all_data']).
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         if all_data_df is not None and not all_data_df.empty:
-            # Filter by machine.
+            # Filter for the selected machine.
             filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
             # Further filter based on the clicked column:
             if selected_col.startswith("Team"):
@@ -1153,6 +1159,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
+
 
 
 ##############################################
