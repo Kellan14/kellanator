@@ -1119,5 +1119,56 @@ if st.checkbox("Debug Info", key="debug_info_toggle"):
             st.write(f"**DEBUG: No team abbreviation found for {selected_team}.**")
     else:
         st.write("**DEBUG: Team roster data is not available.**")
+##############################################
+# Section X: Debug AgGrid Cell Click Events
+##############################################
+import streamlit as st
+import pandas as pd
+from st_aggrid import AgGrid, GridOptionsBuilder
+
+# Create a sample dataframe for debugging purposes
+df_debug = pd.DataFrame({
+    "Machine": ["Pulp Fiction", "Black Knight Sor", "Other Machine"],
+    "Team Average": [123.45, 67.89, 101.112],
+    "TWC Average": [110.0, 50.0, 90.0]
+})
+
+# Create a placeholder for debug output
+debug_placeholder = st.empty()
+
+# Callback function for cell clicks with debug output
+def on_cell_clicked(event):
+    # Write the event details to our debug placeholder
+    debug_placeholder.write("Cell clicked event details:")
+    debug_placeholder.write(event)
+    
+    # Extract row data and column field
+    row = event.get('data', {})
+    column = event.get('colDef', {}).get('field', None)
+    
+    if row and column:
+        machine = row.get('Machine')
+        st.session_state.selected_machine = machine
+        st.session_state.selected_column = column
+
+# Build grid options with AgGrid
+gb_debug = GridOptionsBuilder.from_dataframe(df_debug)
+gb_debug.configure_default_column(flex=1, resizable=True)
+gb_debug.configure_column("Machine", pinned='left', flex=1)
+grid_options_debug = gb_debug.build()
+
+st.markdown("### Debug AgGrid with Cell Click Callback")
+AgGrid(
+    df_debug,
+    gridOptions=grid_options_debug,
+    height=300,
+    fit_columns_on_grid_load=True,
+    on_cell_clicked=on_cell_clicked
+)
+
+# Display the selected cell's machine and column if they exist in session state
+if "selected_machine" in st.session_state and "selected_column" in st.session_state:
+    st.write("Selected Machine:", st.session_state.selected_machine)
+    st.write("Selected Column:", st.session_state.selected_column)
 
 
