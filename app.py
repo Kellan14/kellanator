@@ -764,51 +764,54 @@ def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     return filtered
 
 
-def calculate_stats(df, machine, team_name, pick_flag='is_pick'):
-   """
-   Calculate statistics for a given machine from the provided DataFrame.
-   
-   Parameters:
-   df (DataFrame): The input dataframe
-   machine (str): Machine name to filter by
-   team_name (str): Team name to filter by
-   pick_flag (str): Flag to use for picking calculation
-   
-   Returns:
-   dict: Calculated statistics
-   """
-   # Filter for the specific machine and team
-   machine_data = df[
-       (df['machine'] == machine) & 
-       (df['team'].str.strip().str.lower() == team_name.strip().lower())
-   ]
-   
-   if len(machine_data) == 0:
-       return {
-           'average': np.nan,
-           'highest': 0,
-           'times_played': 0,
-           'times_picked': 0
-       }
-   
-   # For times_played, count unique match+round combinations for this team
-   unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
-   times_played = len(unique_games)
-   
-   # For times_picked, count unique games where pick flag is True
-   times_picked = len(unique_games[unique_games[pick_flag] == True])
-   
-   # Calculate score statistics
-   scores = machine_data['score'].tolist()
-   average = np.mean(scores) if scores else np.nan
-   highest = max(scores) if scores else 0
-   
-   return {
-       'average': average,
-       'highest': highest,
-       'times_played': times_played,
-       'times_picked': times_picked
-   }
+def calculate_stats(df, machine, team_name=None, pick_flag='is_pick'):
+    """
+    Calculate statistics for a given machine from the provided DataFrame.
+    
+    Parameters:
+    df (DataFrame): The input dataframe
+    machine (str): Machine name to filter by
+    team_name (str, optional): Team name to filter by
+    pick_flag (str): Flag to use for picking calculation
+    
+    Returns:
+    dict: Calculated statistics
+    """
+    # Filter for the specific machine
+    machine_data = df[df['machine'] == machine]
+    
+    # Only apply team filter if team_name is provided
+    if team_name is not None:
+        machine_data = machine_data[
+            machine_data['team'].str.strip().str.lower() == team_name.strip().lower()
+        ]
+    
+    if len(machine_data) == 0:
+        return {
+            'average': np.nan,
+            'highest': 0,
+            'times_played': 0,
+            'times_picked': 0
+        }
+    
+    # For times_played, count unique match+round combinations
+    unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+    times_played = len(unique_games)
+    
+    # For times_picked, only count if team_name is provided
+    times_picked = len(unique_games[unique_games[pick_flag] == True]) if team_name is not None else 0
+    
+    # Calculate score statistics
+    scores = machine_data['score'].tolist()
+    average = np.mean(scores) if scores else np.nan
+    highest = max(scores) if scores else 0
+    
+    return {
+        'average': average,
+        'highest': highest,
+        'times_played': times_played,
+        'times_picked': times_picked
+    }
 
 def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name, column_config):
     data = []
