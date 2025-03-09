@@ -662,14 +662,10 @@ def is_roster_player(player_name, team, team_roster):
         return False
     return player_name in team_roster.get(abbr, [])
 
-def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name, team_roster, included_machines_for_venue, excluded_machines_for_venue):
+def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name):
     processed_data = []
-    recent_machines = set(included_machines_for_venue or [])
+    recent_machines = set()
     overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
-    current_limits = get_score_limits()
-
-    # Get abbreviations for all teams
-    team_abbrs = {team: abbr.lower() for team, abbr in team_abbr_dict.items()}
 
     for match in all_data:
         match_venue = match['venue']['name']
@@ -677,51 +673,42 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
         home_team = match['home']['name']
         away_team = match['away']['name']
 
-        # Determine pick rounds for each team: away team picks in rounds 1 & 3, home team in rounds 2 & 4.
-        team_pick_rounds = {}
-        for team in [home_team, away_team]:
-            team_pick_rounds[team] = [1, 3] if team == away_team else [2, 4]
-
         for round_info in match['rounds']:
             round_number = round_info['n']
-            # Track picks for each team in this round
-            team_picks_this_round = {team: set() for team in [home_team, away_team]}
+            # Determine which team is picking in this round:
+            picking_team = away_team if round_number in [1, 3] else home_team
+            # We'll use a set to record machines already picked in this round
+            machines_played_this_round = set()
 
             for game in round_info['games']:
                 machine = standardize_machine_name(game.get('machine', '').lower())
                 if not machine:
                     continue
+                # Apply exclusion/inclusion filters if defined
+                if (excluded_machines and machine in excluded_machines) or (included_machines and machine not in included_machines):
+                    continue
 
                 if season == overall_latest_season and match_venue == venue_name:
-                    if not excluded_machines_for_venue or machine not in excluded_machines_for_venue:
-                        recent_machines.add(machine)
-
-                # Mark picks for each team based on whether the machine has not been picked in this round and if the round qualifies
-                for team in [home_team, away_team]:
-                    if machine not in team_picks_this_round[team] and round_number in team_pick_rounds[team]:
-                        team_picks_this_round[team].add(machine)
+                    recent_machines.add(machine)
 
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
                     score = game.get(f'score_{pos}', 0)
                     if score == 0:
                         continue
-                    limit = current_limits.get(machine)
-                    if limit is not None and score > limit:
-                        continue
                     player_name = get_player_name(player_key, match)
-                    player_team = (
-                        home_team if any(player['key'] == player_key for player in match['home']['lineup']) 
-                        else away_team
-                    )
+                    # Determine the team for this player based on the match data
+                    player_team = (home_team if any(player['key'] == player_key for player in match['home']['lineup'])
+                                   else away_team)
                     
-                    # Generate team-specific pick flags using each team's three-letter abbreviation.
-                    team_pick_flags = {}
-                    for team in [home_team, away_team]:
-                        team_abbr = team_abbrs.get(team, '')
-                        team_pick_flags[f'is_{team_abbr}_pick'] = (
-                            machine in team_picks_this_round[team] and round_number in team_pick_rounds[team]
-                        )
+                    # For the selected team, use round-level logic:
+                    # If the picking team (for this round) is the selected team and the machine hasn't been played yet,
+                    # mark is_pick True (only one pick per round).
+                    is_pick = False
+                    if picking_team == team_name and machine not in machines_played_this_round:
+                        is_pick = True
+                    # Mark this machine as played in this round regardless of team.
+                    machines_played_this_round.add(machine)
 
                     processed_data.append({
                         'season': season,
@@ -733,9 +720,9 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'round': round_number,
                         'game_number': game['n'],
                         'venue': match_venue,
-                        'picked_by': away_team if round_number in [1, 3] else home_team,
-                        **team_pick_flags,
-                        'is_roster_player': is_roster_player(player_name, player_team, team_roster)
+                        'picked_by': picking_team,
+                        'is_pick': is_pick,
+                        'is_roster_player': is_roster_player(player_name, player_team)
                     })
 
     return pd.DataFrame(processed_data), recent_machines
