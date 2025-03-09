@@ -1128,7 +1128,8 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     gridOptions = gb.build()
     
     # Display the DataFrame with AgGrid and custom selection handler
-    st.markdown("### Machine Statistics")
+    seasons_str = f"{seasons_to_process[0]}-{seasons_to_process[-1]}" if len(seasons_to_process) > 1 else str(seasons_to_process[0])
+    st.markdown(f"### Machine Statistics for {selected_team} @ {selected_venue} - Season(s) {seasons_str}")
     selected = AgGrid(
         result_df_reset, 
         gridOptions=gridOptions, 
@@ -1138,41 +1139,15 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         update_mode=GridUpdateMode.SELECTION_CHANGED,
         on_select_callback=on_cell_select
     )
-    # Display a row with an "X" button to close the output.
-    col1, col2 = st.columns([0.9, 0.1])
-    with col2:
-        if st.button("X", key="close_kellanate_output"):
-            st.session_state.pop("kellanate_output", None)
-            st.session_state.pop("result_df", None)
-            st.session_state.pop("team_player_stats", None)
-            st.session_state.pop("twc_player_stats", None)
-            st.session_state.pop("processed_excel", None)
-            st.session_state.pop("debug_outputs", None)
-            st.rerun()
-    # Reset index to hide it.
-    result_df_reset = st.session_state["result_df"].reset_index(drop=True)
-    
-    # Configure AgGrid with flex sizing for the main results.
-    from st_aggrid import AgGrid, GridOptionsBuilder
-    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
-    # Set flex property to auto-size columns relative to available space.
-    gb.configure_default_column(flex=1, resizable=True)
-    # Pin the "Machine" column to the left.
-    gb.configure_column("Machine", pinned='left', flex=1)
-    gridOptions = gb.build()
-    
-    # Display the DataFrame with AgGrid.
-    st.markdown("### Machine Statistics")
-    AgGrid(result_df_reset, gridOptions=gridOptions, height=400, fit_columns_on_grid_load=True)
-    
-    # Display the player statistics tables
-    st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
+
+    # Display player statistics tables
+    st.markdown(f"### {selected_team} Player Statistics at {selected_venue} - Season(s) {seasons_str}")
     AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
     
-    st.markdown(f"### TWC Player Statistics at {selected_venue}")
+    st.markdown(f"### TWC Player Statistics at {selected_venue} - Season(s) {seasons_str}")
     AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
-    # Download button for the Excel file.
+    # Download button for the Excel file
     st.download_button(
         label="Download Excel file",
         data=st.session_state["processed_excel"],
