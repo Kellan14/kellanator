@@ -993,6 +993,9 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
     return result_df, debug_outputs, team_player_stats, twc_player_stats
 
 
+##############################################
+# Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
+##############################################
 # Define the cell renderer that will add [SELECTED] to the value
 BtnCellRenderer = JsCode("""
 class ClickCellRenderer {
@@ -1033,6 +1036,28 @@ if "selected_machine" not in st.session_state:
     st.session_state.selected_machine = None
 if "selected_column" not in st.session_state:
     st.session_state.selected_column = None
+
+# Process data when "Kellanate" is pressed.
+if st.button("Kellanate", key="kellanate_btn"):
+    with st.spinner("Loading JSON files from repository and processing data..."):
+        all_data = load_all_json_files(repo_dir, seasons_to_process)
+        result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+            all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
+        )
+        st.session_state["result_df"] = result_df
+        st.session_state["team_player_stats"] = team_player_stats
+        st.session_state["twc_player_stats"] = twc_player_stats
+
+        # Create an Excel file for download.
+        output = BytesIO()
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            result_df.to_excel(writer, index=False, sheet_name='Results')
+            team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
+            twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
+        st.session_state["processed_excel"] = output.getvalue()
+        st.session_state["debug_outputs"] = debug_outputs
+        st.session_state["kellanate_output"] = True
+    st.success("Data processed successfully!")
 
 # Display output if processing has completed
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
@@ -1141,14 +1166,14 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         else:
             st.write("No detailed data available in debug outputs.")
     
-    # Rest of your code for player stats and download button remains the same
+    # Checkbox to toggle display of player statistics.
     if st.checkbox("Show Player Stats", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
         AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
         st.markdown(f"### TWC Player Statistics at {selected_venue}")
         AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
-    # Download button for the Excel file
+    # Download button for the Excel file.
     st.download_button(
         label="Download Excel file",
         data=st.session_state["processed_excel"],
