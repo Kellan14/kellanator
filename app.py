@@ -1033,23 +1033,43 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             st.session_state.pop("processed_excel", None)
             st.session_state.pop("debug_outputs", None)
             st.rerun()
+            
     # Reset index to hide it.
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
+    # Define the callback function for cell clicks.
+    def on_cell_clicked(event):
+        row = event.get('data', {})
+        column = event.get('colDef', {}).get('field', None)
+        if row and column:
+            # Assume the row contains a 'Machine' field.
+            machine = row.get('Machine')
+            # Save the selected machine and column in session state.
+            st.session_state.selected_machine = machine
+            st.session_state.selected_column = column
+
     # Configure AgGrid with flex sizing for the main results.
-    from st_aggrid import AgGrid, GridOptionsBuilder
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
-    # Set flex property to auto-size columns relative to available space.
     gb.configure_default_column(flex=1, resizable=True)
-    # Pin the "Machine" column to the left.
     gb.configure_column("Machine", pinned='left', flex=1)
     gridOptions = gb.build()
     
-    # Display the DataFrame with AgGrid.
+    # Display the DataFrame with AgGrid and include the cell click callback.
     st.markdown("### Machine Statistics")
-    AgGrid(result_df_reset, gridOptions=gridOptions, height=400, fit_columns_on_grid_load=True)
+    AgGrid(
+        result_df_reset, 
+        gridOptions=gridOptions, 
+        height=400, 
+        fit_columns_on_grid_load=True,
+        on_cell_clicked=on_cell_clicked
+    )
     
-    # Display the player statistics tables
+    # Display the selected cell's machine and column information underneath the grid.
+    if "selected_machine" in st.session_state and "selected_column" in st.session_state:
+        st.write(f"Selected Machine: {st.session_state.selected_machine}")
+        st.write(f"Selected Column: {st.session_state.selected_column}")
+    
+    # Display the player statistics tables.
     st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
     AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
     
