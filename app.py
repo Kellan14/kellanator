@@ -1051,6 +1051,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output & Excel Download
 ##############################################
+
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
         all_data = load_all_json_files(repo_dir, seasons_to_process)
@@ -1062,27 +1063,73 @@ if st.button("Kellanate", key="kellanate_btn"):
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
-        
+
         # Create Excel file with multiple sheets
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
             team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
             twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
-            
+
         st.session_state["processed_excel"] = output.getvalue()
         st.session_state["debug_outputs"] = debug_outputs
         st.session_state["kellanate_output"] = True
+
     st.success("Data processed successfully!")
+
+
+# Define the custom cell click function.
+def on_cell_clicked(event):
+    row = event['data']
+    column = event['colDef']['field']
+    machine = row['Machine']
+
+    # Determine team and TWC status
+    is_twc_column = column.startswith('TWC')
+    team_name = "The Wrecking Crew" if is_twc_column else selected_team
+
+    # Check venue-specific setting
+    column_config = st.session_state.get("column_config", {})
+    venue_specific = column_config.get(column, {}).get('venue_specific', False)
+
+    # Retrieve detailed scores
+    detailed_scores = get_detailed_scores(
+        st.session_state["all_data_df"],
+        machine.lower(),
+        team_name,
+        selected_venue,
+        seasons_to_process,
+        is_twc=is_twc_column,
+        venue_specific=venue_specific
+    )
+
+    # Display detailed scores if available
+    if detailed_scores is not None and not detailed_scores.empty:
+        with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
+            gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
+            gb_details.configure_default_column(flex=1, resizable=True)
+            grid_options_details = gb_details.build()
+
+            AgGrid(
+                detailed_scores,
+                gridOptions=grid_options_details,
+                height=300,
+                fit_columns_on_grid_load=True
+            )
+
 
 # Only display the output if results exist.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
     # Reset index to hide it.
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
-    
+
     # Seasons string formatting
-    seasons_str = f"{seasons_to_process[0]}-{seasons_to_process[-1]}" if len(seasons_to_process) > 1 else str(seasons_to_process[0])
-    
+    seasons_str = (
+        f"{seasons_to_process[0]}-{seasons_to_process[-1]}"
+        if len(seasons_to_process) > 1
+        else str(seasons_to_process[0])
+    )
+
     # Machine Statistics Section
     with st.expander(f"Machine Statistics for {selected_team} @ {selected_venue} - Season(s) {seasons_str}", expanded=True):
         # Configure grid options
@@ -1090,141 +1137,110 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         gb.configure_default_column(flex=1, resizable=True)
         gb.configure_column("Machine", pinned='left', flex=1)
         gridOptions = gb.build()
-        
+
         # Display the machine statistics
         grid_return = AgGrid(
-            result_df_reset, 
-            gridOptions=gridOptions, 
-            height=400, 
+            result_df_reset,
+            gridOptions=gridOptions,
+            height=400,
             fit_columns_on_grid_load=True,
             allow_unsafe_jscode=True,
             update_mode=GridUpdateMode.SELECTION_CHANGED,
             enable_enterprise_modules=True,
             on_cell_clicked=on_cell_clicked
         )
-        # Custom function to handle cell selection
-def on_cell_clicked(event):
-    row = event['data']
-    column = event['colDef']['field']
-    
-    machine = row['Machine']
-    
-    # Determine team and TWC status
-    is_twc_column = column.startswith('TWC')
-    team_name = "The Wrecking Crew" if is_twc_column else selected_team
-    
-    # Check venue-specific setting
-    column_config = st.session_state.get("column_config", {})
-    venue_specific = column_config.get(column, {}).get('venue_specific', False)
-    
-    # Retrieve detailed scores
-    detailed_scores = get_detailed_scores(
-        st.session_state["all_data_df"], 
-        machine.lower(), 
-        team_name, 
-        selected_venue, 
-        seasons_to_process,
-        is_twc=is_twc_column,
-        venue_specific=venue_specific
-    )
-    
-    # Display detailed scores
-    if detailed_scores is not None and not detailed_scores.empty:
-        with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
-            gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
-            gb_details.configure_default_column(flex=1, resizable=True)
-            grid_options_details = gb_details.build()
-            
-            AgGrid(detailed_scores, 
-                   gridOptions=grid_options_details, 
-                   height=300, 
-                   fit_columns_on_grid_load=True)
-            
-        # Check if a cell was selected and retrieve detailed scores
-try:
-    selected_rows = grid_return['selected_rows']
-    selected_columns = grid_return.get('selected_columns', [])
-    
-    # Print out the structure of grid_return for debugging
-    st.write("Grid Return Structure:")
-    st.write(grid_return)
-    
-    # Debugging prints
-    st.write("Selected Rows:", selected_rows)
-    st.write("Selected Columns:", selected_columns)
-    
-    def custom_cell_selection(selected_rows, selected_columns):
-        try:
-            if selected_rows and isinstance(selected_columns, list) and len(selected_columns) > 0:
-                try:
-                    machine = selected_rows[0]['Machine']
-                except (KeyError, IndexError):
-                    st.error("Error extracting machine from selected row.")
+
+    # Process cell selection and retrieve detailed scores.
+    try:
+        selected_rows = grid_return['selected_rows']
+        selected_columns = grid_return.get('selected_columns', [])
+
+        st.write("Grid Return Structure:")
+        st.write(grid_return)
+        st.write("Selected Rows:", selected_rows)
+        st.write("Selected Columns:", selected_columns)
+
+        def custom_cell_selection(selected_rows, selected_columns):
+            try:
+                if selected_rows and isinstance(selected_columns, list) and len(selected_columns) > 0:
+                    try:
+                        machine = selected_rows[0]['Machine']
+                    except (KeyError, IndexError):
+                        st.error("Error extracting machine from selected row.")
+                        return None, None, None
+
+                    try:
+                        column = selected_columns[0]
+                    except IndexError:
+                        st.error("Error extracting column from selected columns.")
+                        return None, None, None
+
+                    # Determine team and TWC status
+                    is_twc_column = column.startswith('TWC')
+                    team_name = "The Wrecking Crew" if is_twc_column else selected_team
+
+                    # Check venue-specific setting
+                    column_config = st.session_state.get("column_config", {})
+                    venue_specific = column_config.get(column, {}).get('venue_specific', False)
+
+                    # Retrieve detailed scores
+                    detailed_scores = get_detailed_scores(
+                        st.session_state["all_data_df"],
+                        machine.lower(),
+                        team_name,
+                        selected_venue,
+                        seasons_to_process,
+                        is_twc=is_twc_column,
+                        venue_specific=venue_specific
+                    )
+
+                    return detailed_scores, machine, column
+                else:
+                    st.error("No valid cell selection.")
                     return None, None, None
-                
-                try:  
-                    column = selected_columns[0]
-                except IndexError:
-                    st.error("Error extracting column from selected columns.")
-                    return None, None, None
-                
-                # Determine team and TWC status
-                is_twc_column = column.startswith('TWC')
-                team_name = "The Wrecking Crew" if is_twc_column else selected_team
-                
-                # Check venue-specific setting
-                column_config = st.session_state.get("column_config", {})
-                venue_specific = column_config.get(column, {}).get('venue_specific', False)
-                
-                # Retrieve detailed scores
-                detailed_scores = get_detailed_scores(
-                    st.session_state["all_data_df"], 
-                    machine.lower(), 
-                    team_name, 
-                    selected_venue, 
-                    seasons_to_process,
-                    is_twc=is_twc_column,
-                    venue_specific=venue_specific
-                )
-                
-                return detailed_scores, machine, column
-            else:
-                st.error("No valid cell selection.")
+            except Exception as e:
+                st.error(f"Error in custom_cell_selection: {e}")
                 return None, None, None
-        
-        except Exception as e:
-            st.error(f"Error in custom_cell_selection: {e}")
-            return None, None, None
-    
-    if selected_rows and len(selected_rows) > 0:
-        detailed_scores, machine, column = custom_cell_selection(selected_rows, selected_columns)
-    else:
+
+        if selected_rows and len(selected_rows) > 0:
+            detailed_scores, machine, column = custom_cell_selection(selected_rows, selected_columns)
+        else:
+            detailed_scores, machine, column = None, None, None
+
+    except Exception as e:
+        st.error(f"Error processing cell selection: {e}")
         detailed_scores, machine, column = None, None, None
 
-except Exception as e:
-    st.error(f"Error processing cell selection: {e}")
-    detailed_scores, machine, column = None, None, None
-    
     # Detailed Scores Section
     if detailed_scores is not None and not detailed_scores.empty:
         with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
             gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
             gb_details.configure_default_column(flex=1, resizable=True)
             grid_options_details = gb_details.build()
-            
-            AgGrid(detailed_scores, 
-                   gridOptions=grid_options_details, 
-                   height=300, 
-                   fit_columns_on_grid_load=True)
-    
+
+            AgGrid(
+                detailed_scores,
+                gridOptions=grid_options_details,
+                height=300,
+                fit_columns_on_grid_load=True
+            )
+
     # Team Player Statistics Section
     with st.expander(f"{selected_team} Player Statistics at {selected_venue} - Season(s) {seasons_str}", expanded=True):
-        AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
-    
+        AgGrid(
+            st.session_state["team_player_stats"],
+            height=400,
+            fit_columns_on_grid_load=True
+        )
+
     # TWC Player Statistics Section
     with st.expander(f"TWC Player Statistics at {selected_venue} - Season(s) {seasons_str}", expanded=True):
-        AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
-    
+        AgGrid(
+            st.session_state["twc_player_stats"],
+            height=400,
+            fit_columns_on_grid_load=True
+        )
+
     # Download button for the Excel file
     st.download_button(
         label="Download Excel file",
@@ -1232,8 +1248,10 @@ except Exception as e:
         file_name="final_stats.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
+
 else:
     st.write("Press 'Kellanate' to Kellanate.")
+
 
 
 ##############################################
