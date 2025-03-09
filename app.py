@@ -778,11 +778,14 @@ def calculate_stats(df, machine, team_name=None, pick_flag='is_pick'):
     Returns:
     dict: Calculated statistics
     """
-    # Filter for the specific machine and team
-    machine_data = df[
-        (df['machine'] == machine) & 
-        (df['team'].str.strip().str.lower() == team_name.strip().lower())
-    ]
+    # Filter for the specific machine
+    machine_data = df[df['machine'] == machine]
+    
+    # Only apply team filter if team_name is provided
+    if team_name is not None:
+        machine_data = machine_data[
+            machine_data['team'].str.strip().str.lower() == team_name.strip().lower()
+        ]
     
     if len(machine_data) == 0:
         return {
@@ -796,8 +799,8 @@ def calculate_stats(df, machine, team_name=None, pick_flag='is_pick'):
     unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
     times_played = len(unique_games)
     
-    # For times_picked, count unique games where pick flag is True
-    times_picked = len(unique_games[unique_games[pick_flag] == True])
+    # For times_picked, only count if team_name is provided
+    times_picked = len(unique_games[unique_games[pick_flag] == True]) if team_name is not None else 0
     
     # Calculate score statistics
     scores = machine_data['score'].tolist()
