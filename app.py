@@ -973,25 +973,25 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
 def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_process, is_twc=False, venue_specific=False):
     """
     Retrieve detailed scores for a specific machine and team.
-    
-    Parameters:
-    - all_data_df: DataFrame with all processed match data
-    - machine: Name of the machine to filter
-    - team_name: Name of the team to filter
-    - venue_name: Name of the venue to filter
-    - seasons_to_process: List of seasons to include
-    - is_twc: Boolean to determine if filtering for TWC or the main team
-    - venue_specific: Boolean to determine if venue should be filtered
-    
-    Returns:
-    DataFrame with detailed scores
     """
+    # Add a print statement to verify function is being called
+    print(f"get_detailed_scores called with:")
+    print(f"machine: {machine}")
+    print(f"team_name: {team_name}")
+    print(f"venue_name: {venue_name}")
+    print(f"seasons_to_process: {seasons_to_process}")
+    print(f"is_twc: {is_twc}")
+    print(f"venue_specific: {venue_specific}")
+
     # Filter the data based on parameters
     filtered_df = all_data_df[
         (all_data_df['machine'] == machine) & 
         (all_data_df['team'] == team_name) & 
         (all_data_df['season'].isin(seasons_to_process))
     ]
+    
+    # Print the shape of filtered_df to see how many rows we have
+    print(f"Filtered DataFrame shape before further filtering: {filtered_df.shape}")
     
     # Apply venue filter if venue_specific is True
     if venue_specific:
@@ -1002,6 +1002,9 @@ def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_
         filtered_df = filtered_df[filtered_df['is_pick_twc'] == True]
     else:
         filtered_df = filtered_df[filtered_df['is_pick'] == True]
+    
+    # Print the final filtered DataFrame shape
+    print(f"Final filtered DataFrame shape: {filtered_df.shape}")
     
     # Select and rename columns in the specified order
     detailed_scores = filtered_df[['player_name', 'score', 'venue', 'season']]
@@ -1014,6 +1017,10 @@ def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_
     
     # Sort by Player, Score
     detailed_scores = detailed_scores.sort_values(['Player', 'Score'], ascending=[True, False])
+    
+    # Print the detailed scores
+    print("Detailed Scores:")
+    print(detailed_scores)
     
     return detailed_scores
 
