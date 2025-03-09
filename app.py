@@ -277,17 +277,23 @@ all_machines_from_data = get_all_machines(repo_dir)
 # Initialize persistent column configuration if not already set.
 if "column_config" not in st.session_state:
     default_twcs = True if selected_venue.lower() == "georgetown pizza and arcade" else False
+    
+    # Use min and max of seasons_to_process to create a tuple for seasons
+    min_season = min(seasons_to_process) if seasons_to_process else 20
+    max_season = max(seasons_to_process) if seasons_to_process else 21
+    seasons_tuple = (min_season, max_season)
+    
     st.session_state.column_config = {
-         'Team Average': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'TWC Average': {'include': True, 'seasons': (20, 21), 'venue_specific': default_twcs, 'backfill': False},
-         'Venue Average': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'Team Highest Score': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         '% of V. Avg.': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'TWC % V. Avg.': {'include': True, 'seasons': (20, 21), 'venue_specific': default_twcs, 'backfill': False},
-         'Times Played': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'TWC Times Played': {'include': True, 'seasons': (20, 21), 'venue_specific': default_twcs, 'backfill': False},
-         'Times Picked': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'TWC Times Picked': {'include': True, 'seasons': (20, 21), 'venue_specific': default_twcs, 'backfill': False}
+         'Team Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'Venue Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'Team Highest Score': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         '% of V. Avg.': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC % V. Avg.': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False}
     }
 
 # Toggle Column Options display.
@@ -306,9 +312,15 @@ if st.session_state.column_options_open:
             include_column = st.checkbox(f"{col}", value=config.get("include", True), key=f"inc_{col}")
         with col2:
             venue_spec = st.checkbox("Venue Specific", value=config.get("venue_specific", False), key=f"vs_{col}")
+        
+        # Use min and max of seasons_to_process to ensure consistency
+        min_season = min(seasons_to_process) if seasons_to_process else 20
+        max_season = max(seasons_to_process) if seasons_to_process else 21
+        seasons_tuple = (min_season, max_season)
+        
         updated_config[col] = {
             'include': include_column,
-            'seasons': config['seasons'],  # Assume seasons/backfill remain unchanged.
+            'seasons': seasons_tuple,  # Always use the global seasons setting
             'venue_specific': venue_spec,
             'backfill': config['backfill']
         }
@@ -1160,11 +1172,13 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             
             # Get the configuration for the selected column
             column_config = st.session_state.column_config.get(selected_col, {})
-            seasons = column_config.get('seasons', (20, 21))  # Default seasons if not specified
             venue_specific = column_config.get('venue_specific', False)
             
-            # Apply season filtering
-            filtered = filtered[filtered['season'].between(seasons[0], seasons[1])]
+            # Always use the global seasons_to_process for filtering
+            if seasons_to_process:
+                min_season = min(seasons_to_process)
+                max_season = max(seasons_to_process)
+                filtered = filtered[filtered['season'].between(min_season, max_season)]
             
             # Apply venue filtering if the column is venue-specific
             if venue_specific:
@@ -1194,7 +1208,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             
             # Log the filtering process for debugging
             st.write(f"Applied filters: Machine: {machine}, Column: {selected_col}")
-            st.write(f"Config: Venue-specific: {venue_specific}, Seasons: {seasons}")
+            st.write(f"Config: Venue-specific: {venue_specific}, Seasons: {min_season}-{max_season}")
             st.write(f"Filtered data contains {len(filtered)} rows")
             
             if not filtered.empty:
@@ -1222,6 +1236,8 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 )
             else:
                 st.write("No detailed data available for this selection after applying all filters.")
+        else:
+            st.write("No detailed data available in debug outputs.")
     
     # Checkbox to toggle display of player statistics
     if st.checkbox("Show Player Stats", key="player_stats_toggle"):
