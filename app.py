@@ -993,32 +993,98 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
     return result_df, debug_outputs, team_player_stats, twc_player_stats
 
 
-
 ##############################################
-# Section 12: "Kellanate" Button, Persistent Output & Detailed Scores
+# Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
-from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
+from st_aggrid import AgGrid, GridOptionsBuilder, ColumnsAutoSizeMode, JsCode
+import pandas as pd
+from io import BytesIO
 
-# Custom cell renderer for clickable cells
-cell_renderer = JsCode("""
-class ClickableCellRenderer {
+# Define a custom cell renderer that marks a cell on click and clears previous markers.
+ImprovedCellRenderer = JsCode("""
+class ClickCellRenderer {
     init(params) {
         this.params = params;
+        this.gridApi = params.api;
+        this.value = params.value;
+        this.originalValue = params.value;
+        
+        // Create a container for the cell content
         this.eGui = document.createElement('div');
-        this.eGui.innerHTML = params.value;
+        
+        // Add an attribute to identify if this cell is selected
+        this.eGui.setAttribute('data-cell-id', `${params.column.colId}_${params.rowIndex}`);
+        
+        // Store the machine name if this is in the Machine column
+        if (params.column.colId === 'Machine') {
+            this.eGui.setAttribute('data-machine', params.value);
+        }
+        
+        // Set the cell content and styling
+        this.refreshCell();
+        
+        // Add click event listener
         this.eGui.addEventListener('click', this.onClick.bind(this));
     }
     
-    onClick(event) {
-        // Dispatch a custom event with cell details
-        const cellClickEvent = new CustomEvent('cellClicked', {
-            detail: {
-                rowData: this.params.data,
-                colDef: this.params.colDef,
-                value: this.params.value
+    refreshCell() {
+        // Check if this cell is currently marked as selected (has the [SELECTED] prefix)
+        const isSelected = typeof this.value === 'string' && this.value.startsWith('[SELECTED]');
+        
+        // Set class based on selection state
+        if (isSelected) {
+            this.eGui.classList.add('cell-selected');
+            this.eGui.innerHTML = `<div style="background-color: #d9edf7; padding: 4px; border: 2px solid #31708f; font-weight: bold;">
+                ${this.originalValue}
+            </div>`;
+        } else {
+            this.eGui.classList.remove('cell-selected');
+            this.eGui.innerHTML = `<div style="padding: 4px;">
+                ${this.originalValue}
+            </div>`;
+        }
+    }
+    
+    clearAllSelections() {
+        // Get all grid cells
+        const allRows = this.gridApi.getCellRendererInstances();
+        if (!allRows || allRows.length === 0) return;
+        
+        // Go through all cell instances
+        allRows.forEach(cellComp => {
+            if (cellComp && cellComp.getFrameworkComponentInstance) {
+                const instance = cellComp.getFrameworkComponentInstance();
+                // Clear selected status if found
+                if (instance && typeof instance.value === 'string' && instance.value.startsWith('[SELECTED]')) {
+                    instance.value = instance.originalValue;
+                    instance.refreshCell();
+                }
             }
         });
-        window.dispatchEvent(cellClickEvent);
+        
+        // Force grid to refresh
+        this.gridApi.refreshCells({ force: true });
+    }
+    
+    onClick(event) {
+        // Clear all previous selections
+        this.clearAllSelections();
+        
+        // Mark this cell as selected 
+        this.value = '[SELECTED]' + this.originalValue;
+        
+        // Update the cell appearance
+        this.refreshCell();
+        
+        // Force a value update for Streamlit to detect
+        this.params.setValue(this.value);
+        
+        // Force cell refresh
+        this.gridApi.refreshCells({
+            force: true,
+            columns: [this.params.column],
+            rowNodes: [this.gridApi.getRowNode(this.params.rowIndex)]
+        });
     }
     
     getGui() {
@@ -1026,163 +1092,148 @@ class ClickableCellRenderer {
     }
     
     refresh(params) {
-        this.params = params;
-        this.eGui.innerHTML = params.value;
+        // Update value and refresh if needed
+        if (this.value !== params.value) {
+            this.value = params.value;
+            this.refreshCell();
+        }
         return true;
+    }
+    
+    destroy() {
+        // Clean up event listener when cell is destroyed
+        this.eGui.removeEventListener('click', this.onClick);
     }
 }
 """)
-
-# Process data when "Kellanate" is pressed
+# Process data when "Kellanate" is pressed.
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
-        # Clear any previous cell selection
-        if 'selected_cell' in st.session_state:
-            del st.session_state.selected_cell
-        
-        # Process data
         all_data = load_all_json_files(repo_dir, seasons_to_process)
         result_df, debug_outputs, team_player_stats, twc_player_stats = main(
             all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
         )
-        
-        # Store results in session state
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
-        st.session_state["all_data_df"] = debug_outputs.get('all_data')
 
-        # Create Excel file for download
+        # Create an Excel file for download.
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
             team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
             twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
-        
         st.session_state["processed_excel"] = output.getvalue()
         st.session_state["debug_outputs"] = debug_outputs
         st.session_state["kellanate_output"] = True
-    
     st.success("Data processed successfully!")
 
-# Display output if processing has completed
+# Display output if processing has completed.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
-    # Prepare the result DataFrame
-    result_df_reset = st.session_state["result_df"].reset_index(drop=True)
-    
-    # Seasons string formatting
-    seasons_str = f"{seasons_to_process[0]}-{seasons_to_process[-1]}" if len(seasons_to_process) > 1 else str(seasons_to_process[0])
-    
-    # Configure AgGrid with custom cell renderer
-    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
-    gb.configure_default_column(
-        flex=1, 
-        resizable=True, 
-        cellRenderer=cell_renderer
-    )
-    gb.configure_column("Machine", pinned='left', flex=1)
-    grid_options = gb.build()
-    
-    # Close button to clear session
+    # Close button to clear session.
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
-            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", "processed_excel", "debug_outputs", "selected_cell"]:
+            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", "processed_excel", "debug_outputs"]:
                 st.session_state.pop(key, None)
             st.rerun()
+
+    result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Display Machine Statistics
-    st.markdown(f"### Machine Statistics for {selected_team} @ {selected_venue} - Season(s) {seasons_str}")
+    # Configure AgGrid with the improved cell renderer applied to every column
+    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
+    gb.configure_default_column(flex=1, resizable=True)
+    gb.configure_column("Machine", pinned='left', flex=1)
     
-    # Render AgGrid with custom cell click handling
-    grid_return = AgGrid(
+    # Apply the improved cell renderer to each column
+    for col in result_df_reset.columns:
+        gb.configure_column(col, cellRenderer=ImprovedCellRenderer)
+    
+    grid_options = gb.build()
+    
+    st.markdown("### Machine Statistics")
+    response = AgGrid(
         result_df_reset, 
         gridOptions=grid_options, 
         height=400, 
         fit_columns_on_grid_load=True,
         allow_unsafe_jscode=True,
-        js_event_handler="""
-        function(params) {
-            window.addEventListener('cellClicked', function(e) {
-                // Send the event details back to Streamlit
-                window.ReactDOM.render(
-                    window.React.createElement('div', {
-                        'data-cell-clicked': JSON.stringify(e.detail)
-                    }),
-                    document.getElementById('cell-click-data')
-                );
-            });
-            return true;
-        }
-        """
+        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS
     )
     
-    # Create a div to capture cell click data
-    st.markdown('<div id="cell-click-data"></div>', unsafe_allow_html=True)
+    # Create a placeholder for debug output
+    debug_placeholder = st.empty()
     
-    # JavaScript to retrieve cell click data
-    cell_click_script = """
-    var cellClickDiv = document.getElementById('cell-click-data');
-    var cellClickData = cellClickDiv.getAttribute('data-cell-clicked');
-    cellClickData || null;
-    """
-    cell_click_data = st.components.v1.html(f'<script>{cell_click_script}</script>', height=0, width=0)
+    # Parse the returned dataframe for clicked cells (those with [SELECTED] prefix)
+    df_out = response["data"]
+    clicked_cells = []
+    for col in df_out.columns:
+        for idx in df_out.index:
+            val = df_out.at[idx, col]
+            if isinstance(val, str) and val.startswith("[SELECTED]"):
+                # Extract the original value (remove the [SELECTED] prefix)
+                original_val = val.replace("[SELECTED]", "")
+                clicked_cells.append({
+                    "column": col,
+                    "row_index": idx,
+                    "value": original_val,
+                    "machine": df_out.at[idx, "Machine"]
+                })
     
-    # Process cell click data
-    if cell_click_data and isinstance(cell_click_data, str):
-        try:
-            clicked_data = json.loads(cell_click_data)
-            
-            # Extract machine and column
-            machine = clicked_data['rowData']['Machine']
-            column = clicked_data['colDef']['field']
-            
-            # Retrieve full processed data
-            all_data_df = st.session_state.get("all_data_df")
-            
-            if all_data_df is not None and not all_data_df.empty:
-                # Filter for the selected machine
-                filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
-                
-                # Filter further based on the clicked column
-                if column.startswith("Team"):
-                    filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
-                elif column.startswith("TWC"):
-                    filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
-                
-                # Reorder and format columns
-                detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
-                detailed_df.columns = ["Player", "Score", "Venue", "Season"]
-                
-                # Format score with commas
-                if "Score" in detailed_df.columns:
-                    detailed_df["Score"] = detailed_df["Score"].apply(lambda x: f"{x:,.0f}" if pd.notnull(x) else x)
-                
-                # Display detailed scores
-                st.markdown(f"### Detailed Scores for {machine} ({column})")
-                AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
+    # Display debug info about clicked cells
+    if clicked_cells:
+        debug_placeholder.write("Selected cell:")
+        debug_placeholder.write(clicked_cells)
         
-        except Exception as e:
-            st.error(f"Error processing cell click: {e}")
+        # Use the first clicked cell for detailed view
+        cell_info = clicked_cells[0]
+        machine = cell_info["machine"]
+        selected_col = cell_info["column"]
+        
+        st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
+        
+        # Retrieve full processed data
+        all_data_df = st.session_state["debug_outputs"].get("all_data")
+        if all_data_df is not None and not all_data_df.empty:
+            # Filter for the selected machine
+            filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
+            
+            # Filter further based on the clicked column
+            if selected_col.startswith("Team"):
+                filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().str.lower()]
+            elif selected_col.startswith("TWC"):
+                filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
+            
+            # Reorder columns and format scores with commas
+            detailed_df = filtered[["player_name", "score", "venue", "season"]].copy()
+            if "score" in detailed_df.columns:
+                detailed_df["score"] = detailed_df["score"].apply(lambda x: f"{x:,.0f}" if pd.notnull(x) else x)
+            
+            st.markdown("### Detailed Scores for Selected Cell")
+            AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
+        else:
+            st.write("No detailed data available.")
+    else:
+        debug_placeholder.write("No cell selected. Click on a cell to view detailed information.")
     
-    # Player statistics toggle
+    # Rest of the code (player stats, download button, etc.) remains the same
+    # Checkbox to toggle display of player statistics.
     if st.checkbox("Show Player Stats", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
         AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
-        
         st.markdown(f"### TWC Player Statistics at {selected_venue}")
         AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
-    # Download button for Excel file
+    # Download button for the Excel file.
     st.download_button(
         label="Download Excel file",
         data=st.session_state["processed_excel"],
         file_name="final_stats.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
-
 else:
     st.write("Press 'Kellanate' to Kellanate.")
+
 ##############################################
 # Section 12.5: Optional Debug Outputs Toggle
 ##############################################
