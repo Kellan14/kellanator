@@ -1201,6 +1201,9 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 # Create a copy with all the columns we want to display
                 detailed_df = filtered[["player_name", "score", "team", "venue", "season"]].copy()
                 
+                # Make sure score is numeric for proper sorting
+                detailed_df['score'] = pd.to_numeric(detailed_df['score'], errors='coerce')
+                
                 # Sort by score descending BEFORE formatting with commas
                 detailed_df = detailed_df.sort_values(by="score", ascending=False)
                 
