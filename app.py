@@ -1008,7 +1008,7 @@ if st.button("Kellanate", key="kellanate_btn"):
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
         
-        # Create Excel file with multiple sheets
+        # Create Excel file with multiple sheets.
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
@@ -1068,6 +1068,18 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     if "selected_machine" in st.session_state and "selected_column" in st.session_state:
         st.write(f"Selected Machine: {st.session_state.selected_machine}")
         st.write(f"Selected Column: {st.session_state.selected_column}")
+    
+    # NEW: Checkbox to show unique players (extracted from debug_outputs "all_data")
+    if st.checkbox("Show Unique Players", key="unique_players_toggle"):
+        if "debug_outputs" in st.session_state:
+            all_data_df = st.session_state["debug_outputs"].get("all_data")
+            if all_data_df is not None and not all_data_df.empty:
+                # Get unique players from the 'player_name' column.
+                unique_players = all_data_df["player_name"].unique()
+                unique_players_df = pd.DataFrame({"Player": unique_players})
+                st.dataframe(unique_players_df)
+            else:
+                st.write("No player data available.")
     
     # Display the player statistics tables.
     st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
