@@ -666,7 +666,10 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
     processed_data = []
     recent_machines = set(included_machines_for_venue or [])
     overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
-    current_limits = get_score_limits()  # Use user-defined score limits from the database
+    current_limits = get_score_limits()
+
+    # Get abbreviations for all teams
+    team_abbrs = {team: abbr.lower() for team, abbr in team_abbr_dict.items()}
 
     for match in all_data:
         match_venue = match['venue']['name']
@@ -674,27 +677,19 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
         home_team = match['home']['name']
         away_team = match['away']['name']
 
-        # Determine the selected team's role based on the match.
-        if team_name == home_team:
-            selected_team_role = "home"
-        elif team_name == away_team:
-            selected_team_role = "away"
-        else:
-            # Fallback if team_name does not match either team (should not happen)
-            selected_team_role = "away"
-
-        # TWC's role is the opposite of the selected team.
-        twc_role = "home" if selected_team_role == "away" else "away"
-
-        # Define pick rounds based on role:
-        # Away picks in rounds 1 and 3; Home picks in rounds 2 and 4.
-        selected_team_pick_rounds = [1, 3] if selected_team_role == "away" else [2, 4]
-        twc_pick_rounds = [1, 3] if twc_role == "away" else [2, 4]
+        # Determine pick rounds for each team
+        team_pick_rounds = {}
+        for team in [home_team, away_team]:
+            team_abbr = team_abbrs.get(team, '').lower()
+            # Away team picks in rounds 1 and 3, home team in rounds 2 and 4
+            team_pick_rounds[team] = [1, 3] if team == away_team else [2, 4]
 
         for round_info in match['rounds']:
             round_number = round_info['n']
-            team_picks_this_round = set()
-            twc_picks_this_round = set()
+            
+            # Track picks for each team
+            team_picks_this_round = {team: set() for team in [home_team, away_team]}
+
             for game in round_info['games']:
                 machine = standardize_machine_name(game.get('machine', '').lower())
                 if not machine:
@@ -704,22 +699,16 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     if not excluded_machines_for_venue or machine not in excluded_machines_for_venue:
                         recent_machines.add(machine)
 
-                is_team_pick = False
-                is_twc_pick = False
-
-                # Flag a pick for the selected team if the round is one of its pick rounds.
-                if machine not in team_picks_this_round and round_number in selected_team_pick_rounds:
-                    is_team_pick = True
-                    team_picks_this_round.add(machine)
-
-                # Independently, flag a pick for TWC if the round is one of its pick rounds.
-                if machine not in twc_picks_this_round and round_number in twc_pick_rounds:
-                    is_twc_pick = True
-                    twc_picks_this_round.add(machine)
-
-                # Ensure that both flags cannot be True simultaneously for the same game.
-                if is_team_pick and is_twc_pick:
-                    is_twc_pick = False
+                # Mark picks for each team
+                for team in [home_team, away_team]:
+                    team_abbr = team_abbrs.get(team, '').lower()
+                    is_team_pick = (
+                        machine not in team_picks_this_round[team] and 
+                        round_number in team_pick_rounds[team]
+                    )
+                    
+                    if is_team_pick:
+                        team_picks_this_round[team].add(machine)
 
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
@@ -731,6 +720,16 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         continue
                     player_name = get_player_name(player_key, match)
                     player_team = home_team if any(player['key'] == player_key for player in match['home']['lineup']) else away_team
+                    
+                    # Generate pick flags for each team
+                    team_pick_flags = {}
+                    for team in [home_team, away_team]:
+                        team_abbr = team_abbrs.get(team, '').lower()
+                        team_pick_flags[f'is_{team_abbr}_pick'] = (
+                            machine in team_picks_this_round[team] and 
+                            round_number in team_pick_rounds[team]
+                        )
+
                     processed_data.append({
                         'season': season,
                         'machine': machine,
@@ -741,14 +740,14 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'round': round_number,
                         'game_number': game['n'],
                         'venue': match_venue,
-                        # This "picked_by" remains for reference – it reflects the team that was designated to pick for that round.
                         'picked_by': away_team if round_number in [1, 3] else home_team,
-                        'is_pick': is_team_pick,
-                        'is_pick_twc': is_twc_pick,
+                        'is_pick': player_team == away_team if round_number in [1, 3] else player_team == home_team,
+                        'is_pick_twc': team_pick_flags.get('is_twc_pick', False),
+                        **team_pick_flags,  # Add all team-specific pick flags
                         'is_roster_player': is_roster_player(player_name, player_team, team_roster)
                     })
-    return pd.DataFrame(processed_data), recent_machines
 
+    return pd.DataFrame(processed_data), recent_machines
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
