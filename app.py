@@ -995,85 +995,154 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
 
 
 ##############################################
-# Section 12: "Kellanate" Button, Persistent Output & Excel Download
+# Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
+from st_aggrid import AgGrid, GridOptionsBuilder, ColumnsAutoSizeMode, JsCode
+import pandas as pd
+from io import BytesIO
+
+# Define a custom cell renderer (this adds a clickable icon to toggle a marker)
+BtnCellRenderer = JsCode(
+    """
+class BtnCellRenderer {
+    init(params) {
+        this.params = params;
+        this.eGui = document.createElement('div');
+        this.eGui.style.position = 'relative';
+        if (String(this.params.value).includes('[clicked]')) {
+            this.params.value = this.params.value.replace('[clicked]','');
+            this.params.originalValue = this.params.value;
+            this.makeButton('📍');
+        } else {
+            this.params.originalValue = this.params.value;
+            this.makeButton('🔍');
+        }
+    }
+    makeButton(symbol) {
+        this.destroy();
+        this.eGui.innerHTML = `
+            <span id='click-button' style="position: absolute; left: 0; top: 50%; transform: translateY(-50%);">
+                ${symbol}
+            </span>
+            <span style="margin-left: 24px;">${this.params.value}</span>`;
+        this.eButton = this.eGui.querySelector('#click-button');
+        this.btnClickedHandler = this.btnClickedHandler.bind(this);
+        this.eButton.addEventListener('click', this.btnClickedHandler);
+    }
+    getGui() { return this.eGui; }
+    refresh() { return true; }
+    destroy() {
+        if (this.eButton) { this.eGui.removeEventListener('click', this.btnClickedHandler); }
+    }
+    refreshTable(value) { this.params.setValue(value); }
+    btnClickedHandler(event) {
+        if(String(this.params.getValue()).includes('[clicked]')) {
+            this.refreshTable(this.params.originalValue);
+            this.makeButton('🔍');
+        } else {
+            this.refreshTable('[clicked]'+this.params.originalValue);
+            this.makeButton('📍');
+        }
+    }
+};
+"""
+)
+
+# Process data when Kellanate is pressed.
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
         all_data = load_all_json_files(repo_dir, seasons_to_process)
         result_df, debug_outputs, team_player_stats, twc_player_stats = main(
             all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
         )
-        # Store results in session state so they persist.
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
-        
-        # Create Excel file with multiple sheets.
+
+        # Create an Excel file for download.
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
             team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
             twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
-            
         st.session_state["processed_excel"] = output.getvalue()
         st.session_state["debug_outputs"] = debug_outputs
         st.session_state["kellanate_output"] = True
     st.success("Data processed successfully!")
 
-# Only display the output if results exist.
+# Display output if processing has completed.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
-    # Display a row with an "X" button to close the output.
+    # Provide a close button.
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
-            st.session_state.pop("kellanate_output", None)
-            st.session_state.pop("result_df", None)
-            st.session_state.pop("team_player_stats", None)
-            st.session_state.pop("twc_player_stats", None)
-            st.session_state.pop("processed_excel", None)
-            st.session_state.pop("debug_outputs", None)
+            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", "processed_excel", "debug_outputs"]:
+                st.session_state.pop(key, None)
             st.rerun()
-            
-    # Reset index to hide it.
+
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Define the callback function for cell clicks.
-    def on_cell_clicked(event):
-        row = event.get('data', {})
-        column = event.get('colDef', {}).get('field', None)
-        if row and column:
-            # Assume the row contains a 'Machine' field.
-            machine = row.get('Machine')
-            # Save the selected machine and column in session state.
-            st.session_state.selected_machine = machine
-            st.session_state.selected_column = column
-
-    # Configure AgGrid with flex sizing for the main results.
+    # Configure AgGrid. Here we apply the custom cell renderer to "Team Average" as an example.
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     gb.configure_default_column(flex=1, resizable=True)
     gb.configure_column("Machine", pinned='left', flex=1)
-    gridOptions = gb.build()
+    gb.configure_column("Team Average", cellRenderer=BtnCellRenderer)  # Apply custom renderer here
+    grid_options = gb.build()
     
-    # Display the DataFrame with AgGrid and include the cell click callback.
     st.markdown("### Machine Statistics")
-    AgGrid(
+    response = AgGrid(
         result_df_reset, 
-        gridOptions=gridOptions, 
+        gridOptions=grid_options, 
         height=400, 
         fit_columns_on_grid_load=True,
-        on_cell_clicked=on_cell_clicked
+        allow_unsafe_jscode=True,
+        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS
     )
     
-    # Display the selected cell's machine and column information underneath the grid.
-    if "selected_machine" in st.session_state and "selected_column" in st.session_state:
-        st.write(f"Selected Machine: {st.session_state.selected_machine}")
-        st.write(f"Selected Column: {st.session_state.selected_column}")
+    # Parse the returned dataframe for cells that have the "[clicked]" marker.
+    df_out = response["data"]
+    clicked_cells = []
+    for col in df_out.columns:
+        for idx in df_out.index:
+            val = df_out.at[idx, col]
+            if isinstance(val, str) and val.startswith("[clicked]"):
+                clicked_cells.append((col, idx))
     
-    # Checkbox to show/hide the player statistics grids.
+    st.subheader("Selected cells (from custom cell renderer)")
+    st.write(clicked_cells)
+    
+    # If a cell has been marked as clicked, use its information to retrieve detailed scores.
+    if clicked_cells:
+        # For this example, use the first clicked cell.
+        selected_col, selected_idx = clicked_cells[0]
+        # Get the machine from the clicked row.
+        machine = result_df_reset.loc[selected_idx, "Machine"]
+        st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
+        
+        # Retrieve the complete processed data (debug_outputs['all_data'] should contain the full dataset)
+        all_data_df = st.session_state["debug_outputs"].get("all_data")
+        if all_data_df is not None and not all_data_df.empty:
+            # Filter based on machine.
+            filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
+            # Further filter based on the clicked column:
+            # For example, if the column starts with "Team", filter for selected_team;
+            # if it starts with "TWC", filter for "The Wrecking Crew"; otherwise, no extra filtering.
+            if selected_col.startswith("Team"):
+                filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
+            elif selected_col.startswith("TWC"):
+                filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
+            # Select only the desired columns in the specified order.
+            detailed_df = filtered[["player_name", "score", "venue", "season"]]
+            
+            st.markdown("### Detailed Scores for Selected Cell")
+            AgGrid(detailed_df, height=300, fit_columns_on_grid_load=True)
+        else:
+            st.write("No detailed data available.")
+    
+    # Checkbox to toggle display of player statistics.
     if st.checkbox("Show Player Stats", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
         AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
-        
         st.markdown(f"### TWC Player Statistics at {selected_venue}")
         AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
@@ -1086,7 +1155,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
-
 
 
 ##############################################
