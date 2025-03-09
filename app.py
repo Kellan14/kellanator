@@ -13,7 +13,7 @@ import time
 import re
 import requests
 from bs4 import BeautifulSoup
-from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
+from st_aggrid import AgGrid, GridOptionsBuilder
 
 # Import database helper functions (ensure you have db_helper.py in your repo)
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
@@ -970,60 +970,6 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
     
     return team_table, twc_table
 
-def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_process, is_twc=False, venue_specific=False):
-    """
-    Retrieve detailed scores for a specific machine and team.
-    """
-    # Use st.write for debugging in Streamlit Cloud
-    st.write(f"get_detailed_scores called with:")
-    st.write(f"machine: {machine}")
-    st.write(f"team_name: {team_name}")
-    st.write(f"venue_name: {venue_name}")
-    st.write(f"seasons_to_process: {seasons_to_process}")
-    st.write(f"is_twc: {is_twc}")
-    st.write(f"venue_specific: {venue_specific}")
-
-    # Filter the data based on parameters
-    filtered_df = all_data_df[
-        (all_data_df['machine'] == machine) & 
-        (all_data_df['team'] == team_name) & 
-        (all_data_df['season'].isin(seasons_to_process))
-    ]
-    
-    # Show the shape of filtered_df
-    st.write(f"Filtered DataFrame shape before further filtering: {filtered_df.shape}")
-    
-    # Apply venue filter if venue_specific is True
-    if venue_specific:
-        filtered_df = filtered_df[filtered_df['venue'] == venue_name]
-    
-    # If TWC is selected, use the TWC-specific pick flag
-    if is_twc:
-        filtered_df = filtered_df[filtered_df['is_pick_twc'] == True]
-    else:
-        filtered_df = filtered_df[filtered_df['is_pick'] == True]
-    
-    # Show the final filtered DataFrame shape
-    st.write(f"Final filtered DataFrame shape: {filtered_df.shape}")
-    
-    # Select and rename columns in the specified order
-    detailed_scores = filtered_df[['player_name', 'score', 'venue', 'season']]
-    detailed_scores = detailed_scores.rename(columns={
-        'player_name': 'Player', 
-        'score': 'Score', 
-        'venue': 'Venue', 
-        'season': 'Season'
-    })
-    
-    # Sort by Player, Score
-    detailed_scores = detailed_scores.sort_values(['Player', 'Score'], ascending=[True, False])
-    
-    # Show the detailed scores
-    st.write("Detailed Scores:")
-    st.write(detailed_scores)
-    
-    return detailed_scores
-
 def main(all_data, selected_team, selected_venue, team_roster, column_config):
     team_name = selected_team
     twc_team_name = "The Wrecking Crew"
@@ -1044,152 +990,72 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         all_data_df, team_name, selected_venue, seasons_to_process, team_roster
     )
     
-    return all_data_df, result_df, debug_outputs, team_player_stats, twc_player_stats
+    return result_df, debug_outputs, team_player_stats, twc_player_stats
 
 
 
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output & Excel Download
 ##############################################
-
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
         all_data = load_all_json_files(repo_dir, seasons_to_process)
-        all_data_df, result_df, debug_outputs, team_player_stats, twc_player_stats = main(
-            all_data,
-            selected_team,
-            selected_venue,
-            st.session_state.roster_data,
-            st.session_state["column_config"]
+        result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+            all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
         )
         # Store results in session state so they persist.
-        st.session_state["all_data_df"] = all_data_df
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
-
-        # Create Excel file with multiple sheets.
+        
+        # Create Excel file with multiple sheets
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
             team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
             twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
-
+            
         st.session_state["processed_excel"] = output.getvalue()
         st.session_state["debug_outputs"] = debug_outputs
         st.session_state["kellanate_output"] = True
-
     st.success("Data processed successfully!")
 
-
-def on_cell_clicked(event):
-    """
-    Callback to handle cell clicks.
-    It retrieves detailed scores for the clicked cell and then reorders the columns
-    to: Player name, score, venue, season.
-    """
-    row = event.get('data', {})
-    column = event.get('colDef', {}).get('field', None)
-    if not row or not column:
-        st.warning("No valid cell click event detected.")
-        return
-
-    machine = row.get('Machine', None)
-    if not machine:
-        st.warning("Machine not found in the selected row.")
-        return
-
-    # Determine team and TWC status based on the column name.
-    is_twc_column = column.startswith('TWC')
-    team_name = "The Wrecking Crew" if is_twc_column else selected_team
-
-    # Check for venue-specific configuration.
-    column_config = st.session_state.get("column_config", {})
-    venue_specific = column_config.get(column, {}).get('venue_specific', False)
-
-    # Retrieve detailed scores.
-    detailed_scores = get_detailed_scores(
-        st.session_state["all_data_df"],
-        machine.lower(),
-        team_name,
-        selected_venue,
-        seasons_to_process,
-        is_twc=is_twc_column,
-        venue_specific=venue_specific
-    )
-
-    if detailed_scores is not None and not detailed_scores.empty:
-        # Reorder columns to: "Player name", "score", "venue", "season"
-        required_cols = ["Player name", "score", "venue", "season"]
-        existing_cols = detailed_scores.columns.tolist()
-        if all(col in existing_cols for col in required_cols):
-            detailed_scores = detailed_scores[required_cols]
-        else:
-            missing = [col for col in required_cols if col not in existing_cols]
-            st.error(f"Cannot reorder columns. Missing columns: {missing}")
-            return
-
-        with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
-            gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
-            gb_details.configure_default_column(flex=1, resizable=True)
-            grid_options_details = gb_details.build()
-            AgGrid(
-                detailed_scores,
-                gridOptions=grid_options_details,
-                height=300,
-                fit_columns_on_grid_load=True
-            )
-    else:
-        st.info("No detailed scores available for this selection.")
-
-
+# Only display the output if results exist.
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
+    # Display a row with an "X" button to close the output.
+    col1, col2 = st.columns([0.9, 0.1])
+    with col2:
+        if st.button("X", key="close_kellanate_output"):
+            st.session_state.pop("kellanate_output", None)
+            st.session_state.pop("result_df", None)
+            st.session_state.pop("team_player_stats", None)
+            st.session_state.pop("twc_player_stats", None)
+            st.session_state.pop("processed_excel", None)
+            st.session_state.pop("debug_outputs", None)
+            st.rerun()
     # Reset index to hide it.
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
-    seasons_str = (
-        f"{seasons_to_process[0]}-{seasons_to_process[-1]}"
-        if len(seasons_to_process) > 1
-        else str(seasons_to_process[0])
-    )
-
-    # Machine Statistics Section.
-    with st.expander(f"Machine Statistics for {selected_team} @ {selected_venue} - Season(s) {seasons_str}", expanded=True):
-        gb = GridOptionsBuilder.from_dataframe(result_df_reset)
-        gb.configure_default_column(flex=1, resizable=True)
-        gb.configure_column("Machine", pinned='left', flex=1)
-        gridOptions = gb.build()
-
-        grid_return = AgGrid(
-            result_df_reset,
-            gridOptions=gridOptions,
-            height=400,
-            fit_columns_on_grid_load=True,
-            allow_unsafe_jscode=True,
-            update_mode=GridUpdateMode.SELECTION_CHANGED,
-            enable_enterprise_modules=True,
-            on_cell_clicked=on_cell_clicked
-        )
-
-        st.write("Grid Return Structure:", grid_return)
-        selected_rows = grid_return.get('selected_rows') or []
-        st.write("Selected Rows:", selected_rows)
-
-    # Team Player Statistics Section.
-    with st.expander(f"{selected_team} Player Statistics at {selected_venue} - Season(s) {seasons_str}", expanded=True):
-        team_stats = st.session_state.get("team_player_stats")
-        if team_stats is not None and not team_stats.empty:
-            AgGrid(team_stats, height=400, fit_columns_on_grid_load=True)
-        else:
-            st.write("Team player statistics data not available.")
-
-    # TWC Player Statistics Section.
-    with st.expander(f"TWC Player Statistics at {selected_venue} - Season(s) {seasons_str}", expanded=True):
-        twc_stats = st.session_state.get("twc_player_stats")
-        if twc_stats is not None and not twc_stats.empty:
-            AgGrid(twc_stats, height=400, fit_columns_on_grid_load=True)
-        else:
-            st.write("TWC player statistics data not available.")
-
+    
+    # Configure AgGrid with flex sizing for the main results.
+    from st_aggrid import AgGrid, GridOptionsBuilder
+    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
+    # Set flex property to auto-size columns relative to available space.
+    gb.configure_default_column(flex=1, resizable=True)
+    # Pin the "Machine" column to the left.
+    gb.configure_column("Machine", pinned='left', flex=1)
+    gridOptions = gb.build()
+    
+    # Display the DataFrame with AgGrid.
+    st.markdown("### Machine Statistics")
+    AgGrid(result_df_reset, gridOptions=gridOptions, height=400, fit_columns_on_grid_load=True)
+    
+    # Display the player statistics tables
+    st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
+    AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+    
+    st.markdown(f"### TWC Player Statistics at {selected_venue}")
+    AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
+    
     # Download button for the Excel file.
     st.download_button(
         label="Download Excel file",
@@ -1199,6 +1065,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
+
 
 ##############################################
 # Section 12.5: Optional Debug Outputs Toggle
@@ -1230,6 +1097,5 @@ if st.checkbox("Debug Info", key="debug_info_toggle"):
             st.write(f"**DEBUG: No team abbreviation found for {selected_team}.**")
     else:
         st.write("**DEBUG: Team roster data is not available.**")
-
 
 
