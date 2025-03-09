@@ -1082,27 +1082,27 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     
     # Function to handle cell selection
     def on_cell_select(selected_rows, selected_columns):
-    # Create a placeholder for debugging information
-    debug_placeholder = st.empty()
-    
+        # Create a placeholder for debugging information
+        debug_placeholder = st.empty()
+        
         try:
             # Check if we have rows and columns selected
             if not selected_rows or not selected_columns:
                 debug_placeholder.error("No rows or columns were selected.")
                 return
-    
+
             # Extract machine and column
             machine = selected_rows[0]['Machine']
             column = selected_columns[0]
-    
+
             # Determine team and TWC status
             is_twc_column = column.startswith('TWC')
             team_name = "The Wrecking Crew" if is_twc_column else selected_team
-    
+
             # Check venue-specific setting
             column_config = st.session_state.get("column_config", {})
             venue_specific = column_config.get(column, {}).get('venue_specific', False)
-    
+
             # Retrieve detailed scores
             detailed_scores = get_detailed_scores(
                 st.session_state["all_data_df"], 
@@ -1113,12 +1113,12 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 is_twc=is_twc_column,
                 venue_specific=venue_specific
             )
-    
+
             # Check if we have any detailed scores
             if detailed_scores.empty:
                 debug_placeholder.info(f"No detailed scores found for {machine} in {column}")
                 return
-    
+
             # Create an expander for the detailed scores
             with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
                 # Configure AgGrid for detailed scores
@@ -1130,14 +1130,14 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                        gridOptions=grid_options_details, 
                        height=300, 
                        fit_columns_on_grid_load=True)
-    
+
         except Exception as e:
             # Catch and display any errors that occur
             debug_placeholder.error(f"An error occurred: {e}")
             # Optionally, you can also log the full traceback
             import traceback
             st.error(traceback.format_exc())
-
+    
     # Configure AgGrid with cell selection enabled
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     gb.configure_default_column(flex=1, resizable=True)
