@@ -974,14 +974,14 @@ def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_
     """
     Retrieve detailed scores for a specific machine and team.
     """
-    # Add a print statement to verify function is being called
-    print(f"get_detailed_scores called with:")
-    print(f"machine: {machine}")
-    print(f"team_name: {team_name}")
-    print(f"venue_name: {venue_name}")
-    print(f"seasons_to_process: {seasons_to_process}")
-    print(f"is_twc: {is_twc}")
-    print(f"venue_specific: {venue_specific}")
+    # Use st.write for debugging in Streamlit Cloud
+    st.write(f"get_detailed_scores called with:")
+    st.write(f"machine: {machine}")
+    st.write(f"team_name: {team_name}")
+    st.write(f"venue_name: {venue_name}")
+    st.write(f"seasons_to_process: {seasons_to_process}")
+    st.write(f"is_twc: {is_twc}")
+    st.write(f"venue_specific: {venue_specific}")
 
     # Filter the data based on parameters
     filtered_df = all_data_df[
@@ -990,8 +990,8 @@ def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_
         (all_data_df['season'].isin(seasons_to_process))
     ]
     
-    # Print the shape of filtered_df to see how many rows we have
-    print(f"Filtered DataFrame shape before further filtering: {filtered_df.shape}")
+    # Show the shape of filtered_df
+    st.write(f"Filtered DataFrame shape before further filtering: {filtered_df.shape}")
     
     # Apply venue filter if venue_specific is True
     if venue_specific:
@@ -1003,8 +1003,8 @@ def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_
     else:
         filtered_df = filtered_df[filtered_df['is_pick'] == True]
     
-    # Print the final filtered DataFrame shape
-    print(f"Final filtered DataFrame shape: {filtered_df.shape}")
+    # Show the final filtered DataFrame shape
+    st.write(f"Final filtered DataFrame shape: {filtered_df.shape}")
     
     # Select and rename columns in the specified order
     detailed_scores = filtered_df[['player_name', 'score', 'venue', 'season']]
@@ -1018,9 +1018,9 @@ def get_detailed_scores(all_data_df, machine, team_name, venue_name, seasons_to_
     # Sort by Player, Score
     detailed_scores = detailed_scores.sort_values(['Player', 'Score'], ascending=[True, False])
     
-    # Print the detailed scores
-    print("Detailed Scores:")
-    print(detailed_scores)
+    # Show the detailed scores
+    st.write("Detailed Scores:")
+    st.write(detailed_scores)
     
     return detailed_scores
 
@@ -1082,78 +1082,61 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     
     # Function to handle cell selection
     def on_cell_select(selected_rows, selected_columns):
-        try:
-            st.write("### Debug: Cell Selection Started")
-            st.write(f"Selected Rows: {selected_rows}")
-            st.write(f"Selected Columns: {selected_columns}")
+    # Create a placeholder for debugging information
+    debug_placeholder = st.empty()
+    
+    try:
+        # Check if we have rows and columns selected
+        if not selected_rows or not selected_columns:
+            debug_placeholder.error("No rows or columns were selected.")
+            return
 
-            # Verify session state contents
-            st.write("### Debug: Session State Verification")
-            st.write(f"all_data_df present: {'all_data_df' in st.session_state}")
-            st.write(f"column_config present: {'column_config' in st.session_state}")
+        # Extract machine and column
+        machine = selected_rows[0]['Machine']
+        column = selected_columns[0]
 
-            if not selected_rows or not selected_columns:
-                st.error("No rows or columns selected")
-                return
+        # Determine team and TWC status
+        is_twc_column = column.startswith('TWC')
+        team_name = "The Wrecking Crew" if is_twc_column else selected_team
 
-            machine = selected_rows[0]['Machine']
-            column = selected_columns[0]
+        # Check venue-specific setting
+        column_config = st.session_state.get("column_config", {})
+        venue_specific = column_config.get(column, {}).get('venue_specific', False)
 
-            st.write(f"### Debug: Selected Machine: {machine}")
-            st.write(f"### Debug: Selected Column: {column}")
+        # Retrieve detailed scores
+        detailed_scores = get_detailed_scores(
+            st.session_state["all_data_df"], 
+            machine.lower(), 
+            team_name, 
+            selected_venue, 
+            seasons_to_process,
+            is_twc=is_twc_column,
+            venue_specific=venue_specific
+        )
 
-            # Check column configuration
-            column_config = st.session_state.get("column_config", {})
-            st.write(f"Column Config for {column}: {column_config.get(column, 'Not Found')}")
+        # Check if we have any detailed scores
+        if detailed_scores.empty:
+            debug_placeholder.info(f"No detailed scores found for {machine} in {column}")
+            return
 
-            # Determine if it's a TWC column
-            is_twc_column = column.startswith('TWC')
+        # Create an expander for the detailed scores
+        with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
+            # Configure AgGrid for detailed scores
+            gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
+            gb_details.configure_default_column(flex=1, resizable=True)
+            grid_options_details = gb_details.build()
             
-            # Check venue-specific setting
-            venue_specific = column_config.get(column, {}).get('venue_specific', False)
+            AgGrid(detailed_scores, 
+                   gridOptions=grid_options_details, 
+                   height=300, 
+                   fit_columns_on_grid_load=True)
 
-            st.write(f"### Debug: Is TWC Column: {is_twc_column}")
-            st.write(f"### Debug: Venue Specific: {venue_specific}")
-
-            # Retrieve detailed scores
-            detailed_scores = get_detailed_scores(
-                st.session_state["all_data_df"], 
-                machine.lower(), 
-                "The Wrecking Crew" if is_twc_column else selected_team, 
-                selected_venue, 
-                seasons_to_process,
-                is_twc=is_twc_column,
-                venue_specific=venue_specific
-            )
-
-            st.write(f"### Debug: Detailed Scores Shape: {detailed_scores.shape}")
-            st.write(f"### Debug: Detailed Scores First Few Rows:\n{detailed_scores.head()}")
-
-            # Display detailed scores if any exist
-            # In the on_cell_select function, replace the detailed scores display with:
-            if not detailed_scores.empty:
-                # Determine column label for display
-                column_label = f"{machine} ({column})"
-                if venue_specific:
-                    column_label += f" @ {selected_venue}"
-                
-                with st.expander(f"Detailed Scores for {column_label}", expanded=True):
-                    # Configure AgGrid with flex sizing for detailed scores
-                    gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
-                    gb_details.configure_default_column(flex=1, resizable=True)
-                    grid_options_details = gb_details.build()
-                    
-                    AgGrid(detailed_scores, 
-                           gridOptions=grid_options_details, 
-                           height=300, 
-                           fit_columns_on_grid_load=True)
-            else:
-                st.info("No detailed scores found for this selection.")
-
-        except Exception as e:
-            st.error(f"An error occurred: {e}")
-            import traceback
-            st.error(traceback.format_exc())
+    except Exception as e:
+        # Catch and display any errors that occur
+        debug_placeholder.error(f"An error occurred: {e}")
+        # Optionally, you can also log the full traceback
+        import traceback
+        st.error(traceback.format_exc())
 
     # Configure AgGrid with cell selection enabled
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
