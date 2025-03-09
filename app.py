@@ -1132,8 +1132,25 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             return None, None, None
         
         # Check if a cell was selected and retrieve detailed scores
-        selected_rows = grid_return['selected_rows']
-        detailed_scores, machine, column = custom_cell_selection(selected_rows, grid_return['selected_columns']) if selected_rows else (None, None, None)
+        try:
+            selected_rows = grid_return['selected_rows']
+            selected_columns = grid_return.get('selected_columns', [])
+            
+            # Print out the structure of grid_return for debugging
+            st.write("Grid Return Structure:")
+            st.write(grid_return)
+            
+            # Debugging prints
+            st.write("Selected Rows:", selected_rows)
+            st.write("Selected Columns:", selected_columns)
+            
+            if selected_rows and len(selected_rows) > 0:
+                detailed_scores, machine, column = custom_cell_selection(selected_rows, selected_columns)
+            else:
+                detailed_scores, machine, column = None, None, None
+        except Exception as e:
+            st.error(f"Error processing cell selection: {e}")
+            detailed_scores, machine, column = None, None, None
     
     # Detailed Scores Section
     if detailed_scores is not None and not detailed_scores.empty:
