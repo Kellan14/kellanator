@@ -1102,12 +1102,33 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             update_mode=GridUpdateMode.SELECTION_CHANGED
         )
         
-        # Custom function to handle cell selection
-        def custom_cell_selection(selected_rows, selected_columns):
-            if selected_rows and selected_columns:
-                # Extract machine and column
-                machine = selected_rows[0]['Machine']
-                column = selected_columns[0]
+        # Check if a cell was selected and retrieve detailed scores
+try:
+    selected_rows = grid_return['selected_rows']
+    selected_columns = grid_return.get('selected_columns', [])
+    
+    # Print out the structure of grid_return for debugging
+    st.write("Grid Return Structure:")
+    st.write(grid_return)
+    
+    # Debugging prints
+    st.write("Selected Rows:", selected_rows)
+    st.write("Selected Columns:", selected_columns)
+    
+    def custom_cell_selection(selected_rows, selected_columns):
+        try:
+            if selected_rows and isinstance(selected_columns, list) and len(selected_columns) > 0:
+                try:
+                    machine = selected_rows[0]['Machine']
+                except (KeyError, IndexError):
+                    st.error("Error extracting machine from selected row.")
+                    return None, None, None
+                
+                try:  
+                    column = selected_columns[0]
+                except IndexError:
+                    st.error("Error extracting column from selected columns.")
+                    return None, None, None
                 
                 # Determine team and TWC status
                 is_twc_column = column.startswith('TWC')
@@ -1129,28 +1150,22 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 )
                 
                 return detailed_scores, machine, column
-            return None, None, None
-        
-        # Check if a cell was selected and retrieve detailed scores
-        try:
-            selected_rows = grid_return['selected_rows']
-            selected_columns = grid_return.get('selected_columns', [])
-            
-            # Print out the structure of grid_return for debugging
-            st.write("Grid Return Structure:")
-            st.write(grid_return)
-            
-            # Debugging prints
-            st.write("Selected Rows:", selected_rows)
-            st.write("Selected Columns:", selected_columns)
-            
-            if selected_rows and len(selected_rows) > 0:
-                detailed_scores, machine, column = custom_cell_selection(selected_rows, selected_columns)
             else:
-                detailed_scores, machine, column = None, None, None
+                st.error("No valid cell selection.")
+                return None, None, None
+        
         except Exception as e:
-            st.error(f"Error processing cell selection: {e}")
-            detailed_scores, machine, column = None, None, None
+            st.error(f"Error in custom_cell_selection: {e}")
+            return None, None, None
+    
+    if selected_rows and len(selected_rows) > 0:
+        detailed_scores, machine, column = custom_cell_selection(selected_rows, selected_columns)
+    else:
+        detailed_scores, machine, column = None, None, None
+
+except Exception as e:
+    st.error(f"Error processing cell selection: {e}")
+    detailed_scores, machine, column = None, None, None
     
     # Detailed Scores Section
     if detailed_scores is not None and not detailed_scores.empty:
