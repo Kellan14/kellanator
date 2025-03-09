@@ -13,7 +13,7 @@ import time
 import re
 import requests
 from bs4 import BeautifulSoup
-from st_aggrid import AgGrid, GridOptionsBuilder
+from st_aggrid import AgGrid, GridOptionsBuilder, JsCode, ColumnsAutoSizeMode
 
 # Import database helper functions (ensure you have db_helper.py in your repo)
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
