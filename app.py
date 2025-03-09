@@ -768,23 +768,22 @@ def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
 def calculate_stats(df, machine, team_name=None, pick_flag='is_pick'):
     """
     Calculate statistics for a given machine from the provided DataFrame.
-    Optionally filter by team name.
+    Specifically filters by team name for times played and times picked.
     
     Parameters:
     df (DataFrame): The input dataframe
     machine (str): Machine name to filter by
-    team_name (str, optional): Team name to further filter the data
+    team_name (str): Team name to filter by
     pick_flag (str): Flag to use for picking calculation
     
     Returns:
     dict: Calculated statistics
     """
-    # Filter for the specific machine
-    machine_data = df[df['machine'] == machine]
-    
-    # If team_name is provided, additional filtering
-    if team_name:
-        machine_data = machine_data[machine_data['team'].str.strip().str.lower() == team_name.strip().lower()]
+    # Filter for the specific machine and team
+    machine_data = df[
+        (df['machine'] == machine) & 
+        (df['team'].str.strip().str.lower() == team_name.strip().lower())
+    ]
     
     if len(machine_data) == 0:
         return {
@@ -911,9 +910,6 @@ def format_value(value, backfilled_season=None):
     return formatted
 
 def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name, column_config):
-    """
-    Build the final result DataFrame with team-specific calculations.
-    """
     data = []
     for machine in sorted(recent_machines):
         row = {'Machine': machine.title()}
@@ -924,7 +920,6 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
             venue_specific = config.get('venue_specific', False)
             roster_only = True if column.startswith('Team') or column.startswith('TWC') else False
 
-            # Determine team and pick flag based on column prefix
             if column.startswith('Team'):
                 target_team = team_name
                 pick_flag = 'is_pick'
@@ -935,10 +930,10 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
                 target_team = None
                 pick_flag = 'is_pick'
             
-            # Filter the data
+            # Filter the data first
             filtered_df = filter_data(df, target_team, seasons, venue_name if venue_specific else None, roster_only=roster_only)
             
-            # Calculate stats specific to the team for this machine
+            # Calculate stats for specific team and machine
             stats = calculate_stats(filtered_df, machine, team_name=target_team, pick_flag=pick_flag)
             
             value = np.nan
@@ -960,7 +955,7 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
             else:
                 row[column] = "N/A"
         
-        # Percentage calculations remain the same
+        # Percentage calculations
         def safe_get(key):
             v = row.get(key, "N/A")
             try:
