@@ -1089,7 +1089,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         gb = GridOptionsBuilder.from_dataframe(result_df_reset)
         gb.configure_default_column(flex=1, resizable=True)
         gb.configure_column("Machine", pinned='left', flex=1)
-        gb.configure_selection(selection_mode='single', use_checkbox=False)
         gridOptions = gb.build()
         
         # Display the machine statistics
@@ -1099,9 +1098,48 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             height=400, 
             fit_columns_on_grid_load=True,
             allow_unsafe_jscode=True,
-            update_mode=GridUpdateMode.SELECTION_CHANGED
+            update_mode=GridUpdateMode.SELECTION_CHANGED,
+            enable_enterprise_modules=True,
+            on_cell_clicked=on_cell_clicked
         )
-        
+        # Custom function to handle cell selection
+def on_cell_clicked(event):
+    row = event['data']
+    column = event['colDef']['field']
+    
+    machine = row['Machine']
+    
+    # Determine team and TWC status
+    is_twc_column = column.startswith('TWC')
+    team_name = "The Wrecking Crew" if is_twc_column else selected_team
+    
+    # Check venue-specific setting
+    column_config = st.session_state.get("column_config", {})
+    venue_specific = column_config.get(column, {}).get('venue_specific', False)
+    
+    # Retrieve detailed scores
+    detailed_scores = get_detailed_scores(
+        st.session_state["all_data_df"], 
+        machine.lower(), 
+        team_name, 
+        selected_venue, 
+        seasons_to_process,
+        is_twc=is_twc_column,
+        venue_specific=venue_specific
+    )
+    
+    # Display detailed scores
+    if detailed_scores is not None and not detailed_scores.empty:
+        with st.expander(f"Detailed Scores for {machine} ({column})", expanded=True):
+            gb_details = GridOptionsBuilder.from_dataframe(detailed_scores)
+            gb_details.configure_default_column(flex=1, resizable=True)
+            grid_options_details = gb_details.build()
+            
+            AgGrid(detailed_scores, 
+                   gridOptions=grid_options_details, 
+                   height=300, 
+                   fit_columns_on_grid_load=True)
+            
         # Check if a cell was selected and retrieve detailed scores
 try:
     selected_rows = grid_return['selected_rows']
