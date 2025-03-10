@@ -1041,65 +1041,71 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     seasons = config.get('seasons', (1, 9999))
     venue_specific = config.get('venue_specific', False)
     
+    # Convert input strings to lowercase for case-insensitive comparison
+    machine_lower = machine.lower() if isinstance(machine, str) else ""
+    team_name_lower = team_name.lower().strip() if isinstance(team_name, str) else ""
+    twc_team_name_lower = twc_team_name.lower().strip() if isinstance(twc_team_name, str) else ""
+    venue_name_strip = venue_name.strip() if isinstance(venue_name, str) else ""
+    
     # Initial filter for the machine (always applied)
-    filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
+    filtered = all_data_df[all_data_df["machine"].str.lower() == machine_lower]
     
     # Apply column-specific filters
     if column == "Team Average":
         # Filter data for the selected team, roster players only
-        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
         filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
     elif column == "TWC Average":
         # Filter data for TWC, roster players only
-        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
         filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
     elif column == "Venue Average":
         # No team filtering, just venue and seasons
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
-        filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+        filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
     elif column == "Team Highest Score":
         # Filter data for the selected team, roster players only
-        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
         filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
     elif column == "Times Played":
         # Filter data for the selected team
-        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
         
         # Get unique games via groupby
         filtered = filtered.groupby(['match', 'round']).first().reset_index()
             
     elif column == "TWC Times Played":
         # Filter data for TWC
-        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
         # Get unique games via groupby
         filtered = filtered.groupby(['match', 'round']).first().reset_index()
             
     elif column == "Times Picked":
         # Filter data for the selected team
-        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
         # Get unique games first, then filter for picked games
         filtered = filtered.groupby(['match', 'round']).first().reset_index()
@@ -1107,10 +1113,10 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
             
     elif column == "TWC Times Picked":
         # Filter data for TWC
-        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
         # Get unique games first, then filter for picked games
         filtered = filtered.groupby(['match', 'round']).first().reset_index()
@@ -1118,19 +1124,19 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
             
     elif column == "% of V. Avg.":
         # Show the data that was used for Team Average
-        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
         filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
     elif column == "TWC % V. Avg.":
         # Show the data that was used for TWC Average
-        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name.strip().str.lower()]
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
         filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
-            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
     
     # Make sure score is numeric for proper sorting
     if "score" in filtered.columns:
