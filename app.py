@@ -1032,6 +1032,154 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
     
     return result_df, debug_outputs, team_player_stats, twc_player_stats
 
+def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config):
+    """
+    Returns detailed data for a specific column and machine.
+    Each column type has its own dedicated filtering logic to ensure consistency.
+    """
+    config = column_config.get(column, {})
+    seasons = config.get('seasons', (1, 9999))
+    venue_specific = config.get('venue_specific', False)
+    
+    # Initial filter for the machine (always applied)
+    filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
+    
+    # Apply column-specific filters
+    if column == "Team Average":
+        # Filter data for the selected team, roster players only
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            
+    elif column == "TWC Average":
+        # Filter data for TWC, roster players only
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name.strip().str.lower()]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            
+    elif column == "Venue Average":
+        # No team filtering, just venue and seasons
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            
+    elif column == "Team Highest Score":
+        # Filter data for the selected team, roster players only
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            
+    elif column == "Times Played":
+        # Filter data for the selected team
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+        
+        # Get unique games via groupby
+        filtered = filtered.groupby(['match', 'round']).first().reset_index()
+            
+    elif column == "TWC Times Played":
+        # Filter data for TWC
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name.strip().str.lower()]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            
+        # Get unique games via groupby
+        filtered = filtered.groupby(['match', 'round']).first().reset_index()
+            
+    elif column == "Times Picked":
+        # Filter data for the selected team
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            
+        # Get unique games first, then filter for picked games
+        filtered = filtered.groupby(['match', 'round']).first().reset_index()
+        filtered = filtered[filtered["is_pick"] == True]
+            
+    elif column == "TWC Times Picked":
+        # Filter data for TWC
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name.strip().str.lower()]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            
+        # Get unique games first, then filter for picked games
+        filtered = filtered.groupby(['match', 'round']).first().reset_index()
+        filtered = filtered[filtered["is_pick_twc"] == True]
+            
+    elif column == "% of V. Avg.":
+        # Show the data that was used for Team Average
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name.strip().str.lower()]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+            
+    elif column == "TWC % V. Avg.":
+        # Show the data that was used for TWC Average
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name.strip().str.lower()]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name.strip()]
+    
+    # Make sure score is numeric for proper sorting
+    if "score" in filtered.columns:
+        filtered['score'] = pd.to_numeric(filtered['score'], errors='coerce')
+        filtered = filtered.sort_values(by="score", ascending=False)
+    
+    return filtered
+
+# Update the cell click handling portion of Section 12
+def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue_name, column_config):
+    """
+    Handle a cell click in the main grid and return the appropriate detailed data.
+    """
+    column = clicked_cell["col"]
+    machine = clicked_cell["machine"]
+    
+    # Get detailed data using the column-specific logic
+    detailed_df = get_detailed_data_for_column(
+        all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config
+    )
+    
+    # Create a summary based on the column type
+    if "Average" in column:
+        avg_score = detailed_df["score"].mean() if not detailed_df.empty else 0
+        num_scores = len(detailed_df)
+        summary = f"{column}: {avg_score:,.2f} (based on {num_scores} scores)"
+    elif "Times" in column:
+        count = len(detailed_df)
+        summary = f"{column}: {count:,}"
+    elif "%" in column:
+        # For percentage columns, reference the related average columns
+        base_col = "Team Average" if column == "% of V. Avg." else "TWC Average"
+        avg_score = detailed_df["score"].mean() if not detailed_df.empty else 0
+        num_scores = len(detailed_df)
+        summary = f"{column} (based on {base_col}): {avg_score:,.2f} (from {num_scores} scores)"
+    else:
+        summary = f"Details for {column}: {machine}"
+    
+    # Format scores with commas for display
+    display_df = detailed_df.copy()
+    if "score" in display_df.columns:
+        display_df["score"] = display_df["score"].apply(
+            lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
+        )
+    
+    return display_df, {
+        "summary": summary,
+        "title": f"{column} for {machine}"
+    }
 
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
@@ -1104,7 +1252,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", 
                        "processed_excel", "debug_outputs", "last_click_time"]:
                 st.session_state.pop(key, None)
-            st.rerun()
+            st.rerun()  # Use st.rerun() instead of deprecated st.experimental_rerun()
 
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
@@ -1190,74 +1338,40 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         selected_col = most_recent_click["col"]
         machine = most_recent_click["machine"]
         
-        st.write(f"Detailed scores for Machine: {machine}, Statistic: {selected_col}")
-        
-        # Retrieve full processed data
+        # Get the all_data_df from debug_outputs
         all_data_df = st.session_state["debug_outputs"].get("all_data")
+        
         if all_data_df is not None and not all_data_df.empty:
-            # First filter by machine (always applied)
-            filtered = all_data_df[all_data_df["machine"].str.lower() == machine.lower()]
+            # Use our new column-specific handler function
+            detailed_df, details = get_detailed_data_for_column(
+                all_data_df, 
+                machine, 
+                selected_col, 
+                selected_team, 
+                "The Wrecking Crew", 
+                selected_venue, 
+                st.session_state["column_config"]
+            )
             
-            # Get the configuration for the selected column
-            column_config = st.session_state.column_config.get(selected_col, {})
-            venue_specific = column_config.get('venue_specific', False)
+            # Display the summary and title
+            st.markdown(f"### {details['title']}")
+            st.markdown(f"**{details['summary']}**")
             
-            # Always use the global seasons_to_process for filtering
-            if seasons_to_process:
-                min_season = min(seasons_to_process)
-                max_season = max(seasons_to_process)
-                filtered = filtered[filtered['season'].between(min_season, max_season)]
-            
-            # Apply venue filtering if the column is venue-specific
-            if venue_specific:
-                filtered = filtered[filtered['venue'].str.strip().str.lower() == selected_venue.strip().lower()]
-            
-            # Apply team-specific filtering based on column type
-            if selected_col.startswith("Team"):
-                filtered = filtered[filtered["team"].str.strip().str.lower() == selected_team.strip().lower()]
-                # If this is a roster-player only statistic
-                if column_config.get('roster_only', True):
-                    filtered = filtered[filtered['is_roster_player']]
-            elif selected_col.startswith("TWC"):
-                filtered = filtered[filtered["team"].str.strip().str.lower() == "the wrecking crew"]
-                # If this is a roster-player only statistic
-                if column_config.get('roster_only', True):
-                    filtered = filtered[filtered['is_roster_player']]
-            elif selected_col.startswith("Venue") or "V. Avg" in selected_col:
-                # No team filtering for venue columns - show all teams' data
-                pass
-            
-            # Handle special case columns (add more as needed)
-            if "Times Picked" in selected_col:
-                if selected_col.startswith("Team"):
-                    filtered = filtered[filtered['is_pick']]
-                elif selected_col.startswith("TWC"):
-                    filtered = filtered[filtered['is_pick_twc']]
-            
-            # Log the filtering process for debugging
-            st.write(f"Applied filters: Machine: {machine}, Column: {selected_col}")
-            st.write(f"Config: Venue-specific: {venue_specific}, Seasons: {min_season}-{max_season}")
-            st.write(f"Filtered data contains {len(filtered)} rows")
-            
-            if not filtered.empty:
-                # Create a copy with all the columns we want to display
-                detailed_df = filtered[["player_name", "score", "team", "venue", "season"]].copy()
-                
-                # Make sure score is numeric for proper sorting
-                detailed_df['score'] = pd.to_numeric(detailed_df['score'], errors='coerce')
-                
-                # Sort by score descending BEFORE formatting with commas
-                detailed_df = detailed_df.sort_values(by="score", ascending=False)
+            if not detailed_df.empty:
+                # Create a simplified display dataframe with relevant columns
+                display_cols = ["player_name", "score", "team", "venue", "season"]
+                display_cols = [col for col in display_cols if col in detailed_df.columns]
+                display_df = detailed_df[display_cols].copy()
                 
                 # Format scores with commas AFTER sorting
-                if "score" in detailed_df.columns:
-                    detailed_df["score"] = detailed_df["score"].apply(
+                if "score" in display_df.columns:
+                    display_df["score"] = display_df["score"].apply(
                         lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
                     )
                 
-                st.markdown("### Detailed Scores for Selected Cell")
+                # Display the detailed data
                 AgGrid(
-                    detailed_df, 
+                    display_df, 
                     height=300, 
                     fit_columns_on_grid_load=True,
                     key=f"detailed_grid_{most_recent_click['timestamp']}"  # Use timestamp in key for forced refresh
