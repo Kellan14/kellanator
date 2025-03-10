@@ -693,33 +693,31 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
 
         for round_info in match['rounds']:
             round_number = round_info['n']
-            team_picks_this_round = set()
-            twc_picks_this_round = set()
+            
+            # Determine who picks machines in this round
+            is_selected_team_pick_round = round_number in selected_team_pick_rounds
+            is_twc_pick_round = round_number in twc_pick_rounds
+            
+            # We'll track machines in this round to ensure we count each unique machine exactly once
+            machines_in_round = set()
+            
+            # Process all games in the round
             for game in round_info['games']:
                 machine = standardize_machine_name(game.get('machine', '').lower())
                 if not machine:
                     continue
 
+                # Add to recent machines list if appropriate
                 if season == overall_latest_season and match_venue == venue_name:
                     if not excluded_machines_for_venue or machine not in excluded_machines_for_venue:
                         recent_machines.add(machine)
 
-                is_team_pick = False
-                is_twc_pick = False
-
-                # Flag a pick for the selected team if the round is one of its pick rounds.
-                if machine not in team_picks_this_round and round_number in selected_team_pick_rounds:
-                    is_team_pick = True
-                    team_picks_this_round.add(machine)
-
-                # Independently, flag a pick for TWC if the round is one of its pick rounds.
-                if machine not in twc_picks_this_round and round_number in twc_pick_rounds:
-                    is_twc_pick = True
-                    twc_picks_this_round.add(machine)
-
-                # Ensure that both flags cannot be True simultaneously for the same game.
-                if is_team_pick and is_twc_pick:
-                    is_twc_pick = False
+                # Only count each machine once per round for pick statistics
+                is_team_pick = is_selected_team_pick_round and machine not in machines_in_round
+                is_twc_pick = is_twc_pick_round and machine not in machines_in_round
+                
+                # Add the machine to our tracking set
+                machines_in_round.add(machine)
 
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
@@ -748,7 +746,6 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'is_roster_player': is_roster_player(player_name, player_team, team_roster)
                     })
     return pd.DataFrame(processed_data), recent_machines
-
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
