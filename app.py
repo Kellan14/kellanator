@@ -1371,6 +1371,7 @@ def add_color_coding_to_grid(formatted_df):
     Special cases:
     - If team has stats but TWC doesn't: Dark red (strongest team advantage)
     - If TWC has stats but team doesn't: Dark green (strongest TWC advantage)
+    - If neither team has stats: Yellow (neutral 50/50)
     """
     df_with_colors = formatted_df.copy()
     
@@ -1403,9 +1404,10 @@ def add_color_coding_to_grid(formatted_df):
                (team_pct is None or pd.isna(team_pct) or team_pct == 0):
                 return "#008000"  # Darkest green
                 
-            # Handle missing or invalid data for both teams
-            if team_pct is None or twc_pct is None or pd.isna(team_pct) or pd.isna(twc_pct) or team_pct == 0 or twc_pct == 0:
-                return "#FFFFFF"  # White for N/A cases
+            # Special case 3: Neither team has stats - yellow (neutral 50/50)
+            if (team_pct is None or pd.isna(team_pct) or team_pct == 0) and \
+               (twc_pct is None or pd.isna(twc_pct) or twc_pct == 0):
+                return "#FFFF00"  # Yellow
             
             try:
                 # Calculate ratio between team and TWC
@@ -1443,17 +1445,17 @@ def add_color_coding_to_grid(formatted_df):
                     
                     return f"#{red:02x}{green:02x}{blue:02x}"
             except Exception as e:
-                # If any calculation error occurs, return white
-                return "#FFFFFF"
+                # If any calculation error occurs, return yellow as default
+                return "#FFFF00"  # Yellow
         
         # Apply the color calculation
         df_with_colors['_row_color'] = df_with_colors.apply(calculate_color, axis=1)
     else:
-        # If percentage columns are missing, use white for all rows
-        df_with_colors['_row_color'] = "#FFFFFF"
+        # If percentage columns are missing, use yellow for all rows
+        df_with_colors['_row_color'] = "#FFFF00"  # Yellow
     
     return df_with_colors
-
+    
 def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
     """
     Configure AgGrid with proper sorting and optional color coding.
