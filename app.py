@@ -1361,6 +1361,169 @@ def configure_grid_with_custom_comparators(result_df_reset):
     
     return grid_options, formatted_df
 
+def add_color_coding_to_grid(formatted_df):
+    """
+    Add a hidden column with color codes based on the difference between 
+    % of V. Avg. and TWC % V. Avg.
+    
+    Returns DataFrame with an added color coding column.
+    """
+    df_with_colors = formatted_df.copy()
+    
+    # Check if both percentage columns are present
+    if "% of V. Avg." in df_with_colors.columns and "TWC % V. Avg." in df_with_colors.columns:
+        # Extract numeric values from percentage strings
+        def extract_percent(val):
+            if isinstance(val, str) and "%" in val:
+                try:
+                    return float(val.replace("%", "").strip())
+                except:
+                    return None
+            return None
+        
+        df_with_colors['_team_pct'] = df_with_colors["% of V. Avg."].apply(extract_percent)
+        df_with_colors['_twc_pct'] = df_with_colors["TWC % V. Avg."].apply(extract_percent)
+        
+        # Calculate ratio and determine color
+        def calculate_color(row):
+            team_pct = row.get('_team_pct')
+            twc_pct = row.get('_twc_pct')
+            
+            # Handle missing or invalid data
+            if team_pct is None or twc_pct is None or pd.isna(team_pct) or pd.isna(twc_pct) or team_pct == 0 or twc_pct == 0:
+                return "#FFFFFF"  # White for N/A cases
+            
+            try:
+                # Calculate ratio between team and TWC
+                if twc_pct >= team_pct:
+                    ratio = twc_pct / team_pct
+                    # Scale from 1.0 (yellow) to 2.0 or higher (dark green)
+                    # Clamp ratio to max of 2.0 for color scaling
+                    clamped_ratio = min(ratio, 2.0)
+                    intensity = (clamped_ratio - 1.0) / 1.0  # 0.0 to 1.0
+                    
+                    # Green increases as TWC advantage increases (yellow to green)
+                    red = 255
+                    green = 255
+                    blue = 0
+                    
+                    # Transition from yellow (255,255,0) to green (0,128,0)
+                    red = int(255 * (1 - intensity))
+                    green = int(255 - (255 - 128) * intensity)
+                    
+                    return f"#{red:02x}{green:02x}{blue:02x}"
+                else:
+                    ratio = team_pct / twc_pct
+                    # Scale from 1.0 (yellow) to 2.0 or higher (dark red)
+                    # Clamp ratio to max of 2.0 for color scaling
+                    clamped_ratio = min(ratio, 2.0)
+                    intensity = (clamped_ratio - 1.0) / 1.0  # 0.0 to 1.0
+                    
+                    # Red increases as team advantage increases (yellow to red)
+                    red = 255
+                    green = 255
+                    blue = 0
+                    
+                    # Transition from yellow (255,255,0) to red (255,0,0)
+                    green = int(255 * (1 - intensity))
+                    
+                    return f"#{red:02x}{green:02x}{blue:02x}"
+            except Exception as e:
+                # If any calculation error occurs, return white
+                return "#FFFFFF"
+        
+        # Apply the color calculation
+        df_with_colors['_row_color'] = df_with_colors.apply(calculate_color, axis=1)
+    else:
+        # If percentage columns are missing, use white for all rows
+        df_with_colors['_row_color'] = "#FFFFFF"
+    
+    return df_with_colors
+
+def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
+    """
+    Configure AgGrid with proper sorting and optional color coding.
+    """
+    # First, format the DataFrame to have no decimals but keep commas
+    formatted_df = format_no_decimals_keep_commas(result_df_reset)
+    
+    # Add color coding if enabled
+    if use_color_coding:
+        formatted_df = add_color_coding_to_grid(formatted_df)
+    
+    # Custom comparator function for percentage columns
+    percentage_comparator = JsCode("""
+    function(valueA, valueB, nodeA, nodeB, isInverted) {
+        // Extract numeric values from the percentage strings
+        const numA = parseFloat(valueA.replace('%', ''));
+        const numB = parseFloat(valueB.replace('%', ''));
+        
+        // Handle NaN cases
+        if (isNaN(numA) && isNaN(numB)) return 0;
+        if (isNaN(numA)) return 1;
+        if (isNaN(numB)) return -1;
+        
+        // Standard numeric comparison
+        return numA - numB;
+    }
+    """)
+    
+    # Custom comparator for comma-formatted numbers (like "1,234")
+    number_comparator = JsCode("""
+    function(valueA, valueB, nodeA, nodeB, isInverted) {
+        // Remove commas and convert to numbers
+        const numA = parseFloat(valueA.replace(/,/g, ''));
+        const numB = parseFloat(valueB.replace(/,/g, ''));
+        
+        // Handle NaN and "N/A" cases
+        if (isNaN(numA) && isNaN(numB)) return 0;
+        if (isNaN(numA) || valueA === "N/A") return 1;
+        if (isNaN(numB) || valueB === "N/A") return -1;
+        
+        // Standard numeric comparison
+        return numA - numB;
+    }
+    """)
+    
+    # Configure grid options
+    gb = GridOptionsBuilder.from_dataframe(formatted_df)
+    gb.configure_default_column(flex=1, resizable=True)
+    gb.configure_column("Machine", pinned='left', flex=1)
+    
+    # Apply custom renderer and comparator to each column based on its type
+    for col in formatted_df.columns:
+        if col.startswith('_'):
+            # Hide helper columns
+            gb.configure_column(col, hide=True)
+        elif "%" in col:
+            # For percentage columns, use the percentage comparator
+            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=percentage_comparator)
+        elif "Times" in col or "Highest" in col or "Average" in col:
+            # For numeric columns with possible comma formatting, use the number comparator
+            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=number_comparator)
+        else:
+            # For other columns, just use the custom renderer
+            gb.configure_column(col, cellRenderer=BtnCellRenderer)
+    
+    # Add row styling if color coding is enabled
+    if use_color_coding:
+        gb.configure_grid_options(
+            getRowStyle=JsCode("""
+            function(params) {
+                if (params.data._row_color) {
+                    return {
+                        'background-color': params.data._row_color
+                    };
+                }
+                return null;
+            }
+            """)
+        )
+    
+    grid_options = gb.build()
+    
+    return grid_options, formatted_df
+
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
@@ -1436,10 +1599,22 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
 
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid with custom comparators and no decimals
-    grid_options, formatted_df = configure_grid_with_custom_comparators(result_df_reset)
+    # Add a prominent header and toggle for color coding
+    st.markdown(f"### {selected_team} @ {selected_venue}")
     
-    st.markdown("### Machine Statistics")
+    # Create a container for the toggle to ensure it appears
+    toggle_container = st.container()
+    with toggle_container:
+        use_color_coding = st.checkbox(
+            "Color code by advantage ratio", 
+            value=False,
+            key="color_toggle"
+        )
+    
+    # Configure AgGrid with custom comparators and optional color coding
+    grid_options, formatted_df = configure_grid_with_color_coding(result_df_reset, use_color_coding)
+    
+    # Display the AgGrid
     response = AgGrid(
         formatted_df, 
         gridOptions=grid_options, 
@@ -1447,7 +1622,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         fit_columns_on_grid_load=True,
         allow_unsafe_jscode=True,
         columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
-        key="main_grid"
+        key=f"main_grid_{use_color_coding}"  # Update key when toggle changes to force refresh
     )
     
     # Clear previous debug output and parse the returned dataframe for the clicked cell
@@ -1563,7 +1738,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             st.write("No detailed data available in debug outputs.")
     
     # Checkbox to toggle display of player statistics
-    if st.checkbox("Show Player Stats", key="player_stats_toggle"):
+    if st.checkbox("Show Unique Players", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
         AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
         st.markdown(f"### TWC Player Statistics at {selected_venue}")
