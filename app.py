@@ -13,7 +13,7 @@ import time
 import re
 import requests
 from bs4 import BeautifulSoup
-from st_aggrid import AgGrid, GridOptionsBuilder
+from st_aggrid import AgGrid, GridOptionsBuilder, JsCode, ColumnsAutoSizeMode
 
 # Import database helper functions (ensure you have db_helper.py in your repo)
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
@@ -277,17 +277,23 @@ all_machines_from_data = get_all_machines(repo_dir)
 # Initialize persistent column configuration if not already set.
 if "column_config" not in st.session_state:
     default_twcs = True if selected_venue.lower() == "georgetown pizza and arcade" else False
+    
+    # Use min and max of seasons_to_process to create a tuple for seasons
+    min_season = min(seasons_to_process) if seasons_to_process else 20
+    max_season = max(seasons_to_process) if seasons_to_process else 21
+    seasons_tuple = (min_season, max_season)
+    
     st.session_state.column_config = {
-         'Team Average': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'TWC Average': {'include': True, 'seasons': (20, 21), 'venue_specific': default_twcs, 'backfill': False},
-         'Venue Average': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'Team Highest Score': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         '% of V. Avg.': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'TWC % V. Avg.': {'include': True, 'seasons': (20, 21), 'venue_specific': default_twcs, 'backfill': False},
-         'Times Played': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'TWC Times Played': {'include': True, 'seasons': (20, 21), 'venue_specific': default_twcs, 'backfill': False},
-         'Times Picked': {'include': True, 'seasons': (20, 21), 'venue_specific': True, 'backfill': False},
-         'TWC Times Picked': {'include': True, 'seasons': (20, 21), 'venue_specific': default_twcs, 'backfill': False}
+         'Team Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'Venue Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'Team Highest Score': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         '% of V. Avg.': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC % V. Avg.': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False}
     }
 
 # Toggle Column Options display.
@@ -306,9 +312,15 @@ if st.session_state.column_options_open:
             include_column = st.checkbox(f"{col}", value=config.get("include", True), key=f"inc_{col}")
         with col2:
             venue_spec = st.checkbox("Venue Specific", value=config.get("venue_specific", False), key=f"vs_{col}")
+        
+        # Use min and max of seasons_to_process to ensure consistency
+        min_season = min(seasons_to_process) if seasons_to_process else 20
+        max_season = max(seasons_to_process) if seasons_to_process else 21
+        seasons_tuple = (min_season, max_season)
+        
         updated_config[col] = {
             'include': include_column,
-            'seasons': config['seasons'],  # Assume seasons/backfill remain unchanged.
+            'seasons': seasons_tuple,  # Always use the global seasons setting
             'venue_specific': venue_spec,
             'backfill': config['backfill']
         }
@@ -681,33 +693,31 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
 
         for round_info in match['rounds']:
             round_number = round_info['n']
-            team_picks_this_round = set()
-            twc_picks_this_round = set()
+            
+            # Determine who picks machines in this round
+            is_selected_team_pick_round = round_number in selected_team_pick_rounds
+            is_twc_pick_round = round_number in twc_pick_rounds
+            
+            # We'll track machines in this round to ensure we count each unique machine exactly once
+            machines_in_round = set()
+            
+            # Process all games in the round
             for game in round_info['games']:
                 machine = standardize_machine_name(game.get('machine', '').lower())
                 if not machine:
                     continue
 
+                # Add to recent machines list if appropriate
                 if season == overall_latest_season and match_venue == venue_name:
                     if not excluded_machines_for_venue or machine not in excluded_machines_for_venue:
                         recent_machines.add(machine)
 
-                is_team_pick = False
-                is_twc_pick = False
-
-                # Flag a pick for the selected team if the round is one of its pick rounds.
-                if machine not in team_picks_this_round and round_number in selected_team_pick_rounds:
-                    is_team_pick = True
-                    team_picks_this_round.add(machine)
-
-                # Independently, flag a pick for TWC if the round is one of its pick rounds.
-                if machine not in twc_picks_this_round and round_number in twc_pick_rounds:
-                    is_twc_pick = True
-                    twc_picks_this_round.add(machine)
-
-                # Ensure that both flags cannot be True simultaneously for the same game.
-                if is_team_pick and is_twc_pick:
-                    is_twc_pick = False
+                # Only count each machine once per round for pick statistics
+                is_team_pick = is_selected_team_pick_round and machine not in machines_in_round
+                is_twc_pick = is_twc_pick_round and machine not in machines_in_round
+                
+                # Add the machine to our tracking set
+                machines_in_round.add(machine)
 
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
@@ -737,7 +747,6 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     })
     return pd.DataFrame(processed_data), recent_machines
 
-
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
     if team:
@@ -751,53 +760,6 @@ def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
         # You can also do similar normalization for venue if needed
         filtered = filtered[filtered['venue'].str.strip() == venue.strip()]
     return filtered
-
-
-def calculate_stats(df, machine, pick_flag='is_pick'):
-    """
-    Calculate statistics for a given machine from the provided DataFrame.
-    Only rows matching the machine are considered.
-    times_picked is computed based on the given pick_flag (either 'is_pick' or 'is_pick_twc').
-    """
-    # Debug print to check data size
-    print(f"Total rows for machine '{machine}': {len(df[df['machine'] == machine])}")
-    
-    # Filter for the specific machine
-    machine_data = df[df['machine'] == machine].copy()
-    
-    if len(machine_data) == 0:
-        return {
-            'average': np.nan,
-            'highest': 0,
-            'times_played': 0,
-            'times_picked': 0
-        }
-    
-    # For debugging, examine unique match+round combinations
-    unique_combos = machine_data[['match', 'round']].drop_duplicates()
-    print(f"Unique match+round combinations for '{machine}': {len(unique_combos)}")
-    
-    # Calculate times_played more carefully
-    # Each unique match+round combination counts as one play
-    # Group by match and round to get unique games
-    machine_data['game_id'] = machine_data['match'] + '_R' + machine_data['round'].astype(str)
-    unique_games = machine_data[['game_id', pick_flag]].drop_duplicates()
-    times_played = len(unique_games)
-    
-    # For times_picked, we need unique games where the pick flag is True
-    times_picked = len(unique_games[unique_games[pick_flag] == True])
-    
-    # Calculate score statistics from all relevant scores
-    scores = machine_data['score'].tolist()
-    average = np.mean(scores) if scores else np.nan
-    highest = max(scores) if scores else 0
-    
-    return {
-        'average': average,
-        'highest': highest,
-        'times_played': times_played,
-        'times_picked': times_picked
-    }
 
 def backfill_stat(df, machine, team, seasons, venue_specific, stat_type, pick_flag='is_pick'):
     for season in range(seasons[0]-1, 0, -1):
@@ -818,67 +780,157 @@ def format_value(value, backfilled_season=None):
         formatted += f"*S{backfilled_season}"
     return formatted
 
+def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, venue_name, column_config):
+    """
+    Calculate statistics for a specific column and machine.
+    Each column type has its own dedicated calculation logic.
+    """
+    config = column_config.get(column, {})
+    seasons = config.get('seasons', (1, 9999))
+    venue_specific = config.get('venue_specific', False)
+    
+    # Handle each column type with its own specific logic
+    if column == "Team Average":
+        # Filter data for the selected team, roster players only
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get scores for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Calculate average score
+        average = np.mean(machine_data['score'].tolist())
+        return f"{average:,.2f}"
+        
+    elif column == "TWC Average":
+        # Filter data for TWC, roster players only
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get scores for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Calculate average score
+        average = np.mean(machine_data['score'].tolist())
+        return f"{average:,.2f}"
+        
+    elif column == "Venue Average":
+        # Filter by venue and seasons only (all teams)
+        filtered_df = filter_data(df, None, seasons, venue_name)
+        # Get scores for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Calculate average score
+        average = np.mean(machine_data['score'].tolist())
+        return f"{average:,.2f}"
+        
+    elif column == "Team Highest Score":
+        # Filter data for the selected team, roster players only
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get scores for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Get highest score
+        highest = max(machine_data['score'].tolist())
+        return f"{highest:,}"
+        
+    elif column == "Times Played":
+        # Filter data for the selected team
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Count unique games (match + round combinations)
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        times_played = len(unique_games)
+        return f"{times_played:,}"
+        
+    elif column == "TWC Times Played":
+        # Filter data for TWC
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Count unique games
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        times_played = len(unique_games)
+        return f"{times_played:,}"
+        
+    elif column == "Times Picked":
+        # Filter data for the selected team
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Get unique games first
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        # Then filter for games where this team picked
+        times_picked = len(unique_games[unique_games['is_pick'] == True])
+        return f"{times_picked:,}"
+        
+    elif column == "TWC Times Picked":
+        # Filter data for TWC
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Get unique games first
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        # Then filter for games where TWC picked
+        times_picked = len(unique_games[unique_games['is_pick_twc'] == True])
+        return f"{times_picked:,}"
+        
+    # Handle percentage columns directly
+    elif column == "% of V. Avg.":
+        # These values should be calculated after all the averages are computed
+        return "Calculated later"
+        
+    elif column == "TWC % V. Avg.":
+        # These values should be calculated after all the averages are computed
+        return "Calculated later"
+        
+    # Default case
+    return "N/A"
+
 def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name, column_config):
     """
-    Build the final result DataFrame.
-    For columns starting with 'Team', filter the DataFrame by the selected team and use the is_pick flag.
-    For columns starting with 'TWC', filter by TWC team and use the is_pick_twc flag.
-    If a column is not venue specific, then the venue filter is omitted.
+    Build the final result DataFrame with separate calculation logic for each column type.
     """
     data = []
     for machine in sorted(recent_machines):
         row = {'Machine': machine.title()}
+        
+        # Calculate each column individually
         for column, config in column_config.items():
             if not config.get('include', True):
                 continue
-            seasons = config.get('seasons', (1, 9999))
-            venue_specific = config.get('venue_specific', False)
-            # When roster_only is True, filter_data will further restrict the rows.
-            roster_only = True if column.startswith('Team') or column.startswith('TWC') else False
-
-            if column.startswith('Team'):
-                filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=roster_only)
-                pick_flag = 'is_pick'
-            elif column.startswith('TWC'):
-                filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=roster_only)
-                pick_flag = 'is_pick_twc'
-            else:
-                filtered_df = filter_data(df, None, seasons, venue_name if venue_specific else None, roster_only=roster_only)
-                pick_flag = 'is_pick'
-            
-            stats = calculate_stats(filtered_df, machine, pick_flag)
-            value = np.nan
-            if column == 'Team Highest Score':
-                value = stats['highest']
-            elif 'Average' in column:
-                value = stats['average']
-            elif 'Times Played' in column:
-                value = stats['times_played']
-            elif 'Times Picked' in column:
-                value = stats['times_picked']
-            
-            # (Backfill logic could be added here if needed)
-            if not np.isnan(value):
-                if 'Average' in column:
-                    formatted = f"{value:,.2f}"
-                else:
-                    formatted = f"{value:,}"
-                row[column] = formatted
-            else:
-                row[column] = "N/A"
-        # Calculate percentage columns (these assume the existence of "Team Average", "TWC Average", and "Venue Average")
+                
+            # Use dedicated calculation logic for each column
+            row[column] = calculate_stat_for_column(
+                df, machine, column, team_name, twc_team_name, venue_name, column_config
+            )
+        
+        # Calculate percentage columns after all averages are computed
         def safe_get(key):
             v = row.get(key, "N/A")
             try:
                 return float(v.replace(",", "").split("*")[0])
             except Exception:
                 return np.nan
+                
         team_avg = safe_get("Team Average")
         twc_avg = safe_get("TWC Average")
         venue_avg = safe_get("Venue Average")
+        
         row["% of V. Avg."] = f"{(team_avg / venue_avg * 100):.2f}%" if not np.isnan(team_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
         row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%" if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
+        
         data.append(row)
+        
     return pd.DataFrame(data)
 
 def generate_debug_outputs(df, team_name, twc_team_name, venue_name):
@@ -980,71 +1032,448 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
     
     return result_df, debug_outputs, team_player_stats, twc_player_stats
 
-
+def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config):
+    """
+    Returns detailed data for a specific column and machine.
+    Each column type has its own dedicated filtering logic to ensure consistency.
+    
+    Returns:
+    - filtered: DataFrame with the filtered data
+    - details: Dictionary with summary and title information
+    """
+    config = column_config.get(column, {})
+    seasons = config.get('seasons', (1, 9999))
+    venue_specific = config.get('venue_specific', False)
+    
+    # Convert input strings to lowercase for case-insensitive comparison
+    machine_lower = machine.lower() if isinstance(machine, str) else ""
+    team_name_lower = team_name.lower().strip() if isinstance(team_name, str) else ""
+    twc_team_name_lower = twc_team_name.lower().strip() if isinstance(twc_team_name, str) else ""
+    venue_name_strip = venue_name.strip() if isinstance(venue_name, str) else ""
+    
+    # Initial filter for the machine (always applied)
+    filtered = all_data_df[all_data_df["machine"].str.lower() == machine_lower]
+    
+    # Apply column-specific filters
+    if column == "Team Average":
+        # Filter data for the selected team, roster players only
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+            
+    elif column == "TWC Average":
+        # Filter data for TWC, roster players only
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+            
+    elif column == "Venue Average":
+        # No team filtering, just venue and seasons
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+            
+    elif column == "Team Highest Score":
+        # Filter data for the selected team, roster players only
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+            
+    elif column == "Times Played":
+        # Filter data for the selected team
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+        
+        # Get unique games via groupby to match the count
+        unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+        num_unique_games = len(unique_games)
+            
+    elif column == "TWC Times Played":
+        # Filter data for TWC
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+            
+        # Get unique games via groupby to match the count
+        unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+        num_unique_games = len(unique_games)
+            
+    elif column == "Times Picked":
+        # Filter data for the selected team
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+            
+        # First, identify the unique match+round combinations that were picked
+        unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+        picked_games = unique_games[unique_games["is_pick"] == True]
+        num_picked_games = len(picked_games)
+        
+        # Create a list of (match, round) tuples that were picked
+        picked_tuples = list(zip(picked_games['match'], picked_games['round']))
+        
+        # Filter to include only the team's scores from these match+round combinations
+        filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in picked_tuples, axis=1)]
+        
+        # Add a Pick Group column for clarity
+        filtered['Pick Group'] = filtered.apply(
+            lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+        )
+            
+    elif column == "TWC Times Picked":
+        # Filter data for TWC
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+            
+        # First, identify the unique match+round combinations that were picked
+        unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+        picked_games = unique_games[unique_games["is_pick_twc"] == True]
+        num_picked_games = len(picked_games)
+        
+        # Create a list of (match, round) tuples that were picked
+        picked_tuples = list(zip(picked_games['match'], picked_games['round']))
+        
+        # Filter to include only TWC's scores from these match+round combinations
+        filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in picked_tuples, axis=1)]
+        
+        # Add a Pick Group column for clarity
+        filtered['Pick Group'] = filtered.apply(
+            lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+        )
+            
+    elif column == "% of V. Avg.":
+        # Show the data that was used for Team Average
+        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+            
+    elif column == "TWC % V. Avg.":
+        # Show the data that was used for TWC Average
+        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
+        filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+    
+    # Make sure score is numeric for proper sorting
+    if "score" in filtered.columns:
+        filtered['score'] = pd.to_numeric(filtered['score'], errors='coerce')
+        
+    # Sort appropriately based on column type
+    if "Times Picked" in column and "Pick Group" in filtered.columns:
+        # For picked games, sort first by Pick Group, then by score (descending)
+        filtered = filtered.sort_values(by=["Pick Group", "score"], ascending=[True, False])
+    else:
+        # For other columns, just sort by score descending
+        filtered = filtered.sort_values(by="score", ascending=False)
+    
+    # Create a summary based on the column type
+    if "Average" in column:
+        avg_score = filtered["score"].mean() if not filtered.empty else 0
+        num_scores = len(filtered)
+        summary = f"{column}: {avg_score:,.2f} (based on {num_scores} scores)"
+    elif column == "Times Played":
+        # Use the calculated unique games count
+        summary = f"{column}: {num_unique_games:,} (showing {len(filtered):,} scores)"
+    elif column == "TWC Times Played":
+        # Use the calculated unique games count
+        summary = f"{column}: {num_unique_games:,} (showing {len(filtered):,} scores)"
+    elif column == "Times Picked":
+        # Use the calculated unique games count
+        if "Pick Group" in filtered.columns:
+            summary = f"{column}: {num_picked_games:,} (showing {len(filtered):,} {team_name} scores)"
+        else:
+            summary = f"{column}: (no picked games found)"
+    elif column == "TWC Times Picked":
+        # Use the calculated unique games count
+        if "Pick Group" in filtered.columns:
+            summary = f"{column}: {num_picked_games:,} (showing {len(filtered):,} TWC scores)"
+        else:
+            summary = f"{column}: (no picked games found)"
+    elif "%" in column:
+        # For percentage columns, reference the related average columns
+        base_col = "Team Average" if column == "% of V. Avg." else "TWC Average"
+        avg_score = filtered["score"].mean() if not filtered.empty else 0
+        num_scores = len(filtered)
+        summary = f"{column} (based on {base_col}): {avg_score:,.2f} (from {num_scores} scores)"
+    else:
+        summary = f"Details for {column}: {machine}"
+    
+    details = {
+        "summary": summary,
+        "title": f"{column} for {machine}"
+    }
+    
+    return filtered, details
+    
+# Update the cell click handling portion of Section 12
+def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue_name, column_config):
+    """
+    Handle a cell click in the main grid and return the appropriate detailed data.
+    """
+    column = clicked_cell["col"]
+    machine = clicked_cell["machine"]
+    
+    # Get detailed data using the column-specific logic
+    detailed_df = get_detailed_data_for_column(
+        all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config
+    )
+    
+    # Create a summary based on the column type
+    if "Average" in column:
+        avg_score = detailed_df["score"].mean() if not detailed_df.empty else 0
+        num_scores = len(detailed_df)
+        summary = f"{column}: {avg_score:,.2f} (based on {num_scores} scores)"
+    elif "Times" in column:
+        count = len(detailed_df)
+        summary = f"{column}: {count:,}"
+    elif "%" in column:
+        # For percentage columns, reference the related average columns
+        base_col = "Team Average" if column == "% of V. Avg." else "TWC Average"
+        avg_score = detailed_df["score"].mean() if not detailed_df.empty else 0
+        num_scores = len(detailed_df)
+        summary = f"{column} (based on {base_col}): {avg_score:,.2f} (from {num_scores} scores)"
+    else:
+        summary = f"Details for {column}: {machine}"
+    
+    # Format scores with commas for display
+    display_df = detailed_df.copy()
+    if "score" in display_df.columns:
+        display_df["score"] = display_df["score"].apply(
+            lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
+        )
+    
+    return display_df, {
+        "summary": summary,
+        "title": f"{column} for {machine}"
+    }
 
 ##############################################
-# Section 12: "Kellanate" Button, Persistent Output & Excel Download
+# Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
+
+# Define a custom cell renderer that marks a cell on click
+BtnCellRenderer = JsCode(
+    """
+class ClickCellRenderer {
+    init(params) {
+        this.params = params;
+        this.eGui = document.createElement('div');
+        this.eGui.innerHTML = `<div style="cursor: pointer;">${this.params.value}</div>`;
+        this.eGui.addEventListener('click', this.onClick.bind(this));
+    }
+    
+    onClick(event) {
+        // Mark this cell with a unique timestamp to ensure multiple clicks are detected
+        const timestamp = new Date().getTime();
+        this.params.setValue(`[clicked:${timestamp}]` + this.params.value);
+    }
+    
+    getGui() {
+        return this.eGui;
+    }
+    
+    refresh(params) {
+        return true;
+    }
+    
+    destroy() {
+        this.eGui.removeEventListener('click', this.onClick);
+    }
+}
+"""
+)
+
+# Process data when "Kellanate" is pressed
 if st.button("Kellanate", key="kellanate_btn"):
     with st.spinner("Loading JSON files from repository and processing data..."):
         all_data = load_all_json_files(repo_dir, seasons_to_process)
         result_df, debug_outputs, team_player_stats, twc_player_stats = main(
             all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
         )
-        # Store results in session state so they persist.
         st.session_state["result_df"] = result_df
         st.session_state["team_player_stats"] = team_player_stats
         st.session_state["twc_player_stats"] = twc_player_stats
-        
-        # Create Excel file with multiple sheets
+
+        # Create an Excel file for download
         output = BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, index=False, sheet_name='Results')
             team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
             twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
-            
         st.session_state["processed_excel"] = output.getvalue()
         st.session_state["debug_outputs"] = debug_outputs
         st.session_state["kellanate_output"] = True
     st.success("Data processed successfully!")
 
-# Only display the output if results exist.
+# Display output if processing has completed
 if st.session_state.get("kellanate_output", False) and "result_df" in st.session_state:
-    # Display a row with an "X" button to close the output.
+    # Initialize a last clicked timestamp in session state if not already set
+    if "last_click_time" not in st.session_state:
+        st.session_state.last_click_time = 0
+    
+    # Close button to clear session
     col1, col2 = st.columns([0.9, 0.1])
     with col2:
         if st.button("X", key="close_kellanate_output"):
-            st.session_state.pop("kellanate_output", None)
-            st.session_state.pop("result_df", None)
-            st.session_state.pop("team_player_stats", None)
-            st.session_state.pop("twc_player_stats", None)
-            st.session_state.pop("processed_excel", None)
-            st.session_state.pop("debug_outputs", None)
-            st.rerun()
-    # Reset index to hide it.
+            for key in ["kellanate_output", "result_df", "team_player_stats", "twc_player_stats", 
+                       "processed_excel", "debug_outputs", "last_click_time"]:
+                st.session_state.pop(key, None)
+            st.rerun()  # Use st.rerun() instead of deprecated st.experimental_rerun()
+
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid with flex sizing for the main results.
-    from st_aggrid import AgGrid, GridOptionsBuilder
+    # Configure AgGrid with the custom renderer applied to every column
     gb = GridOptionsBuilder.from_dataframe(result_df_reset)
-    # Set flex property to auto-size columns relative to available space.
     gb.configure_default_column(flex=1, resizable=True)
-    # Pin the "Machine" column to the left.
     gb.configure_column("Machine", pinned='left', flex=1)
-    gridOptions = gb.build()
+    for col in result_df_reset.columns:
+        gb.configure_column(col, cellRenderer=BtnCellRenderer)
+    grid_options = gb.build()
     
-    # Display the DataFrame with AgGrid.
     st.markdown("### Machine Statistics")
-    AgGrid(result_df_reset, gridOptions=gridOptions, height=400, fit_columns_on_grid_load=True)
+    response = AgGrid(
+        result_df_reset, 
+        gridOptions=grid_options, 
+        height=400, 
+        fit_columns_on_grid_load=True,
+        allow_unsafe_jscode=True,
+        columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+        key="main_grid"
+    )
     
-    # Display the player statistics tables
-    st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
-    AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+    # Clear previous debug output and parse the returned dataframe for the clicked cell
+    debug_placeholder = st.empty()
+    debug_placeholder.empty()
+    df_out = response["data"]
+    clicked_cells = []
     
-    st.markdown(f"### TWC Player Statistics at {selected_venue}")
-    AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
+    # Find cells with [clicked:timestamp] prefix - timestamp helps identify the most recent click
+    most_recent_click = {"timestamp": 0, "col": "", "idx": 0, "machine": ""}
     
-    # Download button for the Excel file.
+    for idx, row in df_out.iterrows():
+        for col in df_out.columns:
+            val = row[col]
+            if isinstance(val, str) and "[clicked:" in val:
+                # Extract timestamp from the clicked cell format: [clicked:timestamp]value
+                try:
+                    # Parse the timestamp from the marker
+                    timestamp_str = val.split("[clicked:")[1].split("]")[0]
+                    timestamp = int(timestamp_str)
+                    
+                    # Record the cell position and timestamp
+                    machine_name = row["Machine"]
+                    clicked_cells.append({
+                        "col": col, 
+                        "idx": idx, 
+                        "machine": machine_name,
+                        "timestamp": timestamp
+                    })
+                    
+                    # Update most recent click if this is newer
+                    if timestamp > most_recent_click["timestamp"]:
+                        most_recent_click = {
+                            "timestamp": timestamp,
+                            "col": col,
+                            "idx": idx,
+                            "machine": machine_name
+                        }
+                except Exception as e:
+                    # If parsing fails, just record without timestamp
+                    machine_name = row["Machine"]
+                    clicked_cells.append({
+                        "col": col, 
+                        "idx": idx, 
+                        "machine": machine_name,
+                        "timestamp": 0
+                    })
+    
+    # Only trigger a detailed view update if we have a new click
+    new_click_detected = False
+    if most_recent_click["timestamp"] > st.session_state.last_click_time:
+        st.session_state.last_click_time = most_recent_click["timestamp"]
+        new_click_detected = True
+    
+    # Debug info
+    if clicked_cells:
+        debug_placeholder.write("Detected clicked cells:")
+        debug_placeholder.write(clicked_cells)
+        debug_placeholder.write(f"Most recent click: {most_recent_click}")
+    
+    # If a new click is detected or we have a most recent click, show detailed data
+    if new_click_detected or most_recent_click["timestamp"] > 0:
+        selected_col = most_recent_click["col"]
+        machine = most_recent_click["machine"]
+        
+        # Get the all_data_df from debug_outputs
+        all_data_df = st.session_state["debug_outputs"].get("all_data")
+        
+        if all_data_df is not None and not all_data_df.empty:
+            # Use our column-specific handler function
+            detailed_df, details = get_detailed_data_for_column(
+                all_data_df, 
+                machine, 
+                selected_col, 
+                selected_team, 
+                "The Wrecking Crew", 
+                selected_venue, 
+                st.session_state["column_config"]
+            )
+            
+            # Display the summary and title
+            st.markdown(f"### {details['title']}")
+            st.markdown(f"**{details['summary']}**")
+            
+            if not detailed_df.empty:
+                # Create a display DataFrame with the columns we want to show
+                if "Times Picked" in selected_col and "Pick Group" in detailed_df.columns:
+                    display_cols = ["Pick Group", "player_name", "team", "score", "season", "venue"]
+                else:
+                    display_cols = ["player_name", "team", "score", "season", "venue"]
+                
+                # Keep only the columns that exist in the DataFrame
+                display_cols = [col for col in display_cols if col in detailed_df.columns]
+                display_df = detailed_df[display_cols].copy()
+                
+                # Format scores with commas
+                if "score" in display_df.columns:
+                    display_df["score"] = display_df["score"].apply(
+                        lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
+                    )
+                
+                # Display the detailed data
+                AgGrid(
+                    display_df, 
+                    height=300, 
+                    fit_columns_on_grid_load=True,
+                    key=f"detailed_grid_{most_recent_click['timestamp']}"  # Use timestamp in key for forced refresh
+                )
+            else:
+                st.write("No detailed data available for this selection after applying all filters.")
+        else:
+            st.write("No detailed data available in debug outputs.")
+    
+    # Checkbox to toggle display of player statistics
+    if st.checkbox("Show Player Stats", key="player_stats_toggle"):
+        st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
+        AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+        st.markdown(f"### TWC Player Statistics at {selected_venue}")
+        AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
+    
+    # Download button for the Excel file
     st.download_button(
         label="Download Excel file",
         data=st.session_state["processed_excel"],
@@ -1053,8 +1482,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
-
-
 ##############################################
 # Section 12.5: Optional Debug Outputs Toggle
 ##############################################
@@ -1085,6 +1512,3 @@ if st.checkbox("Debug Info", key="debug_info_toggle"):
             st.write(f"**DEBUG: No team abbreviation found for {selected_team}.**")
     else:
         st.write("**DEBUG: Team roster data is not available.**")
-
-
-
