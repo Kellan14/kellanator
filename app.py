@@ -761,65 +761,6 @@ def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
         filtered = filtered[filtered['venue'].str.strip() == venue.strip()]
     return filtered
 
-
-def calculate_stats(df, machine, pick_flag='is_pick'):
-    """
-    Calculate statistics for a given machine from the provided DataFrame.
-    Only rows matching the machine are considered.
-    times_picked is computed based on the given pick_flag (either 'is_pick' or 'is_pick_twc').
-    """
-    machine_data = df[df['machine'] == machine]
-    
-    if len(machine_data) == 0:
-        return {
-            'average': np.nan,
-            'highest': 0,
-            'times_played': 0,
-            'times_picked': 0
-        }
-    
-    # For times_played, we need to count unique matches+rounds
-    # Group by match and round to get unique games
-    unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
-    times_played = len(unique_games)
-    
-    # For times_picked, we need games where the pick flag is True
-    # First get unique games, then filter those where pick flag is True
-    times_picked = len(unique_games[unique_games[pick_flag] == True])
-    
-    # Calculate score statistics
-    scores = machine_data['score'].tolist()
-    average = np.mean(scores) if scores else np.nan
-    highest = max(scores) if scores else 0
-    
-    return {
-        'average': average,
-        'highest': highest,
-        'times_played': times_played,
-        'times_picked': times_picked
-    }
-    
-    # For times_played, we need to count unique matches+rounds
-    # Group by match and round to get unique games
-    unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
-    times_played = len(unique_games)
-    
-    # For times_picked, we need games where the pick flag is True
-    # First get unique games, then filter those where pick flag is True
-    times_picked = len(unique_games[unique_games[pick_flag] == True])
-    
-    # Calculate score statistics
-    scores = machine_data['score'].tolist()
-    average = np.mean(scores) if scores else np.nan
-    highest = max(scores) if scores else 0
-    
-    return {
-        'average': average,
-        'highest': highest,
-        'times_played': times_played,
-        'times_picked': times_picked
-    }
-
 def backfill_stat(df, machine, team, seasons, venue_specific, stat_type, pick_flag='is_pick'):
     for season in range(seasons[0]-1, 0, -1):
         backfill_df = filter_data(df, team, (season, season), venue if venue_specific else None)
@@ -839,67 +780,157 @@ def format_value(value, backfilled_season=None):
         formatted += f"*S{backfilled_season}"
     return formatted
 
+def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, venue_name, column_config):
+    """
+    Calculate statistics for a specific column and machine.
+    Each column type has its own dedicated calculation logic.
+    """
+    config = column_config.get(column, {})
+    seasons = config.get('seasons', (1, 9999))
+    venue_specific = config.get('venue_specific', False)
+    
+    # Handle each column type with its own specific logic
+    if column == "Team Average":
+        # Filter data for the selected team, roster players only
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get scores for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Calculate average score
+        average = np.mean(machine_data['score'].tolist())
+        return f"{average:,.2f}"
+        
+    elif column == "TWC Average":
+        # Filter data for TWC, roster players only
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get scores for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Calculate average score
+        average = np.mean(machine_data['score'].tolist())
+        return f"{average:,.2f}"
+        
+    elif column == "Venue Average":
+        # Filter by venue and seasons only (all teams)
+        filtered_df = filter_data(df, None, seasons, venue_name)
+        # Get scores for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Calculate average score
+        average = np.mean(machine_data['score'].tolist())
+        return f"{average:,.2f}"
+        
+    elif column == "Team Highest Score":
+        # Filter data for the selected team, roster players only
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get scores for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Get highest score
+        highest = max(machine_data['score'].tolist())
+        return f"{highest:,}"
+        
+    elif column == "Times Played":
+        # Filter data for the selected team
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Count unique games (match + round combinations)
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        times_played = len(unique_games)
+        return f"{times_played:,}"
+        
+    elif column == "TWC Times Played":
+        # Filter data for TWC
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Count unique games
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        times_played = len(unique_games)
+        return f"{times_played:,}"
+        
+    elif column == "Times Picked":
+        # Filter data for the selected team
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Get unique games first
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        # Then filter for games where this team picked
+        times_picked = len(unique_games[unique_games['is_pick'] == True])
+        return f"{times_picked:,}"
+        
+    elif column == "TWC Times Picked":
+        # Filter data for TWC
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+        # Get unique games first
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        # Then filter for games where TWC picked
+        times_picked = len(unique_games[unique_games['is_pick_twc'] == True])
+        return f"{times_picked:,}"
+        
+    # Handle percentage columns directly
+    elif column == "% of V. Avg.":
+        # These values should be calculated after all the averages are computed
+        return "Calculated later"
+        
+    elif column == "TWC % V. Avg.":
+        # These values should be calculated after all the averages are computed
+        return "Calculated later"
+        
+    # Default case
+    return "N/A"
+
 def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name, column_config):
     """
-    Build the final result DataFrame.
-    For columns starting with 'Team', filter the DataFrame by the selected team and use the is_pick flag.
-    For columns starting with 'TWC', filter by TWC team and use the is_pick_twc flag.
-    If a column is not venue specific, then the venue filter is omitted.
+    Build the final result DataFrame with separate calculation logic for each column type.
     """
     data = []
     for machine in sorted(recent_machines):
         row = {'Machine': machine.title()}
+        
+        # Calculate each column individually
         for column, config in column_config.items():
             if not config.get('include', True):
                 continue
-            seasons = config.get('seasons', (1, 9999))
-            venue_specific = config.get('venue_specific', False)
-            # When roster_only is True, filter_data will further restrict the rows.
-            roster_only = True if column.startswith('Team') or column.startswith('TWC') else False
-
-            if column.startswith('Team'):
-                filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=roster_only)
-                pick_flag = 'is_pick'
-            elif column.startswith('TWC'):
-                filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=roster_only)
-                pick_flag = 'is_pick_twc'
-            else:
-                filtered_df = filter_data(df, None, seasons, venue_name if venue_specific else None, roster_only=roster_only)
-                pick_flag = 'is_pick'
-            
-            stats = calculate_stats(filtered_df, machine, pick_flag)
-            value = np.nan
-            if column == 'Team Highest Score':
-                value = stats['highest']
-            elif 'Average' in column:
-                value = stats['average']
-            elif 'Times Played' in column:
-                value = stats['times_played']
-            elif 'Times Picked' in column:
-                value = stats['times_picked']
-            
-            # (Backfill logic could be added here if needed)
-            if not np.isnan(value):
-                if 'Average' in column:
-                    formatted = f"{value:,.2f}"
-                else:
-                    formatted = f"{value:,}"
-                row[column] = formatted
-            else:
-                row[column] = "N/A"
-        # Calculate percentage columns (these assume the existence of "Team Average", "TWC Average", and "Venue Average")
+                
+            # Use dedicated calculation logic for each column
+            row[column] = calculate_stat_for_column(
+                df, machine, column, team_name, twc_team_name, venue_name, column_config
+            )
+        
+        # Calculate percentage columns after all averages are computed
         def safe_get(key):
             v = row.get(key, "N/A")
             try:
                 return float(v.replace(",", "").split("*")[0])
             except Exception:
                 return np.nan
+                
         team_avg = safe_get("Team Average")
         twc_avg = safe_get("TWC Average")
         venue_avg = safe_get("Venue Average")
+        
         row["% of V. Avg."] = f"{(team_avg / venue_avg * 100):.2f}%" if not np.isnan(team_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
         row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%" if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
+        
         data.append(row)
+        
     return pd.DataFrame(data)
 
 def generate_debug_outputs(df, team_name, twc_team_name, venue_name):
