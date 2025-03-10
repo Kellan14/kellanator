@@ -1274,53 +1274,44 @@ def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue
         "title": f"{column} for {machine}"
     }
 
-def configure_grid_with_sortable_percentage_columns(result_df_reset):
+def configure_grid_with_percentage_comparator(result_df_reset):
     """
-    Configure AgGrid with proper sorting for percentage columns.
+    Configure AgGrid with proper sorting for percentage columns using a custom comparator.
     """
-    # Create a copy of the dataframe for manipulation
-    df_with_sort_columns = result_df_reset.copy()
-    
-    # Add numeric columns for sorting percentages
-    if "% of V. Avg." in df_with_sort_columns.columns:
-        df_with_sort_columns["_sort_pct_v_avg"] = df_with_sort_columns["% of V. Avg."].apply(
-            lambda x: float(x.replace("%", "").strip()) if isinstance(x, str) and "%" in x else -1
-        )
-    
-    if "TWC % V. Avg." in df_with_sort_columns.columns:
-        df_with_sort_columns["_sort_twc_pct_v_avg"] = df_with_sort_columns["TWC % V. Avg."].apply(
-            lambda x: float(x.replace("%", "").strip()) if isinstance(x, str) and "%" in x else -1
-        )
+    # Custom comparator function for percentage columns
+    percentage_comparator = JsCode("""
+    function(valueA, valueB, nodeA, nodeB, isInverted) {
+        // Extract numeric values from the percentage strings
+        const numA = parseFloat(valueA.replace('%', ''));
+        const numB = parseFloat(valueB.replace('%', ''));
+        
+        // Handle NaN cases
+        if (isNaN(numA) && isNaN(numB)) return 0;
+        if (isNaN(numA)) return 1;
+        if (isNaN(numB)) return -1;
+        
+        // Standard numeric comparison
+        return numA - numB;
+    }
+    """)
     
     # Configure grid options
-    gb = GridOptionsBuilder.from_dataframe(df_with_sort_columns)
+    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
     gb.configure_default_column(flex=1, resizable=True)
     gb.configure_column("Machine", pinned='left', flex=1)
     
-    # Configure percentage columns to use the numeric column for sorting
-    if "% of V. Avg." in df_with_sort_columns.columns:
-        gb.configure_column("% of V. Avg.", cellRenderer=BtnCellRenderer, 
-                            valueGetter="data['% of V. Avg.']",
-                            sortable=True, sort_by_column="_sort_pct_v_avg")
-    
-    if "TWC % V. Avg." in df_with_sort_columns.columns:
-        gb.configure_column("TWC % V. Avg.", cellRenderer=BtnCellRenderer,
-                            valueGetter="data['TWC % V. Avg.']",
-                            sortable=True, sort_by_column="_sort_twc_pct_v_avg")
-    
-    # Configure all other visible columns
-    for col in df_with_sort_columns.columns:
-        if col not in ["Machine", "% of V. Avg.", "TWC % V. Avg."] and not col.startswith("_sort"):
+    # Apply custom renderer and comparator to each column
+    for col in result_df_reset.columns:
+        if "%" in col:
+            # For percentage columns, add the custom comparator
+            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=percentage_comparator)
+        else:
+            # For other columns, just use the custom renderer
             gb.configure_column(col, cellRenderer=BtnCellRenderer)
-    
-    # Hide the sorting columns
-    for col in df_with_sort_columns.columns:
-        if col.startswith("_sort"):
-            gb.configure_column(col, hide=True)
     
     grid_options = gb.build()
     
-    return grid_options, df_with_sort_columns
+    return grid_options
 
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
@@ -1397,12 +1388,12 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
 
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid with sortable percentage columns
-    grid_options, df_for_grid = configure_grid_with_sortable_percentage_columns(result_df_reset)
+    # Configure AgGrid with custom percentage comparator
+    grid_options = configure_grid_with_percentage_comparator(result_df_reset)
     
     st.markdown("### Machine Statistics")
     response = AgGrid(
-        df_for_grid, 
+        result_df_reset, 
         gridOptions=grid_options, 
         height=400, 
         fit_columns_on_grid_load=True,
