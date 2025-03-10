@@ -1607,11 +1607,10 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     toggle_container = st.container()
     with toggle_container:
         use_color_coding = st.checkbox(
-            "Color code by advantage ratio (Green: TWC advantage, Red: Team advantage)", 
+            "Color code by advantage ratio", 
             value=False,
             key="color_toggle"
         )
-        st.markdown("*When enabled, rows will be colored based on the ratio between team and TWC percentages*")
     
     st.markdown("---")
     
