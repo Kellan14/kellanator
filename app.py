@@ -1386,46 +1386,51 @@ def add_color_coding_to_grid(formatted_df):
         
         # Calculate ratio and determine color
         def calculate_color(row):
-            team_pct = row['_team_pct']
-            twc_pct = row['_twc_pct']
+            team_pct = row.get('_team_pct')
+            twc_pct = row.get('_twc_pct')
             
-            if team_pct is None or twc_pct is None or team_pct == 0 or twc_pct == 0:
+            # Handle missing or invalid data
+            if team_pct is None or twc_pct is None or pd.isna(team_pct) or pd.isna(twc_pct) or team_pct == 0 or twc_pct == 0:
                 return "#FFFFFF"  # White for N/A cases
             
-            # Calculate ratio between team and TWC
-            if twc_pct >= team_pct:
-                ratio = twc_pct / team_pct
-                # Scale from 1.0 (yellow) to 2.0 or higher (dark green)
-                # Clamp ratio to max of 2.0 for color scaling
-                clamped_ratio = min(ratio, 2.0)
-                intensity = (clamped_ratio - 1.0) / 1.0  # 0.0 to 1.0
-                
-                # Green increases as TWC advantage increases (yellow to green)
-                red = 255
-                green = 255
-                blue = 0
-                
-                # Transition from yellow (255,255,0) to green (0,128,0)
-                red = int(255 * (1 - intensity))
-                green = int(255 - (255 - 128) * intensity)
-                
-                return f"#{red:02x}{green:02x}{blue:02x}"
-            else:
-                ratio = team_pct / twc_pct
-                # Scale from 1.0 (yellow) to 2.0 or higher (dark red)
-                # Clamp ratio to max of 2.0 for color scaling
-                clamped_ratio = min(ratio, 2.0)
-                intensity = (clamped_ratio - 1.0) / 1.0  # 0.0 to 1.0
-                
-                # Red increases as team advantage increases (yellow to red)
-                red = 255
-                green = 255
-                blue = 0
-                
-                # Transition from yellow (255,255,0) to red (255,0,0)
-                green = int(255 * (1 - intensity))
-                
-                return f"#{red:02x}{green:02x}{blue:02x}"
+            try:
+                # Calculate ratio between team and TWC
+                if twc_pct >= team_pct:
+                    ratio = twc_pct / team_pct
+                    # Scale from 1.0 (yellow) to 2.0 or higher (dark green)
+                    # Clamp ratio to max of 2.0 for color scaling
+                    clamped_ratio = min(ratio, 2.0)
+                    intensity = (clamped_ratio - 1.0) / 1.0  # 0.0 to 1.0
+                    
+                    # Green increases as TWC advantage increases (yellow to green)
+                    red = 255
+                    green = 255
+                    blue = 0
+                    
+                    # Transition from yellow (255,255,0) to green (0,128,0)
+                    red = int(255 * (1 - intensity))
+                    green = int(255 - (255 - 128) * intensity)
+                    
+                    return f"#{red:02x}{green:02x}{blue:02x}"
+                else:
+                    ratio = team_pct / twc_pct
+                    # Scale from 1.0 (yellow) to 2.0 or higher (dark red)
+                    # Clamp ratio to max of 2.0 for color scaling
+                    clamped_ratio = min(ratio, 2.0)
+                    intensity = (clamped_ratio - 1.0) / 1.0  # 0.0 to 1.0
+                    
+                    # Red increases as team advantage increases (yellow to red)
+                    red = 255
+                    green = 255
+                    blue = 0
+                    
+                    # Transition from yellow (255,255,0) to red (255,0,0)
+                    green = int(255 * (1 - intensity))
+                    
+                    return f"#{red:02x}{green:02x}{blue:02x}"
+            except Exception as e:
+                # If any calculation error occurs, return white
+                return "#FFFFFF"
         
         # Apply the color calculation
         df_with_colors['_row_color'] = df_with_colors.apply(calculate_color, axis=1)
