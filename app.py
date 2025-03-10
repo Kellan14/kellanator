@@ -1367,6 +1367,10 @@ def add_color_coding_to_grid(formatted_df):
     % of V. Avg. and TWC % V. Avg.
     
     Returns DataFrame with an added color coding column.
+    
+    Special cases:
+    - If team has stats but TWC doesn't: Dark red (strongest team advantage)
+    - If TWC has stats but team doesn't: Dark green (strongest TWC advantage)
     """
     df_with_colors = formatted_df.copy()
     
@@ -1389,7 +1393,17 @@ def add_color_coding_to_grid(formatted_df):
             team_pct = row.get('_team_pct')
             twc_pct = row.get('_twc_pct')
             
-            # Handle missing or invalid data
+            # Special case 1: Team has stats but TWC doesn't - dark red (strongest team advantage)
+            if (team_pct is not None and not pd.isna(team_pct) and team_pct > 0) and \
+               (twc_pct is None or pd.isna(twc_pct) or twc_pct == 0):
+                return "#FF0000"  # Darkest red
+                
+            # Special case 2: TWC has stats but team doesn't - dark green (strongest TWC advantage)
+            if (twc_pct is not None and not pd.isna(twc_pct) and twc_pct > 0) and \
+               (team_pct is None or pd.isna(team_pct) or team_pct == 0):
+                return "#008000"  # Darkest green
+                
+            # Handle missing or invalid data for both teams
             if team_pct is None or twc_pct is None or pd.isna(team_pct) or pd.isna(twc_pct) or team_pct == 0 or twc_pct == 0:
                 return "#FFFFFF"  # White for N/A cases
             
