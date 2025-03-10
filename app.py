@@ -1594,13 +1594,26 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
 
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Add a toggle for color coding
-    use_color_coding = st.checkbox("Color code by advantage ratio (Green: TWC advantage, Red: Team advantage)", value=False)
+    # Add a prominent header and toggle for color coding
+    st.markdown("### Machine Statistics")
+    st.markdown("---")
+    
+    # Create a container for the toggle to ensure it appears
+    toggle_container = st.container()
+    with toggle_container:
+        use_color_coding = st.checkbox(
+            "Color code by advantage ratio (Green: TWC advantage, Red: Team advantage)", 
+            value=False,
+            key="color_toggle"
+        )
+        st.markdown("*When enabled, rows will be colored based on the ratio between team and TWC percentages*")
+    
+    st.markdown("---")
     
     # Configure AgGrid with custom comparators and optional color coding
     grid_options, formatted_df = configure_grid_with_color_coding(result_df_reset, use_color_coding)
     
-    st.markdown("### Machine Statistics")
+    # Display the AgGrid
     response = AgGrid(
         formatted_df, 
         gridOptions=grid_options, 
