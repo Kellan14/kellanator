@@ -1274,6 +1274,92 @@ def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue
         "title": f"{column} for {machine}"
     }
 
+def format_no_decimals(df):
+    """
+    Format all numeric values in the DataFrame to not have any decimals.
+    """
+    formatted_df = df.copy()
+    
+    for col in formatted_df.columns:
+        if col == "Machine":
+            continue  # Skip the machine name column
+            
+        if "%" in col:
+            # Format percentage columns to whole numbers
+            formatted_df[col] = formatted_df[col].apply(
+                lambda x: f"{float(x.replace('%', '')):.0f}%" if isinstance(x, str) and "%" in x else x
+            )
+        elif "Average" in col:
+            # Format average columns to whole numbers
+            formatted_df[col] = formatted_df[col].apply(
+                lambda x: f"{float(x.replace(',', '')):.0f}" if isinstance(x, str) and not x == "N/A" else x
+            )
+    
+    return formatted_df
+
+def configure_grid_with_custom_comparators(result_df_reset):
+    """
+    Configure AgGrid with proper sorting for all numeric columns that are formatted as strings.
+    This includes percentage columns and comma-formatted numbers.
+    """
+    # First, format the DataFrame to have no decimals
+    formatted_df = format_no_decimals(result_df_reset)
+    
+    # Custom comparator function for percentage columns
+    percentage_comparator = JsCode("""
+    function(valueA, valueB, nodeA, nodeB, isInverted) {
+        // Extract numeric values from the percentage strings
+        const numA = parseFloat(valueA.replace('%', ''));
+        const numB = parseFloat(valueB.replace('%', ''));
+        
+        // Handle NaN cases
+        if (isNaN(numA) && isNaN(numB)) return 0;
+        if (isNaN(numA)) return 1;
+        if (isNaN(numB)) return -1;
+        
+        // Standard numeric comparison
+        return numA - numB;
+    }
+    """)
+    
+    # Custom comparator for comma-formatted numbers (like "1,234")
+    number_comparator = JsCode("""
+    function(valueA, valueB, nodeA, nodeB, isInverted) {
+        // Remove commas and convert to numbers
+        const numA = parseFloat(valueA.replace(/,/g, ''));
+        const numB = parseFloat(valueB.replace(/,/g, ''));
+        
+        // Handle NaN and "N/A" cases
+        if (isNaN(numA) && isNaN(numB)) return 0;
+        if (isNaN(numA) || valueA === "N/A") return 1;
+        if (isNaN(numB) || valueB === "N/A") return -1;
+        
+        // Standard numeric comparison
+        return numA - numB;
+    }
+    """)
+    
+    # Configure grid options
+    gb = GridOptionsBuilder.from_dataframe(formatted_df)
+    gb.configure_default_column(flex=1, resizable=True)
+    gb.configure_column("Machine", pinned='left', flex=1)
+    
+    # Apply custom renderer and comparator to each column based on its type
+    for col in formatted_df.columns:
+        if "%" in col:
+            # For percentage columns, use the percentage comparator
+            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=percentage_comparator)
+        elif "Times" in col or "Highest" in col or "Average" in col:
+            # For numeric columns with possible comma formatting, use the number comparator
+            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=number_comparator)
+        else:
+            # For other columns, just use the custom renderer
+            gb.configure_column(col, cellRenderer=BtnCellRenderer)
+    
+    grid_options = gb.build()
+    
+    return grid_options, formatted_df
+
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
@@ -1349,17 +1435,12 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
 
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
-    # Configure AgGrid with the custom renderer applied to every column
-    gb = GridOptionsBuilder.from_dataframe(result_df_reset)
-    gb.configure_default_column(flex=1, resizable=True)
-    gb.configure_column("Machine", pinned='left', flex=1)
-    for col in result_df_reset.columns:
-        gb.configure_column(col, cellRenderer=BtnCellRenderer)
-    grid_options = gb.build()
+    # Configure AgGrid with custom comparators and no decimals
+    grid_options, formatted_df = configure_grid_with_custom_comparators(result_df_reset)
     
     st.markdown("### Machine Statistics")
     response = AgGrid(
-        result_df_reset, 
+        formatted_df, 
         gridOptions=grid_options, 
         height=400, 
         fit_columns_on_grid_load=True,
