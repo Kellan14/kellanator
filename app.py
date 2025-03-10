@@ -1274,9 +1274,10 @@ def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue
         "title": f"{column} for {machine}"
     }
 
-def format_no_decimals(df):
+def format_no_decimals_keep_commas(df):
     """
-    Format all numeric values in the DataFrame to not have any decimals.
+    Format all numeric values in the DataFrame to not have any decimals,
+    while maintaining comma formatting for large numbers.
     """
     formatted_df = df.copy()
     
@@ -1290,9 +1291,9 @@ def format_no_decimals(df):
                 lambda x: f"{float(x.replace('%', '')):.0f}%" if isinstance(x, str) and "%" in x else x
             )
         elif "Average" in col:
-            # Format average columns to whole numbers
+            # Format average columns to whole numbers with commas
             formatted_df[col] = formatted_df[col].apply(
-                lambda x: f"{float(x.replace(',', '')):.0f}" if isinstance(x, str) and not x == "N/A" else x
+                lambda x: f"{int(float(x.replace(',', ''))):,}" if isinstance(x, str) and not x == "N/A" else x
             )
     
     return formatted_df
@@ -1302,8 +1303,8 @@ def configure_grid_with_custom_comparators(result_df_reset):
     Configure AgGrid with proper sorting for all numeric columns that are formatted as strings.
     This includes percentage columns and comma-formatted numbers.
     """
-    # First, format the DataFrame to have no decimals
-    formatted_df = format_no_decimals(result_df_reset)
+    # First, format the DataFrame to have no decimals but keep commas
+    formatted_df = format_no_decimals_keep_commas(result_df_reset)
     
     # Custom comparator function for percentage columns
     percentage_comparator = JsCode("""
