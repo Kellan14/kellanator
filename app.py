@@ -1600,8 +1600,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     result_df_reset = st.session_state["result_df"].reset_index(drop=True)
     
     # Add a prominent header and toggle for color coding
-    st.markdown("### Machine Statistics")
-    st.markdown("---")
+    st.markdown(f"### {selected_team} @ {selected_venue}")
     
     # Create a container for the toggle to ensure it appears
     toggle_container = st.container()
@@ -1611,8 +1610,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             value=False,
             key="color_toggle"
         )
-    
-    st.markdown("---")
     
     # Configure AgGrid with custom comparators and optional color coding
     grid_options, formatted_df = configure_grid_with_color_coding(result_df_reset, use_color_coding)
@@ -1741,7 +1738,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             st.write("No detailed data available in debug outputs.")
     
     # Checkbox to toggle display of player statistics
-    if st.checkbox("Show Player Stats", key="player_stats_toggle"):
+    if st.checkbox("Show Unique Players", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
         AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
         st.markdown(f"### TWC Player Statistics at {selected_venue}")
