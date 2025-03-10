@@ -1036,6 +1036,10 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     """
     Returns detailed data for a specific column and machine.
     Each column type has its own dedicated filtering logic to ensure consistency.
+    
+    Returns:
+    - filtered: DataFrame with the filtered data
+    - details: Dictionary with summary and title information
     """
     config = column_config.get(column, {})
     seasons = config.get('seasons', (1, 9999))
@@ -1143,7 +1147,29 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
         filtered['score'] = pd.to_numeric(filtered['score'], errors='coerce')
         filtered = filtered.sort_values(by="score", ascending=False)
     
-    return filtered
+    # Create a summary based on the column type
+    if "Average" in column:
+        avg_score = filtered["score"].mean() if not filtered.empty else 0
+        num_scores = len(filtered)
+        summary = f"{column}: {avg_score:,.2f} (based on {num_scores} scores)"
+    elif "Times" in column:
+        count = len(filtered)
+        summary = f"{column}: {count:,}"
+    elif "%" in column:
+        # For percentage columns, reference the related average columns
+        base_col = "Team Average" if column == "% of V. Avg." else "TWC Average"
+        avg_score = filtered["score"].mean() if not filtered.empty else 0
+        num_scores = len(filtered)
+        summary = f"{column} (based on {base_col}): {avg_score:,.2f} (from {num_scores} scores)"
+    else:
+        summary = f"Details for {column}: {machine}"
+    
+    details = {
+        "summary": summary,
+        "title": f"{column} for {machine}"
+    }
+    
+    return filtered, details
 
 # Update the cell click handling portion of Section 12
 def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue_name, column_config):
