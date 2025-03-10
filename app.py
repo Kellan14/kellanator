@@ -1365,8 +1365,14 @@ def add_color_coding_to_grid(formatted_df):
     """
     Add a hidden column with color codes based on the difference between 
     % of V. Avg. and TWC % V. Avg.
+    Colors are semi-transparent for better readability.
     
     Returns DataFrame with an added color coding column.
+    
+    Special cases:
+    - If team has stats but TWC doesn't: Translucent red (strongest team advantage)
+    - If TWC has stats but team doesn't: Translucent green (strongest TWC advantage)
+    - If neither team has stats: Translucent yellow (neutral 50/50)
     """
     df_with_colors = formatted_df.copy()
     
@@ -1389,9 +1395,26 @@ def add_color_coding_to_grid(formatted_df):
             team_pct = row.get('_team_pct')
             twc_pct = row.get('_twc_pct')
             
-            # Handle missing or invalid data
-            if team_pct is None or twc_pct is None or pd.isna(team_pct) or pd.isna(twc_pct) or team_pct == 0 or twc_pct == 0:
-                return "#FFFFFF"  # White for N/A cases
+            # Set transparency level (80% opaque)
+            alpha = 0.5
+            
+            # Special case 1: Team has stats but TWC doesn't - translucent red (strongest team advantage)
+            if (team_pct is not None and not pd.isna(team_pct) and team_pct > 0) and \
+               (twc_pct is None or pd.isna(twc_pct) or twc_pct == 0):
+                # Translucent dark red
+                return f"rgba(255, 0, 0, {alpha})"
+                
+            # Special case 2: TWC has stats but team doesn't - translucent green (strongest TWC advantage)
+            if (twc_pct is not None and not pd.isna(twc_pct) and twc_pct > 0) and \
+               (team_pct is None or pd.isna(team_pct) or team_pct == 0):
+                # Translucent dark green
+                return f"rgba(0, 128, 0, {alpha})"
+                
+            # Special case 3: Neither team has stats - translucent yellow (neutral 50/50)
+            if (team_pct is None or pd.isna(team_pct) or team_pct == 0) and \
+               (twc_pct is None or pd.isna(twc_pct) or twc_pct == 0):
+                # Translucent yellow
+                return f"rgba(255, 255, 0, {alpha})"
             
             try:
                 # Calculate ratio between team and TWC
@@ -1403,15 +1426,11 @@ def add_color_coding_to_grid(formatted_df):
                     intensity = (clamped_ratio - 1.0) / 1.0  # 0.0 to 1.0
                     
                     # Green increases as TWC advantage increases (yellow to green)
-                    red = 255
-                    green = 255
+                    red = int(255 * (1 - intensity))
+                    green = 255 - int((255 - 128) * intensity)
                     blue = 0
                     
-                    # Transition from yellow (255,255,0) to green (0,128,0)
-                    red = int(255 * (1 - intensity))
-                    green = int(255 - (255 - 128) * intensity)
-                    
-                    return f"#{red:02x}{green:02x}{blue:02x}"
+                    return f"rgba({red}, {green}, {blue}, {alpha})"
                 else:
                     ratio = team_pct / twc_pct
                     # Scale from 1.0 (yellow) to 2.0 or higher (dark red)
@@ -1421,28 +1440,25 @@ def add_color_coding_to_grid(formatted_df):
                     
                     # Red increases as team advantage increases (yellow to red)
                     red = 255
-                    green = 255
+                    green = int(255 * (1 - intensity))
                     blue = 0
                     
-                    # Transition from yellow (255,255,0) to red (255,0,0)
-                    green = int(255 * (1 - intensity))
-                    
-                    return f"#{red:02x}{green:02x}{blue:02x}"
+                    return f"rgba({red}, {green}, {blue}, {alpha})"
             except Exception as e:
-                # If any calculation error occurs, return white
-                return "#FFFFFF"
+                # If any calculation error occurs, return translucent yellow as default
+                return f"rgba(255, 255, 0, {alpha})"
         
         # Apply the color calculation
         df_with_colors['_row_color'] = df_with_colors.apply(calculate_color, axis=1)
     else:
-        # If percentage columns are missing, use white for all rows
-        df_with_colors['_row_color'] = "#FFFFFF"
+        # If percentage columns are missing, use translucent yellow for all rows
+        df_with_colors['_row_color'] = "rgba(255, 255, 0, 0.5)"
     
     return df_with_colors
-
+    
 def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
     """
-    Configure AgGrid with proper sorting and optional color coding.
+    Configure AgGrid with proper sorting and optional color coding with transparency.
     """
     # First, format the DataFrame to have no decimals but keep commas
     formatted_df = format_no_decimals_keep_commas(result_df_reset)
