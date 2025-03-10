@@ -1091,8 +1091,9 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
         if venue_specific:
             filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
         
-        # Get unique games via groupby
-        filtered = filtered.groupby(['match', 'round']).first().reset_index()
+        # Get unique games via groupby to match the count
+        unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+        num_unique_games = len(unique_games)
             
     elif column == "TWC Times Played":
         # Filter data for TWC
@@ -1101,30 +1102,62 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
         if venue_specific:
             filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
             
-        # Get unique games via groupby
-        filtered = filtered.groupby(['match', 'round']).first().reset_index()
+        # Get unique games via groupby to match the count
+        unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+        num_unique_games = len(unique_games)
             
     elif column == "Times Picked":
         # Filter data for the selected team
-        filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        team_filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        team_filtered = team_filtered[team_filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            team_filtered = team_filtered[team_filtered["venue"].str.strip() == venue_name_strip]
+            
+        # First, identify the unique match+round combinations that were picked
+        unique_games = team_filtered.groupby(['match', 'round']).first().reset_index()
+        picked_games = unique_games[unique_games["is_pick"] == True]
+        num_picked_games = len(picked_games)
+        
+        # Create a list of (match, round) tuples that were picked
+        picked_tuples = list(zip(picked_games['match'], picked_games['round']))
+        
+        # Filter all data (not just team data) to include these match+round combinations
+        # This shows all scores from picked games, not just the team's scores
+        filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in picked_tuples, axis=1)]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
             filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
-            
-        # Get unique games first, then filter for picked games
-        filtered = filtered.groupby(['match', 'round']).first().reset_index()
-        filtered = filtered[filtered["is_pick"] == True]
+        
+        # Add a Pick Group column for clarity
+        filtered['Pick Group'] = filtered.apply(
+            lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+        )
             
     elif column == "TWC Times Picked":
         # Filter data for TWC
-        filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+        twc_filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+        twc_filtered = twc_filtered[twc_filtered["season"].between(seasons[0], seasons[1])]
+        if venue_specific:
+            twc_filtered = twc_filtered[twc_filtered["venue"].str.strip() == venue_name_strip]
+            
+        # First, identify the unique match+round combinations that were picked
+        unique_games = twc_filtered.groupby(['match', 'round']).first().reset_index()
+        picked_games = unique_games[unique_games["is_pick_twc"] == True]
+        num_picked_games = len(picked_games)
+        
+        # Create a list of (match, round) tuples that were picked
+        picked_tuples = list(zip(picked_games['match'], picked_games['round']))
+        
+        # Filter all data to include these match+round combinations
+        filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in picked_tuples, axis=1)]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
             filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
-            
-        # Get unique games first, then filter for picked games
-        filtered = filtered.groupby(['match', 'round']).first().reset_index()
-        filtered = filtered[filtered["is_pick_twc"] == True]
+        
+        # Add a Pick Group column for clarity
+        filtered['Pick Group'] = filtered.apply(
+            lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+        )
             
     elif column == "% of V. Avg.":
         # Show the data that was used for Team Average
@@ -1145,6 +1178,13 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     # Make sure score is numeric for proper sorting
     if "score" in filtered.columns:
         filtered['score'] = pd.to_numeric(filtered['score'], errors='coerce')
+        
+    # Sort appropriately based on column type
+    if "Times Picked" in column and "Pick Group" in filtered.columns:
+        # For picked games, sort first by Pick Group, then by score (descending)
+        filtered = filtered.sort_values(by=["Pick Group", "score"], ascending=[True, False])
+    else:
+        # For other columns, just sort by score descending
         filtered = filtered.sort_values(by="score", ascending=False)
     
     # Create a summary based on the column type
@@ -1152,9 +1192,24 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
         avg_score = filtered["score"].mean() if not filtered.empty else 0
         num_scores = len(filtered)
         summary = f"{column}: {avg_score:,.2f} (based on {num_scores} scores)"
-    elif "Times" in column:
-        count = len(filtered)
-        summary = f"{column}: {count:,}"
+    elif column == "Times Played":
+        # Use the calculated unique games count
+        summary = f"{column}: {num_unique_games:,} (showing {len(filtered):,} scores)"
+    elif column == "TWC Times Played":
+        # Use the calculated unique games count
+        summary = f"{column}: {num_unique_games:,} (showing {len(filtered):,} scores)"
+    elif column == "Times Picked":
+        # Use the calculated unique games count
+        if "Pick Group" in filtered.columns:
+            summary = f"{column}: {num_picked_games:,} (showing {len(filtered):,} scores from all picked games)"
+        else:
+            summary = f"{column}: (no picked games found)"
+    elif column == "TWC Times Picked":
+        # Use the calculated unique games count
+        if "Pick Group" in filtered.columns:
+            summary = f"{column}: {num_picked_games:,} (showing {len(filtered):,} scores from all picked games)"
+        else:
+            summary = f"{column}: (no picked games found)"
     elif "%" in column:
         # For percentage columns, reference the related average columns
         base_col = "Team Average" if column == "% of V. Avg." else "TWC Average"
@@ -1374,7 +1429,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         
         if all_data_df is not None and not all_data_df.empty:
-            # Use our new column-specific handler function
+            # Use our column-specific handler function
             detailed_df, details = get_detailed_data_for_column(
                 all_data_df, 
                 machine, 
@@ -1390,12 +1445,17 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             st.markdown(f"**{details['summary']}**")
             
             if not detailed_df.empty:
-                # Create a simplified display dataframe with relevant columns
-                display_cols = ["player_name", "score", "team", "venue", "season"]
+                # Create a display DataFrame with the columns we want to show
+                if "Times Picked" in selected_col and "Pick Group" in detailed_df.columns:
+                    display_cols = ["Pick Group", "player_name", "team", "score", "season", "venue"]
+                else:
+                    display_cols = ["player_name", "team", "score", "season", "venue"]
+                
+                # Keep only the columns that exist in the DataFrame
                 display_cols = [col for col in display_cols if col in detailed_df.columns]
                 display_df = detailed_df[display_cols].copy()
                 
-                # Format scores with commas AFTER sorting
+                # Format scores with commas
                 if "score" in display_df.columns:
                     display_df["score"] = display_df["score"].apply(
                         lambda x: f"{x:,.0f}" if pd.notnull(x) else "N/A"
