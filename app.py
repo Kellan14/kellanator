@@ -1032,18 +1032,27 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
     
     return result_df, debug_outputs, team_player_stats, twc_player_stats
 
-def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config):
+def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config, current_seasons):
     """
     Returns detailed data for a specific column and machine.
     Each column type has its own dedicated filtering logic to ensure consistency.
+    
+    Parameters:
+    - current_seasons: The current seasons_to_process list from the user input
     
     Returns:
     - filtered: DataFrame with the filtered data
     - details: Dictionary with summary and title information
     """
     config = column_config.get(column, {})
-    seasons = config.get('seasons', (1, 9999))
     venue_specific = config.get('venue_specific', False)
+    
+    # Create a seasons tuple from the current seasons list
+    if current_seasons:
+        seasons = (min(current_seasons), max(current_seasons))
+    else:
+        # Fallback to config or default
+        seasons = config.get('seasons', (1, 9999))
     
     # Convert input strings to lowercase for case-insensitive comparison
     machine_lower = machine.lower() if isinstance(machine, str) else ""
@@ -1211,6 +1220,10 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
         summary = f"{column} (based on {base_col}): {avg_score:,.2f} (from {num_scores} scores)"
     else:
         summary = f"Details for {column}: {machine}"
+    
+    # Add seasons info to the summary
+    season_str = f"S{seasons[0]}-S{seasons[1]}" if seasons[0] != seasons[1] else f"S{seasons[0]}"
+    summary += f" ({season_str})"
     
     details = {
         "summary": summary,
@@ -1422,7 +1435,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         all_data_df = st.session_state["debug_outputs"].get("all_data")
         
         if all_data_df is not None and not all_data_df.empty:
-            # Use our column-specific handler function
+            # Use our column-specific handler function with current seasons
             detailed_df, details = get_detailed_data_for_column(
                 all_data_df, 
                 machine, 
@@ -1430,7 +1443,8 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 selected_team, 
                 "The Wrecking Crew", 
                 selected_venue, 
-                st.session_state["column_config"]
+                st.session_state["column_config"],
+                seasons_to_process  # Pass the current seasons from user input
             )
             
             # Display the summary and title
