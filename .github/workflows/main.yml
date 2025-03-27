@@ -7,6 +7,9 @@ on:
   # Also allow manual triggering
   workflow_dispatch:
 
+permissions:
+  contents: write  # Add this line to grant write permissions
+
 jobs:
   sync-data:
     runs-on: ubuntu-latest
@@ -16,6 +19,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: kellanator
+          token: ${{ secrets.GITHUB_TOKEN }}  # Explicitly use the token
       
       - name: Checkout Invader-Zim repo
         uses: actions/checkout@v2
@@ -46,7 +50,7 @@ jobs:
             # Add, commit, and push changes
             git add mnp-data-archive
             git commit -m "Auto-sync MNP data archive from Invader-Zim"
-            git push
+            git push origin HEAD
             echo "Repository updated with latest data"
           else
             echo "No changes detected, repository is already up to date"
