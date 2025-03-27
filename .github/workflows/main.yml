@@ -12,49 +12,37 @@ jobs:
       contents: write
     
     steps:
-      - name: Checkout kellanator repo
-        uses: actions/checkout@v3
-      
-      - name: Completely remove any traces of mnp-data-archive
-        run: |
-          # Force remove the directory and any git references
-          rm -rf mnp-data-archive
-          rm -rf .git/modules/mnp-data-archive
-          
-          # Remove from .gitmodules if it exists
-          if [ -f .gitmodules ]; then
-            sed -i '/\[submodule "mnp-data-archive"\]/,/^\[/ d' .gitmodules
-            git add .gitmodules
-          fi
-          
-          # Remove from git index
-          git rm --cached -r mnp-data-archive || true
-          
-          # Clean up any empty files
-          if [ -f .gitmodules ] && [ ! -s .gitmodules ]; then
-            rm .gitmodules
-            git add -u
-          fi
-      
-      - name: Checkout Invader-Zim repo
+      - name: Checkout kellanator repo without submodules
         uses: actions/checkout@v3
         with:
-          repository: Invader-Zim/mnp-data-archive
-          path: temp-mnp-data
+          submodules: 'false'  # Explicitly don't initialize submodules
       
-      - name: Create fresh directory and push
+      # Clone Invader-Zim's repo directly without using actions/checkout
+      - name: Clone Invader-Zim repo
+        run: |
+          git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-mnp-data
+      
+      # The nuclear option - create a clean commit
+      - name: Create fresh commit with new data
         run: |
           # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Create a fresh directory
+          # Remove troublesome folder completely
+          rm -rf mnp-data-archive
+          
+          # Create new directory
           mkdir -p mnp-data-archive
           
-          # Copy files from temp directory
+          # Copy files
           cp -r temp-mnp-data/* mnp-data-archive/
           
-          # Add, commit, and push
-          git add mnp-data-archive
-          git commit -m "Complete reset and update of mnp-data-archive" || echo "No changes to commit"
-          git push
+          # Force add the directory
+          git add -f mnp-data-archive
+          
+          # Commit changes without checking submodules
+          git -c submodule.recurse=false commit -m "Reset and update mnp-data-archive" || echo "No changes to commit"
+          
+          # Push without submodule checks
+          git -c submodule.recurse=false push origin HEAD:${GITHUB_REF#refs/heads/}
