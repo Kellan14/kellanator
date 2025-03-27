@@ -14,58 +14,47 @@ jobs:
     steps:
       - name: Checkout kellanator repo
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Full history for better submodule handling
       
-      - name: Remove submodule references if they exist
+      - name: Completely remove any traces of mnp-data-archive
         run: |
-          # Check if .gitmodules exists
+          # Force remove the directory and any git references
+          rm -rf mnp-data-archive
+          rm -rf .git/modules/mnp-data-archive
+          
+          # Remove from .gitmodules if it exists
           if [ -f .gitmodules ]; then
-            # Check if it contains mnp-data-archive
-            if grep -q "mnp-data-archive" .gitmodules; then
-              echo "Removing mnp-data-archive submodule references"
-              # Remove from .gitmodules
-              git config -f .gitmodules --remove-section submodule.mnp-data-archive || true
-              # Remove from .git/config
-              git config --remove-section submodule.mnp-data-archive || true
-              # Remove from git index
-              git rm --cached mnp-data-archive || true
-              # Commit the changes to .gitmodules
-              git add .gitmodules
-              git commit -m "Remove mnp-data-archive submodule references" || true
-            fi
+            sed -i '/\[submodule "mnp-data-archive"\]/,/^\[/ d' .gitmodules
+            git add .gitmodules
           fi
           
-          # Remove the directory if it exists
-          rm -rf mnp-data-archive
+          # Remove from git index
+          git rm --cached -r mnp-data-archive || true
+          
+          # Clean up any empty files
+          if [ -f .gitmodules ] && [ ! -s .gitmodules ]; then
+            rm .gitmodules
+            git add -u
+          fi
       
       - name: Checkout Invader-Zim repo
         uses: actions/checkout@v3
         with:
           repository: Invader-Zim/mnp-data-archive
-          path: invader-zim-repo
+          path: temp-mnp-data
       
-      - name: Copy files and push changes
+      - name: Create fresh directory and push
         run: |
           # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Create mnp-data-archive directory
+          # Create a fresh directory
           mkdir -p mnp-data-archive
           
-          # Copy files from Invader-Zim repo
-          cp -r invader-zim-repo/* mnp-data-archive/
+          # Copy files from temp directory
+          cp -r temp-mnp-data/* mnp-data-archive/
           
-          # Add and commit changes
+          # Add, commit, and push
           git add mnp-data-archive
-          
-          # Check if there are changes to commit
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            # Commit and push changes
-            git commit -m "Auto-sync MNP data archive from Invader-Zim"
-            git push
-            echo "Changes successfully pushed"
-          fi
+          git commit -m "Complete reset and update of mnp-data-archive" || echo "No changes to commit"
+          git push
