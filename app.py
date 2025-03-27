@@ -82,7 +82,7 @@ def parse_seasons(season_str):
 
 season_input = st.text_input("Enter season(s) to process (e.g., '19' or '20-21')", "20-21")
 seasons_to_process = parse_seasons(season_input)
-
+st.session_state["seasons_to_process"] = seasons_to_process
 ##############################################
 # Section 2: Repository Management
 ##############################################
