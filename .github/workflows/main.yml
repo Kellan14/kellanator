@@ -2,54 +2,65 @@ name: Sync MNP Data Archive
 
 on:
   schedule:
-    # Run every day at 6:00 AM UTC
     - cron: '0 6 * * *'
-  # Also allow manual triggering
   workflow_dispatch:
 
 jobs:
   sync-data:
     runs-on: ubuntu-latest
-    
-    # Explicitly set permissions at the job level
     permissions:
       contents: write
     
     steps:
-      # Checkout Invader-Zim repo first
+      - name: Checkout kellanator repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Full history for better submodule handling
+      
+      - name: Remove submodule references if they exist
+        run: |
+          # Check if .gitmodules exists
+          if [ -f .gitmodules ]; then
+            # Check if it contains mnp-data-archive
+            if grep -q "mnp-data-archive" .gitmodules; then
+              echo "Removing mnp-data-archive submodule references"
+              # Remove from .gitmodules
+              git config -f .gitmodules --remove-section submodule.mnp-data-archive || true
+              # Remove from .git/config
+              git config --remove-section submodule.mnp-data-archive || true
+              # Remove from git index
+              git rm --cached mnp-data-archive || true
+              # Commit the changes to .gitmodules
+              git add .gitmodules
+              git commit -m "Remove mnp-data-archive submodule references" || true
+            fi
+          fi
+          
+          # Remove the directory if it exists
+          rm -rf mnp-data-archive
+      
       - name: Checkout Invader-Zim repo
         uses: actions/checkout@v3
         with:
           repository: Invader-Zim/mnp-data-archive
           path: invader-zim-repo
       
-      # Then checkout your repository with proper token
-      - name: Checkout kellanator repo
-        uses: actions/checkout@v3
-        with:
-          repository: Kellan14/kellanator
-          path: kellanator-repo
-          token: ${{ github.token }}
-      
-      # Compare and sync changes
-      - name: Sync repositories
+      - name: Copy files and push changes
         run: |
-          # Remove existing directory if it exists
-          rm -rf kellanator-repo/mnp-data-archive
-          
-          # Create fresh directory
-          mkdir -p kellanator-repo/mnp-data-archive
-          
-          # Copy all files from Invader-Zim to your repo
-          cp -r invader-zim-repo/* kellanator-repo/mnp-data-archive/
-          
-          # Set up git in your repo
-          cd kellanator-repo
+          # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Check if there are changes
+          # Create mnp-data-archive directory
+          mkdir -p mnp-data-archive
+          
+          # Copy files from Invader-Zim repo
+          cp -r invader-zim-repo/* mnp-data-archive/
+          
+          # Add and commit changes
           git add mnp-data-archive
+          
+          # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
