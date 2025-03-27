@@ -153,7 +153,7 @@ repo_dir = r"D:\Streamlit Apps\mnp-data-archive"
 ensure_repo(repository_url, repo_dir)
 
 st.title("The Kellanator 9000")
-if st.button("Check for Updates from GitHub", key="update_repo_btn"):
+if st.button("Update", key="update_repo_btn"):
     update_output = update_repo(repo_dir)
     update_placeholder = st.empty()
     update_placeholder.success(f"Repository update result:\n{update_output}")
@@ -934,16 +934,19 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
     return pd.DataFrame(data)
 
 def generate_debug_outputs(df, team_name, twc_team_name, venue_name):
+    seasons = st.session_state.get("seasons_to_process", [20, 21])
+    season_tuple = (min(seasons), max(seasons))
     debug_outputs = {
         'all_data': df,
         'filtered_data_by_team': filter_data(df, team_name),
-        'filtered_data_by_team_and_seasons': filter_data(df, team_name, (20, 21)),
-        'filtered_data_by_team_seasons_and_venue': filter_data(df, team_name, (20, 21), venue_name),
+        'filtered_data_by_team_and_seasons': filter_data(df, team_name, season_tuple),
+        'filtered_data_by_team_seasons_and_venue': filter_data(df, team_name, season_tuple, venue_name),
         'filtered_data_by_twc': filter_data(df, twc_team_name),
-        'filtered_data_by_twc_and_seasons': filter_data(df, twc_team_name, (20, 21)),
-        'filtered_data_by_twc_seasons_and_venue': filter_data(df, twc_team_name, (20, 21), venue_name),
+        'filtered_data_by_twc_and_seasons': filter_data(df, twc_team_name, season_tuple),
+        'filtered_data_by_twc_seasons_and_venue': filter_data(df, twc_team_name, season_tuple, venue_name),
     }
     return debug_outputs
+
 
 def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, roster_data):
     """
@@ -1769,6 +1772,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     )
 else:
     st.write("Press 'Kellanate' to Kellanate.")
+
 ##############################################
 # Section 12.5: Optional Debug Outputs Toggle
 ##############################################
@@ -1799,3 +1803,1349 @@ if st.checkbox("Debug Info", key="debug_info_toggle"):
             st.write(f"**DEBUG: No team abbreviation found for {selected_team}.**")
     else:
         st.write("**DEBUG: Team roster data is not available.**")
+
+##############################################
+# Section 13: machine picking algorithm - data structure
+##############################################
+
+def build_player_machine_stats(all_data_df, opponent_team_name, venue_name, seasons_to_process, roster_data, included_machines, excluded_machines):
+    """
+    Build a comprehensive player-machine statistics database for strategic picking.
+    This is from TWC's perspective against the opponent team.
+    
+    Parameters:
+    - all_data_df: DataFrame with processed match data
+    - opponent_team_name: Name of the opposing team
+    - venue_name: Name of the selected venue
+    - seasons_to_process: List of seasons to include
+    - roster_data: Dictionary mapping team abbreviations to roster player lists
+    - included_machines: List of machines specifically included at the venue
+    - excluded_machines: List of machines specifically excluded at the venue
+    
+    Returns:
+    - player_machine_stats: Dictionary with player stats
+    - machine_advantage_metrics: DataFrame with machine advantage metrics
+    """
+    import pandas as pd
+    import numpy as np
+    
+    # TWC is always the primary team we're analyzing
+    twc_team_name = "The Wrecking Crew"
+    
+    # Filter data for the venue and seasons
+    venue_data = all_data_df[all_data_df['venue'] == venue_name]
+    venue_data = venue_data[venue_data['season'].isin(seasons_to_process)]
+    
+    # Get team abbreviation for roster filtering
+    twc_abbr = "TWC"
+    
+    # Initialize data structures
+    player_machine_stats = {}
+    machine_venue_averages = {}
+    opponent_machine_stats = {}
+    machine_experience = {}
+    
+    # Start with all machines from the venue
+    all_machines_set = set(venue_data['machine'].unique())
+    
+    # Add any machines explicitly included (even if not in the venue data)
+    if included_machines:
+        all_machines_set.update(included_machines)
+    
+    # Remove any machines explicitly excluded
+    if excluded_machines:
+        all_machines_set.difference_update(excluded_machines)
+    
+    # Convert back to a sorted list if needed
+    filtered_machines = sorted(all_machines_set)
+
+    
+    # Calculate venue averages for each filtered machine
+    for machine in filtered_machines:
+        machine_data = venue_data[venue_data['machine'] == machine]
+        machine_venue_averages[machine] = machine_data['score'].mean()
+        
+        # Track experience counts for opponent on this machine
+        opponent_machine_data = machine_data[machine_data['team'] == opponent_team_name]
+        opponent_plays = len(opponent_machine_data.groupby(['match', 'round']).first())
+        opponent_players = opponent_machine_data['player_name'].nunique()
+        
+        # Store opponent averages and experience
+        opponent_machine_stats[machine] = {
+            'average_score': opponent_machine_data['score'].mean() if len(opponent_machine_data) > 0 else None,
+            'plays_count': opponent_plays,
+            'players_count': opponent_players,
+            'scores': opponent_machine_data['score'].tolist() if len(opponent_machine_data) > 0 else []
+        }
+        
+        # Initialize machine experience tracking for TWC
+        machine_experience[machine] = {
+            'team_plays': 0,
+            'team_players': set(),
+            'team_players_with_experience': []
+        }
+    
+    # Process each TWC player
+    twc_players = set()
+    if twc_abbr and twc_abbr in roster_data:
+        twc_players = set(roster_data[twc_abbr])
+    
+    # Also include any player who has played for TWC at this venue
+    twc_venue_data = venue_data[venue_data['team'] == twc_team_name]
+    for player in twc_venue_data['player_name'].unique():
+        twc_players.add(player)
+    
+    # Build stats for each TWC player
+    for player in twc_players:
+        player_data = venue_data[venue_data['player_name'] == player]
+        player_twc_data = player_data[player_data['team'] == twc_team_name]
+        
+        # Initialize player stats
+        player_machine_stats[player] = {
+            'machines': {},
+            'overall_average_pct_of_venue': 0,
+            'total_games_played': len(player_twc_data),
+            'experience_breadth': 0  # How many machines they've played
+        }
+        
+        # Only process if the player has games at this venue
+        if len(player_twc_data) > 0:
+            # Calculate overall average percentage of venue average
+            player_pcts = []
+            
+            # Process each machine the player has played (filtering for included/excluded)
+            player_machines = [m for m in player_twc_data['machine'].unique() if m in filtered_machines]
+            player_machine_stats[player]['experience_breadth'] = len(player_machines)
+            
+            for machine in player_machines:
+                player_machine_data = player_twc_data[player_twc_data['machine'] == machine]
+                venue_avg = machine_venue_averages.get(machine, 0)
+                
+                # Calculate stats for this player on this machine
+                scores = player_machine_data['score'].tolist()
+                avg_score = np.mean(scores) if scores else 0
+                pct_of_venue = (avg_score / venue_avg * 100) if venue_avg > 0 else 0
+                plays_count = len(player_machine_data)
+                
+                # Track TWC experience on this machine
+                machine_experience[machine]['team_plays'] += plays_count
+                machine_experience[machine]['team_players'].add(player)
+                machine_experience[machine]['team_players_with_experience'].append({
+                    'player': player,
+                    'plays_count': plays_count,
+                    'avg_score': avg_score,
+                    'pct_of_venue': pct_of_venue
+                })
+                
+                # Store the player's stats for this machine
+                player_machine_stats[player]['machines'][machine] = {
+                    'scores': scores,
+                    'average_score': avg_score,
+                    'pct_of_venue': pct_of_venue,
+                    'plays_count': plays_count,
+                    'rank_on_team': 0  # Will be calculated after all players are processed
+                }
+                
+                # Add to the player's overall percentage calculations
+                player_pcts.append(pct_of_venue)
+            
+            # Calculate overall average percentage across machines
+            if player_pcts:
+                player_machine_stats[player]['overall_average_pct_of_venue'] = np.mean(player_pcts)
+    
+    # Calculate TWC rankings for each machine
+    machine_rankings = {}
+    for machine in filtered_machines:
+        # Get all players who have played this machine
+        players_with_experience = []
+        for player, stats in player_machine_stats.items():
+            if machine in stats['machines']:
+                players_with_experience.append({
+                    'player': player,
+                    'pct_of_venue': stats['machines'][machine]['pct_of_venue'],
+                    'plays_count': stats['machines'][machine]['plays_count']
+                })
+        
+        # Sort by percentage of venue average
+        players_with_experience.sort(key=lambda x: x['pct_of_venue'], reverse=True)
+        
+        # Assign rankings
+        machine_rankings[machine] = players_with_experience
+        for rank, player_data in enumerate(players_with_experience, 1):
+            player = player_data['player']
+            if player in player_machine_stats and machine in player_machine_stats[player]['machines']:
+                player_machine_stats[player]['machines'][machine]['rank_on_team'] = rank
+    
+    # Calculate machine advantage metrics
+    machine_advantage_data = []
+    for machine in filtered_machines:
+        venue_avg = machine_venue_averages.get(machine, 0)
+        opponent_avg = opponent_machine_stats[machine]['average_score'] if opponent_machine_stats[machine]['average_score'] else 0
+        opponent_pct = (opponent_avg / venue_avg * 100) if venue_avg > 0 and opponent_avg > 0 else 0
+        
+        # Get TWC average for this machine
+        twc_scores = []
+        for player in machine_experience[machine]['team_players_with_experience']:
+            twc_scores.extend([player['avg_score']] * player['plays_count'])
+        
+        twc_avg = np.mean(twc_scores) if twc_scores else 0
+        twc_pct = (twc_avg / venue_avg * 100) if venue_avg > 0 and twc_avg > 0 else 0
+        
+        # Calculate experience advantage
+        twc_plays = machine_experience[machine]['team_plays']
+        twc_players = len(machine_experience[machine]['team_players'])
+        opponent_plays = opponent_machine_stats[machine]['plays_count']
+        opponent_players = opponent_machine_stats[machine]['players_count']
+        
+        experience_advantage = twc_plays - opponent_plays
+        player_coverage_advantage = twc_players - opponent_players
+        
+        # Calculate statistical advantage
+        statistical_advantage = twc_pct - opponent_pct if twc_pct > 0 and opponent_pct > 0 else None
+        
+        # Special cases for advantage calculation
+        if twc_pct > 0 and opponent_pct == 0:
+            # TWC has played it but opponent hasn't - strong advantage
+            advantage_level = "Strong TWC Advantage"
+            composite_score = 100
+        elif twc_pct == 0 and opponent_pct > 0:
+            # Opponent has played it but TWC hasn't - strong disadvantage
+            advantage_level = "Strong Opponent Advantage"
+            composite_score = -100
+        elif twc_pct == 0 and opponent_pct == 0:
+            # Neither has played it - neutral
+            advantage_level = "Neutral"
+            composite_score = 0
+        elif statistical_advantage is not None:
+            # Both have played it - calculate real advantage
+            if statistical_advantage > 20:
+                advantage_level = "TWC Advantage"
+            elif statistical_advantage < -20:
+                advantage_level = "Opponent Advantage"
+            else:
+                advantage_level = "Slight/No Advantage"
+            
+            # Create a composite score combining statistical and experience advantages
+            # Weight can be adjusted based on strategic importance
+            statistical_weight = 0.7
+            experience_weight = 0.3
+            
+            # Normalize experience advantage to similar scale as percentage advantage
+            normalized_exp_adv = min(max(experience_advantage / 5 * 20, -100), 100)
+            
+            composite_score = (statistical_advantage * statistical_weight + 
+                              normalized_exp_adv * experience_weight)
+        else:
+            advantage_level = "Unknown"
+            composite_score = 0
+        
+        # Add machine data to the advantage metrics
+        machine_advantage_data.append({
+            'Machine': machine,
+            'Venue Average': venue_avg,
+            'TWC Average': twc_avg,
+            'TWC % of Venue': twc_pct,
+            'Opponent Average': opponent_avg,
+            'Opponent % of Venue': opponent_pct,
+            'Statistical Advantage': statistical_advantage,
+            'TWC Plays': twc_plays,
+            'Opponent Plays': opponent_plays,
+            'Experience Advantage': experience_advantage,
+            'TWC Players': twc_players,
+            'Opponent Players': opponent_players,
+            'Player Coverage Advantage': player_coverage_advantage,
+            'Advantage Level': advantage_level,
+            'Composite Score': composite_score,
+            'Top TWC Players': [p['player'] for p in machine_rankings.get(machine, [])[:3]],
+            'Available at Venue': True  # Will be True for all filtered machines
+        })
+    
+    # Convert to DataFrame and sort by composite score
+    machine_advantage_df = pd.DataFrame(machine_advantage_data)
+    machine_advantage_df = machine_advantage_df.sort_values('Composite Score', ascending=False)
+    
+    return player_machine_stats, machine_advantage_df
+
+##############################################
+# Section 13.1: machine picking algorithm - optimization
+##############################################
+
+def optimize_machine_selections(player_machine_stats, machine_advantage_df, format_type, available_players, num_machines_to_pick):
+    """
+    Optimize machine selections and player assignments to maximize advantage.
+    
+    Parameters:
+    - player_machine_stats: Dictionary with player performance statistics
+    - machine_advantage_df: DataFrame with machine advantage metrics
+    - format_type: Either "Singles" or "Doubles"
+    - available_players: List of player names who are available for this format
+    - num_machines_to_pick: Number of machines to select (typically 4 for doubles, 7 for singles)
+    
+    Returns:
+    - selected_machines: List of selected machines
+    - player_assignments: Dictionary mapping machines to assigned players
+    """
+    import numpy as np
+    import pandas as pd
+    from scipy.optimize import linear_sum_assignment
+    
+    # Determine if this is doubles or singles
+    is_doubles = format_type.lower() == "doubles"
+    is_singles = format_type.lower() == "singles"
+    
+    # Filter the machine advantage DataFrame to only include available machines
+    available_machines_df = machine_advantage_df[machine_advantage_df['Available at Venue'] == True]
+    
+    # Create a player-machine score matrix
+    player_machine_scores = {}
+    
+    for player in available_players:
+        player_machine_scores[player] = {}
+        player_stats = player_machine_stats.get(player, {'machines': {}, 'overall_average_pct_of_venue': 0})
+        
+        # Get the player's overall average as a fallback
+        player_overall_avg = player_stats['overall_average_pct_of_venue']
+        
+        for _, machine_row in available_machines_df.iterrows():
+            machine = machine_row['Machine']
+            
+            # Get this player's stats on this machine if available
+            machine_stats = player_stats['machines'].get(machine, {})
+            
+            if machine_stats:
+                # Player has played this machine before
+                player_pct = machine_stats['pct_of_venue']
+                plays_count = machine_stats['plays_count']
+                
+                # Confidence factor based on number of plays (higher is better)
+                confidence = min(plays_count / 3, 1.0)  # Maxes out at 3+ plays
+                
+                # Calculate player's advantage over opponent average
+                opponent_pct = machine_row['Opponent % of Venue']
+                if opponent_pct > 0:
+                    player_advantage = player_pct - opponent_pct
+                else:
+                    # Opponent hasn't played this machine - big advantage
+                    player_advantage = player_pct * 0.5  # Scale factor to avoid overly favoring unknown machines
+                
+                # Calculate final score considering confidence
+                final_score = player_advantage * confidence
+                
+            else:
+                # Player hasn't played this machine - use overall average as estimate
+                # This is heavily discounted due to uncertainty
+                if player_overall_avg > 0:
+                    opponent_pct = machine_row['Opponent % of Venue']
+                    if opponent_pct > 0:
+                        # Estimate advantage based on overall player average
+                        player_advantage = player_overall_avg - opponent_pct
+                    else:
+                        # Neither player nor opponent has played this
+                        player_advantage = 0
+                    
+                    # Very low confidence for machines the player hasn't played
+                    final_score = player_advantage * 0.3
+                else:
+                    # No data for this player at all
+                    final_score = 0
+            
+            # Store the final score
+            player_machine_scores[player][machine] = final_score
+    
+    # Optimization strategy differs for doubles and singles
+    if is_singles:
+        # For singles, this is a standard assignment problem
+        return optimize_singles_format(player_machine_scores, available_machines_df, available_players, num_machines_to_pick)
+    else:
+        # For doubles, we need to optimize pairs
+        return optimize_doubles_format(player_machine_scores, available_machines_df, available_players, num_machines_to_pick)
+
+def optimize_singles_format(player_machine_scores, available_machines_df, available_players, num_machines_to_pick):
+    """
+    Optimize machine selections and player assignments for singles format.
+    
+    Parameters:
+    - player_machine_scores: Dictionary of dictionaries with player-machine scores
+    - available_machines_df: DataFrame with filtered machine advantage metrics
+    - available_players: List of player names who are available
+    - num_machines_to_pick: Number of machines to select (typically 7 for singles)
+    
+    Returns:
+    - selected_machines: List of selected machines
+    - player_assignments: Dictionary mapping machines to assigned players
+    """
+    import numpy as np
+    from scipy.optimize import linear_sum_assignment
+    
+    # Ensure we don't try to pick more machines than available
+    num_machines_to_pick = min(num_machines_to_pick, len(available_machines_df), len(available_players))
+    
+    if num_machines_to_pick == 0:
+        return [], {}
+    
+    # Convert available machines to a list
+    available_machines = available_machines_df['Machine'].tolist()
+    
+    # Create a score matrix for the Hungarian algorithm
+    # We'll use negative scores since the algorithm minimizes cost
+    cost_matrix = np.zeros((len(available_players), len(available_machines)))
+    
+    for i, player in enumerate(available_players):
+        for j, machine in enumerate(available_machines):
+            score = player_machine_scores[player].get(machine, 0)
+            # Convert to cost (negative score)
+            cost_matrix[i, j] = -score
+    
+    # Use the Hungarian algorithm to find the optimal assignment
+    row_ind, col_ind = linear_sum_assignment(cost_matrix)
+    
+    # Sort assignments by score (highest first)
+    assignments = []
+    for i, j in zip(row_ind, col_ind):
+        player = available_players[i]
+        machine = available_machines[j]
+        score = -cost_matrix[i, j]  # Convert back to positive score
+        assignments.append((player, machine, score))
+    
+    # Sort by score, highest first
+    assignments.sort(key=lambda x: x[2], reverse=True)
+    
+    # Take top N assignments
+    top_assignments = assignments[:num_machines_to_pick]
+    
+    # Create the results
+    selected_machines = [machine for _, machine, _ in top_assignments]
+    player_assignments = {machine: [player] for player, machine, _ in top_assignments}
+    
+    return selected_machines, player_assignments
+
+def optimize_doubles_format(player_machine_scores, available_machines_df, available_players, num_machines_to_pick):
+    """
+    Optimize machine selections and player pair assignments for doubles format.
+    
+    Parameters:
+    - player_machine_scores: Dictionary of dictionaries with player-machine scores
+    - available_machines_df: DataFrame with filtered machine advantage metrics
+    - available_players: List of player names who are available
+    - num_machines_to_pick: Number of machines to select (typically 4 for doubles)
+    
+    Returns:
+    - selected_machines: List of selected machines
+    - player_assignments: Dictionary mapping machines to assigned player pairs
+    """
+    import itertools
+    import numpy as np
+    
+    # Ensure we have enough players for doubles
+    if len(available_players) < num_machines_to_pick * 2:
+        return [], {}
+    
+    # Get all possible player pairs
+    player_pairs = list(itertools.combinations(available_players, 2))
+    
+    # Convert available machines to a list
+    available_machines = available_machines_df['Machine'].tolist()
+    
+    # Create a score dictionary for each pair-machine combination
+    pair_machine_scores = {}
+    for pair in player_pairs:
+        player1, player2 = pair
+        pair_machine_scores[pair] = {}
+        
+        for machine in available_machines:
+            # Combine individual player scores
+            score1 = player_machine_scores[player1].get(machine, 0)
+            score2 = player_machine_scores[player2].get(machine, 0)
+            
+            # We want pairs where both players are good, not just one excellent player
+            # This is a weighted average that favors balanced pairs
+            combined_score = (score1 + score2) * 0.5 + min(score1, score2) * 0.5
+            
+            pair_machine_scores[pair][machine] = combined_score
+    
+    # Now we need to find the optimal selection of machines and assignment of pairs
+    # This is more complex than the singles case as we need to:
+    # 1. Select machines
+    # 2. Assign player pairs
+    # 3. Ensure each player is only used once
+    
+    # We'll use a greedy approach:
+    # 1. Calculate scores for all pair-machine combinations
+    # 2. Sort by score (highest first)
+    # 3. Take combinations in order, skipping those that use already assigned players
+    
+    # Calculate all pair-machine scores
+    all_combinations = []
+    for pair in player_pairs:
+        for machine in available_machines:
+            score = pair_machine_scores[pair].get(machine, 0)
+            all_combinations.append((pair, machine, score))
+    
+    # Sort by score, highest first
+    all_combinations.sort(key=lambda x: x[2], reverse=True)
+    
+    # Select the top combinations, ensuring no player is used twice
+    selected_combinations = []
+    used_players = set()
+    used_machines = set()
+    
+    for pair, machine, score in all_combinations:
+        player1, player2 = pair
+        
+        # Skip if we've reached our limit
+        if len(selected_combinations) >= num_machines_to_pick:
+            break
+            
+        # Skip if this machine or any player is already used
+        if machine in used_machines or player1 in used_players or player2 in used_players:
+            continue
+        
+        # Add this combination
+        selected_combinations.append((pair, machine, score))
+        used_players.add(player1)
+        used_players.add(player2)
+        used_machines.add(machine)
+    
+    # Create the results
+    selected_machines = [machine for _, machine, _ in selected_combinations]
+    player_assignments = {machine: list(pair) for pair, machine, _ in selected_combinations}
+    
+    return selected_machines, player_assignments
+
+##############################################
+# Section 13.2: machine picking algorithm - TWC Picks
+##############################################
+
+def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_roster):
+    """
+    Analyze and recommend optimal machine picking strategy for TWC.
+    
+    Parameters:
+    - all_data: Processed match data
+    - opponent_team_name: Name of the opposing team (the selected team)
+    - venue_name: Name of the selected venue
+    - team_roster: Dictionary mapping team abbreviations to roster player lists
+    
+    Returns:
+    - recommendation_df: DataFrame with machine recommendations
+    - player_stats: Player performance statistics
+    """
+    import pandas as pd
+    import streamlit as st
+    
+    # Convert all_data to DataFrame if it's not already
+    if not isinstance(all_data, pd.DataFrame):
+        all_data_df = pd.DataFrame(all_data)
+    else:
+        all_data_df = all_data
+    
+    # Get current seasons from session state
+    seasons_to_process = st.session_state.get("seasons_to_process", [20, 21])
+    
+    # Get venue machine lists (included/excluded)
+    venue_machine_lists = get_venue_machine_list(venue_name, "all")
+    
+    # Check the type of venue_machine_lists
+    st.write(f"Venue Machine Lists Type: {type(venue_machine_lists)}")
+    st.write(f"Venue Machine Lists: {venue_machine_lists}")
+    
+    # Handle different possible return types
+    if isinstance(venue_machine_lists, dict):
+        included_machines = venue_machine_lists.get("included", [])
+        excluded_machines = venue_machine_lists.get("excluded", [])
+    elif isinstance(venue_machine_lists, list):
+        # If it's a list, assume empty dictionaries
+        included_machines = []
+        excluded_machines = []
+    else:
+        # Unexpected type
+        st.warning(f"Unexpected venue machine lists type: {type(venue_machine_lists)}")
+        included_machines = []
+        excluded_machines = []
+    
+    # Diagnostic Streamlit output
+    st.write(f"Venue: {venue_name}")
+    st.write(f"Included Machines: {included_machines}")
+    st.write(f"Excluded Machines: {excluded_machines}")
+    
+    # Build comprehensive player and machine statistics
+    player_machine_stats, machine_advantage_df = build_player_machine_stats(
+        all_data_df, opponent_team_name, venue_name, seasons_to_process, team_roster,
+        included_machines, excluded_machines
+    )
+    
+    # Display the strategic analysis
+    st.markdown(f"## Strategic Picking Analysis for TWC vs {opponent_team_name} at {venue_name}")
+    
+    # Display player roster management
+    st.markdown("### TWC Player Availability")
+    st.markdown("Select players available for this match:")
+    
+    # Get all players who have played at this venue for TWC
+    all_players = list(player_machine_stats.keys())
+    all_players_sorted = sorted(all_players)
+    
+    # Initialize all as checked
+    if "available_players" not in st.session_state:
+        st.session_state.available_players = {player: True for player in all_players_sorted}
+    
+    # Create rows of checkboxes for players
+    cols_per_row = 3
+    for i in range(0, len(all_players_sorted), cols_per_row):
+        cols = st.columns(cols_per_row)
+        for j in range(cols_per_row):
+            if i + j < len(all_players_sorted):
+                player = all_players_sorted[i + j]
+                idx = j % cols_per_row
+                st.session_state.available_players[player] = cols[idx].checkbox(
+                    player, 
+                    value=st.session_state.available_players.get(player, True),
+                    key=f"player_{player}"
+                )
+    
+    # Get currently available players
+    available_players = [p for p, available in st.session_state.available_players.items() if available]
+    
+    # Display top advantage machines
+    st.markdown("### Machine Advantage Analysis")
+    st.markdown("Machines ranked by strategic advantage for TWC:")
+    
+    # Display advantage table
+    display_columns = [
+        'Machine', 'Composite Score', 'TWC % of Venue', 'Opponent % of Venue', 
+        'Statistical Advantage', 'Experience Advantage', 'Player Coverage Advantage',
+        'Advantage Level', 'Top TWC Players'
+    ]
+    
+    # Format the dataframe for display
+    display_df = machine_advantage_df[display_columns].copy()
+    
+    # Format numeric columns
+    display_df['Composite Score'] = display_df['Composite Score'].round(1)
+    display_df['TWC % of Venue'] = display_df['TWC % of Venue'].round(1)
+    display_df['Opponent % of Venue'] = display_df['Opponent % of Venue'].round(1)
+    display_df['Statistical Advantage'] = display_df['Statistical Advantage'].round(1)
+    
+    # Display the table
+    st.dataframe(display_df)
+    
+    # Add optimization section for each format type
+    st.markdown("### Format-Specific Picking Strategy")
+    
+    # Create tabs for Singles and Doubles
+    tabs = st.tabs(["Singles", "Doubles"])
+    
+    format_recommendations = {}
+    
+    # Tab for Singles format
+    with tabs[0]:
+        # Singles settings
+        st.markdown("#### Singles Format")
+        
+        # Number of machines to pick for singles (default 7)
+        num_singles_machines = st.number_input("Number of machines to pick:", min_value=1, max_value=10, value=7, key="singles_num")
+        
+        st.markdown(f"Selecting {num_singles_machines} machines and assigning one player to each.")
+        
+        # Add a button to run the optimization
+        if st.button("Optimize Singles Picks", key="optimize_singles"):
+            # Check if we have enough players
+            if len(available_players) >= num_singles_machines:
+                # Run the optimization
+                selected_machines, player_assignments = optimize_machine_selections(
+                    player_machine_stats, 
+                    machine_advantage_df,
+                    "Singles",
+                    available_players,
+                    num_singles_machines
+                )
+                
+                # Store results
+                format_recommendations["Singles"] = {
+                    'selected_machines': selected_machines,
+                    'player_assignments': player_assignments
+                }
+                
+                # Display results
+                if selected_machines:
+                    st.markdown("**Recommended Machine Picks:**")
+                    for idx, machine in enumerate(selected_machines, 1):
+                        machine_data = machine_advantage_df[machine_advantage_df['Machine'] == machine].iloc[0]
+                        assigned_players = player_assignments.get(machine, [])
+                        
+                        st.markdown(f"{idx}. **{machine.title()}** - Composite Score: {machine_data['Composite Score']:.1f}")
+                        if assigned_players:
+                            st.markdown(f"   Assigned Player: {', '.join(assigned_players)}")
+                        
+                        # Display more detailed stats for this machine
+                        expander = st.expander(f"View details for {machine.title()}")
+                        with expander:
+                            st.markdown(f"**Machine**: {machine.title()}")
+                            st.markdown(f"**Advantage Level**: {machine_data['Advantage Level']}")
+                            st.markdown(f"**TWC % of Venue**: {machine_data['TWC % of Venue']:.1f}%")
+                            st.markdown(f"**Opponent % of Venue**: {machine_data['Opponent % of Venue']:.1f}%")
+                            st.markdown(f"**Statistical Advantage**: {machine_data['Statistical Advantage']:.1f}")
+                            st.markdown(f"**Experience Advantage**: {machine_data['Experience Advantage']} plays")
+                            st.markdown(f"**Player Coverage**: {machine_data['TWC Players']} TWC players vs {machine_data['Opponent Players']} opponent players")
+                            
+                            # Display player performance on this machine
+                            st.markdown("#### Player Performance on this Machine")
+                            player_data = []
+                            for player in available_players:
+                                if player in player_machine_stats and machine in player_machine_stats[player]['machines']:
+                                    stats = player_machine_stats[player]['machines'][machine]
+                                    player_data.append({
+                                        'Player': player,
+                                        'Average Score': stats['average_score'],
+                                        '% of Venue': stats['pct_of_venue'],
+                                        'Times Played': stats['plays_count'],
+                                        'Team Rank': stats['rank_on_team']
+                                    })
+                            
+                            if player_data:
+                                player_df = pd.DataFrame(player_data)
+                                player_df = player_df.sort_values('% of Venue', ascending=False)
+                                st.dataframe(player_df)
+                            else:
+                                st.markdown("No TWC players have experience on this machine.")
+                else:
+                    st.warning("Not enough available machines or players to make recommendations.")
+            else:
+                st.error(f"Not enough available players. Need {num_singles_machines}, have {len(available_players)}.")
+        
+        # If we already have recommendations for singles, display them
+        if "Singles" in format_recommendations:
+            rec = format_recommendations["Singles"]
+            st.markdown("**Current Recommended Singles Picks:**")
+            for idx, machine in enumerate(rec['selected_machines'], 1):
+                machine_data = machine_advantage_df[machine_advantage_df['Machine'] == machine].iloc[0]
+                st.markdown(f"{idx}. **{machine.title()}** - Players: {', '.join(rec['player_assignments'].get(machine, []))}")
+    
+    # Tab for Doubles format
+    with tabs[1]:
+        # Doubles settings
+        st.markdown("#### Doubles Format")
+        
+        # Number of machines to pick for doubles (default 4)
+        num_doubles_machines = st.number_input("Number of machines to pick:", min_value=1, max_value=8, value=4, key="doubles_num")
+        
+        st.markdown(f"Selecting {num_doubles_machines} machines and assigning two players to each.")
+        
+        # Add a button to run the optimization
+        if st.button("Optimize Doubles Picks", key="optimize_doubles"):
+            # Check if we have enough players
+            if len(available_players) >= num_doubles_machines * 2:
+                # Run the optimization
+                selected_machines, player_assignments = optimize_machine_selections(
+                    player_machine_stats, 
+                    machine_advantage_df,
+                    "Doubles",
+                    available_players,
+                    num_doubles_machines
+                )
+                
+                # Store results
+                format_recommendations["Doubles"] = {
+                    'selected_machines': selected_machines,
+                    'player_assignments': player_assignments
+                }
+                
+                # Display results
+                if selected_machines:
+                    st.markdown("**Recommended Machine Picks:**")
+                    for idx, machine in enumerate(selected_machines, 1):
+                        machine_data = machine_advantage_df[machine_advantage_df['Machine'] == machine].iloc[0]
+                        assigned_players = player_assignments.get(machine, [])
+                        
+                        st.markdown(f"{idx}. **{machine.title()}** - Composite Score: {machine_data['Composite Score']:.1f}")
+                        if assigned_players:
+                            st.markdown(f"   Assigned Players: {', '.join(assigned_players)}")
+                        
+                        # Display more detailed stats for this machine
+                        expander = st.expander(f"View details for {machine.title()}")
+                        with expander:
+                            st.markdown(f"**Machine**: {machine.title()}")
+                            st.markdown(f"**Advantage Level**: {machine_data['Advantage Level']}")
+                            st.markdown(f"**TWC % of Venue**: {machine_data['TWC % of Venue']:.1f}%")
+                            st.markdown(f"**Opponent % of Venue**: {machine_data['Opponent % of Venue']:.1f}%")
+                            st.markdown(f"**Statistical Advantage**: {machine_data['Statistical Advantage']:.1f}")
+                            st.markdown(f"**Experience Advantage**: {machine_data['Experience Advantage']} plays")
+                            st.markdown(f"**Player Coverage**: {machine_data['TWC Players']} TWC players vs {machine_data['Opponent Players']} opponent players")
+                            
+                            # Display player performance on this machine
+                            st.markdown("#### Player Performance on this Machine")
+                            player_data = []
+                            for player in available_players:
+                                if player in player_machine_stats and machine in player_machine_stats[player]['machines']:
+                                    stats = player_machine_stats[player]['machines'][machine]
+                                    player_data.append({
+                                        'Player': player,
+                                        'Average Score': stats['average_score'],
+                                        '% of Venue': stats['pct_of_venue'],
+                                        'Times Played': stats['plays_count'],
+                                        'Team Rank': stats['rank_on_team']
+                                    })
+                            
+                            if player_data:
+                                player_df = pd.DataFrame(player_data)
+                                player_df = player_df.sort_values('% of Venue', ascending=False)
+                                st.dataframe(player_df)
+                            else:
+                                st.markdown("No TWC players have experience on this machine.")
+                else:
+                    st.warning("Not enough available machines or players to make recommendations.")
+            else:
+                st.error(f"Not enough available players. Need {num_doubles_machines * 2}, have {len(available_players)}.")
+        
+        # If we already have recommendations for doubles, display them
+        if "Doubles" in format_recommendations:
+            rec = format_recommendations["Doubles"]
+            st.markdown("**Current Recommended Doubles Picks:**")
+            for idx, machine in enumerate(rec['selected_machines'], 1):
+                machine_data = machine_advantage_df[machine_advantage_df['Machine'] == machine].iloc[0]
+                st.markdown(f"{idx}. **{machine.title()}** - Players: {', '.join(rec['player_assignments'].get(machine, []))}")
+    
+    # Player analysis section
+    st.markdown("### Player Analysis")
+    selected_player = st.selectbox("Select player to analyze:", [""] + sorted(available_players))
+    
+    if selected_player:
+        st.markdown(f"#### Performance Profile for {selected_player}")
+        
+        if selected_player in player_machine_stats:
+            player_data = player_machine_stats[selected_player]
+            
+            # Show overall stats
+            st.markdown(f"**Overall Average % of Venue**: {player_data['overall_average_pct_of_venue']:.1f}%")
+            st.markdown(f"**Total Games Played at {venue_name}**: {player_data['total_games_played']}")
+            st.markdown(f"**Machine Experience Breadth**: {player_data['experience_breadth']} machines")
+            
+            # Show machine-specific performance
+            st.markdown("#### Machine Performance")
+            
+            # Prepare data for table
+            machine_data = []
+            for machine, stats in player_data['machines'].items():
+                # Get the corresponding machine advantage data
+                machine_adv = machine_advantage_df[machine_advantage_df['Machine'] == machine]
+                
+                if not machine_adv.empty:
+                    opponent_pct = machine_adv.iloc[0]['Opponent % of Venue']
+                    advantage = stats['pct_of_venue'] - opponent_pct if opponent_pct > 0 else None
+                    
+                    machine_data.append({
+                        'Machine': machine,
+                        'Average Score': stats['average_score'],
+                        '% of Venue': stats['pct_of_venue'],
+                        'Times Played': stats['plays_count'],
+                        'Team Rank': stats['rank_on_team'],
+                        'Opponent % of Venue': opponent_pct,
+                        'Player Advantage': advantage
+                    })
+            
+            if machine_data:
+                # Convert to DataFrame and sort by advantage
+                machine_df = pd.DataFrame(machine_data)
+                machine_df = machine_df.sort_values('Player Advantage', ascending=False)
+                
+                # Format numeric columns
+                machine_df['Average Score'] = machine_df['Average Score'].round(0).astype(int)
+                machine_df['% of Venue'] = machine_df['% of Venue'].round(1)
+                machine_df['Opponent % of Venue'] = machine_df['Opponent % of Venue'].round(1)
+                machine_df['Player Advantage'] = machine_df['Player Advantage'].round(1)
+                
+                st.dataframe(machine_df)
+                
+                # Show top machines for this player
+                st.markdown("#### Best Machines for this Player")
+                top_machines = machine_df.sort_values('Player Advantage', ascending=False).head(3)
+                
+                for i, (_, row) in enumerate(top_machines.iterrows(), 1):
+                    machine = row['Machine']
+                    st.markdown(f"{i}. **{machine.title()}** - {row['% of Venue']:.1f}% of venue average, " + 
+                              f"{row['Player Advantage']:.1f} advantage over opponent")
+            else:
+                st.markdown("No machine data available for this player at this venue.")
+        else:
+            st.markdown("No data available for this player.")
+    
+    return machine_advantage_df, player_machine_stats
+
+def add_strategic_picking_section():
+    """
+    Add the strategic picking section to the Streamlit app.
+    """
+    import streamlit as st
+    import pandas as pd
+    
+    st.markdown("## Strategic Machine Picking")
+    
+    # This section should only be run after data has been processed
+    if not st.session_state.get("kellanate_output", False) or "debug_outputs" not in st.session_state:
+        st.warning("Please run 'Kellanate' first to process the data.")
+        return
+    
+    # Get the required data from session state
+    all_data_df = st.session_state["debug_outputs"].get("all_data")
+    selected_team = st.session_state.get("select_team_json", "")
+    selected_venue = st.session_state.get("select_venue_json", "")
+    roster_data = st.session_state.get("roster_data", {})
+    
+    if all_data_df is not None and not all_data_df.empty:
+        # Run the strategic picking analysis
+        machine_recommendations, player_stats = analyze_picking_strategy(
+            all_data_df, selected_team, selected_venue, roster_data
+        )
+        
+        # Store the results in session state for later use
+        st.session_state["machine_recommendations"] = machine_recommendations
+        st.session_state["player_stats"] = player_stats
+    else:
+        st.error("No data available. Please make sure you've loaded match data.")
+
+##############################################
+# Section 13.3: machine picking algorithm - Opponent Picks
+##############################################
+
+def analyze_player_assignment_strategy(all_data, opponent_team_name, venue_name, team_roster):
+    """
+    When the opponent has picked machines, analyze and recommend optimal TWC player assignments.
+    
+    Parameters:
+    - all_data: Processed match data
+    - opponent_team_name: Name of the opposing team (the selected team)
+    - venue_name: Name of the selected venue
+    - team_roster: Dictionary mapping team abbreviations to roster player lists
+    
+    Returns:
+    - player_assignments: Dictionary with recommended player assignments
+    """
+    import pandas as pd
+    import streamlit as st
+    import numpy as np
+    from scipy.optimize import linear_sum_assignment
+    
+    # Convert all_data to DataFrame if it's not already
+    if not isinstance(all_data, pd.DataFrame):
+        all_data_df = pd.DataFrame(all_data)
+    else:
+        all_data_df = all_data
+    
+    # Get current seasons from session state
+    seasons_to_process = st.session_state.get("seasons_to_process", [20, 21])
+    
+    # Get venue machine lists (included/excluded)
+    included_machines = get_venue_machine_list(venue_name, "included")
+    excluded_machines = get_venue_machine_list(venue_name, "excluded")
+    
+    # Build comprehensive player and machine statistics (for TWC)
+    player_machine_stats, machine_advantage_df = build_player_machine_stats(
+        all_data_df, opponent_team_name, venue_name, seasons_to_process, team_roster,
+        included_machines, excluded_machines
+    )
+    
+    # Display the title
+    st.markdown(f"## Player Assignment Strategy for TWC vs {opponent_team_name} at {venue_name}")
+    st.markdown("When the opponent has picked machines, use this tool to assign your players optimally.")
+    
+    # Player roster management
+    st.markdown("### TWC Player Availability")
+    st.markdown("Select players available for this match:")
+    
+    # Get all players who have played at this venue for TWC
+    all_players = list(player_machine_stats.keys())
+    all_players_sorted = sorted(all_players)
+    
+    # Initialize all as checked
+    if "defense_available_players" not in st.session_state:
+        st.session_state.defense_available_players = {player: True for player in all_players_sorted}
+    
+    # Create rows of checkboxes for players
+    cols_per_row = 3
+    for i in range(0, len(all_players_sorted), cols_per_row):
+        cols = st.columns(cols_per_row)
+        for j in range(cols_per_row):
+            if i + j < len(all_players_sorted):
+                player = all_players_sorted[i + j]
+                idx = j % cols_per_row
+                st.session_state.defense_available_players[player] = cols[idx].checkbox(
+                    player, 
+                    value=st.session_state.defense_available_players.get(player, True),
+                    key=f"defense_player_{player}"
+                )
+    
+    # Get currently available players
+    available_players = [p for p, available in st.session_state.defense_available_players.items() if available]
+    
+    # Create tabs for Singles and Doubles formats
+    tabs = st.tabs(["Singles", "Doubles"])
+    
+    format_assignments = {}
+    
+    # Tab for Singles format
+    with tabs[0]:
+        st.markdown("#### Singles Format")
+        st.markdown("Enter machines picked by the opponent:")
+        
+        # Initialize picked machines in session state if not already there
+        if "singles_opponent_picks" not in st.session_state:
+            st.session_state["singles_opponent_picks"] = []
+        
+        # Allow adding new picked machines
+        all_machines = sorted(machine_advantage_df['Machine'].tolist())
+        new_machine = st.selectbox(
+            "Add a machine:", 
+            [""] + [m for m in all_machines if m not in st.session_state["singles_opponent_picks"]],
+            key=f"add_machine_singles"
+        )
+        
+        if new_machine and st.button("Add Machine", key="add_btn_singles"):
+            st.session_state["singles_opponent_picks"].append(new_machine)
+            st.rerun()
+        
+        # Display current picked machines with option to remove
+        if st.session_state["singles_opponent_picks"]:
+            st.markdown("**Machines Picked by Opponent:**")
+            
+            for idx, machine in enumerate(st.session_state["singles_opponent_picks"]):
+                col1, col2 = st.columns([0.8, 0.2])
+                
+                with col1:
+                    st.markdown(f"{idx+1}. {machine.title()}")
+                    
+                with col2:
+                    if st.button("Remove", key=f"remove_singles_{idx}"):
+                        st.session_state["singles_opponent_picks"].remove(machine)
+                        st.rerun()
+            
+            # If we have machines picked, allow player assignment optimization
+            if len(st.session_state["singles_opponent_picks"]) > 0:
+                st.markdown("#### Optimize Player Assignments")
+                
+                if st.button("Optimize Singles Assignments", key="optimize_defense_singles"):
+                    picked_machines = st.session_state["singles_opponent_picks"]
+                    
+                    # Make sure we have enough players
+                    players_needed = len(picked_machines)
+                    
+                    if len(available_players) >= players_needed:
+                        # Create a score matrix for the assignment problem
+                        machine_player_scores = {}
+                        
+                        for machine in picked_machines:
+                            machine_player_scores[machine] = {}
+                            
+                            for player in available_players:
+                                # Get this player's stats on this machine
+                                if player in player_machine_stats and machine in player_machine_stats[player]['machines']:
+                                    # Player has played this machine
+                                    machine_stats = player_machine_stats[player]['machines'][machine]
+                                    pct = machine_stats['pct_of_venue']
+                                    plays = machine_stats['plays_count']
+                                    
+                                    # Higher is better - we want our best players on these machines
+                                    score = pct * (1 + min(plays / 5, 1))  # Experience bonus
+                                else:
+                                    # Player hasn't played this machine - use overall average
+                                    if player in player_machine_stats:
+                                        score = player_machine_stats[player]['overall_average_pct_of_venue'] * 0.7  # Discount for uncertainty
+                                    else:
+                                        # No data for this player
+                                        score = 50  # Default middle score
+                                
+                                machine_player_scores[machine][player] = score
+                        
+                        # Create cost matrix for Hungarian algorithm (negative scores since it minimizes)
+                        cost_matrix = np.zeros((len(picked_machines), len(available_players)))
+                        
+                        for i, machine in enumerate(picked_machines):
+                            for j, player in enumerate(available_players):
+                                cost_matrix[i, j] = -machine_player_scores[machine][player]
+                        
+                        # Find optimal assignment
+                        row_ind, col_ind = linear_sum_assignment(cost_matrix)
+                        
+                        # Create player assignments
+                        player_assignments = {}
+                        for i, j in zip(row_ind, col_ind):
+                            machine = picked_machines[i]
+                            player = available_players[j]
+                            player_assignments[machine] = [player]
+                        
+                        # Store the assignments
+                        format_assignments["Singles"] = player_assignments
+                        
+                        # Display the assignments
+                        st.markdown("**Recommended Player Assignments:**")
+                        
+                        for machine, players in player_assignments.items():
+                            st.markdown(f"**{machine.title()}**: {', '.join(players)}")
+                            
+                            # Display player stats on this machine
+                            expander = st.expander(f"Player stats for {machine.title()}")
+                            with expander:
+                                for player in players:
+                                    if player in player_machine_stats:
+                                        player_stats = player_machine_stats[player]
+                                        if machine in player_stats['machines']:
+                                            machine_stats = player_stats['machines'][machine]
+                                            st.markdown(f"**{player}**: {machine_stats['pct_of_venue']:.1f}% of venue average, "
+                                                      f"played {machine_stats['plays_count']} times, "
+                                                      f"avg score: {machine_stats['average_score']:.0f}")
+                                        else:
+                                            st.markdown(f"**{player}**: No experience on this machine. "
+                                                      f"Overall average: {player_stats['overall_average_pct_of_venue']:.1f}%")
+                                    else:
+                                        st.markdown(f"**{player}**: No data available")
+                    else:
+                        st.error(f"Not enough available players. Need {players_needed}, have {len(available_players)}.")
+        
+        # If we already have assignments for singles, display them
+        if "Singles" in format_assignments:
+            st.markdown("**Current Assignments:**")
+            for machine, players in format_assignments["Singles"].items():
+                st.markdown(f"**{machine.title()}**: {', '.join(players)}")
+    
+    # Tab for Doubles format
+    with tabs[1]:
+        st.markdown("#### Doubles Format")
+        st.markdown("Enter machines picked by the opponent:")
+        
+        # Initialize picked machines in session state if not already there
+        if "doubles_opponent_picks" not in st.session_state:
+            st.session_state["doubles_opponent_picks"] = []
+        
+        # Allow adding new picked machines
+        all_machines = sorted(machine_advantage_df['Machine'].tolist())
+        new_machine = st.selectbox(
+            "Add a machine:", 
+            [""] + [m for m in all_machines if m not in st.session_state["doubles_opponent_picks"]],
+            key=f"add_machine_doubles"
+        )
+        
+        if new_machine and st.button("Add Machine", key="add_btn_doubles"):
+            st.session_state["doubles_opponent_picks"].append(new_machine)
+            st.rerun()
+        
+        # Display current picked machines with option to remove
+        if st.session_state["doubles_opponent_picks"]:
+            st.markdown("**Machines Picked by Opponent:**")
+            
+            for idx, machine in enumerate(st.session_state["doubles_opponent_picks"]):
+                col1, col2 = st.columns([0.8, 0.2])
+                
+                with col1:
+                    st.markdown(f"{idx+1}. {machine.title()}")
+                    
+                with col2:
+                    if st.button("Remove", key=f"remove_doubles_{idx}"):
+                        st.session_state["doubles_opponent_picks"].remove(machine)
+                        st.rerun()
+            
+            # If we have machines picked, allow player assignment optimization
+            if len(st.session_state["doubles_opponent_picks"]) > 0:
+                st.markdown("#### Optimize Player Assignments")
+                
+                if st.button("Optimize Doubles Assignments", key="optimize_defense_doubles"):
+                    picked_machines = st.session_state["doubles_opponent_picks"]
+                    
+                    # Make sure we have enough players
+                    players_needed = len(picked_machines) * 2
+                    
+                    if len(available_players) >= players_needed:
+                        import itertools
+                        
+                        # For doubles, we need to assign pairs
+                        # Sort players by overall skill
+                        sorted_players = sorted(
+                            available_players,
+                            key=lambda p: player_machine_stats.get(p, {}).get('overall_average_pct_of_venue', 0),
+                            reverse=True
+                        )
+                        
+                        # Get all possible player pairs
+                        player_pairs = list(itertools.combinations(available_players, 2))
+                        
+                        # Create a score dictionary for each pair-machine combination
+                        pair_machine_scores = {}
+                        for pair in player_pairs:
+                            player1, player2 = pair
+                            pair_machine_scores[pair] = {}
+                            
+                            for machine in picked_machines:
+                                # Calculate scores for individual players
+                                scores = []
+                                for player in [player1, player2]:
+                                    if player in player_machine_stats and machine in player_machine_stats[player]['machines']:
+                                        stats = player_machine_stats[player]['machines'][machine]
+                                        player_score = stats['pct_of_venue'] * (1 + min(stats['plays_count'] / 5, 1))
+                                    else:
+                                        # Use overall average for players without experience
+                                        if player in player_machine_stats:
+                                            player_score = player_machine_stats[player]['overall_average_pct_of_venue'] * 0.7
+                                        else:
+                                            player_score = 50
+                                    scores.append(player_score)
+                                
+                                # Combine scores - we want pairs where both players are good
+                                combined_score = (scores[0] + scores[1]) * 0.5 + min(scores) * 0.5
+                                pair_machine_scores[pair][machine] = combined_score
+                        
+                        # Now optimize the assignments
+                        used_players = set()
+                        used_machines = set()
+                        player_assignments = {}
+                        
+                        # For each machine, find the best available pair
+                        for machine in picked_machines:
+                            best_score = -1
+                            best_pair = None
+                            
+                            for pair in player_pairs:
+                                player1, player2 = pair
+                                
+                                # Skip if any player is already assigned
+                                if player1 in used_players or player2 in used_players:
+                                    continue
+                                
+                                # Get the score for this pair on this machine
+                                score = pair_machine_scores[pair].get(machine, 0)
+                                
+                                # Update best pair if this is better
+                                if score > best_score:
+                                    best_score = score
+                                    best_pair = pair
+                            
+                            # Assign the best pair to this machine
+                            if best_pair:
+                                player1, player2 = best_pair
+                                player_assignments[machine] = [player1, player2]
+                                used_players.add(player1)
+                                used_players.add(player2)
+                                used_machines.add(machine)
+                        
+                        # Store the assignments
+                        format_assignments["Doubles"] = player_assignments
+                        
+                        # Display the assignments
+                        st.markdown("**Recommended Player Assignments:**")
+                        
+                        for machine, players in player_assignments.items():
+                            st.markdown(f"**{machine.title()}**: {', '.join(players)}")
+                            
+                            # Display player stats on this machine
+                            expander = st.expander(f"Player stats for {machine.title()}")
+                            with expander:
+                                for player in players:
+                                    if player in player_machine_stats:
+                                        player_stats = player_machine_stats[player]
+                                        if machine in player_stats['machines']:
+                                            machine_stats = player_stats['machines'][machine]
+                                            st.markdown(f"**{player}**: {machine_stats['pct_of_venue']:.1f}% of venue average, "
+                                                      f"played {machine_stats['plays_count']} times, "
+                                                      f"avg score: {machine_stats['average_score']:.0f}")
+                                        else:
+                                            st.markdown(f"**{player}**: No experience on this machine. "
+                                                      f"Overall average: {player_stats['overall_average_pct_of_venue']:.1f}%")
+                                    else:
+                                        st.markdown(f"**{player}**: No data available")
+                    else:
+                        st.error(f"Not enough available players. Need {players_needed}, have {len(available_players)}.")
+        
+        # If we already have assignments for doubles, display them
+        if "Doubles" in format_assignments:
+            st.markdown("**Current Assignments:**")
+            for machine, players in format_assignments["Doubles"].items():
+                st.markdown(f"**{machine.title()}**: {', '.join(players)}")
+    
+    # Return the player assignments
+    return format_assignments
+
+def add_player_assignment_section():
+    """
+    Add the player assignment section to the Streamlit app.
+    """
+    import streamlit as st
+    
+    st.markdown("## Player Assignment Strategy (When Opponent Picks)")
+    
+    # This section should only be run after data has been processed
+    if not st.session_state.get("kellanate_output", False) or "debug_outputs" not in st.session_state:
+        st.warning("Please run 'Kellanate' first to process the data.")
+        return
+    
+    # Get the required data from session state
+    all_data_df = st.session_state["debug_outputs"].get("all_data")
+    selected_team = st.session_state.get("select_team_json", "")
+    selected_venue = st.session_state.get("select_venue_json", "")
+    roster_data = st.session_state.get("roster_data", {})
+    
+    if all_data_df is not None and not all_data_df.empty:
+        # Run the player assignment analysis for TWC
+        player_assignments = analyze_player_assignment_strategy(
+            all_data_df, selected_team, selected_venue, roster_data
+        )
+        
+        # Store the results in session state for later use
+        st.session_state["defense_player_assignments"] = player_assignments
+    else:
+        st.error("No data available. Please make sure you've loaded match data.")
+
+##############################################
+# Section 13.4: machine picking algorithm - Integration
+##############################################
+
+def add_strategic_sections():
+    """
+    Add the strategic picking and player assignment sections to the Streamlit app.
+    This uses tabs to organize the different strategic tools.
+    """
+    import streamlit as st
+    
+    # Create tabs for the different strategic sections
+    strategic_tabs = st.tabs(["Machine Picking Strategy", "Player Assignment Strategy"])
+    
+    with strategic_tabs[0]:
+        # Add the machine picking strategy section
+        add_strategic_picking_section()
+    
+    with strategic_tabs[1]:
+        # Add the player assignment strategy section
+        add_player_assignment_section()
+
+# This section would be added to the main code, after the original "Kellanate" output is displayed
+def integrate_strategic_features():
+    """
+    Integrate the strategic features into the main Streamlit app.
+    This function would be called in the main app flow after the original Kellanate output.
+    """
+    import streamlit as st
+    
+    # Only show the strategic sections if Kellanate has been run
+    if st.session_state.get("kellanate_output", False):
+        # Add a section title
+        st.markdown("---")
+        st.markdown("## Strategic Match Planning Tools")
+        
+        # Add the checkbox to toggle the strategic features
+        show_strategic = st.checkbox("Show Strategic Planning Tools", value=False)
+        
+        if show_strategic:
+            # Add the strategic sections
+            add_strategic_sections()
+
+##############################################
+# Section 14: Strategic Machine Picking
+##############################################
+
+if st.session_state.get("kellanate_output", False):
+    # Add a section title
+    st.markdown("---")
+    st.markdown("## Strategic Match Planning Tools")
+    
+    # Add the checkbox to toggle the strategic features
+    show_strategic = st.checkbox("Show Strategic Planning Tools", value=False)
+    
+    if show_strategic:
+        # Add the strategic sections
+        add_strategic_sections()
