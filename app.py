@@ -1753,7 +1753,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     grid_options, formatted_df = configure_grid_with_color_coding(result_df_reset, use_color_coding)
     
     # Display the AgGrid
-    response = AgGrid(
+   response = AgGrid(
         formatted_df, 
         gridOptions=grid_options, 
         height=400, 
@@ -1761,7 +1761,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         allow_unsafe_jscode=True,
         columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
         resizable=True,
-        key=f"main_grid_{use_color_coding}"  # Update key when toggle changes to force refresh
+        key=f"main_grid_{use_color_coding}_{'-'.join(map(str, seasons_to_process))}"  # Include seasons in key
     )
     
     # Clear previous debug output and parse the returned dataframe for the clicked cell
