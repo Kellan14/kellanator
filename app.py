@@ -17,7 +17,7 @@ from st_aggrid import AgGrid, GridOptionsBuilder, JsCode, ColumnsAutoSizeMode
 
 # Import database helper functions (ensure you have db_helper.py in your repo)
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
-    get_venue_machine_list, add_machine_to_venue, delete_machine_from_venue
+    get_venue_machine_list, add_machine_to_venue, delete_machine_from_venue, save_machine_mapping_strategy
 
 # Initialize database (if not already)
 init_db()
