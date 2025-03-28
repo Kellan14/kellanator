@@ -704,12 +704,26 @@ if not st.session_state.rosters_scraped:
 # Section 9: Processing Functions
 ##############################################
 def standardize_machine_name(machine_name):
-    machine_mapping = {
-        'pulp': 'pulp fiction',
-        'pulp fiction': 'pulp fiction',
-        'bksor': 'black knight sor',
-    }
-    return machine_mapping.get(machine_name.lower(), machine_name.lower())
+    """
+    Standardize machine names using the most up-to-date mapping.
+    """
+    # Get the current machine mapping from session state
+    machine_mapping = st.session_state.machine_mapping
+    
+    # Convert to lowercase for case-insensitive matching
+    machine_lower = machine_name.lower().strip()
+    
+    # First check the exact mapping
+    if machine_lower in machine_mapping:
+        return machine_mapping[machine_lower]
+    
+    # If no exact match, check if the machine is already the standardized name
+    for alias, standard_name in machine_mapping.items():
+        if machine_lower == standard_name.lower():
+            return standard_name
+    
+    # If no mapping found, return the original name (lowercase)
+    return machine_lower
 
 def get_player_name(player_key, match):
     for team in ['home', 'away']:
