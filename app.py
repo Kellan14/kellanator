@@ -1688,15 +1688,11 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
-all_data = load_all_json_files(repo_dir, seasons_to_process)
-st.write("Debug: all_data type:", type(all_data))
-st.write("Debug: selected_team:", selected_team)
-st.write("Debug: selected_venue:", selected_venue)
-st.write("Debug: roster_data:", st.session_state.roster_data)
-st.write("Debug: column_config:", st.session_state["column_config"])
-result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+result_values = main(
     all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
 )
+st.write("Number of return values:", len(result_values))
+result_df, debug_outputs, team_player_stats, twc_player_stats = result_values
 
 # Define a custom cell renderer that marks a cell on click
 BtnCellRenderer = JsCode(
