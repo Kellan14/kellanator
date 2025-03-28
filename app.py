@@ -66,7 +66,7 @@ def parse_seasons(season_str):
 season_input = st.text_input(
     "Enter season(s) to process (e.g., '19' or '20-21')", 
     "20-21", 
-    key=f"seasons_input_{hash(st.session_state.get('seasons_to_process', []))}"
+    key=f"seasons_input_{'-'.join(map(str, st.session_state.get('seasons_to_process', [])))}
 )
 
 # Parse seasons
