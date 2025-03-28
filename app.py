@@ -112,7 +112,7 @@ if seasons_to_process != st.session_state.previous_seasons:
         
         # Load and process data
         all_data = load_all_json_files(repo_dir, seasons_to_process)
-        result_df, debug_outputs, team_player_stats, twc_player_stats = (
+        result_df, debug_outputs, team_player_stats, twc_player_stats = main(
         all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
     )
         
