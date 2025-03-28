@@ -71,6 +71,9 @@ st.session_state["seasons_to_process"] = seasons_to_process
 
 # Path to store the machine mapping file.
 MACHINE_MAPPING_FILE = "machine_mapping.json"
+repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
+repo_dir = "mnp-data-archive"
+ensure_repo(repository_url, repo_dir)
 
 def load_machine_mapping(file_path):
     """Load machine mapping from a JSON file. Return default mapping if file doesn't exist."""
@@ -130,7 +133,6 @@ def update_repo(repo_path):
         return f"An error occurred: {e.stderr}"
 
 repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
-# Update this path as needed
 repo_dir = "mnp-data-archive"
 ensure_repo(repository_url, repo_dir)
 
