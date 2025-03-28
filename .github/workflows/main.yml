@@ -2,7 +2,9 @@ name: Sync MNP Data Archive
 
 on:
   schedule:
+    # Run every day at 6:00 AM UTC
     - cron: '0 6 * * *'
+  # Also allow manual triggering
   workflow_dispatch:
 
 jobs:
@@ -12,37 +14,31 @@ jobs:
       contents: write
     
     steps:
-      - name: Checkout kellanator repo without submodules
+      - name: Checkout kellanator repo
         uses: actions/checkout@v3
-        with:
-          submodules: 'false'  # Explicitly don't initialize submodules
       
-      # Clone Invader-Zim's repo directly without using actions/checkout
       - name: Clone Invader-Zim repo
         run: |
           git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-mnp-data
       
-      # The nuclear option - create a clean commit
-      - name: Create fresh commit with new data
+      - name: Update mnp-data-archive folder
+        run: |
+          # Remove the existing folder
+          rm -rf mnp-data-archive
+          
+          # Create a new folder
+          mkdir -p mnp-data-archive
+          
+          # Copy all files from Invader-Zim's repo
+          cp -r temp-mnp-data/* mnp-data-archive/
+      
+      - name: Commit and push changes
         run: |
           # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Remove troublesome folder completely
-          rm -rf mnp-data-archive
-          
-          # Create new directory
-          mkdir -p mnp-data-archive
-          
-          # Copy files
-          cp -r temp-mnp-data/* mnp-data-archive/
-          
-          # Force add the directory
-          git add -f mnp-data-archive
-          
-          # Commit changes without checking submodules
-          git -c submodule.recurse=false commit -m "Reset and update mnp-data-archive" || echo "No changes to commit"
-          
-          # Push without submodule checks
-          git -c submodule.recurse=false push origin HEAD:${GITHUB_REF#refs/heads/}
+          # Add, commit, and push changes
+          git add mnp-data-archive
+          git commit -m "Update mnp-data-archive with latest data from Invader-Zim" || echo "No changes to commit"
+          git push
