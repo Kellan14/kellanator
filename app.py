@@ -1891,7 +1891,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     # Checkbox to toggle display of player statistics
     if st.checkbox("Show Unique Players", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
-        AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+        AgGrid(st.session_state["team_player_stats"], height=500, fit_columns_on_grid_load=True)
         st.markdown(f"### TWC Player Statistics at {selected_venue}")
         AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
