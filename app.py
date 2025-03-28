@@ -113,7 +113,7 @@ if seasons_to_process != st.session_state.previous_seasons:
         
         # Load and process data
         all_data = load_all_json_files(repo_dir, seasons_to_process)
-        result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+        result_df, debug_outputs, team_player_stats, twc_player_stats = (
         all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
     )
         
@@ -1144,30 +1144,34 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
     return team_table, twc_table
 
 def main(all_data, selected_team, selected_venue, team_roster, column_config):
-    st.write("Debugging main() function:")
-    st.write(f"seasons_to_process: {seasons_to_process}")
-    st.write(f"Type of seasons_to_process: {type(seasons_to_process)}")
+    try:
+        # Get seasons from session state explicitly
+        current_seasons = st.session_state.get("seasons_to_process", [20, 21])
+        
+        team_name = selected_team
+        twc_team_name = "The Wrecking Crew"
+        # Refresh the included and excluded machine lists from your persistent store.
+        included_list = get_venue_machine_list(selected_venue, "included")
+        excluded_list = get_venue_machine_list(selected_venue, "excluded")
+        
+        all_data_df, recent_machines = process_all_rounds_and_games(
+            all_data, team_name, selected_venue, twc_team_name, team_roster,
+            included_list, excluded_list
+        )
+        debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
+        result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
+        result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
+        
+        # Generate player statistics tables
+        team_player_stats, twc_player_stats = generate_player_stats_tables(
+            all_data_df, team_name, selected_venue, current_seasons, team_roster
+        )
+        
+        return result_df, debug_outputs, team_player_stats, twc_player_stats
     
-    team_name = selected_team
-    twc_team_name = "The Wrecking Crew"
-    # Refresh the included and excluded machine lists from your persistent store.
-    included_list = get_venue_machine_list(selected_venue, "included")
-    excluded_list = get_venue_machine_list(selected_venue, "excluded")
-    
-    all_data_df, recent_machines = process_all_rounds_and_games(
-        all_data, team_name, selected_venue, twc_team_name, team_roster,
-        included_list, excluded_list
-    )
-    debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
-    result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
-    result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
-    
-    # Generate player statistics tables
-    team_player_stats, twc_player_stats = generate_player_stats_tables(
-        all_data_df, team_name, selected_venue, seasons_to_process, team_roster
-    )
-    
-    return result_df, debug_outputs, team_player_stats, twc_player_stats
+    except Exception as e:
+        print(f"Error in main function: {e}")
+        raise
 
 def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config, current_seasons):
     """
