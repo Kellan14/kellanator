@@ -1688,6 +1688,7 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
 ##############################################
+all_data = load_all_json_files(repo_dir, seasons_to_process)
 result_values = main(
     all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
 )
