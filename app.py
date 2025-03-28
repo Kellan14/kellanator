@@ -131,7 +131,7 @@ def update_repo(repo_path):
 
 repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
 # Update this path as needed
-repo_dir = os.path.join(os.getcwd(), "mnp-data-archive")
+repo_dir = "mnp-data-archive"
 ensure_repo(repository_url, repo_dir)
 
 st.title("The Kellanator 9000")
