@@ -61,7 +61,13 @@ def load_all_json_files(repo_dir, seasons):
                 st.error(f"Error loading {file_path}: {e}")
     return all_data
 
-
+all_data = load_all_json_files(repo_dir, seasons_to_process)
+st.write("Main function return values:", main(
+    all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
+))
+result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+    all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
+)
 ##############################################
 # Section 1.2: Season Selection
 ##############################################
