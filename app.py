@@ -90,7 +90,7 @@ def load_machine_mapping(file_path):
         }
 
 if "machine_mapping" not in st.session_state:
-    st.session_state.machine_mapping = load_machine_mapping()
+    st.session_state.machine_mapping = load_machine_mapping("kellanator/machine_mapping.json")
 
 def save_machine_mapping(file_path, mapping):
     """Save the machine mapping to a JSON file."""
