@@ -33,8 +33,6 @@ if "column_options_open" not in st.session_state:
     st.session_state.column_options_open = False
 if "set_score_limit_open" not in st.session_state:
     st.session_state.set_score_limit_open = False
-if "machine_mapping" not in st.session_state:
-    st.session_state.machine_mapping = load_machine_mapping()
 
 
 ##############################################
@@ -91,9 +89,8 @@ def load_machine_mapping(file_path):
             'bksor': 'black knight sor'
         }
 
-# Initialize persistent machine mapping in session state if not already set.
 if "machine_mapping" not in st.session_state:
-    st.session_state.machine_mapping = load_machine_mapping(MACHINE_MAPPING_FILE)
+    st.session_state.machine_mapping = load_machine_mapping()
 
 def save_machine_mapping(file_path, mapping):
     """Save the machine mapping to a JSON file."""
