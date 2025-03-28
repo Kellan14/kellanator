@@ -14,6 +14,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode, ColumnsAutoSizeMode
+from typing import Callable, Any, List, Dict, Tuple
+main: Callable[[List[Dict], str, str, Dict, Dict], Tuple[pd.DataFrame, Dict, pd.DataFrame, pd.DataFrame]] = None
 
 # Import database helper functions (ensure you have db_helper.py in your repo)
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
@@ -865,7 +867,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'round': round_number,
                         'game_number': game['n'],
                         'venue': match_venue,
-                        # This "picked_by" remains for reference – it reflects the team that was designated to pick for that round.
+                        # This "picked_by" res for reference – it reflects the team that was designated to pick for that round.
                         'picked_by': away_team if round_number in [1, 3] else home_team,
                         'is_pick': is_team_pick,
                         'is_pick_twc': is_twc_pick,
