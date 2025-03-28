@@ -1,0 +1,143 @@
+{
+  "key": "211c9dcd07ee29f2532d6f8647a7a1f8fab867c2",
+  "name": "Rhett Pearson",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 17186170,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 3,
+      "machine": "JM",
+      "division": 0,
+      "score": 613065390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 38283870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 11829320,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 143580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 11257210,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 36238830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 36138880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2138950360,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.408",
+      "num_matches": 3,
+      "ppm": "3.333",
+      "points": {
+        "won": 10,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

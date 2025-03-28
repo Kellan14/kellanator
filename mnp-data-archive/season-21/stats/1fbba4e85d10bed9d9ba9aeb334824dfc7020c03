@@ -1,0 +1,215 @@
+{
+  "key": "1fbba4e85d10bed9d9ba9aeb334824dfc7020c03",
+  "name": "Mike Murphy",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "DOG",
+      "match": "mnp-21-1-DTP-DOG",
+      "week": "1",
+      "round": 1,
+      "machine": "DH",
+      "division": 0,
+      "score": 219890940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "DOG",
+      "match": "mnp-21-1-DTP-DOG",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 18524920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DOG",
+      "match": "mnp-21-1-DTP-DOG",
+      "week": "1",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 3867240,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 784250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 153000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 502570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-21-3-DTP-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 7173630,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-21-3-DTP-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 283510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-21-3-DTP-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 168711960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 28196110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 198299170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 523521990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-21-5-DTP-KNR",
+      "week": "5",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 36247200,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-21-5-DTP-KNR",
+      "week": "5",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 100000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-21-5-DTP-KNR",
+      "week": "5",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 13000000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.518",
+      "num_matches": 5,
+      "ppm": "4.200",
+      "points": {
+        "won": 21,
+        "of": 40.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

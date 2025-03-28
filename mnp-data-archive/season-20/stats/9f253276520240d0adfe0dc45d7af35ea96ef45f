@@ -1,0 +1,395 @@
+{
+  "key": "9f253276520240d0adfe0dc45d7af35ea96ef45f",
+  "name": "Robbie Finnigan",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "PYC",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 131948490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PYC",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 44213040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "PYC",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "Stars",
+      "division": 0,
+      "score": 257320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-20-10-SWL-LAS",
+      "week": "10",
+      "round": 1,
+      "machine": "Uncanny X-men",
+      "division": 0,
+      "score": 111025320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-20-10-SWL-LAS",
+      "week": "10",
+      "round": 3,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 607580,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-20-10-SWL-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "9Ball",
+      "division": 0,
+      "score": 229360,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-20-2-LAS-TBT",
+      "week": "2",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 194061580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-20-2-LAS-TBT",
+      "week": "2",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 109207860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-20-2-LAS-TBT",
+      "week": "2",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 162662950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 110108350,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 4394580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "TS",
+      "division": 0,
+      "score": 2400000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-20-4-LAS-DSV",
+      "week": "4",
+      "round": 2,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 2972620,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-20-4-LAS-DSV",
+      "week": "4",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 58318190,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-20-4-LAS-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 62398420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 707000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 99915950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 10700000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 67784170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 4534700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 299800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "POW",
+      "match": "mnp-20-7-POW-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "QS",
+      "division": 0,
+      "score": 69510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "POW",
+      "match": "mnp-20-7-POW-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 61823250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "POW",
+      "match": "mnp-20-7-POW-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 82881980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 18147790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 3,
+      "machine": "Rush",
+      "division": 0,
+      "score": 66680590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 8527530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-20-9-LAS-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 69747700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-20-9-LAS-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 12204130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-20-9-LAS-DIH",
+      "week": "9",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 15312060,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.542",
+      "num_matches": 10,
+      "ppm": "4.450",
+      "points": {
+        "won": 44.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "key": "c7ebedc458569c2fd439ea92f78c90fb6a9ee494",
+  "name": "Jessica Dengler",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-15-1-PKT-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 12101320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-15-1-PKT-SKP",
+      "week": "1",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 4224540,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-15-1-PKT-SKP",
+      "week": "1",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 101230,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 7117300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 132190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 572205710,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "DTP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 14640340,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "DTP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 3,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 314110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "DTP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 2,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "DIH",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 54030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "DIH",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 5482260,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "DIH",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 5329880,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "HHS",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 47800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "HHS",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 110928550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "HHS",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 113890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-15-5-PBR-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 2000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-15-5-PBR-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 276280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-15-5-PBR-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 12,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-15-7-KNR-SKP",
+      "week": "7",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 232640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-15-7-KNR-SKP",
+      "week": "7",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 31273140,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-15-7-KNR-SKP",
+      "week": "7",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 4000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-15-9-CRA-SKP",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 4870840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-15-9-CRA-SKP",
+      "week": "9",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 192010,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-15-9-CRA-SKP",
+      "week": "9",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 42540,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.418",
+      "num_matches": 8,
+      "ppm": "3.375",
+      "points": {
+        "won": 27,
+        "of": 64.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

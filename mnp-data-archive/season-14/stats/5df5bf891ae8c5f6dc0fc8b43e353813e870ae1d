@@ -1,0 +1,107 @@
+{
+  "key": "5df5bf891ae8c5f6dc0fc8b43e353813e870ae1d",
+  "name": "Sean Maloney",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 12587690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 16442000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 39105600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 18501320,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 204162920,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 389622510,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.606",
+      "num_matches": 2,
+      "ppm": "5.000",
+      "points": {
+        "won": 10,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

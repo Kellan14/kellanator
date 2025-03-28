@@ -1,0 +1,323 @@
+{
+  "key": "ca6ce66791694241859c504cebbc725ede398732",
+  "name": "Kieonna Ford",
+  "history": [
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 1,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1311960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 3,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1323420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 11192890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 100747890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 38477140,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 21545480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 10170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "SC",
+      "division": 0,
+      "score": 178300,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 564620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "SWL",
+      "match": "mnp-18-5-SWL-SSD",
+      "week": "5",
+      "round": 1,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2524330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SWL",
+      "match": "mnp-18-5-SWL-SSD",
+      "week": "5",
+      "round": 2,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 3454840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SWL",
+      "match": "mnp-18-5-SWL-SSD",
+      "week": "5",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4938570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 378620720,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 38703370,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 26363720,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "RMS",
+      "match": "mnp-18-7-SSD-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 328300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "RMS",
+      "match": "mnp-18-7-SSD-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "Buck Rogers",
+      "division": 0,
+      "score": 200720,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "RMS",
+      "match": "mnp-18-7-SSD-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1105387110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 68995410,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 347050130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 957550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 82833040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 3,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 2052210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2450950,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.518",
+      "num_matches": 8,
+      "ppm": "4.312",
+      "points": {
+        "won": 34.5,
+        "of": 66.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

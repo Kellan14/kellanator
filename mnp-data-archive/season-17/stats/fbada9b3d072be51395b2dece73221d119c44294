@@ -1,0 +1,395 @@
+{
+  "key": "fbada9b3d072be51395b2dece73221d119c44294",
+  "name": "Michael Zuino",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 146748350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 11661640,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 86657990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 191840530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 325932670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 746748680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 1,
+      "machine": "DM",
+      "division": 0,
+      "score": 51734850,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 3,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 363900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5413120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "PGN",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 626965500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "PGN",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 64930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PGN",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 3,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 352400,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 533565690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 2,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 8104080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 102195330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 24018670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 5428300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 19650440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 171007640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 4532550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 1367520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PYC",
+      "match": "mnp-17-7-RMS-PYC",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 30382960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PYC",
+      "match": "mnp-17-7-RMS-PYC",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 55715020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "PYC",
+      "match": "mnp-17-7-RMS-PYC",
+      "week": "7",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 49522280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 30501170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 16053760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 4,
+      "machine": "DND",
+      "division": 0,
+      "score": 217590,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-17-9-RMS-TTT",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 8327660,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-17-9-RMS-TTT",
+      "week": "9",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 34832000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-17-9-RMS-TTT",
+      "week": "9",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 27389830,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.466",
+      "num_matches": 10,
+      "ppm": "3.800",
+      "points": {
+        "won": 38,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

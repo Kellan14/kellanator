@@ -1,0 +1,143 @@
+{
+  "key": "af35c7e6e3fcf411686587d1948da1739782e6ec",
+  "name": "Jered Danielson",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "LAS",
+      "match": "mnp-17-1-LAS-SHK",
+      "week": "1",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 12669040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "LAS",
+      "match": "mnp-17-1-LAS-SHK",
+      "week": "1",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 18810770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "LAS",
+      "match": "mnp-17-1-LAS-SHK",
+      "week": "1",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 23668520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DTP",
+      "match": "mnp-17-10-DTP-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 6933970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DTP",
+      "match": "mnp-17-10-DTP-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "JM",
+      "division": 0,
+      "score": 595130520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DTP",
+      "match": "mnp-17-10-DTP-SHK",
+      "week": "10",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 36660470,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 46,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 71643510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 225990150,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.420",
+      "num_matches": 3,
+      "ppm": "3.500",
+      "points": {
+        "won": 10.5,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

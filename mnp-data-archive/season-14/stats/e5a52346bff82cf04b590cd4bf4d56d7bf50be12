@@ -1,0 +1,359 @@
+{
+  "key": "e5a52346bff82cf04b590cd4bf4d56d7bf50be12",
+  "name": "Brian Chesbrough",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "LCS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 19663080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "LCS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 3,
+      "machine": "RR",
+      "division": 0,
+      "score": 241414050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "LCS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 5124020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 101806940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 2082960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 54681780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 142009920,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 9622300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 43029190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 119607260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 846330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 194288800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-14-5-SSS-SWL",
+      "week": "5",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 409257320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-14-5-SSS-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "POTCJJ",
+      "division": 0,
+      "score": 18830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-14-5-SSS-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 39222100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 53884200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 15000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 725730,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 761420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 201100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 365860,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 342570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 87403070,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 624000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "PKT",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 69086720,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "PKT",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 28060440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PKT",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 146582190,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.689",
+      "num_matches": 9,
+      "ppm": "5.666",
+      "points": {
+        "won": 51,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

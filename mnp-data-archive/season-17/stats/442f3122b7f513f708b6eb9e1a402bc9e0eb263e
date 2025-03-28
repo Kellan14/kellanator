@@ -1,0 +1,359 @@
+{
+  "key": "442f3122b7f513f708b6eb9e1a402bc9e0eb263e",
+  "name": "Levi Dittebrandt",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-17-1-BOC-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 72181270,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-17-1-BOC-KNR",
+      "week": "1",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 13605970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-17-1-BOC-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 3794890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-17-10-PYC-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 236281550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-17-10-PYC-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 60280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-17-10-PYC-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 3713390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-17-11-ADB-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 26699380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-17-11-ADB-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 167670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-17-11-ADB-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 3143040,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-17-12-KNR-DTP",
+      "week": "12",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 15401210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-17-12-KNR-DTP",
+      "week": "12",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 32518320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-17-12-KNR-DTP",
+      "week": "12",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 59752890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-17-3-LAS-KNR",
+      "week": "3",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 15947280,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-17-3-LAS-KNR",
+      "week": "3",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 260000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-17-3-LAS-KNR",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 26271400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-17-5-DTP-KNR",
+      "week": "5",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 235850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-17-5-DTP-KNR",
+      "week": "5",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 273122210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-17-5-DTP-KNR",
+      "week": "5",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 4028960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 238319580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 20090050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 12713340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RTR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 469024750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "RTR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 24566320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RTR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 48301490,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "NMC",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 813250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NMC",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 2,
+      "machine": "Time Machine",
+      "division": 0,
+      "score": 1015600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "NMC",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 4,
+      "machine": "Time Machine",
+      "division": 0,
+      "score": 849420,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.524",
+      "num_matches": 9,
+      "ppm": "4.222",
+      "points": {
+        "won": 38,
+        "of": 72.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

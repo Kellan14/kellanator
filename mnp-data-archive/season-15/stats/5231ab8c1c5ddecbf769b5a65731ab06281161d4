@@ -1,0 +1,419 @@
+{
+  "key": "5231ab8c1c5ddecbf769b5a65731ab06281161d4",
+  "name": "Bryan Eastman",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1600000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1100000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 454676560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 120889000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 20000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 77818890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 8125000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 2667300,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 14761490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 18747580,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 2,
+      "machine": "T3",
+      "division": 0,
+      "score": 259288560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 3,
+      "machine": "T3",
+      "division": 0,
+      "score": 127082400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 4,
+      "machine": "T3",
+      "division": 0,
+      "score": 17165760,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 58362510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 5629030,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 45534620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 2,
+      "machine": "T3",
+      "division": 0,
+      "score": 30195570,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 3,
+      "machine": "T3",
+      "division": 0,
+      "score": 95737370,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 9176970,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 113116860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 72000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 180783640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 20000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 703427120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 430303900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-15-8-TWC-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 33538580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-15-8-TWC-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3015254290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-15-8-TWC-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 122000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-15-8-TWC-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 11224360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 214686090,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 159000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "T3",
+      "division": 0,
+      "score": 247000000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.615",
+      "num_matches": 10,
+      "ppm": "5.450",
+      "points": {
+        "won": 54.5,
+        "of": 88.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

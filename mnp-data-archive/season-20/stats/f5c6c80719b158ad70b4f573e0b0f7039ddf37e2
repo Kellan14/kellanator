@@ -1,0 +1,251 @@
+{
+  "key": "f5c6c80719b158ad70b4f573e0b0f7039ddf37e2",
+  "name": "Michael Gray",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "FBS",
+      "match": "mnp-20-10-DTP-FBS",
+      "week": "10",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 21025950,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "FBS",
+      "match": "mnp-20-10-DTP-FBS",
+      "week": "10",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 15582190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "FBS",
+      "match": "mnp-20-10-DTP-FBS",
+      "week": "10",
+      "round": 4,
+      "machine": "BK2K",
+      "division": 0,
+      "score": 577380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DTP",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 225840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "DTP",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 15738590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DTP",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 3813540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSD",
+      "match": "mnp-20-2-FBP-SSD",
+      "week": "2",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 11746240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSD",
+      "match": "mnp-20-2-FBP-SSD",
+      "week": "2",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 90950020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSD",
+      "match": "mnp-20-2-FBP-SSD",
+      "week": "2",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 56255220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-20-3-PKT-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 32212210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-20-3-PKT-NLT",
+      "week": "3",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 192955930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-20-3-PKT-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 388391840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PYC",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 903885640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "PYC",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 139450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "PYC",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 56776000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-20-9-TWC-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 78000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-20-9-TWC-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 22000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-20-9-TWC-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 6700000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.520",
+      "num_matches": 6,
+      "ppm": "4.250",
+      "points": {
+        "won": 25.5,
+        "of": 49
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

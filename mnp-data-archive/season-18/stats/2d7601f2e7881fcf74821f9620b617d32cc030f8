@@ -1,0 +1,107 @@
+{
+  "key": "2d7601f2e7881fcf74821f9620b617d32cc030f8",
+  "name": "Sam Meyers",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-18-1-LAS-JMF",
+      "week": "1",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 29367070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-18-1-LAS-JMF",
+      "week": "1",
+      "round": 2,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 60050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-18-1-LAS-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 20096570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RMS",
+      "match": "mnp-18-3-RMS-JMF",
+      "week": "3",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4964500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "RMS",
+      "match": "mnp-18-3-RMS-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 56300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RMS",
+      "match": "mnp-18-3-RMS-JMF",
+      "week": "3",
+      "round": 4,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 451110,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.181",
+      "num_matches": 2,
+      "ppm": "1.500",
+      "points": {
+        "won": 3,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

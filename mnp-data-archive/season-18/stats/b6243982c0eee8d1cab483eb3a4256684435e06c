@@ -1,0 +1,359 @@
+{
+  "key": "b6243982c0eee8d1cab483eb3a4256684435e06c",
+  "name": "JD Hill",
+  "history": [
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 7529250,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10127780,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 21000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TBT",
+      "match": "mnp-18-10-TBT-PYC",
+      "week": "10",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 6503130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TBT",
+      "match": "mnp-18-10-TBT-PYC",
+      "week": "10",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 28267750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "TBT",
+      "match": "mnp-18-10-TBT-PYC",
+      "week": "10",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 9039550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NLT",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9840000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NLT",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 3542100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NLT",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17907000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBP",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 18543730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBP",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 6594170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBP",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 101120540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SHK",
+      "match": "mnp-18-4-SHK-PYC",
+      "week": "4",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 8924420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "SHK",
+      "match": "mnp-18-4-SHK-PYC",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5028150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "SHK",
+      "match": "mnp-18-4-SHK-PYC",
+      "week": "4",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 5992350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PKT",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 25229380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PKT",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 38509100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "PKT",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 214333210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 12138370,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3151240,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13909330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 29976660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 19871450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 8362580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 32730070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 10433710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 799140,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.315",
+      "num_matches": 9,
+      "ppm": "2.666",
+      "points": {
+        "won": 24,
+        "of": 76
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

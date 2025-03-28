@@ -1,0 +1,179 @@
+{
+  "key": "6156f6177b69c53ffa77dae14999fe64fe24105e",
+  "name": "Charlie Burg",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-18-10-NMC-JMF",
+      "week": "10",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 15267930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-18-10-NMC-JMF",
+      "week": "10",
+      "round": 3,
+      "machine": "Venom",
+      "division": 0,
+      "score": 258105890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-18-10-NMC-JMF",
+      "week": "10",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 57320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PKT",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 513000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PKT",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 27041990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PKT",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 370000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-18-12-CPO-NMC",
+      "week": "12",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 95756880,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-18-12-CPO-NMC",
+      "week": "12",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 202549440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-18-12-CPO-NMC",
+      "week": "12",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 52504180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 200000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 429000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 594643940,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.808",
+      "num_matches": 4,
+      "ppm": "6.875",
+      "points": {
+        "won": 27.5,
+        "of": 34
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

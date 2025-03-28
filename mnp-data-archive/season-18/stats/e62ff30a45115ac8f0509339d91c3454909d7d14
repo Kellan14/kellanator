@@ -1,0 +1,395 @@
+{
+  "key": "e62ff30a45115ac8f0509339d91c3454909d7d14",
+  "name": "Jonathan Navarro",
+  "history": [
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 15522400,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 2708750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 427719400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 157664320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 2,
+      "machine": "JD",
+      "division": 0,
+      "score": 51891650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 223579900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 16520010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 154550,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 20984320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 3308250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 2504100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 53000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 25921130,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 264780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 22729850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SWL",
+      "match": "mnp-18-5-SWL-SSD",
+      "week": "5",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 13420070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSD",
+      "opp": "SWL",
+      "match": "mnp-18-5-SWL-SSD",
+      "week": "5",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 24098720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SWL",
+      "match": "mnp-18-5-SWL-SSD",
+      "week": "5",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 2977800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 6738900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 140470150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 41000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "RMS",
+      "match": "mnp-18-7-SSD-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "Venom",
+      "division": 0,
+      "score": 31702600,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSD",
+      "opp": "RMS",
+      "match": "mnp-18-7-SSD-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5293170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "RMS",
+      "match": "mnp-18-7-SSD-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 133785260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 17520210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 21410160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 108156660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 60739720,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 3283010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 21400240,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.288",
+      "num_matches": 10,
+      "ppm": "2.350",
+      "points": {
+        "won": 23.5,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

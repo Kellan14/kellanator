@@ -1,0 +1,395 @@
+{
+  "key": "4040ed3708b85e2a899a98decef40530d58b9f55",
+  "name": "Brandon Lorenz",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "POW",
+      "match": "mnp-18-1-POW-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 39175240,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "POW",
+      "match": "mnp-18-1-POW-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 41200160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "POW",
+      "match": "mnp-18-1-POW-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 81949360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 395240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 73767268,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 338480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 347930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 113770,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 6034850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 125945970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 156072110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 22286080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 2,
+      "machine": "MSF",
+      "division": 0,
+      "score": 745125090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 29091500,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 145000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "TBT",
+      "match": "mnp-18-5-TBT-CDC",
+      "week": "5",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 73963100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TBT",
+      "match": "mnp-18-5-TBT-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 21411920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TBT",
+      "match": "mnp-18-5-TBT-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 67736890,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 35492080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 67062390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 57617400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-18-7-CDC-ADB",
+      "week": "7",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 2754370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-18-7-CDC-ADB",
+      "week": "7",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 66294750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-18-7-CDC-ADB",
+      "week": "7",
+      "round": 4,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 73647360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 44340760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 103218020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 70187780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 177432480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 105353960,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 23928850,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.611",
+      "num_matches": 10,
+      "ppm": "5.200",
+      "points": {
+        "won": 52,
+        "of": 85
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

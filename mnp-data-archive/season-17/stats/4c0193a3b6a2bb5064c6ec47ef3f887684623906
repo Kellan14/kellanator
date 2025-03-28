@@ -1,0 +1,215 @@
+{
+  "key": "4c0193a3b6a2bb5064c6ec47ef3f887684623906",
+  "name": "Oscar Torres",
+  "history": [
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 6582510,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 2,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 11240260,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 4,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 6995510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 27865400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 231998480,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8433130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-17-2-SWL-ADB",
+      "week": "2",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 12403580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-17-2-SWL-ADB",
+      "week": "2",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 9097530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-17-2-SWL-ADB",
+      "week": "2",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 7472990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 49326140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 1833230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 34312160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 21639980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 2,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 4213490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 23198730,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.325",
+      "num_matches": 5,
+      "ppm": "2.600",
+      "points": {
+        "won": 13,
+        "of": 40
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

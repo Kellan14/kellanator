@@ -1,0 +1,251 @@
+{
+  "key": "e9b1a201f0f04fad37ad067351fdeea73963c5ed",
+  "name": "Emma Frost",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-21-1-DSV-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "SC",
+      "division": 0,
+      "score": 1131550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-21-1-DSV-SSS",
+      "week": "1",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 83450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-21-1-DSV-SSS",
+      "week": "1",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 455910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-21-2-LAS-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 34186320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-21-2-LAS-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4761390,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-21-2-LAS-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 5685250,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-21-3-DSV-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 57934240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-21-3-DSV-SWL",
+      "week": "3",
+      "round": 2,
+      "machine": "EJ",
+      "division": 0,
+      "score": 32612810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-21-3-DSV-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 19493640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "ETB",
+      "match": "mnp-21-4-ETB-DSV",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 28189770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "ETB",
+      "match": "mnp-21-4-ETB-DSV",
+      "week": "4",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 221160,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "ETB",
+      "match": "mnp-21-4-ETB-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 8435470,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 758000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 71993000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 100540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TBT",
+      "match": "mnp-21-7-TBT-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1372619560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "TBT",
+      "match": "mnp-21-7-TBT-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 27711790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TBT",
+      "match": "mnp-21-7-TBT-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 29791000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.402",
+      "num_matches": 6,
+      "ppm": "3.250",
+      "points": {
+        "won": 19.5,
+        "of": 48.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

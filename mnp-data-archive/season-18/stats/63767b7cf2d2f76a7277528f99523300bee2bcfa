@@ -1,0 +1,359 @@
+{
+  "key": "63767b7cf2d2f76a7277528f99523300bee2bcfa",
+  "name": "Kayla Greet",
+  "history": [
+    {
+      "team": "BOC",
+      "opp": "ETB",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 82300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "ETB",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 55695200,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "ETB",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 22264800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "ETB",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 969680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 1,
+      "machine": "Venom",
+      "division": 0,
+      "score": 18460220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 24523050,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4832910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "POW",
+      "match": "mnp-18-2-BOC-POW",
+      "week": "2",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 13255410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "POW",
+      "match": "mnp-18-2-BOC-POW",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 125959620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "POW",
+      "match": "mnp-18-2-BOC-POW",
+      "week": "2",
+      "round": 4,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 2864,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "HHS",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 1,
+      "machine": "SoF",
+      "division": 0,
+      "score": 237810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "HHS",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 4162320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "HHS",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 3,
+      "machine": "WOF",
+      "division": 0,
+      "score": 7207480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "HHS",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 28723420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 8758720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 3,
+      "machine": "WOF",
+      "division": 0,
+      "score": 1798970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 44382930,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "TBT",
+      "match": "mnp-18-6-BOC-TBT",
+      "week": "6",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 64567000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TBT",
+      "match": "mnp-18-6-BOC-TBT",
+      "week": "6",
+      "round": 2,
+      "machine": "Venom",
+      "division": 0,
+      "score": 98193630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TBT",
+      "match": "mnp-18-6-BOC-TBT",
+      "week": "6",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 69235310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TBT",
+      "match": "mnp-18-6-BOC-TBT",
+      "week": "6",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 5881920,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "PYC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PYC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 16000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PYC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "ADB",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 99790540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "ADB",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 195998280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "ADB",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 16368070,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.369",
+      "num_matches": 8,
+      "ppm": "3.437",
+      "points": {
+        "won": 27.5,
+        "of": 74.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

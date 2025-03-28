@@ -1,0 +1,323 @@
+{
+  "key": "8fd28e36512971249c1d55c4ce40f3cd35a4bbe9",
+  "name": "Nate Reha",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "SWL",
+      "match": "mnp-19-1-CDC-SWL",
+      "week": "1",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 11947580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SWL",
+      "match": "mnp-19-1-CDC-SWL",
+      "week": "1",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 6711780,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SWL",
+      "match": "mnp-19-1-CDC-SWL",
+      "week": "1",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 21000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 420034740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 29339260,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 904277450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1875297550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 216613430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 591096600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 15347780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 77217370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8460080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 23195600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 106556120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "FBS",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 944850470,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CDC",
+      "opp": "FBS",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4507790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "FBS",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 80310330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 15039600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 27514550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 50620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 18172300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 317873040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 2660000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.387",
+      "num_matches": 8,
+      "ppm": "3.125",
+      "points": {
+        "won": 25,
+        "of": 64.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

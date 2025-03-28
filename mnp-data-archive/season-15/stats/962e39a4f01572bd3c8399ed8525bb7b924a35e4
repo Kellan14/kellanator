@@ -1,0 +1,287 @@
+{
+  "key": "962e39a4f01572bd3c8399ed8525bb7b924a35e4",
+  "name": "Eric Logan",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "BOC",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 11839230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "BOC",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 3,
+      "machine": "DM",
+      "division": 0,
+      "score": 15263040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "BOC",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 183661430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 12201500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 2,
+      "machine": "T3",
+      "division": 0,
+      "score": 4159650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "T3",
+      "division": 0,
+      "score": 21999920,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 181514960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 14958410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 35083090,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-15-3-LAS-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 27730000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-15-3-LAS-RMS",
+      "week": "3",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 20829140,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-15-3-LAS-RMS",
+      "week": "3",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 11866270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "OLD",
+      "match": "mnp-15-4-RMS-OLD",
+      "week": "4",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3928430,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "OLD",
+      "match": "mnp-15-4-RMS-OLD",
+      "week": "4",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3205840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "OLD",
+      "match": "mnp-15-4-RMS-OLD",
+      "week": "4",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 56142020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CPO",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 8162850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CPO",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 4894890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CPO",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 86700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-15-8-RMS-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 5996300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-15-8-RMS-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 17785720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-15-8-RMS-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 10108820,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.114",
+      "num_matches": 7,
+      "ppm": "0.928",
+      "points": {
+        "won": 6.5,
+        "of": 57
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

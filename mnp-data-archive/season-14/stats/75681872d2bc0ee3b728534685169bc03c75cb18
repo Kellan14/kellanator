@@ -1,0 +1,107 @@
+{
+  "key": "75681872d2bc0ee3b728534685169bc03c75cb18",
+  "name": "Ryan Hess",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 32735110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1091060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 34270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "RMS",
+      "match": "mnp-14-9-SWL-RMS",
+      "week": "9",
+      "round": 1,
+      "machine": "DM",
+      "division": 0,
+      "score": 435324960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "RMS",
+      "match": "mnp-14-9-SWL-RMS",
+      "week": "9",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 22742290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "RMS",
+      "match": "mnp-14-9-SWL-RMS",
+      "week": "9",
+      "round": 3,
+      "machine": "DM",
+      "division": 0,
+      "score": 89367030,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.382",
+      "num_matches": 2,
+      "ppm": "3.250",
+      "points": {
+        "won": 6.5,
+        "of": 17
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

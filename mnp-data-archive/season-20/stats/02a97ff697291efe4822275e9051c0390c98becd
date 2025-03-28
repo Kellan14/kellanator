@@ -1,0 +1,107 @@
+{
+  "key": "02a97ff697291efe4822275e9051c0390c98becd",
+  "name": "Tyler Albery",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 34060850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 33000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "FT",
+      "division": 0,
+      "score": 1176230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "RMS",
+      "match": "mnp-20-4-RMS-TBT",
+      "week": "4",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 75495400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "RMS",
+      "match": "mnp-20-4-RMS-TBT",
+      "week": "4",
+      "round": 3,
+      "machine": "EJ",
+      "division": 0,
+      "score": 7512010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "RMS",
+      "match": "mnp-20-4-RMS-TBT",
+      "week": "4",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 44925540,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.312",
+      "num_matches": 2,
+      "ppm": "2.500",
+      "points": {
+        "won": 5,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

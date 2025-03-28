@@ -1,0 +1,431 @@
+{
+  "key": "5a5a1e64eeea69176b448f0b25ec90bd820a5801",
+  "name": "Chad Adams WA",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "ICB",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "Junk Yard",
+      "division": 0,
+      "score": 1818750,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "ICB",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 12009990,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "ICB",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 5188,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 1600000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 49060900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 9261190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 21671270,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 142537200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 5676030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CDC",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 517377480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CDC",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 18235100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "CDC",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 39258980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 37211540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 3,
+      "machine": "Star Gazer",
+      "division": 0,
+      "score": 351200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 5308,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 7000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 2700000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 21000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 711241490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 1845,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 190280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 107810,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 12418690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 83558930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 1599570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 216190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 35820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 1,
+      "machine": "James Bond '007",
+      "division": 0,
+      "score": 49352330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 97200080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 39585940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 8834280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 315110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 3,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 697630,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.489",
+      "num_matches": 11,
+      "ppm": "4.045",
+      "points": {
+        "won": 44.5,
+        "of": 91
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

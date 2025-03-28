@@ -1,0 +1,203 @@
+{
+  "key": "39e3de381fb471dcbc6bb22b34ff60c30aef60b9",
+  "name": "Armand Go",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 56767650,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 430703730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 1118007190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 158569040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 2291548120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 373870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 22664980,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 2929558480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 160763230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 243840,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 14909880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 90712770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 1717590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 4,
+      "machine": "LAB",
+      "division": 0,
+      "score": 20261920,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.736",
+      "num_matches": 4,
+      "ppm": "7.000",
+      "points": {
+        "won": 28,
+        "of": 38
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

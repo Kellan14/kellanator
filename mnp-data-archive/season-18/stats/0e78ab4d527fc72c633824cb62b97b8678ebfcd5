@@ -1,0 +1,131 @@
+{
+  "key": "0e78ab4d527fc72c633824cb62b97b8678ebfcd5",
+  "name": "Jandy Stephens",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "PGN",
+      "match": "mnp-18-1-RMS-PGN",
+      "week": "1",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 20845440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PGN",
+      "match": "mnp-18-1-RMS-PGN",
+      "week": "1",
+      "round": 2,
+      "machine": "Godfather",
+      "division": 0,
+      "score": 1385190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "POW",
+      "match": "mnp-18-7-SHK-POW",
+      "week": "7",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 494088520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "POW",
+      "match": "mnp-18-7-SHK-POW",
+      "week": "7",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 195300040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "POW",
+      "match": "mnp-18-7-SHK-POW",
+      "week": "7",
+      "round": 4,
+      "machine": "Flintstones",
+      "division": 0,
+      "score": 64582390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DIH",
+      "match": "mnp-18-9-RMS-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 35300,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "DIH",
+      "match": "mnp-18-9-RMS-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 44480660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "DIH",
+      "match": "mnp-18-9-RMS-DIH",
+      "week": "9",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 3229270,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.340",
+      "num_matches": 3,
+      "ppm": "2.500",
+      "points": {
+        "won": 7.5,
+        "of": 22
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "key": "28b401e7cc90caf34db26d6746265dd76c5c378e",
+  "name": "Lily cullee",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-19-10-DSV-PBR",
+      "week": "10",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 37393310,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-19-10-DSV-PBR",
+      "week": "10",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 8072570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-19-10-DSV-PBR",
+      "week": "10",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 71220700,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "POW",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 1,
+      "machine": "Eight Ball Beyond",
+      "division": 0,
+      "score": 55415000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "POW",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 12939220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "POW",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 51164540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 75174380,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 100502280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 79187830,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1107955690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 6500000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 39982920,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.388",
+      "num_matches": 4,
+      "ppm": "3.250",
+      "points": {
+        "won": 13,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

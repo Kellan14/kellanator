@@ -1,0 +1,179 @@
+{
+  "key": "8468743d5e3fc5b4f020f5dd17ff6c1a4f3df721",
+  "name": "Anthony McCammant",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 519200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 13500000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 24000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-15-5-NLT-PGN",
+      "week": "5",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2638850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-15-5-NLT-PGN",
+      "week": "5",
+      "round": 2,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 112185960,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-15-5-NLT-PGN",
+      "week": "5",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 5424770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 14193700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 530410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 5617480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "LAS",
+      "match": "mnp-15-8-PGN-LAS",
+      "week": "8",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 4898100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "LAS",
+      "match": "mnp-15-8-PGN-LAS",
+      "week": "8",
+      "round": 2,
+      "machine": "TBL",
+      "division": 0,
+      "score": 2133060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "LAS",
+      "match": "mnp-15-8-PGN-LAS",
+      "week": "8",
+      "round": 3,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 40231510,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.250",
+      "num_matches": 4,
+      "ppm": "2.125",
+      "points": {
+        "won": 8.5,
+        "of": 34
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

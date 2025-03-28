@@ -1,0 +1,155 @@
+{
+  "key": "405833a1570ee89779f275f800e3b0f41bcefada",
+  "name": "Erick Spaan",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 1,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 294790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 1630740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 492106780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 172000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 40447360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 3,
+      "machine": "SNS",
+      "division": 0,
+      "score": 332790,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 4,
+      "machine": "SpaceStation",
+      "division": 0,
+      "score": 804780,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "NLT",
+      "match": "mnp-20-8-NLT-CFB",
+      "week": "8",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 1,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "NLT",
+      "match": "mnp-20-8-NLT-CFB",
+      "week": "8",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 14780690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "NLT",
+      "match": "mnp-20-8-NLT-CFB",
+      "week": "8",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 30444570,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.574",
+      "num_matches": 3,
+      "ppm": "5.166",
+      "points": {
+        "won": 15.5,
+        "of": 27
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

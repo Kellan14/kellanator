@@ -1,0 +1,227 @@
+{
+  "key": "51bbe4eb85cefcae9ec1fe6a52c500a0ea89a488",
+  "name": "Jessica Rakonza",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "POW",
+      "match": "mnp-18-10-KNR-POW",
+      "week": "10",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3291534260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "POW",
+      "match": "mnp-18-10-KNR-POW",
+      "week": "10",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 66540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "POW",
+      "match": "mnp-18-10-KNR-POW",
+      "week": "10",
+      "round": 4,
+      "machine": "Junk Yard",
+      "division": 0,
+      "score": 1376760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SHK",
+      "match": "mnp-18-2-SHK-KNR",
+      "week": "2",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 8597190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SHK",
+      "match": "mnp-18-2-SHK-KNR",
+      "week": "2",
+      "round": 2,
+      "machine": "MSF",
+      "division": 0,
+      "score": 441644580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SHK",
+      "match": "mnp-18-2-SHK-KNR",
+      "week": "2",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 133651430,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 918113450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 13825050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 418766360,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 4,
+      "machine": "FT",
+      "division": 0,
+      "score": 12286300,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 64779880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 5932050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 63911980,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 1,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 32970930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 2,
+      "machine": "MSF",
+      "division": 0,
+      "score": 178000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 385871980,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.379",
+      "num_matches": 5,
+      "ppm": "3.300",
+      "points": {
+        "won": 16.5,
+        "of": 43.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

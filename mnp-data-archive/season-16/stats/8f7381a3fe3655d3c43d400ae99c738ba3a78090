@@ -1,0 +1,143 @@
+{
+  "key": "8f7381a3fe3655d3c43d400ae99c738ba3a78090",
+  "name": "Jason Trojan",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 6816300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 265590,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 6530480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 34112360,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 14332320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 187711250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 62565350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 135000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 4,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 209685870,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.360",
+      "num_matches": 3,
+      "ppm": "3.000",
+      "points": {
+        "won": 9,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

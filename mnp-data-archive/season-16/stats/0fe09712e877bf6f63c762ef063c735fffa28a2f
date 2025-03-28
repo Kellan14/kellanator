@@ -1,0 +1,359 @@
+{
+  "key": "0fe09712e877bf6f63c762ef063c735fffa28a2f",
+  "name": "Brian O'Neill WA",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1622200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 374710,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 153580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "DH",
+      "division": 0,
+      "score": 123163290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 4781290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 11645380,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "PKT",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 91280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PKT",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 99790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PKT",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 178390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 23895560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 7526870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 26934200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "HHS",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 95970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "HHS",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 4533110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "HHS",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 298820950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 1775530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 17156030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 10000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "DIH",
+      "match": "mnp-16-6-RTR-DIH",
+      "week": "6",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 42130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "DIH",
+      "match": "mnp-16-6-RTR-DIH",
+      "week": "6",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 30310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "DIH",
+      "match": "mnp-16-6-RTR-DIH",
+      "week": "6",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 58660,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 13404600,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 5269950,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 20196790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 315610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 147881890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 242850,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.418",
+      "num_matches": 9,
+      "ppm": "3.444",
+      "points": {
+        "won": 31,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

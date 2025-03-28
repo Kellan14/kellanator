@@ -1,0 +1,215 @@
+{
+  "key": "8f7381a3fe3655d3c43d400ae99c738ba3a78090",
+  "name": "Jason Trojan",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-15-1-NLT-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 11587940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-15-1-NLT-SSS",
+      "week": "1",
+      "round": 2,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 1054100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-15-1-NLT-SSS",
+      "week": "1",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 19244850,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "OLD",
+      "match": "mnp-15-10-OLD-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 5066770,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "OLD",
+      "match": "mnp-15-10-OLD-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 500000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "OLD",
+      "match": "mnp-15-10-OLD-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 571400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-15-5-SSS-RMS",
+      "week": "5",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 22714050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-15-5-SSS-RMS",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 366597040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-15-5-SSS-RMS",
+      "week": "5",
+      "round": 4,
+      "machine": "JM",
+      "division": 0,
+      "score": 813737060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 11403570,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 240000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 120430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "PGN",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 279199010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PGN",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 27203030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "PGN",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 3,
+      "machine": "Flintstones",
+      "division": 0,
+      "score": 105145540,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.506",
+      "num_matches": 5,
+      "ppm": "4.200",
+      "points": {
+        "won": 21,
+        "of": 41.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

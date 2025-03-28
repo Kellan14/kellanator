@@ -1,0 +1,407 @@
+{
+  "key": "3d0e1049aea422f8f1dfb739e5ca97df3bd7da8a",
+  "name": "Ryan Tupper",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 537200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 386780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 3,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 265610360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "PKT",
+      "match": "mnp-14-10-PGN-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 97109770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PKT",
+      "match": "mnp-14-10-PGN-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 46640920,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "PKT",
+      "match": "mnp-14-10-PGN-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 12509100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PKT",
+      "match": "mnp-14-10-PGN-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 110827000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 6897740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "RickAndMorty",
+      "division": 0,
+      "score": 2940701,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 911320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 6009360,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 3074640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 35621240,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 27107830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 10149580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 4085620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 10154960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "TNA",
+      "division": 0,
+      "score": 54780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "TNA",
+      "division": 0,
+      "score": 274220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-14-6-SWL-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 6592420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-14-6-SWL-PGN",
+      "week": "6",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 47000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-14-6-SWL-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 562090,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "PBR",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 751140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PBR",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 3925810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PBR",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 1859130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 28476380,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 41032050,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10152200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CDC",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 32094510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CDC",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 3947220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CDC",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 56126930,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.642",
+      "num_matches": 10,
+      "ppm": "5.400",
+      "points": {
+        "won": 54,
+        "of": 84
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

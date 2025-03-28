@@ -1,0 +1,251 @@
+{
+  "key": "8af28a9e189af13127c9722989bd5eb8c38106e3",
+  "name": "Danielle Crowson",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 9500010,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 22826473,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 45093780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5542700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 35050210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 168860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 22583970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 25690350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 10142130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12755480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 108400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 3,
+      "machine": "SouthPark",
+      "division": 0,
+      "score": 82249050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 21074600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 51722680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 706359250,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 111480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 845559910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 1400330,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.414",
+      "num_matches": 6,
+      "ppm": "3.416",
+      "points": {
+        "won": 20.5,
+        "of": 49.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

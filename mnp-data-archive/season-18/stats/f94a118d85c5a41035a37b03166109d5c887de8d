@@ -1,0 +1,419 @@
+{
+  "key": "f94a118d85c5a41035a37b03166109d5c887de8d",
+  "name": "Jeff Sanders WA",
+  "history": [
+    {
+      "team": "FBS",
+      "opp": "SSD",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 41708960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSD",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 52367850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSD",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4625640,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-18-10-SWL-FBS",
+      "week": "10",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 15363940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-18-10-SWL-FBS",
+      "week": "10",
+      "round": 3,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 1226210,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-18-10-SWL-FBS",
+      "week": "10",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 27386550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CFB",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 1,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 590836470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "CFB",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 2,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 920320,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "CFB",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 4,
+      "machine": "BOP",
+      "division": 0,
+      "score": 2241890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PGN",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 11272750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PGN",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 238230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "PGN",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 5181320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 2,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 1237320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 9000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 4,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 1160074500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "JMF",
+      "match": "mnp-18-5-FBS-JMF",
+      "week": "5",
+      "round": 1,
+      "machine": "POTC",
+      "division": 0,
+      "score": 3047130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "JMF",
+      "match": "mnp-18-5-FBS-JMF",
+      "week": "5",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 8607430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "JMF",
+      "match": "mnp-18-5-FBS-JMF",
+      "week": "5",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 85980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-18-6-FBS-RTR",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 236619110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-18-6-FBS-RTR",
+      "week": "6",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 55615580,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-18-6-FBS-RTR",
+      "week": "6",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 35415390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-18-6-FBS-RTR",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 37413080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TTT",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 6978590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TTT",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 19129780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TTT",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1694470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "NMC",
+      "match": "mnp-18-8-FBS-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 18358,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBS",
+      "opp": "NMC",
+      "match": "mnp-18-8-FBS-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 197105400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "NMC",
+      "match": "mnp-18-8-FBS-NMC",
+      "week": "8",
+      "round": 3,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 40750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "NMC",
+      "match": "mnp-18-8-FBS-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 2517200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 84755270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 2,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 808360,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 21069320,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.426",
+      "num_matches": 10,
+      "ppm": "3.750",
+      "points": {
+        "won": 37.5,
+        "of": 88
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

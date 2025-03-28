@@ -1,0 +1,359 @@
+{
+  "key": "91f0ebb43418052f399e1d74648c3ebf7648d2a3",
+  "name": "Nina Ricciardi",
+  "history": [
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 88020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 137620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 96145780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CRA",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 156170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "CRA",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 19370330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CRA",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 12457570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PBR",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1022000,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "BOC",
+      "opp": "PBR",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1577480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PBR",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 549740,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "PKT",
+      "match": "mnp-14-3-BOC-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 110540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PKT",
+      "match": "mnp-14-3-BOC-PKT",
+      "week": "3",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 801840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PKT",
+      "match": "mnp-14-3-BOC-PKT",
+      "week": "3",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 9709770,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 222600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 383060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 139090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "JMF",
+      "match": "mnp-14-5-BOC-JMF",
+      "week": "5",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 151220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "JMF",
+      "match": "mnp-14-5-BOC-JMF",
+      "week": "5",
+      "round": 2,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 37740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "JMF",
+      "match": "mnp-14-5-BOC-JMF",
+      "week": "5",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 37960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "ADB",
+      "match": "mnp-14-7-ADB-BOC",
+      "week": "7",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 397000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "ADB",
+      "match": "mnp-14-7-ADB-BOC",
+      "week": "7",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 147000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "ADB",
+      "match": "mnp-14-7-ADB-BOC",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 7728070,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "SWL",
+      "match": "mnp-14-8-BOC-SWL",
+      "week": "8",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 156400200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SWL",
+      "match": "mnp-14-8-BOC-SWL",
+      "week": "8",
+      "round": 3,
+      "machine": "Pinbot",
+      "division": 0,
+      "score": 343220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SWL",
+      "match": "mnp-14-8-BOC-SWL",
+      "week": "8",
+      "round": 4,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 293150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 870560830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 534000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 572620,
+      "points": 2,
+      "pops": "0.666"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.466",
+      "num_matches": 9,
+      "ppm": "3.888",
+      "points": {
+        "won": 35,
+        "of": 75
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

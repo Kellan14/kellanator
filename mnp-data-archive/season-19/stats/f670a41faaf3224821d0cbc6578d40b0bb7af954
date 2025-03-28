@@ -1,0 +1,359 @@
+{
+  "key": "f670a41faaf3224821d0cbc6578d40b0bb7af954",
+  "name": "Jeff Gagnon",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-19-1-SCN-DTP",
+      "week": "1",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 284080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-19-1-SCN-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 29000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-19-1-SCN-DTP",
+      "week": "1",
+      "round": 3,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 90000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-19-10-KNR-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1513960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-19-10-KNR-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "Rush",
+      "division": 0,
+      "score": 76000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-19-10-KNR-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 28000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 30843420,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 67441120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 34602080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 103520960,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 268000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SWL",
+      "match": "mnp-19-3-SCN-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 27763700,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "SWL",
+      "match": "mnp-19-3-SCN-SWL",
+      "week": "3",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 121000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "SWL",
+      "match": "mnp-19-3-SCN-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 15306430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 72000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 36000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 24011530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 4097160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 4119120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "CSI",
+      "division": 0,
+      "score": 20000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-19-7-SCN-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 122171120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-19-7-SCN-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 5968430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-19-7-SCN-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 101075730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 2324980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 26000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 14000000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.644",
+      "num_matches": 9,
+      "ppm": "5.333",
+      "points": {
+        "won": 48,
+        "of": 74.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "key": "aeb46a5b37b05c30dcfebb26a5baa7b437f33f3c",
+  "name": "Ted Lasseter",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "OLD",
+      "match": "mnp-15-7-TTT-OLD",
+      "week": "7",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 13287710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "OLD",
+      "match": "mnp-15-7-TTT-OLD",
+      "week": "7",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 421977450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "OLD",
+      "match": "mnp-15-7-TTT-OLD",
+      "week": "7",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 11815300,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 54120950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "T3",
+      "division": 0,
+      "score": 5657400,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 2055050,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.352",
+      "num_matches": 2,
+      "ppm": "3.000",
+      "points": {
+        "won": 6,
+        "of": 17
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

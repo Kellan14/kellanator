@@ -1,0 +1,107 @@
+{
+  "key": "26a37e52c12b7c0525ca3f67a1c6d6dfc073a98c",
+  "name": "Evan Lesh",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-20-12-DSV-TWC",
+      "week": "12",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 21000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-20-12-DSV-TWC",
+      "week": "12",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 3473380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-20-12-DSV-TWC",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 17425360,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-20-7-DSV-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 3430600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-20-7-DSV-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 163850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-20-7-DSV-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 7418570,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.218",
+      "num_matches": 2,
+      "ppm": "1.750",
+      "points": {
+        "won": 3.5,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

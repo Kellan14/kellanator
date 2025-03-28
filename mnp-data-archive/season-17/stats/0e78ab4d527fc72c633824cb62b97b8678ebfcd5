@@ -1,0 +1,179 @@
+{
+  "key": "0e78ab4d527fc72c633824cb62b97b8678ebfcd5",
+  "name": "Jandy Stephens",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "DTP",
+      "match": "mnp-17-10-DTP-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 24329830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DTP",
+      "match": "mnp-17-10-DTP-SHK",
+      "week": "10",
+      "round": 3,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 4056370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DTP",
+      "match": "mnp-17-10-DTP-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 5366320,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 68739030,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 89598060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 4949290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "PYC",
+      "match": "mnp-17-3-PYC-SHK",
+      "week": "3",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 25768330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PYC",
+      "match": "mnp-17-3-PYC-SHK",
+      "week": "3",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 7642940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PYC",
+      "match": "mnp-17-3-PYC-SHK",
+      "week": "3",
+      "round": 4,
+      "machine": "JM",
+      "division": 0,
+      "score": 259836150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "RMS",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 18401110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "RMS",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 2,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 293000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "RMS",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 4,
+      "machine": "DND",
+      "division": 0,
+      "score": 625910,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.323",
+      "num_matches": 4,
+      "ppm": "2.625",
+      "points": {
+        "won": 10.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

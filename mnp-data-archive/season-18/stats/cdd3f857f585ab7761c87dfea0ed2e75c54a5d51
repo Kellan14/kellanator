@@ -1,0 +1,359 @@
+{
+  "key": "cdd3f857f585ab7761c87dfea0ed2e75c54a5d51",
+  "name": "Rick Weber",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 287083610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 96964360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 593578320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 122250106,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 185255320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 33530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 431060320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 1752040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 52404880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 17625880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 231624510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 44110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 113000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 391000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 146549330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 472572640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 133624560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 108000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 78125910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 428512800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "Diner",
+      "division": 0,
+      "score": 4251660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 67387190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 154946320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 443530860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 514149120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 198407240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 201121360,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.639",
+      "num_matches": 9,
+      "ppm": "5.222",
+      "points": {
+        "won": 47,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "key": "074d6f2a545610ad817fe6e119a2552b90e830d2",
+  "name": "Garrett Avery",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "FBS",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 719510,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "FBS",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 13260650,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "FBS",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 3,
+      "machine": "Galactic Tank Force",
+      "division": 0,
+      "score": 275964880,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "PBR",
+      "match": "mnp-18-4-PBR-POW",
+      "week": "4",
+      "round": 1,
+      "machine": "Stars",
+      "division": 0,
+      "score": 49510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "PBR",
+      "match": "mnp-18-4-PBR-POW",
+      "week": "4",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 206336710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "PBR",
+      "match": "mnp-18-4-PBR-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 7582430,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.323",
+      "num_matches": 2,
+      "ppm": "2.750",
+      "points": {
+        "won": 5.5,
+        "of": 17
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

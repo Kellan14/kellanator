@@ -1,0 +1,359 @@
+{
+  "key": "b5c300494782371526d3225d4196663aec44d3d2",
+  "name": "Anthony Giles",
+  "history": [
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 1,
+      "machine": "Avengers",
+      "division": 0,
+      "score": 1127470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 76287590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 4,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 45230930,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 41585760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 636530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1252090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "SCN",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 158900000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TBT",
+      "opp": "SCN",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 2,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 129000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "SCN",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 4,
+      "machine": "MSF",
+      "division": 0,
+      "score": 85925150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 9903080,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 62484020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 57885800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "ADB",
+      "match": "mnp-17-4-TBT-ADB",
+      "week": "4",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 100205470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "ADB",
+      "match": "mnp-17-4-TBT-ADB",
+      "week": "4",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1004408850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "ADB",
+      "match": "mnp-17-4-TBT-ADB",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 43000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-17-6-PKT-TBT",
+      "week": "6",
+      "round": 1,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 87437280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-17-6-PKT-TBT",
+      "week": "6",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 39701350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-17-6-PKT-TBT",
+      "week": "6",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 4924680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SKP",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 60878930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SKP",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 144288390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SKP",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 13592800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 1,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 682340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 1358907110,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 4,
+      "machine": "Stars",
+      "division": 0,
+      "score": 135950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "JMF",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 4974910,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TBT",
+      "opp": "JMF",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 13794330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "JMF",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 947422810,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.571",
+      "num_matches": 9,
+      "ppm": "4.666",
+      "points": {
+        "won": 42,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "key": "d1051ddd2d52e1badb2aa5370442832134b5fa8e",
+  "name": "Guadalupe Bryan",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 102485190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 3,
+      "machine": "Big Game",
+      "division": 0,
+      "score": 62520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 7328000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 138080,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 15786280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 3680120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 5286390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 55660140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 8321340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 194000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 311340,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 795030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 17699090,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 105250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 250000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "Ali",
+      "division": 0,
+      "score": 464950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 197610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 226820240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-18-6-SSS-DIH",
+      "week": "6",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 49430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-18-6-SSS-DIH",
+      "week": "6",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 31969680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-18-6-SSS-DIH",
+      "week": "6",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 49488720,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "HHS",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 134510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "HHS",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 39064790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "HHS",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 747450,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 17615330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 29774130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 6230320,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 37564560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 5710760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 116282640,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.487",
+      "num_matches": 10,
+      "ppm": "3.900",
+      "points": {
+        "won": 39,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

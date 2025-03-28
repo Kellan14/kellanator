@@ -1,0 +1,179 @@
+{
+  "key": "f94ccca9264c5dcb68029cc03f37ccac777f9234",
+  "name": "Zak Zuvich",
+  "history": [
+    {
+      "team": "ICB",
+      "opp": "LAS",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "Junk Yard",
+      "division": 0,
+      "score": 4126940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "LAS",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 7758870,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "LAS",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 110410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "ADB",
+      "match": "mnp-19-10-ADB-ICB",
+      "week": "10",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 6687790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "ADB",
+      "match": "mnp-19-10-ADB-ICB",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 75980580,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "ADB",
+      "match": "mnp-19-10-ADB-ICB",
+      "week": "10",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 23775450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 2180590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 30854130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 12508250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "DTP",
+      "match": "mnp-19-7-ICB-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 16062000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "DTP",
+      "match": "mnp-19-7-ICB-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 65050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "DTP",
+      "match": "mnp-19-7-ICB-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 190540,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.181",
+      "num_matches": 4,
+      "ppm": "1.500",
+      "points": {
+        "won": 6,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

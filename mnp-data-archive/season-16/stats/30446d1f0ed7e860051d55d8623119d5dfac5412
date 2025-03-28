@@ -1,0 +1,431 @@
+{
+  "key": "30446d1f0ed7e860051d55d8623119d5dfac5412",
+  "name": "Elliott Johnson",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-16-10-CRA-RMS",
+      "week": "10",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 256600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-16-10-CRA-RMS",
+      "week": "10",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 729204120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-16-10-CRA-RMS",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8084890,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 88628800,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 138570,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 828125610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-16-13-SWL-CRA",
+      "week": "13",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 708691230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-16-13-SWL-CRA",
+      "week": "13",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 127120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-16-13-SWL-CRA",
+      "week": "13",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 112270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TTT",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4651410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TTT",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 26365880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "TTT",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 1569130,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "OLD",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 54445840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "OLD",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 20442510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "OLD",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 39882620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-16-4-CPO-CRA",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4087980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-16-4-CPO-CRA",
+      "week": "4",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 13503290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-16-4-CPO-CRA",
+      "week": "4",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 15949500,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 249120,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "Corvette",
+      "division": 0,
+      "score": 99541790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "24",
+      "division": 0,
+      "score": 62334690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 28923170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 20217250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 123460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 1732330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 561223230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 2457560,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-16-8-CRA-PGN",
+      "week": "8",
+      "round": 1,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 13407050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-16-8-CRA-PGN",
+      "week": "8",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 718336050,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-16-8-CRA-PGN",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 54231830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 26645560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 176080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 3,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 82974270,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.502",
+      "num_matches": 11,
+      "ppm": "4.136",
+      "points": {
+        "won": 45.5,
+        "of": 90.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

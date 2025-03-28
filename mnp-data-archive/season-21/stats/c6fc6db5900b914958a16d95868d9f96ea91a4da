@@ -1,0 +1,179 @@
+{
+  "key": "c6fc6db5900b914958a16d95868d9f96ea91a4da",
+  "name": "Michael Senff",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "PKT",
+      "match": "mnp-21-1-PKT-NMC",
+      "week": "1",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 9073610,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "PKT",
+      "match": "mnp-21-1-PKT-NMC",
+      "week": "1",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 90000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "PKT",
+      "match": "mnp-21-1-PKT-NMC",
+      "week": "1",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 114727330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TWC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 68547940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TWC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 149544460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TWC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 12014350,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "PGN",
+      "match": "mnp-21-3-PGN-NMC",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 154325270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PGN",
+      "match": "mnp-21-3-PGN-NMC",
+      "week": "3",
+      "round": 2,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 16629690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PGN",
+      "match": "mnp-21-3-PGN-NMC",
+      "week": "3",
+      "round": 3,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 20441310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "FBP",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 20215100,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "FBP",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 91000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "FBP",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 1319040,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.223",
+      "num_matches": 4,
+      "ppm": "1.875",
+      "points": {
+        "won": 7.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

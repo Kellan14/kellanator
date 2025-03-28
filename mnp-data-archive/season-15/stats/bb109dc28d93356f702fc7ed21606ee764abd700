@@ -1,0 +1,179 @@
+{
+  "key": "bb109dc28d93356f702fc7ed21606ee764abd700",
+  "name": "Nick Bates-Benitez",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1255204740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 130058600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 3985330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "OLD",
+      "match": "mnp-15-7-TTT-OLD",
+      "week": "7",
+      "round": 2,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 500000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "OLD",
+      "match": "mnp-15-7-TTT-OLD",
+      "week": "7",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 60749050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "OLD",
+      "match": "mnp-15-7-TTT-OLD",
+      "week": "7",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 783399410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 152564320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 7000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 571302150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "LAS",
+      "match": "mnp-15-9-LAS-OLD",
+      "week": "9",
+      "round": 2,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 1016792460,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "LAS",
+      "match": "mnp-15-9-LAS-OLD",
+      "week": "9",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 191089430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "LAS",
+      "match": "mnp-15-9-LAS-OLD",
+      "week": "9",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 36000000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.567",
+      "num_matches": 4,
+      "ppm": "4.750",
+      "points": {
+        "won": 19,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

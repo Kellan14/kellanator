@@ -1,0 +1,395 @@
+{
+  "key": "58eddf89c9ae9478175d0d2ff165790ac262fc80",
+  "name": "Mikkel Nielsen WA",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 21350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 17949020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 12434060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 30088890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 53262330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 754360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 1,
+      "machine": "Radical",
+      "division": 0,
+      "score": 18927070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 2,
+      "machine": "Party Animals",
+      "division": 0,
+      "score": 895000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 15081080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 195850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 333170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3686530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-17-4-KNR-DSV",
+      "week": "4",
+      "round": 1,
+      "machine": "MSF",
+      "division": 0,
+      "score": 105845980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-17-4-KNR-DSV",
+      "week": "4",
+      "round": 2,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 1220820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-17-4-KNR-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 4080540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PYC",
+      "match": "mnp-17-5-DSV-PYC",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 1737120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PYC",
+      "match": "mnp-17-5-DSV-PYC",
+      "week": "5",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 5317820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PYC",
+      "match": "mnp-17-5-DSV-PYC",
+      "week": "5",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10946250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-17-6-SHK-DSV",
+      "week": "6",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 19873360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-17-6-SHK-DSV",
+      "week": "6",
+      "round": 2,
+      "machine": "MSF",
+      "division": 0,
+      "score": 157290710,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-17-6-SHK-DSV",
+      "week": "6",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 24402650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 405650,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "Flintstones",
+      "division": 0,
+      "score": 96652680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 179221190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-17-8-DTP-DSV",
+      "week": "8",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 3000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-17-8-DTP-DSV",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5054180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-17-8-DTP-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 2304170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9406100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 170980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 3894300,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.419",
+      "num_matches": 10,
+      "ppm": "3.400",
+      "points": {
+        "won": 34,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

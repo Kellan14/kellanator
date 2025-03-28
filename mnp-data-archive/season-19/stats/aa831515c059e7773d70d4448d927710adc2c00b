@@ -1,0 +1,143 @@
+{
+  "key": "aa831515c059e7773d70d4448d927710adc2c00b",
+  "name": "Jenner Huber",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-19-2-KNR-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 79343930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-19-2-KNR-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 25642860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-19-2-KNR-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 11299410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 64523600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 51405090,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 142982570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 161332110,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "Elvis",
+      "division": 0,
+      "score": 27117040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 236979490,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.666",
+      "num_matches": 3,
+      "ppm": "5.666",
+      "points": {
+        "won": 17,
+        "of": 25.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

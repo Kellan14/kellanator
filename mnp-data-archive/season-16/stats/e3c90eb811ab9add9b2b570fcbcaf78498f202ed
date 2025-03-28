@@ -1,0 +1,179 @@
+{
+  "key": "e3c90eb811ab9add9b2b570fcbcaf78498f202ed",
+  "name": "Andrew Nunes",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-16-1-RMS-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 657011360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-16-1-RMS-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 102339660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-16-1-RMS-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 5643470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 31549860,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 390133700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 754844450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 16180160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 69208480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 18468260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 26034960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 46785560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 23880440,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.636",
+      "num_matches": 4,
+      "ppm": "5.250",
+      "points": {
+        "won": 21,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

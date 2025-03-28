@@ -1,0 +1,407 @@
+{
+  "key": "d6572d8b87f68b44c364fc7e259b659a8a0d26da",
+  "name": "Mack Rote",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "FBP",
+      "match": "mnp-18-1-KNR-FBP",
+      "week": "1",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 7568250,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "KNR",
+      "opp": "FBP",
+      "match": "mnp-18-1-KNR-FBP",
+      "week": "1",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 16040010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "FBP",
+      "match": "mnp-18-1-KNR-FBP",
+      "week": "1",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 147470,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "POW",
+      "match": "mnp-18-10-KNR-POW",
+      "week": "10",
+      "round": 1,
+      "machine": "Stars",
+      "division": 0,
+      "score": 334280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "POW",
+      "match": "mnp-18-10-KNR-POW",
+      "week": "10",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 611070650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "POW",
+      "match": "mnp-18-10-KNR-POW",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 28491050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SHK",
+      "match": "mnp-18-2-SHK-KNR",
+      "week": "2",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 358444880,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "SHK",
+      "match": "mnp-18-2-SHK-KNR",
+      "week": "2",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 54550,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "SHK",
+      "match": "mnp-18-2-SHK-KNR",
+      "week": "2",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 862304490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 8391960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 330792610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 624030500,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2925007320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 43872430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 70757420,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 145298900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 200000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 3,
+      "machine": "WOF",
+      "division": 0,
+      "score": 5629300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-18-5-KNR-BOC",
+      "week": "5",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 16034720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 40000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 8433940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 19265560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-18-7-PBR-KNR",
+      "week": "7",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 81893370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-18-7-PBR-KNR",
+      "week": "7",
+      "round": 3,
+      "machine": "WOF",
+      "division": 0,
+      "score": 12726810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-18-7-PBR-KNR",
+      "week": "7",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 15729810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-18-8-KNR-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 64678430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-18-8-KNR-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 46922980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-18-8-KNR-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 381098970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ETB",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 79519520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ETB",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 22794890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ETB",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 58778920,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.511",
+      "num_matches": 10,
+      "ppm": "4.300",
+      "points": {
+        "won": 43,
+        "of": 84
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

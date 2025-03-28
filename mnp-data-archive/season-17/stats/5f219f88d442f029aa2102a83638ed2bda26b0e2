@@ -1,0 +1,155 @@
+{
+  "key": "5f219f88d442f029aa2102a83638ed2bda26b0e2",
+  "name": "Taylor Minter",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "TTT",
+      "match": "mnp-17-4-NLT-TTT",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 33593610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TTT",
+      "match": "mnp-17-4-NLT-TTT",
+      "week": "4",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 137612040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TTT",
+      "match": "mnp-17-4-NLT-TTT",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 85938490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TTT",
+      "match": "mnp-17-4-NLT-TTT",
+      "week": "4",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 962507060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 3284970,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 3015020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1360305760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 98009530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 151804480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 4,
+      "machine": "Time Machine",
+      "division": 0,
+      "score": 618330,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.796",
+      "num_matches": 3,
+      "ppm": "7.166",
+      "points": {
+        "won": 21.5,
+        "of": 27
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

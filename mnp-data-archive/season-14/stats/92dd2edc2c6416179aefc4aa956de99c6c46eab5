@@ -1,0 +1,299 @@
+{
+  "key": "92dd2edc2c6416179aefc4aa956de99c6c46eab5",
+  "name": "Todd Larsen",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4627340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 19380020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 42040560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 42440000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 52415270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 1522910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 19904200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 97846740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 90991280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 8901030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 153564360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1481530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 14009460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 3,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 7174560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 670740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 194503540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 31056270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 161673330,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 17206000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 605530,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 3,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 747560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 2692000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.661",
+      "num_matches": 7,
+      "ppm": "5.714",
+      "points": {
+        "won": 40,
+        "of": 60.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

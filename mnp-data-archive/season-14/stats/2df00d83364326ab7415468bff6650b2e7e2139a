@@ -1,0 +1,179 @@
+{
+  "key": "2df00d83364326ab7415468bff6650b2e7e2139a",
+  "name": "Lucas Posey",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 52324860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 86320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 48240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 19352330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 607220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "SC",
+      "division": 0,
+      "score": 178700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 14172770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 346820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 19253690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 65365140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1296140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 20152350,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.492",
+      "num_matches": 4,
+      "ppm": "4.125",
+      "points": {
+        "won": 16.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

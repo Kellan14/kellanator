@@ -1,0 +1,431 @@
+{
+  "key": "ba7a448938446d3988e66b84d9e89244cf0f593b",
+  "name": "Lonnie Langford",
+  "history": [
+    {
+      "team": "PKT",
+      "opp": "HHS",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 261000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "HHS",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 262379350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "HHS",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 61353750,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 305668550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 307511040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 915959090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 1,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 23310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 155831000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 190000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 874000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 437368800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 4289370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 456066300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 627291620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 398317120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 908203630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 400172840,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 515118270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PYC",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 890924780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PYC",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 166646870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PYC",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 435515430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ADB",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 275464720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ADB",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 326065900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ADB",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 11867390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ETB",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 785600660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ETB",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 79393620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ETB",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 199598610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 277000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 1024461000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 431282020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 1117269290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 586069480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 200223190,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.830",
+      "num_matches": 11,
+      "ppm": "6.681",
+      "points": {
+        "won": 73.5,
+        "of": 88.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

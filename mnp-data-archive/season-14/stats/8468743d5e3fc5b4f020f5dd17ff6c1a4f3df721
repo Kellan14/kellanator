@@ -1,0 +1,179 @@
+{
+  "key": "8468743d5e3fc5b4f020f5dd17ff6c1a4f3df721",
+  "name": "Anthony McCammant",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2058130,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 399627240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 1559370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 40319070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 7000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 640270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 8419370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 7025460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 16330270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-14-6-SWL-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 291110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-14-6-SWL-PGN",
+      "week": "6",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2700000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-14-6-SWL-PGN",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 102000000,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.569",
+      "num_matches": 4,
+      "ppm": "4.625",
+      "points": {
+        "won": 18.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "key": "2e399c30b768a8409eb1ced8e025529f0d0e80bb",
+  "name": "Tom Baisden",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 53910980,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "NGG",
+      "division": 0,
+      "score": 5825280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 8185930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 333610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 6739860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 7109140,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 13233300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 151000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 1,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 274670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 144820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 197642680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 62985980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 349450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 54445560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 173750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 86740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 8119060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 146370,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10982760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 3566170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 23710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 37210,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 84000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 2376050,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 193860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 395960,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.351",
+      "num_matches": 9,
+      "ppm": "2.833",
+      "points": {
+        "won": 25.5,
+        "of": 72.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

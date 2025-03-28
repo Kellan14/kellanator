@@ -1,0 +1,143 @@
+{
+  "key": "515c9fa77861c6f129b1b0f08fba97f4d3da6a15",
+  "name": "Ariel Bedolla",
+  "history": [
+    {
+      "team": "OLD",
+      "opp": "PBR",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 14895670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "PBR",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 27000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "PBR",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 54254980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 34263990,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 8779100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 20665960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 194187780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 325897780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 12591920,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.291",
+      "num_matches": 3,
+      "ppm": "2.333",
+      "points": {
+        "won": 7,
+        "of": 24
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

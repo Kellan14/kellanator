@@ -1,0 +1,179 @@
+{
+  "key": "a4ddb3e1951a456861f83242bb5e9b8837c747d0",
+  "name": "Val Gaifoulline",
+  "history": [
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 1,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 84563210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 2,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 104000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 3,
+      "machine": "24",
+      "division": 0,
+      "score": 7430460,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 10530690,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 2754210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 18655430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 170108010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 2,
+      "machine": "XMen",
+      "division": 0,
+      "score": 30312460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 3,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 50468170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SKP",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 2,
+      "machine": "24",
+      "division": 0,
+      "score": 7047530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SKP",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 3,
+      "machine": "24",
+      "division": 0,
+      "score": 36242580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SKP",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 4,
+      "machine": "24",
+      "division": 0,
+      "score": 4633250,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.500",
+      "num_matches": 4,
+      "ppm": "4.250",
+      "points": {
+        "won": 17,
+        "of": 34
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

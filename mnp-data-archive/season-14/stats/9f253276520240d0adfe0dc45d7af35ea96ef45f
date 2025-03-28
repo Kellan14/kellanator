@@ -1,0 +1,359 @@
+{
+  "key": "9f253276520240d0adfe0dc45d7af35ea96ef45f",
+  "name": "Robbie Finnigan",
+  "history": [
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 77940220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 77721840,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 3971580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "KNR",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 69715440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "KNR",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 7961310,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "KNR",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 7494450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 29955710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 307376520,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 5993900,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 29216690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 9450600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 2527940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 89190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 4000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 299320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 46951350,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 21954790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 89220320,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 1082720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 23310480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 123721060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 13487190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 649240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 70840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 720270,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 5373440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 3,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 248010,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.586",
+      "num_matches": 9,
+      "ppm": "4.888",
+      "points": {
+        "won": 44,
+        "of": 75
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

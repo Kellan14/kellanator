@@ -1,0 +1,407 @@
+{
+  "key": "4da2f815d7ba14404d49f7a463ec97621b7bc47a",
+  "name": "John Robinson WA",
+  "history": [
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 1,
+      "machine": "TW",
+      "division": 0,
+      "score": 622240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 3,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 435620,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 4,
+      "machine": "TW",
+      "division": 0,
+      "score": 150280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 14449240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 2,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 2184500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 3,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 1001160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 4,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 217210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 407010,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 349960,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 616820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 874320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 104050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 132420,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 131090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 1,
+      "machine": "TW",
+      "division": 0,
+      "score": 67913210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 2,
+      "machine": "TW",
+      "division": 0,
+      "score": 54322020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 3,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 373420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 4,
+      "machine": "TW",
+      "division": 0,
+      "score": 9144640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 82760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 239770,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 264045850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 1,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 582190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 2,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 1408740,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 3,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 492620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 8856230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 2,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 287530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 3,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 1351230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 4,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 1210820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 321700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 225810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 15418420,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.680",
+      "num_matches": 9,
+      "ppm": "6.388",
+      "points": {
+        "won": 57.5,
+        "of": 84.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

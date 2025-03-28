@@ -1,0 +1,407 @@
+{
+  "key": "d5ec5a17a62f72bd2c998e6657d4c1def5a7cdd3",
+  "name": "Hunter Vogt",
+  "history": [
+    {
+      "team": "PYC",
+      "opp": "LAS",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 71280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "LAS",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 2,
+      "machine": "CV",
+      "division": 0,
+      "score": 6304250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "LAS",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 213110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DSV",
+      "match": "mnp-20-10-PYC-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 38621320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "DSV",
+      "match": "mnp-20-10-PYC-DSV",
+      "week": "10",
+      "round": 3,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 146890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "DSV",
+      "match": "mnp-20-10-PYC-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 550360,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBS",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 21110140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBS",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 19331950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBS",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 100336450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "RMS",
+      "match": "mnp-20-3-PYC-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "BR",
+      "division": 0,
+      "score": 177680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "RMS",
+      "match": "mnp-20-3-PYC-RMS",
+      "week": "3",
+      "round": 2,
+      "machine": "LAB",
+      "division": 0,
+      "score": 4531610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "RMS",
+      "match": "mnp-20-3-PYC-RMS",
+      "week": "3",
+      "round": 4,
+      "machine": "BR",
+      "division": 0,
+      "score": 80300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TWC",
+      "match": "mnp-20-4-TWC-PYC",
+      "week": "4",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 718897660,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "TWC",
+      "match": "mnp-20-4-TWC-PYC",
+      "week": "4",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 9533230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "TWC",
+      "match": "mnp-20-4-TWC-PYC",
+      "week": "4",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 507723590,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "SKP",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 614210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SKP",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 115700,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "SKP",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 140490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CPO",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 11007350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "CPO",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8127300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CPO",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12791980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DTP",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10004740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DTP",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 133720,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "DTP",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 27816830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DTP",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 149530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DIH",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 19876140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "DIH",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10059430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DIH",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 922707820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "KNR",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 224101140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "KNR",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10837240,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "KNR",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 10784180,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.500",
+      "num_matches": 10,
+      "ppm": "4.150",
+      "points": {
+        "won": 41.5,
+        "of": 83
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

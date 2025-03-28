@@ -1,0 +1,419 @@
+{
+  "key": "8f58842092bad71691ff9fe9f18cae273598098c",
+  "name": "Nic Crowson",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 241668180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 84825990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 72029610,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-15-10-SKP-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 25654430,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-15-10-SKP-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 20849990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-15-10-SKP-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 22127130,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 146135540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 95423640,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 14615670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 304137300,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 800320050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 93792420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "Stern Rush",
+      "division": 0,
+      "score": 31271510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-15-3-PBR-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 31021400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-15-3-PBR-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 115032480,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-15-3-PBR-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 4119530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-15-4-SCN-JMF",
+      "week": "4",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 13123510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-15-4-SCN-JMF",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 211108170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-15-4-SCN-JMF",
+      "week": "4",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 35467570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 131250590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 250000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 52723690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 15430470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 409490410,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 99503640,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-15-8-SCN-PKT",
+      "week": "8",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 183720290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-15-8-SCN-PKT",
+      "week": "8",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 2476470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-15-8-SCN-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 132697510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 16060090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 10621660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 14000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "T3",
+      "division": 0,
+      "score": 23847000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.563",
+      "num_matches": 10,
+      "ppm": "4.900",
+      "points": {
+        "won": 49,
+        "of": 87
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

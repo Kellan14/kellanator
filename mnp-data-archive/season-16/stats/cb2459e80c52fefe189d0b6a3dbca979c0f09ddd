@@ -1,0 +1,395 @@
+{
+  "key": "cb2459e80c52fefe189d0b6a3dbca979c0f09ddd",
+  "name": "Maria Reidell",
+  "history": [
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 134290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "CV",
+      "division": 0,
+      "score": 6985820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 137640,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-16-11-ADB-SWL",
+      "week": "11",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 561013600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-16-11-ADB-SWL",
+      "week": "11",
+      "round": 3,
+      "machine": "TNA",
+      "division": 0,
+      "score": 48070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-16-11-ADB-SWL",
+      "week": "11",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 2579640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-16-12-ADB-PKT",
+      "week": "12",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 380250,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-16-12-ADB-PKT",
+      "week": "12",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 1847660,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-16-12-ADB-PKT",
+      "week": "12",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 218120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-13-ADB-KNR",
+      "week": "13",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 19047690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-13-ADB-KNR",
+      "week": "13",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 66180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-13-ADB-KNR",
+      "week": "13",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 55050050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PGN",
+      "match": "mnp-16-2-ADB-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 4418070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "PGN",
+      "match": "mnp-16-2-ADB-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 338868250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PGN",
+      "match": "mnp-16-2-ADB-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "TNA",
+      "division": 0,
+      "score": 787651,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "TTT",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 90046250,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "ADB",
+      "opp": "TTT",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 44155260,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "TTT",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 26499630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SHK",
+      "match": "mnp-16-4-SHK-ADB",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10325570,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "SHK",
+      "match": "mnp-16-4-SHK-ADB",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8011060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SHK",
+      "match": "mnp-16-4-SHK-ADB",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 25600570,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "LAS",
+      "match": "mnp-16-7-ADB-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 175380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "LAS",
+      "match": "mnp-16-7-ADB-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "Stars",
+      "division": 0,
+      "score": 29720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "LAS",
+      "match": "mnp-16-7-ADB-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "Alien",
+      "division": 0,
+      "score": 7322500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "DTP",
+      "match": "mnp-16-8-ADB-DTP",
+      "week": "8",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 137840,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "DTP",
+      "match": "mnp-16-8-ADB-DTP",
+      "week": "8",
+      "round": 3,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 172060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "DTP",
+      "match": "mnp-16-8-ADB-DTP",
+      "week": "8",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 250680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-16-9-NLT-ADB",
+      "week": "9",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 127000280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-16-9-NLT-ADB",
+      "week": "9",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 24650700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-16-9-NLT-ADB",
+      "week": "9",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4367100,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.457",
+      "num_matches": 10,
+      "ppm": "3.750",
+      "points": {
+        "won": 37.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

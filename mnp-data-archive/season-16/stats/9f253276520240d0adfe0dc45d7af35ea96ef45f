@@ -1,0 +1,371 @@
+{
+  "key": "9f253276520240d0adfe0dc45d7af35ea96ef45f",
+  "name": "Robbie Finnigan",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 103703530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 9367410,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 3213440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 120738740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 92785890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 114425180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "ETB",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 180047830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "ETB",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 151776360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "ETB",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 10500470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CRA",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 2,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 34205390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CRA",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 82653270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CRA",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 4,
+      "machine": "FG",
+      "division": 0,
+      "score": 9761780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 477763520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 61057950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 28158910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "ADB",
+      "match": "mnp-16-5-ADB-OLD",
+      "week": "5",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 169204280,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "OLD",
+      "opp": "ADB",
+      "match": "mnp-16-5-ADB-OLD",
+      "week": "5",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 132280680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "ADB",
+      "match": "mnp-16-5-ADB-OLD",
+      "week": "5",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 31778260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 274112020,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 21262630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 172725600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 11433090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 308094180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 375320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 319329700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-16-8-ETB-LAS",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 125808500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-16-8-ETB-LAS",
+      "week": "8",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 43154580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-16-8-ETB-LAS",
+      "week": "8",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 428293770,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.578",
+      "num_matches": 9,
+      "ppm": "4.888",
+      "points": {
+        "won": 44,
+        "of": 76
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

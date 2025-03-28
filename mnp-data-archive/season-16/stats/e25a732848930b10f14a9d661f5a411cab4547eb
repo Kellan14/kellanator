@@ -1,0 +1,359 @@
+{
+  "key": "e25a732848930b10f14a9d661f5a411cab4547eb",
+  "name": "Loren Martin",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 401218890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 1908710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 341853000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "PGN",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 7708690,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "PGN",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1413143440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PGN",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 5621770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 19000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 7696620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 21923500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 2321540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 3,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 52527860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 153320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 51067330,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 24710510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 28195340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 7303230,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 218495600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 137774240,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 13938200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 1566660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 2491490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 64705250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 27936090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 36320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 97655180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 2768280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 5755780,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.340",
+      "num_matches": 9,
+      "ppm": "2.833",
+      "points": {
+        "won": 25.5,
+        "of": 75
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

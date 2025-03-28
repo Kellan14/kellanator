@@ -1,0 +1,179 @@
+{
+  "key": "70416f46a5ced9ea58be7e2d1212c49b4903252f",
+  "name": "Diane Panagiotopoulos",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "DH",
+      "division": 0,
+      "score": 138412990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 271270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 101386590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-16-2-JMF-LAS",
+      "week": "2",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 2943090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-16-2-JMF-LAS",
+      "week": "2",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 885542300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-16-2-JMF-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "Legends of Valhala",
+      "division": 0,
+      "score": 1350190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SSS",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 56220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SSS",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2769845060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SSS",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 344113240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 10511990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 132701230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 1136830,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.215",
+      "num_matches": 4,
+      "ppm": "1.750",
+      "points": {
+        "won": 7,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

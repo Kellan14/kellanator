@@ -1,0 +1,179 @@
+{
+  "key": "515c9fa77861c6f129b1b0f08fba97f4d3da6a15",
+  "name": "Ariel Bedolla",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 395326340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 71980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 4,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 222130,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 11479850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 4355560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16840570,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 103830,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 108120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 486831090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PGN",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 20130970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PGN",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 19200510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PGN",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 19964130,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.292",
+      "num_matches": 4,
+      "ppm": "2.375",
+      "points": {
+        "won": 9.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

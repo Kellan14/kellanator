@@ -1,0 +1,143 @@
+{
+  "key": "67728073802fe73b9750f6416e6a19d09745c824",
+  "name": "Scott Vermeys",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17687460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 312170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 106060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-3-CRA-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 397840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-3-CRA-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 208520,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-3-CRA-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 1192020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBP",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 50859230,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBP",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 176130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBP",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 68293480,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.725",
+      "num_matches": 3,
+      "ppm": "6.166",
+      "points": {
+        "won": 18.5,
+        "of": 25.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

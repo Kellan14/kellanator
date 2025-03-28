@@ -1,0 +1,395 @@
+{
+  "key": "22aca18161115992ebe2c6a87e963c2d947e7ca4",
+  "name": "Zolaire Arcade",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 315283770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 61502520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 5638810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 21899230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 1563530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 840810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 150148060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 3,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 100370,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 137920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 820520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1391290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 7687620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "Banzai Run",
+      "division": 0,
+      "score": 1332870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "Elvis",
+      "division": 0,
+      "score": 8880720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 67871480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 819790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2400000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 23780870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 34746960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 10641780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 42325160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 188594340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 30707890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 328778830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 995914710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 10778050,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 787218950,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 15787220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2214120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 32280,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.218",
+      "num_matches": 10,
+      "ppm": "1.800",
+      "points": {
+        "won": 18,
+        "of": 82.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

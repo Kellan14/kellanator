@@ -1,0 +1,395 @@
+{
+  "key": "2738b5f280961ae82e81d82612bba4ee8516c3a2",
+  "name": "Liberty Ruderman",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 218555220,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 39247240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 43059710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-19-10-CPO-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 16065030,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-19-10-CPO-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 116566450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-19-10-CPO-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 344319920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 42840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 31160980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 173522920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "JMF",
+      "match": "mnp-19-3-JMF-CPO",
+      "week": "3",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 413164190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "JMF",
+      "match": "mnp-19-3-JMF-CPO",
+      "week": "3",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 92555360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "JMF",
+      "match": "mnp-19-3-JMF-CPO",
+      "week": "3",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 74816870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "FBP",
+      "match": "mnp-19-4-CPO-FBP",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 106647990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "FBP",
+      "match": "mnp-19-4-CPO-FBP",
+      "week": "4",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 19313480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "FBP",
+      "match": "mnp-19-4-CPO-FBP",
+      "week": "4",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 3916160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 8732500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 81507530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 53685020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 132508760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 35763800,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 64895320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CDC",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 133562990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CDC",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 46256580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CDC",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 6581410,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1467709230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 11905950,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 2280930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 16000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 231779130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 2878000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.679",
+      "num_matches": 10,
+      "ppm": "5.500",
+      "points": {
+        "won": 55,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

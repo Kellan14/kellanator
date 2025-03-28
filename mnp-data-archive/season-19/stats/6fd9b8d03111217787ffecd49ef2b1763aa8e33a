@@ -1,0 +1,215 @@
+{
+  "key": "6fd9b8d03111217787ffecd49ef2b1763aa8e33a",
+  "name": "Kalli Firestine",
+  "history": [
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-19-10-TBT-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 3842330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-19-10-TBT-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 24939810,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-19-10-TBT-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 2602200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 31274930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 375641900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 4,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 1711,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TBT",
+      "opp": "SSD",
+      "match": "mnp-19-3-SSD-TBT",
+      "week": "3",
+      "round": 1,
+      "machine": "Sorcerer",
+      "division": 0,
+      "score": 703300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SSD",
+      "match": "mnp-19-3-SSD-TBT",
+      "week": "3",
+      "round": 2,
+      "machine": "Sorcerer",
+      "division": 0,
+      "score": 261040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "SSD",
+      "match": "mnp-19-3-SSD-TBT",
+      "week": "3",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 160038130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "NMC",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 589980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "NMC",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 3,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1279500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "NMC",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 5656940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-19-7-CRA-TBT",
+      "week": "7",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 75737850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-19-7-CRA-TBT",
+      "week": "7",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 56692990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "CRA",
+      "match": "mnp-19-7-CRA-TBT",
+      "week": "7",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 592073980,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.426",
+      "num_matches": 5,
+      "ppm": "3.500",
+      "points": {
+        "won": 17.5,
+        "of": 41
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "key": "e22547d18e7ef7afbe1c7b487da8523fa9045406",
+  "name": "Vinnie Brassesco",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 22777970,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 29677180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 3162160,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 48365810,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 27621870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 3832280,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.212",
+      "num_matches": 2,
+      "ppm": "1.750",
+      "points": {
+        "won": 3.5,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

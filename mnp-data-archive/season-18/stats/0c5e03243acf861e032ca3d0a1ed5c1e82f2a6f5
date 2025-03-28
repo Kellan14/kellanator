@@ -1,0 +1,395 @@
+{
+  "key": "0c5e03243acf861e032ca3d0a1ed5c1e82f2a6f5",
+  "name": "Daniel Mays",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 90000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 136848800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 221003210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 46307520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 31464640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 27759040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 2,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 36862390,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 7124370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 123586150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 2,
+      "machine": "Venom",
+      "division": 0,
+      "score": 190000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 3,
+      "machine": "Venom",
+      "division": 0,
+      "score": 47324260,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 56561390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 14639180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 133043890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 132294960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 49000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 146000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 41000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 12010030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 6114760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1616655340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBP",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 100000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBP",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 94915370,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBP",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 23000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 24544760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 23815220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 120209730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PYC",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 139243340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "PYC",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 42526700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PYC",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 90600620,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.539",
+      "num_matches": 10,
+      "ppm": "4.400",
+      "points": {
+        "won": 44,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

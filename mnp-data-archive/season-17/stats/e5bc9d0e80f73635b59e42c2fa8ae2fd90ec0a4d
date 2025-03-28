@@ -1,0 +1,395 @@
+{
+  "key": "e5bc9d0e80f73635b59e42c2fa8ae2fd90ec0a4d",
+  "name": "Andrew Cole WA",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "PYC",
+      "match": "mnp-17-1-PYC-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 76621000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "PYC",
+      "match": "mnp-17-1-PYC-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 53609790,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "PYC",
+      "match": "mnp-17-1-PYC-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 206441880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 45646340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 61960,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 793610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 5781010,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 82378690,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 3262380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-17-3-DTP-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 3899020,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-17-3-DTP-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 45797040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-17-3-DTP-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 247594450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 48531820,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 158097230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 23538020,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 193102260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 2371305650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 51068460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-17-6-SSS-RTR",
+      "week": "6",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 15115920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-17-6-SSS-RTR",
+      "week": "6",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 18124260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-17-6-SSS-RTR",
+      "week": "6",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 143508570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "KNR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 1,
+      "machine": "Whirlwind",
+      "division": 0,
+      "score": 17965580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "KNR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 72481180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "KNR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 4,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 926980,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 237716380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 313908060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 105298390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 10489670,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 87760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 64210,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.414",
+      "num_matches": 10,
+      "ppm": "3.400",
+      "points": {
+        "won": 34,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

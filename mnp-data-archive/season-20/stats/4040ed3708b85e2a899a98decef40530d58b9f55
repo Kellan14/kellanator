@@ -1,0 +1,395 @@
+{
+  "key": "4040ed3708b85e2a899a98decef40530d58b9f55",
+  "name": "Brandon Lorenz",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 39827690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 29936130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 65514190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 35842160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 21476720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 9543950,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 139933490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 180291040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 57319490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 51950000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 15952990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 13727760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 889792070,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 23613530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 36869680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 158380020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5381980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 44158470,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 72250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 23595590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 42777450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 17840260,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 80564870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 47806760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-20-8-CDC-PKT",
+      "week": "8",
+      "round": 2,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 354753870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-20-8-CDC-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 47655520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-20-8-CDC-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1196734870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 9613230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 16082710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 82405010,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.609",
+      "num_matches": 10,
+      "ppm": "5.150",
+      "points": {
+        "won": 51.5,
+        "of": 84.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

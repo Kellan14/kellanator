@@ -1,0 +1,323 @@
+{
+  "key": "f5a30894e7b2486361d8c6a17f7f03b042f11f22",
+  "name": "Masando Jensen",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 4973280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 25566580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 38003560,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 39897750,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 9307470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 26784490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 16281800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 184940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 4,
+      "machine": "SC",
+      "division": 0,
+      "score": 537390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 17527280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 56253830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 43464860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 124350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 15531140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 500000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "Rush",
+      "division": 0,
+      "score": 4551620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 33023750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 88614840,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 5333600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 28686790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 85516630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 4817390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 19449510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 127946010,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.395",
+      "num_matches": 8,
+      "ppm": "3.312",
+      "points": {
+        "won": 26.5,
+        "of": 67
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

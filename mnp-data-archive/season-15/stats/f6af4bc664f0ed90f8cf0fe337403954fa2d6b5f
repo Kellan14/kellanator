@@ -1,0 +1,371 @@
+{
+  "key": "f6af4bc664f0ed90f8cf0fe337403954fa2d6b5f",
+  "name": "Tyler Morgan",
+  "history": [
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 28131120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 2,
+      "machine": "DND",
+      "division": 0,
+      "score": 399840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 199081190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 680490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 695830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 403060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 93045540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 3,
+      "machine": "T3",
+      "division": 0,
+      "score": 12110450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 4,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 47678550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-15-2-LAS-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 194000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-15-2-LAS-BOC",
+      "week": "2",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 214890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-15-2-LAS-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 204560,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 242980,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 751800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 341570,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1282090,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 148990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 4733720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 128920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 422450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 423380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 120310,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 568880,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 384380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 323960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 88520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 61487830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 34178920,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.506",
+      "num_matches": 9,
+      "ppm": "4.277",
+      "points": {
+        "won": 38.5,
+        "of": 76
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

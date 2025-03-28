@@ -1,0 +1,431 @@
+{
+  "key": "a211d7f0f8bfeb1a7c395d79a4fdf387050aa353",
+  "name": "John Davenhall",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-18-1-ADB-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 9146200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-18-1-ADB-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 690000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-18-1-ADB-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 255000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-18-10-FBP-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 27097420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-18-10-FBP-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 189000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-18-10-FBP-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 17471240,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 3999980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 8103060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 4,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 135970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-18-13-SKP-SCN",
+      "week": "13",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 478846520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-18-13-SKP-SCN",
+      "week": "13",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 598000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-18-13-SKP-SCN",
+      "week": "13",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 103000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ETB",
+      "match": "mnp-18-2-SCN-ETB",
+      "week": "2",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 130000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "ETB",
+      "match": "mnp-18-2-SCN-ETB",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 376576490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "ETB",
+      "match": "mnp-18-2-SCN-ETB",
+      "week": "2",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 7500000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-18-3-POW-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 559000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-18-3-POW-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 293000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-18-3-POW-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 10000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 16380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 33000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 177701000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 380000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 199000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 2085750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 97380870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 20424230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-18-6-SCN-KNR",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 48694160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-18-7-SCN-TBT",
+      "week": "7",
+      "round": 2,
+      "machine": "Venom",
+      "division": 0,
+      "score": 14000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-18-7-SCN-TBT",
+      "week": "7",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 48777470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-18-7-SCN-TBT",
+      "week": "7",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 196107210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PYC",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 27000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PYC",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 336000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PYC",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 31000000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.564",
+      "num_matches": 11,
+      "ppm": "4.590",
+      "points": {
+        "won": 50.5,
+        "of": 89.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

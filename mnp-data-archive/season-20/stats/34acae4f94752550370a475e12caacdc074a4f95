@@ -1,0 +1,323 @@
+{
+  "key": "34acae4f94752550370a475e12caacdc074a4f95",
+  "name": "Nate Cantor",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 199003030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 49896110,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 50243180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 47000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 369012900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 54180860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 218950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 23000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 19355250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 49733340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 21238980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1177120800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 16772410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 59697760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 120850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 81645660,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 16826850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 12323640,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 51703210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 593837820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 113090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "NMC",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 30231570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NMC",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 13726820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "NMC",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 108360,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.558",
+      "num_matches": 8,
+      "ppm": "4.500",
+      "points": {
+        "won": 36,
+        "of": 64.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

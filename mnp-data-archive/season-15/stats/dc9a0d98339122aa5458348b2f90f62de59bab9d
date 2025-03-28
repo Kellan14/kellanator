@@ -1,0 +1,215 @@
+{
+  "key": "dc9a0d98339122aa5458348b2f90f62de59bab9d",
+  "name": "Bubbles Shaiman",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-15-1-JMF-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 66260070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-15-1-JMF-KNR",
+      "week": "1",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 12089050,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-15-1-JMF-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 59851400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-15-12-KNR-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 454717560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-15-12-KNR-NLT",
+      "week": "12",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3049580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-15-12-KNR-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 46611950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-15-2-KNR-PKT",
+      "week": "2",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 26220580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-15-2-KNR-PKT",
+      "week": "2",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 40765860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-15-2-KNR-PKT",
+      "week": "2",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 62150320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-15-3-KNR-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1023023460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-15-3-KNR-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 212102210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-15-3-KNR-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 20028170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8182630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10749270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 7354540,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.493",
+      "num_matches": 5,
+      "ppm": "4.000",
+      "points": {
+        "won": 20,
+        "of": 40.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

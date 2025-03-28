@@ -1,0 +1,143 @@
+{
+  "key": "781000842155729dfdae3f951d53dd6e94c97bdd",
+  "name": "David Chernicoff",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 6145800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 189520230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 216317580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 68939560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 151000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 160090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 746308900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 2,
+      "machine": "BOP",
+      "division": 0,
+      "score": 1000000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 306627240,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.627",
+      "num_matches": 3,
+      "ppm": "5.333",
+      "points": {
+        "won": 16,
+        "of": 25.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

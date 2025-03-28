@@ -1,0 +1,359 @@
+{
+  "key": "90239d7e2085a450b8192701705676037e42262b",
+  "name": "Luke Camarda",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "Spring Break",
+      "division": 0,
+      "score": 748760,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 20319630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 307549590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 2,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 22986220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 146820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 4,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 65657320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 602348000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6223420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 23906180,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-18-2-PGN-TWC",
+      "week": "2",
+      "round": 2,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 22570210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-18-2-PGN-TWC",
+      "week": "2",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 231770930,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-18-2-PGN-TWC",
+      "week": "2",
+      "round": 4,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 479255000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 60238620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 241018180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 154000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "Venom Right",
+      "division": 0,
+      "score": 232117820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "James Bond 007",
+      "division": 0,
+      "score": 563000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 156430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 286936460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 156465270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 258330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "Ali",
+      "division": 0,
+      "score": 55040,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 88459980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 76380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-18-9-TWC-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 54524020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-18-9-TWC-SWL",
+      "week": "9",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 187380,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-18-9-TWC-SWL",
+      "week": "9",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 185775650,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.506",
+      "num_matches": 9,
+      "ppm": "4.166",
+      "points": {
+        "won": 37.5,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

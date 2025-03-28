@@ -1,0 +1,179 @@
+{
+  "key": "d35dde89a3e3be135378e6fad33b3cd3746c1861",
+  "name": "Matthew Levi Tate",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "RTR",
+      "match": "mnp-18-1-DIH-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 5719860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RTR",
+      "match": "mnp-18-1-DIH-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 30841890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RTR",
+      "match": "mnp-18-1-DIH-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 19305000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 19302620,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 168590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 22000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 14310,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 23254420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 8436200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-18-9-RMS-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 38280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-18-9-RMS-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 53090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-18-9-RMS-DIH",
+      "week": "9",
+      "round": 4,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 42850,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.469",
+      "num_matches": 4,
+      "ppm": "3.875",
+      "points": {
+        "won": 15.5,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

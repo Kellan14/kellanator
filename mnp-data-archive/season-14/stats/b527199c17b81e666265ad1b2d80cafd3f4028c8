@@ -1,0 +1,299 @@
+{
+  "key": "b527199c17b81e666265ad1b2d80cafd3f4028c8",
+  "name": "Lucas Arias",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 30921940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 52500,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 103720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 110710,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 35357950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 120698550,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6813080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 6289260,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 15421990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 244870,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 3,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 265810,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 770270,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 141320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 11508510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "LZ",
+      "division": 0,
+      "score": 23894500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 102963670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 419700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 132400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 5611790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 3134760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 335330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 3344770,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.491",
+      "num_matches": 7,
+      "ppm": "4.214",
+      "points": {
+        "won": 29.5,
+        "of": 60
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

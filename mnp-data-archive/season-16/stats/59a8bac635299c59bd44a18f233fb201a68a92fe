@@ -1,0 +1,215 @@
+{
+  "key": "59a8bac635299c59bd44a18f233fb201a68a92fe",
+  "name": "Neil Kanungo",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-16-2-CDC-RMS",
+      "week": "2",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 16923630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-16-2-CDC-RMS",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 38653410,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-16-2-CDC-RMS",
+      "week": "2",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17082140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-16-3-CPO-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 6771130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-16-3-CPO-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 64183170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-16-3-CPO-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 5167300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 3798220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 12912890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 3583830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-16-6-NLT-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 2958050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-16-6-NLT-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 42406630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-16-6-NLT-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 5035850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-16-8-CDC-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 131011160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-16-8-CDC-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 65700000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-16-8-CDC-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 34136550,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.243",
+      "num_matches": 5,
+      "ppm": "2.000",
+      "points": {
+        "won": 10,
+        "of": 41
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

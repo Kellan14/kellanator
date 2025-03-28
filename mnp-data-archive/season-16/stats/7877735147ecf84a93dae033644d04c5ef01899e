@@ -1,0 +1,143 @@
+{
+  "key": "7877735147ecf84a93dae033644d04c5ef01899e",
+  "name": "Alex Garcia",
+  "history": [
+    {
+      "team": "ADB",
+      "opp": "SSS",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 123371190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SSS",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 38508680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SSS",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 3493150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "MSF",
+      "division": 0,
+      "score": 371632920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "CSI",
+      "division": 0,
+      "score": 4911040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 133290,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-16-11-ADB-SWL",
+      "week": "11",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 54922190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-16-11-ADB-SWL",
+      "week": "11",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 16112350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-16-11-ADB-SWL",
+      "week": "11",
+      "round": 4,
+      "machine": "RickAndMorty",
+      "division": 0,
+      "score": 4290304,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.313",
+      "num_matches": 3,
+      "ppm": "2.666",
+      "points": {
+        "won": 8,
+        "of": 25.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

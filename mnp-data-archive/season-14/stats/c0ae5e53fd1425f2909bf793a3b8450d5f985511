@@ -1,0 +1,191 @@
+{
+  "key": "c0ae5e53fd1425f2909bf793a3b8450d5f985511",
+  "name": "Travis Maisch",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 390790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 259250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 160230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "TNA",
+      "division": 0,
+      "score": 813131,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 32670190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 94860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 473210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 169490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1378450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 428080,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 743686830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 319422070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 57920,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.585",
+      "num_matches": 4,
+      "ppm": "5.125",
+      "points": {
+        "won": 20.5,
+        "of": 35
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

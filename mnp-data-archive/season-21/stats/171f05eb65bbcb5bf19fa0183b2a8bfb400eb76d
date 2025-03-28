@@ -1,0 +1,107 @@
+{
+  "key": "171f05eb65bbcb5bf19fa0183b2a8bfb400eb76d",
+  "name": "David Tate",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-21-2-PBR-TTT",
+      "week": "2",
+      "round": 1,
+      "machine": "BDK",
+      "division": 0,
+      "score": 46559270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-21-2-PBR-TTT",
+      "week": "2",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1189540700,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-21-2-PBR-TTT",
+      "week": "2",
+      "round": 3,
+      "machine": "BDK",
+      "division": 0,
+      "score": 52356480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PYC",
+      "match": "mnp-21-7-PYC-TTT",
+      "week": "7",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 107122340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PYC",
+      "match": "mnp-21-7-PYC-TTT",
+      "week": "7",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1384791930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PYC",
+      "match": "mnp-21-7-PYC-TTT",
+      "week": "7",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 78915980,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.441",
+      "num_matches": 2,
+      "ppm": "3.750",
+      "points": {
+        "won": 7.5,
+        "of": 17
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

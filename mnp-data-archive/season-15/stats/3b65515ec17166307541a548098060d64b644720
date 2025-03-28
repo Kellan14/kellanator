@@ -1,0 +1,395 @@
+{
+  "key": "3b65515ec17166307541a548098060d64b644720",
+  "name": "Marin Alexander",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 51220,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 110490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 75290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 303401840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 19980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 280489110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 475993220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 381281840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 104870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 64639770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 137000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 393352240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 790598250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 274588190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 142260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 440820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 1114360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 7387290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 493414600,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 25420900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 96400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 32130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 621278180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 105910,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-15-8-HHS-PBR",
+      "week": "8",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 507000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-15-8-HHS-PBR",
+      "week": "8",
+      "round": 2,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 19,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-15-8-HHS-PBR",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 24342500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-15-9-JMF-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 37470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-15-9-JMF-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 310630490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-15-9-JMF-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 41580230,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.327",
+      "num_matches": 10,
+      "ppm": "2.650",
+      "points": {
+        "won": 26.5,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

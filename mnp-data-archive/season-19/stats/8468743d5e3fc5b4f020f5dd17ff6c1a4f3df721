@@ -1,0 +1,323 @@
+{
+  "key": "8468743d5e3fc5b4f020f5dd17ff6c1a4f3df721",
+  "name": "Anthony McCammant",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-19-10-SWL-PGN",
+      "week": "10",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 27015770,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-19-10-SWL-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 70939120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-19-10-SWL-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 32672370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-19-2-KNR-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 142985590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-19-2-KNR-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 349640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "KNR",
+      "match": "mnp-19-2-KNR-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 18363320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 65189530,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 2,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 1748850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 362060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 284070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 11492610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 17168320,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "POW",
+      "match": "mnp-19-6-POW-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 156280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "POW",
+      "match": "mnp-19-6-POW-PGN",
+      "week": "6",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 27823270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "POW",
+      "match": "mnp-19-6-POW-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "Elvis",
+      "division": 0,
+      "score": 25975380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 81930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 2,
+      "machine": "NBA",
+      "division": 0,
+      "score": 2699770,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 100510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-19-8-ADB-PGN",
+      "week": "8",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 19301760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-19-8-ADB-PGN",
+      "week": "8",
+      "round": 2,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 1406570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-19-8-ADB-PGN",
+      "week": "8",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 14561240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PYC",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 268184390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PYC",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 981366220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PYC",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 58456450,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.427",
+      "num_matches": 8,
+      "ppm": "3.500",
+      "points": {
+        "won": 28,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

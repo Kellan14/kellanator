@@ -1,0 +1,359 @@
+{
+  "key": "e489314b77b46f3c8c39600bfad9eb57036bcbe5",
+  "name": "Jeff Gebhardt",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 179200310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 3,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 173191180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 47592450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PGN",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 75000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PGN",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 6800000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PGN",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 5137180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 30174840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 46556820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 73470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 216310910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 13363340,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Avatar",
+      "division": 0,
+      "score": 10282030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "Avatar",
+      "division": 0,
+      "score": 28038220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1565990,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 1,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 4369550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 7930620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "NGG",
+      "division": 0,
+      "score": 5154040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 193000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 393000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 788670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "DH",
+      "division": 0,
+      "score": 316494550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 127000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 41931450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "Pharaoh",
+      "division": 0,
+      "score": 168000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 3,
+      "machine": "Corvette",
+      "division": 0,
+      "score": 611641710,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 4,
+      "machine": "Pharaoh",
+      "division": 0,
+      "score": 130000,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.601",
+      "num_matches": 9,
+      "ppm": "4.944",
+      "points": {
+        "won": 44.5,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

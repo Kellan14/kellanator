@@ -1,0 +1,359 @@
+{
+  "key": "472a650f13264e5d09ebe376d4b38d1df51016bd",
+  "name": "Megan Czahar",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 5892430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 2,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 33935660,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 13022150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 55689540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 23788620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 19907180,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 6625420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 16482600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 25147650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 556410,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 107840750,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 40123740,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 26631040,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 238000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 369000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 13641390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 6657290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 193630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBP",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 141349720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBP",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 108818090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBP",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 800700,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 44776540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 168110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 296510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PYC",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 31418790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "PYC",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 300000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PYC",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 37630460,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.324",
+      "num_matches": 9,
+      "ppm": "2.611",
+      "points": {
+        "won": 23.5,
+        "of": 72.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

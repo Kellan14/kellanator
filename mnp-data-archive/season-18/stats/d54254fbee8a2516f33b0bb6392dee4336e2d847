@@ -1,0 +1,359 @@
+{
+  "key": "d54254fbee8a2516f33b0bb6392dee4336e2d847",
+  "name": "Max Stewart",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-18-1-DSV-SHK",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 6854690,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-18-1-DSV-SHK",
+      "week": "1",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 5025010,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-18-1-DSV-SHK",
+      "week": "1",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 771830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "ETB",
+      "match": "mnp-18-10-DSV-ETB",
+      "week": "10",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 21577360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "ETB",
+      "match": "mnp-18-10-DSV-ETB",
+      "week": "10",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 22829860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "ETB",
+      "match": "mnp-18-10-DSV-ETB",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17813280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 141020640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "Ali",
+      "division": 0,
+      "score": 33050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 61258770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 18923550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9265490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 607880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 3563410,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 28931690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 11291010,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-18-6-PBR-DSV",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 207751780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-18-6-PBR-DSV",
+      "week": "6",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10670260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-18-6-PBR-DSV",
+      "week": "6",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 138345890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 68945020,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 92076660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 43430550,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 227950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 53638590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 78464890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 11897960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 70010,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16995840,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.590",
+      "num_matches": 9,
+      "ppm": "4.722",
+      "points": {
+        "won": 42.5,
+        "of": 72
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

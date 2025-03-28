@@ -1,0 +1,179 @@
+{
+  "key": "690c71953dc1d8a29beca4fc64222ac72e1b2829",
+  "name": "Kay Kay",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 4091250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 11570420,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 3,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 12525170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 1249270,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 457250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 309960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 16923390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 47470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 4,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 5397870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-16-4-RMS-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 13118330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-16-4-RMS-ETB",
+      "week": "4",
+      "round": 3,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 18508360,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-16-4-RMS-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 3859660,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.200",
+      "num_matches": 4,
+      "ppm": "1.625",
+      "points": {
+        "won": 6.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "key": "bd94465931a6297c2334f886a1935af8d5176654",
+  "name": "Ken Disbennett",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 36321110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 40211300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 12353820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 61759160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 14243400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 45606320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSD",
+      "match": "mnp-21-3-SSD-CRA",
+      "week": "3",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 5723670,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSD",
+      "match": "mnp-21-3-SSD-CRA",
+      "week": "3",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 26936020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSD",
+      "match": "mnp-21-3-SSD-CRA",
+      "week": "3",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 7285800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5783510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 2,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 30450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9787470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13470490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 19477120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14829780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 10737690,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10922500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 15970790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1406720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 2,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 124220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 2958820,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.661",
+      "num_matches": 7,
+      "ppm": "5.571",
+      "points": {
+        "won": 39,
+        "of": 59
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "key": "511047d82b94a85a189e1dc9ab59b811bd099cc1",
+  "name": "Ashley Weaver",
+  "history": [
+    {
+      "team": "PKT",
+      "opp": "SKP",
+      "match": "mnp-15-1-PKT-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 386160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "SKP",
+      "match": "mnp-15-1-PKT-SKP",
+      "week": "1",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 545350,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "SKP",
+      "match": "mnp-15-1-PKT-SKP",
+      "week": "1",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1824830,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 77983070,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 90208290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 144638470,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-15-3-BOC-SSS",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 55994720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-15-3-BOC-SSS",
+      "week": "3",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 955170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-15-3-BOC-SSS",
+      "week": "3",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 362328850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CRA",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 12743580,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "KNR",
+      "opp": "CRA",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 47190350,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "CRA",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 127114530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-15-8-ADB-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 29795980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-15-8-ADB-KNR",
+      "week": "8",
+      "round": 2,
+      "machine": "RickAndMorty",
+      "division": 0,
+      "score": 7657102,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-15-8-ADB-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1054487500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-15-8-ADB-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "RickAndMorty",
+      "division": 0,
+      "score": 10596906,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SSS",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 363993360,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "SSS",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 2,
+      "machine": "RickAndMorty",
+      "division": 0,
+      "score": 4167001,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "SSS",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 87274340,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.650",
+      "num_matches": 6,
+      "ppm": "5.583",
+      "points": {
+        "won": 33.5,
+        "of": 51.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

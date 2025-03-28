@@ -1,0 +1,431 @@
+{
+  "key": "d6572d8b87f68b44c364fc7e259b659a8a0d26da",
+  "name": "Mack Rote",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 13702780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 37397290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 14289870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 880722610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 127599410,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-16-10-ADB-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 140560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 246870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 6123010,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 29217830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-16-13-ADB-KNR",
+      "week": "13",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 27612830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-16-13-ADB-KNR",
+      "week": "13",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 748275070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-16-13-ADB-KNR",
+      "week": "13",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 51230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 49384560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 53954380,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 722926590,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "HHS",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 96141448,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "HHS",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 12116790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "HHS",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 19270530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 19524570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 636398070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 15655200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 161934790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1268426830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 280589760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 33103830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 34515660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 360495090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-16-8-CDC-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1532154840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-16-8-CDC-KNR",
+      "week": "8",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 179000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-16-8-CDC-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 388024090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 17151230,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 108130960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SCN",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1905440,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.556",
+      "num_matches": 11,
+      "ppm": "4.500",
+      "points": {
+        "won": 49.5,
+        "of": 89
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

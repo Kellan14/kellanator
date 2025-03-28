@@ -1,0 +1,251 @@
+{
+  "key": "211c9dcd07ee29f2532d6f8647a7a1f8fab867c2",
+  "name": "Rhett Pearson",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 11210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 40610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 1569840,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 25569260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 5424700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 49633340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-15-2-CRA-PBR",
+      "week": "2",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 29069380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-15-2-CRA-PBR",
+      "week": "2",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 629030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-15-2-CRA-PBR",
+      "week": "2",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 384140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 5403790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 2,
+      "machine": "FG",
+      "division": 0,
+      "score": 13710780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1007685490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 38850660,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 107814960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 613697700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-15-7-CRA-SCN",
+      "week": "7",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 98634840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-15-7-CRA-SCN",
+      "week": "7",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 15406610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-15-7-CRA-SCN",
+      "week": "7",
+      "round": 4,
+      "machine": "BlackHole",
+      "division": 0,
+      "score": 58550,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.551",
+      "num_matches": 6,
+      "ppm": "4.500",
+      "points": {
+        "won": 27,
+        "of": 49
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

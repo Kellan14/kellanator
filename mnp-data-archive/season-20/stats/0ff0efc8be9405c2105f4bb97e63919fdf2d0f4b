@@ -1,0 +1,323 @@
+{
+  "key": "0ff0efc8be9405c2105f4bb97e63919fdf2d0f4b",
+  "name": "Jamie Stormbreaker",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-20-1-DSV-DTP",
+      "week": "1",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 239400140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-20-1-DSV-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 46199360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-20-1-DSV-DTP",
+      "week": "1",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 73777990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 54632090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 5201140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 15257680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 9030190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 14597630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 17169180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 46151520,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 5884970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 1605590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 57048000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "JD",
+      "division": 0,
+      "score": 25464700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 484230,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 112416170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 356519760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 4603760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "PYC",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 8441200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PYC",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 7493400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PYC",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 29690350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 22599220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 1183710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 320960410,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.458",
+      "num_matches": 8,
+      "ppm": "3.750",
+      "points": {
+        "won": 30,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

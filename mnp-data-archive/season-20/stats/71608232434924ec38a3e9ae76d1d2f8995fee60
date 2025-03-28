@@ -1,0 +1,359 @@
+{
+  "key": "71608232434924ec38a3e9ae76d1d2f8995fee60",
+  "name": "Greg Levine",
+  "history": [
+    {
+      "team": "ICB",
+      "opp": "SSS",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 55916630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSS",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 47156860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSS",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 105484600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "SCN",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 1,
+      "machine": "VEN",
+      "division": 0,
+      "score": 19188090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "SCN",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 21514830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "SCN",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 1666000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "ICB",
+      "opp": "PGN",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 8392160,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ICB",
+      "opp": "PGN",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 6536740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PGN",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 4709710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSD",
+      "match": "mnp-20-4-ICB-SSD",
+      "week": "4",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 36238200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSD",
+      "match": "mnp-20-4-ICB-SSD",
+      "week": "4",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 17499300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSD",
+      "match": "mnp-20-4-ICB-SSD",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 22407550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 186040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 276684520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 29884040,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1443439480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 37145630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 20791420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PKT",
+      "match": "mnp-20-7-PKT-ICB",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 81078350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "PKT",
+      "match": "mnp-20-7-PKT-ICB",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 34132440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PKT",
+      "match": "mnp-20-7-PKT-ICB",
+      "week": "7",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 120168400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "CRA",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 8116980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CRA",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2372315180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CRA",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 405391510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "RTR",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 212296890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "RTR",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 267750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ICB",
+      "opp": "RTR",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4952940,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.427",
+      "num_matches": 9,
+      "ppm": "3.444",
+      "points": {
+        "won": 31,
+        "of": 72.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

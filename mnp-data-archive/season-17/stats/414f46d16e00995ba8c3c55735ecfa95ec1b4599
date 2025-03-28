@@ -1,0 +1,143 @@
+{
+  "key": "414f46d16e00995ba8c3c55735ecfa95ec1b4599",
+  "name": "Nate Pierce",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "DIH",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 18354140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DIH",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14359880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "DIH",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8627040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 15333860,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 24895270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 19713260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-17-6-PBR-ADB",
+      "week": "6",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 11296590,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-17-6-PBR-ADB",
+      "week": "6",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 28903770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-17-6-PBR-ADB",
+      "week": "6",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 29771000,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.693",
+      "num_matches": 3,
+      "ppm": "5.666",
+      "points": {
+        "won": 17,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

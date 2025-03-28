@@ -1,0 +1,215 @@
+{
+  "key": "b6cbebccd6a78e525db0fa54c7e3273752fb120b",
+  "name": "David Latimer",
+  "history": [
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 150076250,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 19288940,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 20719420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 325480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 3,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 200740,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 4189300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 197240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 3,
+      "machine": "JB60",
+      "division": 0,
+      "score": 1695,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 211551400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 23944290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 3,
+      "machine": "POTC",
+      "division": 0,
+      "score": 30475840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "Shrek",
+      "division": 0,
+      "score": 22260880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 536900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 11512380,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 12104510,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.500",
+      "num_matches": 5,
+      "ppm": "4.000",
+      "points": {
+        "won": 20,
+        "of": 40
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

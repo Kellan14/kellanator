@@ -1,0 +1,215 @@
+{
+  "key": "a069320ebffb4110b220ea1b02b46b876a5d9450",
+  "name": "Chris Noerr",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "NMC",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 1959760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "NMC",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 2,
+      "machine": "JM",
+      "division": 0,
+      "score": 1074857250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "NMC",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 10015520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-17-3-TTT-SSS",
+      "week": "3",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 31471380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-17-3-TTT-SSS",
+      "week": "3",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 39232790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-17-3-TTT-SSS",
+      "week": "3",
+      "round": 3,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 6437350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-17-4-NLT-TTT",
+      "week": "4",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 86171190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-17-4-NLT-TTT",
+      "week": "4",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 19157690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-17-4-NLT-TTT",
+      "week": "4",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 258010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "DH",
+      "division": 0,
+      "score": 120354260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 437017940,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 177562990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 22367030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 7477740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-17-9-KNR-NMC",
+      "week": "9",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 10541490,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.571",
+      "num_matches": 5,
+      "ppm": "4.800",
+      "points": {
+        "won": 24,
+        "of": 42
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

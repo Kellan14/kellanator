@@ -1,0 +1,395 @@
+{
+  "key": "2c3a00aa902587c41e2993b8f44e26d79c48b4d6",
+  "name": "Clare Green",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 7187510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 13485280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 120500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 3351100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 10497880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 38140580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 41025350,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 3,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 928294140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 4,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 212423790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 35144230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 135910,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 331923260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 1,
+      "machine": "T3",
+      "division": 0,
+      "score": 28337360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 6197620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 153111010,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 812869600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 9198470,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 206730,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 213913110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 165866120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 1038380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 116637080,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 3,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 56955450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 1048157360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 29715880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 148155460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 23810020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-15-9-JMF-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 11840660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-15-9-JMF-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 79546440,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-15-9-JMF-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 148508780,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.466",
+      "num_matches": 10,
+      "ppm": "3.850",
+      "points": {
+        "won": 38.5,
+        "of": 82.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

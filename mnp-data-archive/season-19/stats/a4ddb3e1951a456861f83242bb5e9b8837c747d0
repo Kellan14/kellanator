@@ -1,0 +1,407 @@
+{
+  "key": "a4ddb3e1951a456861f83242bb5e9b8837c747d0",
+  "name": "Val Gaifoulline",
+  "history": [
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 1,
+      "machine": "Eight Ball Beyond",
+      "division": 0,
+      "score": 35090000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 275710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 296370,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-19-12-POW-SWL",
+      "week": "12",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 15729020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-19-12-POW-SWL",
+      "week": "12",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 176314560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-19-12-POW-SWL",
+      "week": "12",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 29971490,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "POW",
+      "opp": "RTR",
+      "match": "mnp-19-2-POW-RTR",
+      "week": "2",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 83427810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "RTR",
+      "match": "mnp-19-2-POW-RTR",
+      "week": "2",
+      "round": 3,
+      "machine": "Godfather",
+      "division": 0,
+      "score": 40940709,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "RTR",
+      "match": "mnp-19-2-POW-RTR",
+      "week": "2",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 28626090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "CRA",
+      "match": "mnp-19-3-CRA-POW",
+      "week": "3",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 30967120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "CRA",
+      "match": "mnp-19-3-CRA-POW",
+      "week": "3",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 3044870,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "CRA",
+      "match": "mnp-19-3-CRA-POW",
+      "week": "3",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 66809530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "JMF",
+      "match": "mnp-19-4-POW-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 17028456,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "JMF",
+      "match": "mnp-19-4-POW-JMF",
+      "week": "4",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 57850450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "JMF",
+      "match": "mnp-19-4-POW-JMF",
+      "week": "4",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 36741280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "JMF",
+      "match": "mnp-19-4-POW-JMF",
+      "week": "4",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 87210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 355410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 174600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1877770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "PGN",
+      "match": "mnp-19-6-POW-PGN",
+      "week": "6",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 55647490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "PGN",
+      "match": "mnp-19-6-POW-PGN",
+      "week": "6",
+      "round": 3,
+      "machine": "Rush",
+      "division": 0,
+      "score": 7046740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "PGN",
+      "match": "mnp-19-6-POW-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 483890130,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "POW",
+      "opp": "CFB",
+      "match": "mnp-19-7-CFB-POW",
+      "week": "7",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 140000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "CFB",
+      "match": "mnp-19-7-CFB-POW",
+      "week": "7",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 47189180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "CFB",
+      "match": "mnp-19-7-CFB-POW",
+      "week": "7",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1773560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSD",
+      "match": "mnp-19-8-POW-SSD",
+      "week": "8",
+      "round": 1,
+      "machine": "Godfather",
+      "division": 0,
+      "score": 11765842,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSD",
+      "match": "mnp-19-8-POW-SSD",
+      "week": "8",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 46210820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "SSD",
+      "match": "mnp-19-8-POW-SSD",
+      "week": "8",
+      "round": 4,
+      "machine": "Godfather",
+      "division": 0,
+      "score": 28916535,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2116750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 85004440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2645900,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.505",
+      "num_matches": 10,
+      "ppm": "4.300",
+      "points": {
+        "won": 43,
+        "of": 85
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

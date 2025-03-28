@@ -1,0 +1,359 @@
+{
+  "key": "a18a7693e89324f0320cc4a63b4792e8cdc14909",
+  "name": "Ian Lucas",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 11150590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 17978620,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 53911940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 208460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 110000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 4730220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 23780500,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 18253910,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 5674340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 40621840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 537000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 22170790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 29200,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 34576200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 28837810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 16647590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 15706320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 80145810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 22144410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 35633090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 2424980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 15936040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 3,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 26000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 13992210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 455320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 18001700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 15500,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.156",
+      "num_matches": 9,
+      "ppm": "1.277",
+      "points": {
+        "won": 11.5,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

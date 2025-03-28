@@ -1,0 +1,359 @@
+{
+  "key": "c543633ea63045411ecebe25a7d0e29c58a7b29b",
+  "name": "Emily Beirne",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 79353380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 134940,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2983640,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 8712490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 390580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 23591790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "PKT",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 5782840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PKT",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 85140920,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "PKT",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 35108700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 159490370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 58993780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 95539350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "HHS",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 36957860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "HHS",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 52794340,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "HHS",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 19963140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 953270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 6896100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 6943230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 28254530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 7169670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-16-7-CRA-RTR",
+      "week": "7",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 14789070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 13527820,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 3192400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 53650850,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 16383180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 3,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 77880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 28646340,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.489",
+      "num_matches": 9,
+      "ppm": "3.944",
+      "points": {
+        "won": 35.5,
+        "of": 72.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

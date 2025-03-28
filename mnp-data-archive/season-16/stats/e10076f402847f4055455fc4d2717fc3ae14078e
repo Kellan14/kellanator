@@ -1,0 +1,431 @@
+{
+  "key": "e10076f402847f4055455fc4d2717fc3ae14078e",
+  "name": "Kristin Vick",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-1-DTP-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 5500000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-1-DTP-CRA",
+      "week": "1",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 951642880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-1-DTP-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 12808550,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "SWL",
+      "match": "mnp-16-10-SWL-DTP",
+      "week": "10",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 47792220,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SWL",
+      "match": "mnp-16-10-SWL-DTP",
+      "week": "10",
+      "round": 3,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 6620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SWL",
+      "match": "mnp-16-10-SWL-DTP",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 4999020,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 157064520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 11105830,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-16-11-DTP-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 261086580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 8969960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 14000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 453181040,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "DIH",
+      "match": "mnp-16-2-DIH-DTP",
+      "week": "2",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 22131840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "DIH",
+      "match": "mnp-16-2-DIH-DTP",
+      "week": "2",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 106187210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DIH",
+      "match": "mnp-16-2-DIH-DTP",
+      "week": "2",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 161908960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 97613670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 29950500,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 39104160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 81702050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 18999810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 57454270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 396930850,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 12806780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 502410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-16-7-CDC-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 109640510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-16-7-CDC-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 115412250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-16-7-CDC-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 137722550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-16-8-ADB-DTP",
+      "week": "8",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 73555430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-16-8-ADB-DTP",
+      "week": "8",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 186788950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-16-8-ADB-DTP",
+      "week": "8",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 147207710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-16-9-DTP-SKP",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1200000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-16-9-DTP-SKP",
+      "week": "9",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 780000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-16-9-DTP-SKP",
+      "week": "9",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1740000000,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.639",
+      "num_matches": 11,
+      "ppm": "5.318",
+      "points": {
+        "won": 58.5,
+        "of": 91.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

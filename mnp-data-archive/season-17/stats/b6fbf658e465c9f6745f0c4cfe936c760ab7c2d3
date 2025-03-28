@@ -1,0 +1,215 @@
+{
+  "key": "b6fbf658e465c9f6745f0c4cfe936c760ab7c2d3",
+  "name": "Erik Rikansrud",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 33991860,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 33106530,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 194000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6952538,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 5882740,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 608090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 54877440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 19472860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 3734600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 8387670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 11782830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 56980,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 14879860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 87858760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 211190,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.550",
+      "num_matches": 5,
+      "ppm": "4.400",
+      "points": {
+        "won": 22,
+        "of": 40
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

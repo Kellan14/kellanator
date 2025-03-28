@@ -1,0 +1,395 @@
+{
+  "key": "816420e671276840f9366d3ca3651a6505473efc",
+  "name": "Katie Janis",
+  "history": [
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 1,
+      "machine": "TW",
+      "division": 0,
+      "score": 428350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 2,
+      "machine": "TW",
+      "division": 0,
+      "score": 290880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 4,
+      "machine": "TW",
+      "division": 0,
+      "score": 49760,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 1,
+      "machine": "RR",
+      "division": 0,
+      "score": 71788610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 2,
+      "machine": "Stargate",
+      "division": 0,
+      "score": 332902940,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 18284140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 4,
+      "machine": "Stargate",
+      "division": 0,
+      "score": 177148980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 137800,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 558813130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 69410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "TNA",
+      "division": 0,
+      "score": 96330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 146400,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 85710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 140346540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 1,
+      "machine": "Stargate",
+      "division": 0,
+      "score": 193160930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 2,
+      "machine": "RR",
+      "division": 0,
+      "score": 253741820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 4,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 149650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 161600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 450700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 152188220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 26032910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 2,
+      "machine": "RR",
+      "division": 0,
+      "score": 58348700,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 4,
+      "machine": "Stargate",
+      "division": 0,
+      "score": 111670890,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 1,
+      "machine": "RR",
+      "division": 0,
+      "score": 252540430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 2,
+      "machine": "RR",
+      "division": 0,
+      "score": 221173800,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 3,
+      "machine": "RR",
+      "division": 0,
+      "score": 74788630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10684990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 84600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 188060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 790310,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.549",
+      "num_matches": 9,
+      "ppm": "4.944",
+      "points": {
+        "won": 44.5,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

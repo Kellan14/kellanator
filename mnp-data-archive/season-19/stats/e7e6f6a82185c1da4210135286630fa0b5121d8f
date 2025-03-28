@@ -1,0 +1,359 @@
+{
+  "key": "e7e6f6a82185c1da4210135286630fa0b5121d8f",
+  "name": "Peyton Conrad",
+  "history": [
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 31102870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 15075370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 45857160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 5206410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 3,
+      "machine": "Venom Left",
+      "division": 0,
+      "score": 38895890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 4,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 305990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "FBP",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 5503020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "FBP",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 5162700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "FBP",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 13470910,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBS",
+      "opp": "SHK",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 19582220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBS",
+      "opp": "SHK",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 12551670,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SHK",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 25412020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "ICB",
+      "match": "mnp-19-5-ICB-FBS",
+      "week": "5",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 5728600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "ICB",
+      "match": "mnp-19-5-ICB-FBS",
+      "week": "5",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 28152360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "ICB",
+      "match": "mnp-19-5-ICB-FBS",
+      "week": "5",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 4833880,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 29943320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 62339150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 33059540,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "PKT",
+      "match": "mnp-19-7-PKT-FBS",
+      "week": "7",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 19799890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PKT",
+      "match": "mnp-19-7-PKT-FBS",
+      "week": "7",
+      "round": 3,
+      "machine": "DM",
+      "division": 0,
+      "score": 491796780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PKT",
+      "match": "mnp-19-7-PKT-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 112701690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 74695530,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 17000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 27000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PBR",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 27090190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "PBR",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 2523350,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "PBR",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 269579320,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.439",
+      "num_matches": 9,
+      "ppm": "3.611",
+      "points": {
+        "won": 32.5,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

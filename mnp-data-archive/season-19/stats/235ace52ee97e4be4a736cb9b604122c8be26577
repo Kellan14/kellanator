@@ -1,0 +1,359 @@
+{
+  "key": "235ace52ee97e4be4a736cb9b604122c8be26577",
+  "name": "Josh Neuens",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "SWL",
+      "match": "mnp-19-1-CDC-SWL",
+      "week": "1",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 251393930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SWL",
+      "match": "mnp-19-1-CDC-SWL",
+      "week": "1",
+      "round": 2,
+      "machine": "Banzai Run",
+      "division": 0,
+      "score": 395420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SWL",
+      "match": "mnp-19-1-CDC-SWL",
+      "week": "1",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 316000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 27919850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 54899350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 18000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 25966320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5147510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-19-2-LAS-CDC",
+      "week": "2",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 44454570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 744110,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 75555610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 6000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 61411630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 47733040,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 74035810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 4812810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 63986980,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "FBS",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 19567080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "FBS",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 28202620,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "FBS",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 76419520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1858682370,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 115782730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "CPO",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 83100310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 30696710,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 30534430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 7268600,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.589",
+      "num_matches": 9,
+      "ppm": "4.944",
+      "points": {
+        "won": 44.5,
+        "of": 75.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

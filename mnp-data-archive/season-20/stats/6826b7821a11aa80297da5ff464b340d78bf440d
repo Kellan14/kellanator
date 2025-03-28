@@ -1,0 +1,323 @@
+{
+  "key": "6826b7821a11aa80297da5ff464b340d78bf440d",
+  "name": "Graham Klym",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "ICB",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 38358330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ICB",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 125168730,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ICB",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 1055220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 83568900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10835010,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 3106300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 28994960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 77167760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 12495190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 3519380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 486600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 79054290,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-5-SSS-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 53219140,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-5-SSS-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 1033720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-5-SSS-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 93073850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 1,
+      "machine": "SpaceStation",
+      "division": 0,
+      "score": 431360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 2,
+      "machine": "SpaceStation",
+      "division": 0,
+      "score": 1950360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "F-14",
+      "division": 0,
+      "score": 328160,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 165300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "FHRN",
+      "division": 0,
+      "score": 1260270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 449180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-20-9-TTT-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 33132510,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-20-9-TTT-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 4332000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-20-9-TTT-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 302640,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.558",
+      "num_matches": 8,
+      "ppm": "4.500",
+      "points": {
+        "won": 36,
+        "of": 64.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

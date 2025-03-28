@@ -1,0 +1,323 @@
+{
+  "key": "70948a6ae4833ef52dfe2f282edaf1fe55c843ce",
+  "name": "Dan Baumfeld",
+  "history": [
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 79626220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 3806300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CRA",
+      "match": "mnp-19-2-FBS-CRA",
+      "week": "2",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 123910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "FBP",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 2,
+      "machine": "TBL",
+      "division": 0,
+      "score": 1219910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "FBP",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 4252640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "FBP",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 4,
+      "machine": "TBL",
+      "division": 0,
+      "score": 1344810,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBS",
+      "opp": "SHK",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 1554190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SHK",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 3,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 3193390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SHK",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 4,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 3452860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "ICB",
+      "match": "mnp-19-5-ICB-FBS",
+      "week": "5",
+      "round": 1,
+      "machine": "TBL",
+      "division": 0,
+      "score": 659350,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBS",
+      "opp": "ICB",
+      "match": "mnp-19-5-ICB-FBS",
+      "week": "5",
+      "round": 2,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 2749160,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "ICB",
+      "match": "mnp-19-5-ICB-FBS",
+      "week": "5",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 88217230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 42984670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 16004280,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 6479310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PKT",
+      "match": "mnp-19-7-PKT-FBS",
+      "week": "7",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 2160160,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBS",
+      "opp": "PKT",
+      "match": "mnp-19-7-PKT-FBS",
+      "week": "7",
+      "round": 2,
+      "machine": "TBL",
+      "division": 0,
+      "score": 3544450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "PKT",
+      "match": "mnp-19-7-PKT-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "TBL",
+      "division": 0,
+      "score": 3910710,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "MSF",
+      "division": 0,
+      "score": 188884000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 501300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 14000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PBR",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 1632040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PBR",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 18299240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PBR",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 1588750,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.325",
+      "num_matches": 8,
+      "ppm": "2.625",
+      "points": {
+        "won": 21,
+        "of": 64.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

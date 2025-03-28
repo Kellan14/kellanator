@@ -1,0 +1,383 @@
+{
+  "key": "84c806877749da9b10c0581ec1677ea5809e2e27",
+  "name": "Brian Baskoff",
+  "history": [
+    {
+      "team": "FBS",
+      "opp": "ADB",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 7112930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "ADB",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 2,
+      "machine": "SNS",
+      "division": 0,
+      "score": 129280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "ADB",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 4,
+      "machine": "SNS",
+      "division": 0,
+      "score": 138850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PYC",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 11152530,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBS",
+      "opp": "PYC",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4714430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PYC",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 11420160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 60163490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 2,
+      "machine": "SNS",
+      "division": 0,
+      "score": 101340,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 4,
+      "machine": "DRD",
+      "division": 0,
+      "score": 589970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 3466550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 14196530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 126990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "DSV",
+      "match": "mnp-20-5-DSV-FBS",
+      "week": "5",
+      "round": 1,
+      "machine": "SNS",
+      "division": 0,
+      "score": 30390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBS",
+      "opp": "DSV",
+      "match": "mnp-20-5-DSV-FBS",
+      "week": "5",
+      "round": 3,
+      "machine": "GameShow",
+      "division": 0,
+      "score": 1044030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "DSV",
+      "match": "mnp-20-5-DSV-FBS",
+      "week": "5",
+      "round": 4,
+      "machine": "SNS",
+      "division": 0,
+      "score": 39800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "HHS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 7724240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "HHS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 147150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "HHS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 659140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 1,
+      "machine": "SpaceStation",
+      "division": 0,
+      "score": 582680,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 2,
+      "machine": "SNS",
+      "division": 0,
+      "score": 87550,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 3,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 1537210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "SNS",
+      "division": 0,
+      "score": 64370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "POW",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 4197590,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBS",
+      "opp": "POW",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 2,
+      "machine": "Viking",
+      "division": 0,
+      "score": 231690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "POW",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 3,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 54450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "POW",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 57511160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 2870990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 21752780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 4,
+      "machine": "Shrek",
+      "division": 0,
+      "score": 3043900,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.269",
+      "num_matches": 9,
+      "ppm": "2.333",
+      "points": {
+        "won": 21,
+        "of": 78
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

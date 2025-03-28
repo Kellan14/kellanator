@@ -1,0 +1,395 @@
+{
+  "key": "fff66e5b84897ac29feeea0efaf1752f1ba3cc16",
+  "name": "Jared Bayliss",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "ICB",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 48129420,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "ICB",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 2,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 1207570,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ICB",
+      "match": "mnp-19-1-ICB-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 695670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 2,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 3038650,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 3,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 3409190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 4,
+      "machine": "Junk Yard",
+      "division": 0,
+      "score": 889000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 21645450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 23232510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 74326140,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 2,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 1213330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 5750360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 8696250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 53670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 11651330,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 40485930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 115363250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 5023070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 7000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 12241590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 75952630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 153882080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 1601420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 5795330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 6967,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 122997122,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 51743670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 4,
+      "machine": "POTC",
+      "division": 0,
+      "score": 6991500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 1,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 568570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 3400000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 65613540,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.537",
+      "num_matches": 10,
+      "ppm": "4.350",
+      "points": {
+        "won": 43.5,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

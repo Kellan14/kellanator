@@ -1,0 +1,431 @@
+{
+  "key": "fcd0d4b659a5f162d8d206e33182cc0c3a8d19d9",
+  "name": "Patrick Wees",
+  "history": [
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 128320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 3,
+      "machine": "Party Animals",
+      "division": 0,
+      "score": 476060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 48047420,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 69120000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 790000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 4,
+      "machine": "James Bond '007",
+      "division": 0,
+      "score": 126000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-17-12-KNR-DTP",
+      "week": "12",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 40841690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-17-12-KNR-DTP",
+      "week": "12",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 500000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "KNR",
+      "match": "mnp-17-12-KNR-DTP",
+      "week": "12",
+      "round": 4,
+      "machine": "James Bond '007",
+      "division": 0,
+      "score": 281511620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-17-13-DTP-TWC",
+      "week": "13",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 59696500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-17-13-DTP-TWC",
+      "week": "13",
+      "round": 3,
+      "machine": "CV",
+      "division": 0,
+      "score": 46353830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-17-13-DTP-TWC",
+      "week": "13",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 107411400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 5450150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 14717620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 168000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 1093830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "Stars",
+      "division": 0,
+      "score": 145490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 46954650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-17-4-SSS-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 411900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-17-4-SSS-DTP",
+      "week": "4",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 166540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-17-4-SSS-DTP",
+      "week": "4",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 13048700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12037390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 22794350,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 25096380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-17-6-NLT-DTP",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 68334940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-17-6-NLT-DTP",
+      "week": "6",
+      "round": 2,
+      "machine": "NGG",
+      "division": 0,
+      "score": 1492290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-17-6-NLT-DTP",
+      "week": "6",
+      "round": 4,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 194600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 453940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 3,
+      "machine": "MSF",
+      "division": 0,
+      "score": 649907020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 3884900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "JMF",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 44720580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "JMF",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 170299590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "JMF",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 3,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 47463690,
+      "points": 2,
+      "pops": "0.666"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.688",
+      "num_matches": 11,
+      "ppm": "5.636",
+      "points": {
+        "won": 62,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

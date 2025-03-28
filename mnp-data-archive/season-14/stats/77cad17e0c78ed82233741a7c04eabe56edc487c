@@ -1,0 +1,395 @@
+{
+  "key": "77cad17e0c78ed82233741a7c04eabe56edc487c",
+  "name": "Jay Sweeney",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 73291230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 42678810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 106765300,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 57941290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 100523100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 1590910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-14-11-DIH-PKT",
+      "week": "11",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 9612370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-14-11-DIH-PKT",
+      "week": "11",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 400000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-14-11-DIH-PKT",
+      "week": "11",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 274185960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LLK",
+      "match": "mnp-14-2-DIH-LLK",
+      "week": "2",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 441346390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "LLK",
+      "match": "mnp-14-2-DIH-LLK",
+      "week": "2",
+      "round": 3,
+      "machine": "TNA",
+      "division": 0,
+      "score": 427361,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LLK",
+      "match": "mnp-14-2-DIH-LLK",
+      "week": "2",
+      "round": 4,
+      "machine": "FT",
+      "division": 0,
+      "score": 22234720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 121012910,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 676090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 32165900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 74938290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 120965730,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 115525140,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 32771930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 75977590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 61611780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 26849500,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 43307540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 2946890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "OLD",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 88999700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "OLD",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 62686030,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "OLD",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 46380,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 83808560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 217526080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 961231200,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.503",
+      "num_matches": 10,
+      "ppm": "4.100",
+      "points": {
+        "won": 41,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

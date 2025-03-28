@@ -1,0 +1,395 @@
+{
+  "key": "d1051ddd2d52e1badb2aa5370442832134b5fa8e",
+  "name": "Guadalupe Bryan",
+  "history": [
+    {
+      "team": "PKT",
+      "opp": "SKP",
+      "match": "mnp-17-1-SKP-PKT",
+      "week": "1",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 16297000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "SKP",
+      "match": "mnp-17-1-SKP-PKT",
+      "week": "1",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 59564560,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "SKP",
+      "match": "mnp-17-1-SKP-PKT",
+      "week": "1",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 63480250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "SWL",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 3458580,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "SWL",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 34744450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "SWL",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 56280150,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-17-12-PKT-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 858570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-17-12-PKT-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 64060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-17-12-PKT-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1362630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 21307910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 3,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 10203670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 21062830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 8557090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 282503520,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 31788110,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "SCN",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 208040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "SCN",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 3,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 115980,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "SCN",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 5571410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "CRA",
+      "match": "mnp-17-5-CRA-PKT",
+      "week": "5",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 46469100,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "CRA",
+      "match": "mnp-17-5-CRA-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 224078670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "CRA",
+      "match": "mnp-17-5-CRA-PKT",
+      "week": "5",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 19876290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 245850190,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 23318890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 635520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-17-8-DTP-DSV",
+      "week": "8",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 4527100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-17-8-DTP-DSV",
+      "week": "8",
+      "round": 3,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 896080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-17-8-DTP-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 63810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SHK",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 368137630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SHK",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 54763540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SHK",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 10367760,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.450",
+      "num_matches": 10,
+      "ppm": "3.600",
+      "points": {
+        "won": 36,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

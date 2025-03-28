@@ -1,0 +1,359 @@
+{
+  "key": "02c2161223260dbf248049576786a5fe6592ed36",
+  "name": "Zoe Ackerman",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9758750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 2750420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "KNR",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 194746400,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 943553910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 126700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-16-2-CFB-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "Demolition man",
+      "division": 0,
+      "score": 504268510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 255378960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 3435210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DSV",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 6552260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 397086400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2041451950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 570586290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 13740210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2499057337,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 13124360,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 2,
+      "machine": "Alien",
+      "division": 0,
+      "score": 7148760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 3,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 53000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SSS",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 518346000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 257770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 93200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "BOC",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 14276340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 5020380,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 4338910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-16-8-CFB-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 15833790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2054014330,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 640257560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RMS",
+      "match": "mnp-16-9-RMS-CFB",
+      "week": "9",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 8379590,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.540",
+      "num_matches": 9,
+      "ppm": "4.444",
+      "points": {
+        "won": 40,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

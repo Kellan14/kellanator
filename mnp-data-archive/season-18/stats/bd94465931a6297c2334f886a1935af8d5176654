@@ -1,0 +1,431 @@
+{
+  "key": "bd94465931a6297c2334f886a1935af8d5176654",
+  "name": "Ken Disbennett",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-18-1-SWL-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 334544260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-18-1-SWL-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 9261760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-18-1-SWL-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 5696900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2631080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 1085240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 5711100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 8000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 42197780,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 169885900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 18568840,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 641049370,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 569250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-18-3-SKP-CRA",
+      "week": "3",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 8911140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-18-3-SKP-CRA",
+      "week": "3",
+      "round": 2,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 94986430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-18-3-SKP-CRA",
+      "week": "3",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 1731710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-18-4-CRA-RMS",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1663006060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-18-4-CRA-RMS",
+      "week": "4",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 6909620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-18-4-CRA-RMS",
+      "week": "4",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 2363270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 645230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 996968190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 452886570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-18-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 12793800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-18-6-CRA-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 57873270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-18-6-CRA-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 51000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 12600950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 452560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 10969800,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-18-8-DIH-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 3721840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-18-8-DIH-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 542967920,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-18-8-DIH-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 62830830,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 1,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 892720,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 2,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 442728140,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 3,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 167778180,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.413",
+      "num_matches": 11,
+      "ppm": "3.454",
+      "points": {
+        "won": 38,
+        "of": 92
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

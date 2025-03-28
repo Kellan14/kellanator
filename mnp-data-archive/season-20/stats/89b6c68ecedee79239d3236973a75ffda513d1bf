@@ -1,0 +1,323 @@
+{
+  "key": "89b6c68ecedee79239d3236973a75ffda513d1bf",
+  "name": "Vic Pitre",
+  "history": [
+    {
+      "team": "FBP",
+      "opp": "CFB",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 26627120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "CFB",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 99717000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "CFB",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 41423110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "NLT",
+      "match": "mnp-20-10-NLT-FBP",
+      "week": "10",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 22234490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "NLT",
+      "match": "mnp-20-10-NLT-FBP",
+      "week": "10",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 70198280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "NLT",
+      "match": "mnp-20-10-NLT-FBP",
+      "week": "10",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 382780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSD",
+      "match": "mnp-20-2-FBP-SSD",
+      "week": "2",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 112470980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSD",
+      "match": "mnp-20-2-FBP-SSD",
+      "week": "2",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 9634180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSD",
+      "match": "mnp-20-2-FBP-SSD",
+      "week": "2",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 128925870,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-20-3-NMC-FBP",
+      "week": "3",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 48111420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-20-3-NMC-FBP",
+      "week": "3",
+      "round": 3,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 47460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-20-3-NMC-FBP",
+      "week": "3",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 115400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "TTT",
+      "match": "mnp-20-4-FBP-TTT",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 341452430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "TTT",
+      "match": "mnp-20-4-FBP-TTT",
+      "week": "4",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 19541500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "TTT",
+      "match": "mnp-20-4-FBP-TTT",
+      "week": "4",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 118602910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "PKT",
+      "match": "mnp-20-5-PKT-FBP",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7114100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "PKT",
+      "match": "mnp-20-5-PKT-FBP",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 9772860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "PKT",
+      "match": "mnp-20-5-PKT-FBP",
+      "week": "5",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 85338370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSS",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 2737400,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSS",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 40000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSS",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 130000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "PBR",
+      "match": "mnp-20-9-FBP-PBR",
+      "week": "9",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 124466590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "PBR",
+      "match": "mnp-20-9-FBP-PBR",
+      "week": "9",
+      "round": 3,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 269290,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "PBR",
+      "match": "mnp-20-9-FBP-PBR",
+      "week": "9",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 242502910,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.607",
+      "num_matches": 8,
+      "ppm": "4.937",
+      "points": {
+        "won": 39.5,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

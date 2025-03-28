@@ -1,0 +1,143 @@
+{
+  "key": "b3189ccd7ba56a765cba178210533e87d28b6867",
+  "name": "Casey Benton",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 65881790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 750380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 296850,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 22344400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 15283140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 25000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 552908690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 5045050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 8323110,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.620",
+      "num_matches": 3,
+      "ppm": "5.166",
+      "points": {
+        "won": 15.5,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

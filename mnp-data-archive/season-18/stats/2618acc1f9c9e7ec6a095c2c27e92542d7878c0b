@@ -1,0 +1,107 @@
+{
+  "key": "2618acc1f9c9e7ec6a095c2c27e92542d7878c0b",
+  "name": "Marc Grenley",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 82520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 1063500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 56870,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-18-5-RMS-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 1500420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-18-5-RMS-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 2552020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-18-5-RMS-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 37460,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.060",
+      "num_matches": 2,
+      "ppm": "0.500",
+      "points": {
+        "won": 1,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

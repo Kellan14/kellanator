@@ -1,0 +1,143 @@
+{
+  "key": "b0c5a598e461ce75b895ec675a8d64d7583b01a1",
+  "name": "Corbin Sheffels",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 209279180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 528132490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 4878410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 207090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 96580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 50376610,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 7967700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 61780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 4,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 123960,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.387",
+      "num_matches": 3,
+      "ppm": "3.166",
+      "points": {
+        "won": 9.5,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

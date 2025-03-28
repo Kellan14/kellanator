@@ -1,0 +1,179 @@
+{
+  "key": "7e961570938d799beeca978156d907a163e52cec",
+  "name": "Jenn Delaney",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 123968190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 80582840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 285260210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 54898130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 83770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 144160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 150990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 78950,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 155940,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 26033410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 65650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 61785280,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.257",
+      "num_matches": 4,
+      "ppm": "2.125",
+      "points": {
+        "won": 8.5,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

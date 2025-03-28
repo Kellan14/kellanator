@@ -1,0 +1,179 @@
+{
+  "key": "b4cac9d1c6ef0fae9775810a3ba1f59c388bd18c",
+  "name": "Mika Rollin",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 2,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 2327100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 3,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 28600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 4,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 41980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 141000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 11000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 57000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-17-2-SSS-PYC",
+      "week": "2",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 15905750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-17-2-SSS-PYC",
+      "week": "2",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 350255020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-17-2-SSS-PYC",
+      "week": "2",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 25891210,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "ADB",
+      "match": "mnp-17-5-ADB-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 13595990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "ADB",
+      "match": "mnp-17-5-ADB-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 1869120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "ADB",
+      "match": "mnp-17-5-ADB-SKP",
+      "week": "5",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 304754120,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.432",
+      "num_matches": 4,
+      "ppm": "3.625",
+      "points": {
+        "won": 14.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "key": "4040ed3708b85e2a899a98decef40530d58b9f55",
+  "name": "Brandon Lorenz",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-21-1-CDC-KNR",
+      "week": "1",
+      "round": 2,
+      "machine": "Ali",
+      "division": 0,
+      "score": 278470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-21-1-CDC-KNR",
+      "week": "1",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 221988950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-21-1-CDC-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 397000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 32587060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 19647480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 14588200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "ICB",
+      "match": "mnp-21-3-CDC-ICB",
+      "week": "3",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 156149040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ICB",
+      "match": "mnp-21-3-CDC-ICB",
+      "week": "3",
+      "round": 3,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 8979650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ICB",
+      "match": "mnp-21-3-CDC-ICB",
+      "week": "3",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 15413430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-21-6-PYC-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 156378400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-21-6-PYC-CDC",
+      "week": "6",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17574050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-21-6-PYC-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 41858640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-21-7-RMS-CDC",
+      "week": "7",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 39822480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-21-7-RMS-CDC",
+      "week": "7",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 9748450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-21-7-RMS-CDC",
+      "week": "7",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 22427450,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.750",
+      "num_matches": 5,
+      "ppm": "6.300",
+      "points": {
+        "won": 31.5,
+        "of": 42
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

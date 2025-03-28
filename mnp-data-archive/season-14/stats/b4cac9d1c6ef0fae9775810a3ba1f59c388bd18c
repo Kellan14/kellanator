@@ -1,0 +1,179 @@
+{
+  "key": "b4cac9d1c6ef0fae9775810a3ba1f59c388bd18c",
+  "name": "Mika Rollin",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 4665860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3689370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 27936090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-14-3-DSV-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 45415100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-14-3-DSV-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1607810,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-14-3-DSV-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 9990940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 39132190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 748860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 5251880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 74556180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 3283185400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 7500050,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.681",
+      "num_matches": 4,
+      "ppm": "5.625",
+      "points": {
+        "won": 22.5,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

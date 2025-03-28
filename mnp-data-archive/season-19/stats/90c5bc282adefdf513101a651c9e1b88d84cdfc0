@@ -1,0 +1,431 @@
+{
+  "key": "90c5bc282adefdf513101a651c9e1b88d84cdfc0",
+  "name": "Matt Slater",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-19-1-SSS-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 61030,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-19-1-SSS-KNR",
+      "week": "1",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 19686130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-19-1-SSS-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 7438400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 15744640,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 69000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 101706390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 46689040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 210569670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 3911640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "JD",
+      "division": 0,
+      "score": 21974000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 856393710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 296540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 16635410,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 55118690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 4088380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 40080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 804670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 90924500,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 1,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 172000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 8253260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 755067730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 793462220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 77560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 147330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-19-7-SSS-ADB",
+      "week": "7",
+      "round": 2,
+      "machine": "LZ",
+      "division": 0,
+      "score": 20252350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-19-7-SSS-ADB",
+      "week": "7",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 47135310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-19-7-SSS-ADB",
+      "week": "7",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 58724470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 60249620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 502000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1734580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "TBT",
+      "match": "mnp-19-9-SSS-TBT",
+      "week": "9",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 22882800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "TBT",
+      "match": "mnp-19-9-SSS-TBT",
+      "week": "9",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 28752570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TBT",
+      "match": "mnp-19-9-SSS-TBT",
+      "week": "9",
+      "round": 4,
+      "machine": "Theater of magic",
+      "division": 0,
+      "score": 79200120,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.333",
+      "num_matches": 11,
+      "ppm": "2.727",
+      "points": {
+        "won": 30,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

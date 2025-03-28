@@ -1,0 +1,431 @@
+{
+  "key": "3f1d455e7fd930d2509ad908e2231f4f2ace791e",
+  "name": "Dwayne Collins",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3922970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 3,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 77860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 11528830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 19470710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 19012120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 483530,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 2,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 283700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 16718000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 4,
+      "machine": "DND",
+      "division": 0,
+      "score": 154210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 107591870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 14817510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 13881800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 82420760,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 217739570,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 47242120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 25219280,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 4574540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 11374990,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-15-5-TTT-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 160514140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-15-5-TTT-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 48558740,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-15-5-TTT-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 288200980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 8417660,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 181060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 199970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 26144040,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 44948720,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 16095900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 308380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 64050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 25488600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 708050,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 84200,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 21617140,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.475",
+      "num_matches": 11,
+      "ppm": "3.954",
+      "points": {
+        "won": 43.5,
+        "of": 91.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

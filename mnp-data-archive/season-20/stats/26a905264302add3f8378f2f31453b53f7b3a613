@@ -1,0 +1,143 @@
+{
+  "key": "26a905264302add3f8378f2f31453b53f7b3a613",
+  "name": "Michelle LaGRone",
+  "history": [
+    {
+      "team": "ICB",
+      "opp": "CFB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5237790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ICB",
+      "opp": "CFB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 2349870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CFB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 8384060,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 12693190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 9408340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 34932230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 9558960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 3,
+      "machine": "BDK",
+      "division": 0,
+      "score": 9000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 12659330,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.387",
+      "num_matches": 3,
+      "ppm": "3.166",
+      "points": {
+        "won": 9.5,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "key": "3d0e1049aea422f8f1dfb739e5ca97df3bd7da8a",
+  "name": "Ryan Tupper",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 1,
+      "machine": "Avengers",
+      "division": 0,
+      "score": 6124290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 2,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 96000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 4,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 22856150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-17-10-TTT-PGN",
+      "week": "10",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 40981800,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-17-10-TTT-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "The Godfather",
+      "division": 0,
+      "score": 11254523,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-17-10-TTT-PGN",
+      "week": "10",
+      "round": 4,
+      "machine": "RickAndMorty",
+      "division": 0,
+      "score": 1905505,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-17-11-PGN-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 348778640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-17-11-PGN-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 26061230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-17-11-PGN-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 153220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-17-12-ADB-PGN",
+      "week": "12",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 9760050,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-17-12-ADB-PGN",
+      "week": "12",
+      "round": 2,
+      "machine": "The Godfather",
+      "division": 0,
+      "score": 4267143,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-17-12-ADB-PGN",
+      "week": "12",
+      "round": 4,
+      "machine": "RickAndMorty",
+      "division": 0,
+      "score": 7936103,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SHK",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 1280490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SHK",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 1193973240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SHK",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 7785850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 496311470,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10423740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 317529500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 55832570,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 34376360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 751125010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 2,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 202616140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 74593850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 4,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 121461480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-17-6-NMC-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 31255810,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-17-6-NMC-PGN",
+      "week": "6",
+      "round": 2,
+      "machine": "Legends of Valhalla",
+      "division": 0,
+      "score": 3671570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-17-6-NMC-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 41019450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-17-7-PGN-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 41863870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-17-7-PGN-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 152330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-17-7-PGN-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 76920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "DH",
+      "division": 0,
+      "score": 373626420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 204185470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 20288270,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.494",
+      "num_matches": 11,
+      "ppm": "4.000",
+      "points": {
+        "won": 44,
+        "of": 89
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

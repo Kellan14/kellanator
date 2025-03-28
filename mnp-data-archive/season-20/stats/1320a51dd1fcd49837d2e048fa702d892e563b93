@@ -1,0 +1,431 @@
+{
+  "key": "1320a51dd1fcd49837d2e048fa702d892e563b93",
+  "name": "Max Davidoff",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-20-1-NMC-NLT",
+      "week": "1",
+      "round": 1,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 44182860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-20-1-NMC-NLT",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 151579400,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-20-1-NMC-NLT",
+      "week": "1",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 66041000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 200368910,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 138000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 920178100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 7717140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 45000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 148000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 147630480,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 196144050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 138959090,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "FBP",
+      "match": "mnp-20-3-NMC-FBP",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 20521150,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "FBP",
+      "match": "mnp-20-3-NMC-FBP",
+      "week": "3",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 314930660,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "FBP",
+      "match": "mnp-20-3-NMC-FBP",
+      "week": "3",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 69690060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-20-4-SHK-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 15401570,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-20-4-SHK-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 338975650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-20-4-SHK-NMC",
+      "week": "4",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 124488240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 25682720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 3,
+      "machine": "EJ",
+      "division": 0,
+      "score": 19550690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 11094400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CDC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 96972000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CDC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 147197130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CDC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 336747340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-7-NMC-RTR",
+      "week": "7",
+      "round": 2,
+      "machine": "EJ",
+      "division": 0,
+      "score": 47255180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-7-NMC-RTR",
+      "week": "7",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 175579370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-7-NMC-RTR",
+      "week": "7",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 101000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 58272220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 131396930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 15631160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 191104440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 106850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 110192370,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.652",
+      "num_matches": 11,
+      "ppm": "5.454",
+      "points": {
+        "won": 60,
+        "of": 92
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "key": "19ed6b9a9f7e577cdcc6745725554d92bad1693a",
+  "name": "Lars Rehe",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-20-1-PKT-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 31398520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-20-1-PKT-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 134980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-20-1-PKT-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 5000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 1,
+      "machine": "VEN",
+      "division": 0,
+      "score": 186468880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 3,
+      "machine": "VEN",
+      "division": 0,
+      "score": 264906890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 21000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-20-11-SCN-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "Ali",
+      "division": 0,
+      "score": 233150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-20-11-SCN-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 57610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-20-11-SCN-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 77740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 1,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 194220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 248530,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 4,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 201510,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 14573430,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 169000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 8740000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 99970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 67140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 498110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 1,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 177350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 52250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 4,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 197930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSD",
+      "match": "mnp-20-7-SSD-SCN",
+      "week": "7",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 68660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSD",
+      "match": "mnp-20-7-SSD-SCN",
+      "week": "7",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 472239110,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSD",
+      "match": "mnp-20-7-SSD-SCN",
+      "week": "7",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 176820,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "NMC",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 71530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NMC",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 3,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 26550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NMC",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 384450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 235570,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 154300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 6038420,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.506",
+      "num_matches": 10,
+      "ppm": "4.150",
+      "points": {
+        "won": 41.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

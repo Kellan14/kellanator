@@ -1,0 +1,143 @@
+{
+  "key": "ffe7056bc9ff9ee6ddd45f62d2789b1cfd381fd6",
+  "name": "Nathan Martin",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 54048000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 75372430,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 20239170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 276371900,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 122511200,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 199303080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 69240540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 91563900,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 8016380,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.480",
+      "num_matches": 3,
+      "ppm": "4.000",
+      "points": {
+        "won": 12,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

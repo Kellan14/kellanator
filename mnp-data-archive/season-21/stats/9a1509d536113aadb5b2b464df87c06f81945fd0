@@ -1,0 +1,287 @@
+{
+  "key": "9a1509d536113aadb5b2b464df87c06f81945fd0",
+  "name": "Chase Martin",
+  "history": [
+    {
+      "team": "POW",
+      "opp": "SCN",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 132660840,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "SCN",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 65233060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "SCN",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 29683240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "ETB",
+      "match": "mnp-21-2-ETB-POW",
+      "week": "2",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 404339330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "ETB",
+      "match": "mnp-21-2-ETB-POW",
+      "week": "2",
+      "round": 2,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 105500,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "ETB",
+      "match": "mnp-21-2-ETB-POW",
+      "week": "2",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 29326790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "TBT",
+      "match": "mnp-21-3-POW-TBT",
+      "week": "3",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 210346170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "TBT",
+      "match": "mnp-21-3-POW-TBT",
+      "week": "3",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 150487770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "TBT",
+      "match": "mnp-21-3-POW-TBT",
+      "week": "3",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 374200080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 8152290,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 2,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 227180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 24728800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-21-5-POW-NMC",
+      "week": "5",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 28187,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-21-5-POW-NMC",
+      "week": "5",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 428690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-21-5-POW-NMC",
+      "week": "5",
+      "round": 4,
+      "machine": "BigGuns",
+      "division": 0,
+      "score": 512140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 1,
+      "machine": "JB60",
+      "division": 0,
+      "score": 6626,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 3,
+      "machine": "JD",
+      "division": 0,
+      "score": 203678290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 633031890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-21-7-SSS-POW",
+      "week": "7",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 146720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-21-7-SSS-POW",
+      "week": "7",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 62705840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-21-7-SSS-POW",
+      "week": "7",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 394749440,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.530",
+      "num_matches": 7,
+      "ppm": "4.357",
+      "points": {
+        "won": 30.5,
+        "of": 57.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

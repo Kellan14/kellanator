@@ -1,0 +1,431 @@
+{
+  "key": "f6af4bc664f0ed90f8cf0fe337403954fa2d6b5f",
+  "name": "Tyler Morgan",
+  "history": [
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-17-1-BOC-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 45456070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-17-1-BOC-KNR",
+      "week": "1",
+      "round": 2,
+      "machine": "BK2K",
+      "division": 0,
+      "score": 259810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "KNR",
+      "match": "mnp-17-1-BOC-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "BK2K",
+      "division": 0,
+      "score": 1132190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6756180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 21330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "24",
+      "division": 0,
+      "score": 2480770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 78365900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 3421420,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "24",
+      "division": 0,
+      "score": 25406060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "24",
+      "division": 0,
+      "score": 2947470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 308050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 99519930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1423797950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SHK",
+      "match": "mnp-17-4-SHK-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 46762420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "SHK",
+      "match": "mnp-17-4-SHK-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 115467540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "SHK",
+      "match": "mnp-17-4-SHK-BOC",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 262629770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 14224910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 23453120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 895590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-17-6-BOC-TTT",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14011560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-17-6-BOC-TTT",
+      "week": "6",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 924518700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-17-6-BOC-TTT",
+      "week": "6",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 54093540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-17-6-BOC-TTT",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 158927230,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "NMC",
+      "match": "mnp-17-7-BOC-NMC",
+      "week": "7",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 47810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NMC",
+      "match": "mnp-17-7-BOC-NMC",
+      "week": "7",
+      "round": 2,
+      "machine": "Time Machine",
+      "division": 0,
+      "score": 3008590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NMC",
+      "match": "mnp-17-7-BOC-NMC",
+      "week": "7",
+      "round": 4,
+      "machine": "Time Machine",
+      "division": 0,
+      "score": 408330,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-17-8-LAS-BOC",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 27462350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-17-8-LAS-BOC",
+      "week": "8",
+      "round": 3,
+      "machine": "24",
+      "division": 0,
+      "score": 11245150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-17-8-LAS-BOC",
+      "week": "8",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 48664520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-17-9-BOC-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 147164150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-17-9-BOC-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 42253670,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-17-9-BOC-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 70000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-17-9-BOC-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 45030,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.488",
+      "num_matches": 10,
+      "ppm": "4.350",
+      "points": {
+        "won": 43.5,
+        "of": 89
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

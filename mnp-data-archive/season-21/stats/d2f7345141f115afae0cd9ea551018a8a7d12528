@@ -1,0 +1,107 @@
+{
+  "key": "d2f7345141f115afae0cd9ea551018a8a7d12528",
+  "name": "Kiko Correa",
+  "history": [
+    {
+      "team": "ADB",
+      "opp": "JMF",
+      "match": "mnp-21-1-ADB-JMF",
+      "week": "1",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 566480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "JMF",
+      "match": "mnp-21-1-ADB-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 17146340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "JMF",
+      "match": "mnp-21-1-ADB-JMF",
+      "week": "1",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 537190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PYC",
+      "match": "mnp-21-5-ADB-PYC",
+      "week": "5",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 465137660,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PYC",
+      "match": "mnp-21-5-ADB-PYC",
+      "week": "5",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 2018439320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PYC",
+      "match": "mnp-21-5-ADB-PYC",
+      "week": "5",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 330483110,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.617",
+      "num_matches": 2,
+      "ppm": "5.250",
+      "points": {
+        "won": 10.5,
+        "of": 17
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

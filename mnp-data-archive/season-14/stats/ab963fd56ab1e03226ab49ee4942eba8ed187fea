@@ -1,0 +1,323 @@
+{
+  "key": "ab963fd56ab1e03226ab49ee4942eba8ed187fea",
+  "name": "Katja Rodgers",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "BOC",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 118510,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "BOC",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 7768880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BOC",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4962220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 443060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 583900,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 346000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 105550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 36290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 7319550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 2311080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 84550,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 32047190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 169500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 75250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 162360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-14-7-CRA-NLT",
+      "week": "7",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 384590,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-14-7-CRA-NLT",
+      "week": "7",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 121650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-14-7-CRA-NLT",
+      "week": "7",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 3763030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 282630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 142600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 13157960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-14-9-CRA-SHK",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 31102800,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-14-9-CRA-SHK",
+      "week": "9",
+      "round": 3,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 681683100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-14-9-CRA-SHK",
+      "week": "9",
+      "round": 4,
+      "machine": "GameShow",
+      "division": 0,
+      "score": 7901150,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.333",
+      "num_matches": 8,
+      "ppm": "2.687",
+      "points": {
+        "won": 21.5,
+        "of": 64.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

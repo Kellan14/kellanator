@@ -1,0 +1,119 @@
+{
+  "key": "51e93725e12a89dbbd364b781d9fa9b6cb56fe1d",
+  "name": "Benjamin Lutz",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "CRA",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 8299080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CRA",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 57474520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CRA",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 15226320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-15-6-TWC-KNR",
+      "week": "6",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 13203480,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-15-6-TWC-KNR",
+      "week": "6",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 35386270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-15-6-TWC-KNR",
+      "week": "6",
+      "round": 3,
+      "machine": "Flintstones",
+      "division": 0,
+      "score": 324827230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-15-6-TWC-KNR",
+      "week": "6",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 8615900,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.538",
+      "num_matches": 2,
+      "ppm": "5.250",
+      "points": {
+        "won": 10.5,
+        "of": 19.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "key": "8f58842092bad71691ff9fe9f18cae273598098c",
+  "name": "Nic Crowson",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 50549920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 569000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 840320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 500000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 356693000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 2237550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 443000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 189000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 67392790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 61030020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 2,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 82638140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 12519570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 468000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 135000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 104230,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 1429390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 167000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 679000,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 9169000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 8739000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 24597440,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.596",
+      "num_matches": 7,
+      "ppm": "4.857",
+      "points": {
+        "won": 34,
+        "of": 57
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

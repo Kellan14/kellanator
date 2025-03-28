@@ -1,0 +1,395 @@
+{
+  "key": "032cfc3f5bead0242dfaa3e06584d84e9b9da059",
+  "name": "Randy Huynh",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 648899290,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 230208740,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 86529740,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 59120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 3,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 944880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 29747,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 41646970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 442322440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 207453470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 234515770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 22465260,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 50485290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 20956190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 23068750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 23000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 33730,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4727220,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16937570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 118807000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 30000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 19835410,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1975442260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 789000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 445,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1247610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 10159740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 383988230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3275548530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1082130170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 22919350,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.561",
+      "num_matches": 10,
+      "ppm": "4.550",
+      "points": {
+        "won": 45.5,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

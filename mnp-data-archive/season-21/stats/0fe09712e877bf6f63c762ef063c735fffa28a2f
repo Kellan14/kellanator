@@ -1,0 +1,287 @@
+{
+  "key": "0fe09712e877bf6f63c762ef063c735fffa28a2f",
+  "name": "Brian O'Neill WA",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-21-1-RTR-NLT",
+      "week": "1",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 105290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-21-1-RTR-NLT",
+      "week": "1",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1170180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-21-1-RTR-NLT",
+      "week": "1",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 93387650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-21-2-SSS-RTR",
+      "week": "2",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 3642820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-21-2-SSS-RTR",
+      "week": "2",
+      "round": 2,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 748990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-21-2-SSS-RTR",
+      "week": "2",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2128970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-21-3-RTR-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "DND",
+      "division": 0,
+      "score": 58210060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-21-3-RTR-LAS",
+      "week": "3",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 93990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-21-3-RTR-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 24419730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1006140,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 24528010,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SCN",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 3,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 6111550,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-21-5-RTR-SWL",
+      "week": "5",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 25670090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-21-5-RTR-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 9318710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-21-5-RTR-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "FT",
+      "division": 0,
+      "score": 77048370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "TBT",
+      "match": "mnp-21-6-TBT-RTR",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 12892110,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "RTR",
+      "opp": "TBT",
+      "match": "mnp-21-6-TBT-RTR",
+      "week": "6",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 27778130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "TBT",
+      "match": "mnp-21-6-TBT-RTR",
+      "week": "6",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 65601400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "ETB",
+      "match": "mnp-21-7-ETB-RTR",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4916710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "ETB",
+      "match": "mnp-21-7-ETB-RTR",
+      "week": "7",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 109317850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "ETB",
+      "match": "mnp-21-7-ETB-RTR",
+      "week": "7",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 99385560,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.278",
+      "num_matches": 7,
+      "ppm": "2.285",
+      "points": {
+        "won": 16,
+        "of": 57.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

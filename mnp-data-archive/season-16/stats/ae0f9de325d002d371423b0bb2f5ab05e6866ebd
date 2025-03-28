@@ -1,0 +1,107 @@
+{
+  "key": "ae0f9de325d002d371423b0bb2f5ab05e6866ebd",
+  "name": "Patrick Tewson",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 8519900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 193750420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SWL",
+      "match": "mnp-16-3-RTR-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 43741780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4834730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 328840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 10000000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.187",
+      "num_matches": 2,
+      "ppm": "1.500",
+      "points": {
+        "won": 3,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

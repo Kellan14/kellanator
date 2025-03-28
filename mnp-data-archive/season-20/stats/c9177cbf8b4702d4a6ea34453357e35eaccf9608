@@ -1,0 +1,287 @@
+{
+  "key": "c9177cbf8b4702d4a6ea34453357e35eaccf9608",
+  "name": "Madison Masterson",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 18889260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 113681230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 49420140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 48433580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 20689710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 25717980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 33876080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 119250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "BOPP",
+      "division": 0,
+      "score": 40890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-20-4-DIH-PKT",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 43743000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-20-4-DIH-PKT",
+      "week": "4",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 95228300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-20-4-DIH-PKT",
+      "week": "4",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 701688930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "POW",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 87370690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "POW",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 44486410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "POW",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "SC",
+      "division": 0,
+      "score": 2301930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "CRA",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 11951210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "CRA",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17333550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "CRA",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 11004440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSS",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 30087000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSS",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 31290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "SSS",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 48905470,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.316",
+      "num_matches": 7,
+      "ppm": "2.642",
+      "points": {
+        "won": 18.5,
+        "of": 58.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

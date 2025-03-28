@@ -1,0 +1,287 @@
+{
+  "key": "2cc5619d6c994a8f9531a2cacd3b1aff23b5b782",
+  "name": "Lui Rangel",
+  "history": [
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 385054610,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 2,
+      "machine": "TS",
+      "division": 0,
+      "score": 500230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 221310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "SWL",
+      "match": "mnp-21-2-SWL-FBP",
+      "week": "2",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 99968730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SWL",
+      "match": "mnp-21-2-SWL-FBP",
+      "week": "2",
+      "round": 3,
+      "machine": "POTC",
+      "division": 0,
+      "score": 5520650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SWL",
+      "match": "mnp-21-2-SWL-FBP",
+      "week": "2",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 33618600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 125000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 156916750,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 311245870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-21-4-TBT-FBP",
+      "week": "4",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 4474520,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-21-4-TBT-FBP",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 57000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-21-4-TBT-FBP",
+      "week": "4",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 22000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-21-5-FBP-ETB",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 68394900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-21-5-FBP-ETB",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4152090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-21-5-FBP-ETB",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 6781490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "NLT",
+      "match": "mnp-21-6-NLT-FBP",
+      "week": "6",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 72000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBP",
+      "opp": "NLT",
+      "match": "mnp-21-6-NLT-FBP",
+      "week": "6",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1546074170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "NLT",
+      "match": "mnp-21-6-NLT-FBP",
+      "week": "6",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1600000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 148000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 880086530,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 32000000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.456",
+      "num_matches": 7,
+      "ppm": "3.785",
+      "points": {
+        "won": 26.5,
+        "of": 58
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "key": "37cc21249893017fa0e2fbf1175278d37a86d72b",
+  "name": "Leslie Ruckman",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "PKT",
+      "match": "mnp-20-10-CFB-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 6446780,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CFB",
+      "opp": "PKT",
+      "match": "mnp-20-10-CFB-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 2315200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PKT",
+      "match": "mnp-20-10-CFB-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 2245430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 190356650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 70041160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 1101235640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 24186630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 182812900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 89391950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 86693860,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 22553810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 352604690,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.712",
+      "num_matches": 4,
+      "ppm": "5.875",
+      "points": {
+        "won": 23.5,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

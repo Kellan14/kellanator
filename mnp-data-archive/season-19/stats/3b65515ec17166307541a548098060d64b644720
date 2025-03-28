@@ -1,0 +1,323 @@
+{
+  "key": "3b65515ec17166307541a548098060d64b644720",
+  "name": "Marin Alexander",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 443620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 359080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3147570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 484290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 367820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 60870700,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 9761450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 287930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 214644820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 34921460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 10440230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 8969700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 111930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 165050,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1823530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 4518840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 9915000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 28514250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1489460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 93640,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1744750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 54791870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1164691890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 26450760,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.310",
+      "num_matches": 8,
+      "ppm": "2.562",
+      "points": {
+        "won": 20.5,
+        "of": 66
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

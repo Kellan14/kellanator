@@ -1,0 +1,395 @@
+{
+  "key": "07ebb404cc00e5e0ee124c5be2f175a9797a7d4d",
+  "name": "Joshua Francis",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "LLK",
+      "match": "mnp-14-1-LLK-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 191577240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LLK",
+      "match": "mnp-14-1-LLK-CRA",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 144023000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LLK",
+      "match": "mnp-14-1-LLK-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 198700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BOC",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 333266580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BOC",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 101874780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BOC",
+      "match": "mnp-14-10-BOC-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 2103595570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "ADB",
+      "match": "mnp-14-11-ADB-CRA",
+      "week": "11",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1665071310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "ADB",
+      "match": "mnp-14-11-ADB-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 29059800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "ADB",
+      "match": "mnp-14-11-ADB-CRA",
+      "week": "11",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 420726300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 79100,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 1029070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1592500,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 28160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 50856770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 105988880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 331902560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 472976660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "PGN",
+      "match": "mnp-14-5-PGN-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 102072610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 117955040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 17548390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1585364580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-14-7-CRA-NLT",
+      "week": "7",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 2246201570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-14-7-CRA-NLT",
+      "week": "7",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 2829784610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-14-7-CRA-NLT",
+      "week": "7",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 9759440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 32894740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 146288690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 568960540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-14-9-CRA-SHK",
+      "week": "9",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 219364830,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-14-9-CRA-SHK",
+      "week": "9",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 141495390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-14-9-CRA-SHK",
+      "week": "9",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 181720080,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.750",
+      "num_matches": 10,
+      "ppm": "6.000",
+      "points": {
+        "won": 60,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

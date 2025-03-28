@@ -1,0 +1,143 @@
+{
+  "key": "81ab2903a2e8917e2b3f46a8b784241e16686cf4",
+  "name": "Justina Russo",
+  "history": [
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 756675750,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 203770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 108373100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 77961540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 62311310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 145873930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-14-7-PKT-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1605433620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-14-7-PKT-DSV",
+      "week": "7",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 48480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-14-7-PKT-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 38252720,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.800",
+      "num_matches": 3,
+      "ppm": "6.666",
+      "points": {
+        "won": 20,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

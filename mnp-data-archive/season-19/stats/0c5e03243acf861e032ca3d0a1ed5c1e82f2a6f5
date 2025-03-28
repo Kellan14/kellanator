@@ -1,0 +1,359 @@
+{
+  "key": "0c5e03243acf861e032ca3d0a1ed5c1e82f2a6f5",
+  "name": "Daniel Mays",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 36000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 207670310,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 28844580,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 13809740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 29686040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 5187550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10413200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 42722490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 14433280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 11838390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 33236770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 209907810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 49178690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 75353440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 8924350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 74686700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 51848020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 68370280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 96372520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 18395870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 8587820,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 300000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 12324080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 63515510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 41867470,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 64974290,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 36994840,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.422",
+      "num_matches": 9,
+      "ppm": "3.500",
+      "points": {
+        "won": 31.5,
+        "of": 74.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

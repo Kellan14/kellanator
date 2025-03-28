@@ -1,0 +1,359 @@
+{
+  "key": "2c3a00aa902587c41e2993b8f44e26d79c48b4d6",
+  "name": "Clare Green",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 37159390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 576011770,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 50992060,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 33000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 7986410,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 86058860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 267477540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1461080930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-18-11-HHS-SWL",
+      "week": "11",
+      "round": 4,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 74283340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 1,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 10424220,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 3,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 1386460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-12-SCN-HHS",
+      "week": "12",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1202950,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 25058320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 29185690,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 16592510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 53562590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 3,
+      "machine": "WOF",
+      "division": 0,
+      "score": 18855020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-18-3-HHS-BOC",
+      "week": "3",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 192442710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 15192000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 68679070,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 11719000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 2,
+      "machine": "Radical",
+      "division": 0,
+      "score": 1558580,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 1912690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-18-5-HHS-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 479120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 25981280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 52670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-18-8-HHS-SHK",
+      "week": "8",
+      "round": 3,
+      "machine": "XFiles",
+      "division": 0,
+      "score": 1863490,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.385",
+      "num_matches": 9,
+      "ppm": "3.166",
+      "points": {
+        "won": 28.5,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

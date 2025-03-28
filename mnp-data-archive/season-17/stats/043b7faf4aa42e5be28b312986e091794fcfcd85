@@ -1,0 +1,287 @@
+{
+  "key": "043b7faf4aa42e5be28b312986e091794fcfcd85",
+  "name": "Greg Larson",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "TTT",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 1430100,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "TTT",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 3,
+      "machine": "Time machine",
+      "division": 0,
+      "score": 177380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TTT",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 4,
+      "machine": "Stargate",
+      "division": 0,
+      "score": 236176320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3834875580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 9851540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2183150430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-17-3-SKP-NMC",
+      "week": "3",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 14551290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-17-3-SKP-NMC",
+      "week": "3",
+      "round": 2,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 126380,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-17-3-SKP-NMC",
+      "week": "3",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 6419810,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 50690,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 3,
+      "machine": "Time Machine",
+      "division": 0,
+      "score": 225000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 107892,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 3265760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 446850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 129372590,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "BOC",
+      "match": "mnp-17-7-BOC-NMC",
+      "week": "7",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 84630,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "BOC",
+      "match": "mnp-17-7-BOC-NMC",
+      "week": "7",
+      "round": 3,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 112460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "BOC",
+      "match": "mnp-17-7-BOC-NMC",
+      "week": "7",
+      "round": 4,
+      "machine": "JM",
+      "division": 0,
+      "score": 339618310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 132440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 388301580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 389970,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.508",
+      "num_matches": 7,
+      "ppm": "4.071",
+      "points": {
+        "won": 28.5,
+        "of": 56
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "key": "39e3de381fb471dcbc6bb22b34ff60c30aef60b9",
+  "name": "Armand Go",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-18-1-SWL-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 630527030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-18-1-SWL-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 88259290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-18-1-SWL-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 69756160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 40784130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 361040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 91043360,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 371720,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 61090250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-18-11-SCN-CRA",
+      "week": "11",
+      "round": 4,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 318590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-18-12-CRA-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 108720,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-18-12-CRA-PBR",
+      "week": "12",
+      "round": 3,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 986660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-18-12-CRA-PBR",
+      "week": "12",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 36518310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 1,
+      "machine": "Spring Break",
+      "division": 0,
+      "score": 855200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 3,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 470190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 318690,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-18-3-SKP-CRA",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1142508830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-18-3-SKP-CRA",
+      "week": "3",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 76200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-18-3-SKP-CRA",
+      "week": "3",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 318131430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-18-4-CRA-RMS",
+      "week": "4",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 849542940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-18-4-CRA-RMS",
+      "week": "4",
+      "round": 3,
+      "machine": "Buck Rogers",
+      "division": 0,
+      "score": 144730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-18-4-CRA-RMS",
+      "week": "4",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 924616720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 398310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 507000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 629673410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 39037400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 26119480,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 186130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-18-8-DIH-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 437280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-18-8-DIH-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 170550,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-18-8-DIH-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 318090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 43831540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 3,
+      "machine": "SNS",
+      "division": 0,
+      "score": 205360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBS",
+      "match": "mnp-18-9-CRA-FBS",
+      "week": "9",
+      "round": 4,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 2300957820,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.592",
+      "num_matches": 11,
+      "ppm": "4.818",
+      "points": {
+        "won": 53,
+        "of": 89.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

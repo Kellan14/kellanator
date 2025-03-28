@@ -1,0 +1,215 @@
+{
+  "key": "1636be8aa55383627d43f5d7bcd64cab7b12ef86",
+  "name": "Melanie Meyer WA",
+  "history": [
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 371700250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 2,
+      "machine": "Stars",
+      "division": 0,
+      "score": 131200,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 141020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 199000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 146371960,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 7238540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-21-4-TBT-FBP",
+      "week": "4",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 75000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-21-4-TBT-FBP",
+      "week": "4",
+      "round": 3,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 171500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-21-4-TBT-FBP",
+      "week": "4",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 167531490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-21-5-FBP-ETB",
+      "week": "5",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 6260680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-21-5-FBP-ETB",
+      "week": "5",
+      "round": 3,
+      "machine": "Rush",
+      "division": 0,
+      "score": 15000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-21-5-FBP-ETB",
+      "week": "5",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 46000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 1,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 271530,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 2,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 422700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "NMC",
+      "match": "mnp-21-7-NMC-FBP",
+      "week": "7",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 195880,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.567",
+      "num_matches": 5,
+      "ppm": "4.600",
+      "points": {
+        "won": 23,
+        "of": 40.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

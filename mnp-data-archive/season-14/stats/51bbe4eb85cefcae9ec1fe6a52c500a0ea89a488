@@ -1,0 +1,179 @@
+{
+  "key": "51bbe4eb85cefcae9ec1fe6a52c500a0ea89a488",
+  "name": "Jessica Rakonza",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 3449830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 16580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 37390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 12494110,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 5031520,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "OLD",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 24047560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 12101080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 218500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 5038210,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "AliceCooper",
+      "division": 0,
+      "score": 994540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 19045480,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 19856590,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.287",
+      "num_matches": 4,
+      "ppm": "2.375",
+      "points": {
+        "won": 9.5,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

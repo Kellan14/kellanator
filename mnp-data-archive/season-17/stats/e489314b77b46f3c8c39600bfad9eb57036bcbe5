@@ -1,0 +1,323 @@
+{
+  "key": "e489314b77b46f3c8c39600bfad9eb57036bcbe5",
+  "name": "Jeff Gebhardt",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "ADB",
+      "match": "mnp-17-1-ADB-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 89908850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "ADB",
+      "match": "mnp-17-1-ADB-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 292000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "ADB",
+      "match": "mnp-17-1-ADB-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "Avatar",
+      "division": 0,
+      "score": 42000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 1,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 2200000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 97730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 110070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 4383150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 485700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 151530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "ETB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 13277940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "ETB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 48993910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "ETB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 3,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 10700000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 2,
+      "machine": "Avatar",
+      "division": 0,
+      "score": 6687930,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 2247000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 4,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 71442530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 2,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 455370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 439000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1224000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "TBT",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 1,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 696650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TBT",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 2,
+      "machine": "Avatar",
+      "division": 0,
+      "score": 15000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TBT",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 4,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 684000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 1590550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 7935110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 4,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 672000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.507",
+      "num_matches": 8,
+      "ppm": "4.187",
+      "points": {
+        "won": 33.5,
+        "of": 66
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

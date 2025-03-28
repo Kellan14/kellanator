@@ -1,0 +1,395 @@
+{
+  "key": "7667cb7b78d118b72f26d5b2459bfa875b84e88e",
+  "name": "Andy Yarritu",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 6276550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "TBL",
+      "division": 0,
+      "score": 3435470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 44346920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 145106470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "JD",
+      "division": 0,
+      "score": 290568700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 10367640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 102000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 8370430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 2343020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "LZ",
+      "division": 0,
+      "score": 5893070,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 12180020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 118280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 7310280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "LZ",
+      "division": 0,
+      "score": 43706890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 242679250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 156151430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "JD",
+      "division": 0,
+      "score": 136898650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 15796710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 2,
+      "machine": "Popeye",
+      "division": 0,
+      "score": 1806000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 3,
+      "machine": "JD",
+      "division": 0,
+      "score": 17000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 4,
+      "machine": "24",
+      "division": 0,
+      "score": 5018140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 46000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 3,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 1250730730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 127000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TWC",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 29992260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "TWC",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 7263060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TWC",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 9270850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 130000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 263570500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 19017530,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.532",
+      "num_matches": 10,
+      "ppm": "4.500",
+      "points": {
+        "won": 45,
+        "of": 84.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

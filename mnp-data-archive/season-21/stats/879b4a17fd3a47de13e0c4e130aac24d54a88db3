@@ -1,0 +1,251 @@
+{
+  "key": "879b4a17fd3a47de13e0c4e130aac24d54a88db3",
+  "name": "Adam Livengood",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1689939090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 871256810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-21-1-FBP-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 393570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-21-2-LAS-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 38402200,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-21-2-LAS-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 307680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-21-2-LAS-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 69788410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-21-3-RTR-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 20499370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-21-3-RTR-LAS",
+      "week": "3",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 3968340,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-21-3-RTR-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 38559770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-21-5-PKT-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "CV",
+      "division": 0,
+      "score": 16998280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-21-5-PKT-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "CV",
+      "division": 0,
+      "score": 14374900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-21-5-PKT-LAS",
+      "week": "5",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 41055270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "POW",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 1,
+      "machine": "PHAR",
+      "division": 0,
+      "score": 219320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "POW",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 16433490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "POW",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 3,
+      "machine": "CV",
+      "division": 0,
+      "score": 5900000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-21-7-LAS-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "ULTRA",
+      "division": 0,
+      "score": 9252140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-21-7-LAS-PGN",
+      "week": "7",
+      "round": 3,
+      "machine": "Shrek",
+      "division": 0,
+      "score": 12161000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-21-7-LAS-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 3300290,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.747",
+      "num_matches": 6,
+      "ppm": "6.166",
+      "points": {
+        "won": 37,
+        "of": 49.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

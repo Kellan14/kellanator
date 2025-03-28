@@ -1,0 +1,359 @@
+{
+  "key": "bb95ce373c39640f64e21ddea6a8a1c43a410866",
+  "name": "Randall Olson",
+  "history": [
+    {
+      "team": "PKT",
+      "opp": "BOC",
+      "match": "mnp-16-10-PKT-BOC",
+      "week": "10",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1110319150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "BOC",
+      "match": "mnp-16-10-PKT-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 216470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "BOC",
+      "match": "mnp-16-10-PKT-BOC",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 11414070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TWC",
+      "match": "mnp-16-11-PKT-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 96841850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TWC",
+      "match": "mnp-16-11-PKT-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 57223000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "TWC",
+      "match": "mnp-16-11-PKT-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 960380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "RTR",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 11671640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RTR",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 3364650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RTR",
+      "match": "mnp-16-2-PKT-RTR",
+      "week": "2",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 20236240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DTP",
+      "match": "mnp-16-3-DTP-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 50967430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "DTP",
+      "match": "mnp-16-3-DTP-PKT",
+      "week": "3",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 26863040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DTP",
+      "match": "mnp-16-3-DTP-PKT",
+      "week": "3",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 6185470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 3930290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 21471540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 5570000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-16-6-SHK-PKT",
+      "week": "6",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 10951830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-16-6-SHK-PKT",
+      "week": "6",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 430687570,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-16-6-SHK-PKT",
+      "week": "6",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 10101310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-16-7-PKT-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 879744470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-16-7-PKT-RMS",
+      "week": "7",
+      "round": 3,
+      "machine": "DM",
+      "division": 0,
+      "score": 180951360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-16-7-PKT-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 351115220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-16-8-PKT-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 16848490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-16-8-PKT-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 899390,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-16-8-PKT-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3658630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "OLD",
+      "match": "mnp-16-9-OLD-PKT",
+      "week": "9",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 4346510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "OLD",
+      "match": "mnp-16-9-OLD-PKT",
+      "week": "9",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 572882520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "OLD",
+      "match": "mnp-16-9-OLD-PKT",
+      "week": "9",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10523700,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.413",
+      "num_matches": 9,
+      "ppm": "3.333",
+      "points": {
+        "won": 30,
+        "of": 72.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

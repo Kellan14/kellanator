@@ -1,0 +1,143 @@
+{
+  "key": "62d659c4521699235e29b60230d6498e82ca2a14",
+  "name": "Jess Masnica",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "VEN",
+      "division": 0,
+      "score": 66684570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7378910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 20766610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 2566840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 6311410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 1213630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 523602860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 22740440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 7650930,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.145",
+      "num_matches": 3,
+      "ppm": "1.166",
+      "points": {
+        "won": 3.5,
+        "of": 24
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

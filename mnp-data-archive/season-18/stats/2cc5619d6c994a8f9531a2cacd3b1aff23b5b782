@@ -1,0 +1,395 @@
+{
+  "key": "2cc5619d6c994a8f9531a2cacd3b1aff23b5b782",
+  "name": "Lui Rangel",
+  "history": [
+    {
+      "team": "FBP",
+      "opp": "KNR",
+      "match": "mnp-18-1-KNR-FBP",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1312508520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "KNR",
+      "match": "mnp-18-1-KNR-FBP",
+      "week": "1",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 6786980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "KNR",
+      "match": "mnp-18-1-KNR-FBP",
+      "week": "1",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 547761400,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-18-10-FBP-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 65213030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-18-10-FBP-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 6000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "SCN",
+      "match": "mnp-18-10-FBP-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 19165350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-18-2-FBP-TBT",
+      "week": "2",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 12195520,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-18-2-FBP-TBT",
+      "week": "2",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 43674700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "TBT",
+      "match": "mnp-18-2-FBP-TBT",
+      "week": "2",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 96663150,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "FBP",
+      "opp": "PYC",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1384887900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "PYC",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1460398530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "PYC",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 364462020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ADB",
+      "match": "mnp-18-4-FBP-ADB",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 19021550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ADB",
+      "match": "mnp-18-4-FBP-ADB",
+      "week": "4",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 35255770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "ADB",
+      "match": "mnp-18-4-FBP-ADB",
+      "week": "4",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 23573900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-18-5-ETB-FBP",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 28999520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-18-5-ETB-FBP",
+      "week": "5",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 415854400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "ETB",
+      "match": "mnp-18-5-ETB-FBP",
+      "week": "5",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 6429260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "POW",
+      "match": "mnp-18-6-FBP-POW",
+      "week": "6",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 680178070,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBP",
+      "opp": "POW",
+      "match": "mnp-18-6-FBP-POW",
+      "week": "6",
+      "round": 3,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 461290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "POW",
+      "match": "mnp-18-6-FBP-POW",
+      "week": "6",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1251350,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBP",
+      "opp": "HHS",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 46367870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "HHS",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 18352740,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "HHS",
+      "match": "mnp-18-7-FBP-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 5605040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "DSV",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 71630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "DSV",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 33864000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "DSV",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 22361000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "BOC",
+      "match": "mnp-18-9-BOC-FBP",
+      "week": "9",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 273110760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "BOC",
+      "match": "mnp-18-9-BOC-FBP",
+      "week": "9",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 223959140,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBP",
+      "opp": "BOC",
+      "match": "mnp-18-9-BOC-FBP",
+      "week": "9",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 40000000,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.392",
+      "num_matches": 10,
+      "ppm": "3.200",
+      "points": {
+        "won": 32,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

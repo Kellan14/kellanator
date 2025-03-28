@@ -1,0 +1,179 @@
+{
+  "key": "c5db4f1058e0f071eced534c4bc0b22619751867",
+  "name": "Liz Brotman",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 1952800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 3,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 2952360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 141930440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-19-4-SKP-PKT",
+      "week": "4",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 693000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-19-4-SKP-PKT",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 34685220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-19-4-SKP-PKT",
+      "week": "4",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 20495310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 13947880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 172670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 140710,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1024916680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 875000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 484000000,
+      "points": 2,
+      "pops": "0.666"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.338",
+      "num_matches": 4,
+      "ppm": "2.750",
+      "points": {
+        "won": 11,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

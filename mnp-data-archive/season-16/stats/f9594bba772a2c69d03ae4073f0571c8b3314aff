@@ -1,0 +1,395 @@
+{
+  "key": "f9594bba772a2c69d03ae4073f0571c8b3314aff",
+  "name": "Landon Cross",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 63350030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 53923570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 144882970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-16-10-DIH-LAS",
+      "week": "10",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 988713440,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-16-10-DIH-LAS",
+      "week": "10",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 100236160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-16-10-DIH-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 54820250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-16-2-JMF-LAS",
+      "week": "2",
+      "round": 1,
+      "machine": "Stars",
+      "division": 0,
+      "score": 91960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-16-2-JMF-LAS",
+      "week": "2",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 121699500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "JMF",
+      "match": "mnp-16-2-JMF-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 81555880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-16-3-LAS-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 5847770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-16-3-LAS-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 30,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-16-3-LAS-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 9022600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 1,
+      "machine": "Stars",
+      "division": 0,
+      "score": 89000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 7486080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-16-4-LAS-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 437032910,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "CRA",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 295100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CRA",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 497520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CRA",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 352201150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-16-6-LAS-SWL",
+      "week": "6",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 11222010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-16-6-LAS-SWL",
+      "week": "6",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 318341330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-16-6-LAS-SWL",
+      "week": "6",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 111505720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ADB",
+      "match": "mnp-16-7-ADB-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 38236450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "ADB",
+      "match": "mnp-16-7-ADB-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "Alien",
+      "division": 0,
+      "score": 10242180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "ADB",
+      "match": "mnp-16-7-ADB-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "Alien",
+      "division": 0,
+      "score": 8927950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-16-8-ETB-LAS",
+      "week": "8",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 27669920,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-16-8-ETB-LAS",
+      "week": "8",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 8402710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-16-8-ETB-LAS",
+      "week": "8",
+      "round": 4,
+      "machine": "Stars",
+      "division": 0,
+      "score": 51920,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-16-9-LAS-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 54347000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-16-9-LAS-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 9222960,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-16-9-LAS-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 347353710,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.546",
+      "num_matches": 10,
+      "ppm": "4.450",
+      "points": {
+        "won": 44.5,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

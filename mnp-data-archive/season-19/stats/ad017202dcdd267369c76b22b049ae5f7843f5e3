@@ -1,0 +1,431 @@
+{
+  "key": "ad017202dcdd267369c76b22b049ae5f7843f5e3",
+  "name": "Nick Gibson",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-19-1-SHK-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14449270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-19-1-SHK-SKP",
+      "week": "1",
+      "round": 3,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 19906220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-19-1-SHK-SKP",
+      "week": "1",
+      "round": 4,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 29566710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-19-10-SKP-SSD",
+      "week": "10",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 9642240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-19-10-SKP-SSD",
+      "week": "10",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 95688160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-19-10-SKP-SSD",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 16900000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "SWL",
+      "match": "mnp-19-11-SKP-SWL",
+      "week": "11",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 299315830,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "SWL",
+      "match": "mnp-19-11-SKP-SWL",
+      "week": "11",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 31665440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SWL",
+      "match": "mnp-19-11-SKP-SWL",
+      "week": "11",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 52655570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-19-12-SKP-KNR",
+      "week": "12",
+      "round": 2,
+      "machine": "Ali",
+      "division": 0,
+      "score": 177390,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-19-12-SKP-KNR",
+      "week": "12",
+      "round": 3,
+      "machine": "Rush",
+      "division": 0,
+      "score": 11135610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-19-12-SKP-KNR",
+      "week": "12",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 444160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "ICB",
+      "match": "mnp-19-2-SKP-ICB",
+      "week": "2",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 218257130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "ICB",
+      "match": "mnp-19-2-SKP-ICB",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 64830940,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "ICB",
+      "match": "mnp-19-2-SKP-ICB",
+      "week": "2",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 758954050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CDC",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 5069700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CDC",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 2971740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CDC",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "CSI",
+      "division": 0,
+      "score": 5267430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 13381640,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 17211500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 95451830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-19-6-SKP-PBR",
+      "week": "6",
+      "round": 1,
+      "machine": "Eight Ball Beyond",
+      "division": 0,
+      "score": 118100,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-19-6-SKP-PBR",
+      "week": "6",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 126767660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-19-6-SKP-PBR",
+      "week": "6",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 78733520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 1,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 10056240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 45504080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4822760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1706140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 3225860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1250900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "FBP",
+      "match": "mnp-19-9-FBP-SKP",
+      "week": "9",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 9265230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "FBP",
+      "match": "mnp-19-9-FBP-SKP",
+      "week": "9",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 50848700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "FBP",
+      "match": "mnp-19-9-FBP-SKP",
+      "week": "9",
+      "round": 4,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 4226730,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.664",
+      "num_matches": 11,
+      "ppm": "5.409",
+      "points": {
+        "won": 59.5,
+        "of": 89.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

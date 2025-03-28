@@ -1,0 +1,359 @@
+{
+  "key": "21d81721cd405fa737562ab7702cb906752a23c4",
+  "name": "Dj Youngblood",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 25329210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 6130350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 51453240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-17-10-TWC-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 25680740,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-17-10-TWC-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 27393800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-17-10-TWC-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 37522370,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 2508790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 8239060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 3000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-17-3-ADB-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 22921330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-17-3-ADB-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 5642520,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-17-3-ADB-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 8142910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-17-5-CDC-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 15478930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-17-5-CDC-PBR",
+      "week": "5",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 764530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-17-5-CDC-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 2991230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4298760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 29401720,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 35776060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 2221720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 5650480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5053640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-17-8-PKT-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 36259310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-17-8-PKT-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 21068340,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-17-8-PKT-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 18368320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 5507670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 29767800,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "BK2K",
+      "division": 0,
+      "score": 564530,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.557",
+      "num_matches": 9,
+      "ppm": "4.611",
+      "points": {
+        "won": 41.5,
+        "of": 74.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

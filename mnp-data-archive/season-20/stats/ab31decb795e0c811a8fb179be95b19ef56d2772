@@ -1,0 +1,395 @@
+{
+  "key": "ab31decb795e0c811a8fb179be95b19ef56d2772",
+  "name": "Mickey Nussbaumer",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "TTT",
+      "match": "mnp-20-1-TTT-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 74315100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TTT",
+      "match": "mnp-20-1-TTT-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 26630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TTT",
+      "match": "mnp-20-1-TTT-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2341964820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CDC",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 47231290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CDC",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 26709030,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CDC",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5722310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 83892670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 60914730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 71880,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PBR",
+      "opp": "SSS",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 34096960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "SSS",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 27901630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "SSS",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 284245760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-20-13-ADB-PBR",
+      "week": "13",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 50000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-20-13-ADB-PBR",
+      "week": "13",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 5489080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-20-13-ADB-PBR",
+      "week": "13",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 205358710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "CRA",
+      "match": "mnp-20-14-CRA-PBR",
+      "week": "14",
+      "round": 1,
+      "machine": "JW",
+      "division": 0,
+      "score": 86582490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CRA",
+      "match": "mnp-20-14-CRA-PBR",
+      "week": "14",
+      "round": 3,
+      "machine": "VEN",
+      "division": 0,
+      "score": 242078030,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CRA",
+      "match": "mnp-20-14-CRA-PBR",
+      "week": "14",
+      "round": 4,
+      "machine": "EJ",
+      "division": 0,
+      "score": 15183240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PKT",
+      "match": "mnp-20-2-PBR-PKT",
+      "week": "2",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 53638890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PKT",
+      "match": "mnp-20-2-PBR-PKT",
+      "week": "2",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 45208200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PKT",
+      "match": "mnp-20-2-PBR-PKT",
+      "week": "2",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 455530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 256710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1056390,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 633560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8083940,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 42994200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 39691010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-20-6-PBR-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 100365320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-20-6-PBR-PGN",
+      "week": "6",
+      "round": 3,
+      "machine": "VEN",
+      "division": 0,
+      "score": 515632010,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-20-6-PBR-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 140555720,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.567",
+      "num_matches": 10,
+      "ppm": "4.650",
+      "points": {
+        "won": 46.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

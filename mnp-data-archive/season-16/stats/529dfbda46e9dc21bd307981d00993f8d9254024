@@ -1,0 +1,359 @@
+{
+  "key": "529dfbda46e9dc21bd307981d00993f8d9254024",
+  "name": "Nic Cope",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "JMF",
+      "match": "mnp-16-1-TTT-JMF",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2259311220,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "JMF",
+      "match": "mnp-16-1-TTT-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 200832250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "JMF",
+      "match": "mnp-16-1-TTT-JMF",
+      "week": "1",
+      "round": 4,
+      "machine": "NGG",
+      "division": 0,
+      "score": 3130960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 59702050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1306223190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 636058270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 160926480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 541665260,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 104339220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ADB",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 516334690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "ADB",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 12753540,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "ADB",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 79630070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-16-4-TTT-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 51031840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-16-4-TTT-TWC",
+      "week": "4",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 1106696550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-16-4-TTT-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 382358660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PKT",
+      "match": "mnp-16-5-PKT-TTT",
+      "week": "5",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 102790810,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "PKT",
+      "match": "mnp-16-5-PKT-TTT",
+      "week": "5",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 500055310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PKT",
+      "match": "mnp-16-5-PKT-TTT",
+      "week": "5",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 455232400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SCN",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 51043760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "SCN",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 10000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "SCN",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 20071690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-16-8-PBR-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 564834210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-16-8-PBR-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 385000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-16-8-PBR-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 339739200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ETB",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 19894020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "ETB",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 9660830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ETB",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 2986610,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.483",
+      "num_matches": 9,
+      "ppm": "4.000",
+      "points": {
+        "won": 36,
+        "of": 74.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "key": "235ace52ee97e4be4a736cb9b604122c8be26577",
+  "name": "Josh Neuens",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 21110680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 12948750,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 46992880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4002640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13536950,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 11245840,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 25021320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10557000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 197660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 2263370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 574030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 107010,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 19825210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 28625910,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16054620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 168110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 27876140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 6039040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 66937790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 27167560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 52131300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-20-8-CDC-PKT",
+      "week": "8",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 544470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-20-8-CDC-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 295630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-20-8-CDC-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 155240,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.500",
+      "num_matches": 8,
+      "ppm": "4.125",
+      "points": {
+        "won": 33,
+        "of": 66
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

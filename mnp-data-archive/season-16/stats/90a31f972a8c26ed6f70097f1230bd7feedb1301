@@ -1,0 +1,335 @@
+{
+  "key": "90a31f972a8c26ed6f70097f1230bd7feedb1301",
+  "name": "John McConnell",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 34487460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 9366870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 46072600,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 38417280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 5624680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 48392900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "OLD",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 348143780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "OLD",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 29297900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "OLD",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 20454430,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 54118260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 67834400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 66690190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "NLT",
+      "match": "mnp-16-5-ETB-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 31227530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "NLT",
+      "match": "mnp-16-5-ETB-NLT",
+      "week": "5",
+      "round": 2,
+      "machine": "BlackHole",
+      "division": 0,
+      "score": 103590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "NLT",
+      "match": "mnp-16-5-ETB-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 196790080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "NLT",
+      "match": "mnp-16-5-ETB-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 60535840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-16-6-CPO-ETB",
+      "week": "6",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 88885260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-16-6-CPO-ETB",
+      "week": "6",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 25384180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-16-6-CPO-ETB",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 23469160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14736720,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 4591810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "SC",
+      "division": 0,
+      "score": 289210,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 30366900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 62096590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 523290,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.489",
+      "num_matches": 8,
+      "ppm": "4.187",
+      "points": {
+        "won": 33.5,
+        "of": 68.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

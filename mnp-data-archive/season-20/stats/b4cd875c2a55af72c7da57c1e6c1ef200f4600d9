@@ -1,0 +1,215 @@
+{
+  "key": "b4cd875c2a55af72c7da57c1e6c1ef200f4600d9",
+  "name": "Nick Wold",
+  "history": [
+    {
+      "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-20-1-TBT-SWL",
+      "week": "1",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1517819170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-20-1-TBT-SWL",
+      "week": "1",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 30871050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-20-1-TBT-SWL",
+      "week": "1",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 78163410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 1,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 51795830,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 6269150,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 28972550,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 688038410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 35968590,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 79345580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 27465600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 93030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 68182180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-20-7-PGN-NLT",
+      "week": "7",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 107183230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-20-7-PGN-NLT",
+      "week": "7",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 461930,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-20-7-PGN-NLT",
+      "week": "7",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 582419180,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.604",
+      "num_matches": 5,
+      "ppm": "4.900",
+      "points": {
+        "won": 24.5,
+        "of": 40.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

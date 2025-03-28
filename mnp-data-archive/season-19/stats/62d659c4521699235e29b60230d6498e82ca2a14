@@ -1,0 +1,107 @@
+{
+  "key": "62d659c4521699235e29b60230d6498e82ca2a14",
+  "name": "Jess Masnica",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 6513190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "TBL",
+      "division": 0,
+      "score": 2466600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 29491830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 1942850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4202430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4411290,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.562",
+      "num_matches": 2,
+      "ppm": "4.500",
+      "points": {
+        "won": 9,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

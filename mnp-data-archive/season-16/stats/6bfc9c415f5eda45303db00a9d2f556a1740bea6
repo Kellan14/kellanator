@@ -1,0 +1,179 @@
+{
+  "key": "6bfc9c415f5eda45303db00a9d2f556a1740bea6",
+  "name": "Clayton Brumbaugh",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "SHK",
+      "match": "mnp-16-1-SHK-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 11220120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SHK",
+      "match": "mnp-16-1-SHK-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 27654010,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SHK",
+      "match": "mnp-16-1-SHK-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 1288730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 59663100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 62332040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TTT",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 34566850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 27482550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 11373400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 8564400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10133620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 214860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10043780,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.373",
+      "num_matches": 4,
+      "ppm": "3.125",
+      "points": {
+        "won": 12.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

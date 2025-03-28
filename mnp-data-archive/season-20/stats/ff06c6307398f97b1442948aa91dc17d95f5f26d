@@ -1,0 +1,299 @@
+{
+  "key": "ff06c6307398f97b1442948aa91dc17d95f5f26d",
+  "name": "Rob Homan WA",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 81233880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 18307860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-20-10-PBR-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 462000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 109413000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 109241320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 47627900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 19469800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 132750760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 252000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 17521540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 34479570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 51000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "CFB",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 51982650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 356127660,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 37318120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSD",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 281073640,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 60411750,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 2,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 206760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NMC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 12129760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 21000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 109000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 74244500,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.471",
+      "num_matches": 7,
+      "ppm": "4.071",
+      "points": {
+        "won": 28.5,
+        "of": 60.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "key": "1cdf0389f8a691017d69f5538f6244a1f636e8e0",
+  "name": "Paul Williams",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 5060200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 11089720,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 2477300,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "BOC",
+      "match": "mnp-17-4-SHK-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 422230020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "BOC",
+      "match": "mnp-17-4-SHK-BOC",
+      "week": "4",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 489480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "BOC",
+      "match": "mnp-17-4-SHK-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 150082170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "BOC",
+      "match": "mnp-17-4-SHK-BOC",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 5195580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Radical",
+      "division": 0,
+      "score": 1929130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 95487030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 11224440,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.581",
+      "num_matches": 3,
+      "ppm": "5.333",
+      "points": {
+        "won": 16,
+        "of": 27.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

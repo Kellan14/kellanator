@@ -1,0 +1,251 @@
+{
+  "key": "8f8d0f9a0f541521dabd9008a5df1f36461a998c",
+  "name": "Aaron Rev",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 119780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 157000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 261520,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 153098500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 20024690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 342385030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6630370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 76660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 29770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 107480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 8286670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 52100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 3126210,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 2678190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 93190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 32104460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 15129350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 103300,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.247",
+      "num_matches": 6,
+      "ppm": "2.083",
+      "points": {
+        "won": 12.5,
+        "of": 50.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

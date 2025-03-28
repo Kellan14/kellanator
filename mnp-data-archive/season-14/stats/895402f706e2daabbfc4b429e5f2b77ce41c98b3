@@ -1,0 +1,179 @@
+{
+  "key": "895402f706e2daabbfc4b429e5f2b77ce41c98b3",
+  "name": "Nik Sear",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "HHS",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 295340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "HHS",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 255220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "HHS",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 664837360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "LCS",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 11600410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "LCS",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 1699740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "LCS",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 3,
+      "machine": "Stargate",
+      "division": 0,
+      "score": 151383220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 183947950,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 5857910,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 568801090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 56000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 3,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 1180130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 4,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 1792000,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.522",
+      "num_matches": 4,
+      "ppm": "4.375",
+      "points": {
+        "won": 17.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

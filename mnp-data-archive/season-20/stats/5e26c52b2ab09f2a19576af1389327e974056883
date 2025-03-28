@@ -1,0 +1,371 @@
+{
+  "key": "5e26c52b2ab09f2a19576af1389327e974056883",
+  "name": "Mitchell D. Anderson",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 2,
+      "machine": "BR",
+      "division": 0,
+      "score": 95780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 289109540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 131604430,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 172027130,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 164798780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 136978030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 6680680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 56651670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 232735980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 1105360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 959971200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 38418020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 19916220,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 2,
+      "machine": "NBA",
+      "division": 0,
+      "score": 16000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 8000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 62078910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 141759340,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 550518240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 9862930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 394953230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 85994810,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 3,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 232591250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 41489900,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 145165710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 278277870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 61539330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 10158890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 47224210,
+      "points": 2,
+      "pops": "0.666"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.634",
+      "num_matches": 9,
+      "ppm": "5.500",
+      "points": {
+        "won": 49.5,
+        "of": 78
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

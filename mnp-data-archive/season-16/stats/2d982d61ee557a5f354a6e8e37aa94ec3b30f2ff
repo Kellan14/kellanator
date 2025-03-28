@@ -1,0 +1,323 @@
+{
+  "key": "2d982d61ee557a5f354a6e8e37aa94ec3b30f2ff",
+  "name": "Ryker Van Doren",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1683280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 49171060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-16-10-CDC-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 12092110,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 5131110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 2490640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-16-2-CRA-TTT",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 36125180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ADB",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 46353260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ADB",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 48747010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ADB",
+      "match": "mnp-16-3-TTT-ADB",
+      "week": "3",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 14703710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PKT",
+      "match": "mnp-16-5-PKT-TTT",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 1248390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PKT",
+      "match": "mnp-16-5-PKT-TTT",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 1732960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PKT",
+      "match": "mnp-16-5-PKT-TTT",
+      "week": "5",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 317487900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "SCN",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 8000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SCN",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 17092600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SCN",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1235470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-16-7-DIH-TTT",
+      "week": "7",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 93203780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-16-7-DIH-TTT",
+      "week": "7",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 6563200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-16-7-DIH-TTT",
+      "week": "7",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 23282890,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-16-8-PBR-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 2031800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-16-8-PBR-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 239988010,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-16-8-PBR-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 269129430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ETB",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 2796710,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "ETB",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 7580250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ETB",
+      "match": "mnp-16-9-TTT-ETB",
+      "week": "9",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 36617560,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.166",
+      "num_matches": 8,
+      "ppm": "1.375",
+      "points": {
+        "won": 11,
+        "of": 66
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

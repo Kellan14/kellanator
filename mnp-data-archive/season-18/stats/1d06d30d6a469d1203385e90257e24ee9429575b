@@ -1,0 +1,359 @@
+{
+  "key": "1d06d30d6a469d1203385e90257e24ee9429575b",
+  "name": "Donna Hucklebee",
+  "history": [
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 277760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 263540,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 300590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TBT",
+      "match": "mnp-18-10-TBT-PYC",
+      "week": "10",
+      "round": 1,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 49875400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "TBT",
+      "match": "mnp-18-10-TBT-PYC",
+      "week": "10",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 19002070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TBT",
+      "match": "mnp-18-10-TBT-PYC",
+      "week": "10",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 9299620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "NLT",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 38299230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "NLT",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 299305560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "NLT",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 8050280,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBP",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 227758530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBP",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 81940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBP",
+      "match": "mnp-18-3-PYC-FBP",
+      "week": "3",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 474820,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "SHK",
+      "match": "mnp-18-4-SHK-PYC",
+      "week": "4",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 303825800,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "SHK",
+      "match": "mnp-18-4-SHK-PYC",
+      "week": "4",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1032542650,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "SHK",
+      "match": "mnp-18-4-SHK-PYC",
+      "week": "4",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 62971340,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 1,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 13134970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 705456190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 9567130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "BOC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 13277520,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "BOC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 628828030,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "BOC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 321112360,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 83000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "MSF",
+      "division": 0,
+      "score": 224839340,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 32512220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 747140,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 3098240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 42668070,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.438",
+      "num_matches": 9,
+      "ppm": "3.555",
+      "points": {
+        "won": 32,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

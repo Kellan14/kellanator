@@ -1,0 +1,251 @@
+{
+  "key": "3b6000fac94c8ffb6342e5f90590aabc88ac4947",
+  "name": "Brendan Campbell",
+  "history": [
+    {
+      "team": "DOG",
+      "opp": "DTP",
+      "match": "mnp-21-1-DTP-DOG",
+      "week": "1",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 262800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "DTP",
+      "match": "mnp-21-1-DTP-DOG",
+      "week": "1",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 18601610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "DTP",
+      "match": "mnp-21-1-DTP-DOG",
+      "week": "1",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 4695740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DOG",
+      "opp": "BAD",
+      "match": "mnp-21-2-DOG-BAD",
+      "week": "2",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 19165490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "BAD",
+      "match": "mnp-21-2-DOG-BAD",
+      "week": "2",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2692542090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "BAD",
+      "match": "mnp-21-2-DOG-BAD",
+      "week": "2",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 28650770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DOG",
+      "opp": "ADB",
+      "match": "mnp-21-3-ADB-DOG",
+      "week": "3",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 450310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DOG",
+      "opp": "ADB",
+      "match": "mnp-21-3-ADB-DOG",
+      "week": "3",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 7648350,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DOG",
+      "opp": "ADB",
+      "match": "mnp-21-3-ADB-DOG",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2582531690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DOG",
+      "opp": "CPO",
+      "match": "mnp-21-5-CPO-DOG",
+      "week": "5",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 4114560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "CPO",
+      "match": "mnp-21-5-CPO-DOG",
+      "week": "5",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 1179470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "CPO",
+      "match": "mnp-21-5-CPO-DOG",
+      "week": "5",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 1306340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "SSD",
+      "match": "mnp-21-6-DOG-SSD",
+      "week": "6",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 141870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "SSD",
+      "match": "mnp-21-6-DOG-SSD",
+      "week": "6",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 10321160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DOG",
+      "opp": "SSD",
+      "match": "mnp-21-6-DOG-SSD",
+      "week": "6",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 1893710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "HHS",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 7376090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DOG",
+      "opp": "HHS",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 616710190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "HHS",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 697112110,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.459",
+      "num_matches": 6,
+      "ppm": "3.750",
+      "points": {
+        "won": 22.5,
+        "of": 49
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

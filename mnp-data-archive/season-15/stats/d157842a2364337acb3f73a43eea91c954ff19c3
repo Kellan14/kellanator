@@ -1,0 +1,323 @@
+{
+  "key": "d157842a2364337acb3f73a43eea91c954ff19c3",
+  "name": "Danae Hackett",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 52350950,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1555400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 513374650,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 37690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 2439490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 915690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 10113890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1893220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 20330170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 34317450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 498120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 3177570,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 158920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 239270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 237720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 1,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 9376480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 7744870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 15980190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 177530640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 883270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 105480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 139950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 3772140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 12787590,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.488",
+      "num_matches": 8,
+      "ppm": "4.000",
+      "points": {
+        "won": 32,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

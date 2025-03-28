@@ -1,0 +1,179 @@
+{
+  "key": "9517e41555bd077b69efdcb0221acead212ccfac",
+  "name": "Joel Friedrick",
+  "history": [
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 12581400,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 22455130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1022037480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5292800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "TNA",
+      "division": 0,
+      "score": 651160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 25245640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 7539600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 22514600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 56870030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 6213880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 85578580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 11799580,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.313",
+      "num_matches": 4,
+      "ppm": "2.625",
+      "points": {
+        "won": 10.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

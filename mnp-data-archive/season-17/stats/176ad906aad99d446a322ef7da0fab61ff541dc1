@@ -1,0 +1,143 @@
+{
+  "key": "176ad906aad99d446a322ef7da0fab61ff541dc1",
+  "name": "Rachel Kroft",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 1,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 11000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 4,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 79230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-17-3-SCN-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 295650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-17-3-SCN-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 2953950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-17-3-SCN-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 2296230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 2731380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 4803170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 21340,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.125",
+      "num_matches": 3,
+      "ppm": "1.000",
+      "points": {
+        "won": 3,
+        "of": 24
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "key": "1692d1edfd53d1c494256be1e675df421ad6e7f7",
+  "name": "Larry Olsen",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 286898820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 12097320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PKT",
+      "match": "mnp-16-4-KNR-PKT",
+      "week": "4",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 1998600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 249902400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 4745100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 3,
+      "machine": "SoF",
+      "division": 0,
+      "score": 5056390,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 11,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 2599720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PBR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 154447590,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.560",
+      "num_matches": 3,
+      "ppm": "4.666",
+      "points": {
+        "won": 14,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

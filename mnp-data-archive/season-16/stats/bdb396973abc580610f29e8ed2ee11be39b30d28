@@ -1,0 +1,383 @@
+{
+  "key": "bdb396973abc580610f29e8ed2ee11be39b30d28",
+  "name": "Courtney Zeller",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "CDC",
+      "match": "mnp-16-1-SHK-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 24260970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CDC",
+      "match": "mnp-16-1-SHK-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 32120530,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "CDC",
+      "match": "mnp-16-1-SHK-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 379065110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "CDC",
+      "match": "mnp-16-1-SHK-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 2689500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "ETB",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 319350,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "ETB",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 3,
+      "machine": "GameShow",
+      "division": 0,
+      "score": 325130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "ETB",
+      "match": "mnp-16-10-ETB-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 387170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-16-2-SWL-SHK",
+      "week": "2",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 38386490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-16-2-SWL-SHK",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 38814810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-16-2-SWL-SHK",
+      "week": "2",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 3531250,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SHK",
+      "opp": "TWC",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 164093040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "TWC",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 41073310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "TWC",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 2076700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "ADB",
+      "match": "mnp-16-4-SHK-ADB",
+      "week": "4",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 134938850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "ADB",
+      "match": "mnp-16-4-SHK-ADB",
+      "week": "4",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 23250910,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "ADB",
+      "match": "mnp-16-4-SHK-ADB",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 44819020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "DIH",
+      "match": "mnp-16-5-DIH-SHK",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 72053950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DIH",
+      "match": "mnp-16-5-DIH-SHK",
+      "week": "5",
+      "round": 3,
+      "machine": "BOP",
+      "division": 0,
+      "score": 4917680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "DIH",
+      "match": "mnp-16-5-DIH-SHK",
+      "week": "5",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 1809510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PKT",
+      "match": "mnp-16-6-SHK-PKT",
+      "week": "6",
+      "round": 1,
+      "machine": "SoF",
+      "division": 0,
+      "score": 819720,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "PKT",
+      "match": "mnp-16-6-SHK-PKT",
+      "week": "6",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 1440020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "PKT",
+      "match": "mnp-16-6-SHK-PKT",
+      "week": "6",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 110660050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 13487770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 126640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SCN",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 4,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 43650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-16-9-SHK-JMF",
+      "week": "9",
+      "round": 1,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 1370010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-16-9-SHK-JMF",
+      "week": "9",
+      "round": 2,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 9460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-16-9-SHK-JMF",
+      "week": "9",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 412040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-16-9-SHK-JMF",
+      "week": "9",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 4123210,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.292",
+      "num_matches": 9,
+      "ppm": "2.555",
+      "points": {
+        "won": 23,
+        "of": 78.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

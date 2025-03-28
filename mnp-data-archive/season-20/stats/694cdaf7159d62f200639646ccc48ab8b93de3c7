@@ -1,0 +1,431 @@
+{
+  "key": "694cdaf7159d62f200639646ccc48ab8b93de3c7",
+  "name": "John Garnett",
+  "history": [
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-20-1-TBT-SWL",
+      "week": "1",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 438566890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-20-1-TBT-SWL",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 194023330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-20-1-TBT-SWL",
+      "week": "1",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 89901470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "LAS",
+      "match": "mnp-20-10-SWL-LAS",
+      "week": "10",
+      "round": 1,
+      "machine": "Uncanny X-men",
+      "division": 0,
+      "score": 16205090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "LAS",
+      "match": "mnp-20-10-SWL-LAS",
+      "week": "10",
+      "round": 2,
+      "machine": "CV",
+      "division": 0,
+      "score": 5224980,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "LAS",
+      "match": "mnp-20-10-SWL-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "SG",
+      "division": 0,
+      "score": 424840,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "NLT",
+      "match": "mnp-20-11-SWL-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 5543870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "NLT",
+      "match": "mnp-20-11-SWL-NLT",
+      "week": "11",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 154183960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "NLT",
+      "match": "mnp-20-11-SWL-NLT",
+      "week": "11",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 78650010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "KNR",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 748840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "KNR",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 26366580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "KNR",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 136030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 159345700,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 36057000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-20-3-DSV-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 36524990,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 319160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 17925480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 127790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-20-5-CRA-SWL",
+      "week": "5",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 84950980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-20-5-CRA-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 279991240,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-20-5-CRA-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 7500000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 12125670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 8267630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 105396080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "ETB",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 60114150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ETB",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 27163050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ETB",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 27217560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-20-8-SWL-ADB",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 28428340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-20-8-SWL-ADB",
+      "week": "8",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 51238080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-20-8-SWL-ADB",
+      "week": "8",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 608761920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBS",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 9146010,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBS",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 8778450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBS",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 122372090,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.538",
+      "num_matches": 11,
+      "ppm": "4.409",
+      "points": {
+        "won": 48.5,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

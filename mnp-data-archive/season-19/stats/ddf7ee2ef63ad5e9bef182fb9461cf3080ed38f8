@@ -1,0 +1,359 @@
+{
+  "key": "ddf7ee2ef63ad5e9bef182fb9461cf3080ed38f8",
+  "name": "Scott Kelly",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 4448143970,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 3,
+      "machine": "Buck Rogers",
+      "division": 0,
+      "score": 71360,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 741388770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 219405340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 224040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 220110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 1,
+      "machine": "SoF",
+      "division": 0,
+      "score": 865470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 13390490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 18628150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5835290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 2,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 452500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 3,
+      "machine": "Venom",
+      "division": 0,
+      "score": 30522280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1449068460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 25371020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 125129470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 381200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 43660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 4,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 306000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 371500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 144229330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 336,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 28525410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 20533880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 6567870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 1,
+      "machine": "Venom",
+      "division": 0,
+      "score": 42698150,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 19000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 1700000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.510",
+      "num_matches": 9,
+      "ppm": "4.166",
+      "points": {
+        "won": 37.5,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

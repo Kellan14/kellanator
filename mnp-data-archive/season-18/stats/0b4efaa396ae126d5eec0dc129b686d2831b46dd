@@ -1,0 +1,191 @@
+{
+  "key": "0b4efaa396ae126d5eec0dc129b686d2831b46dd",
+  "name": "Angie Parker",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 76593690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 6527290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 14630120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-18-2-CDC-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 48203270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 6948680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 6180650,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 19541600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 1,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 4201290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 5252060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 80000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-18-7-CDC-ADB",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 46451000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-18-7-CDC-ADB",
+      "week": "7",
+      "round": 2,
+      "machine": "LZ",
+      "division": 0,
+      "score": 3662530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-18-7-CDC-ADB",
+      "week": "7",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 15442590,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.267",
+      "num_matches": 4,
+      "ppm": "2.375",
+      "points": {
+        "won": 9.5,
+        "of": 35.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

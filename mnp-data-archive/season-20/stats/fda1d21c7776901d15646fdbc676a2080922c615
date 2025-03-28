@@ -1,0 +1,179 @@
+{
+  "key": "fda1d21c7776901d15646fdbc676a2080922c615",
+  "name": "Nicholas Kuffel",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "POW",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 599626740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "POW",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 516272230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "POW",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 38037530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17846180,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 13687890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7640650,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 18864580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 49158510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 44000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "POW",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1903176780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "POW",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 13881640,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "POW",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2808430,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.515",
+      "num_matches": 4,
+      "ppm": "4.250",
+      "points": {
+        "won": 17,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

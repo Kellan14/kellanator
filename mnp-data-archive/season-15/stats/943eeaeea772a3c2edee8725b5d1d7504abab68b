@@ -1,0 +1,179 @@
+{
+  "key": "943eeaeea772a3c2edee8725b5d1d7504abab68b",
+  "name": "Shawnna Kenney",
+  "history": [
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 1,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 242236570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 15295670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 2378830,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "OLD",
+      "opp": "DTP",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 56497180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "DTP",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 14358140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "DTP",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 39942730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 30512420,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 96853220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 60416930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "CDC",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 11815960,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "CDC",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 8992380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CDC",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 623150590,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.446",
+      "num_matches": 4,
+      "ppm": "3.625",
+      "points": {
+        "won": 14.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

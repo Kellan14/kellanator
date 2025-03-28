@@ -1,0 +1,431 @@
+{
+  "key": "2c3a00aa902587c41e2993b8f44e26d79c48b4d6",
+  "name": "Clare Green",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 311310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 738300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 4,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 163270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "POW",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 141008270,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "POW",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 129890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "POW",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 8749860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 5260720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 2185090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 134040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 90630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 3,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1320160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 42355010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 9714410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 35799630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 5031350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 31056830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 3,
+      "machine": "FHRN",
+      "division": 0,
+      "score": 1349080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "BOPP",
+      "division": 0,
+      "score": 10960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 79582440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 36471830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 6146680,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 130458540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 303900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 102091240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 30760880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 127140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 139711370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-20-8-TWC-HHS",
+      "week": "8",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 1498590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-20-8-TWC-HHS",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 632429490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-20-8-TWC-HHS",
+      "week": "8",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 82620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ETB",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 8958600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "ETB",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4409490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "ETB",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 95275230,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.366",
+      "num_matches": 11,
+      "ppm": "3.000",
+      "points": {
+        "won": 33,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

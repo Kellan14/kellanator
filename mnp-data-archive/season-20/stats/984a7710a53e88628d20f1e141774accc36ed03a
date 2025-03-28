@@ -1,0 +1,395 @@
+{
+  "key": "984a7710a53e88628d20f1e141774accc36ed03a",
+  "name": "Misha Alexeeff",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-20-1-SSD-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 885057010,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-20-1-SSD-SKP",
+      "week": "1",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 12267980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-20-1-SSD-SKP",
+      "week": "1",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 1860730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-20-10-SKP-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 29564810,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-20-10-SKP-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 23998400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-20-10-SKP-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 330640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "POW",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 77850,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "POW",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 3,
+      "machine": "JB60",
+      "division": 0,
+      "score": 2983,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "POW",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 57059790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 141890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 208200930,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 395060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "ADB",
+      "match": "mnp-20-4-SKP-ADB",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 49177320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "ADB",
+      "match": "mnp-20-4-SKP-ADB",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10810780,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "ADB",
+      "match": "mnp-20-4-SKP-ADB",
+      "week": "4",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 5194930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PYC",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 571090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "PYC",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 3465590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "PYC",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 4327000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "TBT",
+      "match": "mnp-20-6-SKP-TBT",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 11238540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "TBT",
+      "match": "mnp-20-6-SKP-TBT",
+      "week": "6",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13642280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "TBT",
+      "match": "mnp-20-6-SKP-TBT",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 43160850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 4283280,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 5478470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 265530,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "DSV",
+      "match": "mnp-20-8-SKP-DSV",
+      "week": "8",
+      "round": 1,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 96490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "DSV",
+      "match": "mnp-20-8-SKP-DSV",
+      "week": "8",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 296730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "DSV",
+      "match": "mnp-20-8-SKP-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 437560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "RMS",
+      "match": "mnp-20-9-RMS-SKP",
+      "week": "9",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 505620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "RMS",
+      "match": "mnp-20-9-RMS-SKP",
+      "week": "9",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 1999590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "RMS",
+      "match": "mnp-20-9-RMS-SKP",
+      "week": "9",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 2798630,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.475",
+      "num_matches": 10,
+      "ppm": "3.800",
+      "points": {
+        "won": 38,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

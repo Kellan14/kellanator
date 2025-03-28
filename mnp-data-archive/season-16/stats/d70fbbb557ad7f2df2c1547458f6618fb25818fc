@@ -1,0 +1,395 @@
+{
+  "key": "d70fbbb557ad7f2df2c1547458f6618fb25818fc",
+  "name": "Jared Baldridge",
+  "history": [
+    {
+      "team": "BOC",
+      "opp": "ETB",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 85380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "ETB",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 900178970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "ETB",
+      "match": "mnp-16-1-BOC-ETB",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 85690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PKT",
+      "match": "mnp-16-10-PKT-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 8687460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PKT",
+      "match": "mnp-16-10-PKT-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 12481770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PKT",
+      "match": "mnp-16-10-PKT-BOC",
+      "week": "10",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 312020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 7252880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 6459620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 2100000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "HHS",
+      "match": "mnp-16-2-HHS-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 4274040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "HHS",
+      "match": "mnp-16-2-HHS-BOC",
+      "week": "2",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1741950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "HHS",
+      "match": "mnp-16-2-HHS-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 11272490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DIH",
+      "match": "mnp-16-3-BOC-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 92360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DIH",
+      "match": "mnp-16-3-BOC-DIH",
+      "week": "3",
+      "round": 3,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 36700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DIH",
+      "match": "mnp-16-3-BOC-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 9996360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SCN",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 236060,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "SCN",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 449330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SCN",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 2688390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PBR",
+      "match": "mnp-16-6-BOC-PBR",
+      "week": "6",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 25412590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PBR",
+      "match": "mnp-16-6-BOC-PBR",
+      "week": "6",
+      "round": 3,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 260230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "PBR",
+      "match": "mnp-16-6-BOC-PBR",
+      "week": "6",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 35254000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "CFB",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 1222990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CFB",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 809370,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CFB",
+      "match": "mnp-16-7-CFB-BOC",
+      "week": "7",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 1756590,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "BOC",
+      "opp": "JMF",
+      "match": "mnp-16-8-JMF-BOC",
+      "week": "8",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 3232430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "JMF",
+      "match": "mnp-16-8-JMF-BOC",
+      "week": "8",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 19189010,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "JMF",
+      "match": "mnp-16-8-JMF-BOC",
+      "week": "8",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 474980,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-16-9-BOC-CDC",
+      "week": "9",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 13720670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-16-9-BOC-CDC",
+      "week": "9",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 59460540,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "CDC",
+      "match": "mnp-16-9-BOC-CDC",
+      "week": "9",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 96289500,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.664",
+      "num_matches": 10,
+      "ppm": "5.550",
+      "points": {
+        "won": 55.5,
+        "of": 83.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

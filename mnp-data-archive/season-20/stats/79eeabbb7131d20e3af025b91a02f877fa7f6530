@@ -1,0 +1,371 @@
+{
+  "key": "79eeabbb7131d20e3af025b91a02f877fa7f6530",
+  "name": "Curtis Granger",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-20-1-PGN-SHK",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 32222970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-20-1-PGN-SHK",
+      "week": "1",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 139460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-20-1-PGN-SHK",
+      "week": "1",
+      "round": 4,
+      "machine": "TBL",
+      "division": 0,
+      "score": 1210860,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "RTR",
+      "match": "mnp-20-10-RTR-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 38614260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "RTR",
+      "match": "mnp-20-10-RTR-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "TBL",
+      "division": 0,
+      "score": 623820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "RTR",
+      "match": "mnp-20-10-RTR-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "TBL",
+      "division": 0,
+      "score": 2697880,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SHK",
+      "opp": "CFB",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 1,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 87780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CFB",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 45450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "CFB",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 3,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 196050,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "SSD",
+      "match": "mnp-20-3-SSD-SHK",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 2500000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SSD",
+      "match": "mnp-20-3-SSD-SHK",
+      "week": "3",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 19118150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "SSD",
+      "match": "mnp-20-3-SSD-SHK",
+      "week": "3",
+      "round": 4,
+      "machine": "TBL",
+      "division": 0,
+      "score": 974390,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-20-4-SHK-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 3126350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-20-4-SHK-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 100630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-20-4-SHK-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 69880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "TTT",
+      "match": "mnp-20-5-TTT-SHK",
+      "week": "5",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 109430,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SHK",
+      "opp": "TTT",
+      "match": "mnp-20-5-TTT-SHK",
+      "week": "5",
+      "round": 2,
+      "machine": "TBL",
+      "division": 0,
+      "score": 1035540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "TTT",
+      "match": "mnp-20-5-TTT-SHK",
+      "week": "5",
+      "round": 4,
+      "machine": "Whirlwind",
+      "division": 0,
+      "score": 9230780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PKT",
+      "match": "mnp-20-6-SHK-PKT",
+      "week": "6",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3226653710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CRA",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 9914480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CRA",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 14132420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CRA",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 106130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 1412700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 66730460,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 229180,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "NLT",
+      "match": "mnp-20-9-SHK-NLT",
+      "week": "9",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3864770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "NLT",
+      "match": "mnp-20-9-SHK-NLT",
+      "week": "9",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 14765880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "NLT",
+      "match": "mnp-20-9-SHK-NLT",
+      "week": "9",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 6675770,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.357",
+      "num_matches": 10,
+      "ppm": "2.700",
+      "points": {
+        "won": 27,
+        "of": 75.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

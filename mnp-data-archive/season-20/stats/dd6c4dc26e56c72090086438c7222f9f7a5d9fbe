@@ -1,0 +1,179 @@
+{
+  "key": "dd6c4dc26e56c72090086438c7222f9f7a5d9fbe",
+  "name": "Jul Perri",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 1467810,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 2,
+      "machine": "CSI",
+      "division": 0,
+      "score": 8529650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSD",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 12610870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "POW",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "SC",
+      "division": 0,
+      "score": 511350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "POW",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 3126130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "POW",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 19442430,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 13532980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 34849270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 29572500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PYC",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 15710360,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PYC",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 15715150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "PYC",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 8074290,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.562",
+      "num_matches": 4,
+      "ppm": "4.500",
+      "points": {
+        "won": 18,
+        "of": 32
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

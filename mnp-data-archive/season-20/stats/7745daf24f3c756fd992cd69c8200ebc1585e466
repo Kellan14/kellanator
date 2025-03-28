@@ -1,0 +1,143 @@
+{
+  "key": "7745daf24f3c756fd992cd69c8200ebc1585e466",
+  "name": "Josh Samson",
+  "history": [
+    {
+      "team": "ADB",
+      "opp": "FBS",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 2,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 1054268830,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "FBS",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 3,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 1581238390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "FBS",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 4,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 934940330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-20-13-ADB-PBR",
+      "week": "13",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 437958370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-20-13-ADB-PBR",
+      "week": "13",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 70950860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-20-13-ADB-PBR",
+      "week": "13",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 81300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "RMS",
+      "match": "mnp-20-2-RMS-ADB",
+      "week": "2",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 13331520,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "RMS",
+      "match": "mnp-20-2-RMS-ADB",
+      "week": "2",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 50661250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "RMS",
+      "match": "mnp-20-2-RMS-ADB",
+      "week": "2",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 52680080,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.571",
+      "num_matches": 3,
+      "ppm": "4.666",
+      "points": {
+        "won": 14,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

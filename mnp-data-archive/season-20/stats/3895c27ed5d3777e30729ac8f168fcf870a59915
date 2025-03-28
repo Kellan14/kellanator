@@ -1,0 +1,179 @@
+{
+  "key": "3895c27ed5d3777e30729ac8f168fcf870a59915",
+  "name": "Jason Uritescu",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "FBP",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 6004030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBP",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 12640620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBP",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 37937490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 2,
+      "machine": "TS",
+      "division": 0,
+      "score": 433170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 3,
+      "machine": "JB60",
+      "division": 0,
+      "score": 2667,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SHK",
+      "match": "mnp-20-2-SHK-CFB",
+      "week": "2",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 5227940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "ICB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 63489150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "ICB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 3188000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "ICB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 12682340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SKP",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1611120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SKP",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 3,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 9000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "SKP",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 2364560,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.500",
+      "num_matches": 4,
+      "ppm": "4.125",
+      "points": {
+        "won": 16.5,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

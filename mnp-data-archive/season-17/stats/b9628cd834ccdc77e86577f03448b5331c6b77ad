@@ -1,0 +1,395 @@
+{
+  "key": "b9628cd834ccdc77e86577f03448b5331c6b77ad",
+  "name": "Sam Atlas",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "CRA",
+      "match": "mnp-17-1-CRA-JMF",
+      "week": "1",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 9535640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "CRA",
+      "match": "mnp-17-1-CRA-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 12054890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "CRA",
+      "match": "mnp-17-1-CRA-JMF",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 99045320,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14375740,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 57212150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 11261240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SKP",
+      "match": "mnp-17-2-JMF-SKP",
+      "week": "2",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 18176180,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "SKP",
+      "match": "mnp-17-2-JMF-SKP",
+      "week": "2",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 31068880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "SKP",
+      "match": "mnp-17-2-JMF-SKP",
+      "week": "2",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 10060540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "HHS",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 135995650,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "HHS",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13414420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "HHS",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 72159800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DIH",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 165910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DIH",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 6402890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DIH",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 68480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-17-5-TWC-JMF",
+      "week": "5",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 49178490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-17-5-TWC-JMF",
+      "week": "5",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 10744040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-17-5-TWC-JMF",
+      "week": "5",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 40413820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-17-6-JMF-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 54532580,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-17-6-JMF-SCN",
+      "week": "6",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 71000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-17-6-JMF-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 37000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SWL",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12446150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SWL",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 656908110,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "SWL",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 31799330,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-17-8-PBR-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 354056540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-17-8-PBR-JMF",
+      "week": "8",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 70975490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-17-8-PBR-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 142430,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "TBT",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 19264210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TBT",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 2,
+      "machine": "XMen",
+      "division": 0,
+      "score": 3764170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "TBT",
+      "match": "mnp-17-9-JMF-TBT",
+      "week": "9",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 101558410,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.469",
+      "num_matches": 10,
+      "ppm": "3.850",
+      "points": {
+        "won": 38.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

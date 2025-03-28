@@ -1,0 +1,287 @@
+{
+  "key": "5897b6ea3b27194fe5a4cd39635390529cb11d67",
+  "name": "Jenny Pickens",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 2403150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 11076670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 4,
+      "machine": "BOP",
+      "division": 0,
+      "score": 3623090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 28804810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1039460,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "NMC",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 29459190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 141620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 75010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 301030,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 128363900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4002140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 2067080,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 201450,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 94540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 302120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 702259480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 1189910,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-20-5-HHS-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 242420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-20-7-HHS-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5768490,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-20-7-HHS-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 2708600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-20-7-HHS-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 210600,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.342",
+      "num_matches": 7,
+      "ppm": "2.785",
+      "points": {
+        "won": 19.5,
+        "of": 57
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

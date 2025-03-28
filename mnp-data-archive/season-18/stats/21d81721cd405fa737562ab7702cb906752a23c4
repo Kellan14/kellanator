@@ -1,0 +1,287 @@
+{
+  "key": "21d81721cd405fa737562ab7702cb906752a23c4",
+  "name": "DJ Youngblood",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "POW",
+      "match": "mnp-18-1-POW-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 6696800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "POW",
+      "match": "mnp-18-1-POW-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 35457010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "POW",
+      "match": "mnp-18-1-POW-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 7712250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 13336460,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 1635900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-18-10-CDC-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 11939570,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10519220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 29899160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DSV",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 48955880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4030000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 26000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-18-4-CDC-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "Rush",
+      "division": 0,
+      "score": 11762150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "TBT",
+      "match": "mnp-18-5-TBT-CDC",
+      "week": "5",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 5965110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TBT",
+      "match": "mnp-18-5-TBT-CDC",
+      "week": "5",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12613290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TBT",
+      "match": "mnp-18-5-TBT-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3229450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 47341020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4650000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 24580790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 11309200,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 9269650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4090810,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.307",
+      "num_matches": 7,
+      "ppm": "2.571",
+      "points": {
+        "won": 18,
+        "of": 58.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

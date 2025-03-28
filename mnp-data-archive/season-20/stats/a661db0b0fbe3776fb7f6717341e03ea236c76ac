@@ -1,0 +1,143 @@
+{
+  "key": "a661db0b0fbe3776fb7f6717341e03ea236c76ac",
+  "name": "Tre Dauenhauer",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "BOPP",
+      "division": 0,
+      "score": 46030,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 5281650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-20-3-HHS-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "BOPP",
+      "division": 0,
+      "score": 29260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 15957920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 1404590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-20-4-SWL-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 63130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 741750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 2702910,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "FBS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 15577300,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.122",
+      "num_matches": 3,
+      "ppm": "1.000",
+      "points": {
+        "won": 3,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

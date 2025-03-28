@@ -1,0 +1,359 @@
+{
+  "key": "a4ddb3e1951a456861f83242bb5e9b8837c747d0",
+  "name": "Val Gaifoulline",
+  "history": [
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "SC",
+      "division": 0,
+      "score": 1347580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 12140460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 213253260,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "POW",
+      "opp": "HHS",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 44565880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "HHS",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 51490570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "HHS",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 32953730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 190850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 54200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 18219370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1240200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 457550,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 3975500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "CPO",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 15578700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "CPO",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 373910,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "CPO",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 4,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 379620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DTP",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 487110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DTP",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 187030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "DTP",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 4,
+      "machine": "GTF",
+      "division": 0,
+      "score": 36275140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "DIH",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "SC",
+      "division": 0,
+      "score": 338680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "DIH",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "SC",
+      "division": 0,
+      "score": 1252080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "DIH",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 446810890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 584600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1594670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 108400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-20-9-DSV-POW",
+      "week": "9",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 294990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-20-9-DSV-POW",
+      "week": "9",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 6720100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-20-9-DSV-POW",
+      "week": "9",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 20801000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.432",
+      "num_matches": 9,
+      "ppm": "3.555",
+      "points": {
+        "won": 32,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

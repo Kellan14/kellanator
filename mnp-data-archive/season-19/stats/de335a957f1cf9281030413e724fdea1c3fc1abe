@@ -1,0 +1,359 @@
+{
+  "key": "de335a957f1cf9281030413e724fdea1c3fc1abe",
+  "name": "Andrew Stauffer",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 26061000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 62450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 7482720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "Theater of magic",
+      "division": 0,
+      "score": 204710230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 333500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "Theater of magic",
+      "division": 0,
+      "score": 140000060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 248085030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 29000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 4,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 544000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 65940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 3780960,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 27234110,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 169067410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 13661570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 31032900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 59830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 94584010,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "James Bond '007",
+      "division": 0,
+      "score": 15626650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 32746860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 10811968,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "CDC",
+      "match": "mnp-19-6-FBS-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 7232420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 37210450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 18021930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6300000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 8675590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 28000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 18724960,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.326",
+      "num_matches": 9,
+      "ppm": "2.666",
+      "points": {
+        "won": 24,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

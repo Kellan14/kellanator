@@ -1,0 +1,179 @@
+{
+  "key": "98326b585dcf615cb04751c475b9c754240a84bd",
+  "name": "Hayden McCabe",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "SHK",
+      "match": "mnp-18-10-SHK-PBR",
+      "week": "10",
+      "round": 1,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 616560,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "SHK",
+      "match": "mnp-18-10-SHK-PBR",
+      "week": "10",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 354380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "SHK",
+      "match": "mnp-18-10-SHK-PBR",
+      "week": "10",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 94900450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-18-11-PGN-PBR",
+      "week": "11",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 61382000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-18-11-PGN-PBR",
+      "week": "11",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 104700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-18-11-PGN-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16983930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 208100550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 259890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 154177200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-18-2-PBR-ADB",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12069980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-18-2-PBR-ADB",
+      "week": "2",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 99751460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "ADB",
+      "match": "mnp-18-2-PBR-ADB",
+      "week": "2",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7929850,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.575",
+      "num_matches": 4,
+      "ppm": "4.750",
+      "points": {
+        "won": 19,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "key": "5f8224cb8440f99b5b8e7f607ea2b66a1a22c1a6",
+  "name": "Brad Hayden",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 3675610,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 92279610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 7890430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 7880390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 26063290,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 70000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 6200000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1104799330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1985054020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 28240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 71000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 18020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2078789700,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 1081200,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1697959590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 17370,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 58052680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 51570,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6074760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 58630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 24182720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CFB",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2239433190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CFB",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 2,
+      "machine": "Pharaoh",
+      "division": 0,
+      "score": 579040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "CFB",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2158942620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14878920,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 37870,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 11993710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4651280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5518240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 263520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 22996080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 31564290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 172380,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.478",
+      "num_matches": 11,
+      "ppm": "4.000",
+      "points": {
+        "won": 44,
+        "of": 92
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

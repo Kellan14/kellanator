@@ -1,0 +1,227 @@
+{
+  "key": "d491094f6b30d6eb67ff3d38d0f44a866846613a",
+  "name": "Sean Bray",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "TTT",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 2,
+      "machine": "JM",
+      "division": 0,
+      "score": 229594550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TTT",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 4193180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TTT",
+      "match": "mnp-17-1-TTT-NMC",
+      "week": "1",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 7067950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "DTP",
+      "match": "mnp-17-2-NMC-DTP",
+      "week": "2",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2889402800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "DTP",
+      "match": "mnp-17-2-NMC-DTP",
+      "week": "2",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 59220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "DTP",
+      "match": "mnp-17-2-NMC-DTP",
+      "week": "2",
+      "round": 3,
+      "machine": "POTC",
+      "division": 0,
+      "score": 3289660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "DTP",
+      "match": "mnp-17-2-NMC-DTP",
+      "week": "2",
+      "round": 4,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 477160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "JM",
+      "division": 0,
+      "score": 262530750,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 7476880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 3,
+      "machine": "JM",
+      "division": 0,
+      "score": 276341680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 1,
+      "machine": "JM",
+      "division": 0,
+      "score": 359054410,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 315595400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SHK",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 412152650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 20580590,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 184667970,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 179081020,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.295",
+      "num_matches": 5,
+      "ppm": "2.600",
+      "points": {
+        "won": 13,
+        "of": 44
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

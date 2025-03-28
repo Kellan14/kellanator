@@ -1,0 +1,323 @@
+{
+  "key": "c5a4a7a75671cfdf8118ad2ad48805716491b6bf",
+  "name": "Eric Chambers",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 42000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 106084420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-17-10-NMC-RMS",
+      "week": "10",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 230568240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7470550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5923340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 95776810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 18403380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 4619740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 52527660,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 186250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 189807470,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 60263280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 62791230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 71539690,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-17-6-KNR-RMS",
+      "week": "6",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 46371470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "PYC",
+      "match": "mnp-17-7-RMS-PYC",
+      "week": "7",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 12293740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PYC",
+      "match": "mnp-17-7-RMS-PYC",
+      "week": "7",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 14261510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PYC",
+      "match": "mnp-17-7-RMS-PYC",
+      "week": "7",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 63957910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 30944720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 35735580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-17-8-SHK-RMS",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 93856930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-17-9-RMS-TTT",
+      "week": "9",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 55989960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-17-9-RMS-TTT",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 25314320,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-17-9-RMS-TTT",
+      "week": "9",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 153283900,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.519",
+      "num_matches": 8,
+      "ppm": "4.250",
+      "points": {
+        "won": 34,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

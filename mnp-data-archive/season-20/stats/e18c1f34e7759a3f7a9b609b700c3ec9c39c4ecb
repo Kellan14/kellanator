@@ -1,0 +1,359 @@
+{
+  "key": "e18c1f34e7759a3f7a9b609b700c3ec9c39c4ecb",
+  "name": "Eva Ngo",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 8057100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 21646750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 4,
+      "machine": "EJ",
+      "division": 0,
+      "score": 14787030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4076190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 3,
+      "machine": "VEN",
+      "division": 0,
+      "score": 3000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 67580,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 751580,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 611300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 119970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 1451270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 41447100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 91665200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5861780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 19421010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 149110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 13336350,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 3992690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4609690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 33711230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "Shrek",
+      "division": 0,
+      "score": 3049590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 17621290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 17545380,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 17560450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 104770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 45785210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 21136970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 24228830,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.312",
+      "num_matches": 9,
+      "ppm": "2.555",
+      "points": {
+        "won": 23,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

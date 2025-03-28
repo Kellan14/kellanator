@@ -1,0 +1,395 @@
+{
+  "key": "298d667fda0a06b5e239b6a17ca9a54bf5de4eed",
+  "name": "Katherine Chaos MacLeod",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 5911950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 6308720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 18753720,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "Genie",
+      "division": 0,
+      "score": 225820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 17504460,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 15058100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 4188680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 60910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 2,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 63900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 50762850,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 524800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 3,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 338700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 4,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 222800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 446020,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 192630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 4463620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 8613600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-14-6-SCN-NLT",
+      "week": "6",
+      "round": 1,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3690280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-14-6-SCN-NLT",
+      "week": "6",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 668400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-14-6-SCN-NLT",
+      "week": "6",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1386390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-14-7-SCN-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 309999740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-14-7-SCN-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 15567400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-14-7-SCN-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 9822320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-14-7-SCN-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 6733610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 114950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 28879450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 4072610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 22034260,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "RS",
+      "division": 0,
+      "score": 509059020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 4,
+      "machine": "Stars",
+      "division": 0,
+      "score": 16750,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.453",
+      "num_matches": 9,
+      "ppm": "4.111",
+      "points": {
+        "won": 37,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

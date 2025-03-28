@@ -1,0 +1,443 @@
+{
+  "key": "3534d6fb659e3949533cd6cf1dc69941fa7a52e2",
+  "name": "Claire Burke",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-20-1-PKT-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 13769680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-20-1-PKT-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 87775870,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-20-1-PKT-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 28965000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 73169360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 9613830,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "ICB",
+      "match": "mnp-20-10-SCN-ICB",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 36878130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-20-11-SCN-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 6675860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-20-11-SCN-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 56709900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-20-11-SCN-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 127421970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 1,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 3067080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 12283540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 46000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 121773160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 14026560,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 54860480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 22122570,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 10495430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 34243820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 52617770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 15320090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 38861330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 169769940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 2,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 79080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 80000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 4,
+      "machine": "LAB",
+      "division": 0,
+      "score": 1368130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSD",
+      "match": "mnp-20-7-SSD-SCN",
+      "week": "7",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 58484240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSD",
+      "match": "mnp-20-7-SSD-SCN",
+      "week": "7",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 2417480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSD",
+      "match": "mnp-20-7-SSD-SCN",
+      "week": "7",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 14000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NMC",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 58949220,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "NMC",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 48506130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NMC",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 33640930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 80759610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 87885200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-20-9-CDC-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 146521590,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.491",
+      "num_matches": 11,
+      "ppm": "4.181",
+      "points": {
+        "won": 46,
+        "of": 93.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

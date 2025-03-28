@@ -1,0 +1,287 @@
+{
+  "key": "1fcee120c8c8747f43022878ec38239ba613b791",
+  "name": "Matt Ramey",
+  "history": [
+    {
+      "team": "POW",
+      "opp": "SCN",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 22483570,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "SCN",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 23446360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "SCN",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1627000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "ETB",
+      "match": "mnp-21-2-ETB-POW",
+      "week": "2",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1663690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "ETB",
+      "match": "mnp-21-2-ETB-POW",
+      "week": "2",
+      "round": 3,
+      "machine": "Uncanny X-men",
+      "division": 0,
+      "score": 18355490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "ETB",
+      "match": "mnp-21-2-ETB-POW",
+      "week": "2",
+      "round": 4,
+      "machine": "TS",
+      "division": 0,
+      "score": 3547640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "TBT",
+      "match": "mnp-21-3-POW-TBT",
+      "week": "3",
+      "round": 2,
+      "machine": "EJ",
+      "division": 0,
+      "score": 101587000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "TBT",
+      "match": "mnp-21-3-POW-TBT",
+      "week": "3",
+      "round": 3,
+      "machine": "EJ",
+      "division": 0,
+      "score": 33951680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "TBT",
+      "match": "mnp-21-3-POW-TBT",
+      "week": "3",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1145150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 260340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 21450010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 4,
+      "machine": "Genesis",
+      "division": 0,
+      "score": 2828000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-21-5-POW-NMC",
+      "week": "5",
+      "round": 2,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 27794510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-21-5-POW-NMC",
+      "week": "5",
+      "round": 3,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 98540050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NMC",
+      "match": "mnp-21-5-POW-NMC",
+      "week": "5",
+      "round": 4,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 20228,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 2,
+      "machine": "TS",
+      "division": 0,
+      "score": 1123210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 524140,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-21-6-LAS-POW",
+      "week": "6",
+      "round": 4,
+      "machine": "Genesis",
+      "division": 0,
+      "score": 296000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-21-7-SSS-POW",
+      "week": "7",
+      "round": 1,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1705720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-21-7-SSS-POW",
+      "week": "7",
+      "round": 3,
+      "machine": "TS",
+      "division": 0,
+      "score": 2769210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-21-7-SSS-POW",
+      "week": "7",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 4907130,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.576",
+      "num_matches": 7,
+      "ppm": "4.857",
+      "points": {
+        "won": 34,
+        "of": 59
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

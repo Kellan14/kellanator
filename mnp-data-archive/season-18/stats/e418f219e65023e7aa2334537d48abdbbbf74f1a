@@ -1,0 +1,323 @@
+{
+  "key": "e418f219e65023e7aa2334537d48abdbbbf74f1a",
+  "name": "Alicia Seftel",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 24794250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1820043450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 35729870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 47722940,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 88680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 145750,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 11665440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 50980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 51210690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 44378250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1749315370,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 23701050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1821084140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 2,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 11598810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 41995230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 1,
+      "machine": "SNS",
+      "division": 0,
+      "score": 147940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 3,
+      "machine": "SNS",
+      "division": 0,
+      "score": 132040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 328449120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 2008560,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 27010090,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 45618550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 42748740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 9818210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 16081040,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.476",
+      "num_matches": 8,
+      "ppm": "3.875",
+      "points": {
+        "won": 31,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "key": "d14eb41bb5980596b75dcd81463b20465242756e",
+  "name": "Neil Kubath",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 167194790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1434189240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 355586850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 50038870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 600000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 6081400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-17-12-PKT-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 12373680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-17-12-PKT-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1884110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-17-12-PKT-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 24934450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-17-13-PBR-NLT",
+      "week": "13",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 135056650,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-17-13-PBR-NLT",
+      "week": "13",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 135121930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-17-13-PBR-NLT",
+      "week": "13",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 138266830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-17-14-DTP-NLT",
+      "week": "14",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 16580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-17-14-DTP-NLT",
+      "week": "14",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 15640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-17-14-DTP-NLT",
+      "week": "14",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 87268500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "BOC",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 11938340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "BOC",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "XMen",
+      "division": 0,
+      "score": 17243550,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "BOC",
+      "match": "mnp-17-2-NLT-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "24",
+      "division": 0,
+      "score": 8654850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 59245900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 80614190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 511836880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 130000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 25000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 128019940,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-17-6-NLT-DTP",
+      "week": "6",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 16651470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-17-6-NLT-DTP",
+      "week": "6",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 5,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-17-6-NLT-DTP",
+      "week": "6",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 304050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 125996690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 3,
+      "machine": "CV",
+      "division": 0,
+      "score": 3796369,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 18342150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "KNR",
+      "match": "mnp-17-8-KNR-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 131168770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "KNR",
+      "match": "mnp-17-8-KNR-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 30000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "KNR",
+      "match": "mnp-17-8-KNR-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 382106660,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.562",
+      "num_matches": 11,
+      "ppm": "4.500",
+      "points": {
+        "won": 49.5,
+        "of": 88
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

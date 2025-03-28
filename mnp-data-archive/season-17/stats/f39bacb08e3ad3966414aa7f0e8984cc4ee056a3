@@ -1,0 +1,107 @@
+{
+  "key": "f39bacb08e3ad3966414aa7f0e8984cc4ee056a3",
+  "name": "Jonathan Figueroa",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 55030,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 3,
+      "machine": "Tommy",
+      "division": 0,
+      "score": 32616610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "Stargate",
+      "division": 0,
+      "score": 137226670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 13024150,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 43802220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 4112350,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.454",
+      "num_matches": 2,
+      "ppm": "3.750",
+      "points": {
+        "won": 7.5,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

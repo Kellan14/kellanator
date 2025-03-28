@@ -1,0 +1,395 @@
+{
+  "key": "d5ec5a17a62f72bd2c998e6657d4c1def5a7cdd3",
+  "name": "Hunter Vogt",
+  "history": [
+    {
+      "team": "PYC",
+      "opp": "CFB",
+      "match": "mnp-19-1-CFB-PYC",
+      "week": "1",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 276452790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "CFB",
+      "match": "mnp-19-1-CFB-PYC",
+      "week": "1",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 7625700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "CFB",
+      "match": "mnp-19-1-CFB-PYC",
+      "week": "1",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 362457250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 69000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 28606830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 10556830,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSD",
+      "match": "mnp-19-2-PYC-SSD",
+      "week": "2",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 2476860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSD",
+      "match": "mnp-19-2-PYC-SSD",
+      "week": "2",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 41632750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSD",
+      "match": "mnp-19-2-PYC-SSD",
+      "week": "2",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 20993480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 309124680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 5016510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 207875220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TTT",
+      "match": "mnp-19-4-PYC-TTT",
+      "week": "4",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 2726000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TTT",
+      "match": "mnp-19-4-PYC-TTT",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 10417390,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "TTT",
+      "match": "mnp-19-4-PYC-TTT",
+      "week": "4",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1434774320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "RTR",
+      "match": "mnp-19-5-RTR-PYC",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 13682240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "RTR",
+      "match": "mnp-19-5-RTR-PYC",
+      "week": "5",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9811950,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "RTR",
+      "match": "mnp-19-5-RTR-PYC",
+      "week": "5",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1018217960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 84270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5750730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 41743850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "JMF",
+      "match": "mnp-19-7-JMF-PYC",
+      "week": "7",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 274442670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "JMF",
+      "match": "mnp-19-7-JMF-PYC",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 9391400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "JMF",
+      "match": "mnp-19-7-JMF-PYC",
+      "week": "7",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 246000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSS",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 484700,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSS",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 9000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSS",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1295960470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PGN",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 12844860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PGN",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 2,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 34322810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "PGN",
+      "match": "mnp-19-9-PGN-PYC",
+      "week": "9",
+      "round": 4,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 79594480,
+      "points": 2,
+      "pops": "0.800"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.354",
+      "num_matches": 10,
+      "ppm": "2.850",
+      "points": {
+        "won": 28.5,
+        "of": 80.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

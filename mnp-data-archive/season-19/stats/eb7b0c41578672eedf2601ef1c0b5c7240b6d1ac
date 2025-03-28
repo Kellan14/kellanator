@@ -1,0 +1,359 @@
+{
+  "key": "eb7b0c41578672eedf2601ef1c0b5c7240b6d1ac",
+  "name": "Joe Ricci",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "ETB",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 196010370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "ETB",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 186941210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ETB",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 27278210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 33681780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 76844730,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 46226780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 490140410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 8619040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 95495430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PYC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 20507420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "PYC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 194289560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PYC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 45773850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "TBT",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 57414050,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "TBT",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 202224740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TBT",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 44358460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-19-5-NMC-KNR",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 223520330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-19-5-NMC-KNR",
+      "week": "5",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 61624060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "KNR",
+      "match": "mnp-19-5-NMC-KNR",
+      "week": "5",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 46033860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 830241550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 221005400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 523533170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 92659900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 127728320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 27514320,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "POW",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 61321180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "POW",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 349306400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "POW",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 171000000,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.695",
+      "num_matches": 9,
+      "ppm": "5.722",
+      "points": {
+        "won": 51.5,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

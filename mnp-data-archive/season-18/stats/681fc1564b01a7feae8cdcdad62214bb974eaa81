@@ -1,0 +1,143 @@
+{
+  "key": "681fc1564b01a7feae8cdcdad62214bb974eaa81",
+  "name": "Karla Salinas Retama",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 154000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 9229910,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-18-4-SCN-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 29000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-18-7-SCN-TBT",
+      "week": "7",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 290720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-18-7-SCN-TBT",
+      "week": "7",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 6000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-18-7-SCN-TBT",
+      "week": "7",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 7612000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-18-9-SCN-SHK",
+      "week": "9",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 5389830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-18-9-SCN-SHK",
+      "week": "9",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 155350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-18-9-SCN-SHK",
+      "week": "9",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 112300,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.469",
+      "num_matches": 3,
+      "ppm": "3.833",
+      "points": {
+        "won": 11.5,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

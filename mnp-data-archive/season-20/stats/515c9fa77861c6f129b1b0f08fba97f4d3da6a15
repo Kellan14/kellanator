@@ -1,0 +1,143 @@
+{
+  "key": "515c9fa77861c6f129b1b0f08fba97f4d3da6a15",
+  "name": "Ariel Bedolla",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 24279580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 3000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 801000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 374758200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 198850,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 14833990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CPO",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 5144010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CPO",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 379080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "CPO",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1226640,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.408",
+      "num_matches": 3,
+      "ppm": "3.333",
+      "points": {
+        "won": 10,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

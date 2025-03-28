@@ -1,0 +1,287 @@
+{
+  "key": "ba77318287b251e294e9973be0ff010eff1643fb",
+  "name": "Marshall Denton",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "TBT",
+      "match": "mnp-21-1-TWC-TBT",
+      "week": "1",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 159833860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TBT",
+      "match": "mnp-21-1-TWC-TBT",
+      "week": "1",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 92604100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "TBT",
+      "match": "mnp-21-1-TWC-TBT",
+      "week": "1",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4171240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 256105610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 6341650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 20879480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 30848170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8371010,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 62902380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-21-4-LAS-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 617385620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-21-4-LAS-TWC",
+      "week": "4",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 235679130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-21-4-LAS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 409000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-21-5-TWC-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 247726570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-21-5-TWC-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 224756390,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-21-5-TWC-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 44029550,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 4314670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 152305680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 296110300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-21-7-SWL-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 460664820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-21-7-SWL-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 45288850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-21-7-SWL-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 27962700,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.447",
+      "num_matches": 7,
+      "ppm": "3.642",
+      "points": {
+        "won": 25.5,
+        "of": 57
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

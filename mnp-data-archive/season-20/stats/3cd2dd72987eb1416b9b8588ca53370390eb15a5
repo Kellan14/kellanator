@@ -1,0 +1,107 @@
+{
+  "key": "3cd2dd72987eb1416b9b8588ca53370390eb15a5",
+  "name": "Marisa Fulmer",
+  "history": [
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-20-12-NLT-ADB",
+      "week": "12",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 199760,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-20-12-NLT-ADB",
+      "week": "12",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 25424630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-20-12-NLT-ADB",
+      "week": "12",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 13122430,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBS",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 19883880,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBS",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 218930580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBS",
+      "match": "mnp-20-9-FBS-SWL",
+      "week": "9",
+      "round": 3,
+      "machine": "VEN",
+      "division": 0,
+      "score": 97694890,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.647",
+      "num_matches": 2,
+      "ppm": "5.500",
+      "points": {
+        "won": 11,
+        "of": 17
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

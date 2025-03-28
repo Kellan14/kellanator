@@ -1,0 +1,179 @@
+{
+  "key": "f5c6c80719b158ad70b4f573e0b0f7039ddf37e2",
+  "name": "Michael Gray",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-16-3-DTP-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 27505600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-16-3-DTP-PKT",
+      "week": "3",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 73425140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-16-3-DTP-PKT",
+      "week": "3",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 46188670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 141589360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 30917290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 13678560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 48552910,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 977966080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-16-5-CFB-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 42054910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-16-7-CDC-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6727490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-16-7-CDC-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 189009750,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-16-7-CDC-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 263193920,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.447",
+      "num_matches": 4,
+      "ppm": "3.750",
+      "points": {
+        "won": 15,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

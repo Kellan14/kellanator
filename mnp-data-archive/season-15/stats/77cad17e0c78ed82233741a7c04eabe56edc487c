@@ -1,0 +1,359 @@
+{
+  "key": "77cad17e0c78ed82233741a7c04eabe56edc487c",
+  "name": "Jay Sweeney",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 682739910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 606238920,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 90700490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 115397390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 27390860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 212070110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 30424020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 124506920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 131473330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 8164190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 12630910,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 73315840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 279220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 4000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1886970,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 109885250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 22306870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 219000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 365820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 45555750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 1888780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 1224923020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 132438570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 16458190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 253724580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 210422680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 131563840,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.712",
+      "num_matches": 9,
+      "ppm": "5.777",
+      "points": {
+        "won": 52,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

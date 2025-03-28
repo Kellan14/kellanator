@@ -1,0 +1,431 @@
+{
+  "key": "d003b01bc825d4f5f00cd29511a939f666634fce",
+  "name": "Hank Duhaime",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 35522040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 135800200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CRA",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 217810060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-20-10-RTR-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 9476200,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-20-10-RTR-SHK",
+      "week": "10",
+      "round": 3,
+      "machine": "WPT",
+      "division": 0,
+      "score": 20233370,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-20-10-RTR-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 264466500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-20-11-DSV-RTR",
+      "week": "11",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 71374880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-20-11-DSV-RTR",
+      "week": "11",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 7508620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-20-11-DSV-RTR",
+      "week": "11",
+      "round": 4,
+      "machine": "EJ",
+      "division": 0,
+      "score": 16499970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 388730,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 421690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 2103270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 5289450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 34244860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 160619700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 247660370,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 72250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17914230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-20-4-RTR-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "Shrek",
+      "division": 0,
+      "score": 8389080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-20-4-RTR-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 9310510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-20-4-RTR-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 67751640,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 7158130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 36220400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 124287980,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSD",
+      "match": "mnp-20-6-RTR-SSD",
+      "week": "6",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 21528020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSD",
+      "match": "mnp-20-6-RTR-SSD",
+      "week": "6",
+      "round": 3,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 10516670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSD",
+      "match": "mnp-20-6-RTR-SSD",
+      "week": "6",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 102027000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-20-8-RTR-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 4540640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-20-8-RTR-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 18079210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-20-8-RTR-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 10822060,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "ICB",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 1,
+      "machine": "EJ",
+      "division": 0,
+      "score": 38925970,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "ICB",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 4831800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "ICB",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8111750,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.562",
+      "num_matches": 11,
+      "ppm": "4.681",
+      "points": {
+        "won": 51.5,
+        "of": 91.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

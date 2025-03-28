@@ -1,0 +1,431 @@
+{
+  "key": "763f43a0e057d80c49e37006248777f7fa7ce04d",
+  "name": "Steve Hedback",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "FBS",
+      "match": "mnp-19-1-NLT-FBS",
+      "week": "1",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 408270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "FBS",
+      "match": "mnp-19-1-NLT-FBS",
+      "week": "1",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 6041630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "FBS",
+      "match": "mnp-19-1-NLT-FBS",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 25662780,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 41124350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 25242640,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 55907640,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 104990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 7373800,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 95000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CRA",
+      "match": "mnp-19-12-NLT-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 137430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CRA",
+      "match": "mnp-19-12-NLT-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 77810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CRA",
+      "match": "mnp-19-12-NLT-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 75520,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 148070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 32592330,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 49850600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 128000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 2,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 36600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 6772280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 4142270,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 191171820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 128056140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SWL",
+      "match": "mnp-19-5-NLT-SWL",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 161624650,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "SWL",
+      "match": "mnp-19-5-NLT-SWL",
+      "week": "5",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 10053090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SWL",
+      "match": "mnp-19-5-NLT-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 22156540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 8814320,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 49463060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 28719480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 139510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 101199450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 2461190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "Ali",
+      "division": 0,
+      "score": 33840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 127914530,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 300300,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.494",
+      "num_matches": 11,
+      "ppm": "4.181",
+      "points": {
+        "won": 46,
+        "of": 93
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

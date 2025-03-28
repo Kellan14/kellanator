@@ -1,0 +1,335 @@
+{
+  "key": "07ebb404cc00e5e0ee124c5be2f175a9797a7d4d",
+  "name": "Joshua Francis",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 9499860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 523667700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 247684070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 108780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 8934650,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1259070950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 259975700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSD",
+      "match": "mnp-21-3-SSD-CRA",
+      "week": "3",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 111466450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSD",
+      "match": "mnp-21-3-SSD-CRA",
+      "week": "3",
+      "round": 3,
+      "machine": "DND",
+      "division": 0,
+      "score": 400000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSD",
+      "match": "mnp-21-3-SSD-CRA",
+      "week": "3",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 294390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 187870,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 55997280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-21-4-CRA-DTP",
+      "week": "4",
+      "round": 4,
+      "machine": "POTC",
+      "division": 0,
+      "score": 13725200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 90691090,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 462560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 77962970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-21-5-SHK-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 165060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "SDND",
+      "division": 0,
+      "score": 12099860,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 13968760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 5810045240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CPO",
+      "match": "mnp-21-6-CRA-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 17076260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 414890560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 2,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 171210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 3,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 386580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "BAD",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 4,
+      "machine": "LAB",
+      "division": 0,
+      "score": 10606590,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.867",
+      "num_matches": 7,
+      "ppm": "8.428",
+      "points": {
+        "won": 59,
+        "of": 68
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

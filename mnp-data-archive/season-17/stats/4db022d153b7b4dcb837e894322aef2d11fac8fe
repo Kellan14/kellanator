@@ -1,0 +1,323 @@
+{
+  "key": "4db022d153b7b4dcb837e894322aef2d11fac8fe",
+  "name": "Nycole Hyatt",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-17-10-SSS-LAS",
+      "week": "10",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2436250,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-17-10-SSS-LAS",
+      "week": "10",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 187121080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-17-10-SSS-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 254857960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 39301000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 14000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 24300000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1008260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 45701580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 58417390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 2,
+      "machine": "LZ",
+      "division": 0,
+      "score": 9608050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 16511520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-17-5-RMS-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 50414530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 46693960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 2,
+      "machine": "LZ",
+      "division": 0,
+      "score": 166988870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 4,
+      "machine": "LZ",
+      "division": 0,
+      "score": 9771030,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "LZ",
+      "division": 0,
+      "score": 32712460,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 16000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 214842520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-17-8-SSS-TWC",
+      "week": "8",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 6825430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-17-8-SSS-TWC",
+      "week": "8",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 26685280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-17-8-SSS-TWC",
+      "week": "8",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 29461040,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "SHK",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 19341200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SHK",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 226241770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SHK",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 105163270,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.715",
+      "num_matches": 8,
+      "ppm": "5.812",
+      "points": {
+        "won": 46.5,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

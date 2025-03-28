@@ -1,0 +1,287 @@
+{
+  "key": "d54254fbee8a2516f33b0bb6392dee4336e2d847",
+  "name": "Max Stewart",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 34701880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 57350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 53717680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 5201100,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 523990,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 446000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "Corvette",
+      "division": 0,
+      "score": 465111850,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 8587580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Avatar",
+      "division": 0,
+      "score": 7528320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 10694670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 82970,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1004459310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 134758510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4941200,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 236150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 72270430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 446520,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 23663100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 100990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 62820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 196120,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.473",
+      "num_matches": 7,
+      "ppm": "3.857",
+      "points": {
+        "won": 27,
+        "of": 57
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

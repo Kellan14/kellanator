@@ -1,0 +1,383 @@
+{
+  "key": "2fe0a6ac28bc95f9d850d754d92a7460d49676ad",
+  "name": "Nick Lindsay",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 7019760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 79019970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 45048620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 446311720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 33746040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 24719180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 5980400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 56760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 127405370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 41410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 120967540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 27993470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 30772410,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 4801250,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 233500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 2,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 285593440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 3,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 127900880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 45692990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 4545390,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-14-5-SHK-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 7203420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-14-6-SCN-NLT",
+      "week": "6",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 8982610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-14-6-SCN-NLT",
+      "week": "6",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 79991930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-14-6-SCN-NLT",
+      "week": "6",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 4157870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 192955800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 82720850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-14-8-PGN-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 22859600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 687590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 1505600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 4,
+      "machine": "Stars",
+      "division": 0,
+      "score": 108420,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.581",
+      "num_matches": 9,
+      "ppm": "5.166",
+      "points": {
+        "won": 46.5,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

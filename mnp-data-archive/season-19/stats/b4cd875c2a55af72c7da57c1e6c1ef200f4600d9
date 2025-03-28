@@ -1,0 +1,395 @@
+{
+  "key": "b4cd875c2a55af72c7da57c1e6c1ef200f4600d9",
+  "name": "Nick Wold",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-19-10-KNR-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "Ali",
+      "division": 0,
+      "score": 619090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-19-10-KNR-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 675829990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-19-10-KNR-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 207564730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 52120050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1343496343,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 407193270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 177000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 43120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 15955640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SWL",
+      "match": "mnp-19-3-SCN-SWL",
+      "week": "3",
+      "round": 1,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 134159190,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "SWL",
+      "match": "mnp-19-3-SCN-SWL",
+      "week": "3",
+      "round": 2,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 47784760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SWL",
+      "match": "mnp-19-3-SCN-SWL",
+      "week": "3",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 147000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 12000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 39303670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 33407600,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 10038960,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 3526850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 3,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1388730,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "Ali",
+      "division": 0,
+      "score": 283930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 407671510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 132443260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-19-7-SCN-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 199083150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-19-7-SCN-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 44515000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-19-7-SCN-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 25092110,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBS",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 1806320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBS",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "Ali",
+      "division": 0,
+      "score": 194180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBS",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 25416990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 122548110,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 696000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 109880,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.493",
+      "num_matches": 10,
+      "ppm": "4.050",
+      "points": {
+        "won": 40.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "key": "b160d6b4daeede80ef36d15092813f893106d992",
+  "name": "Zeb Virkus",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "ADB",
+      "match": "mnp-17-1-ADB-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 68810,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "ADB",
+      "match": "mnp-17-1-ADB-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 338090,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "ADB",
+      "match": "mnp-17-1-ADB-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 598273120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 69901280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 250080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 359140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 9258340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 64128900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 50000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 541670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 12719710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 21274950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "ETB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "NBA",
+      "division": 0,
+      "score": 1474470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "ETB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 3,
+      "machine": "NBA",
+      "division": 0,
+      "score": 1076340,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "ETB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "NBA",
+      "division": 0,
+      "score": 1098420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 121190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 2,
+      "machine": "Big Game",
+      "division": 0,
+      "score": 121000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 4,
+      "machine": "Big Game",
+      "division": 0,
+      "score": 212950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SKP",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 149696240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SKP",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 180000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SKP",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 3,
+      "machine": "XMen",
+      "division": 0,
+      "score": 4000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TBT",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 75889800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "TBT",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 2,
+      "machine": "Big Game",
+      "division": 0,
+      "score": 68400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TBT",
+      "match": "mnp-17-8-TBT-CFB",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1445000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 1,
+      "machine": "Quicksilver",
+      "division": 0,
+      "score": 228100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "Big Game",
+      "division": 0,
+      "score": 69320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 4,
+      "machine": "Stars",
+      "division": 0,
+      "score": 45170,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.280",
+      "num_matches": 9,
+      "ppm": "2.277",
+      "points": {
+        "won": 20.5,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

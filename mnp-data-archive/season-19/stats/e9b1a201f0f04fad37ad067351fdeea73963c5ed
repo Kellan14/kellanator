@@ -1,0 +1,359 @@
+{
+  "key": "e9b1a201f0f04fad37ad067351fdeea73963c5ed",
+  "name": "Emma Frost",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 8751720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 96498610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 3,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 1102460,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 77030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 860110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 242260,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 41188020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 11061140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1470233820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2233608350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 20329210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2291270,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 29082540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 43899570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 84390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 26160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 739220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 3,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 625200,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "TTT",
+      "match": "mnp-19-7-TTT-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 271360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TTT",
+      "match": "mnp-19-7-TTT-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 2998100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "TTT",
+      "match": "mnp-19-7-TTT-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 74650,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 15092000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 38226330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 126920,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6490210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 847432420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 30964310,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.371",
+      "num_matches": 9,
+      "ppm": "3.055",
+      "points": {
+        "won": 27.5,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

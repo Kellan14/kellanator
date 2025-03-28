@@ -1,0 +1,431 @@
+{
+  "key": "e9b1a201f0f04fad37ad067351fdeea73963c5ed",
+  "name": "Emma Frost",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 38177430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 25635650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 8358880,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 6837180,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 33397890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 4082350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 148608020,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 7168240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 230960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 441264040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 645590,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7123930,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 21190600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Party Animals",
+      "division": 0,
+      "score": 2999680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 6601810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10909870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 937679010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 18632200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 16609240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 36559290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 29721410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 22513310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 21500650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 55007590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 13114920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 2,
+      "machine": "Party Animals",
+      "division": 0,
+      "score": 379030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 13130230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 25644260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1445674570,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 4825470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 1831570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 2324230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 37868780,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.494",
+      "num_matches": 11,
+      "ppm": "4.045",
+      "points": {
+        "won": 44.5,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

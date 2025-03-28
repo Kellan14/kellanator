@@ -1,0 +1,359 @@
+{
+  "key": "77cad17e0c78ed82233741a7c04eabe56edc487c",
+  "name": "Jay Sweeney",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 37105610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 649460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 361460,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "CFB",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 78613050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CFB",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 3894840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CFB",
+      "match": "mnp-17-10-CFB-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 4955290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 128774220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 181703220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 6931340,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-17-3-DIH-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 1506350,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-17-3-DIH-PKT",
+      "week": "3",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 4986600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-17-3-DIH-PKT",
+      "week": "3",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 1201900,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 2,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 6000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 56291190,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 8107640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 25069360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 145228410,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 137971200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-17-7-DIH-CRA",
+      "week": "7",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 98896020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-17-7-DIH-CRA",
+      "week": "7",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 41043690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-17-7-DIH-CRA",
+      "week": "7",
+      "round": 4,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 9758280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-17-8-SCN-DIH",
+      "week": "8",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 16189120,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-17-8-SCN-DIH",
+      "week": "8",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 91788860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-17-8-SCN-DIH",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 225839940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-17-9-DIH-ADB",
+      "week": "9",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 62364730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-17-9-DIH-ADB",
+      "week": "9",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 11556270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-17-9-DIH-ADB",
+      "week": "9",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 51655120,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.472",
+      "num_matches": 9,
+      "ppm": "3.888",
+      "points": {
+        "won": 35,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

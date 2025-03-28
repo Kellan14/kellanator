@@ -1,0 +1,431 @@
+{
+  "key": "a693ae0dd694c79f9af8ce9b9a3e612c8a61a4b8",
+  "name": "Matthew Greene",
+  "history": [
+    {
+      "team": "ADB",
+      "opp": "SCN",
+      "match": "mnp-18-1-ADB-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 98525560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SCN",
+      "match": "mnp-18-1-ADB-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 12818430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SCN",
+      "match": "mnp-18-1-ADB-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "CV",
+      "division": 0,
+      "score": 5342360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "HHS",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 98256460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "HHS",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 14179910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "HHS",
+      "match": "mnp-18-10-HHS-ADB",
+      "week": "10",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 5215930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "SKP",
+      "match": "mnp-18-11-SKP-ADB",
+      "week": "11",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 301861370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "SKP",
+      "match": "mnp-18-11-SKP-ADB",
+      "week": "11",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 3839980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "SKP",
+      "match": "mnp-18-11-SKP-ADB",
+      "week": "11",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 11578400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-18-12-ADB-SWL",
+      "week": "12",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 11385030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-18-12-ADB-SWL",
+      "week": "12",
+      "round": 2,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 25072650,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "SWL",
+      "match": "mnp-18-12-ADB-SWL",
+      "week": "12",
+      "round": 4,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 13570360,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-18-2-PBR-ADB",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 17739080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-18-2-PBR-ADB",
+      "week": "2",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 89319320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-18-2-PBR-ADB",
+      "week": "2",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 116502750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-18-3-ADB-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 16471450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-18-3-ADB-NLT",
+      "week": "3",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 5111360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "NLT",
+      "match": "mnp-18-3-ADB-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 25024460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "FBP",
+      "match": "mnp-18-4-FBP-ADB",
+      "week": "4",
+      "round": 1,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 71448800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "FBP",
+      "match": "mnp-18-4-FBP-ADB",
+      "week": "4",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 47579970,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "FBP",
+      "match": "mnp-18-4-FBP-ADB",
+      "week": "4",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 9341600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "SHK",
+      "match": "mnp-18-5-ADB-SHK",
+      "week": "5",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 16607000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "SHK",
+      "match": "mnp-18-5-ADB-SHK",
+      "week": "5",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 61006920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SHK",
+      "match": "mnp-18-5-ADB-SHK",
+      "week": "5",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 28580720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 6859970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 11188270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4133650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "BOC",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 65166710,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "BOC",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 5613000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "BOC",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 4,
+      "machine": "POTC",
+      "division": 0,
+      "score": 2405790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "DSV",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 20526680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "DSV",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 1148470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "DSV",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10591870,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.453",
+      "num_matches": 11,
+      "ppm": "3.727",
+      "points": {
+        "won": 41,
+        "of": 90.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

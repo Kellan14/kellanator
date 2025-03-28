@@ -1,0 +1,179 @@
+{
+  "key": "221f428d5685dca94e106c4f9b3674a92c071025",
+  "name": "Amrik Ohbi",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 30011,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 47800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 246000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 622520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 15887,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 3,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 92886,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 16240610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 3,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 5804530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 3362560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8562690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 2,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 84970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 3885080,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.194",
+      "num_matches": 4,
+      "ppm": "1.625",
+      "points": {
+        "won": 6.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "key": "90a31f972a8c26ed6f70097f1230bd7feedb1301",
+  "name": "John McConnell",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 200230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 1568600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-20-1-ETB-RMS",
+      "week": "1",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4468200,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 545590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 2,
+      "machine": "EJ",
+      "division": 0,
+      "score": 24391530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TBT",
+      "match": "mnp-20-10-ETB-TBT",
+      "week": "10",
+      "round": 3,
+      "machine": "EJ",
+      "division": 0,
+      "score": 1874200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10694960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5274410,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-20-2-TWC-ETB",
+      "week": "2",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 96000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 4435607510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3751377890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-20-3-ETB-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 5810920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 6225220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 3729610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5039160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CPO",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "NBA",
+      "division": 0,
+      "score": 9754340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1772895890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 19021100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "DTP",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 29346290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 8914220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 3,
+      "machine": "Rush",
+      "division": 0,
+      "score": 3054230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-20-6-DIH-ETB",
+      "week": "6",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 14291030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 230600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 71922250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SWL",
+      "match": "mnp-20-7-ETB-SWL",
+      "week": "7",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 24936990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 46366490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 220377540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "LAS",
+      "match": "mnp-20-8-LAS-ETB",
+      "week": "8",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 46877820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 9329310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 100988820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "HHS",
+      "match": "mnp-20-9-HHS-ETB",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 516070,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.430",
+      "num_matches": 10,
+      "ppm": "3.700",
+      "points": {
+        "won": 37,
+        "of": 86
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

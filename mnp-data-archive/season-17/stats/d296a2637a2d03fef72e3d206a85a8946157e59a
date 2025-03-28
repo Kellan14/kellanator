@@ -1,0 +1,359 @@
+{
+  "key": "d296a2637a2d03fef72e3d206a85a8946157e59a",
+  "name": "Andrew Hopper",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 48732650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 149817320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 193087050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 240035740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 14825240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 231482980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 115282150,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 62455590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 127163560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 1,
+      "machine": "POTC",
+      "division": 0,
+      "score": 43850210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14864310,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 7678930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 181207690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 186888800,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 35028300,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 91425550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 1226790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 142333720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 14776960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 552870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 10693890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 105498560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 76401850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 25886230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 104633920,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2856750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 322101390,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.595",
+      "num_matches": 9,
+      "ppm": "4.833",
+      "points": {
+        "won": 43.5,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

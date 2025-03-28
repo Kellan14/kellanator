@@ -1,0 +1,107 @@
+{
+  "key": "aeb46a5b37b05c30dcfebb26a5baa7b437f33f3c",
+  "name": "Ted Lasseter",
+  "history": [
+    {
+      "team": "POW",
+      "opp": "FBP",
+      "match": "mnp-19-10-POW-FBP",
+      "week": "10",
+      "round": 1,
+      "machine": "James Bond '007",
+      "division": 0,
+      "score": 36646660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "FBP",
+      "match": "mnp-19-10-POW-FBP",
+      "week": "10",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 17076970,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "FBP",
+      "match": "mnp-19-10-POW-FBP",
+      "week": "10",
+      "round": 3,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 153440,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-19-11-CFB-CRA",
+      "week": "11",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 11604260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-19-11-CFB-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 5516460,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-19-11-CFB-CRA",
+      "week": "11",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 14427960,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.393",
+      "num_matches": 2,
+      "ppm": "3.250",
+      "points": {
+        "won": 6.5,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}
