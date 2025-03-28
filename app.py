@@ -1753,7 +1753,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     grid_options, formatted_df = configure_grid_with_color_coding(result_df_reset, use_color_coding)
     
     # Display the AgGrid
-   response = AgGrid(
+    response = AgGrid(
         formatted_df, 
         gridOptions=grid_options, 
         height=400, 
