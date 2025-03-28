@@ -397,7 +397,9 @@ if st.session_state.modify_menu_open:
 ##############################################
 # Section 5.4: Standardize Machines (Add/Edit) - Persistent Across Refreshes
 ##############################################
-# Toggle state for Standardize Machines UI.
+
+MACHINE_MAPPING_FILE = "kellanator/machine_mapping.json"
+
 if "standardize_machines_open" not in st.session_state:
     st.session_state.standardize_machines_open = False
 
