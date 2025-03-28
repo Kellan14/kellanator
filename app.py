@@ -62,9 +62,50 @@ def parse_seasons(season_str):
             st.error("Invalid season format. Please enter a number, e.g. '19'.")
     return seasons
 
-season_input = st.text_input("Enter season(s) to process (e.g., '19' or '20-21')", "20-21")
+# Use st.text_input with a unique key that changes with season input
+season_input = st.text_input(
+    "Enter season(s) to process (e.g., '19' or '20-21')", 
+    "20-21", 
+    key=f"seasons_input_{hash(st.session_state.get('seasons_to_process', []))}"
+)
+
+# Parse seasons
 seasons_to_process = parse_seasons(season_input)
-st.session_state["seasons_to_process"] = seasons_to_process
+
+# Check if seasons have changed
+if "previous_seasons" not in st.session_state:
+    st.session_state.previous_seasons = seasons_to_process
+
+if seasons_to_process != st.session_state.previous_seasons:
+    with st.spinner("Reprocessing data for new seasons..."):
+        # Update previous seasons
+        st.session_state.previous_seasons = seasons_to_process
+        
+        # Store the new seasons
+        st.session_state["seasons_to_process"] = seasons_to_process
+        
+        # Load and process data
+        all_data = load_all_json_files(repo_dir, seasons_to_process)
+        result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+            all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
+        )
+        
+        # Update session state
+        st.session_state["result_df"] = result_df
+        st.session_state["team_player_stats"] = team_player_stats
+        st.session_state["twc_player_stats"] = twc_player_stats
+
+        # Create Excel file
+        output = BytesIO()
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            result_df.to_excel(writer, index=False, sheet_name='Results')
+            team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
+            twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
+        st.session_state["processed_excel"] = output.getvalue()
+        st.session_state["debug_outputs"] = debug_outputs
+        st.session_state["kellanate_output"] = True
+    
+    st.success("Data processed for new seasons!")
 ##############################################
 # Section 2: Repository Management
 ##############################################
