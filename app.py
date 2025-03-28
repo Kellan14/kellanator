@@ -103,32 +103,14 @@ if "previous_seasons" not in st.session_state:
     st.session_state.previous_seasons = seasons_to_process
 
 if seasons_to_process != st.session_state.previous_seasons:
-    with st.spinner("Reprocessing data for new seasons..."):
-        # Update previous seasons
-        st.session_state.previous_seasons = seasons_to_process
-        
-        # Store the new seasons
-        st.session_state["seasons_to_process"] = seasons_to_process
-        
-        # Load and process data
-        from mainmodule import main
-        
-        # Update session state
-        st.session_state["result_df"] = result_df
-        st.session_state["team_player_stats"] = team_player_stats
-        st.session_state["twc_player_stats"] = twc_player_stats
-
-        # Create Excel file
-        output = BytesIO()
-        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-            result_df.to_excel(writer, index=False, sheet_name='Results')
-            team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
-            twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
-        st.session_state["processed_excel"] = output.getvalue()
-        st.session_state["debug_outputs"] = debug_outputs
-        st.session_state["kellanate_output"] = True
+    # Update previous seasons
+    st.session_state.previous_seasons = seasons_to_process
     
-    st.success("Data processed for new seasons!")
+    # Store the new seasons
+    st.session_state["seasons_to_process"] = seasons_to_process
+    
+    # Set a flag indicating that reprocessing is needed
+    st.session_state["needs_reprocessing"] = True
 
 ##############################################
 # Section 2: Repository Management
@@ -1683,6 +1665,34 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
     grid_options = gb.build()
     
     return grid_options, formatted_df
+
+# Check if reprocessing is needed (after the main function is defined)
+if st.session_state.get("needs_reprocessing", False):
+    with st.spinner("Reprocessing data for new seasons..."):
+        all_data = load_all_json_files(repo_dir, seasons_to_process)
+        result_df, debug_outputs, team_player_stats, twc_player_stats = main(
+            all_data, selected_team, selected_venue, st.session_state.roster_data, st.session_state["column_config"]
+        )
+        
+        # Update session state
+        st.session_state["result_df"] = result_df
+        st.session_state["team_player_stats"] = team_player_stats
+        st.session_state["twc_player_stats"] = twc_player_stats
+
+        # Create Excel file
+        output = BytesIO()
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            result_df.to_excel(writer, index=False, sheet_name='Results')
+            team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
+            twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
+        st.session_state["processed_excel"] = output.getvalue()
+        st.session_state["debug_outputs"] = debug_outputs
+        st.session_state["kellanate_output"] = True
+        
+        # Reset the flag
+        st.session_state["needs_reprocessing"] = False
+        
+        st.success("Data processed for new seasons!")
 
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
