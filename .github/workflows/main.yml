@@ -1,0 +1,48 @@
+name: Sync MNP Data Archive
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout kellanator repo without submodules
+        uses: actions/checkout@v3
+        with:
+          submodules: 'false'  # Explicitly don't initialize submodules
+      
+      # Clone Invader-Zim's repo directly without using actions/checkout
+      - name: Clone Invader-Zim repo
+        run: |
+          git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-mnp-data
+      
+      # The nuclear option - create a clean commit
+      - name: Create fresh commit with new data
+        run: |
+          # Configure Git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Remove troublesome folder completely
+          rm -rf mnp-data-archive
+          
+          # Create new directory
+          mkdir -p mnp-data-archive
+          
+          # Copy files
+          cp -r temp-mnp-data/* mnp-data-archive/
+          
+          # Force add the directory
+          git add -f mnp-data-archive
+          
+          # Commit changes without checking submodules
+          git -c submodule.recurse=false commit -m "Reset and update mnp-data-archive" || echo "No changes to commit"
+          
+          # Push without submodule checks
+          git -c submodule.recurse=false push origin HEAD:${GITHUB_REF#refs/heads/}

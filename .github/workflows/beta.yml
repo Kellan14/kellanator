@@ -1,0 +1,54 @@
+name: Sync MNP Data Archive (Beta)
+
+on:
+  schedule:
+    # Run every day at 6:00 AM UTC
+    - cron: '0 6 * * *'
+  # Also allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout kellanator repo (beta branch)
+        uses: actions/checkout@v2
+        with:
+          path: kellanator
+          ref: beta
+      
+      - name: Checkout Invader-Zim repo
+        uses: actions/checkout@v2
+        with:
+          repository: Invader-Zim/mnp-data-archive
+          path: mnp-data-archive-source
+      
+      - name: Setup Git
+        run: |
+          cd kellanator
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      
+      - name: Compare repositories and sync
+        run: |
+          # Create or clear the target directory
+          rm -rf kellanator/mnp-data-archive
+          mkdir -p kellanator/mnp-data-archive
+          
+          # Copy all files from Invader-Zim's repo to your repo
+          cp -r mnp-data-archive-source/* kellanator/mnp-data-archive/
+          
+          # Go to your repo directory
+          cd kellanator
+          
+          # Check if there are changes to commit
+          if git status | grep -q "mnp-data-archive"; then
+            # Add, commit, and push changes
+            git add mnp-data-archive
+            git commit -m "Auto-sync MNP data archive from Invader-Zim (beta)"
+            git push
+            echo "Repository updated with latest data"
+          else
+            echo "No changes detected, repository is already up to date"
+          fi
