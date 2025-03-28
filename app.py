@@ -114,12 +114,6 @@ def update_repo(repo_path):
         return f"An error occurred: {e.stderr}"
 
 st.title("The Kellanator 9000")
-if st.button("Update", key="update_repo_btn"):
-    update_output = update_repo(repo_dir)
-    update_placeholder = st.empty()
-    update_placeholder.success(f"Repository update result:\n{update_output}")
-    time.sleep(1)
-    update_placeholder.empty()
 
 ##############################################
 # Section 2.1: Load All JSON Files from Repository
