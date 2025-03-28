@@ -34,6 +34,10 @@ if "column_options_open" not in st.session_state:
 if "set_score_limit_open" not in st.session_state:
     st.session_state.set_score_limit_open = False
 
+# Path to store the machine mapping file.
+repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
+repo_dir = "mnp-data-archive"
+
 ##############################################
 # Section 1.1: Load All JSON Files from Repository
 ##############################################
@@ -128,10 +132,6 @@ if seasons_to_process != st.session_state.previous_seasons:
 ##############################################
 # Section 2: Repository Management
 ##############################################
-
-# Path to store the machine mapping file.
-repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
-repo_dir = "mnp-data-archive"
 
 def load_machine_mapping(file_path):
     """Load machine mapping from a JSON file. Return default mapping if file doesn't exist."""
