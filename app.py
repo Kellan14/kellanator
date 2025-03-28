@@ -458,7 +458,7 @@ if st.session_state.standardize_machines_open:
                 st.rerun()
 
 ##############################################
-# Section 5.5: Edit Roster (Players Cannot Be Deleted; Original Roster Uneditable)
+# Section 5.5: Edit Rosters (Players Cannot Be Deleted; Original Roster Uneditable)
 ##############################################
 
 # Helper function: Get available players for the team from already loaded all_data.
@@ -554,6 +554,99 @@ if st.session_state.get("edit_roster_open", False):
                     st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
                     st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
                     st.success(f"Added {player_to_add} to the roster.")
+                    st.rerun()
+                else:
+                    st.warning(f"{player_to_add} is already in the roster.")
+            else:
+                st.warning("Please enter a player's name.")
+
+# Toggle the Edit TWC Roster section
+if st.button("Hide Edit TWC Roster" if st.session_state.get("edit_twc_roster_open", False) else "Edit TWC Roster", key="toggle_edit_twc_roster"):
+    st.session_state.edit_twc_roster_open = not st.session_state.get("edit_twc_roster_open", False)
+    st.rerun()
+
+if st.session_state.get("edit_twc_roster_open", False):
+    st.markdown("### Edit TWC Roster")
+    
+    # Determine the TWC team abbreviation
+    twc_team_name = "The Wrecking Crew"
+    twc_abbr = "TWC"
+    
+    if not twc_abbr:
+        st.error("No team abbreviation found for The Wrecking Crew.")
+    else:
+        # Initialize a persistent edited roster for TWC if not already set
+        if f"edited_roster_{twc_abbr}" not in st.session_state:
+            original_roster = st.session_state.roster_data.get(twc_abbr, [])
+            st.session_state[f"edited_roster_{twc_abbr}"] = [
+                {"name": p, "include": True, "editable": False} for p in original_roster
+            ]
+        edited_roster = st.session_state[f"edited_roster_{twc_abbr}"]
+        
+        st.markdown(f"**Current TWC Roster:**")
+        # Display each roster entry
+        for i, entry in enumerate(edited_roster.copy()):
+            player = entry["name"]
+            included = entry["include"]
+            editable = entry.get("editable", False)
+            col1, col2, col3 = st.columns([0.6, 0.2, 0.2])
+            with col1:
+                st.write(player)
+            with col2:
+                # Checkbox to toggle inclusion
+                new_included = st.checkbox("", value=included, key=f"include_twc_{twc_abbr}_{i}")
+                if new_included != included:
+                    edited_roster[i]["include"] = new_included
+                    st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
+                    # Update global roster_data: include only players that are checked
+                    st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                    st.rerun()
+            with col3:
+                # Show an Edit button only if the entry is editable
+                if editable:
+                    if st.button("Edit", key=f"edit_twc_roster_{twc_abbr}_{i}"):
+                        new_name = st.text_input("New name", player, key=f"edit_input_twc_roster_{twc_abbr}_{i}")
+                        if new_name:
+                            edited_roster[i]["name"] = new_name.strip()
+                            st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
+                            st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                            st.rerun()
+        
+        # Get players from JSON data for TWC
+        available_players = set()
+        for match in st.session_state.all_data:
+            if match.get('home', {}).get('name', "").strip().lower() == twc_team_name.strip().lower():
+                for player in match.get('home', {}).get('lineup', []):
+                    available_players.add(player.get("name", "").strip())
+            if match.get('away', {}).get('name', "").strip().lower() == twc_team_name.strip().lower():
+                for player in match.get('away', {}).get('lineup', []):
+                    available_players.add(player.get("name", "").strip())
+        
+        # Exclude those already in the roster
+        existing_players = set(e["name"] for e in edited_roster)
+        available_players = sorted(available_players - existing_players)
+        
+        if not available_players:
+            available_players = ["No available players"]
+        
+        st.markdown("#### Add Player to TWC Roster")
+        new_player_dropdown = st.selectbox("Select a player", available_players, key="new_twc_player_dropdown")
+        new_player_manual = st.text_input("Or type a new player's name", "", key="new_twc_player_manual")
+        
+        # Manual input takes precedence
+        if new_player_manual.strip():
+            player_to_add = new_player_manual.strip()
+        else:
+            player_to_add = new_player_dropdown if new_player_dropdown != "No available players" else ""
+        
+        if st.button("Add Player", key="add_twc_player_btn"):
+            if player_to_add:
+                if player_to_add not in [e["name"] for e in edited_roster]:
+                    # New players are marked as editable
+                    edited_roster.append({"name": player_to_add, "include": True, "editable": True})
+                    st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
+                    st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                    st.success(f"Added {player_to_add} to the TWC roster.")
                     st.rerun()
                 else:
                     st.warning(f"{player_to_add} is already in the roster.")
