@@ -1693,6 +1693,7 @@ if st.session_state.get("needs_reprocessing", False):
         st.session_state["needs_reprocessing"] = False
         
         st.success("Data processed for new seasons!")
+        st.rerun()
 
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
