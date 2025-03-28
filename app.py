@@ -34,9 +34,28 @@ if "column_options_open" not in st.session_state:
 if "set_score_limit_open" not in st.session_state:
     st.session_state.set_score_limit_open = False
 
+##############################################
+# Section 1.1: Load All JSON Files from Repository
+##############################################
+def load_all_json_files(repo_dir, seasons):
+    all_data = []
+    for season in seasons:
+        directory = os.path.join(repo_dir, f"season-{season}", "matches")
+        json_files = glob.glob(os.path.join(directory, "**", "*.json"), recursive=True)
+        if not json_files:
+            st.warning(f"No JSON files found for season {season}.")
+        for file_path in json_files:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    all_data.append(data)
+            except Exception as e:
+                st.error(f"Error loading {file_path}: {e}")
+    return all_data
+
 
 ##############################################
-# Section 1.1: Season Selection
+# Section 1.2: Season Selection
 ##############################################
 def parse_seasons(season_str):
     season_str = season_str.replace(" ", "")
@@ -153,25 +172,6 @@ def update_repo(repo_path):
         return f"An error occurred: {e.stderr}"
 
 st.title("The Kellanator 9000")
-
-##############################################
-# Section 2.1: Load All JSON Files from Repository
-##############################################
-def load_all_json_files(repo_dir, seasons):
-    all_data = []
-    for season in seasons:
-        directory = os.path.join(repo_dir, f"season-{season}", "matches")
-        json_files = glob.glob(os.path.join(directory, "**", "*.json"), recursive=True)
-        if not json_files:
-            st.warning(f"No JSON files found for season {season}.")
-        for file_path in json_files:
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    all_data.append(data)
-            except Exception as e:
-                st.error(f"Error loading {file_path}: {e}")
-    return all_data
 
 ##############################################
 # Section 3: Dynamic Teams & Venues from JSON Files (Most Recent Season Only)
