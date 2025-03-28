@@ -105,7 +105,19 @@ seasons_to_process = parse_seasons(season_input)
 # Check if the input has changed
 if season_input != st.session_state.previous_seasons_input:
     st.session_state.previous_seasons_input = season_input
-    st.session_state["seasons_to_process"] = seasons_to_process
+    new_seasons = parse_seasons(season_input)
+    st.session_state["seasons_to_process"] = new_seasons
+    
+    # Update seasons in column config
+    if "column_config" in st.session_state:
+        min_season = min(new_seasons) if new_seasons else 20
+        max_season = max(new_seasons) if new_seasons else 21
+        seasons_tuple = (min_season, max_season)
+        
+        # Update all column configs with new seasons
+        for col in st.session_state.column_config:
+            st.session_state.column_config[col]['seasons'] = seasons_tuple
+            
     st.rerun()
 
 ##############################################
