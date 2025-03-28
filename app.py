@@ -68,6 +68,10 @@ st.session_state["seasons_to_process"] = seasons_to_process
 ##############################################
 # Section 2: Repository Management
 ##############################################
+repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
+# Update this path as needed
+repo_dir = "mnp-data-archive"
+ensure_repo(repository_url, repo_dir)
 
 # Path to store the machine mapping file.
 MACHINE_MAPPING_FILE = "machine_mapping.json"
@@ -128,11 +132,6 @@ def update_repo(repo_path):
         return result.stdout
     except subprocess.CalledProcessError as e:
         return f"An error occurred: {e.stderr}"
-
-repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
-# Update this path as needed
-repo_dir = "mnp-data-archive"
-ensure_repo(repository_url, repo_dir)
 
 st.title("The Kellanator 9000")
 if st.button("Update", key="update_repo_btn"):
