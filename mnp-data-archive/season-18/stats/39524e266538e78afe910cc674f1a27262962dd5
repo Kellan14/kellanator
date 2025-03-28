@@ -1,0 +1,287 @@
+{
+  "key": "39524e266538e78afe910cc674f1a27262962dd5",
+  "name": "James Frost-Winn",
+  "history": [
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 69917860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1645754640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "FBS",
+      "match": "mnp-18-1-FBS-SSD",
+      "week": "1",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1538346890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 2,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 241270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 261471600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 600500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 50681090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10699370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 52556160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1903184990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1734490620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DTP",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 20749050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 20384930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 4000000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "SKP",
+      "match": "mnp-18-6-SSD-SKP",
+      "week": "6",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 106000000,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1323055830,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 150690900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "TWC",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 3954150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 717509660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1344319660,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1647589210,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.836",
+      "num_matches": 7,
+      "ppm": "6.928",
+      "points": {
+        "won": 48.5,
+        "of": 58
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

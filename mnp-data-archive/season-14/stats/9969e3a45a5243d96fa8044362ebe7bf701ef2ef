@@ -1,0 +1,395 @@
+{
+  "key": "9969e3a45a5243d96fa8044362ebe7bf701ef2ef",
+  "name": "Sergey Posrednikov",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "LCS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 1,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 146935500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "LCS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 190027210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "LCS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 39275800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 160089120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 85658380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 189046670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 38367030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 54137000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "LZ",
+      "division": 0,
+      "score": 78811950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 11261320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 877002830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 164588210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 419420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 26364070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-14-4-CRA-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 56680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-14-5-SSS-SWL",
+      "week": "5",
+      "round": 1,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 603660,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-14-5-SSS-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 118888420,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-14-5-SSS-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 215794320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 6635930,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 593700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1319900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 92069970,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1400000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "LZ",
+      "division": 0,
+      "score": 7976070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 300758280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 97402700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 20425152,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PKT",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 4590560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PKT",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 457373610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PKT",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 150601280,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.781",
+      "num_matches": 10,
+      "ppm": "6.250",
+      "points": {
+        "won": 62.5,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "key": "6001799314abc8afe81e427bc58d296186e7a2fe",
+  "name": "Colin O'Keefe",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "PKT",
+      "match": "mnp-20-10-CFB-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 391801750,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "PKT",
+      "match": "mnp-20-10-CFB-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 31026900,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "PKT",
+      "match": "mnp-20-10-CFB-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1133846850,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "ICB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 168206090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "ICB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 87875600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "ICB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 4,
+      "machine": "EJ",
+      "division": 0,
+      "score": 3840860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CDC",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 5049280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CDC",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 244710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CDC",
+      "match": "mnp-20-4-CDC-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 231180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "EJ",
+      "division": 0,
+      "score": 2666870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 502132480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "RTR",
+      "match": "mnp-20-5-CFB-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 96443970,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1293330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 2,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 267760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SCN",
+      "match": "mnp-20-6-SCN-CFB",
+      "week": "6",
+      "round": 4,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 740030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-20-7-CFB-PBR",
+      "week": "7",
+      "round": 2,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 149290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-20-7-CFB-PBR",
+      "week": "7",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 138317140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-20-7-CFB-PBR",
+      "week": "7",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 155470,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 19635620,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 69320,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 3,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 178640,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.683",
+      "num_matches": 7,
+      "ppm": "5.714",
+      "points": {
+        "won": 40,
+        "of": 58.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

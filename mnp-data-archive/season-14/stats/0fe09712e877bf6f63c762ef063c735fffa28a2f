@@ -1,0 +1,395 @@
+{
+  "key": "0fe09712e877bf6f63c762ef063c735fffa28a2f",
+  "name": "Brian O'Neill WA",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 16750000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 652000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 3148150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 10983090,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "SpaceShuttle",
+      "division": 0,
+      "score": 112080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "Aliens",
+      "division": 0,
+      "score": 2746620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 464390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 233560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 338240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 49320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 42100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 66410,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "RS",
+      "division": 0,
+      "score": 246185690,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "SpaceShuttle",
+      "division": 0,
+      "score": 184240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 19185440,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "RS",
+      "division": 0,
+      "score": 140150680,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 48883180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "Fish Tales",
+      "division": 0,
+      "score": 4349730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 7463850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 10430870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 4,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 104780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 1,
+      "machine": "HollywoodHeat",
+      "division": 0,
+      "score": 404440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 10000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 15370520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TWC",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "SpaceShuttle",
+      "division": 0,
+      "score": 54280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TWC",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 6869790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TWC",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 5168140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 593520,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 10500300,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 123276110,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.320",
+      "num_matches": 10,
+      "ppm": "2.600",
+      "points": {
+        "won": 26,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

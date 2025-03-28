@@ -1,0 +1,191 @@
+{
+  "key": "e36ba3c66ff469abe578d61f5550c54287e578ba",
+  "name": "Bill Nary",
+  "history": [
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 16438570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4814710,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 22027890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 9041050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 54919630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 27292990,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 10251100,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 17161360,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 13522390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 9696920,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4426100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 21875790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 83600240,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.528",
+      "num_matches": 4,
+      "ppm": "4.625",
+      "points": {
+        "won": 18.5,
+        "of": 35
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

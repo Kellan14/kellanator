@@ -1,0 +1,347 @@
+{
+  "key": "01f533cf0243e8005493ecc71f8db3e94248327b",
+  "name": "Jake Selby",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 397990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 12833170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 146210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 345150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 310310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 202250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 2128180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 844650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1289690,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 866860,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1101980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DSV",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 422560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 39671440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 82300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 293000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 56000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 187137,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 53000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SSS",
+      "match": "mnp-14-7-KNR-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 11796160,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 2,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 571400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 59915840,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "DTP",
+      "match": "mnp-14-8-DTP-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 42710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 161210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 542720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 244770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BOC",
+      "match": "mnp-14-9-KNR-BOC",
+      "week": "9",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 391050,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.545",
+      "num_matches": 8,
+      "ppm": "4.875",
+      "points": {
+        "won": 39,
+        "of": 71.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "key": "9af5bad1f0900f70b25d6ef8ca8b55b5cf47d6af",
+  "name": "Dave Stewart",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 140000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 62134570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 9436280,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 235843000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 162000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 107180320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 357979000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 72292000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 151850220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 385683700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 3,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 366056300,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 111900870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 328921620,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 15157520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 285901490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 331844820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 3,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 351631240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Avatar",
+      "division": 0,
+      "score": 3350000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 120436000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 249314530,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 39616990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 131000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 134171000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 132374020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 52462770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 29286790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-7-SWL-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 35837220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 160154000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 67165000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 304490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 237640360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 6681000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 16581660,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.733",
+      "num_matches": 11,
+      "ppm": "6.136",
+      "points": {
+        "won": 67.5,
+        "of": 92
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

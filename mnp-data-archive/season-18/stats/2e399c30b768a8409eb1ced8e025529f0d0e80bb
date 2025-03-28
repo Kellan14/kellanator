@@ -1,0 +1,395 @@
+{
+  "key": "2e399c30b768a8409eb1ced8e025529f0d0e80bb",
+  "name": "Tom Baisden",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1078931090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 21152900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 424588500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-18-10-DTP-RMS",
+      "week": "10",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 480000,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-18-10-DTP-RMS",
+      "week": "10",
+      "round": 3,
+      "machine": "Buck Rogers",
+      "division": 0,
+      "score": 116940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-18-10-DTP-RMS",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7382220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NMC",
+      "match": "mnp-18-2-NMC-DTP",
+      "week": "2",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 184750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NMC",
+      "match": "mnp-18-2-NMC-DTP",
+      "week": "2",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 494007670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "NMC",
+      "match": "mnp-18-2-NMC-DTP",
+      "week": "2",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 237310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSD",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 1,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1085590,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSD",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 22210310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSD",
+      "match": "mnp-18-3-DTP-SSD",
+      "week": "3",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 295000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 13440870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 118000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "CFB",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 194495100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-18-5-DTP-PGN",
+      "week": "5",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 9945990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-18-5-DTP-PGN",
+      "week": "5",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 583980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-18-5-DTP-PGN",
+      "week": "5",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 97460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-18-6-JMF-DTP",
+      "week": "6",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 274860,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-18-6-JMF-DTP",
+      "week": "6",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 14251076,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "JMF",
+      "match": "mnp-18-6-JMF-DTP",
+      "week": "6",
+      "round": 3,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 502260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 17001950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 340210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-18-7-CRA-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 171570,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-18-8-DTP-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 11940000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-18-8-DTP-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 77728120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-18-8-DTP-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 80085450,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-18-9-SKP-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 177570,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-18-9-SKP-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5934260,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-18-9-SKP-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 335400,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.463",
+      "num_matches": 10,
+      "ppm": "3.850",
+      "points": {
+        "won": 38.5,
+        "of": 83
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

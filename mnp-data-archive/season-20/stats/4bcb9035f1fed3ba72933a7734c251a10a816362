@@ -1,0 +1,431 @@
+{
+  "key": "4bcb9035f1fed3ba72933a7734c251a10a816362",
+  "name": "Vincent Sperrazza",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "ICB",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 170640440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ICB",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 6000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ICB",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 304000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 107465530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 378000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 9515,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 530060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 2,
+      "machine": "JD",
+      "division": 0,
+      "score": 372031490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 253093790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 82443230,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 41000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 534249050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 708584270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 130680470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 335480,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 375491120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 303685030,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-20-3-SSS-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 4665070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 375973000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 51227510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-20-4-SCN-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 547320410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-5-SSS-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 123687870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-5-SSS-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 51456930,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-5-SSS-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 100402080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-20-6-NLT-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 114014830,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-20-6-NLT-SSS",
+      "week": "6",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 226279530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-20-6-NLT-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 213250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 82370490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 9839080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "SNS",
+      "division": 0,
+      "score": 64700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 6252030,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 99501400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-20-8-FBP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 8157210,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.747",
+      "num_matches": 11,
+      "ppm": "6.181",
+      "points": {
+        "won": 68,
+        "of": 91
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

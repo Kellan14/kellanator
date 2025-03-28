@@ -1,0 +1,107 @@
+{
+  "key": "1cabcd5eced1c3f80c9c9b7db9ae44064fccdaea",
+  "name": "Erick Dirvanowski",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 97860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 71506880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 21958910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 444994820,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 42007510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 52633240,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.406",
+      "num_matches": 2,
+      "ppm": "3.250",
+      "points": {
+        "won": 6.5,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

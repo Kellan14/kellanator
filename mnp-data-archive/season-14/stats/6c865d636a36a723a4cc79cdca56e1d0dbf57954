@@ -1,0 +1,359 @@
+{
+  "key": "6c865d636a36a723a4cc79cdca56e1d0dbf57954",
+  "name": "Nicole Gates",
+  "history": [
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 2452890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 80,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 5586020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "KNR",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10051990,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "OLD",
+      "opp": "KNR",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 744252610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "KNR",
+      "match": "mnp-14-2-KNR-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 452775210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 59256510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 42771840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-14-3-OLD-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "BlackHole",
+      "division": 0,
+      "score": 115210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 9308170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 14579440,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 614178550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4903550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1317960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2305564080,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 22485940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 13495970,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 22108800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 85196160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 14529480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 20543580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 96403010,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 16371790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 11018860,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6829280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 19792620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "RTR",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 347744920,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.496",
+      "num_matches": 9,
+      "ppm": "4.055",
+      "points": {
+        "won": 36.5,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "key": "096e97b8eca3ee52f5026b3f51b49ef81673eeb3",
+  "name": "Eric Morales",
+  "history": [
+    {
+      "team": "FBS",
+      "opp": "ADB",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 1,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 7054980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "ADB",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 2,
+      "machine": "BOP",
+      "division": 0,
+      "score": 6801940,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "ADB",
+      "match": "mnp-20-1-ADB-FBS",
+      "week": "1",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 353360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PYC",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 37400370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PYC",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 41307540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PYC",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 3735040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PYC",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 323415150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 1,
+      "machine": "GameShow",
+      "division": 0,
+      "score": 3321630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 2,
+      "machine": "BOP",
+      "division": 0,
+      "score": 9036860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1037480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 325870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 137450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 25306500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "HHS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 503240,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "FBS",
+      "opp": "HHS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 7974840,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "HHS",
+      "match": "mnp-20-6-FBS-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 7934330,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.655",
+      "num_matches": 5,
+      "ppm": "5.700",
+      "points": {
+        "won": 28.5,
+        "of": 43.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

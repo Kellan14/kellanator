@@ -1,0 +1,395 @@
+{
+  "key": "472a650f13264e5d09ebe376d4b38d1df51016bd",
+  "name": "Megan Czahar",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 21060640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 274545170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "FG",
+      "division": 0,
+      "score": 7088710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 16299490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 8783130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-15-10-HHS-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 65894740,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 116261630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 36730560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 108750,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 221670,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 370630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SCN",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 110010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 2,
+      "machine": "T3",
+      "division": 0,
+      "score": 21753770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 7505210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-15-3-HHS-TWC",
+      "week": "3",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 258680620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 110610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 69264880,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-15-4-SKP-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 168760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 126381090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 260697030,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 8138050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 26485480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 247160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 472600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 3716740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 558260,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "PKT",
+      "match": "mnp-15-7-PKT-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 207438,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-15-8-HHS-PBR",
+      "week": "8",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 98440,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-15-8-HHS-PBR",
+      "week": "8",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1104362840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-15-8-HHS-PBR",
+      "week": "8",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 562804810,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.478",
+      "num_matches": 10,
+      "ppm": "3.900",
+      "points": {
+        "won": 39,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

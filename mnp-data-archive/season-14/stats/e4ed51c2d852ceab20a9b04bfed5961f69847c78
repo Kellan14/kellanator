@@ -1,0 +1,107 @@
+{
+  "key": "e4ed51c2d852ceab20a9b04bfed5961f69847c78",
+  "name": "Colin Curfman",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-14-1-SHK-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 151390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-14-1-SHK-SKP",
+      "week": "1",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 22794360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-14-1-SHK-SKP",
+      "week": "1",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 22295770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CPO",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 144552870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "CPO",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 8159420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CPO",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 73933520,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.656",
+      "num_matches": 2,
+      "ppm": "5.250",
+      "points": {
+        "won": 10.5,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

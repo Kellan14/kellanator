@@ -1,0 +1,431 @@
+{
+  "key": "ab963fd56ab1e03226ab49ee4942eba8ed187fea",
+  "name": "Katja Rodgers",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "JMF",
+      "match": "mnp-17-1-CRA-JMF",
+      "week": "1",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 149461830,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "JMF",
+      "match": "mnp-17-1-CRA-JMF",
+      "week": "1",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 31205310,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "JMF",
+      "match": "mnp-17-1-CRA-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 301908920,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2149333040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 3622000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 155620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-17-12-PBR-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 5083900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-17-12-PBR-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 4807030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-17-12-PBR-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 10337740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-17-2-PBR-CRA",
+      "week": "2",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 42197290,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-17-2-PBR-CRA",
+      "week": "2",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 23049110,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-17-2-PBR-CRA",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 22943900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TBT",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 1,
+      "machine": "24",
+      "division": 0,
+      "score": 23047940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TBT",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 2,
+      "machine": "Sharkey's Shootout",
+      "division": 0,
+      "score": 24409790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TBT",
+      "match": "mnp-17-3-CRA-TBT",
+      "week": "3",
+      "round": 3,
+      "machine": "24",
+      "division": 0,
+      "score": 6707250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-17-4-SKP-CRA",
+      "week": "4",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 954932690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-17-4-SKP-CRA",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 6280900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-17-4-SKP-CRA",
+      "week": "4",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 58770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PKT",
+      "match": "mnp-17-5-CRA-PKT",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 9885270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PKT",
+      "match": "mnp-17-5-CRA-PKT",
+      "week": "5",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 1484590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PKT",
+      "match": "mnp-17-5-CRA-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 157570,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 20732500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 65556750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 6570030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-17-7-DIH-CRA",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 952942560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-17-7-DIH-CRA",
+      "week": "7",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 20325480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DIH",
+      "match": "mnp-17-7-DIH-CRA",
+      "week": "7",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 87420,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1787518150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 1069530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 9694150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 890886030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 463030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-17-9-CRA-CFB",
+      "week": "9",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 461664650,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.619",
+      "num_matches": 11,
+      "ppm": "5.181",
+      "points": {
+        "won": 57,
+        "of": 92
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

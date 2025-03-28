@@ -1,0 +1,191 @@
+{
+  "key": "138256237c28e17d1f8908dc2a57f69c25ff522f",
+  "name": "Rod olsen",
+  "history": [
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 1,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 5051050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 3,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 23703790,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 28180810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 391814100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 29200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 2748800,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 40239910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 64881890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 22919240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 64470,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 68738000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 5957420,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.442",
+      "num_matches": 4,
+      "ppm": "3.875",
+      "points": {
+        "won": 15.5,
+        "of": 35
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

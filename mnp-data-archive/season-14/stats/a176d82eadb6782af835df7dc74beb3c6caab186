@@ -1,0 +1,335 @@
+{
+  "key": "a176d82eadb6782af835df7dc74beb3c6caab186",
+  "name": "Sandy Magallanes",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "BlackHole",
+      "division": 0,
+      "score": 74550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 5102540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 14765420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-14-10-CPO-ADB",
+      "week": "10",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 5505450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-14-10-CPO-ADB",
+      "week": "10",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 49130800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-14-10-CPO-ADB",
+      "week": "10",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 8143890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-14-10-CPO-ADB",
+      "week": "10",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 15384520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 741320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 400875870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 129136680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 34418650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 896560,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 540067380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 60115440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 105360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 45750,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 7940450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 83540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 159260,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 51675780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 4277430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 2935230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 127087440,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 91520,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 67110,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.340",
+      "num_matches": 8,
+      "ppm": "2.875",
+      "points": {
+        "won": 23,
+        "of": 67.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

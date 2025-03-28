@@ -1,0 +1,251 @@
+{
+  "key": "1310b61afc040d2e03f5669c6a0ebdd72c56c439",
+  "name": "Andy Meuser",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-18-10-NMC-JMF",
+      "week": "10",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 18249910,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-18-10-NMC-JMF",
+      "week": "10",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 31403170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-18-10-NMC-JMF",
+      "week": "10",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 353220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "DIH",
+      "match": "mnp-18-3-DIH-NMC",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 46580900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "DIH",
+      "match": "mnp-18-3-DIH-NMC",
+      "week": "3",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 69860940,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "DIH",
+      "match": "mnp-18-3-DIH-NMC",
+      "week": "3",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 61846990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SWL",
+      "match": "mnp-18-4-NMC-SWL",
+      "week": "4",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 367020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SWL",
+      "match": "mnp-18-4-NMC-SWL",
+      "week": "4",
+      "round": 3,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 288276090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SWL",
+      "match": "mnp-18-4-NMC-SWL",
+      "week": "4",
+      "round": 4,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 8000970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "LAS",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 1,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 35751,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "LAS",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 39507,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "LAS",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 10889240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TWC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "MSF",
+      "division": 0,
+      "score": 605803430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TWC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 32036990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "TWC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "MSF",
+      "division": 0,
+      "score": 932884310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 1,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 73882,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 16029,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 4260810,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.540",
+      "num_matches": 6,
+      "ppm": "4.416",
+      "points": {
+        "won": 26.5,
+        "of": 49
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

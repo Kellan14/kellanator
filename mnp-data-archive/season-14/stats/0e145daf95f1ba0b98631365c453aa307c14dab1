@@ -1,0 +1,287 @@
+{
+  "key": "0e145daf95f1ba0b98631365c453aa307c14dab1",
+  "name": "Laura Hale",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6457720,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 297000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 534820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "RTR",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1301810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "RTR",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 344530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "RTR",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 489620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "DTP",
+      "match": "mnp-14-4-SKP-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "SpaceShuttle",
+      "division": 0,
+      "score": 306700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "DTP",
+      "match": "mnp-14-4-SKP-DTP",
+      "week": "4",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 12518170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "DTP",
+      "match": "mnp-14-4-SKP-DTP",
+      "week": "4",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 3216010,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 160030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 1208650,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1955140040,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "BOC",
+      "match": "mnp-14-6-SKP-BOC",
+      "week": "6",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 137000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "BOC",
+      "match": "mnp-14-6-SKP-BOC",
+      "week": "6",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 690390,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "BOC",
+      "match": "mnp-14-6-SKP-BOC",
+      "week": "6",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 1757880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "LAS",
+      "match": "mnp-14-7-SKP-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "SpaceShuttle",
+      "division": 0,
+      "score": 658500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "LAS",
+      "match": "mnp-14-7-SKP-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "SpaceShuttle",
+      "division": 0,
+      "score": 12048800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "LAS",
+      "match": "mnp-14-7-SKP-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 104920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CPO",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 64580,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "CPO",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 162881190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CPO",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 12158640,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.547",
+      "num_matches": 7,
+      "ppm": "4.500",
+      "points": {
+        "won": 31.5,
+        "of": 57.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

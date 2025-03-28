@@ -1,0 +1,335 @@
+{
+  "key": "45b86f2eb9f21a4155bc3199715df8bc485f3d6d",
+  "name": "Stephen Brundle",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 63525000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 105000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 11925530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 82632860,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 63837120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 58944870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 26276860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 12330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 109165530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 7006240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 189420560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 46197050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 2,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 178920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 61031080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 22790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 7310480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 48652870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 66202140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 57000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 35314970,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 27177060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 20738940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 7468210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 35367400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 43183690,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.500",
+      "num_matches": 9,
+      "ppm": "3.777",
+      "points": {
+        "won": 34,
+        "of": 68
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

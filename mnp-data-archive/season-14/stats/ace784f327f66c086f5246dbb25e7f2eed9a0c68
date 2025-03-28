@@ -1,0 +1,323 @@
+{
+  "key": "ace784f327f66c086f5246dbb25e7f2eed9a0c68",
+  "name": "Brian Hyder",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6760830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1008169870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2931159200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-14-10-DTP-PBR",
+      "week": "10",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 113442610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-14-10-DTP-PBR",
+      "week": "10",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 877690,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-14-10-DTP-PBR",
+      "week": "10",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 1332300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 9589300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 419640070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 2929390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 4365420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 20933130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 1520090,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 73355520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 317704800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 665918670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 132706750,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 53564840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 131923740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 28571600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 90000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 240260,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 232793120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 57100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "RBION",
+      "division": 0,
+      "score": 3797000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.697",
+      "num_matches": 8,
+      "ppm": "5.625",
+      "points": {
+        "won": 45,
+        "of": 64.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

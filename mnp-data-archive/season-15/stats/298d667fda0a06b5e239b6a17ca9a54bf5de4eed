@@ -1,0 +1,359 @@
+{
+  "key": "298d667fda0a06b5e239b6a17ca9a54bf5de4eed",
+  "name": "Katherine Chaos MacLeod",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 77418970,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 169470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3404620,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-15-10-SKP-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 146300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-15-10-SKP-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 8137330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-15-10-SKP-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 11965140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 11076230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 8185910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 2320710,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 356020,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 64260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "HHS",
+      "match": "mnp-15-2-SCN-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 164120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-15-4-SCN-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 361041000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-15-4-SCN-JMF",
+      "week": "4",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 4405690,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-15-4-SCN-JMF",
+      "week": "4",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 72360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 149960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 9250650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-15-5-KNR-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 4046910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 208370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 20462700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 224374130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-15-7-CRA-SCN",
+      "week": "7",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 189260,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-15-7-CRA-SCN",
+      "week": "7",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1930500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-15-7-CRA-SCN",
+      "week": "7",
+      "round": 4,
+      "machine": "Genie",
+      "division": 0,
+      "score": 61560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "DH",
+      "division": 0,
+      "score": 158442890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 123656320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 381904070,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.372",
+      "num_matches": 9,
+      "ppm": "3.000",
+      "points": {
+        "won": 27,
+        "of": 72.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

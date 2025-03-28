@@ -1,0 +1,107 @@
+{
+  "key": "83d7119bdc831aaa2d0468184972d8e83373a1de",
+  "name": "Joshua DeGarmo",
+  "history": [
+    {
+      "team": "LLK",
+      "opp": "JMF",
+      "match": "mnp-14-3-LLK-JMF",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 5448640,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LLK",
+      "opp": "JMF",
+      "match": "mnp-14-3-LLK-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5912490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LLK",
+      "opp": "JMF",
+      "match": "mnp-14-3-LLK-JMF",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 6633620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LLK",
+      "opp": "CDC",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 5171530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LLK",
+      "opp": "CDC",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 3,
+      "machine": "POTC",
+      "division": 0,
+      "score": 2948620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LLK",
+      "opp": "CDC",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 6397950,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.441",
+      "num_matches": 2,
+      "ppm": "3.750",
+      "points": {
+        "won": 7.5,
+        "of": 17
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

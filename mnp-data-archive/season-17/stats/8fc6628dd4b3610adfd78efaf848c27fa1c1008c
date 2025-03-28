@@ -1,0 +1,323 @@
+{
+  "key": "8fc6628dd4b3610adfd78efaf848c27fa1c1008c",
+  "name": "Jeremy Collison",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-17-10-TWC-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 47000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-17-10-TWC-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 51000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-17-10-TWC-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 21980180,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 31475070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 12000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-17-2-CDC-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 2547000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-17-3-ADB-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 30235200,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-17-3-ADB-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10721620,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-17-3-ADB-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 12383000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-17-5-CDC-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "MSF",
+      "division": 0,
+      "score": 513690080,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-17-5-CDC-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 850000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-17-5-CDC-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 46379830,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 81669130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 3367260,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-17-6-CRA-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 19565210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 630000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 6980480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ETB",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 441942140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-17-8-PKT-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 14000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-17-8-PKT-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 14396640,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-17-8-PKT-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 99439770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 21602680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 368000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "MSF",
+      "division": 0,
+      "score": 585181000,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.382",
+      "num_matches": 8,
+      "ppm": "3.062",
+      "points": {
+        "won": 24.5,
+        "of": 64
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

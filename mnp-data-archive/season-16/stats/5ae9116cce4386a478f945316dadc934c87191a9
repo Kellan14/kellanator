@@ -1,0 +1,143 @@
+{
+  "key": "5ae9116cce4386a478f945316dadc934c87191a9",
+  "name": "Maureen Hendrix",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 391330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 143436240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 69551540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 1801800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 141000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 104610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1307650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 459484090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "PBR",
+      "match": "mnp-16-9-RTR-PBR",
+      "week": "9",
+      "round": 3,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 1063580,
+      "points": 2,
+      "pops": "0.666"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.714",
+      "num_matches": 3,
+      "ppm": "5.833",
+      "points": {
+        "won": 17.5,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

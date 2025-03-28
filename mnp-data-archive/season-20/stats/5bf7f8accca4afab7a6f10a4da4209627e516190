@@ -1,0 +1,335 @@
+{
+  "key": "5bf7f8accca4afab7a6f10a4da4209627e516190",
+  "name": "Astri Niederkom",
+  "history": [
+    {
+      "team": "PYC",
+      "opp": "LAS",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 41433070,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "LAS",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 50398860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "LAS",
+      "match": "mnp-20-1-PYC-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "Genesis",
+      "division": 0,
+      "score": 581040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DSV",
+      "match": "mnp-20-10-PYC-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 23994650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DSV",
+      "match": "mnp-20-10-PYC-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 95713780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DSV",
+      "match": "mnp-20-10-PYC-DSV",
+      "week": "10",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 2667860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBS",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 9000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBS",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 106990330,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "FBS",
+      "match": "mnp-20-2-FBS-PYC",
+      "week": "2",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 47290420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TWC",
+      "match": "mnp-20-4-TWC-PYC",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 137979870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TWC",
+      "match": "mnp-20-4-TWC-PYC",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 15000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "TWC",
+      "match": "mnp-20-4-TWC-PYC",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 1096340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SKP",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 421200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SKP",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 331727890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SKP",
+      "match": "mnp-20-5-PYC-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 144530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DTP",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 22060000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "DTP",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 176010,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "DTP",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 2842570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "DTP",
+      "match": "mnp-20-7-PYC-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 1407740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DIH",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 36281400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "DIH",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 49757250,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "DIH",
+      "match": "mnp-20-8-DIH-PYC",
+      "week": "8",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 64120150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "KNR",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 20511170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "KNR",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 64432860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "KNR",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 28134670,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.647",
+      "num_matches": 8,
+      "ppm": "5.500",
+      "points": {
+        "won": 44,
+        "of": 68
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

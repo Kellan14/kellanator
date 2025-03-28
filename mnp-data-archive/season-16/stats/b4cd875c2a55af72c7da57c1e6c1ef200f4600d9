@@ -1,0 +1,419 @@
+{
+  "key": "b4cd875c2a55af72c7da57c1e6c1ef200f4600d9",
+  "name": "Nick Wold",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 83611650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 16023290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 586457740,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 15000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 18000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 237000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 8032060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 9829230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 31375840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 45020430,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 81394080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 14959000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 4683380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 585321070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 3670910,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 17101990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "BOC",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 358330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "BOC",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1028880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "BOC",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 468770,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "TTT",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 117481950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TTT",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 11000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TTT",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 50697060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-16-7-SCN-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 58139480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-16-7-SCN-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 16268240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-16-7-SCN-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 156896460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-16-7-SCN-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 2262469700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 77899050,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 45000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "SHK",
+      "match": "mnp-16-8-SCN-SHK",
+      "week": "8",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 83000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 18404780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 15000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 13000000,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.545",
+      "num_matches": 10,
+      "ppm": "4.800",
+      "points": {
+        "won": 48,
+        "of": 88
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

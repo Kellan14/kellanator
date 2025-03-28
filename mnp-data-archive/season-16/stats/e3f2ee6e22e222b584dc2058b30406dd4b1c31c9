@@ -1,0 +1,395 @@
+{
+  "key": "e3f2ee6e22e222b584dc2058b30406dd4b1c31c9",
+  "name": "Brian Fist",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 222160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 163830,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 302060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SSS",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 849840,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NLT",
+      "opp": "SSS",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 199810,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "SSS",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 79560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-16-13-PBR-NLT",
+      "week": "13",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 167330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-16-13-PBR-NLT",
+      "week": "13",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 155670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-16-13-PBR-NLT",
+      "week": "13",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 1558360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-16-2-PBR-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 10467420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-16-2-PBR-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 189490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-16-2-PBR-NLT",
+      "week": "2",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 7899210,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-16-3-NLT-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 137190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-16-3-NLT-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 148910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-16-3-NLT-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 819797550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 186750,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 2,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1499270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "Genie",
+      "division": 0,
+      "score": 277870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ETB",
+      "match": "mnp-16-5-ETB-NLT",
+      "week": "5",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 136730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "ETB",
+      "match": "mnp-16-5-ETB-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 23566360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ETB",
+      "match": "mnp-16-5-ETB-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "Genie",
+      "division": 0,
+      "score": 201930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-16-7-JMF-NLT",
+      "week": "7",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 28769330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-16-7-JMF-NLT",
+      "week": "7",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 116840,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-16-7-JMF-NLT",
+      "week": "7",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 134240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-16-8-PKT-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 155300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-16-8-PKT-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 135600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-16-8-PKT-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 182220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-16-9-NLT-ADB",
+      "week": "9",
+      "round": 1,
+      "machine": "Rush",
+      "division": 0,
+      "score": 10868790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-16-9-NLT-ADB",
+      "week": "9",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 42269790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-16-9-NLT-ADB",
+      "week": "9",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 2370320,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.538",
+      "num_matches": 10,
+      "ppm": "4.550",
+      "points": {
+        "won": 45.5,
+        "of": 84.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

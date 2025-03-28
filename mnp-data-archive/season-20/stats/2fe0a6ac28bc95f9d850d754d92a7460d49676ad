@@ -1,0 +1,431 @@
+{
+  "key": "2fe0a6ac28bc95f9d850d754d92a7460d49676ad",
+  "name": "Nick Lindsay",
+  "history": [
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "Ali",
+      "division": 0,
+      "score": 275820,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 36000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "TWC",
+      "match": "mnp-20-1-POW-TWC",
+      "week": "1",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 148767340,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "HHS",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1422410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "HHS",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 360100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "HHS",
+      "match": "mnp-20-10-POW-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 351590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 3643190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 9584200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SSS",
+      "match": "mnp-20-11-SSS-POW",
+      "week": "11",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 119922210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 31096280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 131678740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SKP",
+      "match": "mnp-20-2-SKP-POW",
+      "week": "2",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 113816220,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "POW",
+      "opp": "CPO",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 114364000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "CPO",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 2,
+      "machine": "BOP",
+      "division": 0,
+      "score": 12654220,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "CPO",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 4,
+      "machine": "BOP",
+      "division": 0,
+      "score": 12198520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "DTP",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 14214600,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "POW",
+      "opp": "DTP",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 122281290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "DTP",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 422617260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DIH",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 119894090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DIH",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 315299860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DIH",
+      "match": "mnp-20-5-POW-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 69661830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 16844270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 3,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 1139240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-20-6-SWL-POW",
+      "week": "6",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 345856670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-20-7-POW-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 23155220,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-20-7-POW-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 2348522460,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "LAS",
+      "match": "mnp-20-7-POW-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 21354990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "FBS",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 21776030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "POW",
+      "opp": "FBS",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 70195900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "FBS",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 4,
+      "machine": "AS",
+      "division": 0,
+      "score": 974610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-20-9-DSV-POW",
+      "week": "9",
+      "round": 1,
+      "machine": "Stars",
+      "division": 0,
+      "score": 113160,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-20-9-DSV-POW",
+      "week": "9",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 296640490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "DSV",
+      "match": "mnp-20-9-DSV-POW",
+      "week": "9",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 16060440,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.677",
+      "num_matches": 11,
+      "ppm": "5.545",
+      "points": {
+        "won": 61,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

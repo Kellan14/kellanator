@@ -1,0 +1,143 @@
+{
+  "key": "3180c246459b791d033aae40f65b30cb76c06ad1",
+  "name": "Lily Liebich",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 8998490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1091430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-17-1-RMS-NLT",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 33184590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 3653380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 874280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ETB",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 867840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 94640060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2078900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "Toy story",
+      "division": 0,
+      "score": 255030,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.000",
+      "num_matches": 3,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

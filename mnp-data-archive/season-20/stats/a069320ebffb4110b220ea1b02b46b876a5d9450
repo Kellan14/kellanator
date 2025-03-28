@@ -1,0 +1,323 @@
+{
+  "key": "a069320ebffb4110b220ea1b02b46b876a5d9450",
+  "name": "Chris Noerr",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-20-1-NMC-NLT",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 156421190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-20-1-NMC-NLT",
+      "week": "1",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 11877710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-20-1-NMC-NLT",
+      "week": "1",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 734430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 4543670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 12135330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 16967030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 53431170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 2,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 4906250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 3,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 2610090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 157890670,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 55007710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 13664200,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 17054000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 8202890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "CPO",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 14968370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 32647170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 2,
+      "machine": "EJ",
+      "division": 0,
+      "score": 3675990,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 75677060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CDC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 4258120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "CDC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 16011200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "CDC",
+      "match": "mnp-20-6-CDC-NMC",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 36625176,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-7-NMC-RTR",
+      "week": "7",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 333123160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-7-NMC-RTR",
+      "week": "7",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 490355570,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-7-NMC-RTR",
+      "week": "7",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 16644770,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.323",
+      "num_matches": 8,
+      "ppm": "2.687",
+      "points": {
+        "won": 21.5,
+        "of": 66.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

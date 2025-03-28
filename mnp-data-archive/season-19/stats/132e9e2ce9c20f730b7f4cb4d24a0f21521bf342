@@ -1,0 +1,179 @@
+{
+  "key": "132e9e2ce9c20f730b7f4cb4d24a0f21521bf342",
+  "name": "Lauren Aquino",
+  "history": [
+    {
+      "team": "FBP",
+      "opp": "RMS",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 41916110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "RMS",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 330153690,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "RMS",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 17316440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "Quicksilver",
+      "division": 0,
+      "score": 427720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1650059150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 544830,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBP",
+      "opp": "FBS",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 1,
+      "machine": "DM",
+      "division": 0,
+      "score": 166720930,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBP",
+      "opp": "FBS",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 78043630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "FBS",
+      "match": "mnp-19-3-FBP-FBS",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 14787100,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 407806130,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 3,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 254810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBP",
+      "opp": "LAS",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 4,
+      "machine": "POTC",
+      "division": 0,
+      "score": 4798960,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.661",
+      "num_matches": 4,
+      "ppm": "5.375",
+      "points": {
+        "won": 21.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

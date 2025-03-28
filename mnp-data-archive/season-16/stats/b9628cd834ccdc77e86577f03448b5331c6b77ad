@@ -1,0 +1,335 @@
+{
+  "key": "b9628cd834ccdc77e86577f03448b5331c6b77ad",
+  "name": "Sam Atlas",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "TTT",
+      "match": "mnp-16-1-TTT-JMF",
+      "week": "1",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 6354200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TTT",
+      "match": "mnp-16-1-TTT-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 7999160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TTT",
+      "match": "mnp-16-1-TTT-JMF",
+      "week": "1",
+      "round": 4,
+      "machine": "NGG",
+      "division": 0,
+      "score": 7482470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 118609550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 21875090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 122958600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-16-10-JMF-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 227945780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 60119450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 31591260,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-16-4-DTP-JMF",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 191011070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 14785220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 88992610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-16-5-JMF-KNR",
+      "week": "5",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 154347580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-16-6-PGN-JMF",
+      "week": "6",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 55107570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-16-6-PGN-JMF",
+      "week": "6",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 113995960,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-16-6-PGN-JMF",
+      "week": "6",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 67220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-16-7-JMF-NLT",
+      "week": "7",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 36007850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-16-7-JMF-NLT",
+      "week": "7",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 15854180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-16-7-JMF-NLT",
+      "week": "7",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 224083550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "BOC",
+      "match": "mnp-16-8-JMF-BOC",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 49964420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "BOC",
+      "match": "mnp-16-8-JMF-BOC",
+      "week": "8",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 39546900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "BOC",
+      "match": "mnp-16-8-JMF-BOC",
+      "week": "8",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 17097380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-16-9-SHK-JMF",
+      "week": "9",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 40496590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-16-9-SHK-JMF",
+      "week": "9",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 56246410,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-16-9-SHK-JMF",
+      "week": "9",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 338950,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.625",
+      "num_matches": 8,
+      "ppm": "5.312",
+      "points": {
+        "won": 42.5,
+        "of": 68
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

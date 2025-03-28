@@ -1,0 +1,179 @@
+{
+  "key": "104f8daa15c15d38f2fa11d07e04da837c506b97",
+  "name": "Bobby Boden",
+  "history": [
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3318301690,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-14-5-OLD-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 521460660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 1,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 655726890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 3,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 262900930,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 21270680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 1,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 571718040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 46867130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "JMF",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 315233980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 29755910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 18270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "DIH",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 29047650,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.546",
+      "num_matches": 4,
+      "ppm": "4.375",
+      "points": {
+        "won": 17.5,
+        "of": 32
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "key": "922063450a473896a1a279ec7910a995b8c98d28",
+  "name": "Aaron Shervin",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 141470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 19000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 300000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 28558830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 96249700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 36496270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "TBT",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 65000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "TBT",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 3,
+      "machine": "24",
+      "division": 0,
+      "score": 5410650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "TBT",
+      "match": "mnp-17-7-SKP-TBT",
+      "week": "7",
+      "round": 4,
+      "machine": "24",
+      "division": 0,
+      "score": 5768290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 177084150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 20102040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 92487000,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.507",
+      "num_matches": 4,
+      "ppm": "4.250",
+      "points": {
+        "won": 17,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

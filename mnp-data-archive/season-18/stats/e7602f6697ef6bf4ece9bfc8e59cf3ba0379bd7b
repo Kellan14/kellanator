@@ -1,0 +1,107 @@
+{
+  "key": "e7602f6697ef6bf4ece9bfc8e59cf3ba0379bd7b",
+  "name": "Peter Schatzer",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-18-5-DTP-PGN",
+      "week": "5",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 51000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-18-5-DTP-PGN",
+      "week": "5",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 104960720,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-18-5-DTP-PGN",
+      "week": "5",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 98854660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "BOC",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 28350260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "BOC",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 2,
+      "machine": "Sorcerer",
+      "division": 0,
+      "score": 364400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "BOC",
+      "match": "mnp-18-8-ADB-BOC",
+      "week": "8",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 111769530,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.606",
+      "num_matches": 2,
+      "ppm": "5.000",
+      "points": {
+        "won": 10,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

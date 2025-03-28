@@ -1,0 +1,431 @@
+{
+  "key": "bb95ce373c39640f64e21ddea6a8a1c43a410866",
+  "name": "Randall Olson",
+  "history": [
+    {
+      "team": "PKT",
+      "opp": "HHS",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 21502130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "HHS",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 51905690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "HHS",
+      "match": "mnp-18-1-HHS-PKT",
+      "week": "1",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 9400860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10443440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 261406910,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 98652950,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 6630710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 9932580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "NMC",
+      "match": "mnp-18-11-PKT-NMC",
+      "week": "11",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 7982120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 2827110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 496880,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DSV",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 63660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 14278020,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 2778960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "KNR",
+      "match": "mnp-18-3-KNR-PKT",
+      "week": "3",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 2239570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 32154660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 23617360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-18-4-PKT-TBT",
+      "week": "4",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 5579120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PYC",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 5908080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PYC",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 6113040,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "PYC",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 4803570,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "ADB",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4787670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ADB",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 756366500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "ADB",
+      "match": "mnp-18-6-PKT-ADB",
+      "week": "6",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4231570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ETB",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 33956040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ETB",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 2,
+      "machine": "NBA",
+      "division": 0,
+      "score": 4044950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "ETB",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 3,
+      "machine": "NBA",
+      "division": 0,
+      "score": 4743730,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 2347010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 1574160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-18-8-POW-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 382930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 10612520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 2338130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PBR",
+      "match": "mnp-18-9-PBR-PKT",
+      "week": "9",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 5130930,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.371",
+      "num_matches": 11,
+      "ppm": "3.090",
+      "points": {
+        "won": 34,
+        "of": 91.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

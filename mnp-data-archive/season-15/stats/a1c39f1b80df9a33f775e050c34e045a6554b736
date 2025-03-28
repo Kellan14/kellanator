@@ -1,0 +1,215 @@
+{
+  "key": "a1c39f1b80df9a33f775e050c34e045a6554b736",
+  "name": "Dylan Ingham",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 5086350,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 129389770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 20898180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 42399170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6784670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 5863740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 334474700,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 255218150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 509125830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3427491170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 4711220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 4873240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 501488940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 794872250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "FT",
+      "division": 0,
+      "score": 44578990,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.566",
+      "num_matches": 5,
+      "ppm": "4.700",
+      "points": {
+        "won": 23.5,
+        "of": 41.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

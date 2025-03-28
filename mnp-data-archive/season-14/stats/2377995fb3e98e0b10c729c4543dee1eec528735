@@ -1,0 +1,407 @@
+{
+  "key": "2377995fb3e98e0b10c729c4543dee1eec528735",
+  "name": "Tomar Schell",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "SKP",
+      "match": "mnp-14-1-SHK-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 130600,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SHK",
+      "opp": "SKP",
+      "match": "mnp-14-1-SHK-SKP",
+      "week": "1",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 6000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SKP",
+      "match": "mnp-14-1-SHK-SKP",
+      "week": "1",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 629000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "SKP",
+      "match": "mnp-14-1-SHK-SKP",
+      "week": "1",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 236030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "LCS",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 8410660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "LCS",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 2,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 128600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "LCS",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 11529530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 48599460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 13798640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-14-2-CRA-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 457260,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-14-3-DSV-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 1301570,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-14-3-DSV-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1004810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-14-3-DSV-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1099430,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1466100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1734610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-14-4-KNR-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 2543910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 2,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 168998190,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 3,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 567807330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 224190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 21496580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1424580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 273350,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-14-7-PKT-DSV",
+      "week": "7",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 83170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-14-7-PKT-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 1948720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-14-7-PKT-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1421580,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-14-8-DSV-ADB",
+      "week": "8",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 74494530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-14-8-DSV-ADB",
+      "week": "8",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 24452630,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-14-8-DSV-ADB",
+      "week": "8",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 23943620,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1592110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 541800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1424620,
+      "points": 2,
+      "pops": "0.800"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.482",
+      "num_matches": 10,
+      "ppm": "4.050",
+      "points": {
+        "won": 40.5,
+        "of": 84
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

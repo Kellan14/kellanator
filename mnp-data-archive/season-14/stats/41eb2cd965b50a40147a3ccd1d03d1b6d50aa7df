@@ -1,0 +1,143 @@
+{
+  "key": "41eb2cd965b50a40147a3ccd1d03d1b6d50aa7df",
+  "name": "Robert Manyon",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 4394080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 26958650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-14-10-SSS-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 70110540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-14-7-SCN-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "POTC",
+      "division": 0,
+      "score": 1175480,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-14-7-SCN-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 16784610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-14-7-SCN-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 26105640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 4210070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 23185350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "LAS",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 4,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 92750330,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.270",
+      "num_matches": 3,
+      "ppm": "2.166",
+      "points": {
+        "won": 6.5,
+        "of": 24
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

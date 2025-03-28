@@ -1,0 +1,215 @@
+{
+  "key": "d8845e29e5ae7ff13aad227691b91831745482c7",
+  "name": "Molly Manatee",
+  "history": [
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 9043460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1581898790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PBR",
+      "match": "mnp-18-1-PYC-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 451560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 2,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 8716850,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 27072390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-18-6-CDC-PYC",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 22000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "BOC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 2,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 4706100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "BOC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4483680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "BOC",
+      "match": "mnp-18-7-BOC-PYC",
+      "week": "7",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 586115720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 3538430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 9000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SCN",
+      "match": "mnp-18-8-PYC-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 23000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 18608670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 13742990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "HHS",
+      "match": "mnp-18-9-PYC-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 7412980,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.433",
+      "num_matches": 5,
+      "ppm": "3.600",
+      "points": {
+        "won": 18,
+        "of": 41.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

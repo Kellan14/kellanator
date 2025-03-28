@@ -1,0 +1,395 @@
+{
+  "key": "bae550bcdb3c0c610527cc0e7330a4a44a41a7c3",
+  "name": "Daniel Anthony",
+  "history": [
+    {
+      "team": "OLD",
+      "opp": "PBR",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 12365210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "PBR",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 105659730,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "PBR",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 464316870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 16641370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 15154490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "SCN",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13533520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "ETB",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 11523960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "ETB",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 11803110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "ETB",
+      "match": "mnp-16-2-ETB-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 4495220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CRA",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 22540700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "OLD",
+      "opp": "CRA",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 27146850,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "OLD",
+      "opp": "CRA",
+      "match": "mnp-16-3-OLD-CRA",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 27259560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 11916710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 13227660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "CDC",
+      "match": "mnp-16-4-OLD-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 30662050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "ADB",
+      "match": "mnp-16-5-ADB-OLD",
+      "week": "5",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 19166130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "OLD",
+      "opp": "ADB",
+      "match": "mnp-16-5-ADB-OLD",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 10664420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "ADB",
+      "match": "mnp-16-5-ADB-OLD",
+      "week": "5",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14335790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 5204380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 7730370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "TWC",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 18014690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 28014980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 13892560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "HHS",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 3,
+      "machine": "WOF",
+      "division": 0,
+      "score": 63723220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-16-8-SKP-OLD",
+      "week": "8",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 7053280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-16-8-SKP-OLD",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5945580,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "SKP",
+      "match": "mnp-16-8-SKP-OLD",
+      "week": "8",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 24944570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-16-9-OLD-PKT",
+      "week": "9",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 27276380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-16-9-OLD-PKT",
+      "week": "9",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1043087420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "OLD",
+      "opp": "PKT",
+      "match": "mnp-16-9-OLD-PKT",
+      "week": "9",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 2694380,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.484",
+      "num_matches": 10,
+      "ppm": "4.000",
+      "points": {
+        "won": 40,
+        "of": 82.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

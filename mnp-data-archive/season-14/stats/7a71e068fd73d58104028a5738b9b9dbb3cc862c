@@ -1,0 +1,323 @@
+{
+  "key": "7a71e068fd73d58104028a5738b9b9dbb3cc862c",
+  "name": " Benny Phanichkul",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 22510180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "WOF",
+      "division": 0,
+      "score": 12769380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 12059820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 175624670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 115470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 726634840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 8000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 631640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 12299630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 16275310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 279634790,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 289052800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 11208770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 14576030,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 14369380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LLK",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 147950110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LLK",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 1694810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "LLK",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 3791710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8911900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 677590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 12666270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 9230100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 3,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 6269200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 111300180,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.378",
+      "num_matches": 8,
+      "ppm": "3.125",
+      "points": {
+        "won": 25,
+        "of": 66
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

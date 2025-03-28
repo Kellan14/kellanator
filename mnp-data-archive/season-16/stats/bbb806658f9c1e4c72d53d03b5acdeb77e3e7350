@@ -1,0 +1,323 @@
+{
+  "key": "bbb806658f9c1e4c72d53d03b5acdeb77e3e7350",
+  "name": "Hannah Hatch",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 50978560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 367383860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 274106350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 22212820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 1626740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 27900000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1068310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 91840420,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 81278130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 8958860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 96379610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 257753840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 58585450,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 102610190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 53876960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 16111330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 106378590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 38865400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 27007700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 256517230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 56510020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 15805980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 13506790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 108324790,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.630",
+      "num_matches": 8,
+      "ppm": "5.125",
+      "points": {
+        "won": 41,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

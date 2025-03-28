@@ -1,0 +1,179 @@
+{
+  "key": "d003b01bc825d4f5f00cd29511a939f666634fce",
+  "name": "Hank Duhaime",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-18-10-RTR-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "Venom",
+      "division": 0,
+      "score": 16965270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-18-10-RTR-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 37614130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-18-10-RTR-PGN",
+      "week": "10",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 14754890,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 64780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 236200520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 120405850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-18-7-RTR-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 26962620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-18-7-RTR-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 60377200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-18-7-RTR-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "Venom Right",
+      "division": 0,
+      "score": 47706540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-18-9-RTR-CFB",
+      "week": "9",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 45668820,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-18-9-RTR-CFB",
+      "week": "9",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 5712270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CFB",
+      "match": "mnp-18-9-RTR-CFB",
+      "week": "9",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 10628970,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.430",
+      "num_matches": 4,
+      "ppm": "3.500",
+      "points": {
+        "won": 14,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

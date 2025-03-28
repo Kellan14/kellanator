@@ -1,0 +1,395 @@
+{
+  "key": "02c2161223260dbf248049576786a5fe6592ed36",
+  "name": "Zoe Ackerman",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 43727570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 196691930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 159088590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 98098150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 38489080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 133038970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 19150530,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 7915930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 331774160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 12564290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 327944130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 48545560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 64808340,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 82621680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 46793710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 51890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 213130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 229060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 314560450,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 44110430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 65857130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 70217070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 69000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 10000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 115700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 97758650,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 251365050,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 555958980,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 29071880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 4885030,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.408",
+      "num_matches": 10,
+      "ppm": "3.350",
+      "points": {
+        "won": 33.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

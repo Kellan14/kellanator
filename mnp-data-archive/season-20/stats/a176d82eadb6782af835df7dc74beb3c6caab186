@@ -1,0 +1,395 @@
+{
+  "key": "a176d82eadb6782af835df7dc74beb3c6caab186",
+  "name": "Sandy Magallanes",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 6601050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1326450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 627710,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-20-10-CPO-RMS",
+      "week": "10",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 346800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-20-10-CPO-RMS",
+      "week": "10",
+      "round": 2,
+      "machine": "LAB",
+      "division": 0,
+      "score": 4177770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-20-10-CPO-RMS",
+      "week": "10",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 35830,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 1,
+      "machine": "LAB",
+      "division": 0,
+      "score": 3604460,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 199620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 225870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 23200,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 590240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 4,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 35860,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "ETB",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14267390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ETB",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 57320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ETB",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 83530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 19899230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 68550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 3,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 32839810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4754920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 21209240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9323200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TBT",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 2800430,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "TBT",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1250780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TBT",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1548540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 47410290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 110364770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 1660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 49133650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1320410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 72960,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.404",
+      "num_matches": 10,
+      "ppm": "3.300",
+      "points": {
+        "won": 33,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

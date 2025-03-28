@@ -1,0 +1,335 @@
+{
+  "key": "e3c90eb811ab9add9b2b570fcbcaf78498f202ed",
+  "name": "Andrew Nunes",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 29053570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 59236080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 27757930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 11092560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 50371260,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 3866460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 27316940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 16443700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 5490960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 1,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 14,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 3450560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 45886330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 51695730,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 73941560,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 8479660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14097450,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 71400,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "FG",
+      "division": 0,
+      "score": 19268820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 44807140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 44562860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 32125300,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 106625510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 177218690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 231788580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 320900,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.554",
+      "num_matches": 8,
+      "ppm": "4.750",
+      "points": {
+        "won": 38,
+        "of": 68.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

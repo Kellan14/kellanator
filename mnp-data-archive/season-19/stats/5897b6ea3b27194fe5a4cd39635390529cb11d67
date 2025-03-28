@@ -1,0 +1,323 @@
+{
+  "key": "5897b6ea3b27194fe5a4cd39635390529cb11d67",
+  "name": "Jenny Pickens",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 188360460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 7555360,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-19-1-CRA-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 139620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 106260,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 18260280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 98312450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 524490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4741020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 3945740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 19436620,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 22659180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 284427190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 153780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 156959640,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-19-5-CFB-HHS",
+      "week": "5",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 119828690,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 5615510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 81318150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 188665350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 11253170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 58173960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TTT",
+      "match": "mnp-19-8-HHS-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 42601020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 8157110,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 105230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-19-9-RTR-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 187120360,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.315",
+      "num_matches": 8,
+      "ppm": "2.562",
+      "points": {
+        "won": 20.5,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

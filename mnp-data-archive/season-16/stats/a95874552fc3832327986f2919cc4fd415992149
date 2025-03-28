@@ -1,0 +1,431 @@
+{
+  "key": "a95874552fc3832327986f2919cc4fd415992149",
+  "name": "Alexa Philbeck",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3577130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 699887240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3297630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2918420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1928280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 5303760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-16-11-PKT-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 285250,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-16-11-PKT-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "XFiles",
+      "division": 0,
+      "score": 3705140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-16-11-PKT-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 104820,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 50918360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 138600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 262730,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 100756710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 949110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 676786280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-16-4-TTT-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 19598760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-16-4-TTT-TWC",
+      "week": "4",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 1396660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-16-4-TTT-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 693490070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-16-5-TWC-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 385390520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-16-5-TWC-CPO",
+      "week": "5",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 269160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-16-5-TWC-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 145670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "OLD",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 505862080,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "OLD",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 289450280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "OLD",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 297456100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 17319620,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 41805970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 10723760,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "RMS",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 23830500,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "RMS",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 3,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 49401100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "RMS",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13719420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 38686960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 107578060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3614430,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.558",
+      "num_matches": 11,
+      "ppm": "4.590",
+      "points": {
+        "won": 50.5,
+        "of": 90.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

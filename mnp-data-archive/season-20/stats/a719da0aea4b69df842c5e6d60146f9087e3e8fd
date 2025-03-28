@@ -1,0 +1,359 @@
+{
+  "key": "a719da0aea4b69df842c5e6d60146f9087e3e8fd",
+  "name": "Danny Fair",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-20-10-ADB-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 58000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-20-10-ADB-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "Ali",
+      "division": 0,
+      "score": 76560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "ADB",
+      "match": "mnp-20-10-ADB-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 91710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SWL",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 23933430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SWL",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 22502550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SWL",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 13506240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 28218190,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 9191710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 716830190,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "FBS",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 21770430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "FBS",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 180370,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "FBS",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 72220320,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-20-5-KNR-RMS",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 2356790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-20-5-KNR-RMS",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2736635520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-20-5-KNR-RMS",
+      "week": "5",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 962000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-20-6-TWC-KNR",
+      "week": "6",
+      "round": 1,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 9132210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-20-6-TWC-KNR",
+      "week": "6",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 12000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-20-6-TWC-KNR",
+      "week": "6",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 1452880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SKP",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 3354020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SKP",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 666196520,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "SKP",
+      "match": "mnp-20-7-KNR-SKP",
+      "week": "7",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 117400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CPO",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 44670,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "KNR",
+      "opp": "CPO",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 10771870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CPO",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 170110,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 11000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 76000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-20-9-KNR-PYC",
+      "week": "9",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 31030530,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.238",
+      "num_matches": 9,
+      "ppm": "1.944",
+      "points": {
+        "won": 17.5,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

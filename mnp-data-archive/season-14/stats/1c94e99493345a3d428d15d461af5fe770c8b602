@@ -1,0 +1,275 @@
+{
+  "key": "1c94e99493345a3d428d15d461af5fe770c8b602",
+  "name": "Michael Warfield",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-14-10-CPO-ADB",
+      "week": "10",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 1499530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 56520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 33288950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 873100,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 6295700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 36123540,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 479954930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SWL",
+      "match": "mnp-14-4-SWL-CPO",
+      "week": "4",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 2781880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SWL",
+      "match": "mnp-14-4-SWL-CPO",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 10550930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "SWL",
+      "match": "mnp-14-4-SWL-CPO",
+      "week": "4",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 16324720,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 29344060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 106015840,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 983100,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 79160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14777760,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 40130950,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 247112700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 11563430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 2174630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1345490,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.490",
+      "num_matches": 8,
+      "ppm": "3.250",
+      "points": {
+        "won": 26,
+        "of": 53
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

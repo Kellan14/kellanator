@@ -1,0 +1,287 @@
+{
+  "key": "19ed6b9a9f7e577cdcc6745725554d92bad1693a",
+  "name": "Lars Rehe",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 6394980,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 111650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "POW",
+      "match": "mnp-21-1-POW-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 1769120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "BOPP",
+      "division": 0,
+      "score": 107900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 148980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-21-2-SCN-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 72422340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 284260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 276764710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBP",
+      "match": "mnp-21-3-FBP-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 1345911510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1013600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 10123600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-21-4-SCN-RTR",
+      "week": "4",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 7875540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 554354500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 277088480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-21-5-DSV-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 515293730,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 894540350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 505000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TWC",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 64697210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 67610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 104142750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-21-7-SCN-PKT",
+      "week": "7",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 682320,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.578",
+      "num_matches": 7,
+      "ppm": "4.714",
+      "points": {
+        "won": 33,
+        "of": 57
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

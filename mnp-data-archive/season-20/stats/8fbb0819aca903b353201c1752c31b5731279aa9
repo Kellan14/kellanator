@@ -1,0 +1,287 @@
+{
+  "key": "8fbb0819aca903b353201c1752c31b5731279aa9",
+  "name": "Jimmie Eisemen",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10072660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8559950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 662475280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 11527150,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 3329830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 504000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 23795000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 1255000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 6693600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 983760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8752280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7472420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2199410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 726110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1227250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 1,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 366390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 35308310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 85314520,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16600720,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 2052430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 54070810,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.389",
+      "num_matches": 7,
+      "ppm": "3.142",
+      "points": {
+        "won": 22,
+        "of": 56.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

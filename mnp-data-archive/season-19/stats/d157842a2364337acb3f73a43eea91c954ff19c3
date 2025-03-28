@@ -1,0 +1,395 @@
+{
+  "key": "d157842a2364337acb3f73a43eea91c954ff19c3",
+  "name": "Danae Hackett",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 65361290,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 148814000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 152600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 19010270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 60000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 4897800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 34000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 600000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 4,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1202480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 9001840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 3,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 30299000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 18650760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 474290890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 43287140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 79580840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 69750,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 77810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 6636180,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 7921140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 10000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 76167790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 219105610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 12725320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 37057850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 265196210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 263878580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 13663860,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6231740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 59351220,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 6615270,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.509",
+      "num_matches": 10,
+      "ppm": "4.150",
+      "points": {
+        "won": 41.5,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

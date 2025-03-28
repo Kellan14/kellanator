@@ -1,0 +1,395 @@
+{
+  "key": "a34e4441ae6b3fb6a9fb7d107ecae24a9881e109",
+  "name": "Kyle Condell",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 60,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 262226960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 56,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 1604018310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 82,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 741050800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 9777660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 1365710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 23519470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 431340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 36413850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 108,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 561073900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 71050420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 11766440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 1,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 60,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 36060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 4,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 57,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 24436180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 30537310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 21200850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 140737400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 12897220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 71760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 1,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 82,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 2,
+      "machine": "NBAFB",
+      "division": 0,
+      "score": 46,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 616901850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 76998420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 91013970,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 244296460,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.506",
+      "num_matches": 10,
+      "ppm": "4.100",
+      "points": {
+        "won": 41,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "key": "b4cac9d1c6ef0fae9775810a3ba1f59c388bd18c",
+  "name": "Mika Rollin",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "PGN",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 233367960,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "PGN",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 868880,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PGN",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4595270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "DSV",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 38649780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "DSV",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 983090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "DSV",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 692090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 5850700,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 10937340,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 171979560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14559390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 73091150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 289050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 778590,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 71784990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 803530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 52046630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 307733670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 67627640,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 397780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 3238330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 200820,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.592",
+      "num_matches": 7,
+      "ppm": "4.785",
+      "points": {
+        "won": 33.5,
+        "of": 56.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

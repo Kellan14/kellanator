@@ -1,0 +1,323 @@
+{
+  "key": "b4c6f4a0222bf84e9811cf283febf386684852d5",
+  "name": "Alex Skinner",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-19-1-SCN-DTP",
+      "week": "1",
+      "round": 1,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 15233590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-19-1-SCN-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "Venom",
+      "division": 0,
+      "score": 648599480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-19-1-SCN-DTP",
+      "week": "1",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 272000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PBR",
+      "match": "mnp-19-2-DTP-PBR",
+      "week": "2",
+      "round": 1,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 2147270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PBR",
+      "match": "mnp-19-2-DTP-PBR",
+      "week": "2",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 132341960,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "PBR",
+      "match": "mnp-19-2-DTP-PBR",
+      "week": "2",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 4473874110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 4103270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 37444250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 18904840,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 95000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 195600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 1442230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "FBP",
+      "match": "mnp-19-5-FBP-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 30401630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "FBP",
+      "match": "mnp-19-5-FBP-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "Venom",
+      "division": 0,
+      "score": 653123010,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "FBP",
+      "match": "mnp-19-5-FBP-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 27335480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SHK",
+      "match": "mnp-19-6-DTP-SHK",
+      "week": "6",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 165287140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SHK",
+      "match": "mnp-19-6-DTP-SHK",
+      "week": "6",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 347814000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SHK",
+      "match": "mnp-19-6-DTP-SHK",
+      "week": "6",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 60514520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 39492880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 265000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CDC",
+      "match": "mnp-19-8-DTP-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 4458750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-19-9-PKT-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 85479150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-19-9-PKT-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "Venom",
+      "division": 0,
+      "score": 18000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-19-9-PKT-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 117000000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.618",
+      "num_matches": 8,
+      "ppm": "5.062",
+      "points": {
+        "won": 40.5,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

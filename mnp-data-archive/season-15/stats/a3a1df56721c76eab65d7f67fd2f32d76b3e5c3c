@@ -1,0 +1,395 @@
+{
+  "key": "a3a1df56721c76eab65d7f67fd2f32d76b3e5c3c",
+  "name": "Matt Strzelecki",
+  "history": [
+    {
+      "team": "ADB",
+      "opp": "TWC",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 25641250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "TWC",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 178084080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "TWC",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 35099020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SCN",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 59483540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "SCN",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 146116220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "SCN",
+      "match": "mnp-15-11-SCN-ADB",
+      "week": "11",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 122225820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SKP",
+      "match": "mnp-15-2-SKP-ADB",
+      "week": "2",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 371556130,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "SKP",
+      "match": "mnp-15-2-SKP-ADB",
+      "week": "2",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 111000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "SKP",
+      "match": "mnp-15-2-SKP-ADB",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 153323780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-15-3-PKT-ADB",
+      "week": "3",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 72241810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-15-3-PKT-ADB",
+      "week": "3",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 144458890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PKT",
+      "match": "mnp-15-3-PKT-ADB",
+      "week": "3",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 28104240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "DIH",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 13710140,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "DIH",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 67780460,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "DIH",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 152670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "HHS",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1624846350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "HHS",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 222982480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "HHS",
+      "match": "mnp-15-5-HHS-ADB",
+      "week": "5",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1336129010,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-15-6-ADB-PBR",
+      "week": "6",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 185984670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-15-6-ADB-PBR",
+      "week": "6",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 461790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "PBR",
+      "match": "mnp-15-6-ADB-PBR",
+      "week": "6",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "JMF",
+      "match": "mnp-15-7-JMF-ADB",
+      "week": "7",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 133584570,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "JMF",
+      "match": "mnp-15-7-JMF-ADB",
+      "week": "7",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 158027060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "JMF",
+      "match": "mnp-15-7-JMF-ADB",
+      "week": "7",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 328836710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-15-8-ADB-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 9587570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-15-8-ADB-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 993503460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ADB",
+      "opp": "KNR",
+      "match": "mnp-15-8-ADB-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 22693010,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ADB",
+      "opp": "CDC",
+      "match": "mnp-15-9-CDC-ADB",
+      "week": "9",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 325166930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "CDC",
+      "match": "mnp-15-9-CDC-ADB",
+      "week": "9",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 5869195200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "CDC",
+      "match": "mnp-15-9-CDC-ADB",
+      "week": "9",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 145555500,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.551",
+      "num_matches": 10,
+      "ppm": "4.550",
+      "points": {
+        "won": 45.5,
+        "of": 82.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

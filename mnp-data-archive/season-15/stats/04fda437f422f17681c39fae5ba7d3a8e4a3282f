@@ -1,0 +1,395 @@
+{
+  "key": "04fda437f422f17681c39fae5ba7d3a8e4a3282f",
+  "name": "Alex Hawley",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 147901410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 262270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 3,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1002330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 679130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 85620,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 7163000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 2,
+      "machine": "DND",
+      "division": 0,
+      "score": 1230820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 3,
+      "machine": "DND",
+      "division": 0,
+      "score": 216490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 122320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 3,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 180410,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 3,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 654215670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 435448240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 573075240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 192710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 16401370,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 3,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 55840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 281300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 143780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 325850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 130950,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 118226000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 90123790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 61520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 68600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 245443930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 75600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 90672640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 284960,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.509",
+      "num_matches": 10,
+      "ppm": "4.200",
+      "points": {
+        "won": 42,
+        "of": 82.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

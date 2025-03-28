@@ -1,0 +1,395 @@
+{
+  "key": "45b86f2eb9f21a4155bc3199715df8bc485f3d6d",
+  "name": "Stephen Brundle",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-20-1-TTT-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 10899890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-20-1-TTT-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 279620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PBR",
+      "match": "mnp-20-1-TTT-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 7081250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-20-10-PGN-TTT",
+      "week": "10",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 79902610,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-20-10-PGN-TTT",
+      "week": "10",
+      "round": 3,
+      "machine": "BDK",
+      "division": 0,
+      "score": 6740080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-20-10-PGN-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 107636630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-20-2-NLT-TTT",
+      "week": "2",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 184077910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-20-2-NLT-TTT",
+      "week": "2",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 40835840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-20-2-NLT-TTT",
+      "week": "2",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 62771040,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-20-3-TTT-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 3182840,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-20-3-TTT-DTP",
+      "week": "3",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 35398770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-20-3-TTT-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 31000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBP",
+      "match": "mnp-20-4-FBP-TTT",
+      "week": "4",
+      "round": 1,
+      "machine": "BDK",
+      "division": 0,
+      "score": 27971880,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBP",
+      "match": "mnp-20-4-FBP-TTT",
+      "week": "4",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 112248860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBP",
+      "match": "mnp-20-4-FBP-TTT",
+      "week": "4",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 11373470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SHK",
+      "match": "mnp-20-5-TTT-SHK",
+      "week": "5",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 63415990,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "SHK",
+      "match": "mnp-20-5-TTT-SHK",
+      "week": "5",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 69333420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SHK",
+      "match": "mnp-20-5-TTT-SHK",
+      "week": "5",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 72798920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ICB",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 38774960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ICB",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 15212190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "ICB",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 59070150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 18065380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 102577090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CDC",
+      "match": "mnp-20-7-TTT-CDC",
+      "week": "7",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 42204360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-20-8-RTR-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 58009340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-20-8-RTR-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 41581360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-20-8-RTR-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 1744600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-20-9-TTT-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 67024930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-20-9-TTT-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10647370,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-20-9-TTT-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 36500,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.403",
+      "num_matches": 10,
+      "ppm": "3.250",
+      "points": {
+        "won": 32.5,
+        "of": 80.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

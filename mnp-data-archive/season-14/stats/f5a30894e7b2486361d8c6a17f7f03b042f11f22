@@ -1,0 +1,287 @@
+{
+  "key": "f5a30894e7b2486361d8c6a17f7f03b042f11f22",
+  "name": "Masando Jensen",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 2898880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5800510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RMS",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 179511960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LLK",
+      "match": "mnp-14-2-DIH-LLK",
+      "week": "2",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 48852510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LLK",
+      "match": "mnp-14-2-DIH-LLK",
+      "week": "2",
+      "round": 2,
+      "machine": "TNA",
+      "division": 0,
+      "score": 236070,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "LLK",
+      "match": "mnp-14-2-DIH-LLK",
+      "week": "2",
+      "round": 4,
+      "machine": "FT",
+      "division": 0,
+      "score": 33286480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 44680700,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 33404540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 10809640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 950000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 39582130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-14-4-DIH-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 74100040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 8138520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 2067630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-14-6-DIH-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 42749960,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DIH",
+      "opp": "OLD",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 113603430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "OLD",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 2,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 11931310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "OLD",
+      "match": "mnp-14-8-OLD-DIH",
+      "week": "8",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 1377920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 13530400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 79249160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-14-9-DIH-NLT",
+      "week": "9",
+      "round": 3,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1692600,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.405",
+      "num_matches": 7,
+      "ppm": "3.357",
+      "points": {
+        "won": 23.5,
+        "of": 58
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

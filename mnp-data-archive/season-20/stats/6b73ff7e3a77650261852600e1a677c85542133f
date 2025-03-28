@@ -1,0 +1,131 @@
+{
+  "key": "6b73ff7e3a77650261852600e1a677c85542133f",
+  "name": "Camille Laframboise",
+  "history": [
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 47191510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 18053610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 1434780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SSS",
+      "match": "mnp-20-7-SSS-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 41755510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "POW",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 924965420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "POW",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 2,
+      "machine": "JB60",
+      "division": 0,
+      "score": 1902,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "POW",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 3,
+      "machine": "SG",
+      "division": 0,
+      "score": 257960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "POW",
+      "match": "mnp-20-8-FBS-POW",
+      "week": "8",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 35094160,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.318",
+      "num_matches": 2,
+      "ppm": "3.500",
+      "points": {
+        "won": 7,
+        "of": 22
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

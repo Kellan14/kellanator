@@ -1,0 +1,215 @@
+{
+  "key": "20f97d0b821c003abbdfd3d96980d4e05185e252",
+  "name": "Kyle Klages",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "DIH",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 790920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "DIH",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 59314890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "DIH",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 353800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 1,
+      "machine": "QS",
+      "division": 0,
+      "score": 412030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "Viking",
+      "division": 0,
+      "score": 140100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 4,
+      "machine": "GTF",
+      "division": 0,
+      "score": 188207450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ETB",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 69390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ETB",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "SpaceInvaders",
+      "division": 0,
+      "score": 37400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ETB",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 236720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 329000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 164000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 4,
+      "machine": "EJ",
+      "division": 0,
+      "score": 18363820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 45371760,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 3,
+      "machine": "EJ",
+      "division": 0,
+      "score": 17793200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 114746250,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.387",
+      "num_matches": 5,
+      "ppm": "3.100",
+      "points": {
+        "won": 15.5,
+        "of": 40
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

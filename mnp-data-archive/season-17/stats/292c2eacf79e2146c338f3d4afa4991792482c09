@@ -1,0 +1,395 @@
+{
+  "key": "292c2eacf79e2146c338f3d4afa4991792482c09",
+  "name": "Marisa McClintock",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-17-1-SKP-PKT",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 11014470,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-17-1-SKP-PKT",
+      "week": "1",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 49714230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "PKT",
+      "match": "mnp-17-1-SKP-PKT",
+      "week": "1",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 16597610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-17-10-ETB-SKP",
+      "week": "10",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 18642690,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-17-10-ETB-SKP",
+      "week": "10",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 706100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "ETB",
+      "match": "mnp-17-10-ETB-SKP",
+      "week": "10",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 128052670,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 43038590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 82000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-17-11-SKP-SSS",
+      "week": "11",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 107000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 10285350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 2000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 3,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2500000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "JMF",
+      "match": "mnp-17-2-JMF-SKP",
+      "week": "2",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 239300080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "JMF",
+      "match": "mnp-17-2-JMF-SKP",
+      "week": "2",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 175132250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "JMF",
+      "match": "mnp-17-2-JMF-SKP",
+      "week": "2",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 301981010,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-17-3-SKP-NMC",
+      "week": "3",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 4073570,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-17-3-SKP-NMC",
+      "week": "3",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 48203,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-17-3-SKP-NMC",
+      "week": "3",
+      "round": 3,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 9000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-17-4-SKP-CRA",
+      "week": "4",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 39723600,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-17-4-SKP-CRA",
+      "week": "4",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 12967480,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "CRA",
+      "match": "mnp-17-4-SKP-CRA",
+      "week": "4",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 19627170,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 3083390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 51598590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 20155740,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "HHS",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 298080910,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "HHS",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 7290300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "HHS",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 10091710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-17-9-SKP-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "MSF",
+      "division": 0,
+      "score": 310580170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-17-9-SKP-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 89997040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "TWC",
+      "match": "mnp-17-9-SKP-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 311750250,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.506",
+      "num_matches": 10,
+      "ppm": "4.150",
+      "points": {
+        "won": 41.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

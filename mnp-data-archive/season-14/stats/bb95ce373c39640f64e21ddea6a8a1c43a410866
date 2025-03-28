@@ -1,0 +1,359 @@
+{
+  "key": "bb95ce373c39640f64e21ddea6a8a1c43a410866",
+  "name": "Randall Olson",
+  "history": [
+    {
+      "team": "PKT",
+      "opp": "PGN",
+      "match": "mnp-14-10-PGN-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 9719800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "PGN",
+      "match": "mnp-14-10-PGN-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 222808440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "PGN",
+      "match": "mnp-14-10-PGN-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 4882940,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-14-11-DIH-PKT",
+      "week": "11",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 260643310,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-14-11-DIH-PKT",
+      "week": "11",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 12834490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-14-11-DIH-PKT",
+      "week": "11",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8051890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 5427040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 521993670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "SHK",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 43552180,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PKT",
+      "opp": "BOC",
+      "match": "mnp-14-3-BOC-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 14936760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "BOC",
+      "match": "mnp-14-3-BOC-PKT",
+      "week": "3",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 266297990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "BOC",
+      "match": "mnp-14-3-BOC-PKT",
+      "week": "3",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 44109710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PKT",
+      "opp": "OLD",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4253110,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "OLD",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 50615540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "OLD",
+      "match": "mnp-14-4-PKT-OLD",
+      "week": "4",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 252260160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 420315820,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 507995840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "NLT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 3807770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-14-6-PKT-RMS",
+      "week": "6",
+      "round": 1,
+      "machine": "DM",
+      "division": 0,
+      "score": 111301690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-14-6-PKT-RMS",
+      "week": "6",
+      "round": 2,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 21070550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-14-6-PKT-RMS",
+      "week": "6",
+      "round": 3,
+      "machine": "DM",
+      "division": 0,
+      "score": 41838530,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "LAS",
+      "match": "mnp-14-8-LAS-PKT",
+      "week": "8",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 208175930,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "LAS",
+      "match": "mnp-14-8-LAS-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 13972380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "LAS",
+      "match": "mnp-14-8-LAS-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 17433110,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PKT",
+      "opp": "SSS",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 9821610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "SSS",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 49807840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "SSS",
+      "match": "mnp-14-9-PKT-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "SC",
+      "division": 0,
+      "score": 1646560,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.395",
+      "num_matches": 9,
+      "ppm": "3.277",
+      "points": {
+        "won": 29.5,
+        "of": 74.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

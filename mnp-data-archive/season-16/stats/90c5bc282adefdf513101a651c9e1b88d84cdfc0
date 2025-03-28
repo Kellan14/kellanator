@@ -1,0 +1,359 @@
+{
+  "key": "90c5bc282adefdf513101a651c9e1b88d84cdfc0",
+  "name": "Matt Slater",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 152000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 143523180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 283000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 9696480,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 33918020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 24000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 127170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 234980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 201320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 94561750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 21362918,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 7903870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 3819260,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 244882790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 32035750,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 8404070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 88754510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 114060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6001040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 40642710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 86401550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 22931210,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 12514020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 9647140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 178570100,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 272325980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CRA",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 24413950,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.353",
+      "num_matches": 9,
+      "ppm": "2.888",
+      "points": {
+        "won": 26,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "key": "f6e4834317248be1c3faf8ca87add2ede7031601",
+  "name": "Andrew Meuser",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 125171118,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 46298270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 3,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 100000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 25344230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9289750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-20-11-NMC-ADB",
+      "week": "11",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 10849280,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 252958630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 350000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-20-12-HHS-NMC",
+      "week": "12",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 147748690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 21325650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 82439560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-20-13-NMC-RTR",
+      "week": "13",
+      "round": 4,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 41014220,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 94000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 22192250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SCN",
+      "match": "mnp-20-8-SCN-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 82934050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 53946030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8473640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "JMF",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 12377740,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.577",
+      "num_matches": 6,
+      "ppm": "4.666",
+      "points": {
+        "won": 28,
+        "of": 48.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

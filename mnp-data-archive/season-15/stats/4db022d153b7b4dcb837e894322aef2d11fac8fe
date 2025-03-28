@@ -1,0 +1,215 @@
+{
+  "key": "4db022d153b7b4dcb837e894322aef2d11fac8fe",
+  "name": "Nycole Hyatt",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-15-1-NLT-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 36311110,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-15-1-NLT-SSS",
+      "week": "1",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5376850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-15-1-NLT-SSS",
+      "week": "1",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 5083750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-15-12-JMF-SSS",
+      "week": "12",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 32045610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-15-12-JMF-SSS",
+      "week": "12",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 75676120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-15-12-JMF-SSS",
+      "week": "12",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1633260,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-15-2-SSS-TTT",
+      "week": "2",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 136995870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-15-2-SSS-TTT",
+      "week": "2",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 18477070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-15-2-SSS-TTT",
+      "week": "2",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 19158410,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 39298420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 3102690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RTR",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 34000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 12203530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 953950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 17279870,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.530",
+      "num_matches": 5,
+      "ppm": "4.400",
+      "points": {
+        "won": 22,
+        "of": 41.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

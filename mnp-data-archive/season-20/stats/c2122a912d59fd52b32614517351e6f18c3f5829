@@ -1,0 +1,107 @@
+{
+  "key": "c2122a912d59fd52b32614517351e6f18c3f5829",
+  "name": "Nate Carter",
+  "history": [
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 1,
+      "machine": "Diner",
+      "division": 0,
+      "score": 1503560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 40674070,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "TBT",
+      "match": "mnp-20-3-TBT-FBS",
+      "week": "3",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 893740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 287397390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 201750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "KNR",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 953260,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.437",
+      "num_matches": 2,
+      "ppm": "3.500",
+      "points": {
+        "won": 7,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

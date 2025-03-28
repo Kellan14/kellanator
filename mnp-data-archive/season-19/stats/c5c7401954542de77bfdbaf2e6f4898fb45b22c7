@@ -1,0 +1,287 @@
+{
+  "key": "c5c7401954542de77bfdbaf2e6f4898fb45b22c7",
+  "name": "Jorge Romero",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-19-1-PGN-TBT",
+      "week": "1",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 101530,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-19-1-PGN-TBT",
+      "week": "1",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 154137790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-19-1-PGN-TBT",
+      "week": "1",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 442461760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 75985440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 100311010,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "RTR",
+      "match": "mnp-19-10-FBS-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 10433310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 1876000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 600629230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 23980280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 30630660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 75000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-19-3-CDC-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "CSI",
+      "division": 0,
+      "score": 8895880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 14871310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 66000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 31794250,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 281181080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 23673190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 4385000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 86979190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "Ali",
+      "division": 0,
+      "score": 71420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SCN",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 169000000,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.461",
+      "num_matches": 7,
+      "ppm": "3.857",
+      "points": {
+        "won": 27,
+        "of": 58.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

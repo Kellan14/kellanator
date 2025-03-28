@@ -1,0 +1,107 @@
+{
+  "key": "ba4a54176f7384ce37e7e697790f7f1a7b9715e0",
+  "name": "Samantha Meyers",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-19-10-DTP-JMF",
+      "week": "10",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 6000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-19-10-DTP-JMF",
+      "week": "10",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 12600000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-19-10-DTP-JMF",
+      "week": "10",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1962030240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 119374130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 63163120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 90900,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.454",
+      "num_matches": 2,
+      "ppm": "3.750",
+      "points": {
+        "won": 7.5,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

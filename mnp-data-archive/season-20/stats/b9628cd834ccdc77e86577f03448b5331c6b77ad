@@ -1,0 +1,395 @@
+{
+  "key": "b9628cd834ccdc77e86577f03448b5331c6b77ad",
+  "name": "Sam Atlas",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 71967810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 23471860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "CDC",
+      "match": "mnp-20-1-JMF-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 210340460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 1,
+      "machine": "JW",
+      "division": 0,
+      "score": 30486500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 24063390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "TWC",
+      "match": "mnp-20-10-JMF-TWC",
+      "week": "10",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 14209890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 82911990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 20246030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "RTR",
+      "match": "mnp-20-2-RTR-JMF",
+      "week": "2",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 76910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 132737000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 11027980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SCN",
+      "match": "mnp-20-3-JMF-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 16662930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 9920370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 169872850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-20-4-PBR-JMF",
+      "week": "4",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10479120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 32587530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 24165980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 17416870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 95717480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 107710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LAS",
+      "match": "mnp-20-6-LAS-JMF",
+      "week": "6",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 101088480,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 21851550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 49465550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "FBP",
+      "match": "mnp-20-7-JMF-FBP",
+      "week": "7",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 153608670,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10979640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 73078440,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-20-8-SHK-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 284350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NMC",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 131978970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "NMC",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 28552610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NMC",
+      "match": "mnp-20-9-NMC-JMF",
+      "week": "9",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 119045980,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.475",
+      "num_matches": 10,
+      "ppm": "3.900",
+      "points": {
+        "won": 39,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

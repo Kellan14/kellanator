@@ -1,0 +1,395 @@
+{
+  "key": "a6c1ff6e62b485844e96cec6231af2bd81788d6f",
+  "name": "Kevin Kelly",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "NMC",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 98340,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "NMC",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 227610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "NMC",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 141740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 1897320,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 3,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 1271160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 2742040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-19-2-ETB-TTT",
+      "week": "2",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 13020000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-19-2-ETB-TTT",
+      "week": "2",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 8267840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-19-2-ETB-TTT",
+      "week": "2",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1980410930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RTR",
+      "match": "mnp-19-3-RTR-ETB",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 35366410,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "RTR",
+      "match": "mnp-19-3-RTR-ETB",
+      "week": "3",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 11762460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "RTR",
+      "match": "mnp-19-3-RTR-ETB",
+      "week": "3",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 222250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CRA",
+      "match": "mnp-19-4-ETB-CRA",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 597659790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CRA",
+      "match": "mnp-19-4-ETB-CRA",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 18467820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CRA",
+      "match": "mnp-19-4-ETB-CRA",
+      "week": "4",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 4443850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 113360,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 20262810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 145540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 12313410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 105130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSS",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 548240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 99370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 8028990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 210790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CFB",
+      "match": "mnp-19-8-ETB-CFB",
+      "week": "8",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 179990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "CFB",
+      "match": "mnp-19-8-ETB-CFB",
+      "week": "8",
+      "round": 2,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 2970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CFB",
+      "match": "mnp-19-8-ETB-CFB",
+      "week": "8",
+      "round": 4,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 177300,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSD",
+      "match": "mnp-19-9-SSD-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 17305700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSD",
+      "match": "mnp-19-9-SSD-ETB",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 12488900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSD",
+      "match": "mnp-19-9-SSD-ETB",
+      "week": "9",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 86310,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.360",
+      "num_matches": 10,
+      "ppm": "2.900",
+      "points": {
+        "won": 29,
+        "of": 80.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

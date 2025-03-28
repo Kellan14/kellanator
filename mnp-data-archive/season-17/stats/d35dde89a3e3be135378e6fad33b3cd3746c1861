@@ -1,0 +1,215 @@
+{
+  "key": "d35dde89a3e3be135378e6fad33b3cd3746c1861",
+  "name": "Matthew Levi Tate",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 223460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 4436710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-17-1-DIH-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 16423420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-17-3-DIH-PKT",
+      "week": "3",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 389216040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-17-3-DIH-PKT",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 15543980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-17-3-DIH-PKT",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 13707690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 30020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 36600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 37180,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 2503960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 20110600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "ETB",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 2723318,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-17-8-SCN-DIH",
+      "week": "8",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 5357000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-17-8-SCN-DIH",
+      "week": "8",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 31000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-17-8-SCN-DIH",
+      "week": "8",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 68000,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.268",
+      "num_matches": 5,
+      "ppm": "2.200",
+      "points": {
+        "won": 11,
+        "of": 41
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "key": "abac7c6f7b8dbda69d4a44c8b38fb8defe8c2bb8",
+  "name": "Nikolai Shere",
+  "history": [
+    {
+      "team": "ADB",
+      "opp": "PGN",
+      "match": "mnp-19-8-ADB-PGN",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 34554810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "PGN",
+      "match": "mnp-19-8-ADB-PGN",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 14233120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "PGN",
+      "match": "mnp-19-8-ADB-PGN",
+      "week": "8",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 121425810,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ADB",
+      "opp": "CFB",
+      "match": "mnp-19-9-CFB-ADB",
+      "week": "9",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 92942100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "CFB",
+      "match": "mnp-19-9-CFB-ADB",
+      "week": "9",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 40452740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "CFB",
+      "match": "mnp-19-9-CFB-ADB",
+      "week": "9",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 17273500,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.531",
+      "num_matches": 2,
+      "ppm": "4.250",
+      "points": {
+        "won": 8.5,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

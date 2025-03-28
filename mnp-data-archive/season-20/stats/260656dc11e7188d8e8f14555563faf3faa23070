@@ -1,0 +1,431 @@
+{
+  "key": "260656dc11e7188d8e8f14555563faf3faa23070",
+  "name": "Grey Ertl",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13256560,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 40151230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 58250070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-20-10-SKP-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12561240,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-20-10-SKP-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "BOP",
+      "division": 0,
+      "score": 16291530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SKP",
+      "match": "mnp-20-10-SKP-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 475201190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 15251850,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 217800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 47235660,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-20-13-CRA-TWC",
+      "week": "13",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 66000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-20-13-CRA-TWC",
+      "week": "13",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 84551010,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-20-13-CRA-TWC",
+      "week": "13",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 2000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 1,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 102772950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7365680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "SCN",
+      "match": "mnp-20-2-SCN-CRA",
+      "week": "2",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 5300000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-20-4-NLT-CRA",
+      "week": "4",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 56648520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-20-4-NLT-CRA",
+      "week": "4",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 10044560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-20-4-NLT-CRA",
+      "week": "4",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 55940250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-20-5-CRA-SWL",
+      "week": "5",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 116837430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-20-5-CRA-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 13437650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-20-5-CRA-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 21752280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBP",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 34022190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBP",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 64998820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "FBP",
+      "match": "mnp-20-6-FBP-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 658325370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 1,
+      "machine": "WPT",
+      "division": 0,
+      "score": 24942170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 131050730,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 4,
+      "machine": "TBL",
+      "division": 0,
+      "score": 2271230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "ICB",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 74308390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "ICB",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 44980,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "ICB",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 503902210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 76993310,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 28897590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CFB",
+      "match": "mnp-20-9-CRA-CFB",
+      "week": "9",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 78499220,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.511",
+      "num_matches": 11,
+      "ppm": "4.181",
+      "points": {
+        "won": 46,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

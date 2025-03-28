@@ -1,0 +1,287 @@
+{
+  "key": "6fb1da26888f3e8c93c1cfd070f703c5abf77def",
+  "name": "Shawn Mandel",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-19-12-SKP-KNR",
+      "week": "12",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6130900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-19-12-SKP-KNR",
+      "week": "12",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 80000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-19-12-SKP-KNR",
+      "week": "12",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 4101470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-19-13-KNR-CFB",
+      "week": "13",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 135960,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-19-13-KNR-CFB",
+      "week": "13",
+      "round": 2,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 2011570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-19-13-KNR-CFB",
+      "week": "13",
+      "round": 3,
+      "machine": "Quicksilver",
+      "division": 0,
+      "score": 415600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 1,
+      "machine": "POTC",
+      "division": 0,
+      "score": 52679370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 3,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 202170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-19-2-HHS-JMF",
+      "week": "2",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 26615800,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 94060,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 41743430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 9197890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "Banzai Run",
+      "division": 0,
+      "score": 1307700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 5179150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-19-4-HHS-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 202577200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 1,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 6122930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 4361890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSD",
+      "match": "mnp-19-6-HHS-SSD",
+      "week": "6",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 77097840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 54907020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 3,
+      "machine": "TX Sector",
+      "division": 0,
+      "score": 840630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "NMC",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 29300930,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.365",
+      "num_matches": 7,
+      "ppm": "3.000",
+      "points": {
+        "won": 21,
+        "of": 57.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

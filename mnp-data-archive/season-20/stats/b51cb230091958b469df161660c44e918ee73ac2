@@ -1,0 +1,359 @@
+{
+  "key": "b51cb230091958b469df161660c44e918ee73ac2",
+  "name": "Jeremy Edwards",
+  "history": [
+    {
+      "team": "ICB",
+      "opp": "SSS",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 22138610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSS",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 15756320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSS",
+      "match": "mnp-20-1-SSS-ICB",
+      "week": "1",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 1455380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "PGN",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 8148500,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ICB",
+      "opp": "PGN",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 33495550,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ICB",
+      "opp": "PGN",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 969210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CFB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 94000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CFB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 573780,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "CFB",
+      "match": "mnp-20-3-CFB-ICB",
+      "week": "3",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 71339770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSD",
+      "match": "mnp-20-4-ICB-SSD",
+      "week": "4",
+      "round": 2,
+      "machine": "CSI",
+      "division": 0,
+      "score": 10640100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSD",
+      "match": "mnp-20-4-ICB-SSD",
+      "week": "4",
+      "round": 3,
+      "machine": "CSI",
+      "division": 0,
+      "score": 2392660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "SSD",
+      "match": "mnp-20-4-ICB-SSD",
+      "week": "4",
+      "round": 4,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 5885940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 667140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 21330050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "NMC",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 2711360,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 1,
+      "machine": "JW",
+      "division": 0,
+      "score": 17454730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 2,
+      "machine": "BDK",
+      "division": 0,
+      "score": 13980760,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "TTT",
+      "match": "mnp-20-6-ICB-TTT",
+      "week": "6",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 26562410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PKT",
+      "match": "mnp-20-7-PKT-ICB",
+      "week": "7",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 47428370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PKT",
+      "match": "mnp-20-7-PKT-ICB",
+      "week": "7",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 52122430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PKT",
+      "match": "mnp-20-7-PKT-ICB",
+      "week": "7",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 29223000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "CRA",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 383910,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "ICB",
+      "opp": "CRA",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 31851240,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "CRA",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 23566320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "RTR",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 5159890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "RTR",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 4199790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "RTR",
+      "match": "mnp-20-9-ICB-RTR",
+      "week": "9",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 7144560,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.500",
+      "num_matches": 9,
+      "ppm": "4.055",
+      "points": {
+        "won": 36.5,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

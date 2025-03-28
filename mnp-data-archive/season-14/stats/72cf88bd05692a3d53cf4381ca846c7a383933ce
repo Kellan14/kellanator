@@ -1,0 +1,395 @@
+{
+  "key": "72cf88bd05692a3d53cf4381ca846c7a383933ce",
+  "name": "Alan Wiley",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 51520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 448330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-14-1-TWC-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 75353690,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 800390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 180420,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 922220,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 137900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 2,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 919630700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 48010280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 29438300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 242670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 376670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 51550,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 147070,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 45375700,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 29857000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 58710340,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1206120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 9202590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 250970,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "AliceCooper",
+      "division": 0,
+      "score": 9755720,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 628019000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 287400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "AliceCooper",
+      "division": 0,
+      "score": 32201800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "SpaceShuttle",
+      "division": 0,
+      "score": 470850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 18685650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 5290140,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 430146180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 233600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 381500,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.531",
+      "num_matches": 10,
+      "ppm": "4.250",
+      "points": {
+        "won": 42.5,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

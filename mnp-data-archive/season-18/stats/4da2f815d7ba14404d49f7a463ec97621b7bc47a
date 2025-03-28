@@ -1,0 +1,395 @@
+{
+  "key": "4da2f815d7ba14404d49f7a463ec97621b7bc47a",
+  "name": "John Robinson WA",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 2510060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 97549070,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 3,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 188520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DSV",
+      "match": "mnp-18-10-DSV-ETB",
+      "week": "10",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 198210,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "DSV",
+      "match": "mnp-18-10-DSV-ETB",
+      "week": "10",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 13033390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DSV",
+      "match": "mnp-18-10-DSV-ETB",
+      "week": "10",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 60140,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "SCN",
+      "match": "mnp-18-2-SCN-ETB",
+      "week": "2",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 493960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SCN",
+      "match": "mnp-18-2-SCN-ETB",
+      "week": "2",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 476170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SCN",
+      "match": "mnp-18-2-SCN-ETB",
+      "week": "2",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 339000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PBR",
+      "match": "mnp-18-3-ETB-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 837000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PBR",
+      "match": "mnp-18-3-ETB-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 419850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PBR",
+      "match": "mnp-18-3-ETB-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 67150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "NLT",
+      "match": "mnp-18-4-NLT-ETB",
+      "week": "4",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 246480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "NLT",
+      "match": "mnp-18-4-NLT-ETB",
+      "week": "4",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 71971660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "NLT",
+      "match": "mnp-18-4-NLT-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 208280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "FBP",
+      "match": "mnp-18-5-ETB-FBP",
+      "week": "5",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 31729450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "FBP",
+      "match": "mnp-18-5-ETB-FBP",
+      "week": "5",
+      "round": 3,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 1000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "FBP",
+      "match": "mnp-18-5-ETB-FBP",
+      "week": "5",
+      "round": 4,
+      "machine": "POTC",
+      "division": 0,
+      "score": 2534660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-18-6-SHK-ETB",
+      "week": "6",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 357290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-18-6-SHK-ETB",
+      "week": "6",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 176700,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "SHK",
+      "match": "mnp-18-6-SHK-ETB",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 280980,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "ETB",
+      "opp": "PKT",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 538530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PKT",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4198020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PKT",
+      "match": "mnp-18-7-PKT-ETB",
+      "week": "7",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 760520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 20801320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 77801280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 367544870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "KNR",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1088158200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "KNR",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 841301740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "KNR",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 631350,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.710",
+      "num_matches": 10,
+      "ppm": "6.000",
+      "points": {
+        "won": 60,
+        "of": 84.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

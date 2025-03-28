@@ -1,0 +1,323 @@
+{
+  "key": "45a2850d5d05b76e209187f89665d4d0120c3573",
+  "name": "Bryan Norkus",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 12571630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 6364800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 74367920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 73363660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 47164130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 133230540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 12146840,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 12193780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 12633320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 62959160,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 11423050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 76831350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 28608590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5064970,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 32232889,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 97019570,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 26060740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 16648610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 1,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 40773830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 22595320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 28836680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 83660290,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 43937760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-19-9-CDC-DIH",
+      "week": "9",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 60684450,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.390",
+      "num_matches": 8,
+      "ppm": "3.250",
+      "points": {
+        "won": 26,
+        "of": 66.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

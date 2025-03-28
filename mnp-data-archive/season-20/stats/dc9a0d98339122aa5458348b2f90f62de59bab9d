@@ -1,0 +1,215 @@
+{
+  "key": "dc9a0d98339122aa5458348b2f90f62de59bab9d",
+  "name": "Bubbles Shaiman",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "DIH",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 18197570,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "DIH",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 34215780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "DIH",
+      "match": "mnp-20-1-KNR-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 2233130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SWL",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 6665570,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "KNR",
+      "opp": "SWL",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 21148930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "SWL",
+      "match": "mnp-20-2-SWL-KNR",
+      "week": "2",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 4937720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 7306260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 23006700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LAS",
+      "match": "mnp-20-3-KNR-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3882507800,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "FBS",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 143970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "FBS",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 41011320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "FBS",
+      "match": "mnp-20-4-FBS-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 3277870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-20-5-KNR-RMS",
+      "week": "5",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 893290040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-20-5-KNR-RMS",
+      "week": "5",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 7892290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-20-5-KNR-RMS",
+      "week": "5",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1000000000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.407",
+      "num_matches": 5,
+      "ppm": "3.300",
+      "points": {
+        "won": 16.5,
+        "of": 40.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

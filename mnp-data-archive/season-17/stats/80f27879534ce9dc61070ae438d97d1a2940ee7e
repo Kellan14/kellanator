@@ -1,0 +1,395 @@
+{
+  "key": "80f27879534ce9dc61070ae438d97d1a2940ee7e",
+  "name": "Zac Petersen",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 116158660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 88782850,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 35387100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "24",
+      "division": 0,
+      "score": 27404450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 3,
+      "machine": "24",
+      "division": 0,
+      "score": 8843450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-17-10-DSV-BOC",
+      "week": "10",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4062500,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 1,
+      "machine": "Radical",
+      "division": 0,
+      "score": 24865120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 2,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 781730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-17-11-DSV-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 96230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 2837240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Radical",
+      "division": 0,
+      "score": 3631730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 15461800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 12533470,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 35820800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-17-3-DSV-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 9049170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-17-4-KNR-DSV",
+      "week": "4",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 63749770,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-17-4-KNR-DSV",
+      "week": "4",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 24350830,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "KNR",
+      "match": "mnp-17-4-KNR-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 25253140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PYC",
+      "match": "mnp-17-5-DSV-PYC",
+      "week": "5",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 18392550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PYC",
+      "match": "mnp-17-5-DSV-PYC",
+      "week": "5",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 39393470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "PYC",
+      "match": "mnp-17-5-DSV-PYC",
+      "week": "5",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 66032860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-17-6-SHK-DSV",
+      "week": "6",
+      "round": 2,
+      "machine": "Radical",
+      "division": 0,
+      "score": 1664130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-17-6-SHK-DSV",
+      "week": "6",
+      "round": 3,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 3438800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-17-6-SHK-DSV",
+      "week": "6",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 12420290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 5505830,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 17737490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 88843480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Radical",
+      "division": 0,
+      "score": 3497580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 930730,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 9434880,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.490",
+      "num_matches": 10,
+      "ppm": "4.000",
+      "points": {
+        "won": 40,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

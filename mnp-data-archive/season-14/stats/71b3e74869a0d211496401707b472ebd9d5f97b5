@@ -1,0 +1,323 @@
+{
+  "key": "71b3e74869a0d211496401707b472ebd9d5f97b5",
+  "name": "Carrie May",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1211260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 13205480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-14-1-CPO-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8423480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-14-10-CPO-ADB",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 19168750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-14-10-CPO-ADB",
+      "week": "10",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 36733510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-14-10-CPO-ADB",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 21792400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 185700,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 78550,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "LCS",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 68580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SWL",
+      "match": "mnp-14-4-SWL-CPO",
+      "week": "4",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 1208250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SWL",
+      "match": "mnp-14-4-SWL-CPO",
+      "week": "4",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 3714030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SWL",
+      "match": "mnp-14-4-SWL-CPO",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 5975770,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 17030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 61812230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "DIH",
+      "match": "mnp-14-5-CPO-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 14920,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 3861140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 1563300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-14-6-CRA-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 3456440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "FG",
+      "division": 0,
+      "score": 3654030,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 22000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 83530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 3467880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 3249000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-14-9-SKP-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 11798090,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.289",
+      "num_matches": 8,
+      "ppm": "2.312",
+      "points": {
+        "won": 18.5,
+        "of": 64
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

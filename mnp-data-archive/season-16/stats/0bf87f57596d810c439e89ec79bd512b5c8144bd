@@ -1,0 +1,431 @@
+{
+  "key": "0bf87f57596d810c439e89ec79bd512b5c8144bd",
+  "name": "Corey Klier",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 9973730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 7800190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-16-1-SSS-ADB",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 12932760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 4048890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 64360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 38659430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 271470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 26570950,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "BOC",
+      "match": "mnp-16-11-SSS-BOC",
+      "week": "11",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4855640,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 140300,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "Genie",
+      "division": 0,
+      "score": 106970,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "NLT",
+      "match": "mnp-16-12-SSS-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2772960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 188650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 30420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 75900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 76740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 24140360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "JMF",
+      "match": "mnp-16-3-SSS-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "HardBody",
+      "division": 0,
+      "score": 174520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 316690,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 287770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 187400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 65580,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4763290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 12927750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CFB",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 931679230,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "CFB",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 2,
+      "machine": "Alien",
+      "division": 0,
+      "score": 8390440,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "CFB",
+      "match": "mnp-16-6-SSS-CFB",
+      "week": "6",
+      "round": 3,
+      "machine": "Pinball (Stern)",
+      "division": 0,
+      "score": 275810,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 15330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 47757940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-16-7-ETB-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "SC",
+      "division": 0,
+      "score": 371510,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 39850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 20940,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-16-8-SWL-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 425710,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.464",
+      "num_matches": 11,
+      "ppm": "3.909",
+      "points": {
+        "won": 43,
+        "of": 92.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

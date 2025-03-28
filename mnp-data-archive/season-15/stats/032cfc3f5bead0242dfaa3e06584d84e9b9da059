@@ -1,0 +1,431 @@
+{
+  "key": "032cfc3f5bead0242dfaa3e06584d84e9b9da059",
+  "name": "Randy Huynh",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "BOC",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "DM",
+      "division": 0,
+      "score": 540076520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "BOC",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 2,
+      "machine": "DND",
+      "division": 0,
+      "score": 728120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "BOC",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 213749190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 24954480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 1025107670,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "T3",
+      "division": 0,
+      "score": 8453430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2733813040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 3,
+      "machine": "DND",
+      "division": 0,
+      "score": 3651750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 4,
+      "machine": "DND",
+      "division": 0,
+      "score": 1159130,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PGN",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 10094220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PGN",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 4200000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PGN",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 20633580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-15-3-LAS-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 6982200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-15-3-LAS-RMS",
+      "week": "3",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 559953230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "LAS",
+      "match": "mnp-15-3-LAS-RMS",
+      "week": "3",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 149261620,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "OLD",
+      "match": "mnp-15-4-RMS-OLD",
+      "week": "4",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 98363080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "OLD",
+      "match": "mnp-15-4-RMS-OLD",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 15016070,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "OLD",
+      "match": "mnp-15-4-RMS-OLD",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 21424480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-15-5-SSS-RMS",
+      "week": "5",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 4357860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-15-5-SSS-RMS",
+      "week": "5",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 507930820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "SSS",
+      "match": "mnp-15-5-SSS-RMS",
+      "week": "5",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 22689110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CPO",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 19676980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "CPO",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 18523980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CPO",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 79380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "RTR",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1031265500,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "RMS",
+      "opp": "RTR",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 153951940,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "RTR",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 242185880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-15-8-RMS-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 44273920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-15-8-RMS-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 18901450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-15-8-RMS-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "Genie",
+      "division": 0,
+      "score": 157860,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "DSV",
+      "match": "mnp-15-9-DSV-RMS",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1390277890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DSV",
+      "match": "mnp-15-9-DSV-RMS",
+      "week": "9",
+      "round": 2,
+      "machine": "DM",
+      "division": 0,
+      "score": 308581000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DSV",
+      "match": "mnp-15-9-DSV-RMS",
+      "week": "9",
+      "round": 4,
+      "machine": "DND",
+      "division": 0,
+      "score": 2339270,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.632",
+      "num_matches": 11,
+      "ppm": "5.090",
+      "points": {
+        "won": 56,
+        "of": 88.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

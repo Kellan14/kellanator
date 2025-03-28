@@ -1,0 +1,431 @@
+{
+  "key": "719a9c9d389b7c3ad6599b77ec0f0cead545b055",
+  "name": "Brodi bacchus",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 129396670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 574903720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TBT",
+      "match": "mnp-17-1-PGN-TBT",
+      "week": "1",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 2162970,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-17-10-TTT-PGN",
+      "week": "10",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 380833830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-17-10-TTT-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 83953180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-17-10-TTT-PGN",
+      "week": "10",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1873356650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-17-11-PGN-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "Whirlwind",
+      "division": 0,
+      "score": 3419730,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-17-11-PGN-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 31420480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-17-11-PGN-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 13814550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-17-12-ADB-PGN",
+      "week": "12",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 368442820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-17-12-ADB-PGN",
+      "week": "12",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 32151470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-17-12-ADB-PGN",
+      "week": "12",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 154638350,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "SHK",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 126812920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SHK",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 321277170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "SHK",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 25384040,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 701006590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 2275380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-17-3-PGN-RMS",
+      "week": "3",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 90809530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 426460950,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 283460250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 21618170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 44451000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 29730900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-17-5-PGN-BOC",
+      "week": "5",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 321000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-17-6-NMC-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 656374060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-17-6-NMC-PGN",
+      "week": "6",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 772081090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-17-6-NMC-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 174,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-17-7-PGN-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 1096090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-17-7-PGN-DTP",
+      "week": "7",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 58564300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-17-7-PGN-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "James Bond '007",
+      "division": 0,
+      "score": 89729240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "CPO",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1675549540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CPO",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 106658610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "CPO",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 15370270,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.593",
+      "num_matches": 11,
+      "ppm": "4.772",
+      "points": {
+        "won": 52.5,
+        "of": 88.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

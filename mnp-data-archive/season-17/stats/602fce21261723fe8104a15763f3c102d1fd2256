@@ -1,0 +1,359 @@
+{
+  "key": "602fce21261723fe8104a15763f3c102d1fd2256",
+  "name": "Clinton Peterson",
+  "history": [
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 18735120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 40267890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 99847840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1130101840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 6272900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-17-10-SWL-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 87589560,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-17-2-SWL-ADB",
+      "week": "2",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 5362640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-17-2-SWL-ADB",
+      "week": "2",
+      "round": 2,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 12027060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "ADB",
+      "match": "mnp-17-2-SWL-ADB",
+      "week": "2",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 5453130,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 105103420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 36504240,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 102170,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 20048400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 12230310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 14094070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "LAS",
+      "match": "mnp-17-6-SWL-LAS",
+      "week": "6",
+      "round": 1,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 404330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "LAS",
+      "match": "mnp-17-6-SWL-LAS",
+      "week": "6",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2883710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SWL",
+      "opp": "LAS",
+      "match": "mnp-17-6-SWL-LAS",
+      "week": "6",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 36430900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 25663110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 61009870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "JMF",
+      "match": "mnp-17-7-JMF-SWL",
+      "week": "7",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 135662650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 359647910,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 146195800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 91620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7679610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2710210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PBR",
+      "match": "mnp-17-9-PBR-SWL",
+      "week": "9",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 190912280,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.444",
+      "num_matches": 9,
+      "ppm": "3.555",
+      "points": {
+        "won": 32,
+        "of": 72
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

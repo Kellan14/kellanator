@@ -1,0 +1,143 @@
+{
+  "key": "3b65515ec17166307541a548098060d64b644720",
+  "name": "Marin Alexander",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-21-1-SSD-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1251780,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-21-1-SSD-SKP",
+      "week": "1",
+      "round": 2,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 19399940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSD",
+      "match": "mnp-21-1-SSD-SKP",
+      "week": "1",
+      "round": 3,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 7026820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 1,
+      "machine": "Viking",
+      "division": 0,
+      "score": 49130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 282343990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "NLT",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 41000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DOG",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 189000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "DOG",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 4662740,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DOG",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 11798610,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.431",
+      "num_matches": 3,
+      "ppm": "3.666",
+      "points": {
+        "won": 11,
+        "of": 25.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

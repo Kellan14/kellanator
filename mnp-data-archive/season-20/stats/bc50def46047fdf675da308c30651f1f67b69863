@@ -1,0 +1,359 @@
+{
+  "key": "bc50def46047fdf675da308c30651f1f67b69863",
+  "name": "Forrest Avery",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-20-10-PGN-TTT",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 8095050,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-20-10-PGN-TTT",
+      "week": "10",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 38987600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-20-10-PGN-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 84045030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ICB",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 167622490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ICB",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 44038530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ICB",
+      "match": "mnp-20-2-ICB-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 26966070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "CDC",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13046870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "CDC",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 39942420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CDC",
+      "match": "mnp-20-3-PGN-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 51268020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-20-4-RTR-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "JW",
+      "division": 0,
+      "score": 35651410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-20-4-RTR-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 1546445728,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-20-4-RTR-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 1470609760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 51877210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 162546590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-20-5-PGN-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 254574630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PBR",
+      "match": "mnp-20-6-PBR-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 549583350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PBR",
+      "match": "mnp-20-6-PBR-PGN",
+      "week": "6",
+      "round": 2,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 192033510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PBR",
+      "match": "mnp-20-6-PBR-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 767850150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-20-7-PGN-NLT",
+      "week": "7",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 321150790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-20-7-PGN-NLT",
+      "week": "7",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 215680680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-20-7-PGN-NLT",
+      "week": "7",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 447141000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-20-8-RMS-PGN",
+      "week": "8",
+      "round": 1,
+      "machine": "JW",
+      "division": 0,
+      "score": 87531050,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-20-8-RMS-PGN",
+      "week": "8",
+      "round": 2,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 33324020,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-20-8-RMS-PGN",
+      "week": "8",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 57460820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "PKT",
+      "match": "mnp-20-9-PKT-PGN",
+      "week": "9",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 400423630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "PKT",
+      "match": "mnp-20-9-PKT-PGN",
+      "week": "9",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 75371080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "PKT",
+      "match": "mnp-20-9-PKT-PGN",
+      "week": "9",
+      "round": 4,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 33241150,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.726",
+      "num_matches": 9,
+      "ppm": "5.888",
+      "points": {
+        "won": 53,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

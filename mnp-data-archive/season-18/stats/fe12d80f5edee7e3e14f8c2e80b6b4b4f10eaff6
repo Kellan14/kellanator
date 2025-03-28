@@ -1,0 +1,323 @@
+{
+  "key": "fe12d80f5edee7e3e14f8c2e80b6b4b4f10eaff6",
+  "name": "Austin Hutchins",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 2,
+      "machine": "JD",
+      "division": 0,
+      "score": 198789420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2890680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 39117790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "CRA",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 24226230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "CRA",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 41111740,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "CRA",
+      "match": "mnp-18-2-CRA-LAS",
+      "week": "2",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 21810140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 29644410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 788932220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-18-3-LAS-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 97677300,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "NMC",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 51741280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "NMC",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 19543930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NMC",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 14879060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-18-6-CFB-LAS",
+      "week": "6",
+      "round": 2,
+      "machine": "JD",
+      "division": 0,
+      "score": 143929300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-18-6-CFB-LAS",
+      "week": "6",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 70160100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "CFB",
+      "match": "mnp-18-6-CFB-LAS",
+      "week": "6",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 43556760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-18-7-PGN-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "JD",
+      "division": 0,
+      "score": 141977930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-18-7-PGN-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1272072890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-18-7-PGN-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 170661280,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 3739240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 248000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 1291400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CPO",
+      "match": "mnp-18-9-LAS-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "James Bond 007",
+      "division": 0,
+      "score": 347762310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "CPO",
+      "match": "mnp-18-9-LAS-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 68756920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CPO",
+      "match": "mnp-18-9-LAS-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1816243440,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.649",
+      "num_matches": 8,
+      "ppm": "5.437",
+      "points": {
+        "won": 43.5,
+        "of": 67
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

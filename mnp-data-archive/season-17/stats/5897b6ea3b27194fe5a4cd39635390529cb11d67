@@ -1,0 +1,323 @@
+{
+  "key": "5897b6ea3b27194fe5a4cd39635390529cb11d67",
+  "name": "Jenny Pickens",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 10034530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 2749260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 13175020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 39550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 131030,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 143210,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 8058750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 14300000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 177690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 1,
+      "machine": "Future Spa",
+      "division": 0,
+      "score": 33450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 167940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 13788820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 80180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 20398050,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 114960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 7808940,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 98110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 71260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 15368600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 179130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 184120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 475461640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 2723650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 337348980,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.267",
+      "num_matches": 8,
+      "ppm": "2.187",
+      "points": {
+        "won": 17.5,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

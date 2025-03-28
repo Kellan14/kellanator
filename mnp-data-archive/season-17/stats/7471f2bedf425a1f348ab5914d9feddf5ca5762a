@@ -1,0 +1,359 @@
+{
+  "key": "7471f2bedf425a1f348ab5914d9feddf5ca5762a",
+  "name": "Lefty Sitaras",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 6837500,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 21458860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 9167760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 27642550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 56533460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 12135550,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 11979890,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 3869500,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 55537940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "Time Machine",
+      "division": 0,
+      "score": 310060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "JM",
+      "division": 0,
+      "score": 3671340360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 22566600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 167843860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 113560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 10845570,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 76140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 14249750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2729219710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 461600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 119090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 10000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 506494410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 2,
+      "machine": "The Godfather",
+      "division": 0,
+      "score": 8249886,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 3,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 37528920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 19248620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 10633250,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 16196950,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.333",
+      "num_matches": 9,
+      "ppm": "2.777",
+      "points": {
+        "won": 25,
+        "of": 75
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

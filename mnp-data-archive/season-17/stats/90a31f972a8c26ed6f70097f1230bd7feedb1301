@@ -1,0 +1,383 @@
+{
+  "key": "90a31f972a8c26ed6f70097f1230bd7feedb1301",
+  "name": "John McConnell",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "SCN",
+      "match": "mnp-17-1-SCN-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 135278040,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SCN",
+      "match": "mnp-17-1-SCN-ETB",
+      "week": "1",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 121274480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SCN",
+      "match": "mnp-17-1-SCN-ETB",
+      "week": "1",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 88510700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "SCN",
+      "match": "mnp-17-1-SCN-ETB",
+      "week": "1",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 1401140,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-17-10-ETB-SKP",
+      "week": "10",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 8063210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-17-10-ETB-SKP",
+      "week": "10",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 505000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SKP",
+      "match": "mnp-17-10-ETB-SKP",
+      "week": "10",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 222431840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 1,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 38730,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 33961930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RMS",
+      "match": "mnp-17-2-ETB-RMS",
+      "week": "2",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 2213140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CFB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 63395250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CFB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 244450820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CFB",
+      "match": "mnp-17-4-CFB-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 36161390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 15756740,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 37466830,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "DIH",
+      "match": "mnp-17-5-DIH-ETB",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4411430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-17-6-ETB-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 216920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-17-6-ETB-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "BK2K",
+      "division": 0,
+      "score": 1224170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TWC",
+      "match": "mnp-17-6-ETB-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 12762850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14477030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 23772420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-17-7-CDC-ETB",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 576650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "ADB",
+      "match": "mnp-17-8-ETB-ADB",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 113384110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "ADB",
+      "match": "mnp-17-8-ETB-ADB",
+      "week": "8",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 20885930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "ADB",
+      "match": "mnp-17-8-ETB-ADB",
+      "week": "8",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 20593130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "ADB",
+      "match": "mnp-17-8-ETB-ADB",
+      "week": "8",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16068560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PKT",
+      "match": "mnp-17-9-PKT-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 3165090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "PKT",
+      "match": "mnp-17-9-PKT-ETB",
+      "week": "9",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 23366740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PKT",
+      "match": "mnp-17-9-PKT-ETB",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 2259240,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.618",
+      "num_matches": 9,
+      "ppm": "5.500",
+      "points": {
+        "won": 49.5,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

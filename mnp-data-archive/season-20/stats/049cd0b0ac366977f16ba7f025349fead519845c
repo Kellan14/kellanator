@@ -1,0 +1,215 @@
+{
+  "key": "049cd0b0ac366977f16ba7f025349fead519845c",
+  "name": "Craig Gary",
+  "history": [
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 12102630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 107378130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-20-10-DIH-SSD",
+      "week": "10",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 10850100,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSD",
+      "opp": "SHK",
+      "match": "mnp-20-3-SSD-SHK",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 51333160,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SSD",
+      "opp": "SHK",
+      "match": "mnp-20-3-SSD-SHK",
+      "week": "3",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 13647640,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "SHK",
+      "match": "mnp-20-3-SSD-SHK",
+      "week": "3",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 62934430,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "CDC",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 17240630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "CDC",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 11642900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "CDC",
+      "match": "mnp-20-5-SSD-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 50194400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "RTR",
+      "match": "mnp-20-6-RTR-SSD",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 30139020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "RTR",
+      "match": "mnp-20-6-RTR-SSD",
+      "week": "6",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 20758330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "RTR",
+      "match": "mnp-20-6-RTR-SSD",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 50235910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 91793910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 5017310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 2330270,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.382",
+      "num_matches": 5,
+      "ppm": "3.100",
+      "points": {
+        "won": 15.5,
+        "of": 40.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "key": "adc3f152175c497b304f9466dad7b16c2103a27e",
+  "name": "Chole Crumbliss",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 3998690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 1846400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-15-1-HHS-CRA",
+      "week": "1",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 19069200,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "JMF",
+      "match": "mnp-15-3-JMF-CRA",
+      "week": "3",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 55030880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "JMF",
+      "match": "mnp-15-3-JMF-CRA",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 2709250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "JMF",
+      "match": "mnp-15-3-JMF-CRA",
+      "week": "3",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 244640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "KNR",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1201445180,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "KNR",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 3,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 22510440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "KNR",
+      "match": "mnp-15-4-CRA-KNR",
+      "week": "4",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 6460250,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2356319070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 48773350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "CDC",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 148730,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.646",
+      "num_matches": 4,
+      "ppm": "5.250",
+      "points": {
+        "won": 21,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

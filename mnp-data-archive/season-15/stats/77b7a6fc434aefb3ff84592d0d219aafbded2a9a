@@ -1,0 +1,323 @@
+{
+  "key": "77b7a6fc434aefb3ff84592d0d219aafbded2a9a",
+  "name": "Craig Cainkar",
+  "history": [
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 87515310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 715226100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 188720410,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 204420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 283810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 47160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 40540720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 716859080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 259941020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-15-2-LAS-BOC",
+      "week": "2",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 657132970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-15-2-LAS-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 896350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "LAS",
+      "match": "mnp-15-2-LAS-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 177020,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 1977230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 19330170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 255360,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 24444150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 37043970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DSV",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 2940070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 4485500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 10037670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 21082170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 344859310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 13067790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "CPO",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 71230,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.395",
+      "num_matches": 8,
+      "ppm": "3.187",
+      "points": {
+        "won": 25.5,
+        "of": 64.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

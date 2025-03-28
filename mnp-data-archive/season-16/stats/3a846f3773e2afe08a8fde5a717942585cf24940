@@ -1,0 +1,431 @@
+{
+  "key": "3a846f3773e2afe08a8fde5a717942585cf24940",
+  "name": "Altwin Hawksford",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "SKP",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 145080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "SKP",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 314850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SKP",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 233110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CFB",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 17522170,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "CFB",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 6264640,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "CFB",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1017163230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 154332060,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 2,
+      "machine": "Radical",
+      "division": 0,
+      "score": 1785620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 3226330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-16-2-ADB-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2002370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-16-2-ADB-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 20451380,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "ADB",
+      "match": "mnp-16-2-ADB-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 92293810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 2,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 5321310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 3,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 7825890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 10956620,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-16-4-PGN-SWL",
+      "week": "4",
+      "round": 2,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 35327770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-16-4-PGN-SWL",
+      "week": "4",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 6919190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-16-4-PGN-SWL",
+      "week": "4",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 14765150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-16-5-HHS-PGN",
+      "week": "5",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 3618550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-16-5-HHS-PGN",
+      "week": "5",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 85937600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "HHS",
+      "match": "mnp-16-5-HHS-PGN",
+      "week": "5",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 6457760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-16-6-PGN-JMF",
+      "week": "6",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 24169610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-16-6-PGN-JMF",
+      "week": "6",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 175790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "JMF",
+      "match": "mnp-16-6-PGN-JMF",
+      "week": "6",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 19879670,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 313171900,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 3,
+      "machine": "TNA",
+      "division": 0,
+      "score": 136070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TWC",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 40135270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-16-8-CRA-PGN",
+      "week": "8",
+      "round": 1,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 11876670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-16-8-CRA-PGN",
+      "week": "8",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 765223690,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "CRA",
+      "match": "mnp-16-8-CRA-PGN",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 154583940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-16-9-PGN-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 703190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-16-9-PGN-DIH",
+      "week": "9",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 6542280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "DIH",
+      "match": "mnp-16-9-PGN-DIH",
+      "week": "9",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 281860,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.483",
+      "num_matches": 11,
+      "ppm": "3.954",
+      "points": {
+        "won": 43.5,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "key": "5ae9116cce4386a478f945316dadc934c87191a9",
+  "name": "Maureen Hendrix",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "PYC",
+      "match": "mnp-17-1-PYC-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 62709390,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "PYC",
+      "match": "mnp-17-1-PYC-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 381260,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PYC",
+      "match": "mnp-17-1-PYC-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 84009140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 122610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 39643270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "JMF",
+      "match": "mnp-17-10-RTR-JMF",
+      "week": "10",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 80730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 1,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1564230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 2,
+      "machine": "Quicksilver",
+      "division": 0,
+      "score": 579430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 391915610,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-17-3-DTP-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 77035810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-17-3-DTP-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 9738360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-17-3-DTP-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 622795720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3508601450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 2,
+      "machine": "Rush",
+      "division": 0,
+      "score": 66925770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-17-4-RTR-PGN",
+      "week": "4",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 18139810,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 45598060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 147871440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-17-5-TTT-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 438380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-17-6-SSS-RTR",
+      "week": "6",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 456510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-17-6-SSS-RTR",
+      "week": "6",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 273270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-17-6-SSS-RTR",
+      "week": "6",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 11415260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "KNR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 136015060,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "RTR",
+      "opp": "KNR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 96200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "KNR",
+      "match": "mnp-17-7-RTR-KNR",
+      "week": "7",
+      "round": 4,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 4102840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 23357290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 780858210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NMC",
+      "match": "mnp-17-8-NMC-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 257474730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1333150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 637000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-17-9-RTR-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 68330200,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.615",
+      "num_matches": 10,
+      "ppm": "5.050",
+      "points": {
+        "won": 50.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

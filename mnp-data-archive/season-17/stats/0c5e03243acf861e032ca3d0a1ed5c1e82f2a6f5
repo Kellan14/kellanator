@@ -1,0 +1,395 @@
+{
+  "key": "0c5e03243acf861e032ca3d0a1ed5c1e82f2a6f5",
+  "name": "Daniel Mays",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 92022070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 21854600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CDC",
+      "match": "mnp-17-1-HHS-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 27122160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 155336740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 277351400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 651595210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 370873060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 75699180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CFB",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 32213740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 42285800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 76196450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-17-3-HHS-JMF",
+      "week": "3",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 39544920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 142882150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 18326080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 11310290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 33586940,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 20499820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 25027000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 36738000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 45327480,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 49738050,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 35956320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 46731340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-17-7-TWC-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 18422850,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 91657240,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 3,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 281000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 4,
+      "machine": "XMen",
+      "division": 0,
+      "score": 4247690,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 12857030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 4506720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 43722620,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.472",
+      "num_matches": 10,
+      "ppm": "3.800",
+      "points": {
+        "won": 38,
+        "of": 80.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

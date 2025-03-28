@@ -1,0 +1,323 @@
+{
+  "key": "2377995fb3e98e0b10c729c4543dee1eec528735",
+  "name": "Tomar Schell",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 88890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 508060,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1173528610,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 1,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 3087820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 815060,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 713620,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 15126140,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 86217070,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 23807210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 155660,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 51140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1213350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4324980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 491590,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-16-5-CDC-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1300150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 10020010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 53186680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 31337230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 138030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 504030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 46200,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4085340,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 438961980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 15148570,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.553",
+      "num_matches": 8,
+      "ppm": "4.500",
+      "points": {
+        "won": 36,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

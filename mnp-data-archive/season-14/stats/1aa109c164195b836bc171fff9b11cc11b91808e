@@ -1,0 +1,359 @@
+{
+  "key": "1aa109c164195b836bc171fff9b11cc11b91808e",
+  "name": "Richard Scott",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 27930750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 17256210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-14-1-OLD-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 235350920,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 50040580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 89057890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 405258460,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 133989650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 37842370,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 116694260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 309473450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 2,
+      "machine": "Avatar",
+      "division": 0,
+      "score": 36766000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "AlienPoker",
+      "division": 0,
+      "score": 5920290,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 14722300,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 35054700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-14-5-DSV-HHS",
+      "week": "5",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 58844680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 434665690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 222070670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 4,
+      "machine": "TNA",
+      "division": 0,
+      "score": 196650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14353940,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 1321240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 22656450,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 24848840,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 88264220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 37996080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 41650460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 62580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "TWC",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 71100,
+      "points": 2,
+      "pops": "0.666"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.513",
+      "num_matches": 9,
+      "ppm": "4.222",
+      "points": {
+        "won": 38,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

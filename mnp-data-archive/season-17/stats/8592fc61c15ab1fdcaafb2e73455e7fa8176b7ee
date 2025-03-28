@@ -1,0 +1,323 @@
+{
+  "key": "8592fc61c15ab1fdcaafb2e73455e7fa8176b7ee",
+  "name": "Michael Miller",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 3575170,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 31886900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 6084560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 737380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 5172220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2241530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 5229170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Radical",
+      "division": 0,
+      "score": 10086970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 407850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 18316010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 60426460,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 2355420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "JM",
+      "division": 0,
+      "score": 792180490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "Stargate",
+      "division": 0,
+      "score": 126332700,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 30294,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 7329470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 15751920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 3,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 15306700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 10653170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 10454680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 11206450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 1,
+      "machine": "LW",
+      "division": 0,
+      "score": 64550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 1033570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 1600000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.442",
+      "num_matches": 8,
+      "ppm": "3.625",
+      "points": {
+        "won": 29,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

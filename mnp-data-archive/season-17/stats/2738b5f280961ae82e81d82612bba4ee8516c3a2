@@ -1,0 +1,395 @@
+{
+  "key": "2738b5f280961ae82e81d82612bba4ee8516c3a2",
+  "name": "Liberty Ruderman",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 41794570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 79020420,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-17-1-DTP-CPO",
+      "week": "1",
+      "round": 3,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 113520,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 123000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 250000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-17-10-CPO-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 133337820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13835410,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 23045120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-17-2-CPO-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Radical",
+      "division": 0,
+      "score": 3425620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 45140420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 56000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-17-3-BOC-CPO",
+      "week": "3",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 33404440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 143083090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 12383510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-17-4-CPO-NMC",
+      "week": "4",
+      "round": 4,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 123008,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 78421140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 187408210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-17-5-HHS-CPO",
+      "week": "5",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 67301100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 87224250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 280751180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-17-6-PYC-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 139843640,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 2,
+      "machine": "Funhouse Rudy's Nightmare",
+      "division": 0,
+      "score": 1553480,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 74000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-17-7-CPO-SSS",
+      "week": "7",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 44400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 11211460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 332400000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-17-8-CPO-PGN",
+      "week": "8",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 300935680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 15888760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 8116360,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 370000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.569",
+      "num_matches": 10,
+      "ppm": "4.700",
+      "points": {
+        "won": 47,
+        "of": 82.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

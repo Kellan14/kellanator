@@ -1,0 +1,227 @@
+{
+  "key": "2fe0a6ac28bc95f9d850d754d92a7460d49676ad",
+  "name": "Nick Lindsay",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "ETB",
+      "match": "mnp-17-1-SCN-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "NBA",
+      "division": 0,
+      "score": 7669220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ETB",
+      "match": "mnp-17-1-SCN-ETB",
+      "week": "1",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 121100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "ETB",
+      "match": "mnp-17-1-SCN-ETB",
+      "week": "1",
+      "round": 3,
+      "machine": "PlayboyStern",
+      "division": 0,
+      "score": 13088950,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 28534180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 132270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "James Bond 007",
+      "division": 0,
+      "score": 36988570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 172367220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 88000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 4,
+      "machine": "XMen",
+      "division": 0,
+      "score": 13898020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-17-3-SCN-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1808000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-17-3-SCN-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 160020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-17-3-SCN-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 115660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "PBR",
+      "match": "mnp-17-3-SCN-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 27326320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 160441650,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 631680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 2620950,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.449",
+      "num_matches": 5,
+      "ppm": "4.000",
+      "points": {
+        "won": 20,
+        "of": 44.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

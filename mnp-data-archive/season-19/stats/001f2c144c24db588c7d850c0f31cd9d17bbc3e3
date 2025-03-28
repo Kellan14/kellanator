@@ -1,0 +1,323 @@
+{
+  "key": "001f2c144c24db588c7d850c0f31cd9d17bbc3e3",
+  "name": "Ryan Newstrum",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-19-1-RTR-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 182132330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-19-1-RTR-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 23661140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-19-1-RTR-TWC",
+      "week": "1",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 21469300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-19-10-TWC-TTT",
+      "week": "10",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 69935450,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-19-10-TWC-TTT",
+      "week": "10",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 117189100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-19-10-TWC-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 90233630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 90459460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 118337240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 6568460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 28083030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 2926720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DIH",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 102703000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 16736480,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 13055080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 4,
+      "machine": "CSI",
+      "division": 0,
+      "score": 20000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 117368000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 13050200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 71273300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBS",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 13699230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBS",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4873670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "FBS",
+      "match": "mnp-19-8-FBS-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 36000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 131730380,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 88706910,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 135552860,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.530",
+      "num_matches": 8,
+      "ppm": "4.312",
+      "points": {
+        "won": 34.5,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

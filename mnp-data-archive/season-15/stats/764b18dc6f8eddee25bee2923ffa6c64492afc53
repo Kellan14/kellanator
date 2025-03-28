@@ -1,0 +1,287 @@
+{
+  "key": "764b18dc6f8eddee25bee2923ffa6c64492afc53",
+  "name": "Maggie Hussey",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 34523130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 3370430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-15-1-DIH-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2477650,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 9478450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4875890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 17631310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 925000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 5262950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SKP",
+      "match": "mnp-15-3-DIH-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 8342040,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 917560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 1002930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 414400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 4217080,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 21100000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 34692070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 23420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 6444310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "HHS",
+      "match": "mnp-15-6-DIH-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 21500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 15877220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 8124490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4298710,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.260",
+      "num_matches": 7,
+      "ppm": "2.142",
+      "points": {
+        "won": 15,
+        "of": 57.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

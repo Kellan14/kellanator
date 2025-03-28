@@ -1,0 +1,431 @@
+{
+  "key": "fff66e5b84897ac29feeea0efaf1752f1ba3cc16",
+  "name": "Jared Bayliss",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-17-1-LAS-SHK",
+      "week": "1",
+      "round": 1,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 8112030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-17-1-LAS-SHK",
+      "week": "1",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 34570770,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-17-1-LAS-SHK",
+      "week": "1",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 15577320,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSS",
+      "match": "mnp-17-10-SSS-LAS",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 40435150,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSS",
+      "match": "mnp-17-10-SSS-LAS",
+      "week": "10",
+      "round": 2,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 1140510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSS",
+      "match": "mnp-17-10-SSS-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 886380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-17-11-LAS-PKT",
+      "week": "11",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 3118980,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-17-11-LAS-PKT",
+      "week": "11",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 109000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-17-11-LAS-PKT",
+      "week": "11",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 132438740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 8736500,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 88850230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "RTR",
+      "match": "mnp-17-2-RTR-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 38239510,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-17-3-LAS-KNR",
+      "week": "3",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 6693760,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-17-3-LAS-KNR",
+      "week": "3",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 15397800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "KNR",
+      "match": "mnp-17-3-LAS-KNR",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 22209130,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "RMS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1563707360,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "RMS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 2,
+      "machine": "Toy story",
+      "division": 0,
+      "score": 1591510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "RMS",
+      "match": "mnp-17-4-RMS-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "Toy story",
+      "division": 0,
+      "score": 1114100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 38827270,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 86253240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1895580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-17-6-SWL-LAS",
+      "week": "6",
+      "round": 1,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 718110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-17-6-SWL-LAS",
+      "week": "6",
+      "round": 2,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 4295380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-17-6-SWL-LAS",
+      "week": "6",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 598700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 8393970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 2348860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DSV",
+      "match": "mnp-17-7-DSV-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 1601600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "BOC",
+      "match": "mnp-17-8-LAS-BOC",
+      "week": "8",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 30265620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "BOC",
+      "match": "mnp-17-8-LAS-BOC",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 72765690,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "BOC",
+      "match": "mnp-17-8-LAS-BOC",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 79886850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "CPO",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 13585470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "CPO",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 41211850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CPO",
+      "match": "mnp-17-9-LAS-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 77850680,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.593",
+      "num_matches": 11,
+      "ppm": "4.772",
+      "points": {
+        "won": 52.5,
+        "of": 88.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

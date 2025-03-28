@@ -1,0 +1,191 @@
+{
+  "key": "8468743d5e3fc5b4f020f5dd17ff6c1a4f3df721",
+  "name": "Anthony McCammant",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-21-1-PGN-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "Deadpool ",
+      "division": 0,
+      "score": 12034910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-21-1-PGN-ETB",
+      "week": "1",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 127840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-21-1-PGN-ETB",
+      "week": "1",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 82130,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-21-3-PGN-NMC",
+      "week": "3",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 121410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-21-3-PGN-NMC",
+      "week": "3",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 20689690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NMC",
+      "match": "mnp-21-3-PGN-NMC",
+      "week": "3",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 8259390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-21-5-PGN-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 257309410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-21-5-PGN-NLT",
+      "week": "5",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 168739450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-21-5-PGN-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 687870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-21-5-PGN-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 95166980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-21-6-SWL-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 23845380,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-21-6-SWL-PGN",
+      "week": "6",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 16853840,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "SWL",
+      "match": "mnp-21-6-SWL-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 140442,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.507",
+      "num_matches": 4,
+      "ppm": "4.500",
+      "points": {
+        "won": 18,
+        "of": 35.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

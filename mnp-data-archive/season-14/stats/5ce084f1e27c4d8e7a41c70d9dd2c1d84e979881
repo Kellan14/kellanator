@@ -1,0 +1,179 @@
+{
+  "key": "5ce084f1e27c4d8e7a41c70d9dd2c1d84e979881",
+  "name": "Ryan Winslow",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "HHS",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 40030840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "HHS",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 13504010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "HHS",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 672992300,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SHK",
+      "opp": "PKT",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 33368900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PKT",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 20403390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PKT",
+      "match": "mnp-14-2-PKT-SHK",
+      "week": "2",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 39496420,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 37459870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 4179490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 117839580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 93932400,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 71720050,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "PBR",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 58105500,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.606",
+      "num_matches": 4,
+      "ppm": "5.000",
+      "points": {
+        "won": 20,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

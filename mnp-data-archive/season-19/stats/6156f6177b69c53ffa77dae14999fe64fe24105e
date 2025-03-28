@@ -1,0 +1,179 @@
+{
+  "key": "6156f6177b69c53ffa77dae14999fe64fe24105e",
+  "name": "Charlie Burg",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 1691150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 386440,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 232584550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 838736410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 341522590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 50140460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-19-12-NMC-ADB",
+      "week": "12",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 4989610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-19-12-NMC-ADB",
+      "week": "12",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 71260680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-19-12-NMC-ADB",
+      "week": "12",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 46085470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 15770890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 161177000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 27089950,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.671",
+      "num_matches": 4,
+      "ppm": "5.375",
+      "points": {
+        "won": 21.5,
+        "of": 32
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

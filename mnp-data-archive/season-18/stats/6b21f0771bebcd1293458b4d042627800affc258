@@ -1,0 +1,371 @@
+{
+  "key": "6b21f0771bebcd1293458b4d042627800affc258",
+  "name": "Greg balducci",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 20650160,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 23495760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 1501920,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 78290900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 22415070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DIH",
+      "match": "mnp-18-2-TTT-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 47927870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 720794960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 25421040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 320303760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 20024930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 2,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 1770160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2033430,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 20000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 38000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 11221270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 1771210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 14000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 3,
+      "machine": "MSF",
+      "division": 0,
+      "score": 652615660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 167440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 980060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 2,
+      "machine": "SpaceStation",
+      "division": 0,
+      "score": 709650,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "Diner",
+      "division": 0,
+      "score": 2723290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 199424650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 39624290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 30230800,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 6018580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 1895650,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.407",
+      "num_matches": 9,
+      "ppm": "3.444",
+      "points": {
+        "won": 31,
+        "of": 76
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

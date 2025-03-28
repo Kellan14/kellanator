@@ -1,0 +1,287 @@
+{
+  "key": "064ee1caf47c445e16f4c394684cf6345464f70a",
+  "name": "Pony Hurlbert",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "NMC",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 5937120,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "NMC",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 7967070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "NMC",
+      "match": "mnp-19-1-NMC-ETB",
+      "week": "1",
+      "round": 4,
+      "machine": "NBA",
+      "division": 0,
+      "score": 3653140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-19-2-ETB-TTT",
+      "week": "2",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 32946010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-19-2-ETB-TTT",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 1684980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "TTT",
+      "match": "mnp-19-2-ETB-TTT",
+      "week": "2",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 26532170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "RTR",
+      "match": "mnp-19-3-RTR-ETB",
+      "week": "3",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 11068520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "RTR",
+      "match": "mnp-19-3-RTR-ETB",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 5914380,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "RTR",
+      "match": "mnp-19-3-RTR-ETB",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 1300680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CRA",
+      "match": "mnp-19-4-ETB-CRA",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4371940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CRA",
+      "match": "mnp-19-4-ETB-CRA",
+      "week": "4",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 6361960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CRA",
+      "match": "mnp-19-4-ETB-CRA",
+      "week": "4",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 20890490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4707270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 8327100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ETB",
+      "opp": "JMF",
+      "match": "mnp-19-5-JMF-ETB",
+      "week": "5",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 5006930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 1,
+      "machine": "NBA",
+      "division": 0,
+      "score": 3240770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 2,
+      "machine": "NBA",
+      "division": 0,
+      "score": 2533450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ETB",
+      "opp": "PGN",
+      "match": "mnp-19-7-PGN-ETB",
+      "week": "7",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12884000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSD",
+      "match": "mnp-19-9-SSD-ETB",
+      "week": "9",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 3769180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSD",
+      "match": "mnp-19-9-SSD-ETB",
+      "week": "9",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16392310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "SSD",
+      "match": "mnp-19-9-SSD-ETB",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 1628900,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.375",
+      "num_matches": 7,
+      "ppm": "3.000",
+      "points": {
+        "won": 21,
+        "of": 56
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

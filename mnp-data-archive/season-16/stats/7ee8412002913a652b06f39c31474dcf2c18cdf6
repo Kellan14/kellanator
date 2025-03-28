@@ -1,0 +1,359 @@
+{
+  "key": "7ee8412002913a652b06f39c31474dcf2c18cdf6",
+  "name": "CLAYTON STETZ",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "OLD",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 213730,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "OLD",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 148000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "OLD",
+      "match": "mnp-16-1-OLD-PBR",
+      "week": "1",
+      "round": 3,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 287430,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-16-12-TWC-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 58340530,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-16-12-TWC-PBR",
+      "week": "12",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 92600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-16-12-TWC-PBR",
+      "week": "12",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 12725430,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PBR",
+      "opp": "NLT",
+      "match": "mnp-16-13-PBR-NLT",
+      "week": "13",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 49303740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "NLT",
+      "match": "mnp-16-13-PBR-NLT",
+      "week": "13",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 6473620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "NLT",
+      "match": "mnp-16-13-PBR-NLT",
+      "week": "13",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 200475980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "NLT",
+      "match": "mnp-16-2-PBR-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 63704860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "NLT",
+      "match": "mnp-16-2-PBR-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 303168000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "NLT",
+      "match": "mnp-16-2-PBR-NLT",
+      "week": "2",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 116857990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-16-3-LAS-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 97,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-16-3-LAS-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 26,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-16-3-LAS-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 51647940,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 167,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 234686820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 23215340,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "SSS",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 82189460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "SSS",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 9563050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "SSS",
+      "match": "mnp-16-5-PBR-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 101279850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-16-6-BOC-PBR",
+      "week": "6",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1594485556,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-16-6-BOC-PBR",
+      "week": "6",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 144,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-16-6-BOC-PBR",
+      "week": "6",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 382100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "KNR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 5483040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "KNR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 8402030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "KNR",
+      "match": "mnp-16-7-PBR-KNR",
+      "week": "7",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 114100510,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.527",
+      "num_matches": 9,
+      "ppm": "4.333",
+      "points": {
+        "won": 39,
+        "of": 74
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

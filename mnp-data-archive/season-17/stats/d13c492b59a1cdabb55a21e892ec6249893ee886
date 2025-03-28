@@ -1,0 +1,215 @@
+{
+  "key": "d13c492b59a1cdabb55a21e892ec6249893ee886",
+  "name": "Rebekah Macneil",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 97511120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 16287510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "ADB",
+      "match": "mnp-17-10-ADB-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 84624360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 30296370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 61366900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SWL",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "PistolPoker",
+      "division": 0,
+      "score": 32375150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 96770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 100001860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DIH",
+      "match": "mnp-17-6-HHS-DIH",
+      "week": "6",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 400670,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 139952510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 110644520,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-17-8-HHS-SKP",
+      "week": "8",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 33154320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 114557770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 26822790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-17-9-PGN-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 22449620,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.411",
+      "num_matches": 5,
+      "ppm": "3.500",
+      "points": {
+        "won": 17.5,
+        "of": 42.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "key": "1eddefaf3a9d9a3011d995643ce1aa39b3a5f871",
+  "name": "Crystal Ambrose",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4231430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 2,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 1,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 1332460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 2235000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 1944870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 2382660,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.030",
+      "num_matches": 2,
+      "ppm": "0.250",
+      "points": {
+        "won": 0.5,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

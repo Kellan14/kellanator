@@ -1,0 +1,107 @@
+{
+  "key": "b66f2c7402eda5537f2f97fe77507c4a42ea8f50",
+  "name": "Lucy Hoffman",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 15720,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 106340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-17-1-DSV-SSS",
+      "week": "1",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 848110,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 59128980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 393210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-17-4-JMF-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 344790,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.562",
+      "num_matches": 2,
+      "ppm": "4.500",
+      "points": {
+        "won": 9,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

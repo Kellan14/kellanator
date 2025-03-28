@@ -1,0 +1,359 @@
+{
+  "key": "4bcb9035f1fed3ba72933a7734c251a10a816362",
+  "name": "Vincent Sperrazza",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 32000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 33000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 144600260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 200230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 68968240,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1705320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-18-2-SSS-RMS",
+      "week": "2",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 125296040,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-18-2-SSS-RMS",
+      "week": "2",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 2489463390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-18-2-SSS-RMS",
+      "week": "2",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 18679880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 3000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 394561250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 86696570,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 29621130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 1200000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 1200000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 375000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 232202010,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 56795360,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-18-7-SSS-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 42149410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-18-7-SSS-SWL",
+      "week": "7",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 88120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-18-7-SSS-SWL",
+      "week": "7",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 31606940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 107000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 168000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 252000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 1,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 103533,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 457539,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 50890460,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.686",
+      "num_matches": 9,
+      "ppm": "5.722",
+      "points": {
+        "won": 51.5,
+        "of": 75
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

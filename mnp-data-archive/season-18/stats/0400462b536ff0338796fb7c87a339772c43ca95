@@ -1,0 +1,227 @@
+{
+  "key": "0400462b536ff0338796fb7c87a339772c43ca95",
+  "name": "Kourtne Anderson",
+  "history": [
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-18-10-SWL-FBS",
+      "week": "10",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 36850050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-18-10-SWL-FBS",
+      "week": "10",
+      "round": 2,
+      "machine": "Diner",
+      "division": 0,
+      "score": 1796610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "FBS",
+      "opp": "SWL",
+      "match": "mnp-18-10-SWL-FBS",
+      "week": "10",
+      "round": 3,
+      "machine": "Dr Dude",
+      "division": 0,
+      "score": 1738980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CFB",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 11111480,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "FBS",
+      "opp": "CFB",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 2,
+      "machine": "BOP",
+      "division": 0,
+      "score": 1150100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "CFB",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 4,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 163758990,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "FBS",
+      "opp": "PGN",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2347780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "PGN",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 2,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 23656540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "PGN",
+      "match": "mnp-18-3-FBS-PGN",
+      "week": "3",
+      "round": 3,
+      "machine": "Galactic Tank Force",
+      "division": 0,
+      "score": 18432740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CFB",
+      "match": "mnp-18-5-DIH-CFB",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 14287670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CFB",
+      "match": "mnp-18-5-DIH-CFB",
+      "week": "5",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 344042190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CFB",
+      "match": "mnp-18-5-DIH-CFB",
+      "week": "5",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 177250070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "NMC",
+      "match": "mnp-18-8-FBS-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 20393340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "FBS",
+      "opp": "NMC",
+      "match": "mnp-18-8-FBS-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "Time Machine",
+      "division": 0,
+      "score": 8326760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "FBS",
+      "opp": "NMC",
+      "match": "mnp-18-8-FBS-NMC",
+      "week": "8",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 17509550,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "FBS",
+      "opp": "NMC",
+      "match": "mnp-18-8-FBS-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 603390,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.224",
+      "num_matches": 5,
+      "ppm": "2.000",
+      "points": {
+        "won": 10,
+        "of": 44.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

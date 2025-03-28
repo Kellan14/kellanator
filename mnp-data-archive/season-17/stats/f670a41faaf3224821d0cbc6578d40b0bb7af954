@@ -1,0 +1,395 @@
+{
+  "key": "f670a41faaf3224821d0cbc6578d40b0bb7af954",
+  "name": "Jeff Gagnon",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 679240740,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 2001691930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-17-10-SCN-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 86910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 21415460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 79000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 65000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 48632610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 109000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SKP",
+      "match": "mnp-17-12-SCN-SKP",
+      "week": "12",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 247000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-17-13-SCN-ADB",
+      "week": "13",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 68149630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-17-13-SCN-ADB",
+      "week": "13",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 402000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-17-13-SCN-ADB",
+      "week": "13",
+      "round": 4,
+      "machine": "Rush",
+      "division": 0,
+      "score": 38691590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 333590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 2,
+      "machine": "MSF",
+      "division": 0,
+      "score": 452783000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TBT",
+      "match": "mnp-17-2-TBT-SCN",
+      "week": "2",
+      "round": 3,
+      "machine": "Whirlwind",
+      "division": 0,
+      "score": 5000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 22360180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 3,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 132174610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "PKT",
+      "match": "mnp-17-4-PKT-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 32400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 2,
+      "machine": "CSI",
+      "division": 0,
+      "score": 7500000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 66000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 222560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-17-6-JMF-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "CV",
+      "division": 0,
+      "score": 3710530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-17-6-JMF-SCN",
+      "week": "6",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 2770740,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "JMF",
+      "match": "mnp-17-6-JMF-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "Whirlwind",
+      "division": 0,
+      "score": 4500000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 75144820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 2,
+      "machine": "Whirlwind",
+      "division": 0,
+      "score": 7000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 4,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 6790270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 213050800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 3069720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "Whirlwind",
+      "division": 0,
+      "score": 21578390,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.828",
+      "num_matches": 10,
+      "ppm": "6.750",
+      "points": {
+        "won": 67.5,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

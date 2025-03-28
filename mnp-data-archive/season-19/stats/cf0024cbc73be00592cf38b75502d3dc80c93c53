@@ -1,0 +1,179 @@
+{
+  "key": "cf0024cbc73be00592cf38b75502d3dc80c93c53",
+  "name": "Neil Chakravarty",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "TWC",
+      "match": "mnp-19-3-SHK-TWC",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 24143380,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SHK",
+      "opp": "TWC",
+      "match": "mnp-19-3-SHK-TWC",
+      "week": "3",
+      "round": 3,
+      "machine": "Rush",
+      "division": 0,
+      "score": 5330500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "TWC",
+      "match": "mnp-19-3-SHK-TWC",
+      "week": "3",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 9501280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "FBS",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 15560350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "FBS",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 7065930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "FBS",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 4,
+      "machine": "TBL",
+      "division": 0,
+      "score": 1161440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SHK",
+      "opp": "CPO",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 46899060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CPO",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 17864400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CPO",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 41030490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DIH",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 21962300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DIH",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 70589750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "DIH",
+      "match": "mnp-19-7-SHK-DIH",
+      "week": "7",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 36006070,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.230",
+      "num_matches": 4,
+      "ppm": "1.875",
+      "points": {
+        "won": 7.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

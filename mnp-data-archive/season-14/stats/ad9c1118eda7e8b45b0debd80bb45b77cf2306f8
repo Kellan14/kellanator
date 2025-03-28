@@ -1,0 +1,287 @@
+{
+  "key": "ad9c1118eda7e8b45b0debd80bb45b77cf2306f8",
+  "name": "Rachel Kahalekulu",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 91170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 134070,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SHK",
+      "match": "mnp-14-10-SHK-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 193310,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 325680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 116297700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-14-2-HHS-DTP",
+      "week": "2",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 10618570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 117380,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 447130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-14-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 170980,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 14004870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 515860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 7392060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 4975420,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 2,
+      "machine": "TNA",
+      "division": 0,
+      "score": 261281,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "LLK",
+      "match": "mnp-14-6-HHS-LLK",
+      "week": "6",
+      "round": 3,
+      "machine": "TNA",
+      "division": 0,
+      "score": 466641,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 379246200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 6960460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CPO",
+      "match": "mnp-14-7-HHS-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 100265960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 320440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 196810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "NLT",
+      "match": "mnp-14-8-NLT-HHS",
+      "week": "8",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 47820,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.491",
+      "num_matches": 7,
+      "ppm": "4.071",
+      "points": {
+        "won": 28.5,
+        "of": 58
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

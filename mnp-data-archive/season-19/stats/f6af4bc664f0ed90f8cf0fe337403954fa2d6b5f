@@ -1,0 +1,215 @@
+{
+  "key": "f6af4bc664f0ed90f8cf0fe337403954fa2d6b5f",
+  "name": "Tyler Morgan",
+  "history": [
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-19-10-TBT-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 32334560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-19-10-TBT-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 29761860,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-19-10-TBT-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 250046770,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SSD",
+      "opp": "KNR",
+      "match": "mnp-19-4-KNR-SSD",
+      "week": "4",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 130406060,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SSD",
+      "opp": "KNR",
+      "match": "mnp-19-4-KNR-SSD",
+      "week": "4",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 20339230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "KNR",
+      "match": "mnp-19-4-KNR-SSD",
+      "week": "4",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 36037700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 101000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 40332630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SCN",
+      "match": "mnp-19-5-SCN-SKP",
+      "week": "5",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 12369210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 74940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 705580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "BSD",
+      "division": 0,
+      "score": 51154650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "POW",
+      "match": "mnp-19-8-POW-SSD",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 9633010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "POW",
+      "match": "mnp-19-8-POW-SSD",
+      "week": "8",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 36817940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "POW",
+      "match": "mnp-19-8-POW-SSD",
+      "week": "8",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 41792780,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.662",
+      "num_matches": 5,
+      "ppm": "5.500",
+      "points": {
+        "won": 27.5,
+        "of": 41.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

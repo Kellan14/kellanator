@@ -1,0 +1,215 @@
+{
+  "key": "c1f743b5d73716ecd7980e7fddea19920d6241ca",
+  "name": "Jared Gamble",
+  "history": [
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-19-1-PGN-TBT",
+      "week": "1",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 93120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-19-1-PGN-TBT",
+      "week": "1",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 971540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "PGN",
+      "match": "mnp-19-1-PGN-TBT",
+      "week": "1",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 271553090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 17966890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 2,
+      "machine": "Alien Star",
+      "division": 0,
+      "score": 822900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "CFB",
+      "match": "mnp-19-2-TBT-CFB",
+      "week": "2",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 2268890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "SSD",
+      "match": "mnp-19-3-SSD-TBT",
+      "week": "3",
+      "round": 1,
+      "machine": "SoF",
+      "division": 0,
+      "score": 1958410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SSD",
+      "match": "mnp-19-3-SSD-TBT",
+      "week": "3",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 289906090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SSD",
+      "match": "mnp-19-3-SSD-TBT",
+      "week": "3",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 130340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "RTR",
+      "match": "mnp-19-4-ADB-RTR",
+      "week": "4",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 208640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ADB",
+      "opp": "RTR",
+      "match": "mnp-19-4-ADB-RTR",
+      "week": "4",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 178083100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ADB",
+      "opp": "RTR",
+      "match": "mnp-19-4-ADB-RTR",
+      "week": "4",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 23507550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "TTT",
+      "match": "mnp-19-5-TTT-TBT",
+      "week": "5",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6408280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "TTT",
+      "match": "mnp-19-5-TTT-TBT",
+      "week": "5",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 246079490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "TTT",
+      "match": "mnp-19-5-TTT-TBT",
+      "week": "5",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 612087590,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.695",
+      "num_matches": 5,
+      "ppm": "5.700",
+      "points": {
+        "won": 28.5,
+        "of": 41
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

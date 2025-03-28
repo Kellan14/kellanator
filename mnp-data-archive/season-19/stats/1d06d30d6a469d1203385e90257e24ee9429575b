@@ -1,0 +1,359 @@
+{
+  "key": "1d06d30d6a469d1203385e90257e24ee9429575b",
+  "name": "Donna Hucklebee",
+  "history": [
+    {
+      "team": "PYC",
+      "opp": "CFB",
+      "match": "mnp-19-1-CFB-PYC",
+      "week": "1",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 14047110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CFB",
+      "match": "mnp-19-1-CFB-PYC",
+      "week": "1",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1430823540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CFB",
+      "match": "mnp-19-1-CFB-PYC",
+      "week": "1",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 26682590,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 906906750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 739938140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CDC",
+      "match": "mnp-19-10-PYC-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 100493170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSD",
+      "match": "mnp-19-2-PYC-SSD",
+      "week": "2",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 17957880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSD",
+      "match": "mnp-19-2-PYC-SSD",
+      "week": "2",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 17866730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSD",
+      "match": "mnp-19-2-PYC-SSD",
+      "week": "2",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 9937210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 18188270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 897229150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "NMC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 14571670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TTT",
+      "match": "mnp-19-4-PYC-TTT",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 31386620,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "TTT",
+      "match": "mnp-19-4-PYC-TTT",
+      "week": "4",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 3725030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "TTT",
+      "match": "mnp-19-4-PYC-TTT",
+      "week": "4",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 26912190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "RTR",
+      "match": "mnp-19-5-RTR-PYC",
+      "week": "5",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 87090400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "RTR",
+      "match": "mnp-19-5-RTR-PYC",
+      "week": "5",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1677521340,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PYC",
+      "opp": "RTR",
+      "match": "mnp-19-5-RTR-PYC",
+      "week": "5",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 24449000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 52970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "James Bond 007",
+      "division": 0,
+      "score": 24780260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "CRA",
+      "match": "mnp-19-6-PYC-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 9514190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "JMF",
+      "match": "mnp-19-7-JMF-PYC",
+      "week": "7",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 389965130,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PYC",
+      "opp": "JMF",
+      "match": "mnp-19-7-JMF-PYC",
+      "week": "7",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1017239280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "JMF",
+      "match": "mnp-19-7-JMF-PYC",
+      "week": "7",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 946000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSS",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 6866380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSS",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 223650,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PYC",
+      "opp": "SSS",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Junk Yard",
+      "division": 0,
+      "score": 5387830,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.452",
+      "num_matches": 9,
+      "ppm": "3.666",
+      "points": {
+        "won": 33,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

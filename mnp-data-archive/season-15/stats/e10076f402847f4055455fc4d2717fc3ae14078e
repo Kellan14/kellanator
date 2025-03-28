@@ -1,0 +1,323 @@
+{
+  "key": "e10076f402847f4055455fc4d2717fc3ae14078e",
+  "name": "Kristin Vick",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 257090,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 52990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 151537690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 44402930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 28704170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 17254300,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 729258390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 287548480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 39059020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 157948150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 93000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 6000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-15-5-TTT-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 38579290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-15-5-TTT-DTP",
+      "week": "5",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 92852070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-15-5-TTT-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 351440430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 273640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 446311560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "BOC",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 24816580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 4973450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 224909110,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 155265000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 29928840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 3000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 17000000,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.436",
+      "num_matches": 8,
+      "ppm": "3.625",
+      "points": {
+        "won": 29,
+        "of": 66.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

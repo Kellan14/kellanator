@@ -1,0 +1,359 @@
+{
+  "key": "aeb46a5b37b05c30dcfebb26a5baa7b437f33f3c",
+  "name": "Ted Lasseter",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 9878330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 14041840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "RTR",
+      "match": "mnp-20-1-CRA-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 33335870,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 49004080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 12368180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "HHS",
+      "match": "mnp-20-11-HHS-CRA",
+      "week": "11",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 7326170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4505670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 46882550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 7037040,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-20-13-CRA-TWC",
+      "week": "13",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 25821450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-20-13-CRA-TWC",
+      "week": "13",
+      "round": 3,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 25064080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "TWC",
+      "match": "mnp-20-13-CRA-TWC",
+      "week": "13",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 52330,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-14-CRA-PBR",
+      "week": "14",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1239585910,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-14-CRA-PBR",
+      "week": "14",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2052638680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-14-CRA-PBR",
+      "week": "14",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1939658690,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-3-CRA-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "MH",
+      "division": 0,
+      "score": 30110,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-3-CRA-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4110690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "PBR",
+      "match": "mnp-20-3-CRA-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "MH",
+      "division": 0,
+      "score": 27900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-20-4-NLT-CRA",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 31065550,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-20-4-NLT-CRA",
+      "week": "4",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 631324100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "NLT",
+      "match": "mnp-20-4-NLT-CRA",
+      "week": "4",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 15764220,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 29005950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 38272910,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SHK",
+      "match": "mnp-20-7-CRA-SHK",
+      "week": "7",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 20030560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "ICB",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4859090,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "ICB",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 612006480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "ICB",
+      "match": "mnp-20-8-ICB-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 15905380,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.395",
+      "num_matches": 9,
+      "ppm": "3.277",
+      "points": {
+        "won": 29.5,
+        "of": 74.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

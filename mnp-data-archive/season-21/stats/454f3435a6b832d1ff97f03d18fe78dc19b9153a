@@ -1,0 +1,179 @@
+{
+  "key": "454f3435a6b832d1ff97f03d18fe78dc19b9153a",
+  "name": "Bre Lloyd",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "ADB",
+      "match": "mnp-21-1-ADB-JMF",
+      "week": "1",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 23106240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "ADB",
+      "match": "mnp-21-1-ADB-JMF",
+      "week": "1",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 1114640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "ADB",
+      "match": "mnp-21-1-ADB-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 113811950,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "CPO",
+      "match": "mnp-21-2-JMF-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 114720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "CPO",
+      "match": "mnp-21-2-JMF-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 4928640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "CPO",
+      "match": "mnp-21-2-JMF-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 16565180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "HHS",
+      "match": "mnp-21-5-HHS-JMF",
+      "week": "5",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 29435560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "HHS",
+      "match": "mnp-21-5-HHS-JMF",
+      "week": "5",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 251660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "HHS",
+      "match": "mnp-21-5-HHS-JMF",
+      "week": "5",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 445910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "SSD",
+      "match": "mnp-21-7-JMF-SSD",
+      "week": "7",
+      "round": 1,
+      "machine": "RUSH",
+      "division": 0,
+      "score": 70804740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SSD",
+      "match": "mnp-21-7-JMF-SSD",
+      "week": "7",
+      "round": 2,
+      "machine": "RUSH",
+      "division": 0,
+      "score": 154414070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SSD",
+      "match": "mnp-21-7-JMF-SSD",
+      "week": "7",
+      "round": 4,
+      "machine": "RUSH",
+      "division": 0,
+      "score": 8253510,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.446",
+      "num_matches": 4,
+      "ppm": "3.625",
+      "points": {
+        "won": 14.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

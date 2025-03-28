@@ -1,0 +1,287 @@
+{
+  "key": "a535e9cfba088934b8c00af598634681a3439ff9",
+  "name": "Jay Ostby",
+  "history": [
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-1-DTP-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 1,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-1-DTP-CRA",
+      "week": "1",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 123804230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-1-DTP-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 20604740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-16-10-CRA-RMS",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 92062070,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-16-10-CRA-RMS",
+      "week": "10",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 119805270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "RMS",
+      "match": "mnp-16-10-CRA-RMS",
+      "week": "10",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 756067170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 149729670,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 14078910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DTP",
+      "match": "mnp-16-12-DTP-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 208066200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-16-13-SWL-CRA",
+      "week": "13",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 171967220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-16-13-SWL-CRA",
+      "week": "13",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 705511500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SWL",
+      "match": "mnp-16-13-SWL-CRA",
+      "week": "13",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 57013490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 40981150,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 3316530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "LAS",
+      "match": "mnp-16-5-CRA-LAS",
+      "week": "5",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 2703950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 179219220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 21777950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 116818390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 4088620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 72630580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CRA",
+      "opp": "SSS",
+      "match": "mnp-16-9-SSS-CRA",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 276992040,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.596",
+      "num_matches": 7,
+      "ppm": "4.857",
+      "points": {
+        "won": 34,
+        "of": 57
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

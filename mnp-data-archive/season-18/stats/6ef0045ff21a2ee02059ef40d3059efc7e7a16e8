@@ -1,0 +1,323 @@
+{
+  "key": "6ef0045ff21a2ee02059ef40d3059efc7e7a16e8",
+  "name": "Kyle Hayden",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 6322000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 2,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 9079880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-18-1-DTP-TTT",
+      "week": "1",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1002303500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 46520390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 21040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SSS",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 74863970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 24626080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 2,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 8234560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SWL",
+      "match": "mnp-18-3-SWL-TTT",
+      "week": "3",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 3057960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 21907420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 2,
+      "machine": "Star Gazer",
+      "division": 0,
+      "score": 251870,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-18-4-TTT-LAS",
+      "week": "4",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 180204500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 10147450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1388735900,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-18-5-SKP-TTT",
+      "week": "5",
+      "round": 4,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 20880060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 725150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 16000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "TWC",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "JD",
+      "division": 0,
+      "score": 121584190,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 1,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 505159970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 3,
+      "machine": "GameShow",
+      "division": 0,
+      "score": 565030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "FBS",
+      "match": "mnp-18-7-TTT-FBS",
+      "week": "7",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 626390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 2323950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 17897570,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 662635950,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.335",
+      "num_matches": 8,
+      "ppm": "2.750",
+      "points": {
+        "won": 22,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

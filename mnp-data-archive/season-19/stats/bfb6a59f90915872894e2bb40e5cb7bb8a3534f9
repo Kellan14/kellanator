@@ -1,0 +1,143 @@
+{
+  "key": "bfb6a59f90915872894e2bb40e5cb7bb8a3534f9",
+  "name": "Becky swafford",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "ETB",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 124870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "ETB",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 13782690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "ETB",
+      "match": "mnp-19-10-ETB-SHK",
+      "week": "10",
+      "round": 3,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 215440,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "FBS",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 2525190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "FBS",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 1008890290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "FBS",
+      "match": "mnp-19-4-FBS-SHK",
+      "week": "4",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 5899770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-19-8-SWL-SHK",
+      "week": "8",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 7869040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-19-8-SWL-SHK",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 36220860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-19-8-SWL-SHK",
+      "week": "8",
+      "round": 4,
+      "machine": "TBL",
+      "division": 0,
+      "score": 2165700,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.380",
+      "num_matches": 3,
+      "ppm": "3.166",
+      "points": {
+        "won": 9.5,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

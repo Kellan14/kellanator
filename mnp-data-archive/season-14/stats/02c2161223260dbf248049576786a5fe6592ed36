@@ -1,0 +1,359 @@
+{
+  "key": "02c2161223260dbf248049576786a5fe6592ed36",
+  "name": "Zoe Ackerman",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "ADB",
+      "match": "mnp-14-1-LAS-ADB",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 47307530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ADB",
+      "match": "mnp-14-1-LAS-ADB",
+      "week": "1",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 21890200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "ADB",
+      "match": "mnp-14-1-LAS-ADB",
+      "week": "1",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 38162240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "CDC",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1176255050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CDC",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 329164040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "CDC",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 5604510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-14-2-SWL-LAS",
+      "week": "2",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 26759300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-14-2-SWL-LAS",
+      "week": "2",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 36220760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SWL",
+      "match": "mnp-14-2-SWL-LAS",
+      "week": "2",
+      "round": 4,
+      "machine": "AlienPoker",
+      "division": 0,
+      "score": 12390190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 18319160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 58608560,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-14-3-LAS-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 22247480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 86797190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 58718410,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "HHS",
+      "match": "mnp-14-4-HHS-LAS",
+      "week": "4",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 33341230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "LCS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 12229330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "LCS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 23389540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "LCS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 16013340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SKP",
+      "match": "mnp-14-7-SKP-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 18235670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SKP",
+      "match": "mnp-14-7-SKP-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 11129580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SKP",
+      "match": "mnp-14-7-SKP-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 20870770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-14-8-LAS-PKT",
+      "week": "8",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 21883390,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-14-8-LAS-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 31157310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-14-8-LAS-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 13865960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 40673820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 242920080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-14-9-SCN-LAS",
+      "week": "9",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 606643760,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.534",
+      "num_matches": 9,
+      "ppm": "4.333",
+      "points": {
+        "won": 39,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

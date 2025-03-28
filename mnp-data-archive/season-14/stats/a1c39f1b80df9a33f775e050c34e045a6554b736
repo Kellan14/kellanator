@@ -1,0 +1,359 @@
+{
+  "key": "a1c39f1b80df9a33f775e050c34e045a6554b736",
+  "name": "Dylan Ingham",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 3713330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 272600120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-14-1-BOC-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 22129100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 375074520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 346400140,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-14-10-NLT-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 19396000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 1,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 632670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1253180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SKP",
+      "match": "mnp-14-11-RTR-SKP",
+      "week": "11",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2541292630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 1849910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 2014960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-14-2-RTR-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "LZ",
+      "division": 0,
+      "score": 13466420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 8657120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 9084960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-14-3-PGN-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 351524550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "TOM",
+      "division": 0,
+      "score": 239960330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 170988600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "LLK",
+      "match": "mnp-14-5-LLK-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 1002980,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 440391250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 164180190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-14-6-RTR-LAS",
+      "week": "6",
+      "round": 4,
+      "machine": "Big Lebowski",
+      "division": 0,
+      "score": 5914910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 1,
+      "machine": "HollywoodHeat",
+      "division": 0,
+      "score": 878900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 69000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "SHK",
+      "match": "mnp-14-7-RTR-SHK",
+      "week": "7",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 24300000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 23789480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 7855810,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-14-9-RTR-OLD",
+      "week": "9",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 19742470,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.442",
+      "num_matches": 9,
+      "ppm": "3.666",
+      "points": {
+        "won": 33,
+        "of": 74.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

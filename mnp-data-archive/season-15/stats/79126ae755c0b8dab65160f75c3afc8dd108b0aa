@@ -1,0 +1,395 @@
+{
+  "key": "79126ae755c0b8dab65160f75c3afc8dd108b0aa",
+  "name": "Chelsie Hulka",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "OLD",
+      "match": "mnp-15-1-OLD-DSV",
+      "week": "1",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1350620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "OLD",
+      "match": "mnp-15-1-OLD-DSV",
+      "week": "1",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 668180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "OLD",
+      "match": "mnp-15-1-OLD-DSV",
+      "week": "1",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1655680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 322180,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 306980,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 159710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-15-13-SKP-DSV",
+      "week": "13",
+      "round": 1,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 247050,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-15-13-SKP-DSV",
+      "week": "13",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 314480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-15-13-SKP-DSV",
+      "week": "13",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 243480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-15-2-DSV-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 3950310,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-15-2-DSV-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 72770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CPO",
+      "match": "mnp-15-2-DSV-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 90000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-15-3-NLT-DSV",
+      "week": "3",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 142080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-15-3-NLT-DSV",
+      "week": "3",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 915150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-15-3-NLT-DSV",
+      "week": "3",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 1089500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1116150,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 330580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-15-5-BOC-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 503480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-15-6-DSV-LAS",
+      "week": "6",
+      "round": 1,
+      "machine": "Stars",
+      "division": 0,
+      "score": 284930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-15-6-DSV-LAS",
+      "week": "6",
+      "round": 2,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 1582630,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "LAS",
+      "match": "mnp-15-6-DSV-LAS",
+      "week": "6",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 8146000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-15-7-SSS-DSV",
+      "week": "7",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 288250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-15-7-SSS-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 2800000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-15-7-SSS-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 142410,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-15-8-DSV-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 112940,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-15-8-DSV-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 10318750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-15-8-DSV-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 127980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RMS",
+      "match": "mnp-15-9-DSV-RMS",
+      "week": "9",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 631200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RMS",
+      "match": "mnp-15-9-DSV-RMS",
+      "week": "9",
+      "round": 2,
+      "machine": "DND",
+      "division": 0,
+      "score": 544880,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RMS",
+      "match": "mnp-15-9-DSV-RMS",
+      "week": "9",
+      "round": 3,
+      "machine": "DND",
+      "division": 0,
+      "score": 763930,
+      "points": 2,
+      "pops": "0.666"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.664",
+      "num_matches": 10,
+      "ppm": "5.450",
+      "points": {
+        "won": 54.5,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

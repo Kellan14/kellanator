@@ -1,0 +1,395 @@
+{
+  "key": "1eddefaf3a9d9a3011d995643ce1aa39b3a5f871",
+  "name": "Crystal Ambrose",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-15-1-PBR-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 273905580,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-15-1-PBR-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 285254990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-15-1-PBR-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 695840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 14394260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 249062960,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "DIH",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 909147150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 224189110,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 3,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 164500920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "HHS",
+      "match": "mnp-15-11-CDC-HHS",
+      "week": "11",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 208515490,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-15-2-CDC-JMF",
+      "week": "2",
+      "round": 1,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 25160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-15-2-CDC-JMF",
+      "week": "2",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 14788400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-15-2-CDC-JMF",
+      "week": "2",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 4185690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-15-4-CDC-PKT",
+      "week": "4",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 1807600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-15-4-CDC-PKT",
+      "week": "4",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 3974400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PKT",
+      "match": "mnp-15-4-CDC-PKT",
+      "week": "4",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 55550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 258548150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 1461930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-15-5-CDC-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 64540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 5438910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 452766320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SCN",
+      "match": "mnp-15-6-SCN-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 431604450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 136350250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 60522260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 180304560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 47651610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 3157460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-15-8-SKP-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 106444630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-15-9-CDC-ADB",
+      "week": "9",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 79897480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-15-9-CDC-ADB",
+      "week": "9",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 16690880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-15-9-CDC-ADB",
+      "week": "9",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 1197160,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.172",
+      "num_matches": 10,
+      "ppm": "1.400",
+      "points": {
+        "won": 14,
+        "of": 81
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

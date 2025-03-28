@@ -1,0 +1,431 @@
+{
+  "key": "211c9dcd07ee29f2532d6f8647a7a1f8fab867c2",
+  "name": "Rhett Pearson",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 19002880,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1729546990,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "HHS",
+      "match": "mnp-20-1-HHS-CPO",
+      "week": "1",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 5758640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-20-10-CPO-RMS",
+      "week": "10",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 262580920,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-20-10-CPO-RMS",
+      "week": "10",
+      "round": 3,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 512000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-20-10-CPO-RMS",
+      "week": "10",
+      "round": 4,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 21820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 61102280,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 3,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 122900,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-20-11-CPO-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 97290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 248900,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 64992540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-20-2-CPO-NMC",
+      "week": "2",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 8328480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "POW",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 2131920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "POW",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 13436870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "POW",
+      "match": "mnp-20-3-POW-CPO",
+      "week": "3",
+      "round": 4,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 3879400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "ETB",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6979970,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ETB",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 19726440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ETB",
+      "match": "mnp-20-4-CPO-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 25270450,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 683050350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 486883850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "ADB",
+      "match": "mnp-20-5-ADB-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 6013880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 8608080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 2280379740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PYC",
+      "match": "mnp-20-6-CPO-PYC",
+      "week": "6",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 648635880,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "TBT",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 27468050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TBT",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 3671610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TBT",
+      "match": "mnp-20-7-TBT-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 1980700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 29879830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 15109790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-20-8-CPO-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 125770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 6803760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 189694170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-20-9-SSD-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 8891090,
+      "points": 2,
+      "pops": "0.800"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.405",
+      "num_matches": 11,
+      "ppm": "3.318",
+      "points": {
+        "won": 36.5,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "key": "59c3da0a04ab3b14bf4524f76808267e1e0bdda4",
+  "name": "Jenny Vidovic",
+  "history": [
+    {
+      "team": "SKP",
+      "opp": "PGN",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 81090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PGN",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 41619770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PGN",
+      "match": "mnp-16-1-PGN-SKP",
+      "week": "1",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 973436970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-16-11-SKP-PBR",
+      "week": "11",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 70760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-16-11-SKP-PBR",
+      "week": "11",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 41789050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "PBR",
+      "match": "mnp-16-11-SKP-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "Party Animals",
+      "division": 0,
+      "score": 485050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 60575800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 66243990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SSS",
+      "match": "mnp-16-2-SKP-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 103597970,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-16-3-NLT-SKP",
+      "week": "3",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 45490300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-16-3-NLT-SKP",
+      "week": "3",
+      "round": 3,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 221880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-16-3-NLT-SKP",
+      "week": "3",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 154910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "BOC",
+      "match": "mnp-16-4-BOC-SKP",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 14921170,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "BOC",
+      "match": "mnp-16-4-BOC-SKP",
+      "week": "4",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 610320,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "BOC",
+      "match": "mnp-16-4-BOC-SKP",
+      "week": "4",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 5762310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "RTR",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 183879560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "RTR",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 12225970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "RTR",
+      "match": "mnp-16-5-SKP-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 22077150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-16-6-KNR-SKP",
+      "week": "6",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 267050,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-16-6-KNR-SKP",
+      "week": "6",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 697660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "KNR",
+      "match": "mnp-16-6-KNR-SKP",
+      "week": "6",
+      "round": 4,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 80840,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-16-7-SKP-SHK",
+      "week": "7",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 62444240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-16-7-SKP-SHK",
+      "week": "7",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 4506870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "SHK",
+      "match": "mnp-16-7-SKP-SHK",
+      "week": "7",
+      "round": 4,
+      "machine": "BOP",
+      "division": 0,
+      "score": 17120370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-16-8-SKP-OLD",
+      "week": "8",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1051018000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-16-8-SKP-OLD",
+      "week": "8",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 445137050,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SKP",
+      "opp": "OLD",
+      "match": "mnp-16-8-SKP-OLD",
+      "week": "8",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 9879190,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.452",
+      "num_matches": 9,
+      "ppm": "3.666",
+      "points": {
+        "won": 33,
+        "of": 73
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

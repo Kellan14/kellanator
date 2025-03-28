@@ -1,0 +1,215 @@
+{
+  "key": "aa2c876c8068d71adbd5f9c5ac3112124c00424a",
+  "name": "Steve Geluso",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 84831040,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 3,
+      "machine": "WOF",
+      "division": 0,
+      "score": 13719410,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "SCN",
+      "match": "mnp-19-2-DIH-SCN",
+      "week": "2",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 14280980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 3725900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 13874690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "NLT",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 2871100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 29816440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7419150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-19-5-PGN-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 6415700,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 9884480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 5130000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "FBP",
+      "match": "mnp-19-6-DIH-FBP",
+      "week": "6",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 29759180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7586850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 3693680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "ICB",
+      "match": "mnp-19-8-DIH-ICB",
+      "week": "8",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 2115340,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.353",
+      "num_matches": 5,
+      "ppm": "2.900",
+      "points": {
+        "won": 14.5,
+        "of": 41
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "key": "d14eb41bb5980596b75dcd81463b20465242756e",
+  "name": "Neil Kubath",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "TTT",
+      "match": "mnp-20-2-NLT-TTT",
+      "week": "2",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 35214870,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "TTT",
+      "match": "mnp-20-2-NLT-TTT",
+      "week": "2",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 24443610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TTT",
+      "match": "mnp-20-2-NLT-TTT",
+      "week": "2",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 64052440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-20-3-PKT-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 17192290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-20-3-PKT-NLT",
+      "week": "3",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 843250,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-20-3-PKT-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 311943890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 895150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 92418280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-20-5-JMF-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 738271710,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "SHK",
+      "match": "mnp-20-9-SHK-NLT",
+      "week": "9",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 96555910,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "SHK",
+      "match": "mnp-20-9-SHK-NLT",
+      "week": "9",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 13085290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "SHK",
+      "match": "mnp-20-9-SHK-NLT",
+      "week": "9",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 234073570,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.687",
+      "num_matches": 4,
+      "ppm": "5.500",
+      "points": {
+        "won": 22,
+        "of": 32
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

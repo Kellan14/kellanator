@@ -1,0 +1,215 @@
+{
+  "key": "59e1444a29f6774442a9468783f6ce3f7c3aac98",
+  "name": "Devon Lamoreaux",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 233009320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 16462250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 279000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBS",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 1,
+      "machine": "BK2K",
+      "division": 0,
+      "score": 868630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBS",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 23977300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBS",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 4,
+      "machine": "BOP",
+      "division": 0,
+      "score": 1056770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 55650640,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 995220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 639090,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 63334000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 43102570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 86437700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-18-5-DIH-CFB",
+      "week": "5",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 76470,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-18-5-DIH-CFB",
+      "week": "5",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 92693810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DIH",
+      "match": "mnp-18-5-DIH-CFB",
+      "week": "5",
+      "round": 3,
+      "machine": "Spring Break",
+      "division": 0,
+      "score": 2143320,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.602",
+      "num_matches": 5,
+      "ppm": "5.000",
+      "points": {
+        "won": 25,
+        "of": 41.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

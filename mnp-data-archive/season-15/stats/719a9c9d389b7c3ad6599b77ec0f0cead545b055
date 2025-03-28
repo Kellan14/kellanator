@@ -1,0 +1,395 @@
+{
+  "key": "719a9c9d389b7c3ad6599b77ec0f0cead545b055",
+  "name": "Brodi bacchus",
+  "history": [
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8093160,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 11985580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DTP",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 19847260,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 156393080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 185939430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 133743220,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-15-11-DSV-PGN",
+      "week": "11",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 857950040,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-15-11-DSV-PGN",
+      "week": "11",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10427800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-15-11-DSV-PGN",
+      "week": "11",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 91795440,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1074592290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 38931820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RMS",
+      "match": "mnp-15-2-RMS-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 49600890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "OLD",
+      "match": "mnp-15-3-OLD-PGN",
+      "week": "3",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 214924330,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "OLD",
+      "match": "mnp-15-3-OLD-PGN",
+      "week": "3",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 58967190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "OLD",
+      "match": "mnp-15-3-OLD-PGN",
+      "week": "3",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 290263280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CPO",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 659355460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CPO",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 87428570,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CPO",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1953731890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-15-5-NLT-PGN",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 297184420,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-15-5-NLT-PGN",
+      "week": "5",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 70571870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "NLT",
+      "match": "mnp-15-5-NLT-PGN",
+      "week": "5",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 100525600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-15-6-PGN-TTT",
+      "week": "6",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 64588260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-15-6-PGN-TTT",
+      "week": "6",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 197990110,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "TTT",
+      "match": "mnp-15-6-PGN-TTT",
+      "week": "6",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 42016820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 18205910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 370487780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "BOC",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 138876050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SSS",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 45497840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SSS",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 145718000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "SSS",
+      "match": "mnp-15-9-SSS-PGN",
+      "week": "9",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 118031290,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.656",
+      "num_matches": 10,
+      "ppm": "5.250",
+      "points": {
+        "won": 52.5,
+        "of": 80
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

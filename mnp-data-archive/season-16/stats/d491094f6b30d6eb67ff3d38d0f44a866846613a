@@ -1,0 +1,143 @@
+{
+  "key": "d491094f6b30d6eb67ff3d38d0f44a866846613a",
+  "name": "Sean Bray",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-16-2-CDC-RMS",
+      "week": "2",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 7039610,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-16-2-CDC-RMS",
+      "week": "2",
+      "round": 2,
+      "machine": "DND",
+      "division": 0,
+      "score": 175290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-16-2-CDC-RMS",
+      "week": "2",
+      "round": 4,
+      "machine": "DND",
+      "division": 0,
+      "score": 291560,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 429830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 1454140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 804300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "TWC",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 8961630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TWC",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 2,
+      "machine": "DND",
+      "division": 0,
+      "score": 201490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "TWC",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 267090640,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.408",
+      "num_matches": 3,
+      "ppm": "3.333",
+      "points": {
+        "won": 10,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

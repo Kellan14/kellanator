@@ -1,0 +1,431 @@
+{
+  "key": "e10076f402847f4055455fc4d2717fc3ae14078e",
+  "name": "Kristin Vick",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-20-1-DSV-DTP",
+      "week": "1",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1788376490,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-20-1-DSV-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 7100000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-20-1-DSV-DTP",
+      "week": "1",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 26999260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "FBS",
+      "match": "mnp-20-10-DTP-FBS",
+      "week": "10",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 110402520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "FBS",
+      "match": "mnp-20-10-DTP-FBS",
+      "week": "10",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 17000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "FBS",
+      "match": "mnp-20-10-DTP-FBS",
+      "week": "10",
+      "round": 4,
+      "machine": "SNS",
+      "division": 0,
+      "score": 104580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1784308290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 6193310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PKT",
+      "match": "mnp-20-11-PKT-DTP",
+      "week": "11",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13598950,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16096040,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 29653730,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-20-12-DTP-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 38881210,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 120400,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 901000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-20-2-DTP-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 1847730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-20-3-TTT-DTP",
+      "week": "3",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 115024000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-20-3-TTT-DTP",
+      "week": "3",
+      "round": 3,
+      "machine": "POTC",
+      "division": 0,
+      "score": 13551370,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-20-3-TTT-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 24970150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 106003250,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "Congo",
+      "division": 0,
+      "score": 75000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "POW",
+      "match": "mnp-20-4-DTP-POW",
+      "week": "4",
+      "round": 4,
+      "machine": "GTF",
+      "division": 0,
+      "score": 20677550,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "ETB",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 63519230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ETB",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 7149820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "ETB",
+      "match": "mnp-20-5-ETB-DTP",
+      "week": "5",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 47000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 21203300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 38000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "ADB",
+      "match": "mnp-20-6-DTP-ADB",
+      "week": "6",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 144305350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 16609790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 153449890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TBT",
+      "match": "mnp-20-8-DTP-TBT",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 135882710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-20-9-TWC-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 97737470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-20-9-TWC-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 92000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TWC",
+      "match": "mnp-20-9-TWC-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 7837120,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.743",
+      "num_matches": 11,
+      "ppm": "6.045",
+      "points": {
+        "won": 66.5,
+        "of": 89.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

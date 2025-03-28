@@ -1,0 +1,431 @@
+{
+  "key": "e5a52346bff82cf04b590cd4bf4d56d7bf50be12",
+  "name": "Brian Chesbrough",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-19-1-SSS-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 2365000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-19-1-SSS-KNR",
+      "week": "1",
+      "round": 3,
+      "machine": "Rush",
+      "division": 0,
+      "score": 78000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "KNR",
+      "match": "mnp-19-1-SSS-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 532060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 75688620,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 26549480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DIH",
+      "match": "mnp-19-10-DIH-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 27196110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 20200500,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 2145960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 236434790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "Quicksilver",
+      "division": 0,
+      "score": 341350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 585200,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "DSV",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 822330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 283325490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 282297730,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "HHS",
+      "match": "mnp-19-3-SSS-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 413560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 312370,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 1658,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 633240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 1,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 1098690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 3,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 951228,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "POW",
+      "match": "mnp-19-5-SSS-POW",
+      "week": "5",
+      "round": 4,
+      "machine": "Beatles",
+      "division": 0,
+      "score": 2567930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 100000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 3,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 177160,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-19-6-ETB-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "GLizard",
+      "division": 0,
+      "score": 106800,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-19-7-SSS-ADB",
+      "week": "7",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 158582540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-19-7-SSS-ADB",
+      "week": "7",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 417272800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ADB",
+      "match": "mnp-19-7-SSS-ADB",
+      "week": "7",
+      "round": 4,
+      "machine": "Elton John",
+      "division": 0,
+      "score": 4510860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 443050,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 2802310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PYC",
+      "match": "mnp-19-8-PYC-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 393910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TBT",
+      "match": "mnp-19-9-SSS-TBT",
+      "week": "9",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 9063160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TBT",
+      "match": "mnp-19-9-SSS-TBT",
+      "week": "9",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 78230350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TBT",
+      "match": "mnp-19-9-SSS-TBT",
+      "week": "9",
+      "round": 3,
+      "machine": "Elton John",
+      "division": 0,
+      "score": 3183370,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.555",
+      "num_matches": 11,
+      "ppm": "4.545",
+      "points": {
+        "won": 50,
+        "of": 90
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

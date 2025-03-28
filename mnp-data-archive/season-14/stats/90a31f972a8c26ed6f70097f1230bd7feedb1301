@@ -1,0 +1,407 @@
+{
+  "key": "90a31f972a8c26ed6f70097f1230bd7feedb1301",
+  "name": "John McConnell",
+  "history": [
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 1,
+      "machine": "RR",
+      "division": 0,
+      "score": 311637000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 9557150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "SSS",
+      "match": "mnp-14-1-SSS-LCS",
+      "week": "1",
+      "round": 3,
+      "machine": "RR",
+      "division": 0,
+      "score": 92647490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 2778460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 15399500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 7248370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DSV",
+      "match": "mnp-14-10-DSV-LCS",
+      "week": "10",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 7895580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 605744070,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 179472240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 992679890,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "KNR",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 147899390,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 381886520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 27800340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "CPO",
+      "match": "mnp-14-2-LCS-CPO",
+      "week": "2",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 3463580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 7924180,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 22070660,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 21230350,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LCS",
+      "opp": "SHK",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 18461780,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 14730780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 1644100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "TWC",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 18890700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 8670780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 7767180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LAS",
+      "match": "mnp-14-5-LAS-LCS",
+      "week": "5",
+      "round": 4,
+      "machine": "RR",
+      "division": 0,
+      "score": 155996180,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 12637490,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 14633170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 27148180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "LLK",
+      "match": "mnp-14-8-LLK-LCS",
+      "week": "8",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 15945740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 65120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 7191440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LCS",
+      "opp": "DTP",
+      "match": "mnp-14-9-LCS-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 10873800,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.396",
+      "num_matches": 9,
+      "ppm": "3.722",
+      "points": {
+        "won": 33.5,
+        "of": 84.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

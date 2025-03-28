@@ -1,0 +1,395 @@
+{
+  "key": "2c3a00aa902587c41e2993b8f44e26d79c48b4d6",
+  "name": "Clare Green",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-16-1-RMS-HHS",
+      "week": "1",
+      "round": 1,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 3214670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-16-1-RMS-HHS",
+      "week": "1",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 90280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-16-1-RMS-HHS",
+      "week": "1",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 179120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 5229270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "Junkyard",
+      "division": 0,
+      "score": 8792180,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SSS",
+      "match": "mnp-16-10-HHS-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "LZ",
+      "division": 0,
+      "score": 27552940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-16-2-HHS-BOC",
+      "week": "2",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 4437860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-16-2-HHS-BOC",
+      "week": "2",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 824870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "BOC",
+      "match": "mnp-16-2-HHS-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 1075330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 4951650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 3,
+      "machine": "DH",
+      "division": 0,
+      "score": 366803970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-16-3-KNR-HHS",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMan",
+      "division": 0,
+      "score": 2645020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 9407720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 245668790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "RTR",
+      "match": "mnp-16-4-RTR-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 444057380,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-16-5-HHS-PGN",
+      "week": "5",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17407840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-16-5-HHS-PGN",
+      "week": "5",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 32699180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PGN",
+      "match": "mnp-16-5-HHS-PGN",
+      "week": "5",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 383443910,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 203686800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 78150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-16-6-DTP-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 415575530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 62623490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 2,
+      "machine": "T2",
+      "division": 0,
+      "score": 3579500,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "OLD",
+      "match": "mnp-16-7-HHS-OLD",
+      "week": "7",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 5323060,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 67101220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 145780,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DSV",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 60630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-16-9-LAS-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 11507260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-16-9-LAS-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 385105410,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "LAS",
+      "match": "mnp-16-9-LAS-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 107576000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.484",
+      "num_matches": 10,
+      "ppm": "3.950",
+      "points": {
+        "won": 39.5,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

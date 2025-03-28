@@ -1,0 +1,107 @@
+{
+  "key": "ff718b1914e0748fce655ad0cbb884cf888512c2",
+  "name": "Jodine Hatfield",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-15-3-KNR-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 18242390,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-15-3-KNR-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 7675280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CDC",
+      "match": "mnp-15-3-KNR-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 24783340,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 18065700,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 121673700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3170765240,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.558",
+      "num_matches": 2,
+      "ppm": "4.750",
+      "points": {
+        "won": 9.5,
+        "of": 17
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

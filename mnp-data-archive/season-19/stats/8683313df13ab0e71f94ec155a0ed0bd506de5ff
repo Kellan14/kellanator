@@ -1,0 +1,143 @@
+{
+  "key": "8683313df13ab0e71f94ec155a0ed0bd506de5ff",
+  "name": "Evan Adkins",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 2504010,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 122125060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 4,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 200780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 10182680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 12747680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 84131370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 23048580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 64308940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CRA",
+      "opp": "DSV",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 463660,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.260",
+      "num_matches": 3,
+      "ppm": "2.166",
+      "points": {
+        "won": 6.5,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "key": "fbada9b3d072be51395b2dece73221d119c44294",
+  "name": "Michael Zuino",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 34005450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 4000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "FBP",
+      "match": "mnp-19-1-FBP-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 24900480,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 127087,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 3,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 115188,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "NMC",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 4618340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 68162350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 129809820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SHK",
+      "match": "mnp-19-2-RMS-SHK",
+      "week": "2",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 113596900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 24154220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 232330,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "ICB",
+      "match": "mnp-19-3-ICB-RMS",
+      "week": "3",
+      "round": 4,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 435000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 13690510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-19-4-RMS-CDC",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 38424850,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 1,
+      "machine": "Buck Rogers",
+      "division": 0,
+      "score": 79370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 659369260,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-19-5-PKT-RMS",
+      "week": "5",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 868582310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 1059000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 29386810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-19-6-RMS-SCN",
+      "week": "6",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 72305650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 492840430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 448000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-19-7-PBR-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 148,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 45524370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 65857710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "NLT",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 75260280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 2188460,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 206370,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "TTT",
+      "match": "mnp-19-9-TTT-RMS",
+      "week": "9",
+      "round": 4,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 634000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.453",
+      "num_matches": 10,
+      "ppm": "3.700",
+      "points": {
+        "won": 37,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

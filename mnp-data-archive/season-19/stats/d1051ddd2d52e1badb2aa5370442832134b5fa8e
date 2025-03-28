@@ -1,0 +1,359 @@
+{
+  "key": "d1051ddd2d52e1badb2aa5370442832134b5fa8e",
+  "name": "Guadalupe Bryan",
+  "history": [
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 172626810,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 20018690,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-19-1-PKT-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 227234470,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 1,
+      "machine": "James Bond 007 (60th)",
+      "division": 0,
+      "score": 812,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 8445610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "LAS",
+      "match": "mnp-19-10-LAS-CFB",
+      "week": "10",
+      "round": 4,
+      "machine": "Quicksilver",
+      "division": 0,
+      "score": 157630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "CFB",
+      "match": "mnp-19-12-PKT-CFB",
+      "week": "12",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 22305980,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "CFB",
+      "match": "mnp-19-12-PKT-CFB",
+      "week": "12",
+      "round": 2,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 136000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "CFB",
+      "match": "mnp-19-12-PKT-CFB",
+      "week": "12",
+      "round": 4,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 347000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "SWL",
+      "match": "mnp-19-2-SWL-PKT",
+      "week": "2",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 8625460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PKT",
+      "opp": "SWL",
+      "match": "mnp-19-2-SWL-PKT",
+      "week": "2",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 56573930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "SWL",
+      "match": "mnp-19-2-SWL-PKT",
+      "week": "2",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 59581360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "LAS",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 1,
+      "machine": "Junk Yard",
+      "division": 0,
+      "score": 7904420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "LAS",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 409940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "LAS",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "Quicksilver",
+      "division": 0,
+      "score": 172890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 162390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 3,
+      "machine": "Alien Star",
+      "division": 0,
+      "score": 84000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "DTP",
+      "match": "mnp-19-4-DTP-SSS",
+      "week": "4",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1117710800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 66653480,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 15574740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 4,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 409980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "Theater of magic",
+      "division": 0,
+      "score": 154350050,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 77336200,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 246915390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 38360,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 257090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 37360660,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.270",
+      "num_matches": 9,
+      "ppm": "2.166",
+      "points": {
+        "won": 19.5,
+        "of": 72
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

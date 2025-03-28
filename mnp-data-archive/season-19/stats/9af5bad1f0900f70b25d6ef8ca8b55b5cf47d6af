@@ -1,0 +1,395 @@
+{
+  "key": "9af5bad1f0900f70b25d6ef8ca8b55b5cf47d6af",
+  "name": "Dave Stewart",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 252882260,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 3,
+      "machine": "Venom",
+      "division": 0,
+      "score": 63260060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 76810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "POW",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 362921270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "POW",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 85709920,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "POW",
+      "match": "mnp-19-11-POW-DSV",
+      "week": "11",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 165530,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 48296000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 807000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Toy Story",
+      "division": 0,
+      "score": 2158680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 95140600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14634660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-19-3-PGN-DSV",
+      "week": "3",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 56084260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 2051801150,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 400346000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 4,
+      "machine": "Pulp Fiction",
+      "division": 0,
+      "score": 144960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 375571000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 48248000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSD",
+      "match": "mnp-19-5-SSD-DSV",
+      "week": "5",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 220333870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 77669890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 105314240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NMC",
+      "match": "mnp-19-6-DSV-NMC",
+      "week": "6",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 254945760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TTT",
+      "match": "mnp-19-7-TTT-DSV",
+      "week": "7",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 424000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TTT",
+      "match": "mnp-19-7-TTT-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 119174870,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "TTT",
+      "match": "mnp-19-7-TTT-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 1265150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 35584940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4435740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 156339200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 241374710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 108107000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-19-9-CRA-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 962650,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.770",
+      "num_matches": 10,
+      "ppm": "6.550",
+      "points": {
+        "won": 65.5,
+        "of": 85
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

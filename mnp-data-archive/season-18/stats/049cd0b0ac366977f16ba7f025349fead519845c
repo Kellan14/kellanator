@@ -1,0 +1,107 @@
+{
+  "key": "049cd0b0ac366977f16ba7f025349fead519845c",
+  "name": "Craig gary",
+  "history": [
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 17163610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 2987760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "LAS",
+      "match": "mnp-18-10-SSD-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "9Ball",
+      "division": 0,
+      "score": 141880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 9756320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 15013870,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "JMF",
+      "match": "mnp-18-9-JMF-SSD",
+      "week": "9",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 420596320,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.343",
+      "num_matches": 2,
+      "ppm": "2.750",
+      "points": {
+        "won": 5.5,
+        "of": 16
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

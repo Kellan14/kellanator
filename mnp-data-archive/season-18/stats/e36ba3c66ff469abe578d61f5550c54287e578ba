@@ -1,0 +1,179 @@
+{
+  "key": "e36ba3c66ff469abe578d61f5550c54287e578ba",
+  "name": "Bill Nary",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 81472920,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 12557600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 41655400,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ETB",
+      "opp": "PBR",
+      "match": "mnp-18-3-ETB-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "Indy",
+      "division": 0,
+      "score": 46730320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PBR",
+      "match": "mnp-18-3-ETB-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 1890940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "PBR",
+      "match": "mnp-18-3-ETB-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 44361110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 7799810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 21529460,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "CDC",
+      "match": "mnp-18-8-ETB-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14881070,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "KNR",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 8438990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "KNR",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 63344760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "KNR",
+      "match": "mnp-18-9-ETB-KNR",
+      "week": "9",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 7512420,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.415",
+      "num_matches": 4,
+      "ppm": "3.375",
+      "points": {
+        "won": 13.5,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

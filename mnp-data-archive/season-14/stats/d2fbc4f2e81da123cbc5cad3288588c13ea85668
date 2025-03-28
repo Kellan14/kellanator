@@ -1,0 +1,359 @@
+{
+  "key": "d2fbc4f2e81da123cbc5cad3288588c13ea85668",
+  "name": "Will Kirkland",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 3155420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 2000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-14-10-TWC-SKP",
+      "week": "10",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 6679790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 41070560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 41853270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-14-2-SCN-TWC",
+      "week": "2",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 247680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 23259020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 24549850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4877120,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 34017460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 80890440,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 39302150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 31746060,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 32939840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 436720,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "TNA",
+      "division": 0,
+      "score": 675392,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 16403000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 66960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 267630,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 29092710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-14-7-SWL-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 9791820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 811600,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 349488530,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-14-8-TWC-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 295364680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 17379080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 62833280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "HHS",
+      "match": "mnp-14-9-HHS-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 7754200,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.537",
+      "num_matches": 9,
+      "ppm": "4.388",
+      "points": {
+        "won": 39.5,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

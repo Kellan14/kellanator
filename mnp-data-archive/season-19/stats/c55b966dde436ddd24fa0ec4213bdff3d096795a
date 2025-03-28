@@ -1,0 +1,431 @@
+{
+  "key": "c55b966dde436ddd24fa0ec4213bdff3d096795a",
+  "name": "Cory Lampe",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 18768290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 82134230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-19-10-HHS-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1589127380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 97409180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 6341020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SCN",
+      "match": "mnp-19-11-SCN-NLT",
+      "week": "11",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1881510240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CRA",
+      "match": "mnp-19-12-NLT-CRA",
+      "week": "12",
+      "round": 1,
+      "machine": "James Bond 007",
+      "division": 0,
+      "score": 1084134750,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CRA",
+      "match": "mnp-19-12-NLT-CRA",
+      "week": "12",
+      "round": 3,
+      "machine": "James Bond 007",
+      "division": 0,
+      "score": 127404950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CRA",
+      "match": "mnp-19-12-NLT-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 218134830,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 273495380,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 6593590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "CPO",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 2908616410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 41332860,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 57371900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "DTP",
+      "match": "mnp-19-3-NLT-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 81207820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 937810860,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 16850500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 11103970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SWL",
+      "match": "mnp-19-5-NLT-SWL",
+      "week": "5",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 488656760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SWL",
+      "match": "mnp-19-5-NLT-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 27479160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SWL",
+      "match": "mnp-19-5-NLT-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 18038650,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 10848720,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1158878580,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1000000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 1,
+      "machine": "Venom",
+      "division": 0,
+      "score": 160841900,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 3,
+      "machine": "Venom",
+      "division": 0,
+      "score": 564154090,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "SKP",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 860329460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 14042080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 2820060270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RMS",
+      "match": "mnp-19-8-RMS-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1376545090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 225400,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "Rush",
+      "division": 0,
+      "score": 49942570,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-19-9-NLT-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 30939880,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.617",
+      "num_matches": 11,
+      "ppm": "5.000",
+      "points": {
+        "won": 55,
+        "of": 89
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "key": "be24c360998a88457c9b22bf0ffae901ceed2b0a",
+  "name": "Michael B Bailey",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 1,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 168620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 2,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 155430,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PBR",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 4,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 38583170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-19-10-CPO-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 96000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-19-10-CPO-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 279290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-19-10-CPO-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 22704410,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 162540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 261558050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-19-2-CPO-NLT",
+      "week": "2",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 6002460,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "JMF",
+      "match": "mnp-19-3-JMF-CPO",
+      "week": "3",
+      "round": 1,
+      "machine": "Dragon",
+      "division": 0,
+      "score": 566660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "JMF",
+      "match": "mnp-19-3-JMF-CPO",
+      "week": "3",
+      "round": 2,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 917840,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "JMF",
+      "match": "mnp-19-3-JMF-CPO",
+      "week": "3",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 577287770,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "FBP",
+      "match": "mnp-19-4-CPO-FBP",
+      "week": "4",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 822300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "FBP",
+      "match": "mnp-19-4-CPO-FBP",
+      "week": "4",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 53441680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "FBP",
+      "match": "mnp-19-4-CPO-FBP",
+      "week": "4",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 38572130,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 199662440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 2,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 434780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-19-5-SHK-CPO",
+      "week": "5",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 4485620,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 122050580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 3,
+      "machine": "Elton John",
+      "division": 0,
+      "score": 103440280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-19-6-CPO-ICB",
+      "week": "6",
+      "round": 4,
+      "machine": "Elton John",
+      "division": 0,
+      "score": 48067310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CDC",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 17765930,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "CDC",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 22925150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CDC",
+      "match": "mnp-19-7-CDC-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 803350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 6745810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 26719960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PKT",
+      "match": "mnp-19-8-CPO-PKT",
+      "week": "8",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 32989230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 17000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "Xenon",
+      "division": 0,
+      "score": 1026780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SCN",
+      "match": "mnp-19-9-SCN-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 279980,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.652",
+      "num_matches": 10,
+      "ppm": "5.250",
+      "points": {
+        "won": 52.5,
+        "of": 80.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

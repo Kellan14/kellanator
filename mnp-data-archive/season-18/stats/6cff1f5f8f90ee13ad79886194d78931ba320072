@@ -1,0 +1,119 @@
+{
+  "key": "6cff1f5f8f90ee13ad79886194d78931ba320072",
+  "name": "Trevor Leonard",
+  "history": [
+    {
+      "team": "PYC",
+      "opp": "PKT",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 2048050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PKT",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 2,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 57293650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PKT",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 45000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PYC",
+      "opp": "PKT",
+      "match": "mnp-18-5-PYC-PKT",
+      "week": "5",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 56707790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 37709260,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 640544360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "PGN",
+      "match": "mnp-18-9-PGN-TTT",
+      "week": "9",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1325821620,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.384",
+      "num_matches": 2,
+      "ppm": "3.750",
+      "points": {
+        "won": 7.5,
+        "of": 19.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

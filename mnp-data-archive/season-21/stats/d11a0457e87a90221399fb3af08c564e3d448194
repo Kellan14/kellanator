@@ -1,0 +1,287 @@
+{
+  "key": "d11a0457e87a90221399fb3af08c564e3d448194",
+  "name": "Nate Sloat",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "RTR",
+      "match": "mnp-21-1-RTR-NLT",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 14937610,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NLT",
+      "opp": "RTR",
+      "match": "mnp-21-1-RTR-NLT",
+      "week": "1",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 49350500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "RTR",
+      "match": "mnp-21-1-RTR-NLT",
+      "week": "1",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 129084150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-21-2-NLT-PKT",
+      "week": "2",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 519570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-21-2-NLT-PKT",
+      "week": "2",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 174811020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-21-2-NLT-PKT",
+      "week": "2",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 853250,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 43447330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1669380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "TWC",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 236816490,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "POW",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 22417350,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "POW",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 26519220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "POW",
+      "match": "mnp-21-4-NLT-POW",
+      "week": "4",
+      "round": 4,
+      "machine": "Genesis",
+      "division": 0,
+      "score": 501000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PGN",
+      "match": "mnp-21-5-PGN-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 182166590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PGN",
+      "match": "mnp-21-5-PGN-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 1377100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PGN",
+      "match": "mnp-21-5-PGN-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 36017990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "FBP",
+      "match": "mnp-21-6-NLT-FBP",
+      "week": "6",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 14000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "FBP",
+      "match": "mnp-21-6-NLT-FBP",
+      "week": "6",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 345016690,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "FBP",
+      "match": "mnp-21-6-NLT-FBP",
+      "week": "6",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 49327970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-21-7-NLT-DIH",
+      "week": "7",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 1048111190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-21-7-NLT-DIH",
+      "week": "7",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 320905270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-21-7-NLT-DIH",
+      "week": "7",
+      "round": 4,
+      "machine": "PULP",
+      "division": 0,
+      "score": 324100,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.589",
+      "num_matches": 7,
+      "ppm": "4.714",
+      "points": {
+        "won": 33,
+        "of": 56
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

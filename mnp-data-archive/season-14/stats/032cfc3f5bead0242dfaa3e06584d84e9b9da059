@@ -1,0 +1,335 @@
+{
+  "key": "032cfc3f5bead0242dfaa3e06584d84e9b9da059",
+  "name": "Randy Huynh",
+  "history": [
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 16359990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1400000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PBR",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 2052270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DIH",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6457610,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "DIH",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 18028238,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DIH",
+      "match": "mnp-14-10-RMS-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 13127390,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "ADB",
+      "match": "mnp-14-3-RMS-ADB",
+      "week": "3",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 208820680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "ADB",
+      "match": "mnp-14-3-RMS-ADB",
+      "week": "3",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 104513260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "ADB",
+      "match": "mnp-14-3-RMS-ADB",
+      "week": "3",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 197265560,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "ADB",
+      "match": "mnp-14-3-RMS-ADB",
+      "week": "3",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 236727020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 9802820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 105000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SCN",
+      "match": "mnp-14-4-SCN-RMS",
+      "week": "4",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 94669270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 42073560,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 26081900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CDC",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 29337080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-14-6-PKT-RMS",
+      "week": "6",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 30181930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-14-6-PKT-RMS",
+      "week": "6",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 183600290,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "PKT",
+      "match": "mnp-14-6-PKT-RMS",
+      "week": "6",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 51632910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "BM66",
+      "division": 0,
+      "score": 192867290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 13443750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-14-8-RMS-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 11241950,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SWL",
+      "match": "mnp-14-9-SWL-RMS",
+      "week": "9",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 81959300,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SWL",
+      "match": "mnp-14-9-SWL-RMS",
+      "week": "9",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 46313590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "SWL",
+      "match": "mnp-14-9-SWL-RMS",
+      "week": "9",
+      "round": 4,
+      "machine": "JM",
+      "division": 0,
+      "score": 491065210,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.703",
+      "num_matches": 8,
+      "ppm": "5.937",
+      "points": {
+        "won": 47.5,
+        "of": 67.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

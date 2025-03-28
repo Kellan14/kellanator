@@ -1,0 +1,287 @@
+{
+  "key": "ff06c6307398f97b1442948aa91dc17d95f5f26d",
+  "name": "Rob Homan WA",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-21-1-CDC-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 92530340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-21-1-CDC-KNR",
+      "week": "1",
+      "round": 3,
+      "machine": "METREM",
+      "division": 0,
+      "score": 19000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "KNR",
+      "match": "mnp-21-1-CDC-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 65000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 17735240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 3,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 179693130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "CRA",
+      "match": "mnp-21-2-CRA-CDC",
+      "week": "2",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 21150820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ICB",
+      "match": "mnp-21-3-CDC-ICB",
+      "week": "3",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 470666810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ICB",
+      "match": "mnp-21-3-CDC-ICB",
+      "week": "3",
+      "round": 2,
+      "machine": "DND",
+      "division": 0,
+      "score": 158025600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "ICB",
+      "match": "mnp-21-3-CDC-ICB",
+      "week": "3",
+      "round": 4,
+      "machine": "DND",
+      "division": 0,
+      "score": 177631620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-21-4-JMF-CDC",
+      "week": "4",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 42800390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-21-4-JMF-CDC",
+      "week": "4",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 325429470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "JMF",
+      "match": "mnp-21-4-JMF-CDC",
+      "week": "4",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 74808690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-21-5-CDC-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 183848820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-21-5-CDC-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 142112970,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "PBR",
+      "match": "mnp-21-5-CDC-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 92330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-21-6-PYC-CDC",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 10295320,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-21-6-PYC-CDC",
+      "week": "6",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 117280850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PYC",
+      "match": "mnp-21-6-PYC-CDC",
+      "week": "6",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 82114490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-21-7-RMS-CDC",
+      "week": "7",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 363749060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-21-7-RMS-CDC",
+      "week": "7",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 383395530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-21-7-RMS-CDC",
+      "week": "7",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 127289960,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.625",
+      "num_matches": 7,
+      "ppm": "5.000",
+      "points": {
+        "won": 35,
+        "of": 56
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

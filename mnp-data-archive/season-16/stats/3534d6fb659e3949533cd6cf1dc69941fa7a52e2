@@ -1,0 +1,359 @@
+{
+  "key": "3534d6fb659e3949533cd6cf1dc69941fa7a52e2",
+  "name": "Claire Burke",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 22747490,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 6157290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RTR",
+      "match": "mnp-16-1-RTR-SCN",
+      "week": "1",
+      "round": 4,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 3392180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 27266750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1146537150,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "OLD",
+      "match": "mnp-16-10-SCN-OLD",
+      "week": "10",
+      "round": 4,
+      "machine": "WOF",
+      "division": 0,
+      "score": 13939180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 14791910,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 330240,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "DSV",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 125780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 653890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 1768150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "RMS",
+      "match": "mnp-16-3-RMS-SCN",
+      "week": "3",
+      "round": 4,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 2262070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 3866280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 55658560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-16-4-NLT-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 12000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "BOC",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 251824330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "BOC",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 291180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SCN",
+      "opp": "BOC",
+      "match": "mnp-16-5-SCN-BOC",
+      "week": "5",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 7337610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TTT",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 23000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TTT",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 6508870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "TTT",
+      "match": "mnp-16-6-TTT-SCN",
+      "week": "6",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 110315020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-16-7-SCN-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 4859120,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-16-7-SCN-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 115480,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CPO",
+      "match": "mnp-16-7-SCN-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 88075070,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 5606040,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 11112660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "KNR",
+      "match": "mnp-16-9-KNR-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 8730700,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.455",
+      "num_matches": 9,
+      "ppm": "3.722",
+      "points": {
+        "won": 33.5,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

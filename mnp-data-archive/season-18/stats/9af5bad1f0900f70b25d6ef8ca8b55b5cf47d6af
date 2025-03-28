@@ -1,0 +1,395 @@
+{
+  "key": "9af5bad1f0900f70b25d6ef8ca8b55b5cf47d6af",
+  "name": "Dave Stewart",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-18-1-DSV-SHK",
+      "week": "1",
+      "round": 2,
+      "machine": "JM",
+      "division": 0,
+      "score": 1362098000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-18-1-DSV-SHK",
+      "week": "1",
+      "round": 3,
+      "machine": "JM",
+      "division": 0,
+      "score": 1147261180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SHK",
+      "match": "mnp-18-1-DSV-SHK",
+      "week": "1",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 524475430,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1211511190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 3011761210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 160000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 361550910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 309092130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 612014680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 476721010,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 47721000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PKT",
+      "match": "mnp-18-2-PKT-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 817050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 557420000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 3,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 96540490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "CDC",
+      "match": "mnp-18-3-DSV-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "Monster Bash",
+      "division": 0,
+      "score": 75915200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-18-4-BOC-DSV",
+      "week": "4",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 172191000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-18-4-BOC-DSV",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 48400000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "BOC",
+      "match": "mnp-18-4-BOC-DSV",
+      "week": "4",
+      "round": 4,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 189000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 2,
+      "machine": "PinballMagic",
+      "division": 0,
+      "score": 129263460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 6762600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-18-5-DSV-SCN",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 614000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "Venom",
+      "division": 0,
+      "score": 106763610,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "Venom",
+      "division": 0,
+      "score": 137926130,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 208106750,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 89086000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 352765000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-18-8-DSV-FBP",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 121035670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 39152230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 132457700,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "ADB",
+      "match": "mnp-18-9-ADB-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 45703540,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.660",
+      "num_matches": 10,
+      "ppm": "5.550",
+      "points": {
+        "won": 55.5,
+        "of": 84
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

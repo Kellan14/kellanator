@@ -1,0 +1,431 @@
+{
+  "key": "d11a0457e87a90221399fb3af08c564e3d448194",
+  "name": "Nate Sloat",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "TBT",
+      "match": "mnp-18-1-TBT-NLT",
+      "week": "1",
+      "round": 1,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 18263330,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "TBT",
+      "match": "mnp-18-1-TBT-NLT",
+      "week": "1",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1406350,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "TBT",
+      "match": "mnp-18-1-TBT-NLT",
+      "week": "1",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 12519260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 85787460,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 5251310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-18-10-PKT-NLT",
+      "week": "10",
+      "round": 4,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 4330750,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CFB",
+      "match": "mnp-18-11-CFB-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1040870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CFB",
+      "match": "mnp-18-11-CFB-NLT",
+      "week": "11",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 148444530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CFB",
+      "match": "mnp-18-11-CFB-NLT",
+      "week": "11",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 30289260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 139638840,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 6589200,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-18-12-DSV-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 9463070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-18-13-PBR-NLT",
+      "week": "13",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 161091270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-18-13-PBR-NLT",
+      "week": "13",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 53000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "PBR",
+      "match": "mnp-18-13-PBR-NLT",
+      "week": "13",
+      "round": 4,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 455739110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PYC",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 149650080,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PYC",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 277014590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PYC",
+      "match": "mnp-18-2-NLT-PYC",
+      "week": "2",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 200000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ETB",
+      "match": "mnp-18-4-NLT-ETB",
+      "week": "4",
+      "round": 2,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 77169520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ETB",
+      "match": "mnp-18-4-NLT-ETB",
+      "week": "4",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 106565140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "ETB",
+      "match": "mnp-18-4-NLT-ETB",
+      "week": "4",
+      "round": 4,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 88596910,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-18-6-NLT-HHS",
+      "week": "6",
+      "round": 1,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 7753500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-18-6-NLT-HHS",
+      "week": "6",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 711060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "HHS",
+      "match": "mnp-18-6-NLT-HHS",
+      "week": "6",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 96640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 88526370,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 73177280,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "DSV",
+      "match": "mnp-18-7-NLT-DSV",
+      "week": "7",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 100907890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "KNR",
+      "match": "mnp-18-8-KNR-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 147461070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "KNR",
+      "match": "mnp-18-8-KNR-NLT",
+      "week": "8",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 244390690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "KNR",
+      "match": "mnp-18-8-KNR-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 426205170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CDC",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 127745600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CDC",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 18478130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "CDC",
+      "match": "mnp-18-9-NLT-CDC",
+      "week": "9",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 9740230,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.775",
+      "num_matches": 11,
+      "ppm": "6.272",
+      "points": {
+        "won": 69,
+        "of": 89
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "key": "97ba6c9a68c0fb1fbcdbbc571cc42e74e483ca18",
+  "name": "Sam Stiles",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 18776460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 7511090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 5910540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 1,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 674170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 8016890,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 7914080,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 522611790,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 298850190,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 48587670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 144061640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 21118220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 46968190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 94467110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "BOC",
+      "match": "mnp-14-5-BOC-JMF",
+      "week": "5",
+      "round": 2,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 431230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "BOC",
+      "match": "mnp-14-5-BOC-JMF",
+      "week": "5",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 29060100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "BOC",
+      "match": "mnp-14-5-BOC-JMF",
+      "week": "5",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 334980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-14-6-JMF-DTP",
+      "week": "6",
+      "round": 1,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 495540,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-14-6-JMF-DTP",
+      "week": "6",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 96250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-14-6-JMF-DTP",
+      "week": "6",
+      "round": 3,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 881670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "DSV",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 449810,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "DSV",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 377510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "DSV",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1259150,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.575",
+      "num_matches": 7,
+      "ppm": "4.928",
+      "points": {
+        "won": 34.5,
+        "of": 60
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

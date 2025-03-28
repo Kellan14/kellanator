@@ -1,0 +1,395 @@
+{
+  "key": "12ae1a03bbb00c665645af6fc47d5548ef0b39a0",
+  "name": "Erik Gust",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 91489590,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 140807920,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-15-1-ADB-TWC",
+      "week": "1",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 253327320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 1251050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 1361000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 31393720,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 31946630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 162397000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SKP",
+      "match": "mnp-15-11-TWC-SKP",
+      "week": "11",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 2196790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 179866160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 205544560,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 230785920,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-15-13-TWC-LAS",
+      "week": "13",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 3452390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-15-13-TWC-LAS",
+      "week": "13",
+      "round": 3,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 1541670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-15-13-TWC-LAS",
+      "week": "13",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 336204020,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 38822670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 50163450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 113247350,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-15-5-JMF-TWC",
+      "week": "5",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 513502790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-15-5-JMF-TWC",
+      "week": "5",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 229703230,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-15-5-JMF-TWC",
+      "week": "5",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 31820260,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 144338780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "T3",
+      "division": 0,
+      "score": 62669230,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-15-7-CDC-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4506310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-15-8-TWC-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 27529370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-15-8-TWC-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 10307770,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-15-8-TWC-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 47448280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "T3",
+      "division": 0,
+      "score": 47501970,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 275000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-15-9-SCN-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "T3",
+      "division": 0,
+      "score": 378000000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.722",
+      "num_matches": 10,
+      "ppm": "6.000",
+      "points": {
+        "won": 60,
+        "of": 83
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

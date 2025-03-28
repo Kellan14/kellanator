@@ -1,0 +1,179 @@
+{
+  "key": "83e8a0b76d54b7af6604485d30b5895631383c7d",
+  "name": "Philip Joupperi",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 13548360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 183033450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "CFB",
+      "match": "mnp-16-1-KNR-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 67136820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CFB",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 174200650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "CFB",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1024675250,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "CFB",
+      "match": "mnp-16-10-CFB-PGN",
+      "week": "10",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 85534320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 39368690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 27390820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "ETB",
+      "match": "mnp-16-3-PGN-ETB",
+      "week": "3",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 22177800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-16-7-PKT-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 8803190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-16-7-PKT-RMS",
+      "week": "7",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 12829020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "RMS",
+      "match": "mnp-16-7-PKT-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 85941160,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.615",
+      "num_matches": 4,
+      "ppm": "5.000",
+      "points": {
+        "won": 20,
+        "of": 32.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

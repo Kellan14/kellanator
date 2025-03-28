@@ -1,0 +1,431 @@
+{
+  "key": "ee3628b78bed241caed1a536e9da2d09b09863a5",
+  "name": "Kellan Kirkland",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "JD",
+      "division": 0,
+      "score": 173240440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 239064000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CFB",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 482000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 14000000,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 109718130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-18-10-DIH-TWC",
+      "week": "10",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 383000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 104359890,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 55915490,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-18-11-DSV-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 392169340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-18-2-PGN-TWC",
+      "week": "2",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 20921400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-18-2-PGN-TWC",
+      "week": "2",
+      "round": 2,
+      "machine": "JD",
+      "division": 0,
+      "score": 302141130,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-18-2-PGN-TWC",
+      "week": "2",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 128819640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 124427630,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 1037330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 215958400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-18-4-JMF-TWC",
+      "week": "4",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 601614390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-18-4-JMF-TWC",
+      "week": "4",
+      "round": 2,
+      "machine": "JD",
+      "division": 0,
+      "score": 392097730,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-18-4-JMF-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 318743670,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 1,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 12249830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 3,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 23906170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CRA",
+      "match": "mnp-18-5-TWC-CRA",
+      "week": "5",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1984833150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1279032520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 207528540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TTT",
+      "match": "mnp-18-6-TTT-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 22015350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 21134830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 104588780,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-18-7-NMC-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 172991460,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSD",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 1831397060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSD",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 63566790,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSD",
+      "match": "mnp-18-8-TWC-SSD",
+      "week": "8",
+      "round": 4,
+      "machine": "Venom",
+      "division": 0,
+      "score": 56528290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-18-9-TWC-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 123141550,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-18-9-TWC-SWL",
+      "week": "9",
+      "round": 2,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 167840670,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SWL",
+      "match": "mnp-18-9-TWC-SWL",
+      "week": "9",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 43788650,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.711",
+      "num_matches": 11,
+      "ppm": "5.727",
+      "points": {
+        "won": 63,
+        "of": 88.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

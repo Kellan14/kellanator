@@ -1,0 +1,191 @@
+{
+  "key": "d14eb41bb5980596b75dcd81463b20465242756e",
+  "name": "Neil Kubath",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 34943000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 9110040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 9715750,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "JMF",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 4,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 18658640,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NLT",
+      "opp": "CDC",
+      "match": "mnp-14-2-CDC-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 28450140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "CDC",
+      "match": "mnp-14-2-CDC-NLT",
+      "week": "2",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 50376700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "CDC",
+      "match": "mnp-14-2-CDC-NLT",
+      "week": "2",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 17989950,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-14-4-ADB-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 55202420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-14-4-ADB-NLT",
+      "week": "4",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 916130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-14-4-ADB-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 11257820,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 51424310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1061186330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "PKT",
+      "match": "mnp-14-5-NLT-PKT",
+      "week": "5",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 395600,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.414",
+      "num_matches": 4,
+      "ppm": "3.625",
+      "points": {
+        "won": 14.5,
+        "of": 35
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

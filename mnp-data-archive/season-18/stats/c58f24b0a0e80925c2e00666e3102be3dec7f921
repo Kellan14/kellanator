@@ -1,0 +1,143 @@
+{
+  "key": "c58f24b0a0e80925c2e00666e3102be3dec7f921",
+  "name": "Mike Plummer",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 30646610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 189084590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 25749280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 1,
+      "machine": "F-14",
+      "division": 0,
+      "score": 256400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 2,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 353160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 15893720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 3547410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 14000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CPO",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 27970340,
+      "points": 0.5,
+      "pops": "0.200"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.460",
+      "num_matches": 3,
+      "ppm": "3.833",
+      "points": {
+        "won": 11.5,
+        "of": 25
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

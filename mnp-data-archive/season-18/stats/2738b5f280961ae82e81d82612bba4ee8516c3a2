@@ -1,0 +1,431 @@
+{
+  "key": "2738b5f280961ae82e81d82612bba4ee8516c3a2",
+  "name": "Liberty Ruderman",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-18-1-CPO-NMC",
+      "week": "1",
+      "round": 1,
+      "machine": "Tommy",
+      "division": 0,
+      "score": 19274930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-18-1-CPO-NMC",
+      "week": "1",
+      "round": 2,
+      "machine": "Tommy",
+      "division": 0,
+      "score": 14223210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-18-1-CPO-NMC",
+      "week": "1",
+      "round": 4,
+      "machine": "Tommy",
+      "division": 0,
+      "score": 252358160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-18-10-CPO-SKP",
+      "week": "10",
+      "round": 2,
+      "machine": "Venom",
+      "division": 0,
+      "score": 17,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-18-10-CPO-SKP",
+      "week": "10",
+      "round": 3,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 795000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SKP",
+      "match": "mnp-18-10-CPO-SKP",
+      "week": "10",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 701120960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "POW",
+      "match": "mnp-18-11-CPO-POW",
+      "week": "11",
+      "round": 1,
+      "machine": "Stars",
+      "division": 0,
+      "score": 254210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "POW",
+      "match": "mnp-18-11-CPO-POW",
+      "week": "11",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 92285980,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "POW",
+      "match": "mnp-18-11-CPO-POW",
+      "week": "11",
+      "round": 3,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 631680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-18-12-CPO-NMC",
+      "week": "12",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 11687030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-18-12-CPO-NMC",
+      "week": "12",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 16882,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NMC",
+      "match": "mnp-18-12-CPO-NMC",
+      "week": "12",
+      "round": 3,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 10774,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1793196810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 9066070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-18-2-SSD-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 73979710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-18-4-PGN-CPO",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 245694290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-18-4-PGN-CPO",
+      "week": "4",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 14734970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-18-4-PGN-CPO",
+      "week": "4",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 102453520,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 179469260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 3,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 415660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-18-5-CPO-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 48273270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-18-6-CRA-CPO",
+      "week": "6",
+      "round": 1,
+      "machine": "Venom Right",
+      "division": 0,
+      "score": 610034700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-18-6-CRA-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 1248388150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "CRA",
+      "match": "mnp-18-6-CRA-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 14547670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "RTR",
+      "match": "mnp-18-7-RTR-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1576467400,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "RTR",
+      "match": "mnp-18-7-RTR-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "Venom Right",
+      "division": 0,
+      "score": 113052390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "RTR",
+      "match": "mnp-18-7-RTR-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "Venom Right",
+      "division": 0,
+      "score": 35359350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 21411290,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "DP",
+      "division": 0,
+      "score": 11946570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-18-8-CPO-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 204192450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-18-9-LAS-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 8268900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-18-9-LAS-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 22937740,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-18-9-LAS-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "Venom Right",
+      "division": 0,
+      "score": 141725560,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.543",
+      "num_matches": 11,
+      "ppm": "4.500",
+      "points": {
+        "won": 49.5,
+        "of": 91
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

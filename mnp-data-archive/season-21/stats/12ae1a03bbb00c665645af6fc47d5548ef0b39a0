@@ -1,0 +1,227 @@
+{
+  "key": "12ae1a03bbb00c665645af6fc47d5548ef0b39a0",
+  "name": "Erik Gust",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "TBT",
+      "match": "mnp-21-1-TWC-TBT",
+      "week": "1",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 136865620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TBT",
+      "match": "mnp-21-1-TWC-TBT",
+      "week": "1",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 770000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "TBT",
+      "match": "mnp-21-1-TWC-TBT",
+      "week": "1",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 320426710,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "TBT",
+      "match": "mnp-21-1-TWC-TBT",
+      "week": "1",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 4874310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 154912650,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 108711720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NMC",
+      "match": "mnp-21-2-NMC-TWC",
+      "week": "2",
+      "round": 3,
+      "machine": "Ali",
+      "division": 0,
+      "score": 468190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 155915720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 486279640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-21-3-TWC-NLT",
+      "week": "3",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 280207010,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-21-5-TWC-SSS",
+      "week": "5",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 525755360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-21-5-TWC-SSS",
+      "week": "5",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 146905000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SSS",
+      "match": "mnp-21-5-TWC-SSS",
+      "week": "5",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 25000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 529031771,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 49793280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SCN",
+      "match": "mnp-21-6-SCN-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 444000,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.701",
+      "num_matches": 5,
+      "ppm": "6.100",
+      "points": {
+        "won": 30.5,
+        "of": 43.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

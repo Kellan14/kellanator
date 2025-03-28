@@ -1,0 +1,395 @@
+{
+  "key": "4da2f815d7ba14404d49f7a463ec97621b7bc47a",
+  "name": "John Robinson WA",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-15-10-CPO-LAS",
+      "week": "10",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 126000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-15-10-CPO-LAS",
+      "week": "10",
+      "round": 2,
+      "machine": "Halloween",
+      "division": 0,
+      "score": 28000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "LAS",
+      "match": "mnp-15-10-CPO-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 83150200,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-15-11-SSS-CPO",
+      "week": "11",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 135000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-15-11-SSS-CPO",
+      "week": "11",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 557210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-15-11-SSS-CPO",
+      "week": "11",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 177420,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3690260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4282850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 94932760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-15-13-KNR-CPO",
+      "week": "13",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 95200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-15-13-KNR-CPO",
+      "week": "13",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 752000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-15-13-KNR-CPO",
+      "week": "13",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 585970,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 497990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 537630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1596012720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 1258830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 2,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 3182490,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 4,
+      "machine": "T2",
+      "division": 0,
+      "score": 12870140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 440910,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4912420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "RMS",
+      "match": "mnp-15-6-RMS-CPO",
+      "week": "6",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 171810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-15-7-NLT-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 183406230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-15-7-NLT-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 259510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-15-7-NLT-CPO",
+      "week": "7",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 978160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 49429440,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 30397220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 1329891720,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 187260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 343500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 194450,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.776",
+      "num_matches": 10,
+      "ppm": "6.250",
+      "points": {
+        "won": 62.5,
+        "of": 80.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

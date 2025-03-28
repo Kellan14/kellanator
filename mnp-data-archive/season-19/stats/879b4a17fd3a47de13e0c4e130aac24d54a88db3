@@ -1,0 +1,323 @@
+{
+  "key": "879b4a17fd3a47de13e0c4e130aac24d54a88db3",
+  "name": "Adam Livengood",
+  "history": [
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 33027580,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 506648900,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "TWC",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 4,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 28374660,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 2,
+      "machine": "CV",
+      "division": 0,
+      "score": 34018130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 3,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 308120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PKT",
+      "match": "mnp-19-3-PKT-LAS",
+      "week": "3",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 8481070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 53000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 5400000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SCN",
+      "match": "mnp-19-4-LAS-SCN",
+      "week": "4",
+      "round": 4,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 13000000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 899150890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "CV",
+      "division": 0,
+      "score": 7041220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 35565960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 1,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 48241480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 45611750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 12382140,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1316030470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 2,
+      "machine": "CV",
+      "division": 0,
+      "score": 21505100,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SSD",
+      "match": "mnp-19-7-SSD-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 748163900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 70954840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 4868267990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "FBP",
+      "match": "mnp-19-8-LAS-FBP",
+      "week": "8",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 9736710,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "CV",
+      "division": 0,
+      "score": 14708330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 616624480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "SHK",
+      "match": "mnp-19-9-SHK-LAS",
+      "week": "9",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 772941120,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.618",
+      "num_matches": 8,
+      "ppm": "5.062",
+      "points": {
+        "won": 40.5,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

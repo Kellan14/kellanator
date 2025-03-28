@@ -1,0 +1,395 @@
+{
+  "key": "58eddf89c9ae9478175d0d2ff165790ac262fc80",
+  "name": "Mikkel Nielsen WA",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 4299130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 409590,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "DIH",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "SC",
+      "division": 0,
+      "score": 482470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 95646610,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 1471360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SKP",
+      "match": "mnp-16-10-SKP-DSV",
+      "week": "10",
+      "round": 3,
+      "machine": "SS",
+      "division": 0,
+      "score": 920230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 1,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 2057370,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 4707760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-16-11-PGN-DSV",
+      "week": "11",
+      "round": 3,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 2058370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 1,
+      "machine": "StarWars",
+      "division": 0,
+      "score": 15578910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 9800040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SWL",
+      "match": "mnp-16-12-DSV-SWL",
+      "week": "12",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 42432900,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 32725240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 2,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 476800,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "SCN",
+      "match": "mnp-16-2-SCN-DSV",
+      "week": "2",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 87180,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 404330950,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "Shadow",
+      "division": 0,
+      "score": 41110880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-16-3-DSV-CFB",
+      "week": "3",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 5672770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 1,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 428730,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 2,
+      "machine": "Radical",
+      "division": 0,
+      "score": 3394590,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "PBR",
+      "match": "mnp-16-4-DSV-PBR",
+      "week": "4",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1476200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 11740250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 2,
+      "machine": "FG",
+      "division": 0,
+      "score": 7439780,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "CRA",
+      "match": "mnp-16-6-DSV-CRA",
+      "week": "6",
+      "round": 4,
+      "machine": "FG",
+      "division": 0,
+      "score": 35352730,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 1,
+      "machine": "Radical",
+      "division": 0,
+      "score": 9094000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 224730,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "HHS",
+      "match": "mnp-16-8-HHS-DSV",
+      "week": "8",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 264428,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 9800510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 2706100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "TWC",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 1234589560,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.439",
+      "num_matches": 10,
+      "ppm": "3.600",
+      "points": {
+        "won": 36,
+        "of": 82
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

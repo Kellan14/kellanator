@@ -1,0 +1,395 @@
+{
+  "key": "98326b585dcf615cb04751c475b9c754240a84bd",
+  "name": "Hayden McCabe",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 59735860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 18146530,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "RMS",
+      "match": "mnp-14-1-RMS-PBR",
+      "week": "1",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 766034340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-14-10-DTP-PBR",
+      "week": "10",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 8215580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-14-10-DTP-PBR",
+      "week": "10",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 14375690,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-14-10-DTP-PBR",
+      "week": "10",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 97000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 639004870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 16007340,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "JMF",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 9689420,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 1,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 869660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 4757300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "BOC",
+      "match": "mnp-14-2-PBR-BOC",
+      "week": "2",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 46190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6722550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 29279530,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-14-3-CPO-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 6680680,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "LLK",
+      "match": "mnp-14-4-PBR-LLK",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 8923550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "LLK",
+      "match": "mnp-14-4-PBR-LLK",
+      "week": "4",
+      "round": 2,
+      "machine": "TNA",
+      "division": 0,
+      "score": 460870,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "LLK",
+      "match": "mnp-14-4-PBR-LLK",
+      "week": "4",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 4498400,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 282040,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 756394280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-14-5-TWC-PBR",
+      "week": "5",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 1050100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 67960160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 2,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1686120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-14-6-PBR-DSV",
+      "week": "6",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2084418140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 8397720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 3,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 5499240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PGN",
+      "match": "mnp-14-7-PBR-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 13742180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "SHK",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 41762740,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "SHK",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 960196790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "SHK",
+      "match": "mnp-14-8-SHK-PBR",
+      "week": "8",
+      "round": 3,
+      "machine": "BadCats",
+      "division": 0,
+      "score": 2046870,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.644",
+      "num_matches": 10,
+      "ppm": "5.250",
+      "points": {
+        "won": 52.5,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

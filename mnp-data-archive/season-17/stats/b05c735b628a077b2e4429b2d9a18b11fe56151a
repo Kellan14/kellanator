@@ -1,0 +1,179 @@
+{
+  "key": "b05c735b628a077b2e4429b2d9a18b11fe56151a",
+  "name": "Tony Bacus",
+  "history": [
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1056808960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 347475280,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-17-1-TWC-SWL",
+      "week": "1",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 38506610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 3891720,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 180380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "HHS",
+      "match": "mnp-17-4-SWL-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 117680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 243193470,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 350298920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-17-5-TBT-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 2202380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 350307450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 5057530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "CRA",
+      "match": "mnp-17-8-SWL-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 7050180,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.313",
+      "num_matches": 4,
+      "ppm": "2.625",
+      "points": {
+        "won": 10.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

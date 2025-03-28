@@ -1,0 +1,179 @@
+{
+  "key": "e4ed51c2d852ceab20a9b04bfed5961f69847c78",
+  "name": "Colin Curfman",
+  "history": [
+    {
+      "team": "NLT",
+      "opp": "FBS",
+      "match": "mnp-19-1-NLT-FBS",
+      "week": "1",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 32948640,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "FBS",
+      "match": "mnp-19-1-NLT-FBS",
+      "week": "1",
+      "round": 2,
+      "machine": "Scooby-Doo",
+      "division": 0,
+      "score": 251310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "FBS",
+      "match": "mnp-19-1-NLT-FBS",
+      "week": "1",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 271140,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 477110,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 56290,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "DIH",
+      "match": "mnp-19-4-DIH-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 21583630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 211900,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 113052490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "LAS",
+      "match": "mnp-19-6-LAS-NLT",
+      "week": "6",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 74313360,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 1,
+      "machine": "CSI",
+      "division": 0,
+      "score": 13992670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 2,
+      "machine": "CSI",
+      "division": 0,
+      "score": 13877790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "NLT",
+      "match": "mnp-19-7-NLT-SKP",
+      "week": "7",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4331540,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.439",
+      "num_matches": 4,
+      "ppm": "3.625",
+      "points": {
+        "won": 14.5,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

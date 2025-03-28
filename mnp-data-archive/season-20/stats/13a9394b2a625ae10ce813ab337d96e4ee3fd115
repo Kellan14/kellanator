@@ -1,0 +1,107 @@
+{
+  "key": "13a9394b2a625ae10ce813ab337d96e4ee3fd115",
+  "name": "Erica Ward",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "FBP",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 7654250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBP",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 24580350,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBP",
+      "match": "mnp-20-1-CFB-FBP",
+      "week": "1",
+      "round": 4,
+      "machine": "SS",
+      "division": 0,
+      "score": 2239410,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 40763170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 1570600,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "ICB",
+      "match": "mnp-20-5-NMC-ICB",
+      "week": "5",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 22783180,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.545",
+      "num_matches": 2,
+      "ppm": "4.500",
+      "points": {
+        "won": 9,
+        "of": 16.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

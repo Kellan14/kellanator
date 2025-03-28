@@ -1,0 +1,251 @@
+{
+  "key": "57bf3488f04cfd334d5cbb72624b0194d6ed00e3",
+  "name": "Rachel Helm",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-19-1-RTR-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 153503360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-19-1-RTR-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 894820,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "RTR",
+      "match": "mnp-19-1-RTR-TWC",
+      "week": "1",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 11289250,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 1,
+      "machine": "Breakshot",
+      "division": 0,
+      "score": 915420,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 725600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-19-11-LAS-TWC",
+      "week": "11",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 282732900,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 57630,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 1788420,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 64430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-19-13-TWC-ADB",
+      "week": "13",
+      "round": 1,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 2205430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-19-13-TWC-ADB",
+      "week": "13",
+      "round": 2,
+      "machine": "LZ",
+      "division": 0,
+      "score": 1882550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-19-13-TWC-ADB",
+      "week": "13",
+      "round": 3,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 10206180,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-19-3-SHK-TWC",
+      "week": "3",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 52624610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-19-3-SHK-TWC",
+      "week": "3",
+      "round": 2,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 18570190,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-19-3-SHK-TWC",
+      "week": "3",
+      "round": 3,
+      "machine": "MSF",
+      "division": 0,
+      "score": 179142660,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 5813360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 738680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CDC",
+      "match": "mnp-19-5-CDC-TWC",
+      "week": "5",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 3999000,
+      "points": 1,
+      "pops": "0.333"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.284",
+      "num_matches": 6,
+      "ppm": "2.416",
+      "points": {
+        "won": 14.5,
+        "of": 51
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

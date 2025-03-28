@@ -1,0 +1,395 @@
+{
+  "key": "783a17c9fa1bf37f6129acfe5cd79d74d43c90d8",
+  "name": "Mark McClure",
+  "history": [
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 533520,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 18072310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "DTP",
+      "match": "mnp-14-1-DTP-CDC",
+      "week": "1",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 190660,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 35634410,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 17023110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "LAS",
+      "match": "mnp-14-10-LAS-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 610620,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-14-2-CDC-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "BSD",
+      "division": 0,
+      "score": 7247360,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-14-2-CDC-NLT",
+      "week": "2",
+      "round": 3,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 1274210,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "NLT",
+      "match": "mnp-14-2-CDC-NLT",
+      "week": "2",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 18867070,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 31306500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 2,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 308570,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "TWC",
+      "match": "mnp-14-3-TWC-CDC",
+      "week": "3",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 141980,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 587350,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 48050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BOC",
+      "match": "mnp-14-4-CDC-BOC",
+      "week": "4",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 425340,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 12809100,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 8935970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "RMS",
+      "match": "mnp-14-5-RMS-CDC",
+      "week": "5",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 239180,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 27365940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 2,
+      "machine": "WOF",
+      "division": 0,
+      "score": 4339790,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "OLD",
+      "match": "mnp-14-6-CDC-OLD",
+      "week": "6",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 20655590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "LLK",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 3152330,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CDC",
+      "opp": "LLK",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 3516610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "LLK",
+      "match": "mnp-14-7-CDC-LLK",
+      "week": "7",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 1764300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 92240,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 3,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 29122150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "SSS",
+      "match": "mnp-14-8-SSS-CDC",
+      "week": "8",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 260270,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 19853340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 2,
+      "machine": "Cyclone",
+      "division": 0,
+      "score": 235180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "PGN",
+      "match": "mnp-14-9-CDC-PGN",
+      "week": "9",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 45060220,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.398",
+      "num_matches": 10,
+      "ppm": "3.250",
+      "points": {
+        "won": 32.5,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

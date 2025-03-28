@@ -1,0 +1,431 @@
+{
+  "key": "bee2575e9968dac9662aa4bdf97f44540371487d",
+  "name": "Fabian Turcios",
+  "history": [
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 25033210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 31031610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "CPO",
+      "match": "mnp-19-1-PBR-CPO",
+      "week": "1",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 764292420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-19-10-DSV-PBR",
+      "week": "10",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 42920790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-19-10-DSV-PBR",
+      "week": "10",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 46146560,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "DSV",
+      "match": "mnp-19-10-DSV-PBR",
+      "week": "10",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 75209780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PKT",
+      "match": "mnp-19-11-PKT-PBR",
+      "week": "11",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 156115660,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "PKT",
+      "match": "mnp-19-11-PKT-PBR",
+      "week": "11",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 26538170,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "PKT",
+      "match": "mnp-19-11-PKT-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 135946270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 66880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 117980150,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-12-TWC-PBR",
+      "week": "12",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 33503440,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-19-2-DTP-PBR",
+      "week": "2",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 4680940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-19-2-DTP-PBR",
+      "week": "2",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 13111780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DTP",
+      "match": "mnp-19-2-DTP-PBR",
+      "week": "2",
+      "round": 4,
+      "machine": "Indy",
+      "division": 0,
+      "score": 27000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DIH",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 31323200,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "DIH",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 47882610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "DIH",
+      "match": "mnp-19-3-PBR-DIH",
+      "week": "3",
+      "round": 3,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 11118580,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "SWL",
+      "match": "mnp-19-4-SWL-PBR",
+      "week": "4",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 10600190,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "SWL",
+      "match": "mnp-19-4-SWL-PBR",
+      "week": "4",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 22002280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "SWL",
+      "match": "mnp-19-4-SWL-PBR",
+      "week": "4",
+      "round": 3,
+      "machine": "Venom",
+      "division": 0,
+      "score": 123660620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 112958840,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 2,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 181917,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PBR",
+      "opp": "LAS",
+      "match": "mnp-19-5-PBR-LAS",
+      "week": "5",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 6954490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "SKP",
+      "match": "mnp-19-6-SKP-PBR",
+      "week": "6",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 158227060,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "SKP",
+      "match": "mnp-19-6-SKP-PBR",
+      "week": "6",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 145572140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "SKP",
+      "match": "mnp-19-6-SKP-PBR",
+      "week": "6",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 8796180,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-8-TWC-PBR",
+      "week": "8",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 50227910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-8-TWC-PBR",
+      "week": "8",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 10906140,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "TWC",
+      "match": "mnp-19-8-TWC-PBR",
+      "week": "8",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 34776590,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "PBR",
+      "opp": "FBS",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 25274900,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "PBR",
+      "opp": "FBS",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 34327550,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PBR",
+      "opp": "FBS",
+      "match": "mnp-19-9-PBR-FBS",
+      "week": "9",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 59586170,
+      "points": 2,
+      "pops": "0.666"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.516",
+      "num_matches": 11,
+      "ppm": "4.272",
+      "points": {
+        "won": 47,
+        "of": 91
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

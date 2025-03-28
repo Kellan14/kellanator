@@ -1,0 +1,143 @@
+{
+  "key": "accdb9efee52cbf23e675d81d871f18c26dad139",
+  "name": "Chloe LeGrow",
+  "history": [
+    {
+      "team": "BAD",
+      "opp": "KNR",
+      "match": "mnp-21-4-KNR-BAD",
+      "week": "4",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 15701470,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BAD",
+      "opp": "KNR",
+      "match": "mnp-21-4-KNR-BAD",
+      "week": "4",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 209990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "KNR",
+      "match": "mnp-21-4-KNR-BAD",
+      "week": "4",
+      "round": 4,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 51570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "PBR",
+      "match": "mnp-21-6-PBR-BAD",
+      "week": "6",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 455230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "PBR",
+      "match": "mnp-21-6-PBR-BAD",
+      "week": "6",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 130070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "PBR",
+      "match": "mnp-21-6-PBR-BAD",
+      "week": "6",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 817560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "CRA",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 76090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "CRA",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 5564110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "CRA",
+      "match": "mnp-21-7-CRA-BAD",
+      "week": "7",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1516620,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.448",
+      "num_matches": 3,
+      "ppm": "3.666",
+      "points": {
+        "won": 11,
+        "of": 24.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

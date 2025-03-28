@@ -1,0 +1,323 @@
+{
+  "key": "041f7ae9762916e85cc6370b78a58ab3b2246a22",
+  "name": "Cassandra Dymock",
+  "history": [
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 29179530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 3,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 638540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "RMS",
+      "match": "mnp-19-10-RMS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 7666340,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 7101220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 1313410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SSS",
+      "match": "mnp-19-11-NMC-SSS",
+      "week": "11",
+      "round": 4,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 27520,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-19-12-NMC-ADB",
+      "week": "12",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 155408940,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-19-12-NMC-ADB",
+      "week": "12",
+      "round": 2,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 36646800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "NMC",
+      "opp": "ADB",
+      "match": "mnp-19-12-NMC-ADB",
+      "week": "12",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 108000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PYC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 384174140,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "NMC",
+      "opp": "PYC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 11782680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "PYC",
+      "match": "mnp-19-3-NMC-PYC",
+      "week": "3",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1377988710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TBT",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1214980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TBT",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 36754260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "TBT",
+      "match": "mnp-19-4-TBT-NMC",
+      "week": "4",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 28238600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 89428500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 412130130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "HHS",
+      "match": "mnp-19-7-NMC-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3272860,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 2042800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 61091850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SKP",
+      "match": "mnp-19-8-SKP-NMC",
+      "week": "8",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 32669510,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "POW",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 1,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 704650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "POW",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 3,
+      "machine": "Star Gazer",
+      "division": 0,
+      "score": 245930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "POW",
+      "match": "mnp-19-9-NMC-POW",
+      "week": "9",
+      "round": 4,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 36800960,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.568",
+      "num_matches": 8,
+      "ppm": "4.687",
+      "points": {
+        "won": 37.5,
+        "of": 66
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

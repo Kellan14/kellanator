@@ -1,0 +1,431 @@
+{
+  "key": "ac07a0663edfe9b42dbd193524f865dffcbf2925",
+  "name": "Morgan Verburg",
+  "history": [
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 90593650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 54750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "CPO",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 102320,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 1,
+      "machine": "TOM",
+      "division": 0,
+      "score": 180850170,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 2,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 480321330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-15-10-PGN-RTR",
+      "week": "10",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 432030,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 65555340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 4104450,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "OLD",
+      "match": "mnp-15-11-RTR-OLD",
+      "week": "11",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 176700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 4030050,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 2,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 13195740,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "NLT",
+      "match": "mnp-15-2-RTR-NLT",
+      "week": "2",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3216450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 218479570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 856508600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "TTT",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 445859960,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 343100,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 100070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "BOC",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 520685800,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 1,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 185866410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 2,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 274725460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "LAS",
+      "match": "mnp-15-5-LAS-RTR",
+      "week": "5",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 539289140,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 10568840,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 157110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "SSS",
+      "match": "mnp-15-6-RTR-SSS",
+      "week": "6",
+      "round": 4,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 53310,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 618590120,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1353380280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "RMS",
+      "match": "mnp-15-7-RTR-RMS",
+      "week": "7",
+      "round": 4,
+      "machine": "DM",
+      "division": 0,
+      "score": 176555160,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-15-8-DSV-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 602922300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-15-8-DSV-RTR",
+      "week": "8",
+      "round": 3,
+      "machine": "TOM",
+      "division": 0,
+      "score": 170950110,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "DSV",
+      "match": "mnp-15-8-DSV-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 280713650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 2307590,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 36317300,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "DTP",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 9195620,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.471",
+      "num_matches": 11,
+      "ppm": "3.818",
+      "points": {
+        "won": 42,
+        "of": 89
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

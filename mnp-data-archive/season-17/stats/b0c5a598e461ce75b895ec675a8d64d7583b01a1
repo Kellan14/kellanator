@@ -1,0 +1,215 @@
+{
+  "key": "b0c5a598e461ce75b895ec675a8d64d7583b01a1",
+  "name": "Corbin Sheffels",
+  "history": [
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 84615800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 2000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "DTP",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 17000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-17-13-SCN-ADB",
+      "week": "13",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 35279070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-17-13-SCN-ADB",
+      "week": "13",
+      "round": 3,
+      "machine": "Foo Fighters",
+      "division": 0,
+      "score": 301629640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "ADB",
+      "match": "mnp-17-13-SCN-ADB",
+      "week": "13",
+      "round": 4,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 9678660,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 143320,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 2,
+      "machine": "Star Gazer",
+      "division": 0,
+      "score": 342500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "CFB",
+      "match": "mnp-17-5-SCN-CFB",
+      "week": "5",
+      "round": 4,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 170560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 41934930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 3900000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-17-7-NLT-SCN",
+      "week": "7",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 436520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 126813090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 14886700,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "CDC",
+      "match": "mnp-17-9-CDC-SCN",
+      "week": "9",
+      "round": 4,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 7152000,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.600",
+      "num_matches": 5,
+      "ppm": "4.800",
+      "points": {
+        "won": 24,
+        "of": 40
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

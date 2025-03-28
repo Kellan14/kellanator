@@ -1,0 +1,323 @@
+{
+  "key": "d35dde89a3e3be135378e6fad33b3cd3746c1861",
+  "name": "Matthew Levi Tate",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 702793310,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 174874080,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "CDC",
+      "match": "mnp-15-10-DIH-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 761264020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 75670,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 3252010,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "CRA",
+      "match": "mnp-15-11-CRA-DIH",
+      "week": "11",
+      "round": 4,
+      "machine": "SC",
+      "division": 0,
+      "score": 351790,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 5630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 14940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-15-2-TWC-DIH",
+      "week": "2",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 10319190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 20540,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 91930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "ADB",
+      "match": "mnp-15-4-ADB-DIH",
+      "week": "4",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 43700,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 33360,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 3,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 50650,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-15-5-PKT-DIH",
+      "week": "5",
+      "round": 4,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 31920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 19210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 18210,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PBR",
+      "match": "mnp-15-7-PBR-DIH",
+      "week": "7",
+      "round": 4,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 31250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 881437940,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 2,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 6374650,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "JMF",
+      "match": "mnp-15-8-DIH-JMF",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 686866800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 11850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 11220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "KNR",
+      "match": "mnp-15-9-KNR-DIH",
+      "week": "9",
+      "round": 4,
+      "machine": "MM",
+      "division": 0,
+      "score": 11496050,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.351",
+      "num_matches": 8,
+      "ppm": "2.875",
+      "points": {
+        "won": 23,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

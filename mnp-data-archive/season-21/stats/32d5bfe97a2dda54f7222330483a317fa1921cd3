@@ -1,0 +1,287 @@
+{
+  "key": "32d5bfe97a2dda54f7222330483a317fa1921cd3",
+  "name": "Chris Chinn",
+  "history": [
+    {
+      "team": "SWL",
+      "opp": "DIH",
+      "match": "mnp-21-1-DIH-SWL",
+      "week": "1",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 18561100,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "DIH",
+      "match": "mnp-21-1-DIH-SWL",
+      "week": "1",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 99000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "DIH",
+      "match": "mnp-21-1-DIH-SWL",
+      "week": "1",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 18000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBP",
+      "match": "mnp-21-2-SWL-FBP",
+      "week": "2",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 55231000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBP",
+      "match": "mnp-21-2-SWL-FBP",
+      "week": "2",
+      "round": 2,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 31000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "FBP",
+      "match": "mnp-21-2-SWL-FBP",
+      "week": "2",
+      "round": 3,
+      "machine": "FT",
+      "division": 0,
+      "score": 2148000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-21-3-DSV-SWL",
+      "week": "3",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 2482410,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-21-3-DSV-SWL",
+      "week": "3",
+      "round": 3,
+      "machine": "FOO",
+      "division": 0,
+      "score": 62017090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "DSV",
+      "match": "mnp-21-3-DSV-SWL",
+      "week": "3",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 95955740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-21-4-SWL-PKT",
+      "week": "4",
+      "round": 1,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 549816560,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-21-4-SWL-PKT",
+      "week": "4",
+      "round": 3,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 412583930,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PKT",
+      "match": "mnp-21-4-SWL-PKT",
+      "week": "4",
+      "round": 4,
+      "machine": "STTNG",
+      "division": 0,
+      "score": 4215624620,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "RTR",
+      "match": "mnp-21-5-RTR-SWL",
+      "week": "5",
+      "round": 2,
+      "machine": "PULP",
+      "division": 0,
+      "score": 58660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "RTR",
+      "match": "mnp-21-5-RTR-SWL",
+      "week": "5",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 199971310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "RTR",
+      "match": "mnp-21-5-RTR-SWL",
+      "week": "5",
+      "round": 4,
+      "machine": "FT",
+      "division": 0,
+      "score": 127541710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PGN",
+      "match": "mnp-21-6-SWL-PGN",
+      "week": "6",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 28983080,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "PGN",
+      "match": "mnp-21-6-SWL-PGN",
+      "week": "6",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 391745330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PGN",
+      "match": "mnp-21-6-SWL-PGN",
+      "week": "6",
+      "round": 4,
+      "machine": "POTC",
+      "division": 0,
+      "score": 54659820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-21-7-SWL-TWC",
+      "week": "7",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 396664350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-21-7-SWL-TWC",
+      "week": "7",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 137286510,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "TWC",
+      "match": "mnp-21-7-SWL-TWC",
+      "week": "7",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 281229730,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.512",
+      "num_matches": 7,
+      "ppm": "4.285",
+      "points": {
+        "won": 30,
+        "of": 58.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

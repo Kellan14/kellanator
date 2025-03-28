@@ -1,0 +1,119 @@
+{
+  "key": "1cdbeef43cd6c9f04116b68d4b7bd79221c094f0",
+  "name": "Ramsey Sierra",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "LCS",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 1,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 9228220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "LCS",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 2,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 980080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "LCS",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 3,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 613470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SHK",
+      "opp": "LCS",
+      "match": "mnp-14-3-SHK-LCS",
+      "week": "3",
+      "round": 4,
+      "machine": "FlashGordon",
+      "division": 0,
+      "score": 1104190,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-14-4-ADB-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "BlackHole",
+      "division": 0,
+      "score": 350860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-14-4-ADB-NLT",
+      "week": "4",
+      "round": 2,
+      "machine": "Genie",
+      "division": 0,
+      "score": 215000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NLT",
+      "opp": "ADB",
+      "match": "mnp-14-4-ADB-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "BlackHole",
+      "division": 0,
+      "score": 41340,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.710",
+      "num_matches": 2,
+      "ppm": "6.750",
+      "points": {
+        "won": 13.5,
+        "of": 19
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "key": "4291fe5aeceae8bf0027d62d9f4293d5c457994d",
+  "name": "Gus Voss",
+  "history": [
+    {
+      "team": "DIH",
+      "opp": "DSV",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 30512350,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "DSV",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 390620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "DSV",
+      "match": "mnp-16-1-DSV-DIH",
+      "week": "1",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 40540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-16-10-DIH-LAS",
+      "week": "10",
+      "round": 2,
+      "machine": "Stars",
+      "division": 0,
+      "score": 17310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-16-10-DIH-LAS",
+      "week": "10",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 158980,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-16-10-DIH-LAS",
+      "week": "10",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 8200510,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "DTP",
+      "match": "mnp-16-2-DIH-DTP",
+      "week": "2",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 20048040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "DTP",
+      "match": "mnp-16-2-DIH-DTP",
+      "week": "2",
+      "round": 2,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 733470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "DTP",
+      "match": "mnp-16-2-DIH-DTP",
+      "week": "2",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 197850,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "BOC",
+      "match": "mnp-16-3-BOC-DIH",
+      "week": "3",
+      "round": 1,
+      "machine": "TargetAlpha",
+      "division": 0,
+      "score": 38990,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "BOC",
+      "match": "mnp-16-3-BOC-DIH",
+      "week": "3",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 5288890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "BOC",
+      "match": "mnp-16-3-BOC-DIH",
+      "week": "3",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 34360,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "Munsters",
+      "division": 0,
+      "score": 445100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 4316670,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SSS",
+      "match": "mnp-16-4-SSS-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "LW",
+      "division": 0,
+      "score": 92590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-16-5-DIH-SHK",
+      "week": "5",
+      "round": 2,
+      "machine": "GameShow",
+      "division": 0,
+      "score": 1383270,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-16-5-DIH-SHK",
+      "week": "5",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 20965560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "SHK",
+      "match": "mnp-16-5-DIH-SHK",
+      "week": "5",
+      "round": 4,
+      "machine": "SoF",
+      "division": 0,
+      "score": 1282110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RTR",
+      "match": "mnp-16-6-RTR-DIH",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 4619910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "RTR",
+      "match": "mnp-16-6-RTR-DIH",
+      "week": "6",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 314930,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "RTR",
+      "match": "mnp-16-6-RTR-DIH",
+      "week": "6",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 60710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "TTT",
+      "match": "mnp-16-7-DIH-TTT",
+      "week": "7",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 5756810,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "TTT",
+      "match": "mnp-16-7-DIH-TTT",
+      "week": "7",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 6931380,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "TTT",
+      "match": "mnp-16-7-DIH-TTT",
+      "week": "7",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 87851310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-16-8-DIH-CPO",
+      "week": "8",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 6981200,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-16-8-DIH-CPO",
+      "week": "8",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 71870,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "CPO",
+      "match": "mnp-16-8-DIH-CPO",
+      "week": "8",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 111625040,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-16-9-PGN-DIH",
+      "week": "9",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 1346510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-16-9-PGN-DIH",
+      "week": "9",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 36823750,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "PGN",
+      "match": "mnp-16-9-PGN-DIH",
+      "week": "9",
+      "round": 4,
+      "machine": "LW",
+      "division": 0,
+      "score": 36360,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.331",
+      "num_matches": 10,
+      "ppm": "2.700",
+      "points": {
+        "won": 27,
+        "of": 81.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

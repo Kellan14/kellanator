@@ -1,0 +1,359 @@
+{
+  "key": "72cf88bd05692a3d53cf4381ca846c7a383933ce",
+  "name": "Alan Wiley",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 3766620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 777473340,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-16-1-LAS-TWC",
+      "week": "1",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 23927680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 1,
+      "machine": "Genie",
+      "division": 0,
+      "score": 164110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 2,
+      "machine": "TWD",
+      "division": 0,
+      "score": 6778760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "NLT",
+      "match": "mnp-16-10-TWC-NLT",
+      "week": "10",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 89957850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-16-12-TWC-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 227180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-16-12-TWC-PBR",
+      "week": "12",
+      "round": 2,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 71780,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-16-12-TWC-PBR",
+      "week": "12",
+      "round": 3,
+      "machine": "Party Animals",
+      "division": 0,
+      "score": 469030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 3088230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 8106530,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "KNR",
+      "match": "mnp-16-2-TWC-KNR",
+      "week": "2",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 15940760,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 10180740,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 4612260,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "SHK",
+      "match": "mnp-16-3-SHK-TWC",
+      "week": "3",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 3934110,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "OLD",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Congo",
+      "division": 0,
+      "score": 439886960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "OLD",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 102375750,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "OLD",
+      "match": "mnp-16-6-OLD-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "Congo",
+      "division": 0,
+      "score": 471380250,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 63112680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 266459680,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PGN",
+      "match": "mnp-16-7-TWC-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1124010260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "RMS",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "T2",
+      "division": 0,
+      "score": 24295870,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "RMS",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1358001220,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "RMS",
+      "match": "mnp-16-8-TWC-RMS",
+      "week": "8",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 950996600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 718440,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 61384850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "DSV",
+      "match": "mnp-16-9-DSV-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 79412710,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.591",
+      "num_matches": 9,
+      "ppm": "4.833",
+      "points": {
+        "won": 43.5,
+        "of": 73.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

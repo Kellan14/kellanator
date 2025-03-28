@@ -1,0 +1,323 @@
+{
+  "key": "e5a52346bff82cf04b590cd4bf4d56d7bf50be12",
+  "name": "Brian Chesbrough",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 80000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 41000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "SKP",
+      "match": "mnp-18-1-SKP-SSS",
+      "week": "1",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 4691310,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 15096310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 3349970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 1259720,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-18-2-SSS-RMS",
+      "week": "2",
+      "round": 1,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 480000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-18-2-SSS-RMS",
+      "week": "2",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 760700380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "RMS",
+      "match": "mnp-18-2-SSS-RMS",
+      "week": "2",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 69889120,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 25306390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 732720,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "TWC",
+      "match": "mnp-18-3-TWC-SSS",
+      "week": "3",
+      "round": 4,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 1459760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 156658600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 61380130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBS",
+      "match": "mnp-18-4-SSS-FBS",
+      "week": "4",
+      "round": 4,
+      "machine": "WhoDunnit",
+      "division": 0,
+      "score": 628608560,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-18-7-SSS-SWL",
+      "week": "7",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 45586080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-18-7-SSS-SWL",
+      "week": "7",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 266000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SWL",
+      "match": "mnp-18-7-SSS-SWL",
+      "week": "7",
+      "round": 4,
+      "machine": "Whitewater",
+      "division": 0,
+      "score": 33096660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 407990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "Centaur",
+      "division": 0,
+      "score": 307110,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "LAS",
+      "match": "mnp-18-8-LAS-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 61000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 1,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 175520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 2,
+      "machine": "Robocop",
+      "division": 0,
+      "score": 1500000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-18-9-SSS-NMC",
+      "week": "9",
+      "round": 4,
+      "machine": "FOO",
+      "division": 0,
+      "score": 26986000,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.531",
+      "num_matches": 8,
+      "ppm": "4.250",
+      "points": {
+        "won": 34,
+        "of": 64
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

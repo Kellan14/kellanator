@@ -1,0 +1,179 @@
+{
+  "key": "c0ae5e53fd1425f2909bf793a3b8450d5f985511",
+  "name": "Travis Maisch",
+  "history": [
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 12433660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 2,
+      "machine": "SoF",
+      "division": 0,
+      "score": 3646610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PKT",
+      "match": "mnp-15-10-TWC-PKT",
+      "week": "10",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 5836760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-15-13-TWC-LAS",
+      "week": "13",
+      "round": 1,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 1029639210,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-15-13-TWC-LAS",
+      "week": "13",
+      "round": 2,
+      "machine": "Avengers",
+      "division": 0,
+      "score": 14650150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LAS",
+      "match": "mnp-15-13-TWC-LAS",
+      "week": "13",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 30496160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 15530320,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 838000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "PBR",
+      "match": "mnp-15-4-TWC-PBR",
+      "week": "4",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 508030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-15-5-JMF-TWC",
+      "week": "5",
+      "round": 1,
+      "machine": "DH",
+      "division": 0,
+      "score": 354172710,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-15-5-JMF-TWC",
+      "week": "5",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 448470270,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "JMF",
+      "match": "mnp-15-5-JMF-TWC",
+      "week": "5",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1612946040,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.500",
+      "num_matches": 4,
+      "ppm": "4.000",
+      "points": {
+        "won": 16,
+        "of": 32
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

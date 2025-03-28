@@ -1,0 +1,179 @@
+{
+  "key": "5ce084f1e27c4d8e7a41c70d9dd2c1d84e979881",
+  "name": "Ryan Winslow",
+  "history": [
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 1,
+      "machine": "Godzilla (Stern)",
+      "division": 0,
+      "score": 54268340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 67774990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "PGN",
+      "match": "mnp-17-2-SHK-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 9678780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 31885100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 2,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 111675290,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "NMC",
+      "match": "mnp-17-5-NMC-SHK",
+      "week": "5",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 118810020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "TTT",
+      "match": "mnp-17-7-TTT-SHK",
+      "week": "7",
+      "round": 1,
+      "machine": "DM",
+      "division": 0,
+      "score": 1820000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "TTT",
+      "match": "mnp-17-7-TTT-SHK",
+      "week": "7",
+      "round": 2,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 175300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "TTT",
+      "match": "mnp-17-7-TTT-SHK",
+      "week": "7",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 39248160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SSS",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 103404840,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SHK",
+      "opp": "SSS",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 417472710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "SSS",
+      "match": "mnp-17-9-SHK-SSS",
+      "week": "9",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 166940430,
+      "points": 3,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.701",
+      "num_matches": 4,
+      "ppm": "5.875",
+      "points": {
+        "won": 23.5,
+        "of": 33.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

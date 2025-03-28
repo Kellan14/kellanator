@@ -1,0 +1,215 @@
+{
+  "key": "af31082402379be8450c8ce6ed026eb5c064b19a",
+  "name": "Mike Poetzel",
+  "history": [
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 1,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 197430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 3,
+      "machine": "TNA",
+      "division": 0,
+      "score": 117080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PGN",
+      "match": "mnp-14-1-PGN-KNR",
+      "week": "1",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 50495440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 7426600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 21817990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LLK",
+      "match": "mnp-14-10-LLK-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 38487450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 61755600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 110770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "LCS",
+      "match": "mnp-14-11-LCS-KNR",
+      "week": "11",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 2011340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 14308830,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 7747720,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "LCS",
+      "match": "mnp-14-4-LCS-TWC",
+      "week": "4",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 42659700,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 1,
+      "machine": "Tron",
+      "division": 0,
+      "score": 26679780,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 45433000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "TWC",
+      "match": "mnp-14-6-KNR-TWC",
+      "week": "6",
+      "round": 4,
+      "machine": "Firepower",
+      "division": 0,
+      "score": 32850,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.621",
+      "num_matches": 5,
+      "ppm": "5.100",
+      "points": {
+        "won": 25.5,
+        "of": 41
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

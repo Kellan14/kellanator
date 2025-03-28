@@ -1,0 +1,251 @@
+{
+  "key": "8f7381a3fe3655d3c43d400ae99c738ba3a78090",
+  "name": "Jason Trojan",
+  "history": [
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 1,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 68543020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 263682990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-18-1-TWC-CFB",
+      "week": "1",
+      "round": 3,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 65880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 42352830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 83877350,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "TTT",
+      "match": "mnp-18-10-TTT-SSS",
+      "week": "10",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 43160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "NLT",
+      "match": "mnp-18-11-CFB-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 23254780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "NLT",
+      "match": "mnp-18-11-CFB-NLT",
+      "week": "11",
+      "round": 2,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 57372160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "NLT",
+      "match": "mnp-18-11-CFB-NLT",
+      "week": "11",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 3268450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-18-3-CPO-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 114380,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-18-3-CPO-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 541799220,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-18-3-CPO-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 65743590,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 13375760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 3201959970,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "DTP",
+      "match": "mnp-18-4-CFB-DTP",
+      "week": "4",
+      "round": 4,
+      "machine": "FT",
+      "division": 0,
+      "score": 8109880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-18-7-PGN-LAS",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 448064950,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-18-7-PGN-LAS",
+      "week": "7",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 429820120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "PGN",
+      "match": "mnp-18-7-PGN-LAS",
+      "week": "7",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 9533090,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.360",
+      "num_matches": 6,
+      "ppm": "2.916",
+      "points": {
+        "won": 17.5,
+        "of": 48.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

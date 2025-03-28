@@ -1,0 +1,287 @@
+{
+  "key": "41bb72d5c679ecaad9315dbc26296d6b5fceb583",
+  "name": "Kadyn Marshall",
+  "history": [
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 157820,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 68161610,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "PBR",
+      "match": "mnp-17-10-TBT-PBR",
+      "week": "10",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 142507450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 9613230,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 119000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "SCN",
+      "match": "mnp-17-11-SCN-DTP",
+      "week": "11",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 268000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 4847930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 9624590,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "HHS",
+      "match": "mnp-17-2-CFB-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 104060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "Frontier",
+      "division": 0,
+      "score": 120580,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1126459680,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CFB",
+      "opp": "TWC",
+      "match": "mnp-17-3-TWC-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 58826090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 2852870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1235100,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "NLT",
+      "match": "mnp-17-5-LAS-NLT",
+      "week": "5",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 6775660,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "SKP",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 44798000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CFB",
+      "opp": "SKP",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 498000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "SKP",
+      "match": "mnp-17-6-CFB-SKP",
+      "week": "6",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 299501510,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 54650,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 59507190,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "PBR",
+      "match": "mnp-17-7-CFB-PBR",
+      "week": "7",
+      "round": 4,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 875830,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.539",
+      "num_matches": 7,
+      "ppm": "4.357",
+      "points": {
+        "won": 30.5,
+        "of": 56.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

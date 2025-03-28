@@ -1,0 +1,311 @@
+{
+  "key": "45b86f2eb9f21a4155bc3199715df8bc485f3d6d",
+  "name": "Stephen Brundle",
+  "history": [
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-15-1-TTT-LAS",
+      "week": "1",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 10707610,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-15-1-TTT-LAS",
+      "week": "1",
+      "round": 3,
+      "machine": "MB",
+      "division": 0,
+      "score": 50521330,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "LAS",
+      "match": "mnp-15-1-TTT-LAS",
+      "week": "1",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 60399240,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "RMS",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 1,
+      "machine": "T3",
+      "division": 0,
+      "score": 44813780,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RMS",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 2,
+      "machine": "SS",
+      "division": 0,
+      "score": 1564760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "RMS",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 86483810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RMS",
+      "match": "mnp-15-10-RMS-TTT",
+      "week": "10",
+      "round": 4,
+      "machine": "T3",
+      "division": 0,
+      "score": 60037240,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "BOC",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 73214060,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TTT",
+      "opp": "BOC",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 2,
+      "machine": "T3",
+      "division": 0,
+      "score": 18819460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "BOC",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 4,
+      "machine": "T3",
+      "division": 0,
+      "score": 17221120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 114757480,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 32968080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "RTR",
+      "match": "mnp-15-3-TTT-RTR",
+      "week": "3",
+      "round": 4,
+      "machine": "NoFear",
+      "division": 0,
+      "score": 304555030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "DSV",
+      "match": "mnp-15-4-DSV-TTT",
+      "week": "4",
+      "round": 2,
+      "machine": "T3",
+      "division": 0,
+      "score": 15897020,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "DSV",
+      "match": "mnp-15-4-DSV-TTT",
+      "week": "4",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 35623320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "DSV",
+      "match": "mnp-15-4-DSV-TTT",
+      "week": "4",
+      "round": 4,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 83878150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 52066690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 61015080,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CPO",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 4,
+      "machine": "DP",
+      "division": 0,
+      "score": 71825480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-15-9-TTT-NLT",
+      "week": "9",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 11310300,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-15-9-TTT-NLT",
+      "week": "9",
+      "round": 2,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 6147690,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-15-9-TTT-NLT",
+      "week": "9",
+      "round": 3,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 5488970,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "NLT",
+      "match": "mnp-15-9-TTT-NLT",
+      "week": "9",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 141373420,
+      "points": 1,
+      "pops": "0.400"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.480",
+      "num_matches": 7,
+      "ppm": "4.285",
+      "points": {
+        "won": 30,
+        "of": 62.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "key": "454f3435a6b832d1ff97f03d18fe78dc19b9153a",
+  "name": "Bre Lloyd",
+  "history": [
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 1,
+      "machine": "DM",
+      "division": 0,
+      "score": 128917020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 763803330,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "RMS",
+      "match": "mnp-15-1-BOC-RMS",
+      "week": "1",
+      "round": 4,
+      "machine": "JM",
+      "division": 0,
+      "score": 526483130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2036664890,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 513300,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "NLT",
+      "match": "mnp-15-10-NLT-BOC",
+      "week": "10",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 4174960,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 44948660,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 2,
+      "machine": "T3",
+      "division": 0,
+      "score": 32584870,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "TTT",
+      "match": "mnp-15-11-BOC-TTT",
+      "week": "11",
+      "round": 4,
+      "machine": "DH",
+      "division": 0,
+      "score": 319579850,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-15-3-BOC-SSS",
+      "week": "3",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 49044910,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-15-3-BOC-SSS",
+      "week": "3",
+      "round": 3,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 1431080,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "BOC",
+      "opp": "SSS",
+      "match": "mnp-15-3-BOC-SSS",
+      "week": "3",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 32776430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 277237830,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 2666150,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "RTR",
+      "match": "mnp-15-4-RTR-BOC",
+      "week": "4",
+      "round": 3,
+      "machine": "FH",
+      "division": 0,
+      "score": 1107220,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 9320290,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 10236810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "DTP",
+      "match": "mnp-15-6-DTP-BOC",
+      "week": "6",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 49469440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 1,
+      "machine": "SternTrek",
+      "division": 0,
+      "score": 29640540,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 2,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 269284470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "PGN",
+      "match": "mnp-15-7-BOC-PGN",
+      "week": "7",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 185582280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 2000850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 3,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 4517820,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BOC",
+      "opp": "OLD",
+      "match": "mnp-15-8-OLD-BOC",
+      "week": "8",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 6960400,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.515",
+      "num_matches": 8,
+      "ppm": "4.187",
+      "points": {
+        "won": 33.5,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

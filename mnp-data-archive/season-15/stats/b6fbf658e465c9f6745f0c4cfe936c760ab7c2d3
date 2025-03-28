@@ -1,0 +1,431 @@
+{
+  "key": "b6fbf658e465c9f6745f0c4cfe936c760ab7c2d3",
+  "name": "Erik Rikansrud",
+  "history": [
+    {
+      "team": "CPO",
+      "opp": "RTR",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 1,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 123192870,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "RTR",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 760132990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "RTR",
+      "match": "mnp-15-1-CPO-RTR",
+      "week": "1",
+      "round": 4,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 115482190,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-15-11-SSS-CPO",
+      "week": "11",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 5527090,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-15-11-SSS-CPO",
+      "week": "11",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1221341340,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSS",
+      "match": "mnp-15-11-SSS-CPO",
+      "week": "11",
+      "round": 3,
+      "machine": "Hot Wheels",
+      "division": 0,
+      "score": 220307300,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 23574110,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 2,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 101468210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-15-12-CPO-TWC",
+      "week": "12",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 23487070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-15-13-KNR-CPO",
+      "week": "13",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 12577930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-15-13-KNR-CPO",
+      "week": "13",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 13152760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "KNR",
+      "match": "mnp-15-13-KNR-CPO",
+      "week": "13",
+      "round": 4,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 229303170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-15-2-DSV-CPO",
+      "week": "2",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 59126810,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-15-2-DSV-CPO",
+      "week": "2",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 11431000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DSV",
+      "match": "mnp-15-2-DSV-CPO",
+      "week": "2",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 8085720,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 39237890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 3,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 230710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "DTP",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 123191100,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 1587590,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 510312920,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
+      "opp": "PGN",
+      "match": "mnp-15-4-PGN-CPO",
+      "week": "4",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 84960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 1,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 518583980,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 16736230,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "OLD",
+      "match": "mnp-15-5-CPO-OLD",
+      "week": "5",
+      "round": 4,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 680123580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-15-7-NLT-CPO",
+      "week": "7",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1442054180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-15-7-NLT-CPO",
+      "week": "7",
+      "round": 2,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 8985750,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "NLT",
+      "match": "mnp-15-7-NLT-CPO",
+      "week": "7",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 9916110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 1,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 143568760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 2,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 129843430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TTT",
+      "match": "mnp-15-8-CPO-TTT",
+      "week": "8",
+      "round": 3,
+      "machine": "AustinPowers",
+      "division": 0,
+      "score": 168774930,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1709599500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "MM",
+      "division": 0,
+      "score": 26322920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "BOC",
+      "match": "mnp-15-9-BOC-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 350834000,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.613",
+      "num_matches": 11,
+      "ppm": "5.045",
+      "points": {
+        "won": 55.5,
+        "of": 90.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "key": "0c5e03243acf861e032ca3d0a1ed5c1e82f2a6f5",
+  "name": "Daniel Mays",
+  "history": [
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 1,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 242860440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 498189260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "CRA",
+      "match": "mnp-21-1-HHS-CRA",
+      "week": "1",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 64235840,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ICB",
+      "match": "mnp-21-2-ICB-HHS",
+      "week": "2",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 91912900,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ICB",
+      "match": "mnp-21-2-ICB-HHS",
+      "week": "2",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 65862660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "ICB",
+      "match": "mnp-21-2-ICB-HHS",
+      "week": "2",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 373616520,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-21-3-HHS-PBR",
+      "week": "3",
+      "round": 2,
+      "machine": "MB",
+      "division": 0,
+      "score": 7543610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-21-3-HHS-PBR",
+      "week": "3",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 5046000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "PBR",
+      "match": "mnp-21-3-HHS-PBR",
+      "week": "3",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 21251540,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-21-4-RMS-HHS",
+      "week": "4",
+      "round": 2,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 12342870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-21-4-RMS-HHS",
+      "week": "4",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 173397390,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "RMS",
+      "match": "mnp-21-4-RMS-HHS",
+      "week": "4",
+      "round": 4,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 93305820,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-21-5-HHS-JMF",
+      "week": "5",
+      "round": 1,
+      "machine": "BSD",
+      "division": 0,
+      "score": 30624480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-21-5-HHS-JMF",
+      "week": "5",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 23118920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "JMF",
+      "match": "mnp-21-5-HHS-JMF",
+      "week": "5",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 536210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-21-6-HHS-SKP",
+      "week": "6",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 76204470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-21-6-HHS-SKP",
+      "week": "6",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 149716880,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "SKP",
+      "match": "mnp-21-6-HHS-SKP",
+      "week": "6",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 30331680,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DOG",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 45934750,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DOG",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 71295030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DOG",
+      "match": "mnp-21-7-DOG-HHS",
+      "week": "7",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 6025060,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.543",
+      "num_matches": 7,
+      "ppm": "4.428",
+      "points": {
+        "won": 31,
+        "of": 57
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

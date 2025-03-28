@@ -1,0 +1,323 @@
+{
+  "key": "caa41abb4776b6df1a22838de88b288d86591b3f",
+  "name": "Steph hanlon",
+  "history": [
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 101337280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 2,
+      "machine": "Tron",
+      "division": 0,
+      "score": 2318090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ETB",
+      "opp": "BOC",
+      "match": "mnp-18-1-ETB-BOC",
+      "week": "1",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 36539450,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 214211770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 37773470,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CRA",
+      "match": "mnp-18-10-CFB-CRA",
+      "week": "10",
+      "round": 4,
+      "machine": "The Amazing Spider-Man",
+      "division": 0,
+      "score": 82150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-18-12-SKP-CFB",
+      "week": "12",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 959089410,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-18-12-SKP-CFB",
+      "week": "12",
+      "round": 2,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 208120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SKP",
+      "opp": "CFB",
+      "match": "mnp-18-12-SKP-CFB",
+      "week": "12",
+      "round": 4,
+      "machine": "Stars",
+      "division": 0,
+      "score": 79260,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBS",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 21843220,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBS",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 3,
+      "machine": "GameShow",
+      "division": 0,
+      "score": 1292050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "FBS",
+      "match": "mnp-18-2-CFB-FBS",
+      "week": "2",
+      "round": 4,
+      "machine": "Dr Dude",
+      "division": 0,
+      "score": 1750000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-18-3-CPO-CFB",
+      "week": "3",
+      "round": 1,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 225310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-18-3-CPO-CFB",
+      "week": "3",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 479987580,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CFB",
+      "opp": "CPO",
+      "match": "mnp-18-3-CPO-CFB",
+      "week": "3",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 72411500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 43938030,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 2,
+      "machine": "LW",
+      "division": 0,
+      "score": 211630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "DIH",
+      "match": "mnp-18-4-SSD-DIH",
+      "week": "4",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 15117370,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NMC",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 1,
+      "machine": "StellarWars",
+      "division": 0,
+      "score": 93890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "NMC",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 84002410,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "NMC",
+      "match": "mnp-18-5-LAS-NMC",
+      "week": "5",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 89113170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "POW",
+      "match": "mnp-18-9-POW-TBT",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 21045690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "POW",
+      "match": "mnp-18-9-POW-TBT",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 88000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "POW",
+      "match": "mnp-18-9-POW-TBT",
+      "week": "9",
+      "round": 4,
+      "machine": "Alien Star",
+      "division": 0,
+      "score": 209050,
+      "points": 0,
+      "pops": "0.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.358",
+      "num_matches": 8,
+      "ppm": "2.937",
+      "points": {
+        "won": 23.5,
+        "of": 65.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

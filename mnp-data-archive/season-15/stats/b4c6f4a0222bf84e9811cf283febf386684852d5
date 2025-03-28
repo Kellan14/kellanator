@@ -1,0 +1,407 @@
+{
+  "key": "b4c6f4a0222bf84e9811cf283febf386684852d5",
+  "name": "Alex Skinner",
+  "history": [
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 1,
+      "machine": "Star Trek (Bally)",
+      "division": 0,
+      "score": 332830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 564194280,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "PGN",
+      "match": "mnp-15-1-PGN-DTP",
+      "week": "1",
+      "round": 4,
+      "machine": "POTC",
+      "division": 0,
+      "score": 63120730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 169470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 2,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 375470,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-15-10-DTP-DSV",
+      "week": "10",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 156250,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 451054680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 273234180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-15-11-DTP-RMS",
+      "week": "11",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 225065280,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 486000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 118000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "SKP",
+      "match": "mnp-15-12-SKP-DTP",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 137823600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 1,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 128304160,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 758196030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DTP",
+      "opp": "OLD",
+      "match": "mnp-15-2-DTP-OLD",
+      "week": "2",
+      "round": 4,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 211220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 19340360,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 77200500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CPO",
+      "match": "mnp-15-3-CPO-DTP",
+      "week": "3",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 147255760,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 2500503070,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 2,
+      "machine": "RollerGames",
+      "division": 0,
+      "score": 15433510,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 2535005710,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "NLT",
+      "match": "mnp-15-4-DTP-NLT",
+      "week": "4",
+      "round": 4,
+      "machine": "BOP2",
+      "division": 0,
+      "score": 7255950,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 1,
+      "machine": "Star Trek (Bally)",
+      "division": 0,
+      "score": 289290,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 166828210,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "LAS",
+      "match": "mnp-15-7-LAS-DTP",
+      "week": "7",
+      "round": 4,
+      "machine": "GOT",
+      "division": 0,
+      "score": 23325340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 173836440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 200000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "SSS",
+      "match": "mnp-15-8-DTP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 146521500,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 608814570,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 89133850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RTR",
+      "match": "mnp-15-9-RTR-DTP",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 269482200,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.796",
+      "num_matches": 10,
+      "ppm": "6.650",
+      "points": {
+        "won": 66.5,
+        "of": 83.5
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

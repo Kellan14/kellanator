@@ -1,0 +1,179 @@
+{
+  "key": "58eddf89c9ae9478175d0d2ff165790ac262fc80",
+  "name": "Mikkel Nielsen WA",
+  "history": [
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 905560,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 3,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 351350,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "JMF",
+      "match": "mnp-19-1-JMF-DSV",
+      "week": "1",
+      "round": 4,
+      "machine": "Nitro",
+      "division": 0,
+      "score": 188000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 261060,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "Congo",
+      "division": 0,
+      "score": 692168030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "SSS",
+      "match": "mnp-19-2-DSV-SSS",
+      "week": "2",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 682320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 1,
+      "machine": "JD",
+      "division": 0,
+      "score": 145000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 2,
+      "machine": "DH",
+      "division": 0,
+      "score": 206993270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "CFB",
+      "match": "mnp-19-4-DSV-CFB",
+      "week": "4",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 161760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 1,
+      "machine": "Theater of magic",
+      "division": 0,
+      "score": 517641220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 2,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 95810,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "RTR",
+      "match": "mnp-19-8-DSV-RTR",
+      "week": "8",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 437590,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.469",
+      "num_matches": 4,
+      "ppm": "3.875",
+      "points": {
+        "won": 15.5,
+        "of": 33
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

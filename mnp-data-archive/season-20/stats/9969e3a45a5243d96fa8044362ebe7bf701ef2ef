@@ -1,0 +1,143 @@
+{
+  "key": "9969e3a45a5243d96fa8044362ebe7bf701ef2ef",
+  "name": "Sergey Posrednikov",
+  "history": [
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 13611490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 54248480,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSS",
+      "opp": "NMC",
+      "match": "mnp-20-10-SSS-NMC",
+      "week": "10",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 8597150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 1,
+      "machine": "007",
+      "division": 0,
+      "score": 57164620,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 2,
+      "machine": "BM66",
+      "division": 0,
+      "score": 18487550,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "PBR",
+      "match": "mnp-20-12-SSS-PBR",
+      "week": "12",
+      "round": 4,
+      "machine": "BM66",
+      "division": 0,
+      "score": 371602340,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 77629470,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 602862360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "CDC",
+      "match": "mnp-20-2-CDC-SSS",
+      "week": "2",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 197636090,
+      "points": 2.5,
+      "pops": "1.000"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.708",
+      "num_matches": 3,
+      "ppm": "5.666",
+      "points": {
+        "won": 17,
+        "of": 24
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}

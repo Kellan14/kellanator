@@ -1,0 +1,323 @@
+{
+  "key": "509431576be37b6d5b52f83d9fa7774a0579afe4",
+  "name": "Jeff Dicker",
+  "history": [
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 901150,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 3,
+      "machine": "SpaceShuttle",
+      "division": 0,
+      "score": 399490,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "NLT",
+      "match": "mnp-14-1-NLT-JMF",
+      "week": "1",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 720140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 66164690,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 308450,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "PBR",
+      "match": "mnp-14-11-PBR-JMF",
+      "week": "11",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 191150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 2,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 7321430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 3,
+      "machine": "RickAndMorty",
+      "division": 0,
+      "score": 1571901,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "JMF",
+      "opp": "PGN",
+      "match": "mnp-14-2-JMF-PGN",
+      "week": "2",
+      "round": 4,
+      "machine": "Simpsons",
+      "division": 0,
+      "score": 741830,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "LLK",
+      "match": "mnp-14-3-LLK-JMF",
+      "week": "3",
+      "round": 1,
+      "machine": "Getaway",
+      "division": 0,
+      "score": 65321020,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LLK",
+      "match": "mnp-14-3-LLK-JMF",
+      "week": "3",
+      "round": 2,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 186400,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "LLK",
+      "match": "mnp-14-3-LLK-JMF",
+      "week": "3",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 126360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 19177800,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 3,
+      "machine": "HollywoodHeat",
+      "division": 0,
+      "score": 391090,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-14-4-JMF-SHK",
+      "week": "4",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 34576440,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-14-6-JMF-DTP",
+      "week": "6",
+      "round": 1,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 244920,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-14-6-JMF-DTP",
+      "week": "6",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 35403550,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "DTP",
+      "match": "mnp-14-6-JMF-DTP",
+      "week": "6",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 51123710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "JMF",
+      "opp": "OLD",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 1,
+      "machine": "Skateball",
+      "division": 0,
+      "score": 237870,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "OLD",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 16848160,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "OLD",
+      "match": "mnp-14-7-JMF-OLD",
+      "week": "7",
+      "round": 4,
+      "machine": "Baywatch",
+      "division": 0,
+      "score": 189939250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DSV",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 22926730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "DSV",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "EBD",
+      "division": 0,
+      "score": 699590,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "DSV",
+      "match": "mnp-14-9-JMF-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "EBD",
+      "division": 0,
+      "score": 1016620,
+      "points": 1.5,
+      "pops": "0.600"
+    }
+  ],
+  "divisions": {
+    "all": {
+      "pops": "0.592",
+      "num_matches": 8,
+      "ppm": "4.812",
+      "points": {
+        "won": 38.5,
+        "of": 65
+      }
+    },
+    "div-1": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    },
+    "div-2": {
+      "pops": "0.000",
+      "num_matches": 0,
+      "ppm": "0.000",
+      "points": {
+        "won": 0,
+        "of": 0
+      }
+    }
+  }
+}
