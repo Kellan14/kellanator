@@ -1073,6 +1073,7 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     elif column == "Times Played":
         # Filter data for the selected team
         filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
             filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
@@ -1084,6 +1085,7 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     elif column == "TWC Times Played":
         # Filter data for TWC
         filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
             filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
@@ -1095,6 +1097,7 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     elif column == "Times Picked":
         # Filter data for the selected team
         filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
             filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
@@ -1118,6 +1121,7 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     elif column == "TWC Times Picked":
         # Filter data for TWC
         filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+        filtered = filtered[filtered["is_roster_player"] == True]
         filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
         if venue_specific:
             filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
