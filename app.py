@@ -1168,6 +1168,8 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         )
         
         return result_df, debug_outputs, team_player_stats, twc_player_stats
+
+    main = main
     
     except Exception as e:
         print(f"Error in main function: {e}")
