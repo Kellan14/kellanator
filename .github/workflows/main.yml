@@ -14,40 +14,30 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          submodules: false  # Explicitly disable submodule checkout
-      
-      # Add a command to explicitly disable submodule initialization
-      - name: Disable submodule commands
-        run: git config --global submodule.recurse false
       
       - name: Clone Invader-Zim repo
-        run: git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-data
+        run: |
+          git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-data
+          # Immediately remove the .git directory
+          rm -rf temp-data/.git
       
       - name: Update mnp-data-archive folder
         run: |
-          # Remove the existing folder
+          # Remove existing folder
           rm -rf mnp-data-archive
           
-          # Create a new folder
+          # Create new folder and copy files (excluding .git)
           mkdir -p mnp-data-archive
-          
-          # Copy all files from temp directory
           cp -r temp-data/* mnp-data-archive/
       
       - name: Commit and push changes
-        env:
-          GIT_CONFIG_PARAMETERS: "'submodule.recurse=false'"  # Additional safeguard
         run: |
-          # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Add the changes
+          # Add all changes
           git add mnp-data-archive
           
-          # Commit (with submodules disabled)
-          git -c submodule.recurse=false commit -m "Update mnp-data-archive with latest data" || echo "No changes to commit"
-          
-          # Push (with submodules disabled)
-          git -c submodule.recurse=false push origin HEAD
+          # Commit and push
+          git commit -m "Update mnp-data-archive with latest data from Invader-Zim" || echo "No changes to commit"
+          git push
