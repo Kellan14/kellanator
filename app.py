@@ -16,6 +16,8 @@ from bs4 import BeautifulSoup
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode, ColumnsAutoSizeMode
 from typing import Callable, Any, List, Dict, Tuple
 main: Callable[[List[Dict], str, str, Dict, Dict], Tuple[pd.DataFrame, Dict, pd.DataFrame, pd.DataFrame]] = None
+selected_team: str = st.session_state.get("select_team_json", "")
+selected_venue: str = st.session_state.get("select_venue_json", "")
 
 # Import database helper functions (ensure you have db_helper.py in your repo)
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
