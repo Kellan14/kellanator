@@ -362,19 +362,28 @@ def load_machine_mapping(file_path=None):
                 'bksor': 'black knight sor'
             }
 
-def save_machine_mapping(file_path, mapping):
-    """Save the machine mapping to GitHub or a local JSON file."""
-    if USE_GITHUB:
-        return save_machine_mapping_github(mapping)
-    else:
-        try:
-            if file_path:
-                with open(file_path, 'w', encoding='utf-8') as f:
-                    json.dump(mapping, f, indent=2)
-            return True
-        except Exception as e:
-            st.error(f"Error saving machine mapping: {e}")
-            return False
+def save_machine_mapping(mapping, file_path="kellanator/machine_mapping.json"):
+    try:
+        # Ensure directory exists
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(mapping, f, indent=2)
+        return True
+    except Exception as e:
+        st.error(f"Error saving machine mapping: {e}")
+        return False
+
+def save_machine_mapping_strategy(mapping):
+    # Try local save
+    local_save_success = save_machine_mapping(mapping)
+    
+    # If GitHub integration is enabled, also try GitHub save
+    if 'github' in st.secrets:
+        github_save_success = save_machine_mapping_github(mapping)
+        return local_save_success and github_save_success
+    
+    return local_save_success
 
 # Initialize the database when the module is imported.
 init_db()
