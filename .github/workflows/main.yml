@@ -15,29 +15,31 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       
+      - name: Remove cached submodule reference
+        run: |
+          git rm --cached mnp-data-archive || true
+          git commit -m "Remove cached submodule reference" || echo "Nothing to commit"
+      
       - name: Clone Invader-Zim repo
         run: |
+          # Clone to a temporary directory
           git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-data
-          # Immediately remove the .git directory
+          # Remove the .git directory
           rm -rf temp-data/.git
       
       - name: Update mnp-data-archive folder
         run: |
-          # Remove existing folder
+          # Remove the existing folder
           rm -rf mnp-data-archive
-          
-          # Create new folder and copy files (excluding .git)
+          # Create new folder
           mkdir -p mnp-data-archive
+          # Copy all files
           cp -r temp-data/* mnp-data-archive/
       
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Add all changes
           git add mnp-data-archive
-          
-          # Commit and push
-          git commit -m "Update mnp-data-archive with latest data from Invader-Zim" || echo "No changes to commit"
+          git commit -m "Update mnp-data-archive with latest data" || echo "No changes to commit"
           git push
