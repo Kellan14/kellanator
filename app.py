@@ -88,27 +88,25 @@ def parse_seasons(season_str):
             st.error("Invalid season format. Please enter a number, e.g. '19'.")
     return seasons
 
-# Define a callback function to handle season changes
-def on_season_change():
-    # Parse the current season input
-    new_seasons = parse_seasons(st.session_state.season_input)
-    
-    # Store the new seasons
-    st.session_state["seasons_to_process"] = new_seasons
-    
-    # Rerun immediately
-    st.rerun()
+# Store the previous selection to detect changes
+if "previous_seasons_input" not in st.session_state:
+    st.session_state.previous_seasons_input = "20-21"  # Default value
 
-# Use a simple st.text_input with on_change callback
+# Use regular text input
 season_input = st.text_input(
     "Enter season(s) to process (e.g., '19' or '20-21')", 
-    "20-21", 
-    key="season_input",
-    on_change=on_season_change
+    value=st.session_state.previous_seasons_input,
+    key="season_input"
 )
 
-# Parse seasons (this will be used for the current render)
+# Parse seasons
 seasons_to_process = parse_seasons(season_input)
+
+# Check if the input has changed
+if season_input != st.session_state.previous_seasons_input:
+    st.session_state.previous_seasons_input = season_input
+    st.session_state["seasons_to_process"] = seasons_to_process
+    st.rerun()
 
 ##############################################
 # Section 2: Repository Management
