@@ -1144,6 +1144,10 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
     return team_table, twc_table
 
 def main(all_data, selected_team, selected_venue, team_roster, column_config):
+    st.write("Debugging main() function:")
+    st.write(f"seasons_to_process: {seasons_to_process}")
+    st.write(f"Type of seasons_to_process: {type(seasons_to_process)}")
+    
     team_name = selected_team
     twc_team_name = "The Wrecking Crew"
     # Refresh the included and excluded machine lists from your persistent store.
