@@ -1619,6 +1619,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         fit_columns_on_grid_load=True,
         allow_unsafe_jscode=True,
         columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
+        resizable=True,
         key=f"main_grid_{use_color_coding}"  # Update key when toggle changes to force refresh
     )
     
