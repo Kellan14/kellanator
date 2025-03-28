@@ -418,14 +418,14 @@ if st.session_state.standardize_machines_open:
     new_standardized = st.text_input("Enter standardized name for this machine", alias_to_add, key="new_standardized")
     
     if st.button("Add Machine Mapping", key="add_machine_mapping"):
-        mapping = st.session_state.machine_mapping
         if alias_to_add:
             # Update the mapping
+            mapping = st.session_state.machine_mapping
             mapping[alias_to_add] = new_standardized.strip() if new_standardized.strip() else alias_to_add.lower()
             st.session_state.machine_mapping = mapping
             
-            # Use the helper function that handles both local and GitHub storage
-            save_machine_mapping(None, mapping)  # Pass None as file_path to use default behavior
+            # Use the robust save method
+            save_machine_mapping_strategy(mapping)
             
             st.success(f"Added mapping: {alias_to_add} -> {st.session_state.machine_mapping[alias_to_add]}")
             st.rerun()
