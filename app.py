@@ -33,6 +33,8 @@ if "column_options_open" not in st.session_state:
     st.session_state.column_options_open = False
 if "set_score_limit_open" not in st.session_state:
     st.session_state.set_score_limit_open = False
+if "machine_mapping" not in st.session_state:
+    st.session_state.machine_mapping = load_machine_mapping()
 
 
 ##############################################
@@ -70,7 +72,6 @@ st.session_state["seasons_to_process"] = seasons_to_process
 ##############################################
 
 # Path to store the machine mapping file.
-MACHINE_MAPPING_FILE = "machine_mapping.json"
 repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
 repo_dir = "mnp-data-archive"
 
@@ -420,9 +421,13 @@ if st.session_state.standardize_machines_open:
     if st.button("Add Machine Mapping", key="add_machine_mapping"):
         mapping = st.session_state.machine_mapping
         if alias_to_add:
+            # Update the mapping
             mapping[alias_to_add] = new_standardized.strip() if new_standardized.strip() else alias_to_add.lower()
             st.session_state.machine_mapping = mapping
-            save_machine_mapping(MACHINE_MAPPING_FILE, mapping)  # Save changes
+            
+            # Use the helper function that handles both local and GitHub storage
+            save_machine_mapping(None, mapping)  # Pass None as file_path to use default behavior
+            
             st.success(f"Added mapping: {alias_to_add} -> {st.session_state.machine_mapping[alias_to_add]}")
             st.rerun()
 
@@ -442,14 +447,14 @@ if st.session_state.standardize_machines_open:
             if st.button("Update", key=f"update_{alias}"):
                 mapping[alias] = new_val.strip() if new_val.strip() else alias.lower()
                 st.session_state.machine_mapping = mapping
-                save_machine_mapping(MACHINE_MAPPING_FILE, mapping)  # Save changes
+                save_machine_mapping(None, mapping)  # Use helper function
                 st.success(f"Updated mapping for {alias}")
                 st.rerun()
         with col4:
             if st.button("Delete", key=f"delete_{alias}"):
                 mapping.pop(alias)
                 st.session_state.machine_mapping = mapping
-                save_machine_mapping(MACHINE_MAPPING_FILE, mapping)  # Save changes
+                save_machine_mapping(None, mapping)  # Use helper function
                 st.success(f"Deleted mapping for {alias}")
                 st.rerun()
 
