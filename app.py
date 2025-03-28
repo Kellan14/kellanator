@@ -73,7 +73,6 @@ st.session_state["seasons_to_process"] = seasons_to_process
 MACHINE_MAPPING_FILE = "machine_mapping.json"
 repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
 repo_dir = "mnp-data-archive"
-ensure_repo(repository_url, repo_dir)
 
 def load_machine_mapping(file_path):
     """Load machine mapping from a JSON file. Return default mapping if file doesn't exist."""
@@ -102,24 +101,6 @@ def save_machine_mapping(file_path, mapping):
             json.dump(mapping, f, indent=2)
     except Exception as e:
         st.error(f"Error saving machine mapping: {e}")
-
-def ensure_repo(repo_url, repo_dir):
-    """Clone the repository if it doesn't exist or isn't a valid git repo."""
-    git_folder = os.path.join(repo_dir, ".git")
-    placeholder = st.empty()
-    if not os.path.exists(repo_dir) or not os.path.exists(git_folder):
-        placeholder.info("Repository not found. Cloning repository...")
-        result = subprocess.run(["git", "clone", repo_url, repo_dir], capture_output=True, text=True)
-        if result.returncode == 0:
-            placeholder.success("Repository cloned successfully!")
-        else:
-            placeholder.error(f"Error cloning repository: {result.stderr}")
-        time.sleep(1)
-        placeholder.empty()
-    else:
-        placeholder.info("Repository is already cloned.")
-        time.sleep(1)
-        placeholder.empty()
 
 def update_repo(repo_path):
     """Runs 'git pull' in the specified repository directory."""
