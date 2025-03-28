@@ -113,10 +113,6 @@ def update_repo(repo_path):
     except subprocess.CalledProcessError as e:
         return f"An error occurred: {e.stderr}"
 
-repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
-repo_dir = "mnp-data-archive"
-ensure_repo(repository_url, repo_dir)
-
 st.title("The Kellanator 9000")
 if st.button("Update", key="update_repo_btn"):
     update_output = update_repo(repo_dir)
