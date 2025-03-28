@@ -1,0 +1,39 @@
+name: Diagnose Repository Issues
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Check for submodule references
+        run: |
+          echo "Current directory structure:"
+          ls -la
+          
+          echo "Git status:"
+          git status
+          
+          echo "Checking .gitmodules file:"
+          if [ -f .gitmodules ]; then
+            cat .gitmodules
+          else
+            echo "No .gitmodules file found"
+          fi
+          
+          echo "Checking Git config:"
+          git config --list
+          
+          echo "Checking Git attributes:"
+          if [ -f .gitattributes ]; then
+            cat .gitattributes
+          else
+            echo "No .gitattributes file found"
+          fi
