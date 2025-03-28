@@ -2,9 +2,7 @@ name: Sync MNP Data Archive
 
 on:
   schedule:
-    # Run every day at 6:00 AM UTC
     - cron: '0 6 * * *'
-  # Also allow manual triggering
   workflow_dispatch:
 
 jobs:
@@ -14,12 +12,17 @@ jobs:
       contents: write
     
     steps:
-      - name: Checkout kellanator repo
+      - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          submodules: false  # Explicitly disable submodule checkout
+      
+      # Add a command to explicitly disable submodule initialization
+      - name: Disable submodule commands
+        run: git config --global submodule.recurse false
       
       - name: Clone Invader-Zim repo
-        run: |
-          git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-mnp-data
+        run: git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-data
       
       - name: Update mnp-data-archive folder
         run: |
@@ -29,16 +32,22 @@ jobs:
           # Create a new folder
           mkdir -p mnp-data-archive
           
-          # Copy all files from Invader-Zim's repo
-          cp -r temp-mnp-data/* mnp-data-archive/
+          # Copy all files from temp directory
+          cp -r temp-data/* mnp-data-archive/
       
       - name: Commit and push changes
+        env:
+          GIT_CONFIG_PARAMETERS: "'submodule.recurse=false'"  # Additional safeguard
         run: |
           # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Add, commit, and push changes
+          # Add the changes
           git add mnp-data-archive
-          git commit -m "Update mnp-data-archive with latest data from Invader-Zim" || echo "No changes to commit"
-          git push
+          
+          # Commit (with submodules disabled)
+          git -c submodule.recurse=false commit -m "Update mnp-data-archive with latest data" || echo "No changes to commit"
+          
+          # Push (with submodules disabled)
+          git -c submodule.recurse=false push origin HEAD
