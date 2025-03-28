@@ -837,7 +837,7 @@ def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, ven
         
     elif column == "Times Played":
         # Filter data for the selected team
-        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None)
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
         # Get data for this machine
         machine_data = filtered_df[filtered_df['machine'] == machine]
         if len(machine_data) == 0:
@@ -849,7 +849,7 @@ def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, ven
         
     elif column == "TWC Times Played":
         # Filter data for TWC
-        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None)
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
         # Get data for this machine
         machine_data = filtered_df[filtered_df['machine'] == machine]
         if len(machine_data) == 0:
@@ -861,7 +861,7 @@ def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, ven
         
     elif column == "Times Picked":
         # Filter data for the selected team
-        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None)
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
         # Get data for this machine
         machine_data = filtered_df[filtered_df['machine'] == machine]
         if len(machine_data) == 0:
@@ -874,7 +874,7 @@ def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, ven
         
     elif column == "TWC Times Picked":
         # Filter data for TWC
-        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None)
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
         # Get data for this machine
         machine_data = filtered_df[filtered_df['machine'] == machine]
         if len(machine_data) == 0:
