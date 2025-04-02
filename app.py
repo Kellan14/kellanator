@@ -801,6 +801,7 @@ def is_roster_player(player_name, team, team_roster):
     return player_name in team_roster.get(abbr, [])
 
 def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name, team_roster, included_machines_for_venue, excluded_machines_for_venue):
+    debug_data = []
     processed_data = []
     recent_machines = set(included_machines_for_venue or [])
     overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
@@ -919,6 +920,20 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'team_role': player_team_role,
                         'is_doubles': is_doubles_round
                     })
+                    debug_entry = {
+                        'match_key': match['key'],
+                        'round': round_number,
+                        'machine': machine,
+                        'player_name': player_name,
+                        'player_team': player_team,
+                        'home_team': home_team,
+                        'away_team': away_team,
+                        'home_points': home_points,
+                        'away_points': away_points,
+                        'team_points': team_points  # The value we're storing
+                    }
+                    debug_data.append(debug_entry)
+
     return pd.DataFrame(processed_data), recent_machines
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
