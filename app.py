@@ -726,7 +726,7 @@ def save_team_roster_to_py(repo_dir, team_abbr, roster):
         with open(roster_file_path, 'w', encoding='utf-8') as f:
             # Write the roster as a Python list
             f.write(f"# Roster for {team_abbr}\n")
-            f.write("roster = [\n")
+            f.write("team_roster = [\n")
             for player in roster:
                 f.write(f"    \"{player}\",\n")
             f.write("]\n")
