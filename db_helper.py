@@ -417,7 +417,7 @@ def load_team_rosters(repo_dir):
                     
                     # Assume the roster is defined as a list called 'team_roster'
                     if hasattr(module, 'team_roster'):
-                        roster_data[team_abbr] = module.roster
+                        roster_data[team_abbr] = module.team_roster
                 except Exception as e:
                     st.error(f"Error loading roster for {team_abbr}: {e}")
     
