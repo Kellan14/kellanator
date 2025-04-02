@@ -800,38 +800,14 @@ def is_roster_player(player_name, team, team_roster):
         return False
     return player_name in team_roster.get(abbr, [])
 
-def get_player_team(player_key, match):
-    """
-    Determine the full team name for a given player based on their key.
-    
-    Args:
-    - player_key (str): Unique identifier for the player
-    - match (dict): Match data containing home and away team lineups
-    
-    Returns:
-    - str: Full team name, or None if player not found in either lineup
-    """
-    # Check home team lineup first
-    for player in match['home']['lineup']:
-        if player['key'] == player_key:
-            return match['home']['name']
-    
-    # If not in home team, check away team lineup
-    for player in match['away']['lineup']:
-        if player['key'] == player_key:
-            return match['away']['name']
-    
-    # If player not found in either lineup, return None
-    return None
-
 def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name, team_roster, included_machines_for_venue, excluded_machines_for_venue):
     """
-    Process all rounds and games from match data, extracting detailed player and team statistics.
+    Process match data with robust point and team calculation logic.
     
     Args:
-    - all_data (list): List of match data
+    - all_data (list): List of match data to process
     - team_name (str): Name of the selected team
-    - venue_name (str): Name of the selected venue
+    - venue_name (str): Name of the venue
     - twc_team_name (str): Name of The Wrecking Crew team
     - team_roster (dict): Dictionary of team rosters
     - included_machines_for_venue (list): Machines included at the venue
@@ -840,7 +816,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
     Returns:
     - pd.DataFrame: Processed player game data
     - set: Recent machines played
-    - pd.DataFrame: Debug data
+    - pd.DataFrame: Debug data for detailed analysis
     """
     debug_data = []
     processed_data = []
@@ -880,7 +856,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
         for round_info in match['rounds']:
             round_number = round_info['n']
             
-            # Determine round type (singles or doubles)
+            # Determine round type and points explicitly
             is_doubles_round = round_number in [1, 4]
             points_per_game = 5 if is_doubles_round else 3
 
@@ -908,6 +884,16 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                 home_points = game.get('home_points', 0)
                 away_points = game.get('away_points', 0)
 
+                # Validate point structure
+                if is_doubles_round:
+                    max_points = max(game.get(f'points_{i}', 0) for i in ['1', '2', '3', '4'])
+                    if max_points > 2.5:
+                        st.warning(f"Unexpected points in doubles round: {game}")
+                else:
+                    max_points = max(game.get(f'points_{i}', 0) for i in ['1', '2'])
+                    if max_points > 3:
+                        st.warning(f"Unexpected points in singles round: {game}")
+
                 # Process each possible player slot
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
@@ -923,10 +909,8 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     if limit is not None and score > limit:
                         continue
 
-                    # Identify player's team using the new function
+                    # Identify player's team
                     player_team = get_player_team(player_key, match)
-                    
-                    # Skip if player team cannot be determined
                     if player_team is None:
                         continue
 
@@ -948,7 +932,8 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'individual_points': player_points,
                         'game_type': 'Doubles' if is_doubles_round else 'Singles',
                         'points_per_game': points_per_game,
-                        'player_key': player_key
+                        'player_key': player_key,
+                        'max_points_in_round': max_points
                     }
                     debug_data.append(debug_entry)
 
@@ -976,6 +961,30 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     })
 
     return pd.DataFrame(processed_data), recent_machines, pd.DataFrame(debug_data)
+
+def get_player_team(player_key, match):
+    """
+    Determine the full team name for a given player based on their key.
+    
+    Args:
+    - player_key (str): Unique identifier for the player
+    - match (dict): Match data containing home and away team lineups
+    
+    Returns:
+    - str: Full team name, or None if player not found in either lineup
+    """
+    # Check home team lineup first
+    for player in match['home']['lineup']:
+        if player['key'] == player_key:
+            return match['home']['name']
+    
+    # If not in home team, check away team lineup
+    for player in match['away']['lineup']:
+        if player['key'] == player_key:
+            return match['away']['name']
+    
+    # If player not found in either lineup, return None
+    return None
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
