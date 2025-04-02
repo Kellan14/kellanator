@@ -525,19 +525,17 @@ if st.button("Hide Edit Roster" if st.session_state.get("edit_roster_open", Fals
 
 if st.session_state.get("edit_roster_open", False):
     st.markdown("### Edit Roster")
-
-if st.button(f"Update {selected_team} Roster from CSV", key=f"update_roster_from_csv_{team_abbr}"):
-    update_roster_from_csv(repo_dir, selected_team, team_abbr)
-    st.rerun()
+    
     # Determine the team abbreviation for the selected team.
     team_abbr = team_abbr_dict.get(selected_team)
     if not team_abbr:
         st.error("No team abbreviation found for the selected team.")
     else:
-        if st.button(f"Update {selected_team} Roster from CSV", key=f"update_roster_from_csv_{team_abbr}"):
+        # Button to update from CSV
+        if st.button(f"Update {selected_team} Roster from CSV", key=f"update_roster_from_csv_{selected_team}"):
             update_roster_from_csv(repo_dir, selected_team, team_abbr)
             st.rerun()
-            
+
         # Initialize a persistent edited roster for the team if not already set.
         # Original CSV players are stored as non-editable.
         if f"edited_roster_{team_abbr}" not in st.session_state:
