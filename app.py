@@ -297,7 +297,7 @@ if "column_config" not in st.session_state:
          'Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
          'TWC Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
          'Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False}
+         'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
          'POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
          'POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
          'POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
