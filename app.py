@@ -29,9 +29,9 @@ init_db()
 
 # Initialize session state flags
 if "roster_data" not in st.session_state:
-    st.session_state.roster_data = None
+    st.session_state.roster_data = load_team_rosters(repo_dir)
 if "rosters_scraped" not in st.session_state:
-    st.session_state.rosters_scraped = False
+    st.session_state.rosters_scraped = True
 if "modify_menu_open" not in st.session_state:
     st.session_state.modify_menu_open = False
 if "column_options_open" not in st.session_state:
