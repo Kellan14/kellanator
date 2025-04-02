@@ -807,7 +807,12 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
             selected_team_role = "away"
 
         # TWC's role is the opposite of the selected team.
-        twc_role = "home" if twc_role == "away" else "away"
+        if twc_team_name == home_team:
+            twc_role = "home"
+        elif twc_team_name == away_team:
+            twc_role = "away"
+        else:
+            twc_role = "home" if selected_team_role == "away" else "away"
 
         # Define pick rounds based on role:
         # Away picks in rounds 1 and 3; Home picks in rounds 2 and 4.
@@ -902,6 +907,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'round_points': round_points
                     })
     return pd.DataFrame(processed_data), recent_machines
+
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
