@@ -298,6 +298,12 @@ if "column_config" not in st.session_state:
          'TWC Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
          'Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
          'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False}
+         'POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'TWC POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'TWC POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False}
     }
 
 # Toggle Column Options display.
@@ -801,7 +807,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
             selected_team_role = "away"
 
         # TWC's role is the opposite of the selected team.
-        twc_role = "home" if selected_team_role == "away" else "away"
+        twc_role = "home" if twc_role == "away" else "away"
 
         # Define pick rounds based on role:
         # Away picks in rounds 1 and 3; Home picks in rounds 2 and 4.
@@ -814,6 +820,23 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
             # Determine who picks machines in this round
             is_selected_team_pick_round = round_number in selected_team_pick_rounds
             is_twc_pick_round = round_number in twc_pick_rounds
+            
+            # Get the round points data (total points for this round)
+            # In doubles rounds (1-4), there are typically 5 points
+            # In singles rounds (if any), there are typically 3 points
+            round_points = 5  # Default to 5 for doubles
+            
+            # Get the actual round points from the round data if available
+            if 'points' in round_info:
+                round_points = round_info['points']
+            
+            # Get the points won by each team in this round
+            home_points = round_info.get('home_points', 0)
+            away_points = round_info.get('away_points', 0)
+            
+            # Determine the points won by the selected team and TWC
+            selected_team_points = home_points if selected_team_role == "home" else away_points
+            twc_team_points = home_points if twc_role == "home" else away_points
             
             # We'll track machines in this round to ensure we count each unique machine exactly once
             machines_in_round = set()
@@ -839,6 +862,10 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
                     score = game.get(f'score_{pos}', 0)
+                    
+                    # Get the points for this position
+                    player_points = game.get(f'points_{pos}', 0)
+                    
                     if score == 0:
                         continue
                     limit = current_limits.get(machine)
@@ -846,6 +873,13 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         continue
                     player_name = get_player_name(player_key, match)
                     player_team = home_team if any(player['key'] == player_key for player in match['home']['lineup']) else away_team
+                    
+                    # Determine which team this player is on
+                    player_team_role = "home" if player_team == home_team else "away"
+                    
+                    # Get the team points for this player's team
+                    team_points = home_points if player_team_role == "home" else away_points
+                    
                     processed_data.append({
                         'season': season,
                         'machine': machine,
@@ -860,7 +894,12 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'picked_by': away_team if round_number in [1, 3] else home_team,
                         'is_pick': is_team_pick,
                         'is_pick_twc': is_twc_pick,
-                        'is_roster_player': is_roster_player(player_name, player_team, team_roster)
+                        'is_roster_player': is_roster_player(player_name, player_team, team_roster),
+                        # Add point-related data
+                        'player_points': player_points,
+                        'team_role': player_team_role,
+                        'team_points': team_points,
+                        'round_points': round_points
                     })
     return pd.DataFrame(processed_data), recent_machines
 
@@ -1000,6 +1039,300 @@ def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, ven
         # Then filter for games where TWC picked
         times_picked = len(unique_games[unique_games['is_pick_twc'] == True])
         return f"{times_picked:,}"
+        
+    # New POPS (Percentage of Points Won) columns using direct points from JSON
+    elif column == "POPS":
+        # Filter data for the selected team
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round to get unique rounds
+        unique_rounds = machine_data.groupby(['match', 'round']).first().reset_index()
+        
+        # Calculate total points from the data
+        total_points_won = 0
+        total_points_possible = 0
+        
+        for _, round_data in unique_rounds.iterrows():
+            match_id = round_data['match']
+            round_num = round_data['round']
+            
+            # Get the actual points won and possible points from the data
+            # The points will be the same for all players in the same team for the same round
+            round_points = machine_data[(machine_data['match'] == match_id) & 
+                                      (machine_data['round'] == round_num)]
+            
+            if not round_points.empty:
+                # Get the first record to extract points (all team members have same points)
+                first_record = round_points.iloc[0]
+                
+                # Check if we're home or away to get correct points
+                is_home = first_record.get('team_role', '') == 'home'
+                
+                # Get points won by this team in this round
+                points_won = first_record.get('team_points', 0)
+                
+                # Get total possible points for this round (typically 5 for doubles, 3 for singles)
+                points_possible = first_record.get('round_points', 5)  # Default to 5 if not provided
+                
+                # Add to totals
+                total_points_won += points_won
+                total_points_possible += points_possible
+        
+        # Calculate POPS
+        if total_points_possible > 0:
+            pops = (total_points_won / total_points_possible) * 100
+            return f"{pops:.2f}%"
+        return "N/A"
+    
+    elif column == "POPS Picking":
+        # Filter data for the selected team when they picked
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round, only where team picked
+        unique_rounds = machine_data.groupby(['match', 'round']).first().reset_index()
+        picking_rounds = unique_rounds[unique_rounds['is_pick'] == True]
+        
+        if len(picking_rounds) == 0:
+            return "N/A"
+        
+        # Calculate total points from picked rounds
+        total_points_won = 0
+        total_points_possible = 0
+        
+        for _, round_data in picking_rounds.iterrows():
+            match_id = round_data['match']
+            round_num = round_data['round']
+            
+            # Get the actual points won and possible points from the data
+            round_points = machine_data[(machine_data['match'] == match_id) & 
+                                      (machine_data['round'] == round_num)]
+            
+            if not round_points.empty:
+                # Get the first record to extract points
+                first_record = round_points.iloc[0]
+                
+                # Check if we're home or away to get correct points
+                is_home = first_record.get('team_role', '') == 'home'
+                
+                # Get points won by this team in this round
+                points_won = first_record.get('team_points', 0)
+                
+                # Get total possible points for this round
+                points_possible = first_record.get('round_points', 5)  # Default to 5 if not provided
+                
+                # Add to totals
+                total_points_won += points_won
+                total_points_possible += points_possible
+        
+        # Calculate POPS when picking
+        if total_points_possible > 0:
+            pops_picking = (total_points_won / total_points_possible) * 100
+            return f"{pops_picking:.2f}%"
+        return "N/A"
+    
+    elif column == "POPS Responding":
+        # Filter data for the selected team when responding (not picking)
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round, only where team did NOT pick
+        unique_rounds = machine_data.groupby(['match', 'round']).first().reset_index()
+        responding_rounds = unique_rounds[unique_rounds['is_pick'] == False]
+        
+        if len(responding_rounds) == 0:
+            return "N/A"
+        
+        # Calculate total points from rounds where team responded
+        total_points_won = 0
+        total_points_possible = 0
+        
+        for _, round_data in responding_rounds.iterrows():
+            match_id = round_data['match']
+            round_num = round_data['round']
+            
+            # Get the actual points won and possible points from the data
+            round_points = machine_data[(machine_data['match'] == match_id) & 
+                                      (machine_data['round'] == round_num)]
+            
+            if not round_points.empty:
+                # Get the first record to extract points
+                first_record = round_points.iloc[0]
+                
+                # Check if we're home or away to get correct points
+                is_home = first_record.get('team_role', '') == 'home'
+                
+                # Get points won by this team in this round
+                points_won = first_record.get('team_points', 0)
+                
+                # Get total possible points for this round
+                points_possible = first_record.get('round_points', 5)  # Default to 5 if not provided
+                
+                # Add to totals
+                total_points_won += points_won
+                total_points_possible += points_possible
+        
+        # Calculate POPS when responding
+        if total_points_possible > 0:
+            pops_responding = (total_points_won / total_points_possible) * 100
+            return f"{pops_responding:.2f}%"
+        return "N/A"
+    
+    elif column == "TWC POPS":
+        # Filter data for TWC
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round to get unique rounds
+        unique_rounds = machine_data.groupby(['match', 'round']).first().reset_index()
+        
+        # Calculate total points from the data
+        total_points_won = 0
+        total_points_possible = 0
+        
+        for _, round_data in unique_rounds.iterrows():
+            match_id = round_data['match']
+            round_num = round_data['round']
+            
+            # Get the actual points won and possible points from the data
+            round_points = machine_data[(machine_data['match'] == match_id) & 
+                                      (machine_data['round'] == round_num)]
+            
+            if not round_points.empty:
+                # Get the first record to extract points
+                first_record = round_points.iloc[0]
+                
+                # Check if we're home or away to get correct points
+                is_home = first_record.get('team_role', '') == 'home'
+                
+                # Get points won by TWC in this round
+                points_won = first_record.get('team_points', 0)
+                
+                # Get total possible points for this round
+                points_possible = first_record.get('round_points', 5)  # Default to 5 if not provided
+                
+                # Add to totals
+                total_points_won += points_won
+                total_points_possible += points_possible
+        
+        # Calculate POPS
+        if total_points_possible > 0:
+            pops = (total_points_won / total_points_possible) * 100
+            return f"{pops:.2f}%"
+        return "N/A"
+    
+    elif column == "TWC POPS Picking":
+        # Filter data for TWC when they picked
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round, only where TWC picked
+        unique_rounds = machine_data.groupby(['match', 'round']).first().reset_index()
+        picking_rounds = unique_rounds[unique_rounds['is_pick_twc'] == True]
+        
+        if len(picking_rounds) == 0:
+            return "N/A"
+        
+        # Calculate total points from picked rounds
+        total_points_won = 0
+        total_points_possible = 0
+        
+        for _, round_data in picking_rounds.iterrows():
+            match_id = round_data['match']
+            round_num = round_data['round']
+            
+            # Get the actual points won and possible points from the data
+            round_points = machine_data[(machine_data['match'] == match_id) & 
+                                      (machine_data['round'] == round_num)]
+            
+            if not round_points.empty:
+                # Get the first record to extract points
+                first_record = round_points.iloc[0]
+                
+                # Check if we're home or away to get correct points
+                is_home = first_record.get('team_role', '') == 'home'
+                
+                # Get points won by TWC in this round
+                points_won = first_record.get('team_points', 0)
+                
+                # Get total possible points for this round
+                points_possible = first_record.get('round_points', 5)  # Default to 5 if not provided
+                
+                # Add to totals
+                total_points_won += points_won
+                total_points_possible += points_possible
+        
+        # Calculate POPS when picking
+        if total_points_possible > 0:
+            pops_picking = (total_points_won / total_points_possible) * 100
+            return f"{pops_picking:.2f}%"
+        return "N/A"
+    
+    elif column == "TWC POPS Responding":
+        # Filter data for TWC when responding (not picking)
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round, only where TWC did NOT pick
+        unique_rounds = machine_data.groupby(['match', 'round']).first().reset_index()
+        responding_rounds = unique_rounds[unique_rounds['is_pick_twc'] == False]
+        
+        if len(responding_rounds) == 0:
+            return "N/A"
+        
+        # Calculate total points from rounds where TWC responded
+        total_points_won = 0
+        total_points_possible = 0
+        
+        for _, round_data in responding_rounds.iterrows():
+            match_id = round_data['match']
+            round_num = round_data['round']
+            
+            # Get the actual points won and possible points from the data
+            round_points = machine_data[(machine_data['match'] == match_id) & 
+                                      (machine_data['round'] == round_num)]
+            
+            if not round_points.empty:
+                # Get the first record to extract points
+                first_record = round_points.iloc[0]
+                
+                # Check if we're home or away to get correct points
+                is_home = first_record.get('team_role', '') == 'home'
+                
+                # Get points won by TWC in this round
+                points_won = first_record.get('team_points', 0)
+                
+                # Get total possible points for this round
+                points_possible = first_record.get('round_points', 5)  # Default to 5 if not provided
+                
+                # Add to totals
+                total_points_won += points_won
+                total_points_possible += points_possible
+        
+        # Calculate POPS when responding
+        if total_points_possible > 0:
+            pops_responding = (total_points_won / total_points_possible) * 100
+            return f"{pops_responding:.2f}%"
+        return "N/A"
         
     # Handle percentage columns directly
     elif column == "% of V. Avg.":
@@ -1312,7 +1645,210 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
         filtered['Pick Group'] = filtered.apply(
             lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
         )
+    
+    # New POPS columns
+    elif "POPS" in column:
+        # Initialize pops_summary with a default
+        pops_summary = "No points data available"
+        
+        if column == "POPS":
+            # Filter data for the selected team
+            filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
             
+            # Calculate total points and percentage
+            unique_rounds = filtered.groupby(['match', 'round']).first().reset_index()
+            if not unique_rounds.empty:
+                total_points_won = unique_rounds['team_points'].sum()
+                total_points_possible = unique_rounds['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(unique_rounds)} rounds)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "POPS Picking":
+            # Filter data for the selected team when picking
+            filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Filter to rounds where team picked
+            unique_rounds = filtered.groupby(['match', 'round']).first().reset_index()
+            picking_rounds = unique_rounds[unique_rounds['is_pick'] == True]
+            
+            if len(picking_rounds) == 0:
+                return pd.DataFrame(), {"summary": f"No rounds where {team_name} picked {machine}", "title": f"{column} for {machine}"}
+                
+            # Create list of picking rounds
+            picking_tuples = list(zip(picking_rounds['match'], picking_rounds['round']))
+            
+            # Filter to include only the team's data from these rounds
+            filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in picking_tuples, axis=1)]
+            
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            if not picking_rounds.empty:
+                total_points_won = picking_rounds['team_points'].sum()
+                total_points_possible = picking_rounds['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(picking_rounds)} rounds)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "POPS Responding":
+            # Filter data for the selected team when responding
+            filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Filter to rounds where team responded (did not pick)
+            unique_rounds = filtered.groupby(['match', 'round']).first().reset_index()
+            responding_rounds = unique_rounds[unique_rounds['is_pick'] == False]
+            
+            if len(responding_rounds) == 0:
+                return pd.DataFrame(), {"summary": f"No rounds where {team_name} responded on {machine}", "title": f"{column} for {machine}"}
+                
+            # Create list of responding rounds
+            responding_tuples = list(zip(responding_rounds['match'], responding_rounds['round']))
+            
+            # Filter to include only the team's data from these rounds
+            filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in responding_tuples, axis=1)]
+            
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            if not responding_rounds.empty:
+                total_points_won = responding_rounds['team_points'].sum()
+                total_points_possible = responding_rounds['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(responding_rounds)} rounds)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "TWC POPS":
+            # Filter data for TWC
+            filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            unique_rounds = filtered.groupby(['match', 'round']).first().reset_index()
+            if not unique_rounds.empty:
+                total_points_won = unique_rounds['team_points'].sum()
+                total_points_possible = unique_rounds['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(unique_rounds)} rounds)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "TWC POPS Picking":
+            # Filter data for TWC when picking
+            filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Filter to rounds where TWC picked
+            unique_rounds = filtered.groupby(['match', 'round']).first().reset_index()
+            picking_rounds = unique_rounds[unique_rounds['is_pick_twc'] == True]
+            
+            if len(picking_rounds) == 0:
+                return pd.DataFrame(), {"summary": f"No rounds where TWC picked {machine}", "title": f"{column} for {machine}"}
+                
+            # Create list of picking rounds
+            picking_tuples = list(zip(picking_rounds['match'], picking_rounds['round']))
+            
+            # Filter to include only TWC's data from these rounds
+            filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in picking_tuples, axis=1)]
+            
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            if not picking_rounds.empty:
+                total_points_won = picking_rounds['team_points'].sum()
+                total_points_possible = picking_rounds['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(picking_rounds)} rounds)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "TWC POPS Responding":
+            # Filter data for TWC when responding
+            filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Filter to rounds where TWC responded (did not pick)
+            unique_rounds = filtered.groupby(['match', 'round']).first().reset_index()
+            responding_rounds = unique_rounds[unique_rounds['is_pick_twc'] == False]
+            
+            if len(responding_rounds) == 0:
+                return pd.DataFrame(), {"summary": f"No rounds where TWC responded on {machine}", "title": f"{column} for {machine}"}
+                
+            # Create list of responding rounds
+            responding_tuples = list(zip(responding_rounds['match'], responding_rounds['round']))
+            
+            # Filter to include only TWC's data from these rounds
+            filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in responding_tuples, axis=1)]
+            
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            if not responding_rounds.empty:
+                total_points_won = responding_rounds['team_points'].sum()
+                total_points_possible = responding_rounds['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(responding_rounds)} rounds)"
+                else:
+                    pops_summary = "No points data available"
+    
     elif column == "% of V. Avg.":
         # Show the data that was used for Team Average
         filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
@@ -1337,6 +1873,9 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     if "Times Picked" in column and "Pick Group" in filtered.columns:
         # For picked games, sort first by Pick Group, then by score (descending)
         filtered = filtered.sort_values(by=["Pick Group", "score"], ascending=[True, False])
+    elif "POPS" in column and "Round Group" in filtered.columns:
+        # For POPS columns, sort by Round Group then by score
+        filtered = filtered.sort_values(by=["Round Group", "score"], ascending=[True, False])
     else:
         # For other columns, just sort by score descending
         filtered = filtered.sort_values(by="score", ascending=False)
@@ -1364,6 +1903,9 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
             summary = f"{column}: {num_picked_games:,} (showing {len(filtered):,} TWC scores)"
         else:
             summary = f"{column}: (no picked games found)"
+    elif "POPS" in column:
+        # For POPS columns, use the already calculated summary
+        summary = f"{column}: {pops_summary}"
     elif "%" in column:
         # For percentage columns, reference the related average columns
         base_col = "Team Average" if column == "% of V. Avg." else "TWC Average"
@@ -1881,6 +2423,9 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 # Create a display DataFrame with the columns we want to show
                 if "Times Picked" in selected_col and "Pick Group" in detailed_df.columns:
                     display_cols = ["Pick Group", "player_name", "team", "score", "season", "venue"]
+                elif "POPS" in selected_col and "Round Group" in detailed_df.columns:
+                    # For POPS columns, include the points information
+                    display_cols = ["Round Group", "player_name", "team", "score", "team_points", "round_points", "season", "venue"]
                 else:
                     display_cols = ["player_name", "team", "score", "season", "venue"]
                 
@@ -1900,11 +2445,9 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                     height=300, 
                     fit_columns_on_grid_load=True,
                     key=f"detailed_grid_{most_recent_click['timestamp']}"  # Use timestamp in key for forced refresh
-                )
+                 )
             else:
-                st.write("No detailed data available for this selection after applying all filters.")
-        else:
-            st.write("No detailed data available in debug outputs.")
+                 st.write("No detailed data available for this selection after applying all filters.")
     
     # Checkbox to toggle display of player statistics
     if st.checkbox("Show Unique Players", key="player_stats_toggle"):
