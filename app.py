@@ -2394,6 +2394,10 @@ if st.checkbox("Debug Info", key="debug_info_toggle"):
     else:
         st.write("**DEBUG: Team roster data is not available.**")
 
+debug_df = pd.DataFrame(debug_data)
+    st.write("Debug data for points calculation:")
+    st.write(debug_df)
+
 ##############################################
 # Section 13: machine picking algorithm - data structure
 ##############################################
