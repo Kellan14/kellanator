@@ -706,11 +706,6 @@ if st.session_state.get("edit_twc_roster_open", False):
 ##############################################
 @st.cache_data(show_spinner=True)
 
-if "roster_data" not in st.session_state:
-    st.session_state.roster_data = load_team_rosters(repo_dir)
-if "rosters_scraped" not in st.session_state:
-    st.session_state.rosters_scraped = True
-
 def load_team_rosters(repo_dir):
     """
     Load team rosters with priority:
