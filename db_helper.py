@@ -5,6 +5,7 @@ import base64
 import requests
 import streamlit as st
 import glob
+import re
 
 # Local database for fallback/development
 DB_FILE = "global_settings.db"
