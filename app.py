@@ -1031,30 +1031,24 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
                 df, machine, column, team_name, twc_team_name, venue_name, column_config
             )
         
-        # Only compute percentage columns if they're included in column_config
-        add_team_pct = column_config.get('% of V. Avg.', {}).get('include', True)
-        add_twc_pct = column_config.get('TWC % V. Avg.', {}).get('include', True)
+        # Calculate percentages only if the columns are in row dict (already added by loop above)
+        def safe_get(key):
+            v = row.get(key, "N/A")
+            try:
+                return float(v.replace(",", "").split("*")[0])
+            except Exception:
+                return np.nan
         
-        if add_team_pct or add_twc_pct:
-            # Only extract these values if we need them for at least one percentage column
-            def safe_get(key):
-                v = row.get(key, "N/A")
-                try:
-                    return float(v.replace(",", "").split("*")[0])
-                except Exception:
-                    return np.nan
-                    
+        # Only update the percentage columns if they already exist in the row
+        if "% of V. Avg." in row:
             team_avg = safe_get("Team Average")
             venue_avg = safe_get("Venue Average")
-            
-            # Add team percentage if needed
-            if add_team_pct:
-                row["% of V. Avg."] = f"{(team_avg / venue_avg * 100):.2f}%" if not np.isnan(team_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
-            
-            # Add TWC percentage if needed
-            if add_twc_pct:
-                twc_avg = safe_get("TWC Average")
-                row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%" if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
+            row["% of V. Avg."] = f"{(team_avg / venue_avg * 100):.2f}%" if not np.isnan(team_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
+        
+        if "TWC % V. Avg." in row:
+            twc_avg = safe_get("TWC Average")
+            venue_avg = safe_get("Venue Average")
+            row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%" if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
         
         data.append(row)
         
