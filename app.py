@@ -1366,7 +1366,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         included_list = get_venue_machine_list(selected_venue, "included")
         excluded_list = get_venue_machine_list(selected_venue, "excluded")
         
-        all_data_df, recent_machines = process_all_rounds_and_games(
+        all_data_df, recent_machines, debug_df = process_all_rounds_and_games(
             all_data, team_name, selected_venue, twc_team_name, team_roster,
             included_list, excluded_list
         )
