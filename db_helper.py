@@ -385,5 +385,63 @@ def save_machine_mapping_strategy(mapping):
     
     return local_save_success
 
+def load_team_rosters(repo_dir):
+    """
+    Load team rosters with priority:
+    1. team_rosters/(team_abbreviation)_roster.py files
+    2. rosters.csv in the latest season
+    
+    Returns a dictionary mapping team abbreviations to a list of player names.
+    """
+    roster_data = {}
+    
+    # First, check for Python roster files
+    team_rosters_dir = os.path.join(repo_dir, "team_rosters")
+    
+    # If the team_rosters directory exists, look for Python files
+    if os.path.exists(team_rosters_dir):
+        for filename in os.listdir(team_rosters_dir):
+            if filename.endswith("_roster.py"):
+                team_abbr = filename.replace("_roster.py", "")
+                try:
+                    # Dynamically import the roster file
+                    spec = importlib.util.spec_from_file_location(
+                        f"{team_abbr}_roster", 
+                        os.path.join(team_rosters_dir, filename)
+                    )
+                    module = importlib.util.module_from_spec(spec)
+                    spec.loader.exec_module(module)
+                    
+                    # Assume the roster is defined as a list called 'roster'
+                    if hasattr(module, 'roster'):
+                        roster_data[team_abbr] = module.roster
+                except Exception as e:
+                    st.error(f"Error loading roster for {team_abbr}: {e}")
+    
+    # If no Python rosters found, fall back to CSV
+    if not roster_data:
+        latest_season = get_latest_season(repo_dir)
+        if latest_season is not None:
+            csv_path = os.path.join(repo_dir, f"season-{latest_season}", "rosters.csv")
+            try:
+                with open(csv_path, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        parts = line.split(',')
+                        if len(parts) < 2:
+                            continue
+                        player_name = parts[0].strip()
+                        team_abbr = parts[1].strip()
+                        if team_abbr not in roster_data:
+                            roster_data[team_abbr] = []
+                        roster_data[team_abbr].append(player_name)
+            except Exception as e:
+                st.error(f"Error reading rosters CSV: {e}")
+    
+    return roster_data
+
 # Initialize the database when the module is imported.
 init_db()
+
