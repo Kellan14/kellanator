@@ -10,7 +10,8 @@ DB_FILE = "global_settings.db"
 
 # Flag to determine whether to use GitHub or local storage
 USE_GITHUB = False
-
+repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
+repo_dir = "mnp-data-archive"
 ###########################################
 # GitHub Integration Functions
 ###########################################
@@ -441,6 +442,22 @@ def load_team_rosters(repo_dir):
                 st.error(f"Error reading rosters CSV: {e}")
     
     return roster_data
+
+def get_latest_season(repo_dir):
+    """
+    Scans the repository directory for folders named "season-<number>" 
+    and returns the highest season number found.
+    """
+    season_dirs = glob.glob(os.path.join(repo_dir, "season-*"))
+    season_numbers = []
+    for season_dir in season_dirs:
+        match = re.search(r"season-(\d+)", season_dir)
+        if match:
+            season_numbers.append(int(match.group(1)))
+    if season_numbers:
+        return max(season_numbers)
+    else:
+        return None
 
 # Initialize the database when the module is imported.
 init_db()
