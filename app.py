@@ -934,7 +934,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     }
                     debug_data.append(debug_entry)
 
-    return pd.DataFrame(processed_data), recent_machines
+    return pd.DataFrame(processed_data), recent_machines, pd.DataFrame(debug_data)
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
@@ -1371,6 +1371,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
             included_list, excluded_list
         )
         debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
+        debug_outputs['debug_data'] = debug_df  # Add the new debug data
         result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
         
         # Safe sorting - check if the column exists before sorting by it
