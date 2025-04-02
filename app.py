@@ -27,6 +27,10 @@ from db_helper import init_db, get_score_limits, set_score_limit, delete_score_l
 # Initialize database (if not already)
 init_db()
 
+# Path to store the machine mapping file.
+repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
+repo_dir = "mnp-data-archive"
+
 # Initialize session state flags
 if "roster_data" not in st.session_state:
     st.session_state.roster_data = load_team_rosters(repo_dir)
@@ -38,10 +42,6 @@ if "column_options_open" not in st.session_state:
     st.session_state.column_options_open = False
 if "set_score_limit_open" not in st.session_state:
     st.session_state.set_score_limit_open = False
-
-# Path to store the machine mapping file.
-repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
-repo_dir = "mnp-data-archive"
 
 ##############################################
 # Section 1.1: Load All JSON Files from Repository
