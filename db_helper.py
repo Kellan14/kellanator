@@ -415,8 +415,8 @@ def load_team_rosters(repo_dir):
                     module = importlib.util.module_from_spec(spec)
                     spec.loader.exec_module(module)
                     
-                    # Assume the roster is defined as a list called 'roster'
-                    if hasattr(module, 'roster'):
+                    # Assume the roster is defined as a list called 'team_roster'
+                    if hasattr(module, 'team_roster'):
                         roster_data[team_abbr] = module.roster
                 except Exception as e:
                     st.error(f"Error loading roster for {team_abbr}: {e}")
