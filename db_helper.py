@@ -461,6 +461,71 @@ def get_latest_season(repo_dir):
     else:
         return None
 
+def update_roster_from_csv(repo_dir, team_name, team_abbr):
+    """
+    Update a team's roster from the latest season's CSV with confirmation.
+    
+    Args:
+    - repo_dir: Base repository directory
+    - team_name: Full team name
+    - team_abbr: Team abbreviation
+    """
+    # First, show a confirmation dialog
+    confirm = st.checkbox(
+        f"Are you SURE you want to reset the {team_name} roster from the latest CSV? " 
+        "This will replace the entire current roster.",
+        key=f"confirm_roster_reset_{team_abbr}"
+    )
+    
+    # Only proceed if confirmed
+    if confirm:
+        latest_season = get_latest_season(repo_dir)
+        if latest_season is None:
+            st.error("No season directories found in the repository.")
+            return
+        
+        csv_path = os.path.join(repo_dir, f"season-{latest_season}", "rosters.csv")
+        
+        try:
+            with open(csv_path, 'r', encoding='utf-8') as f:
+                roster = []
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    parts = line.split(',')
+                    if len(parts) < 2:
+                        continue
+                    player_name = parts[0].strip()
+                    current_team_abbr = parts[1].strip()
+                    
+                    # Only add players for this specific team
+                    if current_team_abbr == team_abbr:
+                        roster.append(player_name)
+            
+            # Verify roster is not empty
+            if not roster:
+                st.warning(f"No players found for {team_name} in the CSV.")
+                return
+            
+            # Save the roster to a Python file
+            save_team_roster_to_py(repo_dir, team_abbr, roster)
+            
+            # Update the session state
+            st.session_state.roster_data[team_abbr] = roster
+            
+            
+            # Reinitialize the edited roster in session state
+            st.session_state[f"edited_roster_{team_abbr}"] = [
+                {"name": p, "include": True, "editable": False} for p in roster
+            ]
+            
+            st.success(f"Roster for {team_name} successfully reset from CSV.")
+            st.rerun()
+        
+        except Exception as e:
+            st.error(f"Error updating roster from CSV: {e}")
+
 # Initialize the database when the module is imported.
 init_db()
 
