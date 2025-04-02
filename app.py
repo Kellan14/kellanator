@@ -15,6 +15,7 @@ import requests
 from bs4 import BeautifulSoup
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode, ColumnsAutoSizeMode
 from typing import Callable, Any, List, Dict, Tuple
+import importlib.util
 main: Callable[[List[Dict], str, str, Dict, Dict], Tuple[pd.DataFrame, Dict, pd.DataFrame, pd.DataFrame]] = None
 selected_team: str = st.session_state.get("select_team_json", "")
 selected_venue: str = st.session_state.get("select_venue_json", "")
@@ -524,11 +525,19 @@ if st.button("Hide Edit Roster" if st.session_state.get("edit_roster_open", Fals
 
 if st.session_state.get("edit_roster_open", False):
     st.markdown("### Edit Roster")
+
+if st.button(f"Update {selected_team} Roster from CSV", key=f"update_roster_from_csv_{team_abbr}"):
+    update_roster_from_csv(repo_dir, selected_team, team_abbr)
+    st.rerun()
     # Determine the team abbreviation for the selected team.
     team_abbr = team_abbr_dict.get(selected_team)
     if not team_abbr:
         st.error("No team abbreviation found for the selected team.")
     else:
+        if st.button(f"Update {selected_team} Roster from CSV", key=f"update_roster_from_csv_{team_abbr}"):
+            update_roster_from_csv(repo_dir, selected_team, team_abbr)
+            st.rerun()
+            
         # Initialize a persistent edited roster for the team if not already set.
         # Original CSV players are stored as non-editable.
         if f"edited_roster_{team_abbr}" not in st.session_state:
@@ -555,6 +564,7 @@ if st.session_state.get("edit_roster_open", False):
                     st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
                     # Update global roster_data: include only players that are checked.
                     st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                    save_team_roster_to_py(repo_dir, team_abbr, [e["name"] for e in edited_roster if e["include"]])
                     st.rerun()
             with col3:
                 # Show an Edit button only if the entry is editable.
@@ -565,6 +575,7 @@ if st.session_state.get("edit_roster_open", False):
                             edited_roster[i]["name"] = new_name.strip()
                             st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
                             st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                            save_team_roster_to_py(repo_dir, team_abbr, [e["name"] for e in edited_roster if e["include"]])
                             st.rerun()
         
         # Compute available players for the selected team from all_data.
@@ -696,46 +707,172 @@ if st.session_state.get("edit_twc_roster_open", False):
 # Section 6: Load Team Rosters from CSV Files
 ##############################################
 @st.cache_data(show_spinner=True)
-def load_team_rosters_from_csv(repo_dir):
+def load_team_rosters(repo_dir):
     """
-    Loads the team rosters from the rosters.csv file in the most recent season folder.
-    The CSV is expected to have lines formatted as:
-      Player Name,TeamAbbr,Letter
-    The third field is ignored.
+    Load team rosters with priority:
+    1. team_rosters/(team_abbreviation)_roster.py files
+    2. rosters.csv in the latest season
     
     Returns a dictionary mapping team abbreviations to a list of player names.
     """
-    latest_season = get_latest_season(repo_dir)
-    if latest_season is None:
-        st.error("No season directories found in the repository.")
-        return {}
-    
-    csv_path = os.path.join(repo_dir, f"season-{latest_season}", "rosters.csv")
     roster_data = {}
-    try:
-        with open(csv_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                # Split by comma; expect at least two parts: name and team abbreviation.
-                parts = line.split(',')
-                if len(parts) < 2:
-                    continue
-                player_name = parts[0].strip()
-                team_abbr = parts[1].strip()
-                # Add player_name under the team abbreviation key.
-                if team_abbr not in roster_data:
-                    roster_data[team_abbr] = []
-                roster_data[team_abbr].append(player_name)
-    except Exception as e:
-        st.error(f"Error reading rosters CSV: {e}")
+    
+    # First, check for Python roster files
+    team_rosters_dir = os.path.join(repo_dir, "team_rosters")
+    
+    # If the team_rosters directory exists, look for Python files
+    if os.path.exists(team_rosters_dir):
+        for filename in os.listdir(team_rosters_dir):
+            if filename.endswith("_roster.py"):
+                team_abbr = filename.replace("_roster.py", "")
+                try:
+                    # Dynamically import the roster file
+                    spec = importlib.util.spec_from_file_location(
+                        f"{team_abbr}_roster", 
+                        os.path.join(team_rosters_dir, filename)
+                    )
+                    module = importlib.util.module_from_spec(spec)
+                    spec.loader.exec_module(module)
+                    
+                    # Assume the roster is defined as a list called 'roster'
+                    if hasattr(module, 'roster'):
+                        roster_data[team_abbr] = module.roster
+                except Exception as e:
+                    st.error(f"Error loading roster for {team_abbr}: {e}")
+    
+    # If no Python rosters found, fall back to CSV
+    if not roster_data:
+        latest_season = get_latest_season(repo_dir)
+        if latest_season is not None:
+            csv_path = os.path.join(repo_dir, f"season-{latest_season}", "rosters.csv")
+            try:
+                with open(csv_path, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        parts = line.split(',')
+                        if len(parts) < 2:
+                            continue
+                        player_name = parts[0].strip()
+                        team_abbr = parts[1].strip()
+                        if team_abbr not in roster_data:
+                            roster_data[team_abbr] = []
+                        roster_data[team_abbr].append(player_name)
+            except Exception as e:
+                st.error(f"Error reading rosters CSV: {e}")
+    
     return roster_data
 
-# Load roster data if not already loaded.
-if not st.session_state.rosters_scraped:
-    st.session_state.roster_data = load_team_rosters_from_csv(repo_dir)
-    st.session_state.rosters_scraped = True
+def save_team_roster_to_py(repo_dir, team_abbr, roster):
+    """
+    Save a team's roster to a Python file in the team_rosters directory.
+    
+    Args:
+    - repo_dir: Base repository directory
+    - team_abbr: Team abbreviation
+    - roster: List of player names
+    """
+    # Ensure team_rosters directory exists
+    team_rosters_dir = os.path.join(repo_dir, "team_rosters")
+    os.makedirs(team_rosters_dir, exist_ok=True)
+    
+    # Filename format: (team_abbreviation)_roster.py
+    roster_file_path = os.path.join(team_rosters_dir, f"{team_abbr}_roster.py")
+    
+    try:
+        with open(roster_file_path, 'w', encoding='utf-8') as f:
+            # Write the roster as a Python list
+            f.write(f"# Roster for {team_abbr}\n")
+            f.write("roster = [\n")
+            for player in roster:
+                f.write(f"    \"{player}\",\n")
+            f.write("]\n")
+        
+        # Optional: Commit and push changes
+        try:
+            subprocess.run(
+                ["git", "-C", repo_dir, "add", roster_file_path], 
+                capture_output=True, text=True, check=True
+            )
+            subprocess.run(
+                ["git", "-C", repo_dir, "commit", "-m", f"Update roster for {team_abbr}"], 
+                capture_output=True, text=True, check=True
+            )
+            subprocess.run(
+                ["git", "-C", repo_dir, "push"], 
+                capture_output=True, text=True, check=True
+            )
+            st.success(f"Roster for {team_abbr} updated and pushed to GitHub.")
+        except subprocess.CalledProcessError as e:
+            st.warning(f"Could not commit/push roster changes: {e}")
+    
+    except Exception as e:
+        st.error(f"Error saving roster for {team_abbr}: {e}")
+
+def update_roster_from_csv(repo_dir, team_name, team_abbr):
+    """
+    Update a team's roster from the latest season's CSV with confirmation.
+    
+    Args:
+    - repo_dir: Base repository directory
+    - team_name: Full team name
+    - team_abbr: Team abbreviation
+    """
+    # First, show a confirmation dialog
+    confirm = st.checkbox(
+        f"Are you SURE you want to reset the {team_name} roster from the latest CSV? " 
+        "This will replace the entire current roster.",
+        key=f"confirm_roster_reset_{team_abbr}"
+    )
+    
+    # Only proceed if confirmed
+    if confirm:
+        latest_season = get_latest_season(repo_dir)
+        if latest_season is None:
+            st.error("No season directories found in the repository.")
+            return
+        
+        csv_path = os.path.join(repo_dir, f"season-{latest_season}", "rosters.csv")
+        
+        try:
+            with open(csv_path, 'r', encoding='utf-8') as f:
+                roster = []
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    parts = line.split(',')
+                    if len(parts) < 2:
+                        continue
+                    player_name = parts[0].strip()
+                    current_team_abbr = parts[1].strip()
+                    
+                    # Only add players for this specific team
+                    if current_team_abbr == team_abbr:
+                        roster.append(player_name)
+            
+            # Verify roster is not empty
+            if not roster:
+                st.warning(f"No players found for {team_name} in the CSV.")
+                return
+            
+            # Save the roster to a Python file
+            save_team_roster_to_py(repo_dir, team_abbr, roster)
+            
+            # Update the session state
+            st.session_state.roster_data[team_abbr] = roster
+            
+            # Reinitialize the edited roster in session state
+            st.session_state[f"edited_roster_{team_abbr}"] = [
+                {"name": p, "include": True, "editable": False} for p in roster
+            ]
+            
+            st.success(f"Roster for {team_name} successfully reset from CSV.")
+            st.rerun()
+        
+        except Exception as e:
+            st.error(f"Error updating roster from CSV: {e}")
 
 
 ##############################################
