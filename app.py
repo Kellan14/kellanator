@@ -2341,12 +2341,8 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
             else:
                 st.write("No detailed data available for this selection after applying all filters.")
     
-    # Checkbox to toggle display of player statistics balls
-    if st.checkbox("Show debug data"):
-        if debug_data:
-            debug_df = pd.DataFrame(debug_data)
-            st.subheader("Debug data for points calculation")
-            st.dataframe(debug_df)
+    # Checkbox to toggle display of player statistics
+
             
     if st.checkbox("Show Unique Players", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
