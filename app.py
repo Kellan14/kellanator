@@ -934,6 +934,11 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     }
                     debug_data.append(debug_entry)
 
+                if debug_data:
+                debug_df = pd.DataFrame(debug_data)
+                st.write("Debug data for points calculation:")
+                st.write(debug_df)
+
     return pd.DataFrame(processed_data), recent_machines
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
