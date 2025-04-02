@@ -800,12 +800,53 @@ def is_roster_player(player_name, team, team_roster):
         return False
     return player_name in team_roster.get(abbr, [])
 
+def get_player_team(player_key, match):
+    """
+    Determine the full team name for a given player based on their key.
+    
+    Args:
+    - player_key (str): Unique identifier for the player
+    - match (dict): Match data containing home and away team lineups
+    
+    Returns:
+    - str: Full team name, or None if player not found in either lineup
+    """
+    # Check home team lineup first
+    for player in match['home']['lineup']:
+        if player['key'] == player_key:
+            return match['home']['name']
+    
+    # If not in home team, check away team lineup
+    for player in match['away']['lineup']:
+        if player['key'] == player_key:
+            return match['away']['name']
+    
+    # If player not found in either lineup, return None
+    return None
+
 def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name, team_roster, included_machines_for_venue, excluded_machines_for_venue):
+    """
+    Process all rounds and games from match data, extracting detailed player and team statistics.
+    
+    Args:
+    - all_data (list): List of match data
+    - team_name (str): Name of the selected team
+    - venue_name (str): Name of the selected venue
+    - twc_team_name (str): Name of The Wrecking Crew team
+    - team_roster (dict): Dictionary of team rosters
+    - included_machines_for_venue (list): Machines included at the venue
+    - excluded_machines_for_venue (list): Machines excluded at the venue
+    
+    Returns:
+    - pd.DataFrame: Processed player game data
+    - set: Recent machines played
+    - pd.DataFrame: Debug data
+    """
     debug_data = []
     processed_data = []
     recent_machines = set(included_machines_for_venue or [])
     overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
-    current_limits = get_score_limits()  # Use user-defined score limits from the database
+    current_limits = get_score_limits()
 
     for match in all_data:
         match_venue = match['venue']['name']
@@ -813,13 +854,13 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
         home_team = match['home']['name']
         away_team = match['away']['name']
 
-        # Determine the selected team's role based on the match.
+        # Determine the selected team's role based on the match
         if team_name == home_team:
             selected_team_role = "home"
         elif team_name == away_team:
             selected_team_role = "away"
         else:
-            # Fallback if team_name does not match either team (should not happen)
+            # Fallback if team_name does not match either team
             selected_team_role = "away"
 
         # TWC's role is determined directly
@@ -831,30 +872,21 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
             # If TWC wasn't in this match, set a default opposite of selected team
             twc_role = "home" if selected_team_role == "away" else "away"
 
-        # Define pick rounds based on role:
-        # Away picks in rounds 1 and 3; Home picks in rounds 2 and 4.
+        # Determine pick rounds based on role:
+        # Away picks in rounds 1 and 3; Home picks in rounds 2 and 4
         selected_team_pick_rounds = [1, 3] if selected_team_role == "away" else [2, 4]
         twc_pick_rounds = [1, 3] if twc_role == "away" else [2, 4]
 
         for round_info in match['rounds']:
             round_number = round_info['n']
             
-            # Determine who picks machines in this round
-            is_selected_team_pick_round = round_number in selected_team_pick_rounds
-            is_twc_pick_round = round_number in twc_pick_rounds
-            
-            # Determine round type (singles or doubles) based on round number
-            # Rounds 1 and 4 are doubles (4 machines, 5 points each)
-            # Rounds 2 and 3 are singles (7 machines, 3 points each)
+            # Determine round type (singles or doubles)
             is_doubles_round = round_number in [1, 4]
-            
-            # Set total possible points per game based on round type
             points_per_game = 5 if is_doubles_round else 3
-            
-            # We'll track machines in this round to ensure we count each unique machine exactly once
+
+            # Track machines in this round
             machines_in_round = set()
-            
-            # Process all games in the round
+
             for game in round_info['games']:
                 machine = standardize_machine_name(game.get('machine', '').lower())
                 if not machine:
@@ -865,41 +897,62 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     if not excluded_machines_for_venue or machine not in excluded_machines_for_venue:
                         recent_machines.add(machine)
 
-                # Only count each machine once per round for pick statistics
-                is_team_pick = is_selected_team_pick_round and machine not in machines_in_round
-                is_twc_pick = is_twc_pick_round and machine not in machines_in_round
-                
-                # Add the machine to our tracking set
+                # Track unique machines
                 machines_in_round.add(machine)
-                
-                # Get points from this specific game
+
+                # Check if game is complete
+                if not game.get('done', False):
+                    continue
+
+                # Determine match team points
                 home_points = game.get('home_points', 0)
                 away_points = game.get('away_points', 0)
 
+                # Process each possible player slot
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
                     score = game.get(f'score_{pos}', 0)
-                    
-                    # Skip if no player or score
+                    player_points = game.get(f'points_{pos}', 0)
+
+                    # Skip if no player or zero score
                     if not player_key or score == 0:
                         continue
-                        
+
                     # Check score limits
                     limit = current_limits.get(machine)
                     if limit is not None and score > limit:
                         continue
-                        
-                    # Get player information
+
+                    # Identify player's team using the new function
+                    player_team = get_player_team(player_key, match)
+                    
+                    # Skip if player team cannot be determined
+                    if player_team is None:
+                        continue
+
+                    # Get player name
                     player_name = get_player_name(player_key, match)
-                    player_team = home_team if any(player['key'] == player_key for player in match['home']['lineup']) else away_team
-                    
-                    # Determine which team this player is on
-                    player_team_role = "home" if player_team == home_team else "away"
-                    
-                    # Get the team points for this specific game
-                    # When a player is on the home team, use home_points; otherwise, use away_points
-                    team_points = home_points if player_team_role == "home" else away_points
-                    
+
+                    # Additional detailed debug information
+                    debug_entry = {
+                        'match_key': match['key'],
+                        'round': round_number,
+                        'machine': machine,
+                        'player_name': player_name,
+                        'player_team': player_team,
+                        'home_team': home_team,
+                        'away_team': away_team,
+                        'home_points': home_points,
+                        'away_points': away_points,
+                        'individual_score': score,
+                        'individual_points': player_points,
+                        'game_type': 'Doubles' if is_doubles_round else 'Singles',
+                        'points_per_game': points_per_game,
+                        'player_key': player_key
+                    }
+                    debug_data.append(debug_entry)
+
+                    # Process the game data
                     processed_data.append({
                         'season': season,
                         'machine': machine,
@@ -911,28 +964,16 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'game_number': game['n'],
                         'venue': match_venue,
                         'picked_by': away_team if round_number in [1, 3] else home_team,
-                        'is_pick': is_team_pick,
-                        'is_pick_twc': is_twc_pick,
+                        'is_pick': round_number in selected_team_pick_rounds,
+                        'is_pick_twc': round_number in twc_pick_rounds,
                         'is_roster_player': is_roster_player(player_name, player_team, team_roster),
                         # Points data
-                        'team_points': team_points,
-                        'round_points': points_per_game,  # Total possible points for this game
-                        'team_role': player_team_role,
+                        'team_points': home_points if player_team == home_team else away_points,
+                        'round_points': points_per_game,
+                        'individual_points': player_points,
+                        'team_role': "home" if player_team == home_team else "away",
                         'is_doubles': is_doubles_round
                     })
-                    debug_entry = {
-                        'match_key': match['key'],
-                        'round': round_number,
-                        'machine': machine,
-                        'player_name': player_name,
-                        'player_team': player_team,
-                        'home_team': home_team,
-                        'away_team': away_team,
-                        'home_points': home_points,
-                        'away_points': away_points,
-                        'team_points': team_points  # The value we're storing
-                    }
-                    debug_data.append(debug_entry)
 
     return pd.DataFrame(processed_data), recent_machines, pd.DataFrame(debug_data)
 
