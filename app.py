@@ -1151,7 +1151,21 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         )
         debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
         result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
-        result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
+        
+        # Safe sorting - check if the column exists before sorting by it
+        # First try to sort by team percentage if it exists
+        if '% of V. Avg.' in result_df.columns:
+            result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
+        # If not, try other columns in order of preference
+        elif 'Team Average' in result_df.columns:
+            result_df = result_df.sort_values('Team Average', ascending=False, na_position='last')
+        elif 'Venue Average' in result_df.columns:
+            result_df = result_df.sort_values('Venue Average', ascending=False, na_position='last')
+        elif 'TWC Average' in result_df.columns:
+            result_df = result_df.sort_values('TWC Average', ascending=False, na_position='last')
+        # If none of the above columns are available, sort by machine name
+        else:
+            result_df = result_df.sort_values('Machine', ascending=True)
         
         # Generate player statistics tables
         team_player_stats, twc_player_stats = generate_player_stats_tables(
