@@ -529,3 +529,51 @@ def update_roster_from_csv(repo_dir, team_name, team_abbr):
 # Initialize the database when the module is imported.
 init_db()
 
+def save_team_roster_to_py(repo_dir, team_abbr, roster):
+    """
+    Save a team's roster to a Python file in the team_rosters directory.
+    
+    Args:
+    - repo_dir: Base repository directory
+    - team_abbr: Team abbreviation
+    - roster: List of player names
+    """
+    # Ensure team_rosters directory exists
+    team_rosters_dir = os.path.join(repo_dir, "team_rosters")
+    os.makedirs(team_rosters_dir, exist_ok=True)
+    
+    # Filename format: (team_abbreviation)_roster.py
+    roster_file_path = os.path.join(team_rosters_dir, f"{team_abbr}_roster.py")
+    
+    try:
+        with open(roster_file_path, 'w', encoding='utf-8') as f:
+            # Write the roster as a Python list
+            f.write(f"# Roster for {team_abbr}\n")
+            f.write("team_roster = [\n")
+            for player in roster:
+                f.write(f"    \"{player}\",\n")
+            f.write("]\n")
+        
+        # Optional: Commit and push changes
+        try:
+            subprocess.run(
+                ["git", "-C", repo_dir, "add", roster_file_path], 
+                capture_output=True, text=True, check=True
+            )
+            subprocess.run(
+                ["git", "-C", repo_dir, "commit", "-m", f"Update roster for {team_abbr}"], 
+                capture_output=True, text=True, check=True
+            )
+            subprocess.run(
+                ["git", "-C", repo_dir, "push"], 
+                capture_output=True, text=True, check=True
+            )
+            return True
+        except subprocess.CalledProcessError as e:
+            print(f"Could not commit/push roster changes: {e}")
+            return False
+    
+    except Exception as e:
+        print(f"Error saving roster for {team_abbr}: {e}")
+        return False
+
