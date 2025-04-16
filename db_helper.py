@@ -6,6 +6,7 @@ import requests
 import streamlit as st
 import glob
 import re
+import importlib.util
 
 # Local database for fallback/development
 DB_FILE = "global_settings.db"
