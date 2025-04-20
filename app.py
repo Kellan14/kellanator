@@ -1870,7 +1870,7 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     return filtered, details
     
 # Update the cell click handling portion of Section 12
-def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue_name, column_config):
+def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue_name, column_config, current_seasons):
     """
     Handle a cell click in the main grid and return the appropriate detailed data.
     """
@@ -1878,8 +1878,15 @@ def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue
     machine = clicked_cell["machine"]
     
     # Get detailed data using the column-specific logic
-    detailed_df = get_detailed_data_for_column(
-        all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config
+    detailed_df, details = get_detailed_data_for_column(
+        all_data_df, 
+        machine, 
+        column, 
+        team_name, 
+        twc_team_name, 
+        venue_name, 
+        column_config,
+        current_seasons
     )
     
     # Create a summary based on the column type
