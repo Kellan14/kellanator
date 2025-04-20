@@ -656,6 +656,7 @@ if st.session_state.get("edit_twc_roster_open", False):
                             edited_roster[i]["name"] = new_name.strip()
                             st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
                             st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                            save_team_roster_to_py(repo_dir, twc_abbr, [e["name"] for e in edited_roster if e["include"]])
                             st.rerun()
         
         # Get players from JSON data for TWC
