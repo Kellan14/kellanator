@@ -15,5 +15,10 @@
   },
   "another castle": {
     "excluded": []
+  },
+  "admiral pub": {
+    "excluded": [
+      "elton john"
+    ]
   }
 }
