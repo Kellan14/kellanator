@@ -989,25 +989,6 @@ def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
         filtered = filtered[filtered['venue'].str.strip() == venue.strip()]
     return filtered
 
-def backfill_stat(df, machine, team, seasons, venue_specific, stat_type, pick_flag='is_pick'):
-    for season in range(seasons[0]-1, 0, -1):
-        backfill_df = filter_data(df, team, (season, season), venue if venue_specific else None)
-        stats = calculate_stats(backfill_df, machine, pick_flag)
-        if stat_type in stats and stats[stat_type] > 0:
-            return stats[stat_type], season
-    return np.nan, None
-
-def format_value(value, backfilled_season=None):
-    if isinstance(value, (int, float)):
-        formatted = f"{value:,.0f}"
-    elif isinstance(value, str):
-        formatted = value
-    else:
-        formatted = "N/A"
-    if backfilled_season is not None:
-        formatted += f"*S{backfilled_season}"
-    return formatted
-
 def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, venue_name, column_config):
     """
     Calculate statistics for a specific column and machine.
@@ -3720,5 +3701,6 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
