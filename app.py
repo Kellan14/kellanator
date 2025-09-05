@@ -2044,103 +2044,33 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
         
         // Handle NaN and "N/A" cases
         if (isNaN(numA) && isNaN(numB)) return 0;
-        if (isNaN(numA) || valueA === "N/A") return -1;  # Changed order for better sorting
-        if (isNaN(numB) || valueB === "N/A") return 1;
+        if (isNaN(numA) || valueA === "N/A") return 1;
+        if (isNaN(numB) || valueB === "N/A") return -1;
         
         // Standard numeric comparison
         return numA - numB;
     }
     """)
     
-    # FIXED: Improved cell renderer with proper width calculation
-    improved_cell_renderer = JsCode("""
-    class ClickCellRenderer {
-        init(params) {
-            this.params = params;
-            this.eGui = document.createElement('div');
-            this.eGui.style.cursor = 'pointer';
-            this.eGui.style.width = '100%';
-            this.eGui.style.height = '100%';
-            this.eGui.style.display = 'flex';
-            this.eGui.style.alignItems = 'center';
-            this.eGui.innerHTML = `<span>${this.params.value || ''}</span>`;
-            this.eGui.addEventListener('click', this.onClick.bind(this));
-        }
-        
-        onClick(event) {
-            const timestamp = new Date().getTime();
-            this.params.setValue(`[clicked:${timestamp}]` + (this.params.value || ''));
-        }
-        
-        getGui() {
-            return this.eGui;
-        }
-        
-        refresh(params) {
-            if (this.eGui && params.value !== undefined) {
-                this.eGui.innerHTML = `<span>${params.value || ''}</span>`;
-            }
-            return true;
-        }
-        
-        destroy() {
-            if (this.eGui) {
-                this.eGui.removeEventListener('click', this.onClick);
-            }
-        }
-    }
-    """)
-    
     # Configure grid options
     gb = GridOptionsBuilder.from_dataframe(formatted_df)
-    
-    # FIXED: Set proper default column configuration
-    gb.configure_default_column(
-        resizable=True,
-        sortable=True,
-        filter=True,
-        autoSize=False,  # Let individual columns handle sizing
-        minWidth=80,     # Minimum width to prevent too-narrow columns
-        flex=0           # Don't use flex by default
-    )
-    
-    # FIXED: Configure Machine column with fixed width instead of autoSize
-    gb.configure_column("Machine", pinned='left', width=150, minWidth=120)
+    gb.configure_default_column(resizable=True, autoSize=True)
+    gb.configure_column("Machine", pinned='left', autoSize=True)
     
     # Apply custom renderer and comparator to each column based on its type
     for col in formatted_df.columns:
         if col.startswith('_'):
             # Hide helper columns
             gb.configure_column(col, hide=True)
-        elif col == "Machine":
-            # Already configured above, just add renderer
-            gb.configure_column(col, cellRenderer=improved_cell_renderer)
         elif "%" in col:
-            # For percentage columns
-            gb.configure_column(
-                col, 
-                cellRenderer=improved_cell_renderer, 
-                comparator=percentage_comparator,
-                autoSize=True,
-                minWidth=80
-            )
+            # For percentage columns, use the percentage comparator
+            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=percentage_comparator)
         elif "Times" in col or "Highest" in col or "Average" in col:
-            # For numeric columns with possible comma formatting
-            gb.configure_column(
-                col, 
-                cellRenderer=improved_cell_renderer, 
-                comparator=number_comparator,
-                autoSize=True,
-                minWidth=100
-            )
+            # For numeric columns with possible comma formatting, use the number comparator
+            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=number_comparator)
         else:
-            # For other columns
-            gb.configure_column(
-                col, 
-                cellRenderer=improved_cell_renderer,
-                autoSize=True,
-                minWidth=80
-            )
+            # For other columns, just use the custom renderer
+            gb.configure_column(col, cellRenderer=BtnCellRenderer)
     
     # Add row styling if color coding is enabled
     if use_color_coding:
@@ -2157,47 +2087,22 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
             """)
         )
 
-    # FIXED: Improved onFirstDataRendered with better timing and error handling
     gb.configure_grid_options(
         onFirstDataRendered=JsCode("""
             function(params) {
-                setTimeout(function() {
-                    try {
-                        var allColumnIds = [];
-                        params.columnApi.getAllColumns().forEach(function(column) {
-                            if (!column.getColDef().hide) {  // Only auto-size visible columns
-                                allColumnIds.push(column.getId());
-                            }
-                        });
-                        
-                        // Auto-size columns except the pinned Machine column
-                        var columnsToSize = allColumnIds.filter(id => id !== 'Machine');
-                        if (columnsToSize.length > 0) {
-                            params.columnApi.autoSizeColumns(columnsToSize, false);
-                        }
-                        
-                        // Force a refresh to ensure proper rendering
-                        params.api.refreshCells();
-                    } catch (error) {
-                        console.warn('Auto-sizing failed:', error);
-                    }
-                }, 100);  // Small delay to ensure DOM is ready
-            }
-        """),
-        # FIXED: Add additional callback for when data changes
-        onGridReady=JsCode("""
-            function(params) {
-                // Store reference for later use
-                window.currentGridApi = params.api;
-                window.currentColumnApi = params.columnApi;
+                var allColumnIds = [];
+                params.columnApi.getAllColumns().forEach(function(column) {
+                    allColumnIds.push(column.getId());
+                });
+                params.columnApi.autoSizeColumns(allColumnIds, false);
             }
         """)
     )
 
+    
     grid_options = gb.build()
     
     return grid_options, formatted_df
-
 
 ##############################################
 # Section 12: "Kellanate" Button, Persistent Output, Cell Selection & Detailed Scores
@@ -3809,8 +3714,6 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
-
-
 
 
 
