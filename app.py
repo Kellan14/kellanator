@@ -2255,6 +2255,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         allow_unsafe_jscode=True,
         columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
         resizable=True,
+        update_mode='VALUE_CHANGED',  # Better update mode for cell clicks
         key=f"main_grid_{use_color_coding}_{'-'.join(map(str, seasons_to_process))}"  # Include seasons in key
     )
     
@@ -3766,6 +3767,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
