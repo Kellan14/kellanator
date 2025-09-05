@@ -151,17 +151,6 @@ def save_machine_mapping(file_path, mapping):
     except Exception as e:
         st.error(f"Error saving machine mapping: {e}")
 
-def update_repo(repo_path):
-    """Runs 'git pull' in the specified repository directory."""
-    try:
-        result = subprocess.run(
-            ["git", "-C", repo_path, "pull"],
-            capture_output=True, text=True, check=True
-        )
-        return result.stdout
-    except subprocess.CalledProcessError as e:
-        return f"An error occurred: {e.stderr}"
-
 st.title("The Kellanator 9000")
 
 ##############################################
@@ -3731,4 +3720,5 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
