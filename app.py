@@ -2251,7 +2251,7 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         formatted_df, 
         gridOptions=grid_options, 
         height=400, 
-        fit_columns_on_grid_load=True,
+        fit_columns_on_grid_load=False,
         allow_unsafe_jscode=True,
         columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
         resizable=True,
@@ -3766,6 +3766,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
