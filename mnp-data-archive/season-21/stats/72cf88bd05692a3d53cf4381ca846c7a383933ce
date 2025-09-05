@@ -40,6 +40,114 @@
     },
     {
       "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 1,
+      "machine": "BOPP",
+      "division": 0,
+      "score": 20860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 507640,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4791010,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 29627830,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 2,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 134460,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 4,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 237390,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-21-12-TWC-ADB",
+      "week": "12",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 130590,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-21-12-TWC-ADB",
+      "week": "12",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 5150770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-21-12-TWC-ADB",
+      "week": "12",
+      "round": 4,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 10406010,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
       "opp": "NMC",
       "match": "mnp-21-2-NMC-TWC",
       "week": "2",
@@ -217,16 +325,52 @@
       "score": 374790,
       "points": 2,
       "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "FBP",
+      "match": "mnp-21-9-FBP-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 15182750,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "TWC",
+      "opp": "FBP",
+      "match": "mnp-21-9-FBP-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "Ali",
+      "division": 0,
+      "score": 51270,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "FBP",
+      "match": "mnp-21-9-FBP-TWC",
+      "week": "9",
+      "round": 3,
+      "machine": "SC",
+      "division": 0,
+      "score": 623210,
+      "points": 2,
+      "pops": "0.666"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.546",
-      "num_matches": 6,
-      "ppm": "4.416",
+      "pops": "0.487",
+      "num_matches": 10,
+      "ppm": "3.950",
       "points": {
-        "won": 26.5,
-        "of": 48.5
+        "won": 39.5,
+        "of": 81
       }
     },
     "div-1": {

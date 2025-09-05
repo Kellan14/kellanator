@@ -40,6 +40,42 @@
     },
     {
       "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 1,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 15287530,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 2,
+      "machine": "SDND",
+      "division": 0,
+      "score": 43386920,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 4,
+      "machine": "SDND",
+      "division": 0,
+      "score": 44263880,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
       "opp": "HHS",
       "match": "mnp-21-2-ICB-HHS",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 9203330,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 1,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 113501210,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 12137050,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 4,
+      "machine": "SDND",
+      "division": 0,
+      "score": 69805240,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 2,
+      "machine": "HW",
+      "division": 0,
+      "score": 13044320,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 131097770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 4,
+      "machine": "SDND",
+      "division": 0,
+      "score": 128354940,
+      "points": 1,
+      "pops": "0.400"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.387",
-      "num_matches": 7,
-      "ppm": "3.214",
+      "pops": "0.430",
+      "num_matches": 10,
+      "ppm": "3.550",
       "points": {
-        "won": 22.5,
-        "of": 58
+        "won": 35.5,
+        "of": 82.5
       }
     },
     "div-1": {

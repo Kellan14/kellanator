@@ -40,6 +40,78 @@
     },
     {
       "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 44087880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 145459310,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 107103550,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 33387530,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 2,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 240840,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 4,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 142600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
       "opp": "JMF",
       "match": "mnp-21-2-JMF-CPO",
       "week": "2",
@@ -253,16 +325,88 @@
       "score": 363740,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 1,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 116968890,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 3,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 129547520,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 17782130,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 57720410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 222820,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 16803930,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.714",
-      "num_matches": 7,
-      "ppm": "5.714",
+      "pops": "0.710",
+      "num_matches": 11,
+      "ppm": "5.681",
       "points": {
-        "won": 40,
-        "of": 56
+        "won": 62.5,
+        "of": 88
       }
     },
     "div-1": {

@@ -40,6 +40,78 @@
     },
     {
       "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "WOF",
+      "division": 0,
+      "score": 5486850,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 210776580,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 827909660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-21-11-SCN-CRA",
+      "week": "11",
+      "round": 1,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 281610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-21-11-SCN-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 100310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-21-11-SCN-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 95600,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
       "opp": "DIH",
       "match": "mnp-21-2-SCN-DIH",
       "week": "2",
@@ -253,16 +325,88 @@
       "score": 682320,
       "points": 1.5,
       "pops": "0.600"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 78600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 56450070,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 338373810,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-21-9-SCN-NLT",
+      "week": "9",
+      "round": 1,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 2533210,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-21-9-SCN-NLT",
+      "week": "9",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 72410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-21-9-SCN-NLT",
+      "week": "9",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 62010600,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.578",
-      "num_matches": 7,
-      "ppm": "4.714",
+      "pops": "0.450",
+      "num_matches": 11,
+      "ppm": "3.681",
       "points": {
-        "won": 33,
-        "of": 57
+        "won": 40.5,
+        "of": 90
       }
     },
     "div-1": {

@@ -40,6 +40,42 @@
     },
     {
       "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 1,
+      "machine": "BOPP",
+      "division": 0,
+      "score": 33380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 3,
+      "machine": "BOPP",
+      "division": 0,
+      "score": 13330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 23000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
       "opp": "SCN",
       "match": "mnp-21-2-SCN-DIH",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 6421970,
       "points": 1.5,
       "pops": "0.600"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 1,
+      "machine": "TWD",
+      "division": 0,
+      "score": 14540630,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 2,
+      "machine": "PHAR",
+      "division": 0,
+      "score": 275270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 3551380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-21-9-DIH-PKT",
+      "week": "9",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 1978460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-21-9-DIH-PKT",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 8917550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "PKT",
+      "match": "mnp-21-9-DIH-PKT",
+      "week": "9",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 258000000,
+      "points": 1,
+      "pops": "0.400"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.283",
-      "num_matches": 7,
-      "ppm": "2.285",
+      "pops": "0.267",
+      "num_matches": 10,
+      "ppm": "2.150",
       "points": {
-        "won": 16,
-        "of": 56.5
+        "won": 21.5,
+        "of": 80.5
       }
     },
     "div-1": {

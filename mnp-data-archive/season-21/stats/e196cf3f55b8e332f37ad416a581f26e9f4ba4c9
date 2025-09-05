@@ -40,6 +40,114 @@
     },
     {
       "team": "POW",
+      "opp": "PKT",
+      "match": "mnp-21-10-PKT-POW",
+      "week": "10",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 4645960,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "PKT",
+      "match": "mnp-21-10-PKT-POW",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 44323810,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "PKT",
+      "match": "mnp-21-10-PKT-POW",
+      "week": "10",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 12316730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "BAD",
+      "match": "mnp-21-11-BAD-POW",
+      "week": "11",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 368422800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "BAD",
+      "match": "mnp-21-11-BAD-POW",
+      "week": "11",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 76500060,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "BAD",
+      "match": "mnp-21-11-BAD-POW",
+      "week": "11",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 15427670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "POW",
+      "opp": "PBR",
+      "match": "mnp-21-12-PBR-POW",
+      "week": "12",
+      "round": 1,
+      "machine": "ChampPub",
+      "division": 0,
+      "score": 12567280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "POW",
+      "opp": "PBR",
+      "match": "mnp-21-12-PBR-POW",
+      "week": "12",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 306308800,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "PBR",
+      "match": "mnp-21-12-PBR-POW",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 420524170,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
       "opp": "ETB",
       "match": "mnp-21-2-ETB-POW",
       "week": "2",
@@ -217,16 +325,52 @@
       "score": 9600460,
       "points": 1,
       "pops": "0.333"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-21-8-POW-SWL",
+      "week": "8",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 438353620,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-21-8-POW-SWL",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 602788760,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "POW",
+      "opp": "SWL",
+      "match": "mnp-21-8-POW-SWL",
+      "week": "8",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 33371630,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.603",
-      "num_matches": 6,
-      "ppm": "5.083",
+      "pops": "0.640",
+      "num_matches": 10,
+      "ppm": "5.350",
       "points": {
-        "won": 30.5,
-        "of": 50.5
+        "won": 53.5,
+        "of": 83.5
       }
     },
     "div-1": {

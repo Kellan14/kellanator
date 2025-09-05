@@ -40,6 +40,78 @@
     },
     {
       "team": "BAD",
+      "opp": "HHS",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "FH",
+      "division": 0,
+      "score": 6758850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "HHS",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 3,
+      "machine": "Ghost",
+      "division": 0,
+      "score": 24239610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "HHS",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 4797760,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "POW",
+      "match": "mnp-21-11-BAD-POW",
+      "week": "11",
+      "round": 1,
+      "machine": "FT",
+      "division": 0,
+      "score": 180545150,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "POW",
+      "match": "mnp-21-11-BAD-POW",
+      "week": "11",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 28021020,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "POW",
+      "match": "mnp-21-11-BAD-POW",
+      "week": "11",
+      "round": 4,
+      "machine": "BSD",
+      "division": 0,
+      "score": 56701310,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "BAD",
       "opp": "DOG",
       "match": "mnp-21-2-DOG-BAD",
       "week": "2",
@@ -253,16 +325,88 @@
       "score": 40988610,
       "points": 1.5,
       "pops": "0.600"
+    },
+    {
+      "team": "BAD",
+      "opp": "JMF",
+      "match": "mnp-21-8-BAD-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 117575870,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "JMF",
+      "match": "mnp-21-8-BAD-JMF",
+      "week": "8",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 270660970,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "BAD",
+      "opp": "JMF",
+      "match": "mnp-21-8-BAD-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "Harlem",
+      "division": 0,
+      "score": 178080,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "CDC",
+      "match": "mnp-21-9-CDC-BAD",
+      "week": "9",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 367246850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "CDC",
+      "match": "mnp-21-9-CDC-BAD",
+      "week": "9",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 125522120,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "BAD",
+      "opp": "CDC",
+      "match": "mnp-21-9-CDC-BAD",
+      "week": "9",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 49684860,
+      "points": 1.5,
+      "pops": "0.600"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.417",
-      "num_matches": 7,
-      "ppm": "3.428",
+      "pops": "0.483",
+      "num_matches": 11,
+      "ppm": "3.954",
       "points": {
-        "won": 24,
-        "of": 57.5
+        "won": 43.5,
+        "of": 90
       }
     },
     "div-1": {

@@ -40,6 +40,78 @@
     },
     {
       "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-21-10-DSV-FBP",
+      "week": "10",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 111520,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-21-10-DSV-FBP",
+      "week": "10",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 7055680,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "FBP",
+      "match": "mnp-21-10-DSV-FBP",
+      "week": "10",
+      "round": 3,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 12662420,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-21-11-DTP-DSV",
+      "week": "11",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 13937520,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-21-11-DTP-DSV",
+      "week": "11",
+      "round": 3,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 140000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DSV",
+      "opp": "DTP",
+      "match": "mnp-21-11-DTP-DSV",
+      "week": "11",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 38842990,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
       "opp": "LAS",
       "match": "mnp-21-2-LAS-DSV",
       "week": "2",
@@ -217,16 +289,88 @@
       "score": 77100,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-21-8-DSV-NLT",
+      "week": "8",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 247663230,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-21-8-DSV-NLT",
+      "week": "8",
+      "round": 2,
+      "machine": "SDND",
+      "division": 0,
+      "score": 252447920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "NLT",
+      "match": "mnp-21-8-DSV-NLT",
+      "week": "8",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 425347500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "Indy",
+      "division": 0,
+      "score": 91898660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 205331500,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DSV",
+      "opp": "PGN",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 74760880,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.580",
-      "num_matches": 6,
-      "ppm": "4.833",
+      "pops": "0.593",
+      "num_matches": 10,
+      "ppm": "4.900",
       "points": {
-        "won": 29,
-        "of": 50
+        "won": 49,
+        "of": 82.5
       }
     },
     "div-1": {

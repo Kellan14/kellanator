@@ -40,6 +40,42 @@
     },
     {
       "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 298600,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 61336610,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "PGN",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 1670960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RTR",
       "opp": "SSS",
       "match": "mnp-21-2-SSS-RTR",
       "week": "2",
@@ -253,16 +289,52 @@
       "score": 99385560,
       "points": 1.5,
       "pops": "0.600"
+    },
+    {
+      "team": "RTR",
+      "opp": "POW",
+      "match": "mnp-21-9-POW-RTR",
+      "week": "9",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 119606540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RTR",
+      "opp": "POW",
+      "match": "mnp-21-9-POW-RTR",
+      "week": "9",
+      "round": 3,
+      "machine": "Taxi",
+      "division": 0,
+      "score": 1086830,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RTR",
+      "opp": "POW",
+      "match": "mnp-21-9-POW-RTR",
+      "week": "9",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 97750090,
+      "points": 0.5,
+      "pops": "0.200"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.278",
-      "num_matches": 7,
-      "ppm": "2.285",
+      "pops": "0.337",
+      "num_matches": 9,
+      "ppm": "2.777",
       "points": {
-        "won": 16,
-        "of": 57.5
+        "won": 25,
+        "of": 74
       }
     },
     "div-1": {

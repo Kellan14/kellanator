@@ -40,6 +40,42 @@
     },
     {
       "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-21-10-TTT-DTP",
+      "week": "10",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 92910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-21-10-TTT-DTP",
+      "week": "10",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 154065430,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "DTP",
+      "match": "mnp-21-10-TTT-DTP",
+      "week": "10",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 834280,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TTT",
       "opp": "PBR",
       "match": "mnp-21-2-PBR-TTT",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 4228530,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-21-8-TTT-CRA",
+      "week": "8",
+      "round": 2,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 271380,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-21-8-TTT-CRA",
+      "week": "8",
+      "round": 3,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 3878940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "CRA",
+      "match": "mnp-21-8-TTT-CRA",
+      "week": "8",
+      "round": 4,
+      "machine": "DRAGON",
+      "division": 0,
+      "score": 236110,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-21-9-SKP-TTT",
+      "week": "9",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 26737800,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-21-9-SKP-TTT",
+      "week": "9",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 47571530,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TTT",
+      "opp": "SKP",
+      "match": "mnp-21-9-SKP-TTT",
+      "week": "9",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 25372040,
+      "points": 1.5,
+      "pops": "0.600"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.412",
-      "num_matches": 7,
-      "ppm": "3.357",
+      "pops": "0.398",
+      "num_matches": 10,
+      "ppm": "3.250",
       "points": {
-        "won": 23.5,
-        "of": 57
+        "won": 32.5,
+        "of": 81.5
       }
     },
     "div-1": {

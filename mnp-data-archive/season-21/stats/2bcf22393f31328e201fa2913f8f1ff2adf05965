@@ -40,6 +40,42 @@
     },
     {
       "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 5000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 2,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 38862590,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DIH",
+      "opp": "TWC",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 41491270,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
       "opp": "SCN",
       "match": "mnp-21-2-SCN-DIH",
       "week": "2",
@@ -181,16 +217,88 @@
       "score": 5385850,
       "points": 1,
       "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 108119710,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 2,
+      "machine": "Genesis",
+      "division": 0,
+      "score": 1180000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 3,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 4249980,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 187626740,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 15812470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 71091000,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.695",
-      "num_matches": 5,
-      "ppm": "5.700",
+      "pops": "0.694",
+      "num_matches": 8,
+      "ppm": "5.687",
       "points": {
-        "won": 28.5,
-        "of": 41
+        "won": 45.5,
+        "of": 65.5
       }
     },
     "div-1": {

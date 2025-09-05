@@ -40,6 +40,42 @@
     },
     {
       "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-21-10-ADB-CDC",
+      "week": "10",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 40795760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-21-10-ADB-CDC",
+      "week": "10",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 12628430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "ADB",
+      "match": "mnp-21-10-ADB-CDC",
+      "week": "10",
+      "round": 4,
+      "machine": "MB",
+      "division": 0,
+      "score": 18836550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
       "opp": "CRA",
       "match": "mnp-21-2-CRA-CDC",
       "week": "2",
@@ -217,16 +253,88 @@
       "score": 15757050,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-21-8-CDC-SKP",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 37169250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-21-8-CDC-SKP",
+      "week": "8",
+      "round": 3,
+      "machine": "Meteor",
+      "division": 0,
+      "score": 163120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "CDC",
+      "opp": "SKP",
+      "match": "mnp-21-8-CDC-SKP",
+      "week": "8",
+      "round": 4,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 42466800,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BAD",
+      "match": "mnp-21-9-CDC-BAD",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 20399930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BAD",
+      "match": "mnp-21-9-CDC-BAD",
+      "week": "9",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 39638550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CDC",
+      "opp": "BAD",
+      "match": "mnp-21-9-CDC-BAD",
+      "week": "9",
+      "round": 4,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 97331500,
+      "points": 2,
+      "pops": "0.800"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.474",
-      "num_matches": 6,
-      "ppm": "3.833",
+      "pops": "0.452",
+      "num_matches": 9,
+      "ppm": "3.666",
       "points": {
-        "won": 23,
-        "of": 48.5
+        "won": 33,
+        "of": 73
       }
     },
     "div-1": {

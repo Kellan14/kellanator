@@ -52,6 +52,42 @@
     },
     {
       "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-21-10-JMF-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "TBL",
+      "division": 0,
+      "score": 867660,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-21-10-JMF-SHK",
+      "week": "10",
+      "round": 3,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 606340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "JMF",
+      "match": "mnp-21-10-JMF-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 64295910,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
       "opp": "KNR",
       "match": "mnp-21-3-SHK-KNR",
       "week": "3",
@@ -229,16 +265,88 @@
       "score": 1270740,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DOG",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 51442430,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "DOG",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 92443870,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "DOG",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 4,
+      "machine": "HW",
+      "division": 0,
+      "score": 54602040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CPO",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 2093008660,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SHK",
+      "opp": "CPO",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "Monopoly",
+      "division": 0,
+      "score": 554570,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SHK",
+      "opp": "CPO",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 4,
+      "machine": "RollerCoaster",
+      "division": 0,
+      "score": 2296760,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.401",
-      "num_matches": 6,
-      "ppm": "3.416",
+      "pops": "0.353",
+      "num_matches": 9,
+      "ppm": "2.944",
       "points": {
-        "won": 20.5,
-        "of": 51
+        "won": 26.5,
+        "of": 75
       }
     },
     "div-1": {

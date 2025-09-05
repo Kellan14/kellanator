@@ -40,6 +40,78 @@
     },
     {
       "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-21-10-LAS-ETB",
+      "week": "10",
+      "round": 1,
+      "machine": "DP",
+      "division": 0,
+      "score": 167017340,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-21-10-LAS-ETB",
+      "week": "10",
+      "round": 3,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 32726100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-21-10-LAS-ETB",
+      "week": "10",
+      "round": 4,
+      "machine": "SDND",
+      "division": 0,
+      "score": 88469670,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-21-11-LAS-PBR",
+      "week": "11",
+      "round": 1,
+      "machine": "MH",
+      "division": 0,
+      "score": 33280,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-21-11-LAS-PBR",
+      "week": "11",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 49708790,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "PBR",
+      "match": "mnp-21-11-LAS-PBR",
+      "week": "11",
+      "round": 4,
+      "machine": "Fathom",
+      "division": 0,
+      "score": 35620,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
       "opp": "DSV",
       "match": "mnp-21-2-LAS-DSV",
       "week": "2",
@@ -217,16 +289,88 @@
       "score": 97021500,
       "points": 1,
       "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 1,
+      "machine": "JB60",
+      "division": 0,
+      "score": 3895,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 2,
+      "machine": "Genesis",
+      "division": 0,
+      "score": 188000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 4,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 310130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "JB60",
+      "division": 0,
+      "score": 1851,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 3,
+      "machine": "Seawitch",
+      "division": 0,
+      "score": 313630,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 4,
+      "machine": "Metallica",
+      "division": 0,
+      "score": 3700000,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.447",
-      "num_matches": 6,
-      "ppm": "3.583",
+      "pops": "0.403",
+      "num_matches": 10,
+      "ppm": "3.250",
       "points": {
-        "won": 21.5,
-        "of": 48
+        "won": 32.5,
+        "of": 80.5
       }
     },
     "div-1": {

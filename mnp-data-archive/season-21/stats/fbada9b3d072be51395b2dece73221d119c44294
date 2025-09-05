@@ -40,6 +40,42 @@
     },
     {
       "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "ACDC",
+      "division": 0,
+      "score": 12000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "LZ",
+      "division": 0,
+      "score": 17602220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 869810,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
       "opp": "ADB",
       "match": "mnp-21-2-RMS-ADB",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 106411230,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 491774410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 3,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 11002600,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 4,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 74723170,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-21-9-CRA-RMS",
+      "week": "9",
+      "round": 1,
+      "machine": "RR",
+      "division": 0,
+      "score": 455385050,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-21-9-CRA-RMS",
+      "week": "9",
+      "round": 3,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 54388800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-21-9-CRA-RMS",
+      "week": "9",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1057487190,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.631",
-      "num_matches": 7,
-      "ppm": "5.142",
+      "pops": "0.611",
+      "num_matches": 10,
+      "ppm": "4.950",
       "points": {
-        "won": 36,
-        "of": 57
+        "won": 49.5,
+        "of": 81
       }
     },
     "div-1": {

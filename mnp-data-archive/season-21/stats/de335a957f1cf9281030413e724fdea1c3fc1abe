@@ -40,6 +40,42 @@
     },
     {
       "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "WCS",
+      "division": 0,
+      "score": 575293550,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "Tron",
+      "division": 0,
+      "score": 7231940,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "SCN",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 4,
+      "machine": "WCS",
+      "division": 0,
+      "score": 126178430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
       "opp": "RTR",
       "match": "mnp-21-2-SSS-RTR",
       "week": "2",
@@ -217,16 +253,88 @@
       "score": 8743610,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-21-8-FBP-SSS",
+      "week": "8",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 156170,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-21-8-FBP-SSS",
+      "week": "8",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 26013030,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "FBP",
+      "match": "mnp-21-8-FBP-SSS",
+      "week": "8",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 52079580,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 19371120,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 606160,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "007",
+      "division": 0,
+      "score": 53589630,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.408",
-      "num_matches": 6,
-      "ppm": "3.333",
+      "pops": "0.439",
+      "num_matches": 9,
+      "ppm": "3.611",
       "points": {
-        "won": 20,
-        "of": 49
+        "won": 32.5,
+        "of": 74
       }
     },
     "div-1": {

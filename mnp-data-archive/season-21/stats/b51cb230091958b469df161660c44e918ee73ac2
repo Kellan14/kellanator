@@ -40,6 +40,42 @@
     },
     {
       "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 691790,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 3,
+      "machine": "VEN",
+      "division": 0,
+      "score": 292909380,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 37725390,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
       "opp": "HHS",
       "match": "mnp-21-2-ICB-HHS",
       "week": "2",
@@ -217,16 +253,88 @@
       "score": 2822060,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 1,
+      "machine": "SDND",
+      "division": 0,
+      "score": 58137220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 100000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 4,
+      "machine": "VEN",
+      "division": 0,
+      "score": 139404420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 84450,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 2,
+      "machine": "CA",
+      "division": 0,
+      "score": 162100,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 3,
+      "machine": "DP",
+      "division": 0,
+      "score": 180323420,
+      "points": 3,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.580",
-      "num_matches": 6,
-      "ppm": "4.833",
+      "pops": "0.577",
+      "num_matches": 9,
+      "ppm": "4.777",
       "points": {
-        "won": 29,
-        "of": 50
+        "won": 43,
+        "of": 74.5
       }
     },
     "div-1": {

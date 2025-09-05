@@ -40,6 +40,42 @@
     },
     {
       "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 1195090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "FT",
+      "division": 0,
+      "score": 26108960,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 13675850,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
       "opp": "TBT",
       "match": "mnp-21-2-TBT-PGN",
       "week": "2",
@@ -265,16 +301,88 @@
       "score": 610760,
       "points": 3,
       "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 28200000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 240000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 37919200,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "BallyTrek",
+      "division": 0,
+      "score": 98680,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 260310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "EBD",
+      "division": 0,
+      "score": 567650,
+      "points": 2,
+      "pops": "0.666"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.500",
-      "num_matches": 7,
-      "ppm": "4.357",
+      "pops": "0.473",
+      "num_matches": 10,
+      "ppm": "4.100",
       "points": {
-        "won": 30.5,
-        "of": 61
+        "won": 41,
+        "of": 86.5
       }
     },
     "div-1": {

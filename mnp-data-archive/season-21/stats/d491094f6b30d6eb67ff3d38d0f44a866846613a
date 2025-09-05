@@ -40,6 +40,42 @@
     },
     {
       "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-21-10-NLT-NMC",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 54269540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-21-10-NLT-NMC",
+      "week": "10",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 131452860,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "NLT",
+      "match": "mnp-21-10-NLT-NMC",
+      "week": "10",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 28068900,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
       "opp": "TWC",
       "match": "mnp-21-2-NMC-TWC",
       "week": "2",
@@ -217,16 +253,88 @@
       "score": 71690,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-21-8-RTR-NMC",
+      "week": "8",
+      "round": 1,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 24052,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-21-8-RTR-NMC",
+      "week": "8",
+      "round": 2,
+      "machine": "WOZ",
+      "division": 0,
+      "score": 50094,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "NMC",
+      "opp": "RTR",
+      "match": "mnp-21-8-RTR-NMC",
+      "week": "8",
+      "round": 4,
+      "machine": "UXMEN",
+      "division": 0,
+      "score": 18787020,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "SWL",
+      "match": "mnp-21-9-NMC-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 12529560,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "NMC",
+      "opp": "SWL",
+      "match": "mnp-21-9-NMC-SWL",
+      "week": "9",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 15171780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "NMC",
+      "opp": "SWL",
+      "match": "mnp-21-9-NMC-SWL",
+      "week": "9",
+      "round": 4,
+      "machine": "Shrek",
+      "division": 0,
+      "score": 5360900,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.360",
-      "num_matches": 6,
-      "ppm": "3.000",
+      "pops": "0.281",
+      "num_matches": 9,
+      "ppm": "2.333",
       "points": {
-        "won": 18,
-        "of": 50
+        "won": 21,
+        "of": 74.5
       }
     },
     "div-1": {

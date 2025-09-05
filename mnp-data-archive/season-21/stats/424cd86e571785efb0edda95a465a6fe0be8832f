@@ -40,6 +40,42 @@
     },
     {
       "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-21-10-LAS-ETB",
+      "week": "10",
+      "round": 1,
+      "machine": "SDND",
+      "division": 0,
+      "score": 159587280,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-21-10-LAS-ETB",
+      "week": "10",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 28290390,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "ETB",
+      "match": "mnp-21-10-LAS-ETB",
+      "week": "10",
+      "round": 4,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 244670,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
       "opp": "TWC",
       "match": "mnp-21-4-LAS-TWC",
       "week": "4",
@@ -181,16 +217,88 @@
       "score": 110092020,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 44950860,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 3,
+      "machine": "Mousin",
+      "division": 0,
+      "score": 1831760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "DIH",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 4,
+      "machine": "CV",
+      "division": 0,
+      "score": 9941770,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 7000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "SG",
+      "division": 0,
+      "score": 799270,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "LAS",
+      "opp": "TBT",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 4,
+      "machine": "Dragonfist",
+      "division": 0,
+      "score": 129030,
+      "points": 1.5,
+      "pops": "0.600"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.592",
-      "num_matches": 5,
-      "ppm": "4.800",
+      "pops": "0.534",
+      "num_matches": 8,
+      "ppm": "4.312",
       "points": {
-        "won": 24,
-        "of": 40.5
+        "won": 34.5,
+        "of": 64.5
       }
     },
     "div-1": {

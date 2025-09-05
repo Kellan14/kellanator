@@ -40,6 +40,42 @@
     },
     {
       "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 23682380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "PULP",
+      "division": 0,
+      "score": 342940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 12732540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
       "opp": "TBT",
       "match": "mnp-21-2-TBT-PGN",
       "week": "2",
@@ -253,16 +289,52 @@
       "score": 3496610,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 16195040,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 2,
+      "machine": "CFTBL",
+      "division": 0,
+      "score": 35769200,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "PGN",
+      "opp": "SCN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 246000,
+      "points": 1,
+      "pops": "0.400"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.265",
-      "num_matches": 7,
-      "ppm": "2.142",
+      "pops": "0.331",
+      "num_matches": 9,
+      "ppm": "2.666",
       "points": {
-        "won": 15,
-        "of": 56.5
+        "won": 24,
+        "of": 72.5
       }
     },
     "div-1": {

@@ -40,6 +40,114 @@
     },
     {
       "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-21-10-SWL-TBT",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 109184860,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-21-10-SWL-TBT",
+      "week": "10",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 14777250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "TBT",
+      "match": "mnp-21-10-SWL-TBT",
+      "week": "10",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 172756430,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PYC",
+      "match": "mnp-21-11-PYC-SWL",
+      "week": "11",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 22487310,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PYC",
+      "match": "mnp-21-11-PYC-SWL",
+      "week": "11",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 206267830,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "PYC",
+      "match": "mnp-21-11-PYC-SWL",
+      "week": "11",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 171344680,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "NLT",
+      "match": "mnp-21-12-SWL-NLT",
+      "week": "12",
+      "round": 1,
+      "machine": "SDND",
+      "division": 0,
+      "score": 290472570,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "NLT",
+      "match": "mnp-21-12-SWL-NLT",
+      "week": "12",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 114004990,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "NLT",
+      "match": "mnp-21-12-SWL-NLT",
+      "week": "12",
+      "round": 4,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 2220084420,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
       "opp": "FBP",
       "match": "mnp-21-2-SWL-FBP",
       "week": "2",
@@ -253,16 +361,88 @@
       "score": 112050440,
       "points": 1,
       "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-21-8-POW-SWL",
+      "week": "8",
+      "round": 2,
+      "machine": "TAF",
+      "division": 0,
+      "score": 150973360,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-21-8-POW-SWL",
+      "week": "8",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 501613850,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "POW",
+      "match": "mnp-21-8-POW-SWL",
+      "week": "8",
+      "round": 4,
+      "machine": "TAF",
+      "division": 0,
+      "score": 49802220,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SWL",
+      "opp": "NMC",
+      "match": "mnp-21-9-NMC-SWL",
+      "week": "9",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 55346780,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SWL",
+      "opp": "NMC",
+      "match": "mnp-21-9-NMC-SWL",
+      "week": "9",
+      "round": 2,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 107454370,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SWL",
+      "opp": "NMC",
+      "match": "mnp-21-9-NMC-SWL",
+      "week": "9",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 165690620,
+      "points": 1,
+      "pops": "0.400"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.587",
-      "num_matches": 7,
-      "ppm": "4.785",
+      "pops": "0.617",
+      "num_matches": 12,
+      "ppm": "5.041",
       "points": {
-        "won": 33.5,
-        "of": 57
+        "won": 60.5,
+        "of": 98
       }
     },
     "div-1": {

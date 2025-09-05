@@ -73,16 +73,88 @@
       "score": 192060250,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 1,
+      "machine": "FOO",
+      "division": 0,
+      "score": 64296470,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 2,
+      "machine": "Wonka",
+      "division": 0,
+      "score": 445110,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DIH",
+      "opp": "LAS",
+      "match": "mnp-21-8-DIH-LAS",
+      "week": "8",
+      "round": 3,
+      "machine": "Indy500",
+      "division": 0,
+      "score": 384976130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 2,
+      "machine": "SC",
+      "division": 0,
+      "score": 282940,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 3,
+      "machine": "SC",
+      "division": 0,
+      "score": 500610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSS",
+      "opp": "ETB",
+      "match": "mnp-21-9-ETB-SSS",
+      "week": "9",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 262970,
+      "points": 1,
+      "pops": "0.400"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.764",
-      "num_matches": 2,
-      "ppm": "6.500",
+      "pops": "0.647",
+      "num_matches": 4,
+      "ppm": "5.500",
       "points": {
-        "won": 13,
-        "of": 17
+        "won": 22,
+        "of": 34
       }
     },
     "div-1": {

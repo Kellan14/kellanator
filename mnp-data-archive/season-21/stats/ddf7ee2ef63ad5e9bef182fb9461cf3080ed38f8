@@ -40,6 +40,42 @@
     },
     {
       "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 1,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 122716800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 341130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "KNR",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 44000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
       "opp": "ADB",
       "match": "mnp-21-2-RMS-ADB",
       "week": "2",
@@ -217,16 +253,88 @@
       "score": 2081130,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 65658580,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 2,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 524000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "DTP",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 3,
+      "machine": "AFM",
+      "division": 0,
+      "score": 866598340,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-21-9-CRA-RMS",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 1146208380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-21-9-CRA-RMS",
+      "week": "9",
+      "round": 2,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10061030,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "RMS",
+      "opp": "CRA",
+      "match": "mnp-21-9-CRA-RMS",
+      "week": "9",
+      "round": 4,
+      "machine": "MarsTrek",
+      "division": 0,
+      "score": 351500,
+      "points": 1,
+      "pops": "0.400"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.530",
-      "num_matches": 6,
-      "ppm": "4.333",
+      "pops": "0.442",
+      "num_matches": 9,
+      "ppm": "3.611",
       "points": {
-        "won": 26,
-        "of": 49
+        "won": 32.5,
+        "of": 73.5
       }
     },
     "div-1": {

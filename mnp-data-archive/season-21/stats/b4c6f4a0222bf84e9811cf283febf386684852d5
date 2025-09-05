@@ -40,6 +40,114 @@
     },
     {
       "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-21-10-TTT-DTP",
+      "week": "10",
+      "round": 1,
+      "machine": "Paragon",
+      "division": 0,
+      "score": 1,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-21-10-TTT-DTP",
+      "week": "10",
+      "round": 2,
+      "machine": "POTC",
+      "division": 0,
+      "score": 18438600,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "TTT",
+      "match": "mnp-21-10-TTT-DTP",
+      "week": "10",
+      "round": 4,
+      "machine": "POTC",
+      "division": 0,
+      "score": 7922740,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-21-11-DTP-DSV",
+      "week": "11",
+      "round": 2,
+      "machine": "FOO",
+      "division": 0,
+      "score": 7309430,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-21-11-DTP-DSV",
+      "week": "11",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 434134640,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "DSV",
+      "match": "mnp-21-11-DTP-DSV",
+      "week": "11",
+      "round": 4,
+      "machine": "Tron",
+      "division": 0,
+      "score": 12993930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-21-12-DTP-CRA",
+      "week": "12",
+      "round": 1,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 57595660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-21-12-DTP-CRA",
+      "week": "12",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1000000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "CRA",
+      "match": "mnp-21-12-DTP-CRA",
+      "week": "12",
+      "round": 4,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 496360150,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DTP",
       "opp": "PYC",
       "match": "mnp-21-2-PYC-DTP",
       "week": "2",
@@ -181,16 +289,88 @@
       "score": 693663020,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 1,
+      "machine": "SDND",
+      "division": 0,
+      "score": 190420480,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 2,
+      "machine": "JW",
+      "division": 0,
+      "score": 20740770,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "RMS",
+      "match": "mnp-21-8-DTP-RMS",
+      "week": "8",
+      "round": 4,
+      "machine": "JW",
+      "division": 0,
+      "score": 11312050,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "FH",
+      "division": 0,
+      "score": 1683010,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 192831320,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DTP",
+      "opp": "HHS",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "FH",
+      "division": 0,
+      "score": 1375070,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.679",
-      "num_matches": 5,
-      "ppm": "5.500",
+      "pops": "0.644",
+      "num_matches": 10,
+      "ppm": "5.250",
       "points": {
-        "won": 27.5,
-        "of": 40.5
+        "won": 52.5,
+        "of": 81.5
       }
     },
     "div-1": {

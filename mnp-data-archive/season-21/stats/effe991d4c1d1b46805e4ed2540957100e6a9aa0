@@ -40,6 +40,42 @@
     },
     {
       "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 27355610,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 45818410,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PGN",
+      "opp": "RTR",
+      "match": "mnp-21-10-RTR-PGN",
+      "week": "10",
+      "round": 4,
+      "machine": "LOTR",
+      "division": 0,
+      "score": 17844380,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
       "opp": "TBT",
       "match": "mnp-21-2-TBT-PGN",
       "week": "2",
@@ -217,16 +253,52 @@
       "score": 7668300,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 1,
+      "machine": "TAF",
+      "division": 0,
+      "score": 75900090,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 67245900,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PGN",
+      "opp": "DSV",
+      "match": "mnp-21-9-PGN-DSV",
+      "week": "9",
+      "round": 3,
+      "machine": "TAF",
+      "division": 0,
+      "score": 74274430,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.571",
-      "num_matches": 6,
-      "ppm": "4.666",
+      "pops": "0.575",
+      "num_matches": 8,
+      "ppm": "4.750",
       "points": {
-        "won": 28,
-        "of": 49
+        "won": 38,
+        "of": 66
       }
     },
     "div-1": {

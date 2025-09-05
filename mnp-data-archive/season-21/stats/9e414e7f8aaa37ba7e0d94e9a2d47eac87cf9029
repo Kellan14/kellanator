@@ -40,6 +40,150 @@
     },
     {
       "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 2,
+      "machine": "TZ",
+      "division": 0,
+      "score": 136900000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 3,
+      "machine": "TWD",
+      "division": 0,
+      "score": 12876170,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "KNR",
+      "opp": "RMS",
+      "match": "mnp-21-10-RMS-KNR",
+      "week": "10",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 223500,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-21-11-KNR-NLT",
+      "week": "11",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 86418690,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-21-11-KNR-NLT",
+      "week": "11",
+      "round": 2,
+      "machine": "GOT",
+      "division": 0,
+      "score": 317547990,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "NLT",
+      "match": "mnp-21-11-KNR-NLT",
+      "week": "11",
+      "round": 3,
+      "machine": "TZ",
+      "division": 0,
+      "score": 277663760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "KNR",
+      "opp": "BAD",
+      "match": "mnp-21-12-BAD-KNR",
+      "week": "12",
+      "round": 1,
+      "machine": "TZ",
+      "division": 0,
+      "score": 92714760,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "KNR",
+      "opp": "BAD",
+      "match": "mnp-21-12-BAD-KNR",
+      "week": "12",
+      "round": 3,
+      "machine": "WCS",
+      "division": 0,
+      "score": 171005330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "BAD",
+      "match": "mnp-21-12-BAD-KNR",
+      "week": "12",
+      "round": 4,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 423490,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-21-13-KNR-PYC",
+      "week": "13",
+      "round": 1,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 46755230,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-21-13-KNR-PYC",
+      "week": "13",
+      "round": 2,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 25768920,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "PYC",
+      "match": "mnp-21-13-KNR-PYC",
+      "week": "13",
+      "round": 4,
+      "machine": "TWD",
+      "division": 0,
+      "score": 9123360,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "KNR",
       "opp": "SSD",
       "match": "mnp-21-2-KNR-SSD",
       "week": "2",
@@ -217,16 +361,52 @@
       "score": 17036570,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-21-9-KNR-JMF",
+      "week": "9",
+      "round": 1,
+      "machine": "SS",
+      "division": 0,
+      "score": 912280,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-21-9-KNR-JMF",
+      "week": "9",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 804011000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "KNR",
+      "opp": "JMF",
+      "match": "mnp-21-9-KNR-JMF",
+      "week": "9",
+      "round": 4,
+      "machine": "Embryon",
+      "division": 0,
+      "score": 158490,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.531",
-      "num_matches": 6,
-      "ppm": "4.250",
+      "pops": "0.477",
+      "num_matches": 11,
+      "ppm": "3.863",
       "points": {
-        "won": 25.5,
-        "of": 48
+        "won": 42.5,
+        "of": 89
       }
     },
     "div-1": {

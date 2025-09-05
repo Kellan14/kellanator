@@ -40,6 +40,78 @@
     },
     {
       "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 41523140,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 2,
+      "machine": "007",
+      "division": 0,
+      "score": 29241220,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SSD",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 110314470,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 14636770,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 17551550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "TWC",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10265430,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "CPO",
       "opp": "JMF",
       "match": "mnp-21-2-JMF-CPO",
       "week": "2",
@@ -253,16 +325,88 @@
       "score": 4477510,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 1,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 4340250,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 2,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 4708920,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "ICB",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 13169130,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 281880,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 2,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 14378640,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "CPO",
+      "opp": "SHK",
+      "match": "mnp-21-9-SHK-CPO",
+      "week": "9",
+      "round": 3,
+      "machine": "BM66",
+      "division": 0,
+      "score": 6084200,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.376",
-      "num_matches": 7,
-      "ppm": "3.142",
+      "pops": "0.356",
+      "num_matches": 11,
+      "ppm": "3.000",
       "points": {
-        "won": 22,
-        "of": 58.5
+        "won": 33,
+        "of": 92.5
       }
     },
     "div-1": {

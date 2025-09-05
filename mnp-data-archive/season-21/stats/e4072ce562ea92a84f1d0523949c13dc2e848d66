@@ -40,6 +40,42 @@
     },
     {
       "team": "DOG",
+      "opp": "CRA",
+      "match": "mnp-21-10-DOG-CRA",
+      "week": "10",
+      "round": 1,
+      "machine": "MM",
+      "division": 0,
+      "score": 20361090,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "CRA",
+      "match": "mnp-21-10-DOG-CRA",
+      "week": "10",
+      "round": 2,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 76410,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "CRA",
+      "match": "mnp-21-10-DOG-CRA",
+      "week": "10",
+      "round": 3,
+      "machine": "MM",
+      "division": 0,
+      "score": 8572250,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
       "opp": "BAD",
       "match": "mnp-21-2-DOG-BAD",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 23998040,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "SHK",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 1,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 4275010,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DOG",
+      "opp": "SHK",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 282000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DOG",
+      "opp": "SHK",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 959379330,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "ICB",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 2,
+      "machine": "AFM",
+      "division": 0,
+      "score": 4049362240,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "ICB",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 3,
+      "machine": "SDND",
+      "division": 0,
+      "score": 58245700,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "ICB",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 4,
+      "machine": "AFM",
+      "division": 0,
+      "score": 4251913360,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.333",
-      "num_matches": 7,
-      "ppm": "2.714",
+      "pops": "0.323",
+      "num_matches": 10,
+      "ppm": "2.650",
       "points": {
-        "won": 19,
-        "of": 57
+        "won": 26.5,
+        "of": 82
       }
     },
     "div-1": {

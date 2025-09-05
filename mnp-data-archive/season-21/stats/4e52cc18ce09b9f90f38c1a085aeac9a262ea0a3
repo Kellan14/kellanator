@@ -40,6 +40,42 @@
     },
     {
       "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 50000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 3,
+      "machine": "BKSoR",
+      "division": 0,
+      "score": 25837100,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "PYC",
+      "match": "mnp-21-10-PYC-ICB",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 57549400,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
       "opp": "HHS",
       "match": "mnp-21-2-ICB-HHS",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 19788970,
       "points": 0,
       "pops": "0.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 137717220,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 3,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 55929910,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "ICB",
+      "opp": "CPO",
+      "match": "mnp-21-8-CPO-ICB",
+      "week": "8",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 156649160,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 44877040,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 3,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 15624520,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "ICB",
+      "opp": "DOG",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 4,
+      "machine": "HW",
+      "division": 0,
+      "score": 19236890,
+      "points": 0,
+      "pops": "0.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.474",
-      "num_matches": 7,
-      "ppm": "3.928",
+      "pops": "0.473",
+      "num_matches": 10,
+      "ppm": "3.950",
       "points": {
-        "won": 27.5,
-        "of": 58
+        "won": 39.5,
+        "of": 83.5
       }
     },
     "div-1": {

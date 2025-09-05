@@ -40,6 +40,42 @@
     },
     {
       "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 267770,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 2,
+      "machine": "TSPP",
+      "division": 0,
+      "score": 1569890,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "CPO",
+      "match": "mnp-21-10-CPO-SSD",
+      "week": "10",
+      "round": 3,
+      "machine": "007",
+      "division": 0,
+      "score": 23845460,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
       "opp": "KNR",
       "match": "mnp-21-2-KNR-SSD",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 1998080,
       "points": 1,
       "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "PYC",
+      "match": "mnp-21-8-SSD-PYC",
+      "week": "8",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 8484230,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "PYC",
+      "match": "mnp-21-8-SSD-PYC",
+      "week": "8",
+      "round": 2,
+      "machine": "Jackbot",
+      "division": 0,
+      "score": 395763990,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SSD",
+      "opp": "PYC",
+      "match": "mnp-21-8-SSD-PYC",
+      "week": "8",
+      "round": 3,
+      "machine": "T2",
+      "division": 0,
+      "score": 7604190,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SSD",
+      "opp": "ADB",
+      "match": "mnp-21-9-SSD-ADB",
+      "week": "9",
+      "round": 1,
+      "machine": "ElviraHouseOfHorrors",
+      "division": 0,
+      "score": 46404610,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "SSD",
+      "opp": "ADB",
+      "match": "mnp-21-9-SSD-ADB",
+      "week": "9",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 39081120,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "SSD",
+      "opp": "ADB",
+      "match": "mnp-21-9-SSD-ADB",
+      "week": "9",
+      "round": 3,
+      "machine": "CactusCanyon",
+      "division": 0,
+      "score": 10718140,
+      "points": 2,
+      "pops": "0.666"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.389",
-      "num_matches": 7,
-      "ppm": "3.285",
+      "pops": "0.355",
+      "num_matches": 10,
+      "ppm": "3.000",
       "points": {
-        "won": 23,
-        "of": 59
+        "won": 30,
+        "of": 84.5
       }
     },
     "div-1": {

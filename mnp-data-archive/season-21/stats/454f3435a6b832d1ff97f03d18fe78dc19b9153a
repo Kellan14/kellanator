@@ -40,6 +40,42 @@
     },
     {
       "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-21-10-JMF-SHK",
+      "week": "10",
+      "round": 1,
+      "machine": "TBL",
+      "division": 0,
+      "score": 12088540,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-21-10-JMF-SHK",
+      "week": "10",
+      "round": 2,
+      "machine": "IronMaiden",
+      "division": 0,
+      "score": 125053860,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "JMF",
+      "opp": "SHK",
+      "match": "mnp-21-10-JMF-SHK",
+      "week": "10",
+      "round": 4,
+      "machine": "Jaws",
+      "division": 0,
+      "score": 33230290,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "JMF",
       "opp": "CPO",
       "match": "mnp-21-2-JMF-CPO",
       "week": "2",
@@ -145,16 +181,88 @@
       "score": 8253510,
       "points": 1.5,
       "pops": "0.600"
+    },
+    {
+      "team": "JMF",
+      "opp": "BAD",
+      "match": "mnp-21-8-BAD-JMF",
+      "week": "8",
+      "round": 1,
+      "machine": "Spiderman",
+      "division": 0,
+      "score": 18819950,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "BAD",
+      "match": "mnp-21-8-BAD-JMF",
+      "week": "8",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 307816070,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "BAD",
+      "match": "mnp-21-8-BAD-JMF",
+      "week": "8",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 493930,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-21-9-KNR-JMF",
+      "week": "9",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 187690,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-21-9-KNR-JMF",
+      "week": "9",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 5898930,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "JMF",
+      "opp": "KNR",
+      "match": "mnp-21-9-KNR-JMF",
+      "week": "9",
+      "round": 4,
+      "machine": "Hotdoggin'",
+      "division": 0,
+      "score": 270490,
+      "points": 1.5,
+      "pops": "0.600"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.446",
-      "num_matches": 4,
-      "ppm": "3.625",
+      "pops": "0.513",
+      "num_matches": 7,
+      "ppm": "4.142",
       "points": {
-        "won": 14.5,
-        "of": 32.5
+        "won": 29,
+        "of": 56.5
       }
     },
     "div-1": {

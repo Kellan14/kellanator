@@ -40,6 +40,42 @@
     },
     {
       "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-21-10-SWL-TBT",
+      "week": "10",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 32715450,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-21-10-SWL-TBT",
+      "week": "10",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 53725490,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "SWL",
+      "match": "mnp-21-10-SWL-TBT",
+      "week": "10",
+      "round": 4,
+      "machine": "TOTAN",
+      "division": 0,
+      "score": 781560,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
       "opp": "PGN",
       "match": "mnp-21-2-TBT-PGN",
       "week": "2",
@@ -217,16 +253,88 @@
       "score": 13093060,
       "points": 1,
       "pops": "0.333"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-21-8-PKT-TBT",
+      "week": "8",
+      "round": 1,
+      "machine": "PULP",
+      "division": 0,
+      "score": 88800,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-21-8-PKT-TBT",
+      "week": "8",
+      "round": 2,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 45558540,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "PKT",
+      "match": "mnp-21-8-PKT-TBT",
+      "week": "8",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 63000000,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "LAS",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 1,
+      "machine": "MB",
+      "division": 0,
+      "score": 14000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TBT",
+      "opp": "LAS",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 2,
+      "machine": "DollyParton",
+      "division": 0,
+      "score": 28460,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TBT",
+      "opp": "LAS",
+      "match": "mnp-21-9-TBT-LAS",
+      "week": "9",
+      "round": 3,
+      "machine": "Cheetah",
+      "division": 0,
+      "score": 499680,
+      "points": 3,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.220",
-      "num_matches": 6,
-      "ppm": "1.833",
+      "pops": "0.300",
+      "num_matches": 9,
+      "ppm": "2.500",
       "points": {
-        "won": 11,
-        "of": 50
+        "won": 22.5,
+        "of": 75
       }
     },
     "div-1": {

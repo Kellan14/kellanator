@@ -40,6 +40,42 @@
     },
     {
       "team": "HHS",
+      "opp": "BAD",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 600890,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "BAD",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 3222310,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "BAD",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 33714930,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
       "opp": "ICB",
       "match": "mnp-21-2-ICB-HHS",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 3518947810,
       "points": 3,
       "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-21-8-HHS-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "WCS",
+      "division": 0,
+      "score": 57138550,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-21-8-HHS-KNR",
+      "week": "8",
+      "round": 2,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 279310,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-21-8-HHS-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "DialedIn",
+      "division": 0,
+      "score": 115920,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "AFM",
+      "division": 0,
+      "score": 870000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 122610,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "BlackRose",
+      "division": 0,
+      "score": 22373180,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.336",
-      "num_matches": 7,
-      "ppm": "2.785",
+      "pops": "0.351",
+      "num_matches": 10,
+      "ppm": "2.900",
       "points": {
-        "won": 19.5,
-        "of": 58
+        "won": 29,
+        "of": 82.5
       }
     },
     "div-1": {

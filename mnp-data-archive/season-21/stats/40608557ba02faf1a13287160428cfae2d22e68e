@@ -40,6 +40,78 @@
     },
     {
       "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 1,
+      "machine": "LZ",
+      "division": 0,
+      "score": 51687000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 2,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 51244780,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "SSS",
+      "match": "mnp-21-10-SSS-SCN",
+      "week": "10",
+      "round": 3,
+      "machine": "JW",
+      "division": 0,
+      "score": 10000000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-21-11-SCN-CRA",
+      "week": "11",
+      "round": 2,
+      "machine": "STMNT",
+      "division": 0,
+      "score": 16953120,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-21-11-SCN-CRA",
+      "week": "11",
+      "round": 3,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 69965380,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "CRA",
+      "match": "mnp-21-11-SCN-CRA",
+      "week": "11",
+      "round": 4,
+      "machine": "Sopranos",
+      "division": 0,
+      "score": 15862000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "SCN",
       "opp": "DIH",
       "match": "mnp-21-2-SCN-DIH",
       "week": "2",
@@ -217,16 +289,88 @@
       "score": 1456765840,
       "points": 1,
       "pops": "0.400"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 373926140,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 3,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 143103020,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "PGN",
+      "match": "mnp-21-8-PGN-SCN",
+      "week": "8",
+      "round": 4,
+      "machine": "SternPark",
+      "division": 0,
+      "score": 385755660,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-21-9-SCN-NLT",
+      "week": "9",
+      "round": 1,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 151000130,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-21-9-SCN-NLT",
+      "week": "9",
+      "round": 2,
+      "machine": "SternWars",
+      "division": 0,
+      "score": 13987150,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "SCN",
+      "opp": "NLT",
+      "match": "mnp-21-9-SCN-NLT",
+      "week": "9",
+      "round": 3,
+      "machine": "DrWho",
+      "division": 0,
+      "score": 337049070,
+      "points": 1,
+      "pops": "0.333"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.639",
-      "num_matches": 6,
-      "ppm": "5.166",
+      "pops": "0.591",
+      "num_matches": 10,
+      "ppm": "4.850",
       "points": {
-        "won": 31,
-        "of": 48.5
+        "won": 48.5,
+        "of": 82
       }
     },
     "div-1": {

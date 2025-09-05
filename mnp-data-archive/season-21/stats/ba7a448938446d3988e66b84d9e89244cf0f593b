@@ -40,6 +40,42 @@
     },
     {
       "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-21-10-PKT-POW",
+      "week": "10",
+      "round": 2,
+      "machine": "AIQ",
+      "division": 0,
+      "score": 118649390,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-21-10-PKT-POW",
+      "week": "10",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 1213861000,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "POW",
+      "match": "mnp-21-10-PKT-POW",
+      "week": "10",
+      "round": 4,
+      "machine": "Genesis",
+      "division": 0,
+      "score": 1040270,
+      "points": 2,
+      "pops": "0.800"
+    },
+    {
+      "team": "PKT",
       "opp": "NLT",
       "match": "mnp-21-2-NLT-PKT",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 4814365670,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-21-8-PKT-TBT",
+      "week": "8",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 579630750,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-21-8-PKT-TBT",
+      "week": "8",
+      "round": 2,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 953787180,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "TBT",
+      "match": "mnp-21-8-PKT-TBT",
+      "week": "8",
+      "round": 4,
+      "machine": "TZ",
+      "division": 0,
+      "score": 191000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-21-9-DIH-PKT",
+      "week": "9",
+      "round": 1,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 257630730,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-21-9-DIH-PKT",
+      "week": "9",
+      "round": 3,
+      "machine": "Godzilla",
+      "division": 0,
+      "score": 100899960,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "PKT",
+      "opp": "DIH",
+      "match": "mnp-21-9-DIH-PKT",
+      "week": "9",
+      "round": 4,
+      "machine": "TOM",
+      "division": 0,
+      "score": 481000000,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.848",
-      "num_matches": 7,
-      "ppm": "6.785",
+      "pops": "0.863",
+      "num_matches": 10,
+      "ppm": "6.950",
       "points": {
-        "won": 47.5,
-        "of": 56
+        "won": 69.5,
+        "of": 80.5
       }
     },
     "div-1": {

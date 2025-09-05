@@ -40,6 +40,42 @@
     },
     {
       "team": "HHS",
+      "opp": "BAD",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 150120,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "BAD",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 1050740,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "BAD",
+      "match": "mnp-21-10-BAD-HHS",
+      "week": "10",
+      "round": 4,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 445340,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "HHS",
       "opp": "ICB",
       "match": "mnp-21-2-ICB-HHS",
       "week": "2",
@@ -253,16 +289,88 @@
       "score": 164030,
       "points": 1.5,
       "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-21-8-HHS-KNR",
+      "week": "8",
+      "round": 1,
+      "machine": "8Ball",
+      "division": 0,
+      "score": 106000,
+      "points": 1.5,
+      "pops": "0.600"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-21-8-HHS-KNR",
+      "week": "8",
+      "round": 3,
+      "machine": "Indy",
+      "division": 0,
+      "score": 32954760,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "HHS",
+      "opp": "KNR",
+      "match": "mnp-21-8-HHS-KNR",
+      "week": "8",
+      "round": 4,
+      "machine": "Ali",
+      "division": 0,
+      "score": 249850,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 1,
+      "machine": "EBD",
+      "division": 0,
+      "score": 386180,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 2,
+      "machine": "Elvira",
+      "division": 0,
+      "score": 829790,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "HHS",
+      "opp": "DTP",
+      "match": "mnp-21-9-DTP-HHS",
+      "week": "9",
+      "round": 4,
+      "machine": "Blackout",
+      "division": 0,
+      "score": 128000,
+      "points": 1.5,
+      "pops": "0.600"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.377",
-      "num_matches": 7,
-      "ppm": "3.071",
+      "pops": "0.413",
+      "num_matches": 10,
+      "ppm": "3.350",
       "points": {
-        "won": 21.5,
-        "of": 57
+        "won": 33.5,
+        "of": 81
       }
     },
     "div-1": {

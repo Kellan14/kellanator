@@ -40,6 +40,114 @@
     },
     {
       "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 118000000,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 254085810,
+      "points": 3,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "DIH",
+      "match": "mnp-21-10-TWC-DIH",
+      "week": "10",
+      "round": 4,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 55170490,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 1,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1295015260,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 2,
+      "machine": "Jurassic",
+      "division": 0,
+      "score": 380000000,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "CPO",
+      "match": "mnp-21-11-TWC-CPO",
+      "week": "11",
+      "round": 3,
+      "machine": "GOT",
+      "division": 0,
+      "score": 1000000000,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-21-12-TWC-ADB",
+      "week": "12",
+      "round": 1,
+      "machine": "Guardians",
+      "division": 0,
+      "score": 240756100,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-21-12-TWC-ADB",
+      "week": "12",
+      "round": 3,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 351817680,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "ADB",
+      "match": "mnp-21-12-TWC-ADB",
+      "week": "12",
+      "round": 4,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 8438540,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
       "opp": "NMC",
       "match": "mnp-21-2-NMC-TWC",
       "week": "2",
@@ -253,16 +361,88 @@
       "score": 27962700,
       "points": 0.5,
       "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "ETB",
+      "match": "mnp-21-8-TWC-ETB",
+      "week": "8",
+      "round": 1,
+      "machine": "Mandalorian",
+      "division": 0,
+      "score": 229518310,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "ETB",
+      "match": "mnp-21-8-TWC-ETB",
+      "week": "8",
+      "round": 2,
+      "machine": "VEN",
+      "division": 0,
+      "score": 135760730,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "TWC",
+      "opp": "ETB",
+      "match": "mnp-21-8-TWC-ETB",
+      "week": "8",
+      "round": 3,
+      "machine": "VEN",
+      "division": 0,
+      "score": 26509760,
+      "points": 0,
+      "pops": "0.000"
+    },
+    {
+      "team": "TWC",
+      "opp": "FBP",
+      "match": "mnp-21-9-FBP-TWC",
+      "week": "9",
+      "round": 1,
+      "machine": "StrangerThings",
+      "division": 0,
+      "score": 44077400,
+      "points": 0.5,
+      "pops": "0.200"
+    },
+    {
+      "team": "TWC",
+      "opp": "FBP",
+      "match": "mnp-21-9-FBP-TWC",
+      "week": "9",
+      "round": 2,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 153832500,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "TWC",
+      "opp": "FBP",
+      "match": "mnp-21-9-FBP-TWC",
+      "week": "9",
+      "round": 4,
+      "machine": "SEGAGOD",
+      "division": 0,
+      "score": 42363250,
+      "points": 1,
+      "pops": "0.400"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.447",
-      "num_matches": 7,
-      "ppm": "3.642",
+      "pops": "0.505",
+      "num_matches": 12,
+      "ppm": "4.125",
       "points": {
-        "won": 25.5,
-        "of": 57
+        "won": 49.5,
+        "of": 98
       }
     },
     "div-1": {

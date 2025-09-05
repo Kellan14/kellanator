@@ -73,16 +73,88 @@
       "score": 35533370,
       "points": 2.5,
       "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "SHK",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 1,
+      "machine": "CA",
+      "division": 0,
+      "score": 368410,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "SHK",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 3,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 76884880,
+      "points": 1,
+      "pops": "0.333"
+    },
+    {
+      "team": "DOG",
+      "opp": "SHK",
+      "match": "mnp-21-8-SHK-DOG",
+      "week": "8",
+      "round": 4,
+      "machine": "Cactus Canyon Remake",
+      "division": 0,
+      "score": 26314600,
+      "points": 2.5,
+      "pops": "1.000"
+    },
+    {
+      "team": "DOG",
+      "opp": "ICB",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 1,
+      "machine": "Aerosmith",
+      "division": 0,
+      "score": 39000000,
+      "points": 1,
+      "pops": "0.400"
+    },
+    {
+      "team": "DOG",
+      "opp": "ICB",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 3,
+      "machine": "CA",
+      "division": 0,
+      "score": 244670,
+      "points": 2,
+      "pops": "0.666"
+    },
+    {
+      "team": "DOG",
+      "opp": "ICB",
+      "match": "mnp-21-9-ICB-DOG",
+      "week": "9",
+      "round": 4,
+      "machine": "CA",
+      "division": 0,
+      "score": 728070,
+      "points": 2.5,
+      "pops": "1.000"
     }
   ],
   "divisions": {
     "all": {
-      "pops": "0.656",
-      "num_matches": 2,
-      "ppm": "5.250",
+      "pops": "0.687",
+      "num_matches": 4,
+      "ppm": "5.500",
       "points": {
-        "won": 10.5,
-        "of": 16
+        "won": 22,
+        "of": 32
       }
     },
     "div-1": {
