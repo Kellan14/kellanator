@@ -818,16 +818,25 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
         season = int(match['key'].split('-')[1])
         home_team = match['home']['name']
         away_team = match['away']['name']
-
+    
         # Determine the selected team's role based on the match
         if team_name == home_team:
             selected_team_role = "home"
+            selected_team_in_match = True
         elif team_name == away_team:
             selected_team_role = "away"
+            selected_team_in_match = True
         else:
-            # Skip this match if selected team didn't play
-            continue
-
+            # Selected team didn't play in this match
+            selected_team_role = None
+            selected_team_in_match = False
+    
+        # Only set pick rounds if team was in the match
+        if selected_team_in_match:
+            selected_team_pick_rounds = [1, 3] if selected_team_role == "away" else [2, 4]
+        else:
+            selected_team_pick_rounds = []
+    
         # TWC's role is determined directly - BUT ONLY IF THEY PLAYED
         if twc_team_name in [home_team, away_team]:
             if twc_team_name == home_team:
@@ -3764,6 +3773,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
