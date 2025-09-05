@@ -2311,12 +2311,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         st.session_state.last_click_time = most_recent_click["timestamp"]
         new_click_detected = True
     
-    # Debug info
-    if clicked_cells:
-        debug_placeholder.write("Detected clicked cells:")
-        debug_placeholder.write(clicked_cells)
-        debug_placeholder.write(f"Most recent click: {most_recent_click}")
-    
     # If a new click is detected or we have a most recent click, show detailed data
     if new_click_detected or most_recent_click["timestamp"] > 0:
         selected_col = most_recent_click["col"]
@@ -3767,6 +3761,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
