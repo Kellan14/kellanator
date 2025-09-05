@@ -1942,69 +1942,6 @@ def format_no_decimals_keep_commas(df):
     
     return formatted_df
 
-def configure_grid_with_custom_comparators(result_df_reset):
-    """
-    Configure AgGrid with proper sorting for all numeric columns that are formatted as strings.
-    This includes percentage columns and comma-formatted numbers.
-    """
-    # First, format the DataFrame to have no decimals but keep commas
-    formatted_df = format_no_decimals_keep_commas(result_df_reset)
-    
-    # Custom comparator function for percentage columns
-    percentage_comparator = JsCode("""
-    function(valueA, valueB, nodeA, nodeB, isInverted) {
-        // Extract numeric values from the percentage strings
-        const numA = parseFloat(valueA.replace('%', ''));
-        const numB = parseFloat(valueB.replace('%', ''));
-        
-        // Handle NaN cases
-        if (isNaN(numA) && isNaN(numB)) return 0;
-        if (isNaN(numA)) return 1;
-        if (isNaN(numB)) return -1;
-        
-        // Standard numeric comparison
-        return numA - numB;
-    }
-    """)
-    
-    # Custom comparator for comma-formatted numbers (like "1,234")
-    number_comparator = JsCode("""
-    function(valueA, valueB, nodeA, nodeB, isInverted) {
-        // Remove commas and convert to numbers
-        const numA = parseFloat(valueA.replace(/,/g, ''));
-        const numB = parseFloat(valueB.replace(/,/g, ''));
-        
-        // Handle NaN and "N/A" cases
-        if (isNaN(numA) && isNaN(numB)) return 0;
-        if (isNaN(numA) || valueA === "N/A") return 1;
-        if (isNaN(numB) || valueB === "N/A") return -1;
-        
-        // Standard numeric comparison
-        return numA - numB;
-    }
-    """)
-    
-    # Configure grid options
-    gb = GridOptionsBuilder.from_dataframe(formatted_df)
-    gb.configure_default_column(flex=1, resizable=True)
-    gb.configure_column("Machine", pinned='left', flex=1)
-    
-    # Apply custom renderer and comparator to each column based on its type
-    for col in formatted_df.columns:
-        if "%" in col:
-            # For percentage columns, use the percentage comparator
-            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=percentage_comparator)
-        elif "Times" in col or "Highest" in col or "Average" in col:
-            # For numeric columns with possible comma formatting, use the number comparator
-            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=number_comparator)
-        else:
-            # For other columns, just use the custom renderer
-            gb.configure_column(col, cellRenderer=BtnCellRenderer)
-    
-    grid_options = gb.build()
-    
-    return grid_options, formatted_df
-
 def add_color_coding_to_grid(formatted_df):
     """
     Add a hidden column with color codes based on the difference between 
@@ -3794,3 +3731,4 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
