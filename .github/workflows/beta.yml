@@ -2,53 +2,41 @@ name: Sync MNP Data Archive (Beta)
 
 on:
   schedule:
-    # Run every day at 6:00 AM UTC
     - cron: '0 6 * * *'
-  # Also allow manual triggering
   workflow_dispatch:
 
 jobs:
   sync-data:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout kellanator repo (beta branch)
-        uses: actions/checkout@v2
+      - name: Checkout repository (beta branch)
+        uses: actions/checkout@v3
         with:
-          path: kellanator
           ref: beta
-      
-      - name: Checkout Invader-Zim repo
-        uses: actions/checkout@v2
-        with:
-          repository: Invader-Zim/mnp-data-archive
-          path: mnp-data-archive-source
-      
-      - name: Setup Git
+
+      - name: Remove cached submodule reference
         run: |
-          cd kellanator
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-      
-      - name: Compare repositories and sync
+          git rm --cached mnp-data-archive || true
+          git commit -m "Remove cached submodule reference" || echo "Nothing to commit"
+
+      - name: Clone Invader-Zim repo
         run: |
-          # Create or clear the target directory
-          rm -rf kellanator/mnp-data-archive
-          mkdir -p kellanator/mnp-data-archive
-          
-          # Copy all files from Invader-Zim's repo to your repo
-          cp -r mnp-data-archive-source/* kellanator/mnp-data-archive/
-          
-          # Go to your repo directory
-          cd kellanator
-          
-          # Check if there are changes to commit
-          if git status | grep -q "mnp-data-archive"; then
-            # Add, commit, and push changes
-            git add mnp-data-archive
-            git commit -m "Auto-sync MNP data archive from Invader-Zim (beta)"
-            git push
-            echo "Repository updated with latest data"
-          else
-            echo "No changes detected, repository is already up to date"
-          fi
+          git clone https://github.com/Invader-Zim/mnp-data-archive.git temp-data
+          rm -rf temp-data/.git
+
+      - name: Update mnp-data-archive folder
+        run: |
+          rm -rf mnp-data-archive
+          mkdir -p mnp-data-archive
+          cp -r temp-data/* mnp-data-archive/
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add mnp-data-archive
+          git commit -m "Update mnp-data-archive with latest data (beta)" || echo "No changes to commit"
+          git push
