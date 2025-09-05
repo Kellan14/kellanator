@@ -942,7 +942,7 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'venue': match_venue,
                         'picked_by': away_team if round_number in [1, 3] else home_team,
                         'is_pick': round_number in selected_team_pick_rounds,
-                        'is_pick_twc': round_number in twc_pick_rounds,
+                        'is_pick_twc': round_number in twc_pick_rounds if twc_pick_rounds else False,
                         'is_roster_player': is_roster_player(player_name, player_team, team_roster),
                         # Points data
                         'team_points': home_points if player_team == home_team else away_points,
@@ -3764,6 +3764,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
