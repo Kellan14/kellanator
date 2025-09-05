@@ -838,10 +838,10 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
         
        # Determine pick rounds based on role
         twc_pick_rounds = [1, 3] if twc_role == "away" else [2, 4]
-        else:
-            # TWC didn't play in this match - set twc_pick_rounds to empty
-            twc_pick_rounds = []
-            twc_role = None
+    else:
+        # TWC didn't play in this match - set twc_pick_rounds to empty
+         twc_pick_rounds = []
+         twc_role = None
     
         # Determine pick rounds for selected team
         selected_team_pick_rounds = [1, 3] if selected_team_role == "away" else [2, 4]
@@ -3765,6 +3765,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
