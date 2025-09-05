@@ -2055,7 +2055,7 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
     # Configure grid options
     gb = GridOptionsBuilder.from_dataframe(formatted_df)
     gb.configure_default_column(resizable=True, autoSize=True)
-    gb.configure_column("Machine", pinned='left', flex=1)
+    gb.configure_column("Machine", pinned='left', autoSize=True)
     
     # Apply custom renderer and comparator to each column based on its type
     for col in formatted_df.columns:
@@ -3701,6 +3701,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
