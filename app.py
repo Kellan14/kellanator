@@ -2090,10 +2090,15 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
     gb.configure_grid_options(
         onFirstDataRendered=JsCode("""
             function(params) {
-                params.columnApi.autoSizeAllColumns();
+                var allColumnIds = [];
+                params.columnApi.getAllColumns().forEach(function(column) {
+                    allColumnIds.push(column.getId());
+                });
+                params.columnApi.autoSizeColumns(allColumnIds, false);
             }
         """)
     )
+
     
     grid_options = gb.build()
     
@@ -3709,6 +3714,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
