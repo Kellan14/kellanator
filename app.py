@@ -2054,8 +2054,24 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
     
     # Configure grid options
     gb = GridOptionsBuilder.from_dataframe(formatted_df)
-    gb.configure_default_column(resizable=True, autoSize=True)
-    gb.configure_column("Machine", pinned='left', autoSize=True)
+
+    # Set default column properties with explicit width handling
+    gb.configure_default_column(
+        resizable=True,
+        sortable=True,
+        filter=True,
+        minWidth=100,  # Set minimum width
+        maxWidth=500,  # Set maximum width
+        wrapText=False,
+        autoHeight=False
+    )
+
+    # Configure the Machine column to be pinned and properly sized
+    gb.configure_column("Machine", 
+                        pinned='left', 
+                        minWidth=150,
+                        maxWidth=300,
+                        cellRenderer=BtnCellRenderer)
     
     # Apply custom renderer and comparator to each column based on its type
     for col in formatted_df.columns:
@@ -2064,13 +2080,24 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
             gb.configure_column(col, hide=True)
         elif "%" in col:
             # For percentage columns, use the percentage comparator
-            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=percentage_comparator)
-        elif "Times" in col or "Highest" in col or "Average" in col:
-            # For numeric columns with possible comma formatting, use the number comparator
-            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=number_comparator)
+            gb.configure_column(col, 
+                              cellRenderer=BtnCellRenderer, 
+                              comparator=percentage_comparator,
+                              minWidth=80,
+                              maxWidth=150)
+        elif any(keyword in col for keyword in ["Times", "Highest", "Average", "POPS"]):
+            # For numeric columns
+            gb.configure_column(col, 
+                              cellRenderer=BtnCellRenderer, 
+                              comparator=number_comparator,
+                              minWidth=100,
+                              maxWidth=200)
         else:
-            # For other columns, just use the custom renderer
-            gb.configure_column(col, cellRenderer=BtnCellRenderer)
+            # For other columns
+            gb.configure_column(col, 
+                              cellRenderer=BtnCellRenderer,
+                              minWidth=100,
+                              maxWidth=250)
     
     # Add row styling if color coding is enabled
     if use_color_coding:
@@ -2088,17 +2115,42 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
         )
 
     gb.configure_grid_options(
+        onGridReady=JsCode("""
+        function(params) {
+            setTimeout(function() {
+                params.api.sizeColumnsToFit();
+            }, 100);
+        }
+        """),
         onFirstDataRendered=JsCode("""
-            function(params) {
+        function(params) {
+            setTimeout(function() {
                 var allColumnIds = [];
-                params.columnApi.getAllColumns().forEach(function(column) {
-                    allColumnIds.push(column.getId());
+                params.columnApi.getColumns().forEach(function(column) {
+                    if (!column.getColDef().hide) {
+                        allColumnIds.push(column.getId());
+                    }
                 });
                 params.columnApi.autoSizeColumns(allColumnIds, false);
-            }
-        """)
+                
+                // Then fit columns to viewport if there's extra space
+                var gridWidth = document.getElementById(params.api.gridOptionsWrapper.gridOptions.context.gridId).offsetWidth;
+                var columnsWidth = 0;
+                params.columnApi.getColumns().forEach(function(column) {
+                    if (!column.getColDef().hide) {
+                        columnsWidth += column.getActualWidth();
+                    }
+                });
+                
+                if (columnsWidth < gridWidth) {
+                    params.api.sizeColumnsToFit();
+                }
+            }, 200);
+        }
+        """),
+        domLayout='normal',
+        suppressColumnVirtualisation=True
     )
-
     
     grid_options = gb.build()
     
@@ -3714,6 +3766,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
