@@ -14,19 +14,27 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from st_aggrid import AgGrid, GridOptionsBuilder, JsCode, ColumnsAutoSizeMode
+from typing import Callable, Any, List, Dict, Tuple
+import importlib.util
+main: Callable[[List[Dict], str, str, Dict, Dict], Tuple[pd.DataFrame, Dict, pd.DataFrame, pd.DataFrame]] = None
+selected_team: str = st.session_state.get("select_team_json", "")
+selected_venue: str = st.session_state.get("select_venue_json", "")
 
 # Import database helper functions (ensure you have db_helper.py in your repo)
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
-    get_venue_machine_list, add_machine_to_venue, delete_machine_from_venue, save_machine_mapping_strategy
-
+    get_venue_machine_list, add_machine_to_venue, delete_machine_from_venue, save_machine_mapping_strategy, load_team_rosters, get_latest_season, update_roster_from_csv, save_team_roster_to_py
 # Initialize database (if not already)
 init_db()
 
+# Path to store the machine mapping file.
+repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
+repo_dir = "mnp-data-archive"
+
 # Initialize session state flags
 if "roster_data" not in st.session_state:
-    st.session_state.roster_data = None
+    st.session_state.roster_data = load_team_rosters(repo_dir)
 if "rosters_scraped" not in st.session_state:
-    st.session_state.rosters_scraped = False
+    st.session_state.rosters_scraped = True
 if "modify_menu_open" not in st.session_state:
     st.session_state.modify_menu_open = False
 if "column_options_open" not in st.session_state:
@@ -34,9 +42,27 @@ if "column_options_open" not in st.session_state:
 if "set_score_limit_open" not in st.session_state:
     st.session_state.set_score_limit_open = False
 
+##############################################
+# Section 1.1: Load All JSON Files from Repository
+##############################################
+def load_all_json_files(repo_dir, seasons):
+    all_data = []
+    for season in seasons:
+        directory = os.path.join(repo_dir, f"season-{season}", "matches")
+        json_files = glob.glob(os.path.join(directory, "**", "*.json"), recursive=True)
+        if not json_files:
+            st.warning(f"No JSON files found for season {season}.")
+        for file_path in json_files:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    all_data.append(data)
+            except Exception as e:
+                st.error(f"Error loading {file_path}: {e}")
+    return all_data
 
 ##############################################
-# Section 1.1: Season Selection
+# Section 1.2: Season Selection
 ##############################################
 def parse_seasons(season_str):
     season_str = season_str.replace(" ", "")
@@ -62,16 +88,41 @@ def parse_seasons(season_str):
             st.error("Invalid season format. Please enter a number, e.g. '19'.")
     return seasons
 
-season_input = st.text_input("Enter season(s) to process (e.g., '19' or '20-21')", "20-21")
+# Store the previous selection to detect changes
+if "previous_seasons_input" not in st.session_state:
+    st.session_state.previous_seasons_input = "20-21"  # Default value
+
+# Use regular text input
+season_input = st.text_input(
+    "Enter season(s) to process (e.g., '19' or '20-21')", 
+    value=st.session_state.previous_seasons_input,
+    key="season_input"
+)
+
+# Parse seasons
 seasons_to_process = parse_seasons(season_input)
-st.session_state["seasons_to_process"] = seasons_to_process
+
+# Check if the input has changed
+if season_input != st.session_state.previous_seasons_input:
+    st.session_state.previous_seasons_input = season_input
+    new_seasons = parse_seasons(season_input)
+    st.session_state["seasons_to_process"] = new_seasons
+    
+    # Update seasons in column config
+    if "column_config" in st.session_state:
+        min_season = min(new_seasons) if new_seasons else 20
+        max_season = max(new_seasons) if new_seasons else 21
+        seasons_tuple = (min_season, max_season)
+        
+        # Update all column configs with new seasons
+        for col in st.session_state.column_config:
+            st.session_state.column_config[col]['seasons'] = seasons_tuple
+            
+    st.rerun()
+
 ##############################################
 # Section 2: Repository Management
 ##############################################
-
-# Path to store the machine mapping file.
-repository_url = 'https://github.com/Invader-Zim/mnp-data-archive'
-repo_dir = "mnp-data-archive"
 
 def load_machine_mapping(file_path):
     """Load machine mapping from a JSON file. Return default mapping if file doesn't exist."""
@@ -100,37 +151,7 @@ def save_machine_mapping(file_path, mapping):
     except Exception as e:
         st.error(f"Error saving machine mapping: {e}")
 
-def update_repo(repo_path):
-    """Runs 'git pull' in the specified repository directory."""
-    try:
-        result = subprocess.run(
-            ["git", "-C", repo_path, "pull"],
-            capture_output=True, text=True, check=True
-        )
-        return result.stdout
-    except subprocess.CalledProcessError as e:
-        return f"An error occurred: {e.stderr}"
-
 st.title("The Kellanator 9000")
-
-##############################################
-# Section 2.1: Load All JSON Files from Repository
-##############################################
-def load_all_json_files(repo_dir, seasons):
-    all_data = []
-    for season in seasons:
-        directory = os.path.join(repo_dir, f"season-{season}", "matches")
-        json_files = glob.glob(os.path.join(directory, "**", "*.json"), recursive=True)
-        if not json_files:
-            st.warning(f"No JSON files found for season {season}.")
-        for file_path in json_files:
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    all_data.append(data)
-            except Exception as e:
-                st.error(f"Error loading {file_path}: {e}")
-    return all_data
 
 ##############################################
 # Section 3: Dynamic Teams & Venues from JSON Files (Most Recent Season Only)
@@ -265,7 +286,13 @@ if "column_config" not in st.session_state:
          'Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
          'TWC Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
          'Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False}
+         'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
+         'TWC POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'TWC POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'TWC POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False}
     }
 
 # Toggle Column Options display.
@@ -486,11 +513,17 @@ if st.button("Hide Edit Roster" if st.session_state.get("edit_roster_open", Fals
 
 if st.session_state.get("edit_roster_open", False):
     st.markdown("### Edit Roster")
+    
     # Determine the team abbreviation for the selected team.
     team_abbr = team_abbr_dict.get(selected_team)
     if not team_abbr:
         st.error("No team abbreviation found for the selected team.")
     else:
+        # Button to update from CSV
+        if st.button(f"Update {selected_team} Roster from CSV", key=f"update_roster_from_csv_{selected_team}"):
+            update_roster_from_csv(repo_dir, selected_team, team_abbr)
+            st.rerun()
+
         # Initialize a persistent edited roster for the team if not already set.
         # Original CSV players are stored as non-editable.
         if f"edited_roster_{team_abbr}" not in st.session_state:
@@ -517,6 +550,7 @@ if st.session_state.get("edit_roster_open", False):
                     st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
                     # Update global roster_data: include only players that are checked.
                     st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                    save_team_roster_to_py(repo_dir, team_abbr, [e["name"] for e in edited_roster if e["include"]])
                     st.rerun()
             with col3:
                 # Show an Edit button only if the entry is editable.
@@ -527,6 +561,7 @@ if st.session_state.get("edit_roster_open", False):
                             edited_roster[i]["name"] = new_name.strip()
                             st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
                             st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                            save_team_roster_to_py(repo_dir, team_abbr, [e["name"] for e in edited_roster if e["include"]])
                             st.rerun()
         
         # Compute available players for the selected team from all_data.
@@ -610,6 +645,7 @@ if st.session_state.get("edit_twc_roster_open", False):
                             edited_roster[i]["name"] = new_name.strip()
                             st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
                             st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                            save_team_roster_to_py(repo_dir, twc_abbr, [e["name"] for e in edited_roster if e["include"]])
                             st.rerun()
         
         # Get players from JSON data for TWC
@@ -655,49 +691,55 @@ if st.session_state.get("edit_twc_roster_open", False):
 
 
 ##############################################
-# Section 6: Load Team Rosters from CSV Files
+# Section 6: Save Team Rosters from CSV Files
 ##############################################
 @st.cache_data(show_spinner=True)
-def load_team_rosters_from_csv(repo_dir):
-    """
-    Loads the team rosters from the rosters.csv file in the most recent season folder.
-    The CSV is expected to have lines formatted as:
-      Player Name,TeamAbbr,Letter
-    The third field is ignored.
-    
-    Returns a dictionary mapping team abbreviations to a list of player names.
-    """
-    latest_season = get_latest_season(repo_dir)
-    if latest_season is None:
-        st.error("No season directories found in the repository.")
-        return {}
-    
-    csv_path = os.path.join(repo_dir, f"season-{latest_season}", "rosters.csv")
-    roster_data = {}
-    try:
-        with open(csv_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                # Split by comma; expect at least two parts: name and team abbreviation.
-                parts = line.split(',')
-                if len(parts) < 2:
-                    continue
-                player_name = parts[0].strip()
-                team_abbr = parts[1].strip()
-                # Add player_name under the team abbreviation key.
-                if team_abbr not in roster_data:
-                    roster_data[team_abbr] = []
-                roster_data[team_abbr].append(player_name)
-    except Exception as e:
-        st.error(f"Error reading rosters CSV: {e}")
-    return roster_data
 
-# Load roster data if not already loaded.
-if not st.session_state.rosters_scraped:
-    st.session_state.roster_data = load_team_rosters_from_csv(repo_dir)
-    st.session_state.rosters_scraped = True
+def save_team_roster_to_py(repo_dir, team_abbr, roster):
+    """
+    Save a team's roster to a Python file in the team_rosters directory.
+    
+    Args:
+    - repo_dir: Base repository directory
+    - team_abbr: Team abbreviation
+    - roster: List of player names
+    """
+    # Ensure team_rosters directory exists
+    team_rosters_dir = os.path.join(repo_dir, "team_rosters")
+    os.makedirs(team_rosters_dir, exist_ok=True)
+    
+    # Filename format: (team_abbreviation)_roster.py
+    roster_file_path = os.path.join(team_rosters_dir, f"{team_abbr}_roster.py")
+    
+    try:
+        with open(roster_file_path, 'w', encoding='utf-8') as f:
+            # Write the roster as a Python list
+            f.write(f"# Roster for {team_abbr}\n")
+            f.write("team_roster = [\n")
+            for player in roster:
+                f.write(f"    \"{player}\",\n")
+            f.write("]\n")
+        
+        # Optional: Commit and push changes
+        try:
+            subprocess.run(
+                ["git", "-C", repo_dir, "add", roster_file_path], 
+                capture_output=True, text=True, check=True
+            )
+            subprocess.run(
+                ["git", "-C", repo_dir, "commit", "-m", f"Update roster for {team_abbr}"], 
+                capture_output=True, text=True, check=True
+            )
+            subprocess.run(
+                ["git", "-C", repo_dir, "push"], 
+                capture_output=True, text=True, check=True
+            )
+            st.success(f"Roster for {team_abbr} updated and pushed to GitHub.")
+        except subprocess.CalledProcessError as e:
+            st.warning(f"Could not commit/push roster changes: {e}")
+    
+    except Exception as e:
+        st.error(f"Error saving roster for {team_abbr}: {e}")
 
 
 ##############################################
@@ -748,45 +790,80 @@ def is_roster_player(player_name, team, team_roster):
     return player_name in team_roster.get(abbr, [])
 
 def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name, team_roster, included_machines_for_venue, excluded_machines_for_venue):
+    """
+    Process match data with robust point and team calculation logic.
+    
+    Args:
+    - all_data (list): List of match data to process
+    - team_name (str): Name of the selected team
+    - venue_name (str): Name of the venue
+    - twc_team_name (str): Name of The Wrecking Crew team
+    - team_roster (dict): Dictionary of team rosters
+    - included_machines_for_venue (list): Machines included at the venue
+    - excluded_machines_for_venue (list): Machines excluded at the venue
+    
+    Returns:
+    - pd.DataFrame: Processed player game data
+    - set: Recent machines played
+    - pd.DataFrame: Debug data for detailed analysis
+    """
+    debug_data = []
     processed_data = []
     recent_machines = set(included_machines_for_venue or [])
     overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
-    current_limits = get_score_limits()  # Use user-defined score limits from the database
+    current_limits = get_score_limits()
 
     for match in all_data:
         match_venue = match['venue']['name']
         season = int(match['key'].split('-')[1])
         home_team = match['home']['name']
         away_team = match['away']['name']
-
-        # Determine the selected team's role based on the match.
+    
+        # Determine the selected team's role based on the match
         if team_name == home_team:
             selected_team_role = "home"
+            selected_team_in_match = True
         elif team_name == away_team:
             selected_team_role = "away"
+            selected_team_in_match = True
         else:
-            # Fallback if team_name does not match either team (should not happen)
-            selected_team_role = "away"
-
-        # TWC's role is the opposite of the selected team.
-        twc_role = "home" if selected_team_role == "away" else "away"
-
-        # Define pick rounds based on role:
-        # Away picks in rounds 1 and 3; Home picks in rounds 2 and 4.
+            # Selected team didn't play in this match
+            selected_team_role = None
+            selected_team_in_match = False
+    
+        # Only set pick rounds if team was in the match
+        if selected_team_in_match:
+            selected_team_pick_rounds = [1, 3] if selected_team_role == "away" else [2, 4]
+        else:
+            selected_team_pick_rounds = []
+    
+        # TWC's role is determined directly - BUT ONLY IF THEY PLAYED
+        if twc_team_name in [home_team, away_team]:
+            if twc_team_name == home_team:
+                twc_role = "home"
+            elif twc_team_name == away_team:
+                twc_role = "away"
+            
+            # Determine pick rounds based on role
+            twc_pick_rounds = [1, 3] if twc_role == "away" else [2, 4]
+        else:
+            # TWC didn't play in this match - set twc_pick_rounds to empty
+            twc_pick_rounds = []
+            twc_role = None
+    
+        # Determine pick rounds for selected team
         selected_team_pick_rounds = [1, 3] if selected_team_role == "away" else [2, 4]
-        twc_pick_rounds = [1, 3] if twc_role == "away" else [2, 4]
 
         for round_info in match['rounds']:
             round_number = round_info['n']
             
-            # Determine who picks machines in this round
-            is_selected_team_pick_round = round_number in selected_team_pick_rounds
-            is_twc_pick_round = round_number in twc_pick_rounds
-            
-            # We'll track machines in this round to ensure we count each unique machine exactly once
+            # Determine round type and points explicitly
+            is_doubles_round = round_number in [1, 4]
+            points_per_game = 5 if is_doubles_round else 3
+
+            # Track machines in this round
             machines_in_round = set()
-            
-            # Process all games in the round
+
             for game in round_info['games']:
                 machine = standardize_machine_name(game.get('machine', '').lower())
                 if not machine:
@@ -797,23 +874,71 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     if not excluded_machines_for_venue or machine not in excluded_machines_for_venue:
                         recent_machines.add(machine)
 
-                # Only count each machine once per round for pick statistics
-                is_team_pick = is_selected_team_pick_round and machine not in machines_in_round
-                is_twc_pick = is_twc_pick_round and machine not in machines_in_round
-                
-                # Add the machine to our tracking set
+                # Track unique machines
                 machines_in_round.add(machine)
 
+                # Check if game is complete
+                if not game.get('done', False):
+                    continue
+
+                # Determine match team points
+                home_points = game.get('home_points', 0)
+                away_points = game.get('away_points', 0)
+
+                # Validate point structure
+                if is_doubles_round:
+                    max_points = max(game.get(f'points_{i}', 0) for i in ['1', '2', '3', '4'])
+                    if max_points > 2.5:
+                        st.warning(f"Unexpected points in doubles round: {game}")
+                else:
+                    max_points = max(game.get(f'points_{i}', 0) for i in ['1', '2'])
+                    if max_points > 3:
+                        st.warning(f"Unexpected points in singles round: {game}")
+
+                # Process each possible player slot
                 for pos in ['1', '2', '3', '4']:
                     player_key = game.get(f'player_{pos}')
                     score = game.get(f'score_{pos}', 0)
-                    if score == 0:
+                    player_points = game.get(f'points_{pos}', 0)
+
+                    # Skip if no player or zero score
+                    if not player_key or score == 0:
                         continue
+
+                    # Check score limits
                     limit = current_limits.get(machine)
                     if limit is not None and score > limit:
                         continue
+
+                    # Identify player's team
+                    player_team = get_player_team(player_key, match)
+                    if player_team is None:
+                        continue
+
+                    # Get player name
                     player_name = get_player_name(player_key, match)
-                    player_team = home_team if any(player['key'] == player_key for player in match['home']['lineup']) else away_team
+
+                    # Additional detailed debug information
+                    debug_entry = {
+                        'match_key': match['key'],
+                        'round': round_number,
+                        'machine': machine,
+                        'player_name': player_name,
+                        'player_team': player_team,
+                        'home_team': home_team,
+                        'away_team': away_team,
+                        'home_points': home_points,
+                        'away_points': away_points,
+                        'individual_score': score,
+                        'individual_points': player_points,
+                        'game_type': 'Doubles' if is_doubles_round else 'Singles',
+                        'points_per_game': points_per_game,
+                        'player_key': player_key,
+                        'max_points_in_round': max_points
+                    }
+                    debug_data.append(debug_entry)
+
+                    # Process the game data
                     processed_data.append({
                         'season': season,
                         'machine': machine,
@@ -824,13 +949,43 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                         'round': round_number,
                         'game_number': game['n'],
                         'venue': match_venue,
-                        # This "picked_by" remains for reference – it reflects the team that was designated to pick for that round.
                         'picked_by': away_team if round_number in [1, 3] else home_team,
-                        'is_pick': is_team_pick,
-                        'is_pick_twc': is_twc_pick,
-                        'is_roster_player': is_roster_player(player_name, player_team, team_roster)
+                        'is_pick': round_number in selected_team_pick_rounds,
+                        'is_pick_twc': round_number in twc_pick_rounds if twc_pick_rounds else False,
+                        'is_roster_player': is_roster_player(player_name, player_team, team_roster),
+                        # Points data
+                        'team_points': home_points if player_team == home_team else away_points,
+                        'round_points': points_per_game,
+                        'individual_points': player_points,
+                        'team_role': "home" if player_team == home_team else "away",
+                        'is_doubles': is_doubles_round
                     })
-    return pd.DataFrame(processed_data), recent_machines
+
+    return pd.DataFrame(processed_data), recent_machines, pd.DataFrame(debug_data)
+
+def get_player_team(player_key, match):
+    """
+    Determine the full team name for a given player based on their key.
+    
+    Args:
+    - player_key (str): Unique identifier for the player
+    - match (dict): Match data containing home and away team lineups
+    
+    Returns:
+    - str: Full team name, or None if player not found in either lineup
+    """
+    # Check home team lineup first
+    for player in match['home']['lineup']:
+        if player['key'] == player_key:
+            return match['home']['name']
+    
+    # If not in home team, check away team lineup
+    for player in match['away']['lineup']:
+        if player['key'] == player_key:
+            return match['away']['name']
+    
+    # If player not found in either lineup, return None
+    return None
 
 def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
     filtered = df.copy()
@@ -845,25 +1000,6 @@ def filter_data(df, team=None, seasons=None, venue=None, roster_only=False):
         # You can also do similar normalization for venue if needed
         filtered = filtered[filtered['venue'].str.strip() == venue.strip()]
     return filtered
-
-def backfill_stat(df, machine, team, seasons, venue_specific, stat_type, pick_flag='is_pick'):
-    for season in range(seasons[0]-1, 0, -1):
-        backfill_df = filter_data(df, team, (season, season), venue if venue_specific else None)
-        stats = calculate_stats(backfill_df, machine, pick_flag)
-        if stat_type in stats and stats[stat_type] > 0:
-            return stats[stat_type], season
-    return np.nan, None
-
-def format_value(value, backfilled_season=None):
-    if isinstance(value, (int, float)):
-        formatted = f"{value:,.0f}"
-    elif isinstance(value, str):
-        formatted = value
-    else:
-        formatted = "N/A"
-    if backfilled_season is not None:
-        formatted += f"*S{backfilled_season}"
-    return formatted
 
 def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, venue_name, column_config):
     """
@@ -969,6 +1105,155 @@ def calculate_stat_for_column(df, machine, column, team_name, twc_team_name, ven
         times_picked = len(unique_games[unique_games['is_pick_twc'] == True])
         return f"{times_picked:,}"
         
+    # New POPS (Percentage of Points Won) columns using game-specific points
+    elif column == "POPS":
+        # Filter data for the selected team
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round to get unique games
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        
+        if len(unique_games) == 0:
+            return "N/A"
+            
+        # Sum team points and total possible points
+        total_points_won = unique_games['team_points'].sum()
+        total_points_possible = unique_games['round_points'].sum()
+        
+        # Calculate POPS
+        if total_points_possible > 0:
+            pops = (total_points_won / total_points_possible) * 100
+            return f"{pops:.2f}%"
+        return "N/A"
+    
+    elif column == "POPS Picking":
+        # Filter data for the selected team when they picked
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round, only where team picked
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        picking_games = unique_games[unique_games['is_pick'] == True]
+        
+        if len(picking_games) == 0:
+            return "N/A"
+        
+        # Sum team points and total possible points when picking
+        total_points_won = picking_games['team_points'].sum()
+        total_points_possible = picking_games['round_points'].sum()
+        
+        # Calculate POPS when picking
+        if total_points_possible > 0:
+            pops_picking = (total_points_won / total_points_possible) * 100
+            return f"{pops_picking:.2f}%"
+        return "N/A"
+    
+    elif column == "POPS Responding":
+        # Filter data for the selected team when responding
+        filtered_df = filter_data(df, team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round, only where team responded (not picked)
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        responding_games = unique_games[unique_games['is_pick'] == False]
+        
+        if len(responding_games) == 0:
+            return "N/A"
+        
+        # Sum team points and total possible points when responding
+        total_points_won = responding_games['team_points'].sum()
+        total_points_possible = responding_games['round_points'].sum()
+        
+        # Calculate POPS when responding
+        if total_points_possible > 0:
+            pops_responding = (total_points_won / total_points_possible) * 100
+            return f"{pops_responding:.2f}%"
+        return "N/A"
+    
+    elif column == "TWC POPS":
+        # Filter data for TWC
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round to get unique games
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        
+        if len(unique_games) == 0:
+            return "N/A"
+            
+        # Sum team points and total possible points
+        total_points_won = unique_games['team_points'].sum()
+        total_points_possible = unique_games['round_points'].sum()
+        
+        # Calculate POPS
+        if total_points_possible > 0:
+            pops = (total_points_won / total_points_possible) * 100
+            return f"{pops:.2f}%"
+        return "N/A"
+    
+    elif column == "TWC POPS Picking":
+        # Filter data for TWC when they picked
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round, only where TWC picked
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        picking_games = unique_games[unique_games['is_pick_twc'] == True]
+        
+        if len(picking_games) == 0:
+            return "N/A"
+        
+        # Sum team points and total possible points when picking
+        total_points_won = picking_games['team_points'].sum()
+        total_points_possible = picking_games['round_points'].sum()
+        
+        # Calculate POPS when picking
+        if total_points_possible > 0:
+            pops_picking = (total_points_won / total_points_possible) * 100
+            return f"{pops_picking:.2f}%"
+        return "N/A"
+    
+    elif column == "TWC POPS Responding":
+        # Filter data for TWC when responding
+        filtered_df = filter_data(df, twc_team_name, seasons, venue_name if venue_specific else None, roster_only=True)
+        # Get data for this machine
+        machine_data = filtered_df[filtered_df['machine'] == machine]
+        if len(machine_data) == 0:
+            return "N/A"
+            
+        # Group by match and round, only where TWC responded (not picked)
+        unique_games = machine_data.groupby(['match', 'round']).first().reset_index()
+        responding_games = unique_games[unique_games['is_pick_twc'] == False]
+        
+        if len(responding_games) == 0:
+            return "N/A"
+        
+        # Sum team points and total possible points when responding
+        total_points_won = responding_games['team_points'].sum()
+        total_points_possible = responding_games['round_points'].sum()
+        
+        # Calculate POPS when responding
+        if total_points_possible > 0:
+            pops_responding = (total_points_won / total_points_possible) * 100
+            return f"{pops_responding:.2f}%"
+        return "N/A"
+        
     # Handle percentage columns directly
     elif column == "% of V. Avg.":
         # These values should be calculated after all the averages are computed
@@ -999,20 +1284,24 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
                 df, machine, column, team_name, twc_team_name, venue_name, column_config
             )
         
-        # Calculate percentage columns after all averages are computed
+        # Calculate percentages only if the columns are in row dict (already added by loop above)
         def safe_get(key):
             v = row.get(key, "N/A")
             try:
                 return float(v.replace(",", "").split("*")[0])
             except Exception:
                 return np.nan
-                
-        team_avg = safe_get("Team Average")
-        twc_avg = safe_get("TWC Average")
-        venue_avg = safe_get("Venue Average")
         
-        row["% of V. Avg."] = f"{(team_avg / venue_avg * 100):.2f}%" if not np.isnan(team_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
-        row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%" if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
+        # Only update the percentage columns if they already exist in the row
+        if "% of V. Avg." in row:
+            team_avg = safe_get("Team Average")
+            venue_avg = safe_get("Venue Average")
+            row["% of V. Avg."] = f"{(team_avg / venue_avg * 100):.2f}%" if not np.isnan(team_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
+        
+        if "TWC % V. Avg." in row:
+            twc_avg = safe_get("TWC Average")
+            venue_avg = safe_get("Venue Average")
+            row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%" if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
         
         data.append(row)
         
@@ -1099,26 +1388,51 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
     return team_table, twc_table
 
 def main(all_data, selected_team, selected_venue, team_roster, column_config):
-    team_name = selected_team
-    twc_team_name = "The Wrecking Crew"
-    # Refresh the included and excluded machine lists from your persistent store.
-    included_list = get_venue_machine_list(selected_venue, "included")
-    excluded_list = get_venue_machine_list(selected_venue, "excluded")
+    try:
+        # Get seasons from session state explicitly
+        current_seasons = st.session_state.get("seasons_to_process", [20, 21])
+        
+        team_name = selected_team
+        twc_team_name = "The Wrecking Crew"
+        # Refresh the included and excluded machine lists from your persistent store.
+        included_list = get_venue_machine_list(selected_venue, "included")
+        excluded_list = get_venue_machine_list(selected_venue, "excluded")
+        
+        all_data_df, recent_machines, debug_df = process_all_rounds_and_games(
+            all_data, team_name, selected_venue, twc_team_name, team_roster,
+            included_list, excluded_list
+        )
+        debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
+        debug_outputs['debug_data'] = debug_df  # Add the new debug data
+        result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
+        
+        # Safe sorting - check if the column exists before sorting by it
+        # First try to sort by team percentage if it exists
+        if '% of V. Avg.' in result_df.columns:
+            result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
+        # If not, try other columns in order of preference
+        elif 'Team Average' in result_df.columns:
+            result_df = result_df.sort_values('Team Average', ascending=False, na_position='last')
+        elif 'Venue Average' in result_df.columns:
+            result_df = result_df.sort_values('Venue Average', ascending=False, na_position='last')
+        elif 'TWC Average' in result_df.columns:
+            result_df = result_df.sort_values('TWC Average', ascending=False, na_position='last')
+        # If none of the above columns are available, sort by machine name
+        else:
+            result_df = result_df.sort_values('Machine', ascending=True)
+        
+        # Generate player statistics tables
+        team_player_stats, twc_player_stats = generate_player_stats_tables(
+            all_data_df, team_name, selected_venue, current_seasons, team_roster
+        )
+        
+        return result_df, debug_outputs, team_player_stats, twc_player_stats
     
-    all_data_df, recent_machines = process_all_rounds_and_games(
-        all_data, team_name, selected_venue, twc_team_name, team_roster,
-        included_list, excluded_list
-    )
-    debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
-    result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
-    result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
-    
-    # Generate player statistics tables
-    team_player_stats, twc_player_stats = generate_player_stats_tables(
-        all_data_df, team_name, selected_venue, seasons_to_process, team_roster
-    )
-    
-    return result_df, debug_outputs, team_player_stats, twc_player_stats
+    except Exception as e:
+        st.error(f"Error in main function: {e}")
+        raise
+
+main = main
 
 def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config, current_seasons):
     """
@@ -1252,7 +1566,214 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
         filtered['Pick Group'] = filtered.apply(
             lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
         )
+    
+    # New POPS columns
+    elif "POPS" in column:
+        # Initialize pops_summary with a default
+        pops_summary = "No points data available"
+        
+        if column == "POPS":
+            # Filter data for the selected team
+            filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
             
+            # Group by match and round to get unique game instances
+            unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+            
+            # Calculate total points and percentage
+            if not unique_games.empty:
+                total_points_won = unique_games['team_points'].sum()
+                total_points_possible = unique_games['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(unique_games)} games)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "POPS Picking":
+            # Filter data for the selected team when picking
+            filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Filter to games where team picked
+            unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+            picking_games = unique_games[unique_games['is_pick'] == True]
+            
+            if len(picking_games) == 0:
+                return pd.DataFrame(), {"summary": f"No games where {team_name} picked {machine}", "title": f"{column} for {machine}"}
+                
+            # Create list of picking games
+            picking_tuples = list(zip(picking_games['match'], picking_games['round']))
+            
+            # Filter to include only the team's data from these games
+            filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in picking_tuples, axis=1)]
+            
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            if not picking_games.empty:
+                total_points_won = picking_games['team_points'].sum()
+                total_points_possible = picking_games['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(picking_games)} games)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "POPS Responding":
+            # Filter data for the selected team when responding
+            filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Filter to games where team responded (did not pick)
+            unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+            responding_games = unique_games[unique_games['is_pick'] == False]
+            
+            if len(responding_games) == 0:
+                return pd.DataFrame(), {"summary": f"No games where {team_name} responded on {machine}", "title": f"{column} for {machine}"}
+                
+            # Create list of responding games
+            responding_tuples = list(zip(responding_games['match'], responding_games['round']))
+            
+            # Filter to include only the team's data from these games
+            filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in responding_tuples, axis=1)]
+            
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            if not responding_games.empty:
+                total_points_won = responding_games['team_points'].sum()
+                total_points_possible = responding_games['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(responding_games)} games)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "TWC POPS":
+            # Filter data for TWC
+            filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Group by match and round to get unique game instances
+            unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+            
+            # Calculate total points and percentage
+            if not unique_games.empty:
+                total_points_won = unique_games['team_points'].sum()
+                total_points_possible = unique_games['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(unique_games)} games)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "TWC POPS Picking":
+            # Filter data for TWC when picking
+            filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Filter to games where TWC picked
+            unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+            picking_games = unique_games[unique_games['is_pick_twc'] == True]
+            
+            if len(picking_games) == 0:
+                return pd.DataFrame(), {"summary": f"No games where TWC picked {machine}", "title": f"{column} for {machine}"}
+                
+            # Create list of picking games
+            picking_tuples = list(zip(picking_games['match'], picking_games['round']))
+            
+            # Filter to include only TWC's data from these games
+            filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in picking_tuples, axis=1)]
+            
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            if not picking_games.empty:
+                total_points_won = picking_games['team_points'].sum()
+                total_points_possible = picking_games['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(picking_games)} games)"
+                else:
+                    pops_summary = "No points data available"
+            
+        elif column == "TWC POPS Responding":
+            # Filter data for TWC when responding
+            filtered = filtered[filtered["team"].str.strip().str.lower() == twc_team_name_lower]
+            filtered = filtered[filtered["is_roster_player"] == True]
+            filtered = filtered[filtered["season"].between(seasons[0], seasons[1])]
+            if venue_specific:
+                filtered = filtered[filtered["venue"].str.strip() == venue_name_strip]
+                
+            # Filter to games where TWC responded (did not pick)
+            unique_games = filtered.groupby(['match', 'round']).first().reset_index()
+            responding_games = unique_games[unique_games['is_pick_twc'] == False]
+            
+            if len(responding_games) == 0:
+                return pd.DataFrame(), {"summary": f"No games where TWC responded on {machine}", "title": f"{column} for {machine}"}
+                
+            # Create list of responding games
+            responding_tuples = list(zip(responding_games['match'], responding_games['round']))
+            
+            # Filter to include only TWC's data from these games
+            filtered = filtered[filtered.apply(lambda row: (row['match'], row['round']) in responding_tuples, axis=1)]
+            
+            # Add a Round Group column for clarity
+            filtered['Round Group'] = filtered.apply(
+                lambda row: f"S{row['season']} - {row['match']} - R{row['round']}", axis=1
+            )
+            
+            # Calculate total points and percentage
+            if not responding_games.empty:
+                total_points_won = responding_games['team_points'].sum()
+                total_points_possible = responding_games['round_points'].sum()
+                
+                if total_points_possible > 0:
+                    pops_value = (total_points_won / total_points_possible) * 100
+                    pops_summary = f"{pops_value:.2f}% ({total_points_won}/{total_points_possible} points from {len(responding_games)} games)"
+                else:
+                    pops_summary = "No points data available"
+    
     elif column == "% of V. Avg.":
         # Show the data that was used for Team Average
         filtered = filtered[filtered["team"].str.strip().str.lower() == team_name_lower]
@@ -1277,6 +1798,9 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     if "Times Picked" in column and "Pick Group" in filtered.columns:
         # For picked games, sort first by Pick Group, then by score (descending)
         filtered = filtered.sort_values(by=["Pick Group", "score"], ascending=[True, False])
+    elif "POPS" in column and "Round Group" in filtered.columns:
+        # For POPS columns, sort by Round Group then by score
+        filtered = filtered.sort_values(by=["Round Group", "score"], ascending=[True, False])
     else:
         # For other columns, just sort by score descending
         filtered = filtered.sort_values(by="score", ascending=False)
@@ -1304,6 +1828,9 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
             summary = f"{column}: {num_picked_games:,} (showing {len(filtered):,} TWC scores)"
         else:
             summary = f"{column}: (no picked games found)"
+    elif "POPS" in column:
+        # For POPS columns, use the already calculated summary
+        summary = f"{column}: {pops_summary}"
     elif "%" in column:
         # For percentage columns, reference the related average columns
         base_col = "Team Average" if column == "% of V. Avg." else "TWC Average"
@@ -1325,7 +1852,7 @@ def get_detailed_data_for_column(all_data_df, machine, column, team_name, twc_te
     return filtered, details
     
 # Update the cell click handling portion of Section 12
-def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue_name, column_config):
+def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue_name, column_config, current_seasons):
     """
     Handle a cell click in the main grid and return the appropriate detailed data.
     """
@@ -1333,8 +1860,15 @@ def handle_cell_click(clicked_cell, all_data_df, team_name, twc_team_name, venue
     machine = clicked_cell["machine"]
     
     # Get detailed data using the column-specific logic
-    detailed_df = get_detailed_data_for_column(
-        all_data_df, machine, column, team_name, twc_team_name, venue_name, column_config
+    detailed_df, details = get_detailed_data_for_column(
+        all_data_df, 
+        machine, 
+        column, 
+        team_name, 
+        twc_team_name, 
+        venue_name, 
+        column_config,
+        current_seasons
     )
     
     # Create a summary based on the column type
@@ -1389,69 +1923,6 @@ def format_no_decimals_keep_commas(df):
             )
     
     return formatted_df
-
-def configure_grid_with_custom_comparators(result_df_reset):
-    """
-    Configure AgGrid with proper sorting for all numeric columns that are formatted as strings.
-    This includes percentage columns and comma-formatted numbers.
-    """
-    # First, format the DataFrame to have no decimals but keep commas
-    formatted_df = format_no_decimals_keep_commas(result_df_reset)
-    
-    # Custom comparator function for percentage columns
-    percentage_comparator = JsCode("""
-    function(valueA, valueB, nodeA, nodeB, isInverted) {
-        // Extract numeric values from the percentage strings
-        const numA = parseFloat(valueA.replace('%', ''));
-        const numB = parseFloat(valueB.replace('%', ''));
-        
-        // Handle NaN cases
-        if (isNaN(numA) && isNaN(numB)) return 0;
-        if (isNaN(numA)) return 1;
-        if (isNaN(numB)) return -1;
-        
-        // Standard numeric comparison
-        return numA - numB;
-    }
-    """)
-    
-    # Custom comparator for comma-formatted numbers (like "1,234")
-    number_comparator = JsCode("""
-    function(valueA, valueB, nodeA, nodeB, isInverted) {
-        // Remove commas and convert to numbers
-        const numA = parseFloat(valueA.replace(/,/g, ''));
-        const numB = parseFloat(valueB.replace(/,/g, ''));
-        
-        // Handle NaN and "N/A" cases
-        if (isNaN(numA) && isNaN(numB)) return 0;
-        if (isNaN(numA) || valueA === "N/A") return 1;
-        if (isNaN(numB) || valueB === "N/A") return -1;
-        
-        // Standard numeric comparison
-        return numA - numB;
-    }
-    """)
-    
-    # Configure grid options
-    gb = GridOptionsBuilder.from_dataframe(formatted_df)
-    gb.configure_default_column(flex=1, resizable=True)
-    gb.configure_column("Machine", pinned='left', flex=1)
-    
-    # Apply custom renderer and comparator to each column based on its type
-    for col in formatted_df.columns:
-        if "%" in col:
-            # For percentage columns, use the percentage comparator
-            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=percentage_comparator)
-        elif "Times" in col or "Highest" in col or "Average" in col:
-            # For numeric columns with possible comma formatting, use the number comparator
-            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=number_comparator)
-        else:
-            # For other columns, just use the custom renderer
-            gb.configure_column(col, cellRenderer=BtnCellRenderer)
-    
-    grid_options = gb.build()
-    
-    return grid_options, formatted_df
 
 def add_color_coding_to_grid(formatted_df):
     """
@@ -1595,8 +2066,24 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
     
     # Configure grid options
     gb = GridOptionsBuilder.from_dataframe(formatted_df)
-    gb.configure_default_column(flex=1, resizable=True)
-    gb.configure_column("Machine", pinned='left', flex=1)
+
+    # Set default column properties with explicit width handling
+    gb.configure_default_column(
+        resizable=True,
+        sortable=True,
+        filter=True,
+        minWidth=100,  # Set minimum width
+        maxWidth=500,  # Set maximum width
+        wrapText=False,
+        autoHeight=False
+    )
+
+    # Configure the Machine column to be pinned and properly sized
+    gb.configure_column("Machine", 
+                        pinned='left', 
+                        minWidth=150,
+                        maxWidth=300,
+                        cellRenderer=BtnCellRenderer)
     
     # Apply custom renderer and comparator to each column based on its type
     for col in formatted_df.columns:
@@ -1605,13 +2092,24 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
             gb.configure_column(col, hide=True)
         elif "%" in col:
             # For percentage columns, use the percentage comparator
-            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=percentage_comparator)
-        elif "Times" in col or "Highest" in col or "Average" in col:
-            # For numeric columns with possible comma formatting, use the number comparator
-            gb.configure_column(col, cellRenderer=BtnCellRenderer, comparator=number_comparator)
+            gb.configure_column(col, 
+                              cellRenderer=BtnCellRenderer, 
+                              comparator=percentage_comparator,
+                              minWidth=80,
+                              maxWidth=150)
+        elif any(keyword in col for keyword in ["Times", "Highest", "Average", "POPS"]):
+            # For numeric columns
+            gb.configure_column(col, 
+                              cellRenderer=BtnCellRenderer, 
+                              comparator=number_comparator,
+                              minWidth=100,
+                              maxWidth=200)
         else:
-            # For other columns, just use the custom renderer
-            gb.configure_column(col, cellRenderer=BtnCellRenderer)
+            # For other columns
+            gb.configure_column(col, 
+                              cellRenderer=BtnCellRenderer,
+                              minWidth=100,
+                              maxWidth=250)
     
     # Add row styling if color coding is enabled
     if use_color_coding:
@@ -1627,6 +2125,44 @@ def configure_grid_with_color_coding(result_df_reset, use_color_coding=False):
             }
             """)
         )
+
+    gb.configure_grid_options(
+        onGridReady=JsCode("""
+        function(params) {
+            setTimeout(function() {
+                params.api.sizeColumnsToFit();
+            }, 100);
+        }
+        """),
+        onFirstDataRendered=JsCode("""
+        function(params) {
+            setTimeout(function() {
+                var allColumnIds = [];
+                params.columnApi.getColumns().forEach(function(column) {
+                    if (!column.getColDef().hide) {
+                        allColumnIds.push(column.getId());
+                    }
+                });
+                params.columnApi.autoSizeColumns(allColumnIds, false);
+                
+                // Then fit columns to viewport if there's extra space
+                var gridWidth = document.getElementById(params.api.gridOptionsWrapper.gridOptions.context.gridId).offsetWidth;
+                var columnsWidth = 0;
+                params.columnApi.getColumns().forEach(function(column) {
+                    if (!column.getColDef().hide) {
+                        columnsWidth += column.getActualWidth();
+                    }
+                });
+                
+                if (columnsWidth < gridWidth) {
+                    params.api.sizeColumnsToFit();
+                }
+            }, 200);
+        }
+        """),
+        domLayout='normal',
+        suppressColumnVirtualisation=True
+    )
     
     grid_options = gb.build()
     
@@ -1727,11 +2263,12 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         formatted_df, 
         gridOptions=grid_options, 
         height=400, 
-        fit_columns_on_grid_load=True,
+        fit_columns_on_grid_load=False,
         allow_unsafe_jscode=True,
         columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONTENTS,
         resizable=True,
-        key=f"main_grid_{use_color_coding}"  # Update key when toggle changes to force refresh
+        update_mode='VALUE_CHANGED',  # Better update mode for cell clicks
+        key=f"main_grid_{use_color_coding}_{'-'.join(map(str, seasons_to_process))}"  # Include seasons in key
     )
     
     # Clear previous debug output and parse the returned dataframe for the clicked cell
@@ -1786,12 +2323,6 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
         st.session_state.last_click_time = most_recent_click["timestamp"]
         new_click_detected = True
     
-    # Debug info
-    if clicked_cells:
-        debug_placeholder.write("Detected clicked cells:")
-        debug_placeholder.write(clicked_cells)
-        debug_placeholder.write(f"Most recent click: {most_recent_click}")
-    
     # If a new click is detected or we have a most recent click, show detailed data
     if new_click_detected or most_recent_click["timestamp"] > 0:
         selected_col = most_recent_click["col"]
@@ -1821,6 +2352,9 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 # Create a display DataFrame with the columns we want to show
                 if "Times Picked" in selected_col and "Pick Group" in detailed_df.columns:
                     display_cols = ["Pick Group", "player_name", "team", "score", "season", "venue"]
+                elif "POPS" in selected_col and "Round Group" in detailed_df.columns:
+                    # For POPS columns, include the points information
+                    display_cols = ["Round Group", "player_name", "team", "score", "team_points", "round_points", "season", "venue"]
                 else:
                     display_cols = ["player_name", "team", "score", "season", "venue"]
                 
@@ -1843,13 +2377,13 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
                 )
             else:
                 st.write("No detailed data available for this selection after applying all filters.")
-        else:
-            st.write("No detailed data available in debug outputs.")
     
     # Checkbox to toggle display of player statistics
+
+            
     if st.checkbox("Show Unique Players", key="player_stats_toggle"):
         st.markdown(f"### {selected_team} Player Statistics at {selected_venue}")
-        AgGrid(st.session_state["team_player_stats"], height=400, fit_columns_on_grid_load=True)
+        AgGrid(st.session_state["team_player_stats"], height=500, fit_columns_on_grid_load=True)
         st.markdown(f"### TWC Player Statistics at {selected_venue}")
         AgGrid(st.session_state["twc_player_stats"], height=400, fit_columns_on_grid_load=True)
     
@@ -3239,3 +3773,18 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
