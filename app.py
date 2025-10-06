@@ -3464,8 +3464,6 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
                     st.markdown(f"No machine data available for this player at {venue_name}.")
             else:
                 st.markdown("No data available for this player at this venue.")
-        else:
-            st.markdown("No data available for this player.")
     
     return machine_advantage_df, player_machine_stats
 
@@ -3947,6 +3945,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
