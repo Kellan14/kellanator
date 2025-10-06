@@ -326,6 +326,15 @@ if st.session_state.column_options_open:
     # Update the persistent column_config.
     st.session_state.column_config = updated_config
 
+if "strategic_config" not in st.session_state:
+    st.session_state.strategic_config = {
+        'use_column_config': True,  # Whether to respect main column config
+        'seasons_override': None,   # Optional override for strategic tools
+        'venue_specific': True,     # Always venue-specific for strategic analysis
+        'roster_only': True,        # Only consider roster players
+    }
+
+
 
 ##############################################
 # Section 5.2: Toggle and Display Set Machine Score Limits
@@ -689,7 +698,64 @@ if st.session_state.get("edit_twc_roster_open", False):
             else:
                 st.warning("Please enter a player's name.")
 
+##############################################
+# Section 5.6: Strategic Tool Configuration
+##############################################
 
+if "strategic_settings_open" not in st.session_state:
+    st.session_state.strategic_settings_open = False
+
+if st.button("Hide Strategic Settings" if st.session_state.strategic_settings_open else "Configure Strategic Settings", key="toggle_strategic_settings"):
+    st.session_state.strategic_settings_open = not st.session_state.strategic_settings_open
+    st.rerun()
+
+if st.session_state.strategic_settings_open:
+    st.markdown("#### Strategic Tool Configuration")
+    st.markdown("These settings control how the Strategic Match Planning Tools calculate their recommendations.")
+    
+    use_main_config = st.checkbox(
+        "Use main column configuration settings",
+        value=st.session_state.strategic_config['use_column_config'],
+        key="use_main_config_checkbox"
+    )
+    st.session_state.strategic_config['use_column_config'] = use_main_config
+    
+    if not use_main_config:
+        st.markdown("##### Custom Strategic Tool Settings")
+        
+        # Allow manual season selection for strategic tools
+        strategic_seasons = st.text_input(
+            "Seasons for strategic analysis (e.g., '19-21')",
+            value=st.session_state.strategic_config.get('seasons_override_str', "20-21"),
+            key="strategic_seasons_input"
+        )
+        
+        if strategic_seasons:
+            parsed_seasons = parse_seasons(strategic_seasons)
+            st.session_state.strategic_config['seasons_override'] = parsed_seasons
+            st.session_state.strategic_config['seasons_override_str'] = strategic_seasons
+        
+        # Venue specific option
+        venue_specific = st.checkbox(
+            "Venue specific analysis only",
+            value=st.session_state.strategic_config['venue_specific'],
+            key="strategic_venue_specific"
+        )
+        st.session_state.strategic_config['venue_specific'] = venue_specific
+        
+        # Roster only option
+        roster_only = st.checkbox(
+            "Consider roster players only",
+            value=st.session_state.strategic_config['roster_only'],
+            key="strategic_roster_only"
+        )
+        st.session_state.strategic_config['roster_only'] = roster_only
+        
+        st.info(f"Strategic tools will use: Seasons {parsed_seasons if strategic_seasons else 'Not set'}, "
+                f"Venue specific: {venue_specific}, Roster only: {roster_only}")
+    else:
+        st.info("Strategic tools will use the same settings as the main column configuration.")
+        
 ##############################################
 # Section 6: Save Team Rosters from CSV Files
 ##############################################
@@ -2452,6 +2518,33 @@ def build_player_machine_stats(all_data_df, opponent_team_name, venue_name, seas
     """
     import pandas as pd
     import numpy as np
+
+    # Get strategic configuration
+    strategic_config = st.session_state.get('strategic_config', {})
+    
+    # Determine which seasons to use
+    if strategic_config.get('use_column_config', True):
+        # Use column config settings
+        column_config = st.session_state.get('column_config', {})
+        if column_config:
+            # Get seasons from active columns
+            active_seasons = []
+            for col_name, config in column_config.items():
+                if config.get('include', False):
+                    active_seasons.append(config.get('seasons', seasons_to_process))
+            if active_seasons:
+                min_season = min([s[0] for s in active_seasons])
+                max_season = max([s[1] for s in active_seasons])
+                seasons_to_process = list(range(min_season, max_season + 1))
+    elif strategic_config.get('seasons_override'):
+        # Use strategic override
+        seasons_to_process = strategic_config['seasons_override']
+    
+    # Apply filters based on configuration
+    venue_data = all_data_df[all_data_df['season'].isin(seasons_to_process)]
+    
+    if strategic_config.get('venue_specific', True):
+        venue_data = venue_data[venue_data['venue'] == venue_name]
     
     # TWC is always the primary team we're analyzing
     twc_team_name = "The Wrecking Crew"
@@ -3773,6 +3866,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
