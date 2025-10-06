@@ -3323,192 +3323,192 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
                 st.markdown(f"{idx}. **{machine.title()}** - Players: {', '.join(rec['player_assignments'].get(machine, []))}")
     
     # Player analysis section
-st.markdown("### Player Analysis")
-
-# Add toggle for venue-specific analysis
-strategic_config = st.session_state.get('strategic_config', {})
-venue_specific_analysis = True  # Default
-
-if strategic_config.get('use_column_config', True):
-    # Check if any column has venue_specific = False
-    column_config = st.session_state.get('column_config', {})
-    for col_name, config in column_config.items():
-        if config.get('include', False) and not config.get('venue_specific', True):
-            venue_specific_analysis = False
-            break
-else:
-    venue_specific_analysis = strategic_config.get('venue_specific', True)
-
-# Add a toggle for the user
-col1, col2 = st.columns([2, 1])
-with col1:
-    selected_player = st.selectbox("Select player to analyze:", [""] + sorted(available_players))
-with col2:
-    show_all_venues = st.checkbox(
-        "Show all venues", 
-        value=not venue_specific_analysis,
-        key="player_analysis_all_venues"
-    )
-
-if selected_player:
-    st.markdown(f"#### Performance Profile for {selected_player}")
+    st.markdown("### Player Analysis")
     
-    # Get the machines that are at the selected venue (from machine_advantage_df)
-    venue_machines = set(machine_advantage_df['Machine'].tolist())
+    # Add toggle for venue-specific analysis
+    strategic_config = st.session_state.get('strategic_config', {})
+    venue_specific_analysis = True  # Default
     
-    if show_all_venues:
-        # Get player stats across ALL venues, but only for machines at the selected venue
-        player_all_venue_data = all_data_df[all_data_df['player_name'] == selected_player]
-        player_all_venue_data = player_all_venue_data[player_all_venue_data['season'].isin(seasons_to_process)]
+    if strategic_config.get('use_column_config', True):
+        # Check if any column has venue_specific = False
+        column_config = st.session_state.get('column_config', {})
+        for col_name, config in column_config.items():
+            if config.get('include', False) and not config.get('venue_specific', True):
+                venue_specific_analysis = False
+                break
+    else:
+        venue_specific_analysis = strategic_config.get('venue_specific', True)
+    
+    # Add a toggle for the user
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        selected_player = st.selectbox("Select player to analyze:", [""] + sorted(available_players))
+    with col2:
+        show_all_venues = st.checkbox(
+            "Show all venues", 
+            value=not venue_specific_analysis,
+            key="player_analysis_all_venues"
+        )
+    
+    if selected_player:
+        st.markdown(f"#### Performance Profile for {selected_player}")
         
-        # Filter to only machines that exist at the selected venue
-        player_all_venue_data = player_all_venue_data[player_all_venue_data['machine'].isin(venue_machines)]
+        # Get the machines that are at the selected venue (from machine_advantage_df)
+        venue_machines = set(machine_advantage_df['Machine'].tolist())
         
-        if not player_all_venue_data.empty:
-            # Calculate overall stats
-            total_games = len(player_all_venue_data)
-            unique_machines = player_all_venue_data['machine'].nunique()
-            venues_played = player_all_venue_data['venue'].nunique()
+        if show_all_venues:
+            # Get player stats across ALL venues, but only for machines at the selected venue
+            player_all_venue_data = all_data_df[all_data_df['player_name'] == selected_player]
+            player_all_venue_data = player_all_venue_data[player_all_venue_data['season'].isin(seasons_to_process)]
             
-            st.markdown(f"**Total Games Played (all venues, {venue_name} machines only)**: {total_games}")
-            st.markdown(f"**Venues Where These Machines Were Played**: {venues_played}")
-            st.markdown(f"**Machines Played (from {venue_name} list)**: {unique_machines}")
+            # Filter to only machines that exist at the selected venue
+            player_all_venue_data = player_all_venue_data[player_all_venue_data['machine'].isin(venue_machines)]
             
-            # Show machine performance across all venues
-            st.markdown(f"#### Machine Performance (All Venues, {venue_name} Machines)")
-            
-            machine_data = []
-            for machine in venue_machines:  # Only iterate through venue machines
-                machine_player_data = player_all_venue_data[player_all_venue_data['machine'] == machine]
+            if not player_all_venue_data.empty:
+                # Calculate overall stats
+                total_games = len(player_all_venue_data)
+                unique_machines = player_all_venue_data['machine'].nunique()
+                venues_played = player_all_venue_data['venue'].nunique()
                 
-                if not machine_player_data.empty:
-                    # Get venue-specific breakdown
-                    venue_breakdown = {}
-                    for venue in machine_player_data['venue'].unique():
-                        venue_machine_data = machine_player_data[machine_player_data['venue'] == venue]
-                        venue_breakdown[venue] = {
-                            'avg_score': venue_machine_data['score'].mean(),
-                            'times_played': len(venue_machine_data)
-                        }
+                st.markdown(f"**Total Games Played (all venues, {venue_name} machines only)**: {total_games}")
+                st.markdown(f"**Venues Where These Machines Were Played**: {venues_played}")
+                st.markdown(f"**Machines Played (from {venue_name} list)**: {unique_machines}")
+                
+                # Show machine performance across all venues
+                st.markdown(f"#### Machine Performance (All Venues, {venue_name} Machines)")
+                
+                machine_data = []
+                for machine in venue_machines:  # Only iterate through venue machines
+                    machine_player_data = player_all_venue_data[player_all_venue_data['machine'] == machine]
                     
-                    # Get opponent average at selected venue
+                    if not machine_player_data.empty:
+                        # Get venue-specific breakdown
+                        venue_breakdown = {}
+                        for venue in machine_player_data['venue'].unique():
+                            venue_machine_data = machine_player_data[machine_player_data['venue'] == venue]
+                            venue_breakdown[venue] = {
+                                'avg_score': venue_machine_data['score'].mean(),
+                                'times_played': len(venue_machine_data)
+                            }
+                        
+                        # Get opponent average at selected venue
+                        machine_adv = machine_advantage_df[machine_advantage_df['Machine'] == machine]
+                        opponent_pct = machine_adv.iloc[0]['Opponent % of Venue'] if not machine_adv.empty else 0
+                        
+                        # Calculate player's average across all venues
+                        player_avg_all_venues = machine_player_data['score'].mean()
+                        
+                        # Get venue average for the selected venue (for comparison)
+                        venue_specific_data = all_data_df[
+                            (all_data_df['machine'] == machine) & 
+                            (all_data_df['venue'] == venue_name)
+                        ]
+                        venue_avg = venue_specific_data['score'].mean() if not venue_specific_data.empty else 0
+                        
+                        # Calculate percentage of selected venue's average
+                        pct_of_selected_venue = (player_avg_all_venues / venue_avg * 100) if venue_avg > 0 else 0
+                        
+                        machine_data.append({
+                            'Machine': machine,
+                            'Avg Score (All Venues)': player_avg_all_venues,
+                            f'% of {venue_name} Avg': pct_of_selected_venue,
+                            'Times Played': len(machine_player_data),
+                            'Venues Played': len(machine_player_data['venue'].unique()),
+                            'Best Venue': max(venue_breakdown.items(), key=lambda x: x[1]['avg_score'])[0] if venue_breakdown else 'N/A',
+                            'Opponent % at Venue': opponent_pct,
+                            'Advantage': pct_of_selected_venue - opponent_pct if opponent_pct > 0 else None
+                        })
+                
+                if machine_data:
+                    machine_df = pd.DataFrame(machine_data)
+                    machine_df = machine_df.sort_values('Advantage', ascending=False, na_position='last')
+                    
+                    # Format numeric columns
+                    machine_df['Avg Score (All Venues)'] = machine_df['Avg Score (All Venues)'].round(0).astype(int)
+                    machine_df[f'% of {venue_name} Avg'] = machine_df[f'% of {venue_name} Avg'].round(1)
+                    machine_df['Opponent % at Venue'] = machine_df['Opponent % at Venue'].round(1)
+                    machine_df['Advantage'] = machine_df['Advantage'].apply(lambda x: f"{x:.1f}" if pd.notna(x) else "N/A")
+                    
+                    st.dataframe(machine_df)
+                    
+                    # Show top machines for this player
+                    st.markdown("#### Best Machines for this Player (Based on All Venue Performance)")
+                    top_df = machine_df[machine_df['Advantage'] != "N/A"].copy()
+                    if not top_df.empty:
+                        top_df['Advantage_num'] = top_df['Advantage'].apply(lambda x: float(x) if x != "N/A" else -999)
+                        top_machines = top_df.nlargest(3, 'Advantage_num')
+                        
+                        for i, (_, row) in enumerate(top_machines.iterrows(), 1):
+                            machine = row['Machine']
+                            st.markdown(f"{i}. **{machine.title()}** - {row[f'% of {venue_name} Avg']:.1f}% of venue average, " + 
+                                      f"{row['Advantage']} advantage over opponent")
+                else:
+                    st.markdown(f"No data available for this player on {venue_name} machines.")
+            else:
+                st.markdown(f"No data available for this player on {venue_name} machines across any venue.")
+        
+        else:  # Venue-specific view (original)
+            if selected_player in player_machine_stats:
+                player_data = player_machine_stats[selected_player]
+                
+                # Show overall stats
+                st.markdown(f"**Overall Average % of Venue**: {player_data['overall_average_pct_of_venue']:.1f}%")
+                st.markdown(f"**Total Games Played at {venue_name}**: {player_data['total_games_played']}")
+                st.markdown(f"**Machine Experience Breadth at {venue_name}**: {player_data['experience_breadth']} machines")
+                
+                # Show machine-specific performance
+                st.markdown("#### Machine Performance")
+                
+                # Prepare data for table
+                machine_data = []
+                for machine, stats in player_data['machines'].items():
+                    # Get the corresponding machine advantage data
                     machine_adv = machine_advantage_df[machine_advantage_df['Machine'] == machine]
-                    opponent_pct = machine_adv.iloc[0]['Opponent % of Venue'] if not machine_adv.empty else 0
                     
-                    # Calculate player's average across all venues
-                    player_avg_all_venues = machine_player_data['score'].mean()
-                    
-                    # Get venue average for the selected venue (for comparison)
-                    venue_specific_data = all_data_df[
-                        (all_data_df['machine'] == machine) & 
-                        (all_data_df['venue'] == venue_name)
-                    ]
-                    venue_avg = venue_specific_data['score'].mean() if not venue_specific_data.empty else 0
-                    
-                    # Calculate percentage of selected venue's average
-                    pct_of_selected_venue = (player_avg_all_venues / venue_avg * 100) if venue_avg > 0 else 0
-                    
-                    machine_data.append({
-                        'Machine': machine,
-                        'Avg Score (All Venues)': player_avg_all_venues,
-                        f'% of {venue_name} Avg': pct_of_selected_venue,
-                        'Times Played': len(machine_player_data),
-                        'Venues Played': len(machine_player_data['venue'].unique()),
-                        'Best Venue': max(venue_breakdown.items(), key=lambda x: x[1]['avg_score'])[0] if venue_breakdown else 'N/A',
-                        'Opponent % at Venue': opponent_pct,
-                        'Advantage': pct_of_selected_venue - opponent_pct if opponent_pct > 0 else None
-                    })
-            
-            if machine_data:
-                machine_df = pd.DataFrame(machine_data)
-                machine_df = machine_df.sort_values('Advantage', ascending=False, na_position='last')
+                    if not machine_adv.empty:
+                        opponent_pct = machine_adv.iloc[0]['Opponent % of Venue']
+                        advantage = stats['pct_of_venue'] - opponent_pct if opponent_pct > 0 else None
+                        
+                        machine_data.append({
+                            'Machine': machine,
+                            'Average Score': stats['average_score'],
+                            '% of Venue': stats['pct_of_venue'],
+                            'Times Played': stats['plays_count'],
+                            'Team Rank': stats['rank_on_team'],
+                            'Opponent % of Venue': opponent_pct,
+                            'Player Advantage': advantage
+                        })
                 
-                # Format numeric columns
-                machine_df['Avg Score (All Venues)'] = machine_df['Avg Score (All Venues)'].round(0).astype(int)
-                machine_df[f'% of {venue_name} Avg'] = machine_df[f'% of {venue_name} Avg'].round(1)
-                machine_df['Opponent % at Venue'] = machine_df['Opponent % at Venue'].round(1)
-                machine_df['Advantage'] = machine_df['Advantage'].apply(lambda x: f"{x:.1f}" if pd.notna(x) else "N/A")
-                
-                st.dataframe(machine_df)
-                
-                # Show top machines for this player
-                st.markdown("#### Best Machines for this Player (Based on All Venue Performance)")
-                top_df = machine_df[machine_df['Advantage'] != "N/A"].copy()
-                if not top_df.empty:
-                    top_df['Advantage_num'] = top_df['Advantage'].apply(lambda x: float(x) if x != "N/A" else -999)
+                if machine_data:
+                    # Convert to DataFrame and sort by advantage
+                    machine_df = pd.DataFrame(machine_data)
+                    machine_df = machine_df.sort_values('Player Advantage', ascending=False, na_position='last')
+                    
+                    # Format numeric columns
+                    machine_df['Average Score'] = machine_df['Average Score'].round(0).astype(int)
+                    machine_df['% of Venue'] = machine_df['% of Venue'].round(1)
+                    machine_df['Opponent % of Venue'] = machine_df['Opponent % of Venue'].round(1)
+                    machine_df['Player Advantage'] = machine_df['Player Advantage'].apply(lambda x: f"{x:.1f}" if pd.notna(x) else "N/A")
+                    
+                    st.dataframe(machine_df)
+                    
+                    # Show top machines for this player
+                    st.markdown("#### Best Machines for this Player")
+                    # Create a copy and add numeric column for sorting
+                    top_df = machine_df.copy()
+                    top_df['Advantage_num'] = top_df['Player Advantage'].apply(lambda x: float(x) if x != "N/A" else -999)
                     top_machines = top_df.nlargest(3, 'Advantage_num')
                     
                     for i, (_, row) in enumerate(top_machines.iterrows(), 1):
                         machine = row['Machine']
-                        st.markdown(f"{i}. **{machine.title()}** - {row[f'% of {venue_name} Avg']:.1f}% of venue average, " + 
-                                  f"{row['Advantage']} advantage over opponent")
+                        st.markdown(f"{i}. **{machine.title()}** - {row['% of Venue']:.1f}% of venue average, " + 
+                                  f"{row['Player Advantage']} advantage over opponent")
+                else:
+                    st.markdown(f"No machine data available for this player at {venue_name}.")
             else:
-                st.markdown(f"No data available for this player on {venue_name} machines.")
-        else:
-            st.markdown(f"No data available for this player on {venue_name} machines across any venue.")
+                st.markdown("No data available for this player at this venue.")
     
-    else:  # Venue-specific view (original)
-        if selected_player in player_machine_stats:
-            player_data = player_machine_stats[selected_player]
-            
-            # Show overall stats
-            st.markdown(f"**Overall Average % of Venue**: {player_data['overall_average_pct_of_venue']:.1f}%")
-            st.markdown(f"**Total Games Played at {venue_name}**: {player_data['total_games_played']}")
-            st.markdown(f"**Machine Experience Breadth at {venue_name}**: {player_data['experience_breadth']} machines")
-            
-            # Show machine-specific performance
-            st.markdown("#### Machine Performance")
-            
-            # Prepare data for table
-            machine_data = []
-            for machine, stats in player_data['machines'].items():
-                # Get the corresponding machine advantage data
-                machine_adv = machine_advantage_df[machine_advantage_df['Machine'] == machine]
-                
-                if not machine_adv.empty:
-                    opponent_pct = machine_adv.iloc[0]['Opponent % of Venue']
-                    advantage = stats['pct_of_venue'] - opponent_pct if opponent_pct > 0 else None
-                    
-                    machine_data.append({
-                        'Machine': machine,
-                        'Average Score': stats['average_score'],
-                        '% of Venue': stats['pct_of_venue'],
-                        'Times Played': stats['plays_count'],
-                        'Team Rank': stats['rank_on_team'],
-                        'Opponent % of Venue': opponent_pct,
-                        'Player Advantage': advantage
-                    })
-            
-            if machine_data:
-                # Convert to DataFrame and sort by advantage
-                machine_df = pd.DataFrame(machine_data)
-                machine_df = machine_df.sort_values('Player Advantage', ascending=False, na_position='last')
-                
-                # Format numeric columns
-                machine_df['Average Score'] = machine_df['Average Score'].round(0).astype(int)
-                machine_df['% of Venue'] = machine_df['% of Venue'].round(1)
-                machine_df['Opponent % of Venue'] = machine_df['Opponent % of Venue'].round(1)
-                machine_df['Player Advantage'] = machine_df['Player Advantage'].apply(lambda x: f"{x:.1f}" if pd.notna(x) else "N/A")
-                
-                st.dataframe(machine_df)
-                
-                # Show top machines for this player
-                st.markdown("#### Best Machines for this Player")
-                # Create a copy and add numeric column for sorting
-                top_df = machine_df.copy()
-                top_df['Advantage_num'] = top_df['Player Advantage'].apply(lambda x: float(x) if x != "N/A" else -999)
-                top_machines = top_df.nlargest(3, 'Advantage_num')
-                
-                for i, (_, row) in enumerate(top_machines.iterrows(), 1):
-                    machine = row['Machine']
-                    st.markdown(f"{i}. **{machine.title()}** - {row['% of Venue']:.1f}% of venue average, " + 
-                              f"{row['Player Advantage']} advantage over opponent")
-            else:
-                st.markdown(f"No machine data available for this player at {venue_name}.")
-        else:
-            st.markdown("No data available for this player at this venue.")
-
-return machine_advantage_df, player_machine_stats
+    return machine_advantage_df, player_machine_stats
 
 def add_strategic_picking_section():
     """
@@ -3988,6 +3988,7 @@ if st.session_state.get("kellanate_output", False):
     if show_strategic:
         # Add the strategic sections
         add_strategic_sections()
+
 
 
 
