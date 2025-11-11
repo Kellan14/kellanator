@@ -26,6 +26,9 @@
   "corner pocket billiards and lounge": {
     "included": [
       "batman dark knight"
+    ],
+    "excluded": [
+      "foo fighters"
     ]
   }
 }
