@@ -37,10 +37,25 @@ if "rosters_scraped" not in st.session_state:
     st.session_state.rosters_scraped = True
 if "modify_menu_open" not in st.session_state:
     st.session_state.modify_menu_open = False
+if "options_open" not in st.session_state:
+    st.session_state.options_open = False
 if "column_options_open" not in st.session_state:
     st.session_state.column_options_open = False
 if "set_score_limit_open" not in st.session_state:
     st.session_state.set_score_limit_open = False
+if "strategic_config" not in st.session_state:
+    st.session_state.strategic_config = {
+        'use_column_config': True,  # Whether to respect main column config
+        'seasons_override': None,   # Optional override for strategic tools
+        'venue_specific': True,     # Always venue-specific for strategic analysis
+        'roster_only': True,        # Only consider roster players
+    }
+if "standardize_machines_open" not in st.session_state:
+    st.session_state.standardize_machines_open = False
+if "edit_roster_open" not in st.session_state:
+    st.session_state.edit_roster_open = False
+if "strategic_settings_open" not in st.session_state:
+    st.session_state.strategic_settings_open = False
 
 ##############################################
 # Section 1.1: Load All JSON Files from Repository
@@ -88,9 +103,33 @@ def parse_seasons(season_str):
             st.error("Invalid season format. Please enter a number, e.g. '19'.")
     return seasons
 
+def get_last_n_seasons(repo_dir, n=3):
+    """
+    Gets the last N seasons from available data.
+    Returns a formatted string like "20-22" for the last 3 seasons.
+    """
+    season_dirs = glob.glob(os.path.join(repo_dir, "season-*"))
+    season_numbers = []
+    for season_dir in season_dirs:
+        match = re.search(r"season-(\d+)", season_dir)
+        if match:
+            season_numbers.append(int(match.group(1)))
+
+    if season_numbers:
+        sorted_seasons = sorted(season_numbers)
+        last_n = sorted_seasons[-n:] if len(sorted_seasons) >= n else sorted_seasons
+        if len(last_n) > 1:
+            return f"{min(last_n)}-{max(last_n)}"
+        elif len(last_n) == 1:
+            return str(last_n[0])
+        else:
+            return "20-21"  # Fallback default
+    else:
+        return "20-21"  # Fallback default
+
 # Store the previous selection to detect changes
 if "previous_seasons_input" not in st.session_state:
-    st.session_state.previous_seasons_input = "20-21"  # Default value
+    st.session_state.previous_seasons_input = get_last_n_seasons(repo_dir, n=3)  # Default to last 3 seasons
 
 # Use regular text input
 season_input = st.text_input(
@@ -163,7 +202,7 @@ import re
 
 def get_latest_season(repo_dir):
     """
-    Scans the repository directory for folders named "season-<number>" 
+    Scans the repository directory for folders named "season-<number>"
     and returns the highest season number found.
     """
     season_dirs = glob.glob(os.path.join(repo_dir, "season-*"))
@@ -234,8 +273,37 @@ def get_teams_and_venues_from_json(repo_dir):
 dynamic_venues, dynamic_team_names, team_abbr_dict = get_teams_and_venues_from_json(repo_dir)
 
 # Use these select boxes (only one set)
-selected_venue = st.selectbox("Select Venue", dynamic_venues, key="select_venue_json")
+# Set default venue to Georgetown Pizza and Arcade if it exists in the list
+default_venue_name = "Georgetown Pizza and Arcade"
+default_venue_index = dynamic_venues.index(default_venue_name) if default_venue_name in dynamic_venues else 0
+selected_venue = st.selectbox("Select Venue", dynamic_venues, index=default_venue_index, key="select_venue_json")
 selected_team = st.selectbox("Select Team", dynamic_team_names, key="select_team_json")
+
+# Track venue changes and update TWC venue-specific default
+if "previous_venue" not in st.session_state:
+    st.session_state.previous_venue = selected_venue
+
+if selected_venue != st.session_state.previous_venue:
+    # Venue changed, update venue-specific defaults based on new venue
+    is_gpa = selected_venue.lower() == "georgetown pizza and arcade"
+    st.session_state.team_venue_specific = False if is_gpa else True
+    st.session_state.twc_venue_specific = True if is_gpa else False
+    st.session_state.previous_venue = selected_venue
+
+    # Also update column_config if it exists
+    if "column_config" in st.session_state:
+        team_columns = ['Team Average', 'Team Highest Score', '% of V. Avg.',
+                        'Times Played', 'Times Picked', 'POPS', 'POPS Picking', 'POPS Responding']
+        twc_columns = ['TWC Average', 'TWC % V. Avg.', 'TWC Times Played',
+                       'TWC Times Picked', 'TWC POPS', 'TWC POPS Picking', 'TWC POPS Responding']
+
+        for col in team_columns:
+            if col in st.session_state.column_config:
+                st.session_state.column_config[col]['venue_specific'] = st.session_state.team_venue_specific
+
+        for col in twc_columns:
+            if col in st.session_state.column_config:
+                st.session_state.column_config[col]['venue_specific'] = st.session_state.twc_venue_specific
 
 ##############################################
 # Section 4: Get Unique Machine List from JSON Data
@@ -243,10 +311,20 @@ selected_team = st.selectbox("Select Team", dynamic_team_names, key="select_team
 @st.cache_data(show_spinner=True)
 def get_all_machines(repo_dir):
     """
-    Scans JSON files (seasons 14-21) and returns a sorted list of unique machine names.
+    Scans JSON files from all available seasons and returns a sorted list of unique machine names.
     """
     machine_set = set()
-    for season in range(14, 22):
+
+    # Find all season directories dynamically
+    season_dirs = glob.glob(os.path.join(repo_dir, "season-*"))
+    season_numbers = []
+    for season_dir in season_dirs:
+        match = re.search(r"season-(\d+)", season_dir)
+        if match:
+            season_numbers.append(int(match.group(1)))
+
+    # Scan all available seasons
+    for season in season_numbers:
         directory = os.path.join(repo_dir, f"season-{season}", "matches")
         json_files = glob.glob(os.path.join(directory, "**", "*.json"), recursive=True)
         for file_path in json_files:
@@ -269,493 +347,543 @@ all_machines_from_data = get_all_machines(repo_dir)
 ##############################################
 # Initialize persistent column configuration if not already set.
 if "column_config" not in st.session_state:
-    default_twcs = True if selected_venue.lower() == "georgetown pizza and arcade" else False
-    
+    is_gpa = selected_venue.lower() == "georgetown pizza and arcade"
+    default_team_vs = False if is_gpa else True  # Team: NOT venue-specific at GPA
+    default_twc_vs = True if is_gpa else False   # TWC: venue-specific at GPA
+
     # Use min and max of seasons_to_process to create a tuple for seasons
     min_season = min(seasons_to_process) if seasons_to_process else 20
     max_season = max(seasons_to_process) if seasons_to_process else 21
     seasons_tuple = (min_season, max_season)
-    
+
     st.session_state.column_config = {
-         'Team Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'TWC Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
+         'Team Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_team_vs, 'backfill': False},
+         'TWC Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twc_vs, 'backfill': False},
          'Venue Average': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'Team Highest Score': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         '% of V. Avg.': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'TWC % V. Avg.': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
-         'Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'TWC Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
-         'Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
-         'POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': True, 'backfill': False},
-         'TWC POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
-         'TWC POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False},
-         'TWC POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twcs, 'backfill': False}
+         'Team Highest Score': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_team_vs, 'backfill': False},
+         '% of V. Avg.': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_team_vs, 'backfill': False},
+         'TWC % V. Avg.': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twc_vs, 'backfill': False},
+         'Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_team_vs, 'backfill': False},
+         'TWC Times Played': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twc_vs, 'backfill': False},
+         'Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_team_vs, 'backfill': False},
+         'TWC Times Picked': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twc_vs, 'backfill': False},
+         'POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_team_vs, 'backfill': False},
+         'POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_team_vs, 'backfill': False},
+         'POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_team_vs, 'backfill': False},
+         'TWC POPS': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twc_vs, 'backfill': False},
+         'TWC POPS Picking': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twc_vs, 'backfill': False},
+         'TWC POPS Responding': {'include': True, 'seasons': seasons_tuple, 'venue_specific': default_twc_vs, 'backfill': False}
     }
 
-# Toggle Column Options display.
-if st.button("Hide Column Options" if st.session_state.column_options_open else "Show Column Options", key="toggle_column_options"):
-    st.session_state.column_options_open = not st.session_state.column_options_open
+# Initialize simple venue-specific toggles if not set
+if "team_venue_specific" not in st.session_state:
+    # Team defaults: NOT venue-specific at GPA, venue-specific elsewhere
+    st.session_state.team_venue_specific = False if selected_venue.lower() == "georgetown pizza and arcade" else True
+
+if "twc_venue_specific" not in st.session_state:
+    # TWC defaults: venue-specific at GPA, NOT venue-specific elsewhere
+    st.session_state.twc_venue_specific = True if selected_venue.lower() == "georgetown pizza and arcade" else False
+
+##############################################
+# Master Options Toggle
+##############################################
+if st.button("Hide Options" if st.session_state.options_open else "Options", key="toggle_options"):
+    st.session_state.options_open = not st.session_state.options_open
     st.rerun()
 
-# When open, display the options and update the persistent config.
-if st.session_state.column_options_open:
-    st.markdown("#### Column Options")
-    current_config = st.session_state.column_config  # Use the saved config
-    updated_config = {}
-    for col, config in current_config.items():
-        col1, col2 = st.columns([0.6, 0.4])
-        with col1:
-            include_column = st.checkbox(f"{col}", value=config.get("include", True), key=f"inc_{col}")
-        with col2:
-            venue_spec = st.checkbox("Venue Specific", value=config.get("venue_specific", False), key=f"vs_{col}")
-        
+if st.session_state.options_open:
+    # Toggle Column Options display.
+    if st.button("Hide Column Options" if st.session_state.column_options_open else "Show Column Options", key="toggle_column_options"):
+        st.session_state.column_options_open = not st.session_state.column_options_open
+        st.rerun()
+
+    # When open, display the simplified options
+    if st.session_state.column_options_open:
+        st.markdown("#### Column Options")
+
+        # Simple two-checkbox interface
+        # Include venue in key to force refresh when venue changes
+        team_vs = st.checkbox(
+            f"{selected_team} - Venue Specific",
+            value=st.session_state.team_venue_specific,
+            key=f"team_venue_specific_checkbox_{selected_venue}",
+            help="Apply venue-specific filtering to all selected team columns"
+        )
+
+        twc_vs = st.checkbox(
+            "TWC - Venue Specific",
+            value=st.session_state.twc_venue_specific,
+            key=f"twc_venue_specific_checkbox_{selected_venue}",
+            help="Apply venue-specific filtering to all TWC columns"
+        )
+
+        # Update session state
+        st.session_state.team_venue_specific = team_vs
+        st.session_state.twc_venue_specific = twc_vs
+
+        # Update all columns in column_config based on these settings
+        current_config = st.session_state.column_config
+
         # Use min and max of seasons_to_process to ensure consistency
         min_season = min(seasons_to_process) if seasons_to_process else 20
         max_season = max(seasons_to_process) if seasons_to_process else 21
         seasons_tuple = (min_season, max_season)
-        
-        updated_config[col] = {
-            'include': include_column,
-            'seasons': seasons_tuple,  # Always use the global seasons setting
-            'venue_specific': venue_spec,
-            'backfill': config['backfill']
-        }
-    # Update the persistent column_config.
-    st.session_state.column_config = updated_config
 
-if "strategic_config" not in st.session_state:
-    st.session_state.strategic_config = {
-        'use_column_config': True,  # Whether to respect main column config
-        'seasons_override': None,   # Optional override for strategic tools
-        'venue_specific': True,     # Always venue-specific for strategic analysis
-        'roster_only': True,        # Only consider roster players
-    }
+        # Define which columns are team-related vs TWC-related
+        team_columns = ['Team Average', 'Team Highest Score', '% of V. Avg.',
+                        'Times Played', 'Times Picked', 'POPS', 'POPS Picking', 'POPS Responding']
+        twc_columns = ['TWC Average', 'TWC % V. Avg.', 'TWC Times Played',
+                       'TWC Times Picked', 'TWC POPS', 'TWC POPS Picking', 'TWC POPS Responding']
+        venue_columns = ['Venue Average']  # Always venue-specific
 
+        updated_config = {}
+        for col, config in current_config.items():
+            if col in team_columns:
+                venue_spec = team_vs
+            elif col in twc_columns:
+                venue_spec = twc_vs
+            elif col in venue_columns:
+                venue_spec = True
+            else:
+                venue_spec = config.get('venue_specific', True)
 
+            updated_config[col] = {
+                'include': config.get('include', True),
+                'seasons': seasons_tuple,
+                'venue_specific': venue_spec,
+                'backfill': config.get('backfill', False)
+            }
 
-##############################################
-# Section 5.2: Toggle and Display Set Machine Score Limits
-##############################################
-if st.button("Hide Machine Score Limits" if st.session_state.set_score_limit_open else "Set Machine Score Limits", key="toggle_machine_score_limits"):
-    st.session_state.set_score_limit_open = not st.session_state.set_score_limit_open
-    st.rerun()
+        st.session_state.column_config = updated_config
 
-if st.session_state.set_score_limit_open:
-    st.markdown("#### Set Machine Score Limits")
-    st.markdown("##### Add New Score Limit")
-    available_machines = [m for m in all_machines_from_data if m not in get_score_limits()]
-    new_machine = st.selectbox("Select Machine", options=available_machines, key="score_limit_machine_dropdown")
-    new_machine_text = st.text_input("Or type machine name", "", key="score_limit_machine_text")
-    machine_to_add = new_machine_text.strip() if new_machine_text.strip() else new_machine
+    ##############################################
+    # Section 5.2: Toggle and Display Set Machine Score Limits
+    ##############################################
+    if st.button("Hide Machine Score Limits" if st.session_state.set_score_limit_open else "Set Machine Score Limits", key="toggle_machine_score_limits"):
+        st.session_state.set_score_limit_open = not st.session_state.set_score_limit_open
+        st.rerun()
 
-    new_score_str = st.text_input("Enter Score Limit", "", key="score_limit_value")
-    if st.button("Add Score Limit", key="add_score_limit_btn"):
-        try:
-            cleaned = re.sub(r"[^\d,]", "", new_score_str)
-            score_limit = int(cleaned.replace(",", "").strip())
-            if machine_to_add:
-                set_score_limit(machine_to_add, score_limit)
-                st.success(f"Score limit for {machine_to_add} set to {score_limit:,}")
-                st.rerun()
-        except Exception as e:
-            st.error("Invalid score input. Please enter a valid number (commas allowed).")
+    if st.session_state.set_score_limit_open:
+        st.markdown("#### Set Machine Score Limits")
+        st.markdown("##### Add New Score Limit")
+        available_machines = [m for m in get_all_machines(repo_dir) if m not in get_score_limits()]
+        new_machine = st.selectbox("Select Machine", options=available_machines, key="score_limit_machine_dropdown")
+        new_machine_text = st.text_input("Or type machine name", "", key="score_limit_machine_text")
+        machine_to_add = new_machine_text.strip() if new_machine_text.strip() else new_machine
 
-    st.markdown("##### Current Score Limits")
-    current_score_limits = get_score_limits()
-    for machine, limit in current_score_limits.items():
-        col1, col2, col3 = st.columns([0.5, 0.3, 0.2])
-        col1.write(machine)
-        col2.write(f"{limit:,}")
-        if col3.button("🗑️", key=f"del_score_{machine}"):
-            delete_score_limit(machine)
-            st.rerun()
-        new_edit_score = st.text_input(f"Edit {machine} Score Limit", value=f"{limit:,}", key=f"edit_{machine}")
-        if st.button("Update", key=f"update_{machine}"):
+        new_score_str = st.text_input("Enter Score Limit", "", key="score_limit_value")
+        if st.button("Add Score Limit", key="add_score_limit_btn"):
             try:
-                updated_score = int(new_edit_score.replace(",", "").strip())
-                set_score_limit(machine, updated_score)
-                st.success(f"Updated {machine} score limit to {updated_score:,}")
-                st.rerun()
+                cleaned = re.sub(r"[^\d,]", "", new_score_str)
+                score_limit = int(cleaned.replace(",", "").strip())
+                if machine_to_add:
+                    set_score_limit(machine_to_add, score_limit)
+                    st.success(f"Score limit for {machine_to_add} set to {score_limit:,}")
+                    st.rerun()
             except Exception as e:
-                st.error("Invalid score. Please enter a valid number.")
+                st.error("Invalid score input. Please enter a valid number (commas allowed).")
 
-##############################################
-# Section 5.3: Toggle and Display Modify Venue Machine List
-##############################################
-if st.button("Hide Modify Venue Machine List" if st.session_state.modify_menu_open else "Modify Venue Machine List", key="toggle_modify_venue_machine_list"):
-    st.session_state.modify_menu_open = not st.session_state.modify_menu_open
-    st.rerun()
+        st.markdown("##### Current Score Limits")
+        current_score_limits = get_score_limits()
+        for machine, limit in current_score_limits.items():
+            col1, col2, col3 = st.columns([0.5, 0.3, 0.2])
+            col1.write(machine)
+            col2.write(f"{limit:,}")
+            if col3.button("🗑️", key=f"del_score_{machine}"):
+                delete_score_limit(machine)
+                st.rerun()
+            new_edit_score = st.text_input(f"Edit {machine} Score Limit", value=f"{limit:,}", key=f"edit_{machine}")
+            if st.button("Update", key=f"update_{machine}"):
+                try:
+                    updated_score = int(new_edit_score.replace(",", "").strip())
+                    set_score_limit(machine, updated_score)
+                    st.success(f"Updated {machine} score limit to {updated_score:,}")
+                    st.rerun()
+                except Exception as e:
+                    st.error("Invalid score. Please enter a valid number.")
 
-if st.session_state.modify_menu_open:
-    st.markdown("#### Modify Venue Machine List")
-    st.markdown("##### Included Machines")
-    included_machines = get_venue_machine_list(selected_venue, "included")
-    for machine in included_machines:
-        col1, col2 = st.columns([0.8, 0.2])
-        col1.write(machine)
-        if col2.button("🗑️", key=f"del_inc_{machine}_{selected_venue}"):
-            delete_machine_from_venue(selected_venue, "included", machine)
-            st.rerun()
-    st.markdown("Add machine to **Included**:")
-    available_included = [m for m in all_machines_from_data if m not in included_machines]
-    add_inc_dropdown = st.selectbox("Select from list", options=available_included, key=f"add_inc_dropdown_{selected_venue}")
-    add_inc_text = st.text_input("Or type machine name (must match format)", "", key=f"add_inc_text_{selected_venue}")
-    if st.button("Add to Included", key=f"add_inc_btn_{selected_venue}"):
-        new_machine = add_inc_text.strip() if add_inc_text.strip() else add_inc_dropdown
-        if new_machine:
-            add_machine_to_venue(selected_venue, "included", new_machine)
-            st.rerun()
+    ##############################################
+    # Section 5.3: Toggle and Display Modify Venue Machine List
+    ##############################################
+    if st.button("Hide Modify Venue Machine List" if st.session_state.modify_menu_open else "Modify Venue Machine List", key="toggle_modify_venue_machine_list"):
+        st.session_state.modify_menu_open = not st.session_state.modify_menu_open
+        st.rerun()
+
+    if st.session_state.modify_menu_open:
+        st.markdown("#### Modify Venue Machine List")
+        st.markdown("##### Included Machines")
+        included_machines = get_venue_machine_list(selected_venue, "included")
+        for machine in included_machines:
+            col1, col2 = st.columns([0.8, 0.2])
+            col1.write(machine)
+            if col2.button("🗑️", key=f"del_inc_{machine}_{selected_venue}"):
+                delete_machine_from_venue(selected_venue, "included", machine)
+                st.rerun()
+        st.markdown("Add machine to **Included**:")
+        available_included = [m for m in get_all_machines(repo_dir) if m not in included_machines]
+        add_inc_dropdown = st.selectbox("Select from list", options=available_included, key=f"add_inc_dropdown_{selected_venue}")
+        add_inc_text = st.text_input("Or type machine name (must match format)", "", key=f"add_inc_text_{selected_venue}")
+        if st.button("Add to Included", key=f"add_inc_btn_{selected_venue}"):
+            new_machine = add_inc_text.strip() if add_inc_text.strip() else add_inc_dropdown
+            if new_machine:
+                add_machine_to_venue(selected_venue, "included", new_machine)
+                st.rerun()
+            
+        st.markdown("##### Excluded Machines")
+        excluded_machines = get_venue_machine_list(selected_venue, "excluded")
+        for machine in excluded_machines:
+            col1, col2 = st.columns([0.8, 0.2])
+            col1.write(machine)
+            if col2.button("🗑️", key=f"del_exc_{machine}_{selected_venue}"):
+                delete_machine_from_venue(selected_venue, "excluded", machine)
+                st.rerun()
+        st.markdown("Add machine to **Excluded**:")
+        available_excluded = [m for m in get_all_machines(repo_dir) if m not in excluded_machines]
+        add_exc_dropdown = st.selectbox("Select from list", options=available_excluded, key=f"add_exc_dropdown_{selected_venue}")
+        add_exc_text = st.text_input("Or type machine name (must match format)", "", key=f"add_exc_text_{selected_venue}")
+        if st.button("Add to Excluded", key=f"add_exc_btn_{selected_venue}"):
+            new_machine = add_exc_text.strip() if add_exc_text.strip() else add_exc_dropdown
+            if new_machine:
+                add_machine_to_venue(selected_venue, "excluded", new_machine)
+                st.rerun()
         
-    st.markdown("##### Excluded Machines")
-    excluded_machines = get_venue_machine_list(selected_venue, "excluded")
-    for machine in excluded_machines:
-        col1, col2 = st.columns([0.8, 0.2])
-        col1.write(machine)
-        if col2.button("🗑️", key=f"del_exc_{machine}_{selected_venue}"):
-            delete_machine_from_venue(selected_venue, "excluded", machine)
-            st.rerun()
-    st.markdown("Add machine to **Excluded**:")
-    available_excluded = [m for m in all_machines_from_data if m not in excluded_machines]
-    add_exc_dropdown = st.selectbox("Select from list", options=available_excluded, key=f"add_exc_dropdown_{selected_venue}")
-    add_exc_text = st.text_input("Or type machine name (must match format)", "", key=f"add_exc_text_{selected_venue}")
-    if st.button("Add to Excluded", key=f"add_exc_btn_{selected_venue}"):
-        new_machine = add_exc_text.strip() if add_exc_text.strip() else add_exc_dropdown
-        if new_machine:
-            add_machine_to_venue(selected_venue, "excluded", new_machine)
-            st.rerun()
-
-##############################################
-# Section 5.4: Standardize Machines (Add/Edit) - Persistent Across Refreshes
-##############################################
-
-MACHINE_MAPPING_FILE = "kellanator/machine_mapping.json"
-
-if "standardize_machines_open" not in st.session_state:
-    st.session_state.standardize_machines_open = False
-
-if st.button("Hide Standardize Machines" if st.session_state.standardize_machines_open else "Show Standardize Machines", key="toggle_standardize_machines"):
-    st.session_state.standardize_machines_open = not st.session_state.standardize_machines_open
-    st.rerun()
-
-if st.session_state.standardize_machines_open:
-    st.markdown("### Standardize Machines")
+        ##############################################
+    # Section 5.4: Standardize Machines (Add/Edit) - Persistent Across Refreshes
+    ##############################################
     
-    # --- Section for adding a new machine mapping ---
-    st.markdown("#### Add New Machine Mapping")
-    # Dropdown with all games (from all_machines_from_data) and a text field for manual entry.
-    new_alias_dropdown = st.selectbox("Select a machine alias from existing games", all_machines_from_data, key="new_alias_dropdown")
-    new_alias_manual = st.text_input("Or type a new machine alias", "", key="new_alias_text")
-    # Use manual input if provided; otherwise, use dropdown.
-    alias_to_add = new_alias_manual.strip() if new_alias_manual.strip() else new_alias_dropdown
-    # Text input for the standardized name, defaulting to the alias.
-    new_standardized = st.text_input("Enter standardized name for this machine", alias_to_add, key="new_standardized")
-    
-    if st.button("Add Machine Mapping", key="add_machine_mapping"):
-        if alias_to_add:
-            # Update the mapping
-            mapping = st.session_state.machine_mapping
-            mapping[alias_to_add] = new_standardized.strip() if new_standardized.strip() else alias_to_add.lower()
-            st.session_state.machine_mapping = mapping
-            
-            # Use the robust save method
-            save_machine_mapping_strategy(mapping)
-            
-            st.success(f"Added mapping: {alias_to_add} -> {st.session_state.machine_mapping[alias_to_add]}")
-            st.rerun()
+    MACHINE_MAPPING_FILE = "kellanator/machine_mapping.json"
 
-    # --- Section for displaying current mappings with edit/delete options ---
-    st.markdown("#### Current Machine Mappings")
-    mapping = st.session_state.machine_mapping
-    # Use a copy to safely iterate while modifying.
-    for alias, std_val in mapping.copy().items():
-        col1, col2, col3, col4 = st.columns([0.3, 0.3, 0.2, 0.2])
+    if st.button("Hide Standardize Machines" if st.session_state.standardize_machines_open else "Show Standardize Machines", key="toggle_standardize_machines"):
+        st.session_state.standardize_machines_open = not st.session_state.standardize_machines_open
+        st.rerun()
+    
+    if st.session_state.standardize_machines_open:
+        st.markdown("### Standardize Machines")
+
+        # Add buttons to refresh data
+        col1, col2 = st.columns(2)
         with col1:
-            st.write(f"Alias: {alias}")
+            if st.button("Refresh Machine List", key="refresh_machines_btn", help="Reload machine list from all available seasons"):
+                get_all_machines.clear()
+                st.rerun()
         with col2:
-            st.write(f"Standardized: {std_val}")
-        with col3:
-            # Edit: show a text input and an "Update" button.
-            new_val = st.text_input("New Standardized Name", std_val, key=f"edit_input_{alias}")
-            if st.button("Update", key=f"update_{alias}"):
-                mapping[alias] = new_val.strip() if new_val.strip() else alias.lower()
-                st.session_state.machine_mapping = mapping
-                save_machine_mapping(None, mapping)  # Use helper function
-                st.success(f"Updated mapping for {alias}")
-                st.rerun()
-        with col4:
-            if st.button("Delete", key=f"delete_{alias}"):
-                mapping.pop(alias)
-                st.session_state.machine_mapping = mapping
-                save_machine_mapping(None, mapping)  # Use helper function
-                st.success(f"Deleted mapping for {alias}")
+            if st.button("Reload Mapping File", key="reload_mapping_btn", help="Reload machine mappings from file"):
+                st.session_state.machine_mapping = load_machine_mapping("kellanator/machine_mapping.json")
+                st.success("Machine mapping reloaded!")
                 st.rerun()
 
-##############################################
-# Section 5.5: Edit Rosters (Players Cannot Be Deleted; Original Roster Uneditable)
-##############################################
-
-# Helper function: Get available players for the team from already loaded all_data.
-def get_available_players_for_team(team, all_data):
-    players_set = set()
-    for match in all_data:
-        # Check home team.
-        if match.get('home', {}).get('name', "").strip().lower() == team.strip().lower():
-            for player in match.get('home', {}).get('lineup', []):
-                players_set.add(player.get("name", "").strip())
-        # Check away team.
-        if match.get('away', {}).get('name', "").strip().lower() == team.strip().lower():
-            for player in match.get('away', {}).get('lineup', []):
-                players_set.add(player.get("name", "").strip())
-    return sorted(players_set)
-
-# Ensure that all_data is loaded in session state.
-if "all_data" not in st.session_state:
-    st.session_state.all_data = load_all_json_files(repo_dir, seasons_to_process)
-
-# Toggle the Edit Roster section.
-if st.button("Hide Edit Roster" if st.session_state.get("edit_roster_open", False) else "Edit Roster", key="toggle_edit_roster"):
-    st.session_state.edit_roster_open = not st.session_state.get("edit_roster_open", False)
-    st.rerun()
-
-if st.session_state.get("edit_roster_open", False):
-    st.markdown("### Edit Roster")
-    
-    # Determine the team abbreviation for the selected team.
-    team_abbr = team_abbr_dict.get(selected_team)
-    if not team_abbr:
-        st.error("No team abbreviation found for the selected team.")
-    else:
-        # Button to update from CSV
-        if st.button(f"Update {selected_team} Roster from CSV", key=f"update_roster_from_csv_{selected_team}"):
-            update_roster_from_csv(repo_dir, selected_team, team_abbr)
-            st.rerun()
-
-        # Initialize a persistent edited roster for the team if not already set.
-        # Original CSV players are stored as non-editable.
-        if f"edited_roster_{team_abbr}" not in st.session_state:
-            original_roster = st.session_state.roster_data.get(team_abbr, [])
-            st.session_state[f"edited_roster_{team_abbr}"] = [
-                {"name": p, "include": True, "editable": False} for p in original_roster
-            ]
-        edited_roster = st.session_state[f"edited_roster_{team_abbr}"]
+        # --- Section for adding a new machine mapping ---
+        st.markdown("#### Add New Machine Mapping")
+        # Dropdown with all games (from all_machines_from_data) and a text field for manual entry.
+        # Use a fresh call to get_all_machines to ensure we have the latest data
+        current_machines = get_all_machines(repo_dir)
+        new_alias_dropdown = st.selectbox("Select a machine alias from existing games", current_machines, key="new_alias_dropdown")
+        new_alias_manual = st.text_input("Or type a new machine alias", "", key="new_alias_text")
+        # Use manual input if provided; otherwise, use dropdown.
+        alias_to_add = new_alias_manual.strip() if new_alias_manual.strip() else new_alias_dropdown
+        # Text input for the standardized name, defaulting to the alias.
+        new_standardized = st.text_input("Enter standardized name for this machine", alias_to_add, key="new_standardized")
         
-        st.markdown(f"**Current Roster for {selected_team} ({team_abbr}):**")
-        # Display each roster entry.
-        for i, entry in enumerate(edited_roster.copy()):
-            player = entry["name"]
-            included = entry["include"]
-            editable = entry.get("editable", False)
-            col1, col2, col3 = st.columns([0.6, 0.2, 0.2])
+        if st.button("Add Machine Mapping", key="add_machine_mapping"):
+            if alias_to_add:
+                # Update the mapping
+                mapping = st.session_state.machine_mapping
+                mapping[alias_to_add] = new_standardized.strip() if new_standardized.strip() else alias_to_add.lower()
+                st.session_state.machine_mapping = mapping
+                
+                # Use the robust save method
+                save_machine_mapping_strategy(mapping)
+                
+                st.success(f"Added mapping: {alias_to_add} -> {st.session_state.machine_mapping[alias_to_add]}")
+                st.rerun()
+    
+        # --- Section for displaying current mappings with edit/delete options ---
+        st.markdown("#### Current Machine Mappings")
+        mapping = st.session_state.machine_mapping
+        # Use a copy to safely iterate while modifying.
+        for alias, std_val in mapping.copy().items():
+            col1, col2, col3, col4 = st.columns([0.3, 0.3, 0.2, 0.2])
             with col1:
-                st.write(player)
+                st.write(f"Alias: {alias}")
             with col2:
-                # Checkbox to toggle inclusion (unchecking excludes the player but does not remove it).
-                new_included = st.checkbox("", value=included, key=f"include_{team_abbr}_{i}")
-                if new_included != included:
-                    edited_roster[i]["include"] = new_included
-                    st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
-                    # Update global roster_data: include only players that are checked.
-                    st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
-                    save_team_roster_to_py(repo_dir, team_abbr, [e["name"] for e in edited_roster if e["include"]])
-                    st.rerun()
+                st.write(f"Standardized: {std_val}")
             with col3:
-                # Show an Edit button only if the entry is editable.
-                if editable:
-                    if st.button("Edit", key=f"edit_roster_{team_abbr}_{i}"):
-                        new_name = st.text_input("New name", player, key=f"edit_input_roster_{team_abbr}_{i}")
-                        if new_name:
-                            edited_roster[i]["name"] = new_name.strip()
-                            st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
-                            st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
-                            save_team_roster_to_py(repo_dir, team_abbr, [e["name"] for e in edited_roster if e["include"]])
-                            st.rerun()
-        
-        # Compute available players for the selected team from all_data.
-        available_players = get_available_players_for_team(selected_team, st.session_state.all_data)
-        # Exclude those already in the roster.
-        existing_players = set(e["name"] for e in edited_roster)
-        available_players = sorted(set(available_players) - existing_players)
-        if not available_players:
-            available_players = ["No available players"]
-        
-        st.markdown("#### Add Player to Roster")
-        new_player_dropdown = st.selectbox("Select a player", available_players, key="new_player_dropdown")
-        new_player_manual = st.text_input("Or type a new player's name", "", key="new_player_manual")
-        # Manual input takes precedence.
-        if new_player_manual.strip():
-            player_to_add = new_player_manual.strip()
-        else:
-            player_to_add = new_player_dropdown if new_player_dropdown != "No available players" else ""
-        
-        if st.button("Add Player", key="add_player_btn"):
-            if player_to_add:
-                if player_to_add not in [e["name"] for e in edited_roster]:
-                    # New players are marked as editable.
-                    edited_roster.append({"name": player_to_add, "include": True, "editable": True})
-                    st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
-                    st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
-                    st.success(f"Added {player_to_add} to the roster.")
+                # Edit: show a text input and an "Update" button.
+                new_val = st.text_input("New Standardized Name", std_val, key=f"edit_input_{alias}")
+                if st.button("Update", key=f"update_{alias}"):
+                    mapping[alias] = new_val.strip() if new_val.strip() else alias.lower()
+                    st.session_state.machine_mapping = mapping
+                    save_machine_mapping(None, mapping)  # Use helper function
+                    st.success(f"Updated mapping for {alias}")
                     st.rerun()
-                else:
-                    st.warning(f"{player_to_add} is already in the roster.")
-            else:
-                st.warning("Please enter a player's name.")
-
-# Toggle the Edit TWC Roster section
-if st.button("Hide Edit TWC Roster" if st.session_state.get("edit_twc_roster_open", False) else "Edit TWC Roster", key="toggle_edit_twc_roster"):
-    st.session_state.edit_twc_roster_open = not st.session_state.get("edit_twc_roster_open", False)
-    st.rerun()
-
-if st.session_state.get("edit_twc_roster_open", False):
-    st.markdown("### Edit TWC Roster")
-    
-    # Determine the TWC team abbreviation
-    twc_team_name = "The Wrecking Crew"
-    twc_abbr = "TWC"
-    
-    if not twc_abbr:
-        st.error("No team abbreviation found for The Wrecking Crew.")
-    else:
-        # Initialize a persistent edited roster for TWC if not already set
-        if f"edited_roster_{twc_abbr}" not in st.session_state:
-            original_roster = st.session_state.roster_data.get(twc_abbr, [])
-            st.session_state[f"edited_roster_{twc_abbr}"] = [
-                {"name": p, "include": True, "editable": False} for p in original_roster
-            ]
-        edited_roster = st.session_state[f"edited_roster_{twc_abbr}"]
-        
-        st.markdown(f"**Current TWC Roster:**")
-        # Display each roster entry
-        for i, entry in enumerate(edited_roster.copy()):
-            player = entry["name"]
-            included = entry["include"]
-            editable = entry.get("editable", False)
-            col1, col2, col3 = st.columns([0.6, 0.2, 0.2])
-            with col1:
-                st.write(player)
-            with col2:
-                # Checkbox to toggle inclusion
-                new_included = st.checkbox("", value=included, key=f"include_twc_{twc_abbr}_{i}")
-                if new_included != included:
-                    edited_roster[i]["include"] = new_included
-                    st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
-                    # Update global roster_data: include only players that are checked
-                    st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+            with col4:
+                if st.button("Delete", key=f"delete_{alias}"):
+                    mapping.pop(alias)
+                    st.session_state.machine_mapping = mapping
+                    save_machine_mapping(None, mapping)  # Use helper function
+                    st.success(f"Deleted mapping for {alias}")
                     st.rerun()
-            with col3:
-                # Show an Edit button only if the entry is editable
-                if editable:
-                    if st.button("Edit", key=f"edit_twc_roster_{twc_abbr}_{i}"):
-                        new_name = st.text_input("New name", player, key=f"edit_input_twc_roster_{twc_abbr}_{i}")
-                        if new_name:
-                            edited_roster[i]["name"] = new_name.strip()
-                            st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
-                            st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
-                            save_team_roster_to_py(repo_dir, twc_abbr, [e["name"] for e in edited_roster if e["include"]])
-                            st.rerun()
-        
-        # Get players from JSON data for TWC
-        available_players = set()
-        for match in st.session_state.all_data:
-            if match.get('home', {}).get('name', "").strip().lower() == twc_team_name.strip().lower():
+    
+    ##############################################
+    # Section 5.5: Edit Rosters (Players Cannot Be Deleted; Original Roster Uneditable)
+    ##############################################
+    
+    # Helper function: Get available players for the team from already loaded all_data.
+    def get_available_players_for_team(team, all_data):
+        players_set = set()
+        for match in all_data:
+            # Check home team.
+            if match.get('home', {}).get('name', "").strip().lower() == team.strip().lower():
                 for player in match.get('home', {}).get('lineup', []):
-                    available_players.add(player.get("name", "").strip())
-            if match.get('away', {}).get('name', "").strip().lower() == twc_team_name.strip().lower():
+                    players_set.add(player.get("name", "").strip())
+            # Check away team.
+            if match.get('away', {}).get('name', "").strip().lower() == team.strip().lower():
                 for player in match.get('away', {}).get('lineup', []):
-                    available_players.add(player.get("name", "").strip())
+                    players_set.add(player.get("name", "").strip())
+        return sorted(players_set)
+    
+    # Ensure that all_data is loaded in session state.
+    if "all_data" not in st.session_state:
+        st.session_state.all_data = load_all_json_files(repo_dir, seasons_to_process)
+    
+    # Toggle the Edit Roster section.
+    if st.button("Hide Edit Roster" if st.session_state.edit_roster_open else "Edit Roster", key="toggle_edit_roster"):
+        st.session_state.edit_roster_open = not st.session_state.edit_roster_open
+        st.rerun()
+
+    if st.session_state.edit_roster_open:
+        st.markdown("### Edit Roster")
         
-        # Exclude those already in the roster
-        existing_players = set(e["name"] for e in edited_roster)
-        available_players = sorted(available_players - existing_players)
-        
-        if not available_players:
-            available_players = ["No available players"]
-        
-        st.markdown("#### Add Player to TWC Roster")
-        new_player_dropdown = st.selectbox("Select a player", available_players, key="new_twc_player_dropdown")
-        new_player_manual = st.text_input("Or type a new player's name", "", key="new_twc_player_manual")
-        
-        # Manual input takes precedence
-        if new_player_manual.strip():
-            player_to_add = new_player_manual.strip()
+        # Determine the team abbreviation for the selected team.
+        team_abbr = team_abbr_dict.get(selected_team)
+        if not team_abbr:
+            st.error("No team abbreviation found for the selected team.")
         else:
-            player_to_add = new_player_dropdown if new_player_dropdown != "No available players" else ""
-        
-        if st.button("Add Player", key="add_twc_player_btn"):
-            if player_to_add:
-                if player_to_add not in [e["name"] for e in edited_roster]:
-                    # New players are marked as editable
-                    edited_roster.append({"name": player_to_add, "include": True, "editable": True})
-                    st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
-                    st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
-                    st.success(f"Added {player_to_add} to the TWC roster.")
-                    st.rerun()
-                else:
-                    st.warning(f"{player_to_add} is already in the roster.")
+            # Button to update from CSV
+            if st.button(f"Update {selected_team} Roster from CSV", key=f"update_roster_from_csv_{selected_team}"):
+                update_roster_from_csv(repo_dir, selected_team, team_abbr)
+                st.rerun()
+    
+            # Initialize a persistent edited roster for the team if not already set.
+            # Original CSV players are stored as non-editable.
+            if f"edited_roster_{team_abbr}" not in st.session_state:
+                original_roster = st.session_state.roster_data.get(team_abbr, [])
+                st.session_state[f"edited_roster_{team_abbr}"] = [
+                    {"name": p, "include": True, "editable": False} for p in original_roster
+                ]
+            edited_roster = st.session_state[f"edited_roster_{team_abbr}"]
+            
+            st.markdown(f"**Current Roster for {selected_team} ({team_abbr}):**")
+            # Display each roster entry.
+            for i, entry in enumerate(edited_roster.copy()):
+                player = entry["name"]
+                included = entry["include"]
+                editable = entry.get("editable", False)
+                col1, col2, col3 = st.columns([0.6, 0.2, 0.2])
+                with col1:
+                    st.write(player)
+                with col2:
+                    # Checkbox to toggle inclusion (unchecking excludes the player but does not remove it).
+                    new_included = st.checkbox("", value=included, key=f"include_{team_abbr}_{i}")
+                    if new_included != included:
+                        edited_roster[i]["include"] = new_included
+                        st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
+                        # Update global roster_data: include only players that are checked.
+                        st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                        save_team_roster_to_py(repo_dir, team_abbr, [e["name"] for e in edited_roster if e["include"]])
+                        st.rerun()
+                with col3:
+                    # Show an Edit button only if the entry is editable.
+                    if editable:
+                        if st.button("Edit", key=f"edit_roster_{team_abbr}_{i}"):
+                            new_name = st.text_input("New name", player, key=f"edit_input_roster_{team_abbr}_{i}")
+                            if new_name:
+                                edited_roster[i]["name"] = new_name.strip()
+                                st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
+                                st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                                save_team_roster_to_py(repo_dir, team_abbr, [e["name"] for e in edited_roster if e["include"]])
+                                st.rerun()
+            
+            # Compute available players for the selected team from all_data.
+            available_players = get_available_players_for_team(selected_team, st.session_state.all_data)
+            # Exclude those already in the roster.
+            existing_players = set(e["name"] for e in edited_roster)
+            available_players = sorted(set(available_players) - existing_players)
+            if not available_players:
+                available_players = ["No available players"]
+            
+            st.markdown("#### Add Player to Roster")
+            new_player_dropdown = st.selectbox("Select a player", available_players, key="new_player_dropdown")
+            new_player_manual = st.text_input("Or type a new player's name", "", key="new_player_manual")
+            # Manual input takes precedence.
+            if new_player_manual.strip():
+                player_to_add = new_player_manual.strip()
             else:
-                st.warning("Please enter a player's name.")
-
-##############################################
-# Section 5.6: Strategic Tool Configuration
-##############################################
-
-if "strategic_settings_open" not in st.session_state:
-    st.session_state.strategic_settings_open = False
-
-if st.button("Hide Strategic Settings" if st.session_state.strategic_settings_open else "Configure Strategic Settings", key="toggle_strategic_settings"):
-    st.session_state.strategic_settings_open = not st.session_state.strategic_settings_open
-    st.rerun()
-
-if st.session_state.strategic_settings_open:
-    st.markdown("#### Strategic Tool Configuration")
-    st.markdown("These settings control how the Strategic Match Planning Tools calculate their recommendations.")
+                player_to_add = new_player_dropdown if new_player_dropdown != "No available players" else ""
+            
+            if st.button("Add Player", key="add_player_btn"):
+                if player_to_add:
+                    if player_to_add not in [e["name"] for e in edited_roster]:
+                        # New players are marked as editable.
+                        edited_roster.append({"name": player_to_add, "include": True, "editable": True})
+                        st.session_state[f"edited_roster_{team_abbr}"] = edited_roster
+                        st.session_state.roster_data[team_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                        st.success(f"Added {player_to_add} to the roster.")
+                        st.rerun()
+                    else:
+                        st.warning(f"{player_to_add} is already in the roster.")
+                else:
+                    st.warning("Please enter a player's name.")
     
-    use_main_config = st.checkbox(
-        "Use main column configuration settings",
-        value=st.session_state.strategic_config['use_column_config'],
-        key="use_main_config_checkbox"
-    )
-    st.session_state.strategic_config['use_column_config'] = use_main_config
+    # Toggle the Edit TWC Roster section
+    if st.button("Hide Edit TWC Roster" if st.session_state.get("edit_twc_roster_open", False) else "Edit TWC Roster", key="toggle_edit_twc_roster"):
+        st.session_state.edit_twc_roster_open = not st.session_state.get("edit_twc_roster_open", False)
+        st.rerun()
     
-    if not use_main_config:
-        st.markdown("##### Custom Strategic Tool Settings")
+    if st.session_state.get("edit_twc_roster_open", False):
+        st.markdown("### Edit TWC Roster")
         
-        # Allow manual season selection for strategic tools
-        strategic_seasons = st.text_input(
-            "Seasons for strategic analysis (e.g., '19-21')",
-            value=st.session_state.strategic_config.get('seasons_override_str', "20-21"),
-            key="strategic_seasons_input"
+        # Determine the TWC team abbreviation
+        twc_team_name = "The Wrecking Crew"
+        twc_abbr = "TWC"
+        
+        if not twc_abbr:
+            st.error("No team abbreviation found for The Wrecking Crew.")
+        else:
+            # Initialize a persistent edited roster for TWC if not already set
+            if f"edited_roster_{twc_abbr}" not in st.session_state:
+                original_roster = st.session_state.roster_data.get(twc_abbr, [])
+                st.session_state[f"edited_roster_{twc_abbr}"] = [
+                    {"name": p, "include": True, "editable": False} for p in original_roster
+                ]
+            edited_roster = st.session_state[f"edited_roster_{twc_abbr}"]
+            
+            st.markdown(f"**Current TWC Roster:**")
+            # Display each roster entry
+            for i, entry in enumerate(edited_roster.copy()):
+                player = entry["name"]
+                included = entry["include"]
+                editable = entry.get("editable", False)
+                col1, col2, col3 = st.columns([0.6, 0.2, 0.2])
+                with col1:
+                    st.write(player)
+                with col2:
+                    # Checkbox to toggle inclusion
+                    new_included = st.checkbox("", value=included, key=f"include_twc_{twc_abbr}_{i}")
+                    if new_included != included:
+                        edited_roster[i]["include"] = new_included
+                        st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
+                        # Update global roster_data: include only players that are checked
+                        st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                        st.rerun()
+                with col3:
+                    # Show an Edit button only if the entry is editable
+                    if editable:
+                        if st.button("Edit", key=f"edit_twc_roster_{twc_abbr}_{i}"):
+                            new_name = st.text_input("New name", player, key=f"edit_input_twc_roster_{twc_abbr}_{i}")
+                            if new_name:
+                                edited_roster[i]["name"] = new_name.strip()
+                                st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
+                                st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                                save_team_roster_to_py(repo_dir, twc_abbr, [e["name"] for e in edited_roster if e["include"]])
+                                st.rerun()
+            
+            # Get players from JSON data for TWC
+            available_players = set()
+            for match in st.session_state.all_data:
+                if match.get('home', {}).get('name', "").strip().lower() == twc_team_name.strip().lower():
+                    for player in match.get('home', {}).get('lineup', []):
+                        available_players.add(player.get("name", "").strip())
+                if match.get('away', {}).get('name', "").strip().lower() == twc_team_name.strip().lower():
+                    for player in match.get('away', {}).get('lineup', []):
+                        available_players.add(player.get("name", "").strip())
+            
+            # Exclude those already in the roster
+            existing_players = set(e["name"] for e in edited_roster)
+            available_players = sorted(available_players - existing_players)
+            
+            if not available_players:
+                available_players = ["No available players"]
+            
+            st.markdown("#### Add Player to TWC Roster")
+            new_player_dropdown = st.selectbox("Select a player", available_players, key="new_twc_player_dropdown")
+            new_player_manual = st.text_input("Or type a new player's name", "", key="new_twc_player_manual")
+            
+            # Manual input takes precedence
+            if new_player_manual.strip():
+                player_to_add = new_player_manual.strip()
+            else:
+                player_to_add = new_player_dropdown if new_player_dropdown != "No available players" else ""
+            
+            if st.button("Add Player", key="add_twc_player_btn"):
+                if player_to_add:
+                    if player_to_add not in [e["name"] for e in edited_roster]:
+                        # New players are marked as editable
+                        edited_roster.append({"name": player_to_add, "include": True, "editable": True})
+                        st.session_state[f"edited_roster_{twc_abbr}"] = edited_roster
+                        st.session_state.roster_data[twc_abbr] = [e["name"] for e in edited_roster if e["include"]]
+                        st.success(f"Added {player_to_add} to the TWC roster.")
+                        st.rerun()
+                    else:
+                        st.warning(f"{player_to_add} is already in the roster.")
+                else:
+                    st.warning("Please enter a player's name.")
+    
+    ##############################################
+    # Section 5.6: Strategic Tool Configuration
+    ##############################################
+
+    if st.button("Hide Strategic Settings" if st.session_state.strategic_settings_open else "Configure Strategic Settings", key="toggle_strategic_settings"):
+        st.session_state.strategic_settings_open = not st.session_state.strategic_settings_open
+        st.rerun()
+    
+    if st.session_state.strategic_settings_open:
+        st.markdown("#### Strategic Tool Configuration")
+        st.markdown("These settings control how the Strategic Match Planning Tools calculate their recommendations.")
+        
+        use_main_config = st.checkbox(
+            "Use main column configuration settings",
+            value=st.session_state.strategic_config['use_column_config'],
+            key="use_main_config_checkbox"
         )
+        st.session_state.strategic_config['use_column_config'] = use_main_config
         
-        if strategic_seasons:
-            parsed_seasons = parse_seasons(strategic_seasons)
-            st.session_state.strategic_config['seasons_override'] = parsed_seasons
-            st.session_state.strategic_config['seasons_override_str'] = strategic_seasons
-        
-        # Venue specific option
-        venue_specific = st.checkbox(
-            "Venue specific analysis only",
-            value=st.session_state.strategic_config['venue_specific'],
-            key="strategic_venue_specific"
-        )
-        st.session_state.strategic_config['venue_specific'] = venue_specific
-        
-        # Roster only option
-        roster_only = st.checkbox(
-            "Consider roster players only",
-            value=st.session_state.strategic_config['roster_only'],
-            key="strategic_roster_only"
-        )
-        st.session_state.strategic_config['roster_only'] = roster_only
-        
-        st.info(f"Strategic tools will use: Seasons {parsed_seasons if strategic_seasons else 'Not set'}, "
-                f"Venue specific: {venue_specific}, Roster only: {roster_only}")
-    else:
-        st.info("Strategic tools will use the same settings as the main column configuration.")
-        
+        if not use_main_config:
+            st.markdown("##### Custom Strategic Tool Settings")
+            
+            # Allow manual season selection for strategic tools
+            strategic_seasons = st.text_input(
+                "Seasons for strategic analysis (e.g., '19-21')",
+                value=st.session_state.strategic_config.get('seasons_override_str', get_last_n_seasons(repo_dir, n=3)),
+                key="strategic_seasons_input"
+            )
+            
+            if strategic_seasons:
+                parsed_seasons = parse_seasons(strategic_seasons)
+                st.session_state.strategic_config['seasons_override'] = parsed_seasons
+                st.session_state.strategic_config['seasons_override_str'] = strategic_seasons
+            
+            # Venue specific option
+            venue_specific = st.checkbox(
+                "Venue specific analysis only",
+                value=st.session_state.strategic_config['venue_specific'],
+                key="strategic_venue_specific"
+            )
+            st.session_state.strategic_config['venue_specific'] = venue_specific
+            
+            # Roster only option
+            roster_only = st.checkbox(
+                "Consider roster players only",
+                value=st.session_state.strategic_config['roster_only'],
+                key="strategic_roster_only"
+            )
+            st.session_state.strategic_config['roster_only'] = roster_only
+            
+            st.info(f"Strategic tools will use: Seasons {parsed_seasons if strategic_seasons else 'Not set'}, "
+                    f"Venue specific: {venue_specific}, Roster only: {roster_only}")
+        else:
+            st.info("Strategic tools will use the same settings as the main column configuration.")
+            
 ##############################################
 # Section 6: Save Team Rosters from CSV Files
 ##############################################
@@ -875,7 +1003,8 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
     """
     debug_data = []
     processed_data = []
-    recent_machines = set(included_machines_for_venue or [])
+    # Standardize included machines to ensure consistency
+    recent_machines = set(standardize_machine_name(m.lower()) for m in (included_machines_for_venue or []))
     overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
     current_limits = get_score_limits()
 
@@ -1368,10 +1497,51 @@ def calculate_averages(df, recent_machines, team_name, twc_team_name, venue_name
             twc_avg = safe_get("TWC Average")
             venue_avg = safe_get("Venue Average")
             row["TWC % V. Avg."] = f"{(twc_avg / venue_avg * 100):.2f}%" if not np.isnan(twc_avg) and not np.isnan(venue_avg) and venue_avg != 0 else "N/A"
-        
+
         data.append(row)
-        
-    return pd.DataFrame(data)
+
+    result_df = pd.DataFrame(data)
+
+    # Add comparison columns
+    def calculate_comparison(twc_col, team_col):
+        """Calculate comparison between TWC and Team columns"""
+        comparisons = []
+        for idx in range(len(result_df)):
+            twc_val = result_df.iloc[idx].get(twc_col, "N/A")
+            team_val = result_df.iloc[idx].get(team_col, "N/A")
+
+            if twc_val == "N/A":
+                comparisons.append("-")
+            elif team_val == "N/A":
+                comparisons.append("+")
+            else:
+                try:
+                    # Parse the values (remove % sign and convert to float)
+                    twc_num = float(str(twc_val).replace("%", "").replace(",", "").split("*")[0])
+                    team_num = float(str(team_val).replace("%", "").replace(",", "").split("*")[0])
+                    diff = twc_num - team_num
+                    comparisons.append(f"{diff:.2f}")
+                except:
+                    comparisons.append("N/A")
+        return comparisons
+
+    # Add % Comparison column if both % columns exist
+    if "TWC % V. Avg." in result_df.columns and "% of V. Avg." in result_df.columns:
+        result_df["% Comparison"] = calculate_comparison("TWC % V. Avg.", "% of V. Avg.")
+
+    # Add POPS Comparison column if both POPS columns exist
+    if "TWC POPS" in result_df.columns and "POPS" in result_df.columns:
+        result_df["POPS Comparison"] = calculate_comparison("TWC POPS", "POPS")
+
+    # Reorder columns to put % Comparison as second column (after Machine)
+    if "% Comparison" in result_df.columns:
+        cols = list(result_df.columns)
+        cols.remove("% Comparison")
+        # Insert % Comparison after Machine (position 1)
+        cols.insert(1, "% Comparison")
+        result_df = result_df[cols]
+
+    return result_df
 
 def generate_debug_outputs(df, team_name, twc_team_name, venue_name):
     seasons = st.session_state.get("seasons_to_process", [20, 21])
@@ -1463,7 +1633,11 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         # Refresh the included and excluded machine lists from your persistent store.
         included_list = get_venue_machine_list(selected_venue, "included")
         excluded_list = get_venue_machine_list(selected_venue, "excluded")
-        
+
+        # Standardize machine names in included/excluded lists to ensure consistency
+        included_list = [standardize_machine_name(m.lower()) for m in included_list]
+        excluded_list = [standardize_machine_name(m.lower()) for m in excluded_list]
+
         all_data_df, recent_machines, debug_df = process_all_rounds_and_games(
             all_data, team_name, selected_venue, twc_team_name, team_roster,
             included_list, excluded_list
@@ -1473,8 +1647,28 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         result_df = calculate_averages(all_data_df, recent_machines, team_name, twc_team_name, selected_venue, column_config)
         
         # Safe sorting - check if the column exists before sorting by it
-        # First try to sort by team percentage if it exists
-        if '% of V. Avg.' in result_df.columns:
+        # First try to sort by % Comparison if it exists
+        if '% Comparison' in result_df.columns:
+            # Create a custom sort key for % Comparison column
+            def sort_key(val):
+                if val == '+':
+                    return -1000  # Team has no data, put at top
+                elif val == '-':
+                    return 1000  # TWC has no data, put at bottom
+                elif val == 'N/A':
+                    return 1001  # No comparison possible, put at very bottom
+                else:
+                    try:
+                        # Negate the value so positive numbers come before negative, both in descending order
+                        return -float(val)
+                    except:
+                        return 1002  # Parse error, put at very bottom
+
+            result_df['_sort_key'] = result_df['% Comparison'].apply(sort_key)
+            result_df = result_df.sort_values('_sort_key', ascending=True)
+            result_df = result_df.drop('_sort_key', axis=1)
+        # If not, try to sort by team percentage
+        elif '% of V. Avg.' in result_df.columns:
             result_df = result_df.sort_values('% of V. Avg.', ascending=False, na_position='last')
         # If not, try other columns in order of preference
         elif 'Team Average' in result_df.columns:
@@ -2287,6 +2481,51 @@ if st.button("Kellanate", key="kellanate_btn"):
             result_df.to_excel(writer, index=False, sheet_name='Results')
             team_player_stats.to_excel(writer, index=False, sheet_name=f'{selected_team} Players')
             twc_player_stats.to_excel(writer, index=False, sheet_name='TWC Players')
+
+            # Add formulas for comparison columns in Results sheet
+            workbook = writer.book
+            worksheet = writer.sheets['Results']
+            num_rows = len(result_df)
+
+            # Get column indices dynamically
+            columns = list(result_df.columns)
+
+            # Helper function to convert column index to Excel letter
+            def col_to_letter(col_idx):
+                letter = ''
+                while col_idx >= 0:
+                    letter = chr(col_idx % 26 + 65) + letter
+                    col_idx = col_idx // 26 - 1
+                return letter
+
+            # Add % Comparison formulas if the column exists
+            if "% Comparison" in columns:
+                pct_comp_idx = columns.index("% Comparison")
+                team_pct_idx = columns.index("% of V. Avg.") if "% of V. Avg." in columns else None
+                twc_pct_idx = columns.index("TWC % V. Avg.") if "TWC % V. Avg." in columns else None
+
+                if team_pct_idx is not None and twc_pct_idx is not None:
+                    for row_num in range(1, num_rows + 1):
+                        excel_row = row_num + 1
+                        team_col = col_to_letter(team_pct_idx)
+                        twc_col = col_to_letter(twc_pct_idx)
+                        formula = f'=IF({twc_col}{excel_row}="N/A","-",IF({team_col}{excel_row}="N/A","+",{twc_col}{excel_row}-{team_col}{excel_row}))'
+                        worksheet.write_formula(row_num, pct_comp_idx, formula)
+
+            # Add POPS Comparison formulas if the column exists
+            if "POPS Comparison" in columns:
+                pops_comp_idx = columns.index("POPS Comparison")
+                team_pops_idx = columns.index("POPS") if "POPS" in columns else None
+                twc_pops_idx = columns.index("TWC POPS") if "TWC POPS" in columns else None
+
+                if team_pops_idx is not None and twc_pops_idx is not None:
+                    for row_num in range(1, num_rows + 1):
+                        excel_row = row_num + 1
+                        team_col = col_to_letter(team_pops_idx)
+                        twc_col = col_to_letter(twc_pops_idx)
+                        formula = f'=IF({twc_col}{excel_row}="N/A","-",IF({team_col}{excel_row}="N/A","+",{twc_col}{excel_row}-{team_col}{excel_row}))'
+                        worksheet.write_formula(row_num, pops_comp_idx, formula)
+
         st.session_state["processed_excel"] = output.getvalue()
         st.session_state["debug_outputs"] = debug_outputs
         st.session_state["kellanate_output"] = True
@@ -2316,8 +2555,8 @@ if st.session_state.get("kellanate_output", False) and "result_df" in st.session
     toggle_container = st.container()
     with toggle_container:
         use_color_coding = st.checkbox(
-            "Color code by advantage ratio", 
-            value=False,
+            "Color code by advantage ratio",
+            value=True,
             key="color_toggle"
         )
     
