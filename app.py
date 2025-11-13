@@ -3324,22 +3324,20 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     twc_roster = team_roster.get("TWC", [])
     twc_substitutes = st.session_state.substitute_data.get("TWC", [])
 
-    # Combine roster and substitutes as "current team"
-    current_team = set(twc_roster) | set(twc_substitutes)
+    # Separate into three groups
+    roster_players = sorted([p for p in all_players if p in twc_roster])
+    substitute_players = sorted([p for p in all_players if p in twc_substitutes and p not in twc_roster])
+    other_players = sorted([p for p in all_players if p not in twc_roster and p not in twc_substitutes])
 
-    # Separate current team from non-roster players
-    roster_players = sorted([p for p in all_players if p in current_team])
-    non_roster_players = sorted([p for p in all_players if p not in current_team])
-
-    # Initialize with only current team players checked by default
+    # Initialize with only roster players checked by default
     if "available_players" not in st.session_state:
         st.session_state.available_players = {
-            player: (player in current_team) for player in all_players
+            player: (player in twc_roster) for player in all_players
         }
 
-    # Display current roster and substitutes first
+    # Display current roster players first (checked by default)
     if roster_players:
-        st.markdown("#### Current Roster & Substitutes")
+        st.markdown("#### Current Roster Players")
         cols_per_row = 3
         for i in range(0, len(roster_players), cols_per_row):
             cols = st.columns(cols_per_row)
@@ -3353,15 +3351,31 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
                         key=f"player_{player}"
                     )
 
-    # Display non-roster players second
-    if non_roster_players:
-        st.markdown("#### Other Players")
+    # Display substitute players second (unchecked by default)
+    if substitute_players:
+        st.markdown("#### Substitute Players")
         cols_per_row = 3
-        for i in range(0, len(non_roster_players), cols_per_row):
+        for i in range(0, len(substitute_players), cols_per_row):
             cols = st.columns(cols_per_row)
             for j in range(cols_per_row):
-                if i + j < len(non_roster_players):
-                    player = non_roster_players[i + j]
+                if i + j < len(substitute_players):
+                    player = substitute_players[i + j]
+                    idx = j % cols_per_row
+                    st.session_state.available_players[player] = cols[idx].checkbox(
+                        player,
+                        value=st.session_state.available_players.get(player, False),
+                        key=f"player_{player}"
+                    )
+
+    # Display other players third (unchecked by default)
+    if other_players:
+        st.markdown("#### Other Players")
+        cols_per_row = 3
+        for i in range(0, len(other_players), cols_per_row):
+            cols = st.columns(cols_per_row)
+            for j in range(cols_per_row):
+                if i + j < len(other_players):
+                    player = other_players[i + j]
                     idx = j % cols_per_row
                     st.session_state.available_players[player] = cols[idx].checkbox(
                         player,
@@ -3851,22 +3865,20 @@ def analyze_player_assignment_strategy(all_data, opponent_team_name, venue_name,
     twc_roster = team_roster.get("TWC", [])
     twc_substitutes = st.session_state.substitute_data.get("TWC", [])
 
-    # Combine roster and substitutes as "current team"
-    current_team = set(twc_roster) | set(twc_substitutes)
+    # Separate into three groups
+    roster_players = sorted([p for p in all_players if p in twc_roster])
+    substitute_players = sorted([p for p in all_players if p in twc_substitutes and p not in twc_roster])
+    other_players = sorted([p for p in all_players if p not in twc_roster and p not in twc_substitutes])
 
-    # Separate current team from non-roster players
-    roster_players = sorted([p for p in all_players if p in current_team])
-    non_roster_players = sorted([p for p in all_players if p not in current_team])
-
-    # Initialize with only current team players checked by default
+    # Initialize with only roster players checked by default
     if "defense_available_players" not in st.session_state:
         st.session_state.defense_available_players = {
-            player: (player in current_team) for player in all_players
+            player: (player in twc_roster) for player in all_players
         }
 
-    # Display current roster and substitutes first
+    # Display current roster players first (checked by default)
     if roster_players:
-        st.markdown("#### Current Roster & Substitutes")
+        st.markdown("#### Current Roster Players")
         cols_per_row = 3
         for i in range(0, len(roster_players), cols_per_row):
             cols = st.columns(cols_per_row)
@@ -3880,15 +3892,31 @@ def analyze_player_assignment_strategy(all_data, opponent_team_name, venue_name,
                         key=f"defense_player_{player}"
                     )
 
-    # Display non-roster players second
-    if non_roster_players:
-        st.markdown("#### Other Players")
+    # Display substitute players second (unchecked by default)
+    if substitute_players:
+        st.markdown("#### Substitute Players")
         cols_per_row = 3
-        for i in range(0, len(non_roster_players), cols_per_row):
+        for i in range(0, len(substitute_players), cols_per_row):
             cols = st.columns(cols_per_row)
             for j in range(cols_per_row):
-                if i + j < len(non_roster_players):
-                    player = non_roster_players[i + j]
+                if i + j < len(substitute_players):
+                    player = substitute_players[i + j]
+                    idx = j % cols_per_row
+                    st.session_state.defense_available_players[player] = cols[idx].checkbox(
+                        player,
+                        value=st.session_state.defense_available_players.get(player, False),
+                        key=f"defense_player_{player}"
+                    )
+
+    # Display other players third (unchecked by default)
+    if other_players:
+        st.markdown("#### Other Players")
+        cols_per_row = 3
+        for i in range(0, len(other_players), cols_per_row):
+            cols = st.columns(cols_per_row)
+            for j in range(cols_per_row):
+                if i + j < len(other_players):
+                    player = other_players[i + j]
                     idx = j % cols_per_row
                     st.session_state.defense_available_players[player] = cols[idx].checkbox(
                         player,
