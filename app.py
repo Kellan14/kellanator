@@ -3314,29 +3314,55 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     # Display player roster management
     st.markdown("### TWC Player Availability")
     st.markdown("Select players available for this match:")
-    
+
     # Get all players who have played at this venue for TWC
     all_players = list(player_machine_stats.keys())
-    all_players_sorted = sorted(all_players)
-    
-    # Initialize all as checked
+
+    # Get TWC's current roster
+    twc_roster = team_roster.get("TWC", [])
+
+    # Separate roster players from non-roster players
+    roster_players = sorted([p for p in all_players if p in twc_roster])
+    non_roster_players = sorted([p for p in all_players if p not in twc_roster])
+
+    # Initialize with only roster players checked by default
     if "available_players" not in st.session_state:
-        st.session_state.available_players = {player: True for player in all_players_sorted}
-    
-    # Create rows of checkboxes for players
-    cols_per_row = 3
-    for i in range(0, len(all_players_sorted), cols_per_row):
-        cols = st.columns(cols_per_row)
-        for j in range(cols_per_row):
-            if i + j < len(all_players_sorted):
-                player = all_players_sorted[i + j]
-                idx = j % cols_per_row
-                st.session_state.available_players[player] = cols[idx].checkbox(
-                    player, 
-                    value=st.session_state.available_players.get(player, True),
-                    key=f"player_{player}"
-                )
-    
+        st.session_state.available_players = {
+            player: (player in twc_roster) for player in all_players
+        }
+
+    # Display current roster players first
+    if roster_players:
+        st.markdown("#### Current Roster Players")
+        cols_per_row = 3
+        for i in range(0, len(roster_players), cols_per_row):
+            cols = st.columns(cols_per_row)
+            for j in range(cols_per_row):
+                if i + j < len(roster_players):
+                    player = roster_players[i + j]
+                    idx = j % cols_per_row
+                    st.session_state.available_players[player] = cols[idx].checkbox(
+                        player,
+                        value=st.session_state.available_players.get(player, True),
+                        key=f"player_{player}"
+                    )
+
+    # Display non-roster players second
+    if non_roster_players:
+        st.markdown("#### Other Players")
+        cols_per_row = 3
+        for i in range(0, len(non_roster_players), cols_per_row):
+            cols = st.columns(cols_per_row)
+            for j in range(cols_per_row):
+                if i + j < len(non_roster_players):
+                    player = non_roster_players[i + j]
+                    idx = j % cols_per_row
+                    st.session_state.available_players[player] = cols[idx].checkbox(
+                        player,
+                        value=st.session_state.available_players.get(player, False),
+                        key=f"player_{player}"
+                    )
+
     # Get currently available players
     available_players = [p for p, available in st.session_state.available_players.items() if available]
     
@@ -3811,29 +3837,55 @@ def analyze_player_assignment_strategy(all_data, opponent_team_name, venue_name,
     # Player roster management
     st.markdown("### TWC Player Availability")
     st.markdown("Select players available for this match:")
-    
+
     # Get all players who have played at this venue for TWC
     all_players = list(player_machine_stats.keys())
-    all_players_sorted = sorted(all_players)
-    
-    # Initialize all as checked
+
+    # Get TWC's current roster
+    twc_roster = team_roster.get("TWC", [])
+
+    # Separate roster players from non-roster players
+    roster_players = sorted([p for p in all_players if p in twc_roster])
+    non_roster_players = sorted([p for p in all_players if p not in twc_roster])
+
+    # Initialize with only roster players checked by default
     if "defense_available_players" not in st.session_state:
-        st.session_state.defense_available_players = {player: True for player in all_players_sorted}
-    
-    # Create rows of checkboxes for players
-    cols_per_row = 3
-    for i in range(0, len(all_players_sorted), cols_per_row):
-        cols = st.columns(cols_per_row)
-        for j in range(cols_per_row):
-            if i + j < len(all_players_sorted):
-                player = all_players_sorted[i + j]
-                idx = j % cols_per_row
-                st.session_state.defense_available_players[player] = cols[idx].checkbox(
-                    player, 
-                    value=st.session_state.defense_available_players.get(player, True),
-                    key=f"defense_player_{player}"
-                )
-    
+        st.session_state.defense_available_players = {
+            player: (player in twc_roster) for player in all_players
+        }
+
+    # Display current roster players first
+    if roster_players:
+        st.markdown("#### Current Roster Players")
+        cols_per_row = 3
+        for i in range(0, len(roster_players), cols_per_row):
+            cols = st.columns(cols_per_row)
+            for j in range(cols_per_row):
+                if i + j < len(roster_players):
+                    player = roster_players[i + j]
+                    idx = j % cols_per_row
+                    st.session_state.defense_available_players[player] = cols[idx].checkbox(
+                        player,
+                        value=st.session_state.defense_available_players.get(player, True),
+                        key=f"defense_player_{player}"
+                    )
+
+    # Display non-roster players second
+    if non_roster_players:
+        st.markdown("#### Other Players")
+        cols_per_row = 3
+        for i in range(0, len(non_roster_players), cols_per_row):
+            cols = st.columns(cols_per_row)
+            for j in range(cols_per_row):
+                if i + j < len(non_roster_players):
+                    player = non_roster_players[i + j]
+                    idx = j % cols_per_row
+                    st.session_state.defense_available_players[player] = cols[idx].checkbox(
+                        player,
+                        value=st.session_state.defense_available_players.get(player, False),
+                        key=f"defense_player_{player}"
+                    )
+
     # Get currently available players
     available_players = [p for p, available in st.session_state.defense_available_players.items() if available]
     
