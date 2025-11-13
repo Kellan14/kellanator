@@ -2824,14 +2824,19 @@ def build_player_machine_stats(all_data_df, opponent_team_name, venue_name, seas
     opponent_machine_stats = {}
     machine_experience = {}
     
-    # Start with all machines from the venue
-    all_machines_set = set(venue_data['machine'].unique())
+    # Use the same logic as the main aggrid: only machines from the LATEST season
+    # This ensures Strategic Match Planning shows the same machines as the main aggrid
+    latest_season_to_check = max(seasons_to_process) if seasons_to_process else venue_data['season'].max()
+    latest_season_data = venue_data[venue_data['season'] == latest_season_to_check]
+
+    # Start with machines from the latest season only (matching aggrid behavior)
+    all_machines_set = set(latest_season_data['machine'].unique())
 
     # Standardize included/excluded machines to match venue_data format
     standardized_included = [standardize_machine_name(m.lower()) for m in (included_machines or [])]
     standardized_excluded = [standardize_machine_name(m.lower()) for m in (excluded_machines or [])]
 
-    # Add any machines explicitly included (even if not in the venue data)
+    # Add any machines explicitly included (even if not in the latest season data)
     if standardized_included:
         all_machines_set.update(standardized_included)
 
