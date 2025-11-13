@@ -3299,30 +3299,8 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     seasons_to_process = st.session_state.get("seasons_to_process", [20, 21])
     
     # Get venue machine lists (included/excluded)
-    venue_machine_lists = get_venue_machine_list(venue_name, "all")
-    
-    # Check the type of venue_machine_lists
-    st.write(f"Venue Machine Lists Type: {type(venue_machine_lists)}")
-    st.write(f"Venue Machine Lists: {venue_machine_lists}")
-    
-    # Handle different possible return types
-    if isinstance(venue_machine_lists, dict):
-        included_machines = venue_machine_lists.get("included", [])
-        excluded_machines = venue_machine_lists.get("excluded", [])
-    elif isinstance(venue_machine_lists, list):
-        # If it's a list, assume empty dictionaries
-        included_machines = []
-        excluded_machines = []
-    else:
-        # Unexpected type
-        st.warning(f"Unexpected venue machine lists type: {type(venue_machine_lists)}")
-        included_machines = []
-        excluded_machines = []
-    
-    # Diagnostic Streamlit output
-    st.write(f"Venue: {venue_name}")
-    st.write(f"Included Machines: {included_machines}")
-    st.write(f"Excluded Machines: {excluded_machines}")
+    included_machines = get_venue_machine_list(venue_name, "included")
+    excluded_machines = get_venue_machine_list(venue_name, "excluded")
     
     # Build comprehensive player and machine statistics
     player_machine_stats, machine_advantage_df = build_player_machine_stats(
