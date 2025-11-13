@@ -1603,23 +1603,18 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
             max_season = max(seasons_to_process)
             team_data = team_data[team_data['season'].between(min_season, max_season)]
 
-        # Use ALL machines from recent_machines (same as kellanate aggrid)
-        # This shows all machines at the venue, even if team hasn't played them
+        # Use ALL machines from recent_machines PLUS any machines the team actually played
+        # This ensures we show machines currently at venue AND machines played in selected seasons
         player_machine_stats = {}
 
-        # Debug: Check what machines are actually in the filtered team_data
+        # Get machines actually in the filtered team_data
         actual_machines_in_data = set(team_data['machine'].unique()) if not team_data.empty else set()
-        machines_in_recent_not_in_data = recent_machines - actual_machines_in_data
-        machines_in_data_not_in_recent = actual_machines_in_data - recent_machines
 
-        if machines_in_recent_not_in_data or machines_in_data_not_in_recent:
-            st.warning(f"DEBUG {team_name}: recent_machines has {len(recent_machines)} machines, team_data has {len(actual_machines_in_data)} machines")
-            if machines_in_recent_not_in_data:
-                st.warning(f"Machines in recent_machines but NOT in {team_name} team_data: {sorted(list(machines_in_recent_not_in_data)[:5])}")
-            if machines_in_data_not_in_recent:
-                st.warning(f"Machines in {team_name} team_data but NOT in recent_machines: {sorted(list(machines_in_data_not_in_recent)[:5])}")
+        # Combine recent_machines with actual machines played by this team
+        # This ensures we don't miss machines that were played but aren't in the latest season
+        all_machines_to_show = recent_machines | actual_machines_in_data
 
-        for machine in sorted(recent_machines):
+        for machine in sorted(all_machines_to_show):
             machine_data = team_data[team_data['machine'] == machine]
 
             # Group players by roster status
