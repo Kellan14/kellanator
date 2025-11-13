@@ -1584,18 +1584,17 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
         team_data = df[(df['team'] == team_name) & (df['venue'] == venue_name)]
         team_data = team_data[team_data['season'].isin(seasons_to_process)]
 
-        # Get only machines that are currently at the venue (same logic as kellanate aggrid)
-        machines = [m for m in team_data['machine'].unique() if m in recent_machines]
-        
+        # Use ALL machines from recent_machines (same as kellanate aggrid)
+        # This shows all machines at the venue, even if team hasn't played them
         player_machine_stats = {}
-        for machine in machines:
+        for machine in sorted(recent_machines):
             machine_data = team_data[team_data['machine'] == machine]
-            
+
             # Group players by roster status
             roster_players = []
             substitutes = []
-            
-            # Get unique players
+
+            # Get unique players (will be empty if team hasn't played this machine)
             for player in machine_data['player_name'].unique():
                 # Check if this player is flagged as a roster player
                 is_roster = machine_data[machine_data['player_name'] == player]['is_roster_player'].any()
@@ -1603,7 +1602,7 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
                     roster_players.append(player)
                 else:
                     substitutes.append(player)
-            
+
             player_machine_stats[machine] = {
                 'Roster Players Count': len(roster_players),
                 'Roster Players': ', '.join(sorted(roster_players)),
