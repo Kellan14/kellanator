@@ -446,6 +446,44 @@ def load_team_rosters(repo_dir):
     
     return roster_data
 
+def load_team_substitutes(repo_dir):
+    """
+    Load team substitutes (alternates) from the latest season's rosters.csv.
+
+    Returns a dictionary mapping team abbreviations to a list of substitute player names.
+    """
+    substitute_data = {}
+
+    latest_season = get_latest_season(repo_dir)
+    if latest_season is None:
+        return substitute_data
+
+    csv_path = os.path.join(repo_dir, f"season-{latest_season}", "rosters.csv")
+
+    try:
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                parts = line.split(',')
+                if len(parts) < 3:
+                    continue
+                player_name = parts[0].strip()
+                team_abbr = parts[1].strip()
+                status = parts[2].strip()
+
+                # Only include players with status 'A' (Alternate/Substitute)
+                if status == 'A':
+                    if team_abbr not in substitute_data:
+                        substitute_data[team_abbr] = []
+                    substitute_data[team_abbr].append(player_name)
+    except Exception as e:
+        # Silently fail if CSV doesn't exist or can't be read
+        pass
+
+    return substitute_data
+
 def get_latest_season(repo_dir):
     """
     Scans the repository directory for folders named "season-<number>" 

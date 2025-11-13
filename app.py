@@ -22,7 +22,7 @@ selected_venue: str = st.session_state.get("select_venue_json", "")
 
 # Import database helper functions (ensure you have db_helper.py in your repo)
 from db_helper import init_db, get_score_limits, set_score_limit, delete_score_limit, \
-    get_venue_machine_list, add_machine_to_venue, delete_machine_from_venue, save_machine_mapping_strategy, load_team_rosters, get_latest_season, update_roster_from_csv, save_team_roster_to_py
+    get_venue_machine_list, add_machine_to_venue, delete_machine_from_venue, save_machine_mapping_strategy, load_team_rosters, load_team_substitutes, get_latest_season, update_roster_from_csv, save_team_roster_to_py
 # Initialize database (if not already)
 init_db()
 
@@ -33,6 +33,8 @@ repo_dir = "mnp-data-archive"
 # Initialize session state flags
 if "roster_data" not in st.session_state:
     st.session_state.roster_data = load_team_rosters(repo_dir)
+if "substitute_data" not in st.session_state:
+    st.session_state.substitute_data = load_team_substitutes(repo_dir)
 if "rosters_scraped" not in st.session_state:
     st.session_state.rosters_scraped = True
 if "modify_menu_open" not in st.session_state:
@@ -3318,22 +3320,26 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     # Get all players who have played at this venue for TWC
     all_players = list(player_machine_stats.keys())
 
-    # Get TWC's current roster
+    # Get TWC's current roster and substitutes
     twc_roster = team_roster.get("TWC", [])
+    twc_substitutes = st.session_state.substitute_data.get("TWC", [])
 
-    # Separate roster players from non-roster players
-    roster_players = sorted([p for p in all_players if p in twc_roster])
-    non_roster_players = sorted([p for p in all_players if p not in twc_roster])
+    # Combine roster and substitutes as "current team"
+    current_team = set(twc_roster) | set(twc_substitutes)
 
-    # Initialize with only roster players checked by default
+    # Separate current team from non-roster players
+    roster_players = sorted([p for p in all_players if p in current_team])
+    non_roster_players = sorted([p for p in all_players if p not in current_team])
+
+    # Initialize with only current team players checked by default
     if "available_players" not in st.session_state:
         st.session_state.available_players = {
-            player: (player in twc_roster) for player in all_players
+            player: (player in current_team) for player in all_players
         }
 
-    # Display current roster players first
+    # Display current roster and substitutes first
     if roster_players:
-        st.markdown("#### Current Roster Players")
+        st.markdown("#### Current Roster & Substitutes")
         cols_per_row = 3
         for i in range(0, len(roster_players), cols_per_row):
             cols = st.columns(cols_per_row)
@@ -3841,22 +3847,26 @@ def analyze_player_assignment_strategy(all_data, opponent_team_name, venue_name,
     # Get all players who have played at this venue for TWC
     all_players = list(player_machine_stats.keys())
 
-    # Get TWC's current roster
+    # Get TWC's current roster and substitutes
     twc_roster = team_roster.get("TWC", [])
+    twc_substitutes = st.session_state.substitute_data.get("TWC", [])
 
-    # Separate roster players from non-roster players
-    roster_players = sorted([p for p in all_players if p in twc_roster])
-    non_roster_players = sorted([p for p in all_players if p not in twc_roster])
+    # Combine roster and substitutes as "current team"
+    current_team = set(twc_roster) | set(twc_substitutes)
 
-    # Initialize with only roster players checked by default
+    # Separate current team from non-roster players
+    roster_players = sorted([p for p in all_players if p in current_team])
+    non_roster_players = sorted([p for p in all_players if p not in current_team])
+
+    # Initialize with only current team players checked by default
     if "defense_available_players" not in st.session_state:
         st.session_state.defense_available_players = {
-            player: (player in twc_roster) for player in all_players
+            player: (player in current_team) for player in all_players
         }
 
-    # Display current roster players first
+    # Display current roster and substitutes first
     if roster_players:
-        st.markdown("#### Current Roster Players")
+        st.markdown("#### Current Roster & Substitutes")
         cols_per_row = 3
         for i in range(0, len(roster_players), cols_per_row):
             cols = st.columns(cols_per_row)
