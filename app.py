@@ -1560,31 +1560,32 @@ def generate_debug_outputs(df, team_name, twc_team_name, venue_name):
     return debug_outputs
 
 
-def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, roster_data):
+def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, roster_data, recent_machines):
     """
     Generate player statistics tables for the selected team and TWC at the selected venue.
-    
+
     Parameters:
     df (DataFrame): Processed data from process_all_rounds_and_games
     team_name (str): Name of the selected team
     venue_name (str): Name of the selected venue
     seasons_to_process (list): List of seasons to include
     roster_data (dict): Dictionary mapping team abbreviations to roster player lists
-    
+    recent_machines (set): Set of machines currently at the venue
+
     Returns:
     tuple: (team_table, twc_table) - DataFrames for the selected team and TWC
     """
     # Use the is_roster_player flag that's already in the data
     # That flag should have been set correctly during processing
-    
+
     # Function to process team data
     def process_team_data(df, team_name, venue_name):
         # Filter for this team and venue
         team_data = df[(df['team'] == team_name) & (df['venue'] == venue_name)]
         team_data = team_data[team_data['season'].isin(seasons_to_process)]
-        
-        # Get all machines played by this team at this venue
-        machines = team_data['machine'].unique()
+
+        # Get only machines that are currently at the venue (same logic as kellanate aggrid)
+        machines = [m for m in team_data['machine'].unique() if m in recent_machines]
         
         player_machine_stats = {}
         for machine in machines:
@@ -1685,7 +1686,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         
         # Generate player statistics tables
         team_player_stats, twc_player_stats = generate_player_stats_tables(
-            all_data_df, team_name, selected_venue, current_seasons, team_roster
+            all_data_df, team_name, selected_venue, current_seasons, team_roster, recent_machines
         )
         
         return result_df, debug_outputs, team_player_stats, twc_player_stats
