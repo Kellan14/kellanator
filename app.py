@@ -985,12 +985,13 @@ def is_roster_player(player_name, team, team_roster):
         return False
     return player_name in team_roster.get(abbr, [])
 
-def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name, team_roster, included_machines_for_venue, excluded_machines_for_venue):
+def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name, team_roster, included_machines_for_venue, excluded_machines_for_venue, selected_seasons=None):
     """
     Process match data with robust point and team calculation logic.
-    
+
     Args:
     - all_data (list): List of match data to process
+    - selected_seasons (list): List of seasons user has selected to view
     - team_name (str): Name of the selected team
     - venue_name (str): Name of the venue
     - twc_team_name (str): Name of The Wrecking Crew team
@@ -1007,7 +1008,14 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
     processed_data = []
     # Standardize included machines to ensure consistency
     recent_machines = set(standardize_machine_name(m.lower()) for m in (included_machines_for_venue or []))
-    overall_latest_season = max(int(match['key'].split('-')[1]) for match in all_data)
+
+    # Use the latest season from the user's selected seasons, not the overall latest
+    # This ensures we only add machines from seasons the user is viewing
+    if selected_seasons and len(selected_seasons) > 0:
+        latest_season_to_check = max(selected_seasons)
+    else:
+        latest_season_to_check = max(int(match['key'].split('-')[1]) for match in all_data)
+
     current_limits = get_score_limits()
 
     for match in all_data:
@@ -1067,7 +1075,8 @@ def process_all_rounds_and_games(all_data, team_name, venue_name, twc_team_name,
                     continue
 
                 # Add to recent machines list if appropriate
-                if season == overall_latest_season and match_venue == venue_name:
+                # Use latest_season_to_check instead of overall_latest_season to respect user's season selection
+                if season == latest_season_to_check and match_venue == venue_name:
                     if not excluded_machines_for_venue or machine not in excluded_machines_for_venue:
                         recent_machines.add(machine)
 
@@ -1657,7 +1666,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
 
         all_data_df, recent_machines, debug_df = process_all_rounds_and_games(
             all_data, team_name, selected_venue, twc_team_name, team_roster,
-            included_list, excluded_list
+            included_list, excluded_list, current_seasons
         )
         debug_outputs = generate_debug_outputs(all_data_df, team_name, twc_team_name, selected_venue)
         debug_outputs['debug_data'] = debug_df  # Add the new debug data
