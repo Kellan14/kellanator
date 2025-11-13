@@ -145,11 +145,9 @@ season_input = st.text_input(
 
 # Parse seasons
 seasons_to_process = parse_seasons(season_input)
-st.write(f"DEBUG: Parsed seasons from input '{season_input}' = {seasons_to_process}")
 
 # Check if the input has changed
 if season_input != st.session_state.previous_seasons_input:
-    st.write(f"DEBUG: Season input changed, updating session state")
     st.session_state.previous_seasons_input = season_input
     new_seasons = parse_seasons(season_input)
     st.session_state["seasons_to_process"] = new_seasons
@@ -285,8 +283,6 @@ default_venue_name = "Georgetown Pizza and Arcade"
 default_venue_index = dynamic_venues.index(default_venue_name) if default_venue_name in dynamic_venues else 0
 selected_venue = st.selectbox("Select Venue", dynamic_venues, index=default_venue_index, key="select_venue_json")
 selected_team = st.selectbox("Select Team", dynamic_team_names, key="select_team_json")
-
-st.write(f"DEBUG: Current selected_venue from selectbox = '{selected_venue}'")
 
 # Track venue changes and update TWC venue-specific default
 if "previous_venue" not in st.session_state:
@@ -1608,34 +1604,14 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
         if seasons_to_process:
             min_season = min(seasons_to_process)
             max_season = max(seasons_to_process)
-            st.write(f"DEBUG: Player stats filtering for seasons {min_season}-{max_season} (from list: {seasons_to_process})")
-            st.write(f"DEBUG: Before season filter - team_data has {len(team_data)} rows")
             team_data = team_data[team_data['season'].between(min_season, max_season)]
-            st.write(f"DEBUG: After season filter - team_data has {len(team_data)} rows")
 
         # Use the SAME machines as the aggrid (recent_machines)
         # This ensures player statistics show the exact same machine list as the aggrid
         player_machine_stats = {}
 
-        # Debug: Show what's in team_data to diagnose empty results
-        if not team_data.empty:
-            unique_machines_in_team_data = set(team_data['machine'].unique())
-            st.write(f"DEBUG {team_name}: Team has data for {len(team_data)} games across {len(unique_machines_in_team_data)} machines")
-            st.write(f"First few machines in team_data: {sorted(list(unique_machines_in_team_data))[:10]}")
-        else:
-            st.write(f"DEBUG {team_name}: team_data is EMPTY after filtering")
-
         for machine in sorted(recent_machines):
             machine_data = team_data[team_data['machine'] == machine]
-
-            # Debug: Show empty matches
-            if machine_data.empty and not team_data.empty:
-                # Check if this machine exists with a different name
-                similar = [m for m in team_data['machine'].unique() if machine in m or m in machine]
-                if similar:
-                    st.warning(f"DEBUG {team_name}: Machine '{machine}' returned empty, but found similar: {similar}")
-                else:
-                    st.write(f"DEBUG {team_name}: Machine '{machine}' - no data (team hasn't played it)")
 
             # Group players by roster status
             roster_players = []
@@ -1681,9 +1657,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
     try:
         # Get seasons from session state explicitly
         current_seasons = st.session_state.get("seasons_to_process", [20, 21])
-        st.write(f"DEBUG main(): current_seasons from session state = {current_seasons}")
-        st.write(f"DEBUG main(): Full seasons_to_process in session state = {st.session_state.get('seasons_to_process', 'NOT FOUND')}")
-        
+
         team_name = selected_team
         twc_team_name = "The Wrecking Crew"
         # Refresh the included and excluded machine lists from your persistent store.
@@ -2819,48 +2793,27 @@ def build_player_machine_stats(all_data_df, opponent_team_name, venue_name, seas
     # TWC is always the primary team we're analyzing
     twc_team_name = "The Wrecking Crew"
 
-    # Filter data for seasons first
-    st.write(f"DEBUG build_player_machine_stats: Using seasons {seasons_to_process}")
-    st.write(f"DEBUG build_player_machine_stats: Looking for venue '{venue_name}'")
-    st.write(f"DEBUG: Unique venues in all_data_df: {list(all_data_df['venue'].unique())[:10]}")
-    st.write(f"DEBUG: twc_venue_specific={twc_venue_specific}, opponent_venue_specific={opponent_venue_specific}")
-
     # First filter by seasons only
     season_filtered_data = all_data_df.copy()
     if seasons_to_process:
         min_season = min(seasons_to_process)
         max_season = max(seasons_to_process)
         season_filtered_data = season_filtered_data[season_filtered_data['season'].between(min_season, max_season)]
-        st.write(f"DEBUG: Filtered to seasons {min_season}-{max_season}, {len(season_filtered_data)} rows")
 
     # Create venue-specific data (always used for machine lists and venue averages)
     venue_data = season_filtered_data[season_filtered_data['venue'].str.strip() == venue_name.strip()]
-    st.write(f"DEBUG: venue_data (venue-specific) has {len(venue_data)} rows")
 
     # Create TWC data (venue-specific or all-venue based on parameter)
     if twc_venue_specific:
         twc_data = venue_data[venue_data['team'].str.strip().str.lower() == twc_team_name.strip().lower()]
-        st.write(f"DEBUG: TWC data filtered to venue '{venue_name}': {len(twc_data)} rows")
     else:
         twc_data = season_filtered_data[season_filtered_data['team'].str.strip().str.lower() == twc_team_name.strip().lower()]
-        st.write(f"DEBUG: TWC data using ALL venues: {len(twc_data)} rows")
 
     # Create opponent data (venue-specific or all-venue based on parameter)
     if opponent_venue_specific:
         opponent_data = venue_data[venue_data['team'].str.strip().str.lower() == opponent_team_name.strip().lower()]
-        st.write(f"DEBUG: Opponent data filtered to venue '{venue_name}': {len(opponent_data)} rows")
     else:
         opponent_data = season_filtered_data[season_filtered_data['team'].str.strip().str.lower() == opponent_team_name.strip().lower()]
-        st.write(f"DEBUG: Opponent data using ALL venues: {len(opponent_data)} rows")
-
-    # Debug: Check what team names are in the data
-    unique_teams = venue_data['team'].unique()
-    st.write(f"DEBUG: Unique teams in venue_data: {list(unique_teams)}")
-    st.write(f"DEBUG: Looking for TWC team name: '{twc_team_name}'")
-
-    # Check if TWC exists in all_data_df at all
-    twc_in_all_data = all_data_df[all_data_df['team'].str.strip().str.lower() == twc_team_name.strip().lower()]
-    st.write(f"DEBUG: TWC has {len(twc_in_all_data)} total rows in all_data_df across all venues/seasons")
     
     # Get team abbreviation for roster filtering
     twc_abbr = "TWC"
@@ -2873,15 +2826,10 @@ def build_player_machine_stats(all_data_df, opponent_team_name, venue_name, seas
     
     # Start with all machines from the venue
     all_machines_set = set(venue_data['machine'].unique())
-    st.write(f"DEBUG: Found {len(all_machines_set)} unique machines in venue_data")
-    st.write(f"DEBUG: First few machines: {sorted(list(all_machines_set))[:10]}")
 
     # Standardize included/excluded machines to match venue_data format
     standardized_included = [standardize_machine_name(m.lower()) for m in (included_machines or [])]
     standardized_excluded = [standardize_machine_name(m.lower()) for m in (excluded_machines or [])]
-
-    st.write(f"DEBUG: Included machines (standardized): {standardized_included}")
-    st.write(f"DEBUG: Excluded machines (standardized): {standardized_excluded}")
 
     # Add any machines explicitly included (even if not in the venue data)
     if standardized_included:
@@ -2893,7 +2841,6 @@ def build_player_machine_stats(all_data_df, opponent_team_name, venue_name, seas
 
     # Convert back to a sorted list if needed
     filtered_machines = sorted(all_machines_set)
-    st.write(f"DEBUG: After include/exclude, {len(filtered_machines)} machines to analyze")
 
     
     # Calculate venue averages for each filtered machine
@@ -2928,10 +2875,8 @@ def build_player_machine_stats(all_data_df, opponent_team_name, venue_name, seas
         twc_players = set(roster_data[twc_abbr])
 
     # Also include any player who has played for TWC (using twc_data which may be venue-specific or all-venue)
-    st.write(f"DEBUG: TWC data has {len(twc_data)} rows")
     for player in twc_data['player_name'].unique():
         twc_players.add(player)
-    st.write(f"DEBUG: Total TWC players found: {len(twc_players)}")
     
     # Build stats for each TWC player
     for player in twc_players:
@@ -3102,11 +3047,6 @@ def build_player_machine_stats(all_data_df, opponent_team_name, venue_name, seas
     machine_advantage_df = pd.DataFrame(machine_advantage_data)
     if not machine_advantage_df.empty:
         machine_advantage_df = machine_advantage_df.sort_values('Composite Score', ascending=False)
-        st.write(f"DEBUG: Created machine_advantage_df with {len(machine_advantage_df)} rows")
-        st.write(f"DEBUG: Columns: {list(machine_advantage_df.columns)}")
-        st.write(f"DEBUG: First few machines: {list(machine_advantage_df['Machine'].head())}")
-    else:
-        st.warning("DEBUG: machine_advantage_df is EMPTY!")
 
     return player_machine_stats, machine_advantage_df
 
@@ -3377,14 +3317,12 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     import pandas as pd
     import streamlit as st
 
-    st.write(f"DEBUG analyze_picking_strategy called with venue_name='{venue_name}'")
-    
     # Convert all_data to DataFrame if it's not already
     if not isinstance(all_data, pd.DataFrame):
         all_data_df = pd.DataFrame(all_data)
     else:
         all_data_df = all_data
-    
+
     # Get current seasons from session state
     seasons_to_process = st.session_state.get("seasons_to_process", [20, 21])
 
@@ -3392,9 +3330,6 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     column_config = st.session_state.get('column_config', {})
     twc_venue_specific = column_config.get('TWC Average', {}).get('venue_specific', True)
     opponent_venue_specific = column_config.get('Team Average', {}).get('venue_specific', True)
-
-    st.write(f"DEBUG: TWC venue_specific = {twc_venue_specific}")
-    st.write(f"DEBUG: Opponent venue_specific = {opponent_venue_specific}")
 
     # Get venue machine lists (included/excluded)
     included_machines = get_venue_machine_list(venue_name, "included")
@@ -3494,11 +3429,7 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     ]
     
     # Format the dataframe for display
-    st.write(f"DEBUG: machine_advantage_df has {len(machine_advantage_df)} rows before display")
-    st.write(f"DEBUG: display_columns = {display_columns}")
-
     display_df = machine_advantage_df[display_columns].copy()
-    st.write(f"DEBUG: display_df has {len(display_df)} rows after selecting columns")
 
     # Format numeric columns, handling None values
     display_df['Composite Score'] = display_df['Composite Score'].round(1)
@@ -3509,13 +3440,6 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     display_df['Statistical Advantage'] = display_df['Statistical Advantage'].apply(
         lambda x: round(x, 1) if x is not None and pd.notna(x) else "N/A"
     )
-
-    st.write(f"DEBUG: About to display dataframe with {len(display_df)} rows")
-    st.write(f"DEBUG: Sample TWC % of Venue values: {list(display_df['TWC % of Venue'].head())}")
-    st.write(f"DEBUG: Sample Opponent % of Venue values: {list(display_df['Opponent % of Venue'].head())}")
-    st.write(f"DEBUG: First row of display_df:")
-    if not display_df.empty:
-        st.write(display_df.iloc[0].to_dict())
 
     # Display the table
     st.dataframe(display_df)
@@ -3903,9 +3827,6 @@ def add_strategic_picking_section():
     selected_team = st.session_state.get("select_team_json", "")
     selected_venue = st.session_state.get("select_venue_json", "")
     roster_data = st.session_state.get("roster_data", {})
-
-    st.write(f"DEBUG add_strategic_picking_section: selected_team from session state = '{selected_team}'")
-    st.write(f"DEBUG add_strategic_picking_section: selected_venue from session state = '{selected_venue}'")
 
     if all_data_df is not None and not all_data_df.empty:
         # Run the strategic picking analysis
