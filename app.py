@@ -3375,12 +3375,16 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
     
     # Format the dataframe for display
     display_df = machine_advantage_df[display_columns].copy()
-    
-    # Format numeric columns
+
+    # Format numeric columns, handling None values
     display_df['Composite Score'] = display_df['Composite Score'].round(1)
     display_df['TWC % of Venue'] = display_df['TWC % of Venue'].round(1)
     display_df['Opponent % of Venue'] = display_df['Opponent % of Venue'].round(1)
-    display_df['Statistical Advantage'] = display_df['Statistical Advantage'].round(1)
+
+    # Handle Statistical Advantage which may contain None values
+    display_df['Statistical Advantage'] = display_df['Statistical Advantage'].apply(
+        lambda x: round(x, 1) if x is not None and pd.notna(x) else "N/A"
+    )
     
     # Display the table
     st.dataframe(display_df)
