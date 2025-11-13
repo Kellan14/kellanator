@@ -1560,7 +1560,7 @@ def generate_debug_outputs(df, team_name, twc_team_name, venue_name):
     return debug_outputs
 
 
-def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, roster_data, recent_machines):
+def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, roster_data, recent_machines, column_config):
     """
     Generate player statistics tables for the selected team and TWC at the selected venue.
 
@@ -1571,6 +1571,7 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
     seasons_to_process (list): List of seasons to include
     roster_data (dict): Dictionary mapping team abbreviations to roster player lists
     recent_machines (set): Set of machines currently at the venue
+    column_config (dict): Column configuration with venue_specific settings
 
     Returns:
     tuple: (team_table, twc_table) - DataFrames for the selected team and TWC
@@ -1579,9 +1580,14 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
     # That flag should have been set correctly during processing
 
     # Function to process team data
-    def process_team_data(df, team_name, venue_name):
-        # Filter for this team and venue
-        team_data = df[(df['team'] == team_name) & (df['venue'] == venue_name)]
+    def process_team_data(df, team_name, venue_name, venue_specific):
+        # Filter for this team
+        team_data = df[df['team'] == team_name]
+
+        # Apply venue filter only if venue_specific is True
+        if venue_specific:
+            team_data = team_data[team_data['venue'] == venue_name]
+
         team_data = team_data[team_data['season'].isin(seasons_to_process)]
 
         # Use ALL machines from recent_machines (same as kellanate aggrid)
@@ -1616,12 +1622,17 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
             result_df = result_df.sort_values(by='Roster Players Count', ascending=False)
         result_df.index.name = 'Machine'
         result_df.reset_index(inplace=True)
-        
+
         return result_df
-    
+
+    # Get venue_specific settings from column config
+    # Use team columns setting for selected team, TWC columns setting for TWC
+    team_venue_specific = column_config.get('Team Average', {}).get('venue_specific', True)
+    twc_venue_specific = column_config.get('TWC Average', {}).get('venue_specific', True)
+
     # Generate tables for both teams
-    team_table = process_team_data(df, team_name, venue_name)
-    twc_table = process_team_data(df, "The Wrecking Crew", venue_name)
+    team_table = process_team_data(df, team_name, venue_name, team_venue_specific)
+    twc_table = process_team_data(df, "The Wrecking Crew", venue_name, twc_venue_specific)
     
     return team_table, twc_table
 
@@ -1685,7 +1696,7 @@ def main(all_data, selected_team, selected_venue, team_roster, column_config):
         
         # Generate player statistics tables
         team_player_stats, twc_player_stats = generate_player_stats_tables(
-            all_data_df, team_name, selected_venue, current_seasons, team_roster, recent_machines
+            all_data_df, team_name, selected_venue, current_seasons, team_roster, recent_machines, column_config
         )
         
         return result_df, debug_outputs, team_player_stats, twc_player_stats
