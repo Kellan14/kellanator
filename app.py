@@ -1581,14 +1581,18 @@ def generate_player_stats_tables(df, team_name, venue_name, seasons_to_process, 
 
     # Function to process team data
     def process_team_data(df, team_name, venue_name, venue_specific):
-        # Filter for this team
-        team_data = df[df['team'] == team_name]
+        # Filter for this team (case-insensitive with whitespace normalization, same as aggrid)
+        team_data = df[df['team'].str.strip().str.lower() == team_name.strip().lower()]
 
-        # Apply venue filter only if venue_specific is True
+        # Apply venue filter only if venue_specific is True (with whitespace normalization)
         if venue_specific:
-            team_data = team_data[team_data['venue'] == venue_name]
+            team_data = team_data[team_data['venue'].str.strip() == venue_name.strip()]
 
-        team_data = team_data[team_data['season'].isin(seasons_to_process)]
+        # Use .between() for seasons to match aggrid filter_data behavior exactly
+        if seasons_to_process:
+            min_season = min(seasons_to_process)
+            max_season = max(seasons_to_process)
+            team_data = team_data[team_data['season'].between(min_season, max_season)]
 
         # Use ALL machines from recent_machines (same as kellanate aggrid)
         # This shows all machines at the venue, even if team hasn't played them
