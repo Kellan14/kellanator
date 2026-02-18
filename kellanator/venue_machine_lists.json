@@ -37,6 +37,9 @@
   "jupiter": {
     "included": [
       "got"
+    ],
+    "excluded": [
+      "potc"
     ]
   }
 }
