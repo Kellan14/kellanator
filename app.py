@@ -3493,10 +3493,9 @@ def analyze_picking_strategy(all_data, opponent_team_name, venue_name, team_rost
                         machine_data = machine_advantage_df[machine_advantage_df['Machine'] == machine].iloc[0]
                         assigned_players = player_assignments.get(machine, [])
                         
-                        st.markdown(f"{idx}. **{machine.title()}** - Composite Score: {machine_data['Composite Score']:.1f}")
-                        if assigned_players:
-                            st.markdown(f"   Assigned Player: {', '.join(assigned_players)}")
-                        
+                        player_display = f" | Player: **{', '.join(assigned_players)}**" if assigned_players else ""
+                        st.markdown(f"{idx}. **{machine.title()}** - Composite Score: {machine_data['Composite Score']:.1f}{player_display}")
+
                         # Display more detailed stats for this machine
                         expander = st.expander(f"View details for {machine.title()}")
                         with expander:
