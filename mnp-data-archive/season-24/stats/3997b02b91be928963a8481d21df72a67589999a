@@ -1,42 +1,42 @@
 {
-  "key": "b617dee9876783c038605466842ff8c19497bcb5",
-  "name": "Alina Face",
+  "key": "3997b02b91be928963a8481d21df72a67589999a",
+  "name": "Chase Savacool",
   "history": [
     {
-      "team": "ZOO",
-      "opp": "POW",
-      "match": "mnp-24-1-POW-ZOO",
-      "week": "1",
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-24-6-SWL-SHK",
+      "week": "6",
       "round": 1,
-      "machine": "FOO",
+      "machine": "Metallica",
       "division": 0,
-      "score": 7434130,
-      "points": 0,
-      "pops": "0.000"
+      "score": 13415090,
+      "points": 1,
+      "pops": "0.400"
     },
     {
-      "team": "ZOO",
-      "opp": "POW",
-      "match": "mnp-24-1-POW-ZOO",
-      "week": "1",
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-24-6-SWL-SHK",
+      "week": "6",
       "round": 2,
-      "machine": "Junkyard",
+      "machine": "Ghost",
       "division": 0,
-      "score": 3290370,
+      "score": 12108020,
       "points": 0,
       "pops": "0.000"
     },
     {
-      "team": "ZOO",
-      "opp": "POW",
-      "match": "mnp-24-1-POW-ZOO",
-      "week": "1",
+      "team": "SHK",
+      "opp": "SWL",
+      "match": "mnp-24-6-SWL-SHK",
+      "week": "6",
       "round": 4,
-      "machine": "LZ",
+      "machine": "SouthPark",
       "division": 0,
-      "score": 3858270,
-      "points": 1.5,
-      "pops": "0.600"
+      "score": 17042210,
+      "points": 0.5,
+      "pops": "0.200"
     }
   ],
   "divisions": {
